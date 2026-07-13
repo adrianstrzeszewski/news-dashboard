@@ -230,6 +230,20 @@
   .masthead h1, .summary h2, .module h2, .rhead h2 { text-shadow: 0 1px 0 rgba(255,255,255,0.25); }
   [data-theme="dark"] .masthead h1, [data-theme="dark"] .summary h2, [data-theme="dark"] .module h2, [data-theme="dark"] .rhead h2 { text-shadow: 0 1px 1px rgba(0,0,0,0.6); }
 
+  /* --- reklama prasowa --- */
+  .adbox { position: relative; border: 1px solid var(--ink-1); outline: 3px double var(--ink-1); outline-offset: 3px; background: var(--surface); border-radius: 2px; padding: 20px 24px 18px; margin: 0 4px 28px; text-align: center; transform: rotate(0.15deg); }
+  .adbox .adlabel { position: absolute; top: -9px; left: 50%; transform: translateX(-50%); background: var(--surface); padding: 0 10px; font-size: 0.62rem; letter-spacing: 0.25em; text-transform: uppercase; color: var(--ink-3); font-weight: 700; }
+  .adbox h2 { font-family: Georgia, serif; font-size: 1.5rem; letter-spacing: 0.12em; font-weight: 700; }
+  .adbox .adtag { font-family: Georgia, serif; font-style: italic; color: var(--ink-2); font-size: 0.85rem; margin-top: 2px; }
+  .adbox p { font-size: 0.86rem; color: var(--ink-2); max-width: 720px; margin: 10px auto 14px; }
+  .adbox .adcta { display: inline-flex; align-items: center; gap: 14px; flex-wrap: wrap; justify-content: center; }
+  .adbox .adbtn { background: var(--ink-1); color: var(--page); border: 0; border-radius: 2px; font-family: Georgia, serif; font-size: 0.9rem; font-weight: 700; padding: 9px 22px; text-decoration: none; letter-spacing: 0.04em; }
+  .adbox .adbtn:hover { background: var(--accent); color: #fff; }
+  .adbox .adtel { font-size: 0.82rem; color: var(--ink-2); font-variant-numeric: tabular-nums; }
+  .adbox .adtel a { color: var(--ink-1); text-decoration: none; font-weight: 700; }
+  footer a.fref { color: var(--ink-2); font-weight: 600; text-decoration: none; }
+  footer a.fref:hover { color: var(--accent); text-decoration: underline; }
+
   footer { color: var(--ink-3); font-size: 0.75rem; border-top: 1px solid var(--hairline); padding-top: 14px; }
   .empty { color: var(--ink-3); font-size: 0.85rem; padding: 10px 0; }
   .hidden { display: none !important; }
@@ -250,8 +264,8 @@
       </div>
       <header class="masthead">
         <h1><span class="hgrad">Dashboard</span> · NEWS · AI · Technologie · Stomatologia</h1>
-        <div class="sub">Wiadomości z zaufanych, zweryfikowanych przez radę źródeł — wybierz region poniżej</div>
-        <div class="dateline"><span>Wydanie: 12 lipca 2026, niedziela</span><span>aktualizowany 2× dziennie: ~9:30 i ~15:30</span><span>Świat · Europa · Polska</span></div>
+        <div class="sub">Wiadomości wyłącznie z wiarygodnych źródeł — agencji prasowych i redakcji o potwierdzonej rzetelności. Wybierz region poniżej</div>
+        <div class="dateline"><span>Wydanie: 12 lipca 2026, niedziela</span><span>aktualizowany 2× dziennie: ~9:30 i ~15:30</span><span>Świat · Europa · Polska · Warszawa</span></div>
       </header>
     </div>
     <div class="stats" id="stats"></div>
@@ -271,7 +285,19 @@
       <button class="rtile" data-open="world"><span class="rt-flag">🌍</span><h3>Świat</h3><div class="rt-counts" id="rc-home-world"></div><div class="rt-top" id="rt-top-world"></div><div class="rt-open">Otwórz region →</div></button>
       <button class="rtile" data-open="europe"><span class="rt-flag">🇪🇺</span><h3>Europa</h3><div class="rt-counts" id="rc-home-europe"></div><div class="rt-top" id="rt-top-europe"></div><div class="rt-open">Otwórz region →</div></button>
       <button class="rtile" data-open="poland"><span class="rt-flag">🇵🇱</span><h3>Polska</h3><div class="rt-counts" id="rc-home-poland"></div><div class="rt-top" id="rt-top-poland"></div><div class="rt-open">Otwórz region →</div></button>
+      <button class="rtile" data-open="warsaw"><span class="rt-flag">🏙️</span><h3>Warszawa</h3><div class="rt-counts" id="rc-home-warsaw"></div><div class="rt-top" id="rt-top-warsaw"></div><div class="rt-open">Otwórz region →</div></button>
     </div>
+
+    <section class="adbox">
+      <span class="adlabel">Reklama</span>
+      <h2>ITSPACE</h2>
+      <div class="adtag">Clear · Stable · Secure</div>
+      <p>Specjalistyczne wsparcie IT dla gabinetów stomatologicznych i klinik medycyny estetycznej — elektroniczna dokumentacja medyczna (EDM), RODO, cyberbezpieczeństwo, integracja RTG i skanerów 3D, kopie zapasowe w chmurze. Warszawa i okolice.</p>
+      <div class="adcta">
+        <a class="adbtn" href="https://itspace.com.pl/?utm_source=news-dashboard&utm_medium=referral&utm_campaign=daily-dashboard" target="_blank" rel="noopener">itspace.com.pl →</a>
+        <span class="adtel">☎ <a href="tel:+48531330080">531 330 080</a></span>
+      </div>
+    </section>
 
     <section class="module radarbox">
       <div class="rhead2">
@@ -279,7 +305,7 @@
         <button class="rbtn" id="radar-refresh">🔄 Aktualizuj teraz</button>
       </div>
       <div id="radar-list"><div class="empty">Kurowane sygnały pojawią się przy porannej aktualizacji. Przycisk „Aktualizuj teraz" pobiera na żywo bieżące sygnały z Hacker News (dopasowane do Twoich tematów).</div></div>
-      <div class="rnote">Pełna aktualizacja całego dashboardu (kurowane wiadomości PL ze wszystkich źródeł) — codziennie ok. 9:30 lub na życzenie: napisz „odśwież dashboard" w czacie Claude.</div>
+      <div class="rnote">Pełna aktualizacja całego dashboardu (kurowane wiadomości PL ze wszystkich źródeł) — 2× dziennie (~9:30 i ~15:30) lub na życzenie: napisz „odśwież dashboard" w czacie Claude.</div>
     </section>
 
     <div class="modules">
@@ -294,8 +320,8 @@
     </div>
 
     <section class="sources">
-      <h2>Zaufane źródła — biała lista zatwierdzona przez radę</h2>
-      <div class="snote">Kryteria rady: własne dziennikarstwo (nie agregacja), wysoka faktograficzność i jawne sprostowania, brak twardego paywalla, zbalansowany mix; media państwowe oznaczone, tematy polityczne potwierdzane w ≥2 źródłach o różnym profilu. Odrzucono m.in. tabloidy, media skrajne oraz RT/Sputnik (dezinformacja).</div>
+      <h2>Zaufane źródła — jak je dobieramy</h2>
+      <div class="snote">Pięć jawnych kryteriów doboru: (1) własne dziennikarstwo, nie agregacja clickbaitów; (2) udokumentowana rzetelność i praktyka sprostowań (m.in. wg rankingu zaufania Reuters Institute Digital News Report); (3) treść dostępna bez twardego paywalla; (4) zbalansowany mix profili — tematy polityczne potwierdzane w ≥2 źródłach o różnym przechyle; (5) media finansowane publicznie są oznaczone (*). Odrzucamy tabloidy, media skrajne i tuby propagandowe (np. RT/Sputnik). Tier 1 = czytane zawsze, Tier 2 = weryfikacja i uzupełnienie.</div>
       <div class="srcgrid">
         <div class="srccol">
           <h3>🌍 Świat</h3>
@@ -358,11 +384,25 @@
             <li><a href="https://www.infodent24.pl/">infoDENT24</a> · <a href="https://dentonet.pl/">Dentonet</a> · <a href="https://pl.dental-tribune.com/">Dental Tribune PL</a></li>
           </ul>
         </div>
+        <div class="srccol">
+          <h3>🏙️ Warszawa</h3>
+          <h4>NEWS lokalne — Tier 1</h4>
+          <ul>
+            <li class="t1"><a href="https://tvn24.pl/tvnwarszawa">TVN Warszawa</a> <span class="stag">— największa redakcja miejska</span></li>
+            <li class="t1"><a href="https://www.rmf24.pl/regiony/warszawa">RMF24 Warszawa</a> <span class="stag">— serwis regionalny</span></li>
+            <li class="t1"><a href="https://um.warszawa.pl/aktualnosci">um.warszawa.pl</a> <span class="stag">— ratusz, źródło oficjalne*</span></li>
+          </ul>
+          <h4>Tier 2 (weryfikacja)</h4>
+          <ul>
+            <li><a href="https://www.pap.pl">PAP</a> · <a href="https://warszawa.wyborcza.pl">Wyborcza Warszawa</a> · <a href="https://www.polsatnews.pl">Polsat News</a></li>
+            <li><a href="https://www.wtp.waw.pl">WTP / ZTM</a> <span class="stag">— komunikacja miejska, oficjalne*</span></li>
+          </ul>
+        </div>
       </div>
     </section>
 
     <footer>
-      Dashboard generowany automatycznie na podstawie białej listy źródeł zatwierdzonej przez radę (12.07.2026). Priorytety (🔴/🟡/🟢) nadawane redakcyjnie wg wpływu na branżę/region. Newsy o tym samym wydarzeniu z wielu źródeł są deduplikowane — pokazywane raz, z najbardziej wiarygodnego źródła. * media finansowane publicznie oznaczone; przy tematach dot. fundatora wymagane drugie źródło. Wersja 2.6 · 12.07.2026.
+      Dashboard generowany automatycznie wyłącznie ze źródeł spełniających pięć jawnych kryteriów wiarygodności (lista i kryteria powyżej). Priorytety (🔴/🟡/🟢) nadawane redakcyjnie wg wpływu na branżę/region. Newsy o tym samym wydarzeniu z wielu źródeł są deduplikowane — pokazywane raz, z najbardziej wiarygodnego źródła. * media finansowane publicznie oznaczone; przy tematach dot. fundatora wymagane drugie źródło. Wersja 2.8 · 12.07.2026.
     </footer>
   </div>
 
@@ -462,7 +502,16 @@ const NEWS = [
   {title:"CEDE 2026 w Poznaniu: 200 wystawców i nowoczesne technologie w stomatologii",sum:"33. edycja targów CEDE (11-13 czerwca, Poznań) zgromadziła ok. 200 wystawców. Program zdominowała stomatologia cyfrowa — od sprzętu, przez konferencje naukowe, po warsztaty z integracji technologii w protetyce.",src:"infoDENT24.pl",url:"https://www.infodent24.pl/bizdentpost/cede-2026-w-poznaniu-200-wystawcow-nowoczesne-technologie-w-stomatologii,127579.html",date:"2026-06-12",cat:"Stomatologia",reg:"poland",pri:"yellow"},
   {title:"Bielik.AI wkrótce będzie mówić w 50 językach i wyprzedza Mistrala w pobraniach",sum:"Polski model Bielik rozszerza wsparcie z 30 do 50 języków i osiągnął 2,8 mln pobrań, wyprzedzając w swojej kategorii Mistrala. Model open source działa lokalnie — przydatny dla banków, medycyny i administracji.",src:"Bank.pl",url:"https://bank.pl/polski-model-jezykowy-bielik-ai-wkrotce-bedzie-mowic-w-50-jezykach/",date:"2026-06-16",cat:"AI",reg:"poland",pri:"green"},
   {title:"AI ocenia pacjenta bez danych stomatologicznych — eksperci ostrzegają przed luką",sum:"Systemy AI analizujące zdrowie pacjentów nie mają dostępu do danych stomatologicznych, przez co obraz kliniczny jest niepełny. Integracja rekordów stomatologicznych z medycznymi dałaby trafniejsze rekomendacje.",src:"infoDENT24.pl",url:"https://www.infodent24.pl/techdentpost/sztuczna-inteligencja-bada-pacjenta-bez-danych-stomatologicznych-to-powazny-blad,127673.html",date:"2026-07-06",cat:"Stomatologia",reg:"poland",pri:"green"},
-  {title:"CEDE wraca do Poznania i stawia na edukację oraz innowacje",sum:"Po siedmiu latach przerwy targi CEDE powróciły do Poznania: trzy dni wykładów, warsztatów i prezentacji. Towarzyszyła im konferencja PTPS oraz warsztaty z cyfrowego projektowania uśmiechu i planowania CBCT.",src:"Dental Tribune Polska",url:"https://pl.dental-tribune.com/news/cede-wraca-do-poznania-i-stawia-na-edukacje-oraz-innowacje/",date:"2026-06-11",cat:"Stomatologia",reg:"poland",pri:"green"}
+  {title:"CEDE wraca do Poznania i stawia na edukację oraz innowacje",sum:"Po siedmiu latach przerwy targi CEDE powróciły do Poznania: trzy dni wykładów, warsztatów i prezentacji. Towarzyszyła im konferencja PTPS oraz warsztaty z cyfrowego projektowania uśmiechu i planowania CBCT.",src:"Dental Tribune Polska",url:"https://pl.dental-tribune.com/news/cede-wraca-do-poznania-i-stawia-na-edukacje-oraz-innowacje/",date:"2026-06-11",cat:"Stomatologia",reg:"poland",pri:"green"},
+
+  // ---------- WARSZAWA (lokalne) ----------
+  {title:"Martwy pacjent znaleziony w toalecie Szpitala Południowego. Nagrania z prosektorium",sum:"W Szpitalu Południowym pacjent, którego personel „zgubił”, został po kilku godzinach znaleziony martwy w toalecie. Dziennikarze ujawnili szokujące nagrania z prosektorium; sprawą zajmuje się prokuratura.",src:"RMF24",url:"https://www.rmf24.pl/regiony/warszawa/news-martwy-pacjent-znaleziony-w-toalecie-szpitala-poludniowego-s,nIdn,1009734",date:"2026-07-13",cat:"NEWS",reg:"warsaw",pri:"red"},
+  {title:"Dwa weekendy z remontami w centrum. Zamknięte Aleje Jerozolimskie",sum:"W weekendy 11-12 i 18-19 lipca zamknięta jest jezdnia Alej Jerozolimskich w kierunku Dworca Zachodniego (objazd Grójecką), zmienione trasy autobusów 127, 158 i 159. Do końca lipca zamknięty też przejazd przy Emilii Plater.",src:"TVN Warszawa",url:"https://tvn24.pl/tvnwarszawa/srodmiescie/warszawa-dwa-weekendy-z-remontami-objazdy-w-srodmiesciu-i-na-ochocie-st9134114",date:"2026-07-09",cat:"NEWS",reg:"warsaw",pri:"red"},
+  {title:"Warszawa siedzibą centrum Europejskiej Agencji Kosmicznej",sum:"Warszawa została wybrana na siedzibę nowego centrum ESA, co ogłosił ratusz. Decyzja wzmacnia pozycję stolicy w sektorze technologii kosmicznych i może przyciągnąć inwestycje oraz miejsca pracy hi-tech.",src:"um.warszawa.pl",url:"https://um.warszawa.pl/-/warszawa-siedziba-centrum-europejskiej-agencji-kosmicznej",date:"2026-07-13",cat:"NEWS",reg:"warsaw",pri:"yellow"},
+  {title:"IMGW ostrzega Mazowsze: silny deszcz z burzami, grad i porywisty wiatr",sum:"IMGW wydał dla Mazowsza ostrzeżenia 1. i 2. stopnia przed deszczem z burzami, wiatrem do 65 km/h i lokalnie gradem. Miejscami może spaść do 80 l/m², co grozi podtopieniami.",src:"TVN24 (TVN Meteo)",url:"https://tvn24.pl/tvnmeteo/prognoza/burze-ostrzezenia-imgw-poniedzialek-13-07-tutaj-synoptycy-ostrzegaja-przed-grzmotami-st9139702",date:"2026-07-13",cat:"NEWS",reg:"warsaw",pri:"yellow"},
+  {title:"Bad Bunny i System Of A Down na Stadionie Narodowym. Ograniczenia na Saskiej Kępie",sum:"14 lipca na Stadionie Narodowym zagra Bad Bunny, a 18-19 lipca System of a Down. W godz. 17-20 wjazd na Saską Kępę tylko dla mieszkańców, taksówek i komunikacji; rekomendowany dojazd metrem lub SKM.",src:"TVN Warszawa",url:"https://tvn24.pl/tvnwarszawa/praga-poludnie/warszawa-bad-bunny-i-system-of-a-down-zagraja-na-stadionie-narodowy-utrudnienia-st9140131",date:"2026-07-13",cat:"NEWS",reg:"warsaw",pri:"yellow"},
+  {title:"Zaatakował kastetem policjantów CBZC. Miał przy sobie maczetę",sum:"29-latek zaatakował kastetem policjantów CBZC w Warszawie; miał przy sobie dwa kastety i maczetę. Po zatrzymaniu śledczy odkryli plany ataków na funkcjonariuszy — sprawę prowadzi prokuratura.",src:"RMF24",url:"https://www.rmf24.pl/regiony/warszawa/news-zaatakowal-kastetem-policjantow-potem-odkryto-przerazajace-p,nIdn,1009661",date:"2026-07-12",cat:"NEWS",reg:"warsaw",pri:"yellow"},
+  {title:"Policja rozbiła grupę złodziei samochodów. 21 osób z zarzutami",sum:"Warszawska policja rozbiła zorganizowaną grupę kradnącą samochody — zatrzymano 21 osób, przedstawiono 112 zarzutów. Wobec 13 podejrzanych sąd zastosował trzymiesięczny areszt.",src:"TVN Warszawa",url:"https://tvn24.pl/tvnwarszawa/srodmiescie/warszawa-grupa-zlodziei-samochodow-rozbita-21-osob-z-zarzutami-st9137837",date:"2026-07-11",cat:"NEWS",reg:"warsaw",pri:"green"}
 ];
 
 const EVENTS = [
@@ -509,7 +558,7 @@ const ZONES = {
   sf: {label:"San Francisco 🇺🇸", tz:"America/Los_Angeles"},
   tokyo: {label:"Tokio 🇯🇵", tz:"Asia/Tokyo"}
 };
-const REGION_CLOCKS = { home:["warsaw","london","ny","sf","tokyo"], world:["ny","sf","london","tokyo"], europe:["warsaw","london","brussels"], poland:["warsaw"], all:["warsaw"] };
+const REGION_CLOCKS = { home:["warsaw","london","ny","sf","tokyo"], world:["ny","sf","london","tokyo"], europe:["warsaw","london","brussels"], poland:["warsaw"], warsaw:["warsaw"], all:["warsaw"] };
 
 function clockHTML(keys){
   return keys.map(k => `
@@ -552,7 +601,7 @@ function tickClocks(){
 const PRI_ORDER = {red:0, yellow:1, green:2};
 const PRI_META = { red:{cls:"b-red",ico:"🔴",label:"Wysoki priorytet"}, yellow:{cls:"b-yellow",ico:"🟡",label:"Średni"}, green:{cls:"b-green",ico:"🟢",label:"Info"} };
 const CAT_ICO = {NEWS:"📰", AI:"🤖", Tech:"💻", Stomatologia:"🦷"};
-const REG_META = {world:{flag:"🌍",name:"Świat"}, europe:{flag:"🇪🇺",name:"Europa"}, poland:{flag:"🇵🇱",name:"Polska"}, all:{flag:"🔎",name:"Wyniki ze wszystkich regionów"}};
+const REG_META = {world:{flag:"🌍",name:"Świat"}, europe:{flag:"🇪🇺",name:"Europa"}, poland:{flag:"🇵🇱",name:"Polska"}, warsaw:{flag:"🏙️",name:"Warszawa"}, all:{flag:"🔎",name:"Wyniki ze wszystkich regionów"}};
 let curRegion = null, fCat = "all", fPri = "all", fQ = "";
 
 function fmtDate(d){ const m=["sty","lut","mar","kwi","maj","cze","lip","sie","wrz","paź","lis","gru"]; const [y,mo,da]=d.split("-"); return `${parseInt(da)} ${m[parseInt(mo)-1]} ${y}`; }
@@ -622,7 +671,7 @@ function renderHome(){
     <div class="tile"><div class="v">${c.NEWS}</div><div class="l">📰 NEWS</div></div>
     <div class="tile"><div class="v">${c.AI} / ${c.Tech} / ${c.Stomatologia}</div><div class="l">🤖 AI / 💻 Tech / 🦷 Stomat.</div></div>
     <div class="tile"><div class="v">${EVENTS.length}</div><div class="l">📅 wydarzenia</div></div>`;
-  for (const reg of ["world","europe","poland"]) {
+  for (const reg of ["world","europe","poland","warsaw"]) {
     const items = NEWS.filter(n=>n.reg===reg);
     const cc = {NEWS:0,AI:0,Tech:0,Stomatologia:0,red:0};
     items.forEach(n=>{cc[n.cat]++; if(n.pri==="red")cc.red++;});

@@ -449,7 +449,7 @@
     </section>
 
     <footer>
-      Dashboard generowany automatycznie wyłącznie ze źródeł spełniających pięć jawnych kryteriów wiarygodności (lista i kryteria powyżej). Priorytety (🔴/🟡/🟢) nadawane redakcyjnie wg wpływu na branżę/region. Newsy o tym samym wydarzeniu z wielu źródeł są deduplikowane — pokazywane raz, z najbardziej wiarygodnego źródła. * media finansowane publicznie oznaczone; przy tematach dot. fundatora wymagane drugie źródło. Wersja 3.8 · 12.07.2026.
+      Dashboard generowany automatycznie wyłącznie ze źródeł spełniających pięć jawnych kryteriów wiarygodności (lista i kryteria powyżej). Priorytety (🔴/🟡/🟢) nadawane redakcyjnie wg wpływu na branżę/region. Newsy o tym samym wydarzeniu z wielu źródeł są deduplikowane — pokazywane raz, z najbardziej wiarygodnego źródła. * media finansowane publicznie oznaczone; przy tematach dot. fundatora wymagane drugie źródło. Wersja 3.9 · 12.07.2026.
     </footer>
   </div>
 
@@ -858,9 +858,14 @@ function tempColor(t){
 const wxCat = c => [95,96,99].includes(c) ? "storm" : [51,53,55,61,63,65,80,81,82].includes(c) ? "rain" : [71,73,75].includes(c) ? "snow" : [0,1].includes(c) ? "sun" : "cloud";
 function wxIcon(kind, x, y, beg){
   if (kind === "sun") return `<g><circle cx="${x}" cy="${y}" r="10" fill="#f4b942" opacity="0.3"><animate attributeName="r" values="10;13;10" dur="3s" repeatCount="indefinite"/></circle><g><animateTransform attributeName="transform" type="rotate" from="0 ${x} ${y}" to="360 ${x} ${y}" dur="18s" repeatCount="indefinite"/><line x1="${x-9}" y1="${y}" x2="${x-12}" y2="${y}" stroke="#e8a020" stroke-width="2" stroke-linecap="round"/><line x1="${x+9}" y1="${y}" x2="${x+12}" y2="${y}" stroke="#e8a020" stroke-width="2" stroke-linecap="round"/><line x1="${x}" y1="${y-9}" x2="${x}" y2="${y-12}" stroke="#e8a020" stroke-width="2" stroke-linecap="round"/><line x1="${x}" y1="${y+9}" x2="${x}" y2="${y+12}" stroke="#e8a020" stroke-width="2" stroke-linecap="round"/></g><circle cx="${x}" cy="${y}" r="5.5" fill="#f4b942"/></g>`;
-  const cf = kind === "storm" ? "#8f9aa8" : "#c2cad4";
-  let s = `<g><animateTransform attributeName="transform" type="translate" values="-3 0;3 0;-3 0" dur="6s" begin="${beg}s" repeatCount="indefinite"/><ellipse cx="${x-4}" cy="${y}" rx="9" ry="5.5" fill="${cf}"/><ellipse cx="${x+5}" cy="${y+1}" rx="8" ry="5" fill="${cf}" opacity="0.9"/></g>`;
-  if (kind === "rain" || kind === "storm") for (let j=0;j<3;j++) s += `<g opacity="0"><animateTransform attributeName="transform" type="translate" values="0 0;0 18" dur="1.1s" begin="${(j*0.3+beg%1).toFixed(2)}s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.9;0" dur="1.1s" begin="${(j*0.3+beg%1).toFixed(2)}s" repeatCount="indefinite"/><line x1="${x-6+j*6}" y1="${y+9}" x2="${x-7+j*6}" y2="${y+14}" stroke="var(--wx-rain)" stroke-width="1.8" stroke-linecap="round"/></g>`;
+  const wet = (kind === "rain" || kind === "storm");
+  const f = wet ? 1.45 : 1;
+  const cf = kind === "storm" ? "#7e8a99" : wet ? "#a9b4c0" : "#c2cad4";
+  let s = `<g><animateTransform attributeName="transform" type="translate" values="-3 0;3 0;-3 0" dur="6s" begin="${beg}s" repeatCount="indefinite"/>
+    <ellipse cx="${x-4*f}" cy="${y}" rx="${9*f}" ry="${5.5*f}" fill="${cf}"/>
+    <ellipse cx="${x+5*f}" cy="${y+1}" rx="${8*f}" ry="${5*f}" fill="${cf}" opacity="0.92"/>
+    <ellipse cx="${x}" cy="${y-3*f}" rx="${7*f}" ry="${4.5*f}" fill="${cf}" opacity="0.85"/></g>`;
+  if (wet) for (let j=0;j<4;j++) s += `<g opacity="0"><animateTransform attributeName="transform" type="translate" values="0 0;0 26" dur="1.05s" begin="${(j*0.26+beg%1).toFixed(2)}s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.95;0" dur="1.05s" begin="${(j*0.26+beg%1).toFixed(2)}s" repeatCount="indefinite"/><line x1="${x-10+j*7}" y1="${y+11}" x2="${x-12+j*7}" y2="${y+19}" stroke="var(--wx-rain)" stroke-width="2.4" stroke-linecap="round"/></g>`;
   if (kind === "storm") s += `<path d="M${x-1},${y+7} l4,0 l-3,6 l5,-1 l-8,10 l2,-7 l-4,0 z" fill="#fab219" opacity="0"><animate attributeName="opacity" values="0;0;1;0.2;1;0;0" dur="3s" begin="${beg}s" repeatCount="indefinite"/></path>`;
   if (kind === "snow") for (let j=0;j<3;j++) s += `<circle cx="${x-6+j*6}" cy="${y+10}" r="1.6" fill="#eef4f8" opacity="0"><animateTransform attributeName="transform" type="translate" values="0 0;${j%2?3:-3} 18" dur="2.4s" begin="${(j*0.6+beg).toFixed(1)}s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.9;0" dur="2.4s" begin="${(j*0.6+beg).toFixed(1)}s" repeatCount="indefinite"/></circle>`;
   return s;
@@ -905,7 +910,13 @@ async function renderWxMap(kind){
     const daynight = `
       <rect x="0" y="0" width="${cfg.vw}" height="${cfg.vh}" fill="#1a2740" opacity="0" style="pointer-events:none"><animate attributeName="opacity" values="0.30;0.10;0;0;0.10;0.40;0.30" keyTimes="0;0.08;0.2;0.62;0.75;0.9;1" dur="${CY}s" repeatCount="indefinite"/></rect>
       <rect x="0" y="0" width="${cfg.vw}" height="${cfg.vh}" fill="#f08c5a" opacity="0" style="pointer-events:none"><animate attributeName="opacity" values="0;0.12;0;0;0.14;0;0" keyTimes="0;0.1;0.22;0.6;0.78;0.88;1" dur="${CY}s" repeatCount="indefinite"/></rect>
-      <g><circle r="13" fill="#f4b942" opacity="0.9"><animateMotion path="M -30,${cfg.vh-40} Q ${cfg.vw/2},-60 ${cfg.vw+30},${cfg.vh-40}" dur="${CY}s" repeatCount="indefinite"/></circle></g>
+      <g opacity="0.95">
+        <animateMotion path="M -40,${cfg.vh-40} Q ${cfg.vw/2},-60 ${cfg.vw+40},${cfg.vh-40}" dur="${CY}s" repeatCount="indefinite"/>
+        <circle r="22" fill="#f4b942" opacity="0.22"><animate attributeName="r" values="22;28;22" dur="3s" repeatCount="indefinite"/></circle>
+        <g><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="14s" repeatCount="indefinite"/><line x1="12.0" y1="0.0" x2="17.0" y2="0.0" stroke="#e8a020" stroke-width="2.6" stroke-linecap="round"/><line x1="8.5" y1="8.5" x2="12.0" y2="12.0" stroke="#e8a020" stroke-width="2.6" stroke-linecap="round"/><line x1="0.0" y1="12.0" x2="0.0" y2="17.0" stroke="#e8a020" stroke-width="2.6" stroke-linecap="round"/><line x1="-8.5" y1="8.5" x2="-12.0" y2="12.0" stroke="#e8a020" stroke-width="2.6" stroke-linecap="round"/><line x1="-12.0" y1="0.0" x2="-17.0" y2="0.0" stroke="#e8a020" stroke-width="2.6" stroke-linecap="round"/><line x1="-8.5" y1="-8.5" x2="-12.0" y2="-12.0" stroke="#e8a020" stroke-width="2.6" stroke-linecap="round"/><line x1="-0.0" y1="-12.0" x2="-0.0" y2="-17.0" stroke="#e8a020" stroke-width="2.6" stroke-linecap="round"/><line x1="8.5" y1="-8.5" x2="12.0" y2="-12.0" stroke="#e8a020" stroke-width="2.6" stroke-linecap="round"/></g>
+        <circle r="9" fill="#f4b942" stroke="#e8a020" stroke-width="1.5"/>
+        <circle r="4" cx="-2.5" cy="-2.5" fill="#f9d77a" opacity="0.8"/>
+      </g>
       <g opacity="0"><animate attributeName="opacity" values="0.9;0;0;0;0;0.9;0.9" keyTimes="0;0.12;0.2;0.6;0.8;0.93;1" dur="${CY}s" repeatCount="indefinite"/>
         <circle cx="${cfg.vw-60}" cy="70" r="11" fill="#e8e4d4"/><circle cx="${cfg.vw-66}" cy="66" r="9" fill="var(--surface)"/>
         <circle cx="70" cy="66" r="1.8" fill="#fff"><animate attributeName="opacity" values="0.2;1;0.2" dur="2s" repeatCount="indefinite"/></circle>

@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Dashboard: NEWS · AI · Tech · Stomatologia — 12 lipca 2026</title>
+<title>NEWS · AI · Technologie · Stomatologia — ITSPACE</title>
 <style>
   /* ===== Motyw: Modern Minimalist (theme-factory) — Charcoal #36454f · Slate #708090 · Light Gray #d3d3d3 · White ===== */
   :root {
@@ -18,7 +18,7 @@
     --shadow: 0 1px 3px rgba(54,69,79,0.05);
     --shadow-lift: 0 3px 12px rgba(54,69,79,0.10);
     --clock-face: #fbf8f0; --clock-ring: #d8d0bc;
-    --stains: radial-gradient(circle 58px at 88% 90px, transparent 49px, rgba(122,85,38,0.10) 52px, rgba(122,85,38,0.05) 55px, transparent 59px), radial-gradient(ellipse 420px 300px at 8% 96%, rgba(122,85,38,0.05), transparent 65%), linear-gradient(90deg, transparent 49.2%, rgba(54,69,79,0.045) 49.9%, rgba(255,255,255,0.35) 50.15%, transparent 50.9%);
+    --stains: radial-gradient(circle 58px at 88% 90px, transparent 49px, rgba(122,85,38,0.10) 52px, rgba(122,85,38,0.05) 55px, transparent 59px), radial-gradient(ellipse 420px 300px at 8% 96%, rgba(122,85,38,0.05), transparent 65%);
   }
   [data-theme="dark"] {
     --page: #161411; --surface: #201d18; --surface-2: #27231d;
@@ -32,7 +32,7 @@
     --shadow: 0 1px 3px rgba(0,0,0,0.30);
     --shadow-lift: 0 4px 14px rgba(0,0,0,0.40);
     --clock-face: #27231d; --clock-ring: #453e32;
-    --stains: radial-gradient(circle 58px at 88% 90px, transparent 49px, rgba(240,220,180,0.05) 52px, rgba(240,220,180,0.025) 55px, transparent 59px), radial-gradient(ellipse 420px 300px at 8% 96%, rgba(240,220,180,0.03), transparent 65%), linear-gradient(90deg, transparent 49.2%, rgba(0,0,0,0.25) 49.9%, rgba(255,255,255,0.04) 50.15%, transparent 50.9%);
+    --stains: radial-gradient(circle 58px at 88% 90px, transparent 49px, rgba(240,220,180,0.05) 52px, rgba(240,220,180,0.025) 55px, transparent 59px), radial-gradient(ellipse 420px 300px at 8% 96%, rgba(240,220,180,0.03), transparent 65%);
   }
   @media (prefers-color-scheme: dark) {
     :root:not([data-theme="light"]):not([data-theme="dark"]) {
@@ -47,7 +47,7 @@
       --shadow: 0 1px 3px rgba(0,0,0,0.30);
       --shadow-lift: 0 4px 14px rgba(0,0,0,0.40);
       --clock-face: #27231d; --clock-ring: #453e32;
-      --stains: radial-gradient(circle 58px at 88% 90px, transparent 49px, rgba(240,220,180,0.05) 52px, rgba(240,220,180,0.025) 55px, transparent 59px), radial-gradient(ellipse 420px 300px at 8% 96%, rgba(240,220,180,0.03), transparent 65%), linear-gradient(90deg, transparent 49.2%, rgba(0,0,0,0.25) 49.9%, rgba(255,255,255,0.04) 50.15%, transparent 50.9%);
+      --stains: radial-gradient(circle 58px at 88% 90px, transparent 49px, rgba(240,220,180,0.05) 52px, rgba(240,220,180,0.025) 55px, transparent 59px), radial-gradient(ellipse 420px 300px at 8% 96%, rgba(240,220,180,0.03), transparent 65%);
     }
   }
   * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -56,7 +56,6 @@
     background-color: var(--page);
     background-image:
       var(--stains),
-      url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='700' height='700'%3E%3Cfilter id='c'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.011' numOctaves='4' seed='7'/%3E%3CfeDiffuseLighting lighting-color='white' surfaceScale='1.6'%3E%3CfeDistantLight azimuth='55' elevation='58'/%3E%3C/feDiffuseLighting%3E%3C/filter%3E%3Crect width='700' height='700' filter='url(%23c)' opacity='0.045'/%3E%3C/svg%3E"),
       url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='140' height='140' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E");
     color: var(--ink-1); font-family: "DejaVu Sans", system-ui, -apple-system, "Segoe UI", sans-serif; line-height: 1.55; padding: 28px 20px 72px; transition: background .25s, color .25s;
   }
@@ -65,11 +64,12 @@
   /* ---------- masthead (winieta gazety) ---------- */
   .topbar { position: relative; }
   .masthead { text-align: center; padding: 6px 0 0; }
-  .masthead h1 { font-family: Georgia, "Times New Roman", serif; font-size: clamp(1.7rem, 4.5vw, 2.5rem); font-weight: 700; letter-spacing: 0.01em; }
-  .masthead h1 .hgrad { color: var(--ink-1); }
-  .masthead .sub { color: var(--ink-2); font-size: 0.85rem; font-style: italic; font-family: Georgia, serif; margin-top: 2px; }
-  .dateline { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 6px 16px; border-top: 1px solid var(--ink-1); border-bottom: 3px double var(--ink-1); padding: 6px 4px; margin-top: 12px; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--ink-2); font-weight: 600; }
-  .themesw-row { display: flex; justify-content: flex-end; margin-bottom: 4px; }
+  .masthead h1 { font-family: Georgia, "Times New Roman", serif; font-size: clamp(1rem, 4vw, 2.75rem); font-weight: 700; letter-spacing: 0.01em; line-height: 1.15; white-space: nowrap; }
+  .masthead h1 .hgrad { background: var(--grad); -webkit-background-clip: text; background-clip: text; color: transparent; }
+  .masthead h1 .orn { display: none; }
+  .masthead h1::after { content: ""; display: block; width: 86px; height: 4px; background: var(--grad); margin: 10px auto 0; border-radius: 2px; }
+  .masthead .sub { color: var(--ink-2); font-size: 0.85rem; margin-top: 8px; }
+  .dateline { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 6px 16px; border-top: 1px solid var(--hairline); border-bottom: 1px solid var(--hairline); padding: 7px 4px; margin-top: 14px; font-size: 0.76rem; letter-spacing: 0.02em; color: var(--ink-2); font-weight: 600; }
   .themesw { display: inline-flex; background: var(--surface); border: 1px solid var(--border); border-radius: 999px; padding: 3px; box-shadow: var(--shadow); }
   .themesw button { border: 0; background: none; color: var(--ink-2); font-family: inherit; font-size: 0.8rem; padding: 6px 13px; border-radius: 999px; cursor: pointer; font-weight: 600; }
   .themesw button.on { background: var(--grad); color: #fff; }
@@ -157,7 +157,7 @@
   [data-theme="dark"] .b-yellow { color: var(--warn); }
   @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .b-yellow { color: var(--warn); } }
   .chip { background: var(--chip-bg); color: var(--ink-2); border-radius: 999px; padding: 2px 9px; }
-  .card h3 { font-size: 0.95rem; line-height: 1.35; }
+  .card h3 { font-family: Georgia, "Times New Roman", serif; font-size: 1.02rem; line-height: 1.3; font-weight: 700; }
   .card h3 a { color: var(--ink-1); text-decoration: none; }
   .card h3 a:hover { color: var(--accent); text-decoration: underline; }
   .card p { font-size: 0.83rem; color: var(--ink-2); }
@@ -230,17 +230,25 @@
   .masthead h1, .summary h2, .module h2, .rhead h2 { text-shadow: 0 1px 0 rgba(255,255,255,0.25); }
   [data-theme="dark"] .masthead h1, [data-theme="dark"] .summary h2, [data-theme="dark"] .module h2, [data-theme="dark"] .rhead h2 { text-shadow: 0 1px 1px rgba(0,0,0,0.6); }
 
-  /* --- reklama prasowa --- */
-  .adbox { position: relative; border: 1px solid var(--ink-1); outline: 3px double var(--ink-1); outline-offset: 3px; background: var(--surface); border-radius: 2px; padding: 20px 24px 18px; margin: 0 4px 28px; text-align: center; transform: rotate(0.15deg); }
-  .adbox .adlabel { position: absolute; top: -9px; left: 50%; transform: translateX(-50%); background: var(--surface); padding: 0 10px; font-size: 0.62rem; letter-spacing: 0.25em; text-transform: uppercase; color: var(--ink-3); font-weight: 700; }
-  .adbox h2 { font-family: Georgia, serif; font-size: 1.5rem; letter-spacing: 0.12em; font-weight: 700; }
-  .adbox .adtag { font-family: Georgia, serif; font-style: italic; color: var(--ink-2); font-size: 0.85rem; margin-top: 2px; }
-  .adbox p { font-size: 0.86rem; color: var(--ink-2); max-width: 720px; margin: 10px auto 14px; }
-  .adbox .adcta { display: inline-flex; align-items: center; gap: 14px; flex-wrap: wrap; justify-content: center; }
-  .adbox .adbtn { background: var(--ink-1); color: var(--page); border: 0; border-radius: 2px; font-family: Georgia, serif; font-size: 0.9rem; font-weight: 700; padding: 9px 22px; text-decoration: none; letter-spacing: 0.04em; }
-  .adbox .adbtn:hover { background: var(--accent); color: #fff; }
-  .adbox .adtel { font-size: 0.82rem; color: var(--ink-2); font-variant-numeric: tabular-nums; }
+  /* --- reklama (nowoczesna wstawka) --- */
+  .adbox { position: relative; overflow: hidden; background: linear-gradient(135deg, var(--surface) 55%, var(--surface-2)); border: 1px solid var(--border); border-radius: 14px; box-shadow: var(--shadow); padding: 22px 26px; margin: 0 0 28px; display: flex; flex-wrap: wrap; align-items: center; gap: 18px 28px; transform: rotate(0.15deg); }
+  .adbox::before { content:""; position:absolute; left:0; top:0; bottom:0; width:5px; background: var(--grad); }
+  .adbox .adlabel { position: absolute; top: 10px; right: 12px; font-size: 0.6rem; letter-spacing: 0.18em; text-transform: uppercase; color: var(--ink-3); font-weight: 700; background: var(--chip-bg); border-radius: 999px; padding: 2px 10px; }
+  .adbox .adbrand { flex: 0 0 auto; }
+  .adbox h2 { font-family: Georgia, serif; font-size: 1.7rem; font-weight: 700; letter-spacing: 0.06em; background: var(--grad); -webkit-background-clip: text; background-clip: text; color: transparent; }
+  .adbox .adtag { font-family: Georgia, serif; font-style: italic; color: var(--ink-2); font-size: 0.82rem; margin-top: 1px; }
+  .adbox .adbody { flex: 1 1 380px; }
+  .adbox p { font-size: 0.86rem; color: var(--ink-2); margin: 0; }
+  .adbox p b { color: var(--ink-1); }
+  .adbox .adcta { flex: 0 0 auto; display: flex; flex-direction: column; align-items: center; gap: 8px; }
+  .adbox .adbtn { background: var(--grad); color: #fff; border: 0; border-radius: 999px; font-size: 0.9rem; font-weight: 700; padding: 10px 24px; text-decoration: none; box-shadow: var(--shadow); transition: transform .12s, box-shadow .12s; white-space: nowrap; }
+  .adbox .adbtn:hover { transform: translateY(-2px); box-shadow: var(--shadow-lift); }
+  .adbox .adtel { font-size: 0.8rem; color: var(--ink-2); font-variant-numeric: tabular-nums; }
   .adbox .adtel a { color: var(--ink-1); text-decoration: none; font-weight: 700; }
+  /* marka w winiecie */
+  .brandmark { font-size: 0.8rem; font-weight: 800; letter-spacing: 0.06em; text-decoration: none; background: var(--grad); -webkit-background-clip: text; background-clip: text; color: transparent; border-bottom: 2px solid var(--accent-2); padding-bottom: 1px; }
+  .brandmark:hover { border-bottom-color: var(--accent); }
+  .themesw-row { display: flex; justify-content: space-between; align-items: center; margin-bottom: 4px; }
   footer a.fref { color: var(--ink-2); font-weight: 600; text-decoration: none; }
   footer a.fref:hover { color: var(--accent); text-decoration: underline; }
 
@@ -256,6 +264,7 @@
   <div id="view-home">
     <div class="topbar">
       <div class="themesw-row">
+        <a class="brandmark" href="https://itspace.com.pl/?utm_source=news-dashboard&utm_medium=referral&utm_campaign=header" target="_blank" rel="noopener">ITSPACE.COM.PL</a>
         <div class="themesw" role="group" aria-label="Motyw kolorystyczny">
           <button data-th="light">☀️ Jasny</button>
           <button data-th="dark">🌙 Ciemny</button>
@@ -263,9 +272,9 @@
         </div>
       </div>
       <header class="masthead">
-        <h1><span class="hgrad">Dashboard</span> · NEWS · AI · Technologie · Stomatologia</h1>
+        <h1>NEWS · <span class="hgrad">AI</span> · Technologie · Stomatologia</h1>
         <div class="sub">Wiadomości wyłącznie z wiarygodnych źródeł — agencji prasowych i redakcji o potwierdzonej rzetelności. Wybierz region poniżej</div>
-        <div class="dateline"><span>Wydanie: 12 lipca 2026, niedziela</span><span>aktualizowany 2× dziennie: ~9:30 i ~15:30</span><span>Świat · Europa · Polska · Warszawa</span></div>
+        <div class="dateline"><span>Wydanie nr 3 · 13 lipca 2026, poniedziałek</span><span>aktualizowany 2× dziennie: ~9:30 i ~15:30</span><span>Świat · Europa · Polska · Warszawa</span></div>
       </header>
     </div>
     <div class="stats" id="stats"></div>
@@ -290,9 +299,13 @@
 
     <section class="adbox">
       <span class="adlabel">Reklama</span>
-      <h2>ITSPACE</h2>
-      <div class="adtag">Clear · Stable · Secure</div>
-      <p>Specjalistyczne wsparcie IT dla gabinetów stomatologicznych i klinik medycyny estetycznej — elektroniczna dokumentacja medyczna (EDM), RODO, cyberbezpieczeństwo, integracja RTG i skanerów 3D, kopie zapasowe w chmurze. Warszawa i okolice.</p>
+      <div class="adbrand">
+        <h2>ITSPACE</h2>
+        <div class="adtag">Clear · Stable · Secure</div>
+      </div>
+      <div class="adbody">
+        <p>Nowoczesne IT dla gabinetów stomatologicznych i klinik medycyny estetycznej: <b>wdrożenia AI</b> — automatyzacja rejestracji, wsparcie diagnostyki RTG/CBCT, chatboty dla pacjentów — a do tego EDM, RODO, cyberbezpieczeństwo, integracja skanerów 3D i kopie zapasowe w chmurze. <b>Warszawa i okolice.</b></p>
+      </div>
       <div class="adcta">
         <a class="adbtn" href="https://itspace.com.pl/?utm_source=news-dashboard&utm_medium=referral&utm_campaign=daily-dashboard" target="_blank" rel="noopener">itspace.com.pl →</a>
         <span class="adtel">☎ <a href="tel:+48531330080">531 330 080</a></span>
@@ -305,7 +318,7 @@
         <button class="rbtn" id="radar-refresh">🔄 Aktualizuj teraz</button>
       </div>
       <div id="radar-list"><div class="empty">Kurowane sygnały pojawią się przy porannej aktualizacji. Przycisk „Aktualizuj teraz" pobiera na żywo bieżące sygnały z Hacker News (dopasowane do Twoich tematów).</div></div>
-      <div class="rnote">Pełna aktualizacja całego dashboardu (kurowane wiadomości PL ze wszystkich źródeł) — 2× dziennie (~9:30 i ~15:30) lub na życzenie: napisz „odśwież dashboard" w czacie Claude.</div>
+      <div class="rnote">Pełna aktualizacja całego dashboardu (kurowane wiadomości ze wszystkich źródeł) — 2× dziennie: ~9:30 i ~15:30.</div>
     </section>
 
     <div class="modules">
@@ -402,7 +415,7 @@
     </section>
 
     <footer>
-      Dashboard generowany automatycznie wyłącznie ze źródeł spełniających pięć jawnych kryteriów wiarygodności (lista i kryteria powyżej). Priorytety (🔴/🟡/🟢) nadawane redakcyjnie wg wpływu na branżę/region. Newsy o tym samym wydarzeniu z wielu źródeł są deduplikowane — pokazywane raz, z najbardziej wiarygodnego źródła. * media finansowane publicznie oznaczone; przy tematach dot. fundatora wymagane drugie źródło. Wersja 2.8 · 12.07.2026.
+      Dashboard generowany automatycznie wyłącznie ze źródeł spełniających pięć jawnych kryteriów wiarygodności (lista i kryteria powyżej). Priorytety (🔴/🟡/🟢) nadawane redakcyjnie wg wpływu na branżę/region. Newsy o tym samym wydarzeniu z wielu źródeł są deduplikowane — pokazywane raz, z najbardziej wiarygodnego źródła. * media finansowane publicznie oznaczone; przy tematach dot. fundatora wymagane drugie źródło. Wersja 3.1 · 12.07.2026.
     </footer>
   </div>
 

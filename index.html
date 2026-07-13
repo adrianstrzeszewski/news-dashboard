@@ -7,58 +7,69 @@
 <style>
   /* ===== Motyw: Modern Minimalist (theme-factory) — Charcoal #36454f · Slate #708090 · Light Gray #d3d3d3 · White ===== */
   :root {
-    --page: #f4f4f4; --surface: #ffffff; --surface-2: #fafafa;
+    --page: #f2eee3; --surface: #fbf8f0; --surface-2: #f6f2e7;
     --ink-1: #36454f; --ink-2: #5c6b76; --ink-3: #96a1aa;
-    --hairline: #d3d3d3; --border: rgba(54,69,79,0.12);
+    --hairline: #d8d0bc; --border: rgba(54,69,79,0.16);
     --accent: #4d6675; --accent-2: #708090;
     --grad: linear-gradient(120deg, #36454f, #708090);
     --crit: #d03b3b; --warn: #fab219; --good: #0ca30c;
     --crit-bg: rgba(208,59,59,0.08); --warn-bg: rgba(250,178,25,0.13); --good-bg: rgba(12,163,12,0.09);
-    --chip-bg: #ececec;
+    --chip-bg: #ece7d7;
     --shadow: 0 1px 3px rgba(54,69,79,0.05);
     --shadow-lift: 0 3px 12px rgba(54,69,79,0.10);
-    --clock-face: #ffffff; --clock-ring: #d3d3d3;
+    --clock-face: #fbf8f0; --clock-ring: #d8d0bc;
+    --stains: radial-gradient(circle 58px at 88% 90px, transparent 49px, rgba(122,85,38,0.10) 52px, rgba(122,85,38,0.05) 55px, transparent 59px), radial-gradient(ellipse 420px 300px at 8% 96%, rgba(122,85,38,0.05), transparent 65%), linear-gradient(90deg, transparent 49.2%, rgba(54,69,79,0.045) 49.9%, rgba(255,255,255,0.35) 50.15%, transparent 50.9%);
   }
   [data-theme="dark"] {
-    --page: #14181b; --surface: #1d2429; --surface-2: #232b31;
-    --ink-1: #eef1f3; --ink-2: #b4c0c9; --ink-3: #7f8b94;
-    --hairline: #333d45; --border: rgba(255,255,255,0.09);
+    --page: #161411; --surface: #201d18; --surface-2: #27231d;
+    --ink-1: #efeadf; --ink-2: #beb7a7; --ink-3: #8b8577;
+    --hairline: #3a342a; --border: rgba(255,255,255,0.10);
     --accent: #9fb4c1; --accent-2: #708090;
     --grad: linear-gradient(120deg, #708090, #9fb4c1);
     --crit: #e05252; --warn: #fab219; --good: #23b523;
     --crit-bg: rgba(224,82,82,0.16); --warn-bg: rgba(250,178,25,0.15); --good-bg: rgba(35,181,35,0.15);
-    --chip-bg: #2a333a;
+    --chip-bg: #2e2921;
     --shadow: 0 1px 3px rgba(0,0,0,0.30);
     --shadow-lift: 0 4px 14px rgba(0,0,0,0.40);
-    --clock-face: #232b31; --clock-ring: #3d4750;
+    --clock-face: #27231d; --clock-ring: #453e32;
+    --stains: radial-gradient(circle 58px at 88% 90px, transparent 49px, rgba(240,220,180,0.05) 52px, rgba(240,220,180,0.025) 55px, transparent 59px), radial-gradient(ellipse 420px 300px at 8% 96%, rgba(240,220,180,0.03), transparent 65%), linear-gradient(90deg, transparent 49.2%, rgba(0,0,0,0.25) 49.9%, rgba(255,255,255,0.04) 50.15%, transparent 50.9%);
   }
   @media (prefers-color-scheme: dark) {
     :root:not([data-theme="light"]):not([data-theme="dark"]) {
-      --page: #14181b; --surface: #1d2429; --surface-2: #232b31;
-      --ink-1: #eef1f3; --ink-2: #b4c0c9; --ink-3: #7f8b94;
-      --hairline: #333d45; --border: rgba(255,255,255,0.09);
+      --page: #161411; --surface: #201d18; --surface-2: #27231d;
+      --ink-1: #efeadf; --ink-2: #beb7a7; --ink-3: #8b8577;
+      --hairline: #3a342a; --border: rgba(255,255,255,0.10);
       --accent: #9fb4c1; --accent-2: #708090;
       --grad: linear-gradient(120deg, #708090, #9fb4c1);
       --crit: #e05252; --warn: #fab219; --good: #23b523;
       --crit-bg: rgba(224,82,82,0.16); --warn-bg: rgba(250,178,25,0.15); --good-bg: rgba(35,181,35,0.15);
-      --chip-bg: #2a333a;
+      --chip-bg: #2e2921;
       --shadow: 0 1px 3px rgba(0,0,0,0.30);
       --shadow-lift: 0 4px 14px rgba(0,0,0,0.40);
-      --clock-face: #232b31; --clock-ring: #3d4750;
+      --clock-face: #27231d; --clock-ring: #453e32;
+      --stains: radial-gradient(circle 58px at 88% 90px, transparent 49px, rgba(240,220,180,0.05) 52px, rgba(240,220,180,0.025) 55px, transparent 59px), radial-gradient(ellipse 420px 300px at 8% 96%, rgba(240,220,180,0.03), transparent 65%), linear-gradient(90deg, transparent 49.2%, rgba(0,0,0,0.25) 49.9%, rgba(255,255,255,0.04) 50.15%, transparent 50.9%);
     }
   }
   * { box-sizing: border-box; margin: 0; padding: 0; }
   html { scroll-behavior: smooth; }
-  body { background: var(--page); color: var(--ink-1); font-family: "DejaVu Sans", system-ui, -apple-system, "Segoe UI", sans-serif; line-height: 1.55; padding: 32px 20px 72px; transition: background .25s, color .25s; }
+  body {
+    background-color: var(--page);
+    background-image:
+      var(--stains),
+      url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='700' height='700'%3E%3Cfilter id='c'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.011' numOctaves='4' seed='7'/%3E%3CfeDiffuseLighting lighting-color='white' surfaceScale='1.6'%3E%3CfeDistantLight azimuth='55' elevation='58'/%3E%3C/feDiffuseLighting%3E%3C/filter%3E%3Crect width='700' height='700' filter='url(%23c)' opacity='0.045'/%3E%3C/svg%3E"),
+      url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='140' height='140' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E");
+    color: var(--ink-1); font-family: "DejaVu Sans", system-ui, -apple-system, "Segoe UI", sans-serif; line-height: 1.55; padding: 28px 20px 72px; transition: background .25s, color .25s;
+  }
   .wrap { max-width: 1180px; margin: 0 auto; }
 
-  /* ---------- header ---------- */
-  .topbar { display: flex; flex-wrap: wrap; align-items: flex-start; gap: 14px; }
-  .topbar .titles { flex: 1 1 420px; }
-  header h1 { font-family: Georgia, "Times New Roman", serif; font-size: 1.8rem; font-weight: 700; letter-spacing: -0.01em; }
-  header h1 .hgrad { color: var(--ink-1); }
-  header .sub { color: var(--ink-2); font-size: 0.9rem; margin-top: 4px; }
-  header .stamp { color: var(--ink-3); font-size: 0.78rem; margin-top: 3px; }
+  /* ---------- masthead (winieta gazety) ---------- */
+  .topbar { position: relative; }
+  .masthead { text-align: center; padding: 6px 0 0; }
+  .masthead h1 { font-family: Georgia, "Times New Roman", serif; font-size: clamp(1.7rem, 4.5vw, 2.5rem); font-weight: 700; letter-spacing: 0.01em; }
+  .masthead h1 .hgrad { color: var(--ink-1); }
+  .masthead .sub { color: var(--ink-2); font-size: 0.85rem; font-style: italic; font-family: Georgia, serif; margin-top: 2px; }
+  .dateline { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 6px 16px; border-top: 1px solid var(--ink-1); border-bottom: 3px double var(--ink-1); padding: 6px 4px; margin-top: 12px; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--ink-2); font-weight: 600; }
+  .themesw-row { display: flex; justify-content: flex-end; margin-bottom: 4px; }
   .themesw { display: inline-flex; background: var(--surface); border: 1px solid var(--border); border-radius: 999px; padding: 3px; box-shadow: var(--shadow); }
   .themesw button { border: 0; background: none; color: var(--ink-2); font-family: inherit; font-size: 0.8rem; padding: 6px 13px; border-radius: 999px; cursor: pointer; font-weight: 600; }
   .themesw button.on { background: var(--grad); color: #fff; }
@@ -202,6 +213,23 @@
   .srccol li .stag { color: var(--ink-3); font-size: 0.7rem; }
   .t1 { font-weight: 700; }
 
+  /* --- gazeta „przeczytana": lekkie przekrzywienia i zagięcia --- */
+  .cards .card:nth-child(odd) { transform: rotate(-0.35deg); }
+  .cards .card:nth-child(even) { transform: rotate(0.3deg); }
+  .cards .card:nth-child(3n) { transform: rotate(-0.15deg); }
+  .cards .card:hover { transform: rotate(0deg) translateY(-2px); }
+  .regions .rtile:nth-child(1) { transform: rotate(-0.4deg); }
+  .regions .rtile:nth-child(2) { transform: rotate(0.25deg); }
+  .regions .rtile:nth-child(3) { transform: rotate(-0.2deg); }
+  .regions .rtile:hover { transform: rotate(0deg) translateY(-3px); }
+  .module, .srccol, .summary { transform: rotate(-0.12deg); }
+  .modules .module:nth-child(2), .srcgrid .srccol:nth-child(2) { transform: rotate(0.15deg); }
+  /* zagięty róg podsumowania (dog-ear) */
+  .summary::after { content:""; position:absolute; top:0; right:0; width:0; height:0; border-style:solid; border-width:0 26px 26px 0; border-color: transparent var(--page) transparent transparent; filter: drop-shadow(-2px 2px 2px rgba(0,0,0,0.12)); }
+  /* delikatny "letterpress" nagłówków */
+  .masthead h1, .summary h2, .module h2, .rhead h2 { text-shadow: 0 1px 0 rgba(255,255,255,0.25); }
+  [data-theme="dark"] .masthead h1, [data-theme="dark"] .summary h2, [data-theme="dark"] .module h2, [data-theme="dark"] .rhead h2 { text-shadow: 0 1px 1px rgba(0,0,0,0.6); }
+
   footer { color: var(--ink-3); font-size: 0.75rem; border-top: 1px solid var(--hairline); padding-top: 14px; }
   .empty { color: var(--ink-3); font-size: 0.85rem; padding: 10px 0; }
   .hidden { display: none !important; }
@@ -213,19 +241,19 @@
   <!-- ============ WIDOK GŁÓWNY ============ -->
   <div id="view-home">
     <div class="topbar">
-      <header class="titles">
-        <h1><span class="hgrad">Dashboard</span>: NEWS · AI · Technologie · Stomatologia</h1>
-        <div class="sub">Wybierz region, aby zobaczyć wiadomości z zaufanych, zweryfikowanych przez radę źródeł</div>
-        <div class="stamp">Ostatnia aktualizacja: <strong>12 lipca 2026, niedziela</strong> · aktualizowany codziennie ok. 9:30</div>
-      </header>
-      <div class="themesw" role="group" aria-label="Motyw kolorystyczny">
-        <button data-th="light">☀️ Jasny</button>
-        <button data-th="dark">🌙 Ciemny</button>
-        <button data-th="auto" class="on">🖥️ Auto</button>
+      <div class="themesw-row">
+        <div class="themesw" role="group" aria-label="Motyw kolorystyczny">
+          <button data-th="light">☀️ Jasny</button>
+          <button data-th="dark">🌙 Ciemny</button>
+          <button data-th="auto" class="on">🖥️ Auto</button>
+        </div>
       </div>
+      <header class="masthead">
+        <h1><span class="hgrad">Dashboard</span> · NEWS · AI · Technologie · Stomatologia</h1>
+        <div class="sub">Wiadomości z zaufanych, zweryfikowanych przez radę źródeł — wybierz region poniżej</div>
+        <div class="dateline"><span>Wydanie: 12 lipca 2026, niedziela</span><span>aktualizowany 2× dziennie: ~9:30 i ~15:30</span><span>Świat · Europa · Polska</span></div>
+      </header>
     </div>
-
-    <div class="clocks" id="clocks-home"></div>
     <div class="stats" id="stats"></div>
 
     <section class="summary">
@@ -334,7 +362,7 @@
     </section>
 
     <footer>
-      Dashboard generowany automatycznie na podstawie białej listy źródeł zatwierdzonej przez radę (12.07.2026). Priorytety (🔴/🟡/🟢) nadawane redakcyjnie wg wpływu na branżę/region. Newsy o tym samym wydarzeniu z wielu źródeł są deduplikowane — pokazywane raz, z najbardziej wiarygodnego źródła. * media finansowane publicznie oznaczone; przy tematach dot. fundatora wymagane drugie źródło. Wersja 2.4 · 12.07.2026.
+      Dashboard generowany automatycznie na podstawie białej listy źródeł zatwierdzonej przez radę (12.07.2026). Priorytety (🔴/🟡/🟢) nadawane redakcyjnie wg wpływu na branżę/region. Newsy o tym samym wydarzeniu z wielu źródeł są deduplikowane — pokazywane raz, z najbardziej wiarygodnego źródła. * media finansowane publicznie oznaczone; przy tematach dot. fundatora wymagane drugie źródło. Wersja 2.6 · 12.07.2026.
     </footer>
   </div>
 
@@ -603,7 +631,6 @@ function renderHome(){
     const top = items.filter(n=>n.pri==="red").sort((a,b)=>b.date.localeCompare(a.date))[0];
     document.getElementById("rt-top-"+reg).innerHTML = top ? `<b>🔴 Najważniejsze:</b> ${esc(top.title)}` : "";
   }
-  document.getElementById("clocks-home").innerHTML = clockHTML(REGION_CLOCKS.home);
   document.getElementById("watch").innerHTML = WATCHLIST.map((w,i) => {
     const hits = NEWS.filter(n => w.kw.some(k => (n.title+" "+n.sum).toLowerCase().includes(k)));
     const reds = hits.filter(n => n.pri === "red").length;

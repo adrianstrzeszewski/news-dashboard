@@ -18,6 +18,7 @@
     --shadow: 0 1px 3px rgba(54,69,79,0.05);
     --shadow-lift: 0 3px 12px rgba(54,69,79,0.10);
     --clock-face: #fbf8f0; --clock-ring: #d8d0bc;
+    --wx-max: #c9541c; --wx-min: #708090; --wx-rain: #2a78d6;
     --stains: radial-gradient(circle 58px at 88% 90px, transparent 49px, rgba(122,85,38,0.10) 52px, rgba(122,85,38,0.05) 55px, transparent 59px), radial-gradient(ellipse 420px 300px at 8% 96%, rgba(122,85,38,0.05), transparent 65%);
   }
   [data-theme="dark"] {
@@ -32,6 +33,7 @@
     --shadow: 0 1px 3px rgba(0,0,0,0.30);
     --shadow-lift: 0 4px 14px rgba(0,0,0,0.40);
     --clock-face: #27231d; --clock-ring: #453e32;
+    --wx-max: #eb8146; --wx-min: #9fb4c1; --wx-rain: #5598e7;
     --stains: radial-gradient(circle 58px at 88% 90px, transparent 49px, rgba(240,220,180,0.05) 52px, rgba(240,220,180,0.025) 55px, transparent 59px), radial-gradient(ellipse 420px 300px at 8% 96%, rgba(240,220,180,0.03), transparent 65%);
   }
   @media (prefers-color-scheme: dark) {
@@ -47,6 +49,7 @@
       --shadow: 0 1px 3px rgba(0,0,0,0.30);
       --shadow-lift: 0 4px 14px rgba(0,0,0,0.40);
       --clock-face: #27231d; --clock-ring: #453e32;
+      --wx-max: #eb8146; --wx-min: #9fb4c1; --wx-rain: #5598e7;
       --stains: radial-gradient(circle 58px at 88% 90px, transparent 49px, rgba(240,220,180,0.05) 52px, rgba(240,220,180,0.025) 55px, transparent 59px), radial-gradient(ellipse 420px 300px at 8% 96%, rgba(240,220,180,0.03), transparent 65%);
     }
   }
@@ -96,6 +99,10 @@
   .tile.t-red::before { background: var(--crit); }
   .tile.t-yellow::before { background: var(--warn); }
   .tile .v { font-family: Georgia, serif; font-size: 1.6rem; font-weight: 700; }
+  .tile.tclick { cursor: pointer; transition: transform .12s, box-shadow .12s, border-color .12s; }
+  .tile.tclick:hover { transform: translateY(-2px); box-shadow: var(--shadow-lift); border-color: var(--accent); }
+  .statlink { cursor: pointer; border-bottom: 2px dotted var(--ink-3); }
+  .statlink:hover { color: var(--accent); border-bottom-color: var(--accent); }
   .tile .l { font-size: 0.75rem; color: var(--ink-2); }
 
   /* ---------- summary ---------- */
@@ -252,6 +259,22 @@
   footer a.fref { color: var(--ink-2); font-weight: 600; text-decoration: none; }
   footer a.fref:hover { color: var(--accent); text-decoration: underline; }
 
+  /* --- pogoda --- */
+  .wxpanel { margin-bottom: 16px; }
+  .clock .cwx { font-size: 0.72rem; color: var(--ink-2); margin-top: 1px; min-height: 1em; }
+  .wxnow { display: flex; flex-wrap: wrap; align-items: center; gap: 14px 22px; margin-bottom: 10px; }
+  .wxnow .wxt { font-family: Georgia, serif; font-size: 2.2rem; font-weight: 700; }
+  .wxnow .wxi { font-size: 2rem; }
+  .wxnow .wxd { font-size: 0.82rem; color: var(--ink-2); }
+  .wxdays { display: flex; gap: 10px; flex-wrap: wrap; font-size: 0.8rem; color: var(--ink-2); margin-bottom: 10px; }
+  .wxdays b { color: var(--ink-1); }
+  .wxlegend { display: flex; gap: 16px; flex-wrap: wrap; font-size: 0.72rem; color: var(--ink-2); margin-top: 6px; }
+  .wxlegend span { display: inline-flex; align-items: center; gap: 5px; }
+  .wxsw { width: 14px; height: 3px; border-radius: 2px; display: inline-block; }
+  .wxsw.rainsw { height: 8px; width: 8px; border-radius: 2px; }
+  #wx-chart svg { width: 100%; height: auto; display: block; }
+  #wx-chart text { font-family: system-ui, sans-serif; }
+
   footer { color: var(--ink-3); font-size: 0.75rem; border-top: 1px solid var(--hairline); padding-top: 14px; }
   .empty { color: var(--ink-3); font-size: 0.85rem; padding: 10px 0; }
   .hidden { display: none !important; }
@@ -304,7 +327,7 @@
         <div class="adtag">Clear · Stable · Secure</div>
       </div>
       <div class="adbody">
-        <p>Nowoczesne IT dla gabinetów stomatologicznych i klinik medycyny estetycznej: <b>wdrożenia AI</b> — automatyzacja rejestracji, wsparcie diagnostyki RTG/CBCT, chatboty dla pacjentów — a do tego EDM, RODO, cyberbezpieczeństwo, integracja skanerów 3D i kopie zapasowe w chmurze. <b>Warszawa i okolice.</b></p>
+        <p><b>Clinic Operational Intelligent Platform</b> — inteligentny system zarządzania kliniką stomatologiczną i medycyny estetycznej, ze wsparciem <b>AI</b> w codziennych operacjach: rejestracja i grafiki, EDM, rozliczenia i raporty w jednym miejscu. Do tego pełna opieka IT: RODO, cyberbezpieczeństwo, integracja RTG i skanerów 3D. <b>Warszawa i okolice.</b></p>
       </div>
       <div class="adcta">
         <a class="adbtn" href="https://itspace.com.pl/?utm_source=news-dashboard&utm_medium=referral&utm_campaign=daily-dashboard" target="_blank" rel="noopener">itspace.com.pl →</a>
@@ -415,7 +438,7 @@
     </section>
 
     <footer>
-      Dashboard generowany automatycznie wyłącznie ze źródeł spełniających pięć jawnych kryteriów wiarygodności (lista i kryteria powyżej). Priorytety (🔴/🟡/🟢) nadawane redakcyjnie wg wpływu na branżę/region. Newsy o tym samym wydarzeniu z wielu źródeł są deduplikowane — pokazywane raz, z najbardziej wiarygodnego źródła. * media finansowane publicznie oznaczone; przy tematach dot. fundatora wymagane drugie źródło. Wersja 3.1 · 12.07.2026.
+      Dashboard generowany automatycznie wyłącznie ze źródeł spełniających pięć jawnych kryteriów wiarygodności (lista i kryteria powyżej). Priorytety (🔴/🟡/🟢) nadawane redakcyjnie wg wpływu na branżę/region. Newsy o tym samym wydarzeniu z wielu źródeł są deduplikowane — pokazywane raz, z najbardziej wiarygodnego źródła. * media finansowane publicznie oznaczone; przy tematach dot. fundatora wymagane drugie źródło. Wersja 3.5 · 12.07.2026.
     </footer>
   </div>
 
@@ -426,6 +449,15 @@
       <h2 id="r-title"></h2>
       <div class="clocks" id="clocks-region" style="margin:0"></div>
     </div>
+    <section class="module wxpanel hidden" id="wx-module">
+      <div class="rhead2">
+        <h2>Pogoda — Warszawa <span class="rsub">na żywo · Open-Meteo · 7 dni</span></h2>
+        <button class="rbtn" id="wx-refresh">🔄</button>
+      </div>
+      <div id="wx-now" class="wxnow"><span class="empty">Pobieram prognozę…</span></div>
+      <div id="wx-days" class="wxdays"></div>
+      <div id="wx-chart"></div>
+    </section>
     <div class="legend" role="note">
       <span><span class="ldot" style="background:var(--crit)"></span>🔴 Wysoki priorytet</span>
       <span><span class="ldot" style="background:var(--warn)"></span>🟡 Średni</span>
@@ -564,12 +596,12 @@ document.querySelectorAll(".themesw button").forEach(b => b.addEventListener("cl
 
 // ===================== ZEGARY =====================
 const ZONES = {
-  warsaw: {label:"Warszawa 🇵🇱", tz:"Europe/Warsaw"},
-  london: {label:"Londyn 🇬🇧", tz:"Europe/London"},
-  brussels: {label:"Bruksela 🇪🇺", tz:"Europe/Brussels"},
-  ny: {label:"Nowy Jork 🇺🇸", tz:"America/New_York"},
-  sf: {label:"San Francisco 🇺🇸", tz:"America/Los_Angeles"},
-  tokyo: {label:"Tokio 🇯🇵", tz:"Asia/Tokyo"}
+  warsaw: {label:"Warszawa 🇵🇱", tz:"Europe/Warsaw", lat:52.2297, lon:21.0122},
+  london: {label:"Londyn 🇬🇧", tz:"Europe/London", lat:51.5072, lon:-0.1276},
+  brussels: {label:"Bruksela 🇪🇺", tz:"Europe/Brussels", lat:50.8503, lon:4.3517},
+  ny: {label:"Nowy Jork 🇺🇸", tz:"America/New_York", lat:40.7128, lon:-74.006},
+  sf: {label:"San Francisco 🇺🇸", tz:"America/Los_Angeles", lat:37.7749, lon:-122.4194},
+  tokyo: {label:"Tokio 🇯🇵", tz:"Asia/Tokyo", lat:35.6762, lon:139.6503}
 };
 const REGION_CLOCKS = { home:["warsaw","london","ny","sf","tokyo"], world:["ny","sf","london","tokyo"], europe:["warsaw","london","brussels"], poland:["warsaw"], warsaw:["warsaw"], all:["warsaw"] };
 
@@ -588,6 +620,7 @@ function clockHTML(keys){
       <div class="cz">${ZONES[k].label} <span class="dn"></span></div>
       <div class="ct"><span class="hm">--:--</span> <span class="sec">--</span></div>
       <div class="cd"></div>
+      <div class="cwx" data-city="${k}"></div>
     </div>
   </div>`).join("");
 }
@@ -655,14 +688,22 @@ function renderRegion(){
   document.getElementById("cnt").textContent = `${items.length} z ${total}`;
 }
 
-function openRegion(reg, presetQ){
-  curRegion = reg; fCat = "all"; fPri = "all"; fQ = presetQ ? presetQ.toLowerCase() : "";
-  document.querySelectorAll('.fbtn[data-f]').forEach(b => { b.className = "fbtn"; if (b.dataset.v === "all") b.classList.add("on"); });
+function openRegion(reg, presetQ, presetCat, presetPri){
+  curRegion = reg; fCat = presetCat || "all"; fPri = presetPri || "all"; fQ = presetQ ? presetQ.toLowerCase() : "";
+  document.querySelectorAll('.fbtn[data-f="cat"]').forEach(b => { b.className = "fbtn" + (b.dataset.v === fCat ? " on" : ""); });
+  document.querySelectorAll('.fbtn[data-f="pri"]').forEach(b => {
+    b.className = "fbtn";
+    if (b.dataset.v === fPri) b.classList.add(fPri === "red" ? "on-crit" : fPri === "yellow" ? "on-warn" : fPri === "green" ? "on-good" : "on");
+  });
   document.getElementById("q").value = presetQ || "";
   const rm = REG_META[reg];
   document.getElementById("r-title").textContent = `${rm.flag} ${rm.name}`;
   document.getElementById("clocks-region").innerHTML = clockHTML(REGION_CLOCKS[reg] || ["warsaw"]);
   tickClocks();
+  (REGION_CLOCKS[reg] || ["warsaw"]).forEach(cityWeather);
+  const showPanel = (reg === "warsaw" || reg === "poland");
+  document.getElementById("wx-module").classList.toggle("hidden", !showPanel);
+  if (showPanel && !window.__wxLoaded) { window.__wxLoaded = true; refreshWeather(); }
   document.getElementById("view-home").classList.add("hidden");
   document.getElementById("view-region").classList.remove("hidden");
   window.scrollTo(0,0);
@@ -678,12 +719,17 @@ function renderHome(){
   const c = {red:0,yellow:0,green:0,NEWS:0,AI:0,Tech:0,Stomatologia:0};
   NEWS.forEach(n => { c[n.pri]++; c[n.cat]++; });
   document.getElementById("stats").innerHTML = `
-    <div class="tile"><div class="v">${NEWS.length}</div><div class="l">wiadomości łącznie</div></div>
-    <div class="tile t-red"><div class="v">${c.red}</div><div class="l">🔴 wysoki priorytet</div></div>
-    <div class="tile t-yellow"><div class="v">${c.yellow}</div><div class="l">🟡 średni priorytet</div></div>
-    <div class="tile"><div class="v">${c.NEWS}</div><div class="l">📰 NEWS</div></div>
-    <div class="tile"><div class="v">${c.AI} / ${c.Tech} / ${c.Stomatologia}</div><div class="l">🤖 AI / 💻 Tech / 🦷 Stomat.</div></div>
-    <div class="tile"><div class="v">${EVENTS.length}</div><div class="l">📅 wydarzenia</div></div>`;
+    <div class="tile tclick" data-c="all" data-p="all" title="Pokaż wszystkie wiadomości"><div class="v">${NEWS.length}</div><div class="l">wiadomości łącznie →</div></div>
+    <div class="tile t-red tclick" data-c="all" data-p="red" title="Pokaż pilne"><div class="v">${c.red}</div><div class="l">🔴 wysoki priorytet →</div></div>
+    <div class="tile t-yellow tclick" data-c="all" data-p="yellow" title="Pokaż istotne"><div class="v">${c.yellow}</div><div class="l">🟡 średni priorytet →</div></div>
+    <div class="tile tclick" data-c="NEWS" data-p="all" title="Pokaż NEWS"><div class="v">${c.NEWS}</div><div class="l">📰 NEWS →</div></div>
+    <div class="tile"><div class="v"><span class="statlink" data-c="AI" title="Pokaż AI">${c.AI}</span> / <span class="statlink" data-c="Tech" title="Pokaż Tech">${c.Tech}</span> / <span class="statlink" data-c="Stomatologia" title="Pokaż Stomatologię">${c.Stomatologia}</span></div><div class="l">🤖 AI / 💻 Tech / 🦷 Stomat.</div></div>
+    <div class="tile tclick" data-goto="events" title="Przejdź do wydarzeń"><div class="v">${EVENTS.length}</div><div class="l">📅 wydarzenia →</div></div>`;
+  document.querySelectorAll("#stats .tile.tclick").forEach(t => t.addEventListener("click", () => {
+    if (t.dataset.goto) { document.getElementById(t.dataset.goto).scrollIntoView({behavior:"smooth", block:"center"}); return; }
+    openRegion("all", "", t.dataset.c, t.dataset.p);
+  }));
+  document.querySelectorAll("#stats .statlink").forEach(sp => sp.addEventListener("click", e => { e.stopPropagation(); openRegion("all", "", sp.dataset.c, "all"); }));
   for (const reg of ["world","europe","poland","warsaw"]) {
     const items = NEWS.filter(n=>n.reg===reg);
     const cc = {NEWS:0,AI:0,Tech:0,Stomatologia:0,red:0};
@@ -743,6 +789,79 @@ async function refreshRadar(){
   btn.disabled = false; btn.textContent = "🔄 Aktualizuj teraz";
 }
 document.getElementById("radar-refresh").addEventListener("click", refreshRadar);
+
+// ===================== POGODA (Open-Meteo, na żywo) =====================
+const wxCache = {};
+async function cityWeather(k){
+  const z = ZONES[k]; if (!z) return;
+  const fill = txt => document.querySelectorAll(`.cwx[data-city="${k}"]`).forEach(el => el.innerHTML = txt);
+  if (wxCache[k]) { fill(wxCache[k]); return; }
+  try {
+    const r = await fetch(`https://api.open-meteo.com/v1/forecast?latitude=${z.lat}&longitude=${z.lon}&current=temperature_2m,weather_code&daily=temperature_2m_max,temperature_2m_min,precipitation_sum&timezone=auto&forecast_days=1`);
+    if (!r.ok) throw 0;
+    const j = await r.json();
+    const [ico] = wmo(j.current.weather_code);
+    const t = `${ico} ${Math.round(j.current.temperature_2m)}° · dziś ${Math.round(j.daily.temperature_2m_min[0])}°/${Math.round(j.daily.temperature_2m_max[0])}°${j.daily.precipitation_sum[0] >= 0.1 ? " ☔" : ""}`;
+    wxCache[k] = t; fill(t);
+  } catch(e) { fill(""); }
+}
+const WMO = {0:["☀️","bezchmurnie"],1:["🌤️","przeważnie słonecznie"],2:["⛅","częściowe zachmurzenie"],3:["☁️","pochmurno"],45:["🌫️","mgła"],48:["🌫️","szadź"],51:["🌦️","mżawka"],53:["🌦️","mżawka"],55:["🌧️","gęsta mżawka"],61:["🌧️","lekki deszcz"],63:["🌧️","deszcz"],65:["🌧️","ulewa"],71:["🌨️","lekki śnieg"],73:["🌨️","śnieg"],75:["❄️","śnieżyca"],80:["🌦️","przelotne opady"],81:["🌧️","przelotny deszcz"],82:["⛈️","gwałtowne opady"],95:["⛈️","burza"],96:["⛈️","burza z gradem"],99:["⛈️","burza z gradem"]};
+const wmo = c => WMO[c] || ["🌡️",""];
+function renderWeather(cur, daily){
+  const [ico, desc] = wmo(cur.weathercode ?? cur.weather_code);
+  document.getElementById("wx-now").innerHTML =
+    `<span class="wxi">${ico}</span><span class="wxt">${Math.round(cur.temperature_2m)}°C</span>
+     <span class="wxd">${desc}<br>wiatr ${Math.round(cur.wind_speed_10m)} km/h</span>`;
+  const dayName = (iso,i) => i===0 ? "Dziś" : i===1 ? "Jutro" : new Intl.DateTimeFormat("pl-PL",{weekday:"short"}).format(new Date(iso+"T12:00:00"));
+  const n = daily.time.length;
+  document.getElementById("wx-days").innerHTML = [0,1].map(i =>
+    `<span>${wmo(daily.weathercode ? daily.weathercode[i] : daily.weather_code[i])[0]} <b>${dayName(daily.time[i],i)}:</b> ${Math.round(daily.temperature_2m_min[i])}° / <b>${Math.round(daily.temperature_2m_max[i])}°</b>${daily.precipitation_sum[i] >= 0.1 ? " · ☔ " + daily.precipitation_sum[i].toFixed(1) + " mm" : ""}</span>`).join("");
+  // wykres SVG: linie temp max/min + słupki opadów
+  const W=640, H=210, padL=30, padR=14, padT=18, padB=42;
+  const xs = i => padL + i * (W-padL-padR) / (n-1);
+  const tmax = daily.temperature_2m_max, tmin = daily.temperature_2m_min, rain = daily.precipitation_sum;
+  const tHi = Math.ceil(Math.max(...tmax)+1), tLo = Math.floor(Math.min(...tmin)-1);
+  const ty = t => padT + (tHi - t) * (H-padT-padB) / (tHi - tLo || 1);
+  const rMax = Math.max(2, ...rain);
+  const rh = r => r / rMax * 46;
+  const line = arr => arr.map((t,i)=>`${i?"L":"M"}${xs(i).toFixed(1)},${ty(t).toFixed(1)}`).join(" ");
+  const pts = (arr, col, mode) => arr.map((t,i)=>{
+    const anchor = mode === "min" ? "end" : "middle";
+    const tx = mode === "min" ? xs(i) - 8 : xs(i);
+    const tyy = mode === "min" ? ty(t) + 4 : ty(t) - 9;
+    return `<circle cx="${xs(i).toFixed(1)}" cy="${ty(t).toFixed(1)}" r="3.4" fill="${col}" stroke="var(--surface)" stroke-width="1.6"/><text x="${tx.toFixed(1)}" y="${tyy.toFixed(1)}" text-anchor="${anchor}" font-size="10.5" font-weight="700" fill="var(--ink-2)">${Math.round(t)}°</text>`;
+  }).join("");
+  const bars = rain.map((r,i)=> r < 0.1 ? "" :
+    `<rect x="${(xs(i)-9).toFixed(1)}" y="${(H-padB-rh(r)).toFixed(1)}" width="18" height="${rh(r).toFixed(1)}" rx="2.5" fill="var(--wx-rain)" opacity="0.55"/><text x="${xs(i).toFixed(1)}" y="${(H-padB-rh(r)-3).toFixed(1)}" text-anchor="middle" font-size="9" fill="var(--ink-3)">${r.toFixed(1)}</text>`).join("");
+  const labels = daily.time.map((d,i)=>`<text x="${xs(i).toFixed(1)}" y="${H-padB+16}" text-anchor="middle" font-size="10.5" font-weight="${i<2?"700":"400"}" fill="var(--ink-2)">${dayName(d,i)}</text><text x="${xs(i).toFixed(1)}" y="${H-padB+28}" text-anchor="middle" font-size="11">${wmo(daily.weathercode ? daily.weathercode[i] : daily.weather_code[i])[0]}</text>`).join("");
+  const grid = [tHi, Math.round((tHi+tLo)/2), tLo].map(t=>`<line x1="${padL}" y1="${ty(t).toFixed(1)}" x2="${W-padR}" y2="${ty(t).toFixed(1)}" stroke="var(--hairline)" stroke-width="1"/><text x="${padL-5}" y="${(ty(t)+3.5).toFixed(1)}" text-anchor="end" font-size="9.5" fill="var(--ink-3)">${t}°</text>`).join("");
+  document.getElementById("wx-chart").innerHTML =
+    `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Prognoza temperatur i opadów na 7 dni">
+      ${grid}${bars}
+      <path d="${line(tmax)}" fill="none" stroke="var(--wx-max)" stroke-width="2.4" stroke-linecap="round"/>
+      <path d="${line(tmin)}" fill="none" stroke="var(--wx-min)" stroke-width="2" stroke-dasharray="5 4" stroke-linecap="round"/>
+      ${pts(tmax,"var(--wx-max)","max")}${pts(tmin,"var(--wx-min)","min")}
+    </svg>
+    <div class="wxlegend">
+      <span><span class="wxsw" style="background:var(--wx-max)"></span>temp. maks.</span>
+      <span><span class="wxsw" style="background:var(--wx-min)"></span>temp. min.</span>
+      <span><span class="wxsw rainsw" style="background:var(--wx-rain);opacity:.55"></span>opady (mm)</span>
+    </div>`;
+}
+async function refreshWeather(){
+  const btn = document.getElementById("wx-refresh");
+  btn.disabled = true;
+  try {
+    const r = await fetch("https://api.open-meteo.com/v1/forecast?latitude=52.2297&longitude=21.0122&current=temperature_2m,weather_code,wind_speed_10m&daily=temperature_2m_max,temperature_2m_min,precipitation_sum,weather_code&timezone=Europe%2FWarsaw&forecast_days=7");
+    if (!r.ok) throw new Error("HTTP " + r.status);
+    const j = await r.json();
+    renderWeather(j.current, j.daily);
+  } catch(e) {
+    document.getElementById("wx-now").innerHTML = `<span class="empty">Nie udało się pobrać prognozy (${e.message}) — spróbuj 🔄.</span>`;
+  }
+  btn.disabled = false;
+}
+document.getElementById("wx-refresh").addEventListener("click", refreshWeather);
 
 renderHome();
 tickClocks();

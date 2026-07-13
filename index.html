@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dashboard: NEWS · AI · Tech · Stomatologia — 12 lipca 2026</title>
+<style>
+  /* ===== Motyw: Modern Minimalist (theme-factory) — Charcoal #36454f · Slate #708090 · Light Gray #d3d3d3 · White ===== */
+  :root {
+    --page: #f4f4f4; --surface: #ffffff; --surface-2: #fafafa;
+    --ink-1: #36454f; --ink-2: #5c6b76; --ink-3: #96a1aa;
+    --hairline: #d3d3d3; --border: rgba(54,69,79,0.12);
+    --accent: #4d6675; --accent-2: #708090;
+    --grad: linear-gradient(120deg, #36454f, #708090);
+    --crit: #d03b3b; --warn: #fab219; --good: #0ca30c;
+    --crit-bg: rgba(208,59,59,0.08); --warn-bg: rgba(250,178,25,0.13); --good-bg: rgba(12,163,12,0.09);
+    --chip-bg: #ececec;
+    --shadow: 0 1px 3px rgba(54,69,79,0.05);
+    --shadow-lift: 0 3px 12px rgba(54,69,79,0.10);
+    --clock-face: #ffffff; --clock-ring: #d3d3d3;
+  }
+  [data-theme="dark"] {
+    --page: #14181b; --surface: #1d2429; --surface-2: #232b31;
+    --ink-1: #eef1f3; --ink-2: #b4c0c9; --ink-3: #7f8b94;
+    --hairline: #333d45; --border: rgba(255,255,255,0.09);
+    --accent: #9fb4c1; --accent-2: #708090;
+    --grad: linear-gradient(120deg, #708090, #9fb4c1);
+    --crit: #e05252; --warn: #fab219; --good: #23b523;
+    --crit-bg: rgba(224,82,82,0.16); --warn-bg: rgba(250,178,25,0.15); --good-bg: rgba(35,181,35,0.15);
+    --chip-bg: #2a333a;
+    --shadow: 0 1px 3px rgba(0,0,0,0.30);
+    --shadow-lift: 0 4px 14px rgba(0,0,0,0.40);
+    --clock-face: #232b31; --clock-ring: #3d4750;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]):not([data-theme="dark"]) {
+      --page: #14181b; --surface: #1d2429; --surface-2: #232b31;
+      --ink-1: #eef1f3; --ink-2: #b4c0c9; --ink-3: #7f8b94;
+      --hairline: #333d45; --border: rgba(255,255,255,0.09);
+      --accent: #9fb4c1; --accent-2: #708090;
+      --grad: linear-gradient(120deg, #708090, #9fb4c1);
+      --crit: #e05252; --warn: #fab219; --good: #23b523;
+      --crit-bg: rgba(224,82,82,0.16); --warn-bg: rgba(250,178,25,0.15); --good-bg: rgba(35,181,35,0.15);
+      --chip-bg: #2a333a;
+      --shadow: 0 1px 3px rgba(0,0,0,0.30);
+      --shadow-lift: 0 4px 14px rgba(0,0,0,0.40);
+      --clock-face: #232b31; --clock-ring: #3d4750;
+    }
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body { background: var(--page); color: var(--ink-1); font-family: "DejaVu Sans", system-ui, -apple-system, "Segoe UI", sans-serif; line-height: 1.55; padding: 32px 20px 72px; transition: background .25s, color .25s; }
+  .wrap { max-width: 1180px; margin: 0 auto; }
+
+  /* ---------- header ---------- */
+  .topbar { display: flex; flex-wrap: wrap; align-items: flex-start; gap: 14px; }
+  .topbar .titles { flex: 1 1 420px; }
+  header h1 { font-family: Georgia, "Times New Roman", serif; font-size: 1.8rem; font-weight: 700; letter-spacing: -0.01em; }
+  header h1 .hgrad { color: var(--ink-1); }
+  header .sub { color: var(--ink-2); font-size: 0.9rem; margin-top: 4px; }
+  header .stamp { color: var(--ink-3); font-size: 0.78rem; margin-top: 3px; }
+  .themesw { display: inline-flex; background: var(--surface); border: 1px solid var(--border); border-radius: 999px; padding: 3px; box-shadow: var(--shadow); }
+  .themesw button { border: 0; background: none; color: var(--ink-2); font-family: inherit; font-size: 0.8rem; padding: 6px 13px; border-radius: 999px; cursor: pointer; font-weight: 600; }
+  .themesw button.on { background: var(--grad); color: #fff; }
+
+  /* ---------- clocks ---------- */
+  .clocks { display: flex; flex-wrap: wrap; gap: 12px; margin: 18px 0 6px; }
+  .clock { display: flex; align-items: center; gap: 12px; background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 11px 18px 11px 13px; min-width: 178px; box-shadow: var(--shadow); }
+  .clock svg { width: 52px; height: 52px; flex: none; }
+  .clock .face { fill: var(--clock-face); stroke: var(--clock-ring); stroke-width: 1.6; }
+  .clock .tickm { stroke: var(--ink-3); stroke-width: 1; opacity: .55; }
+  .clock .hh { stroke: var(--ink-1); stroke-width: 2.6; stroke-linecap: round; }
+  .clock .mh { stroke: var(--ink-1); stroke-width: 1.8; stroke-linecap: round; }
+  .clock .sh { stroke: var(--accent); stroke-width: 1; stroke-linecap: round; }
+  .clock .pin { fill: var(--accent); }
+  .clock .cz { font-size: 0.7rem; color: var(--ink-3); text-transform: uppercase; letter-spacing: 0.06em; font-weight: 600; }
+  .clock .ct { font-size: 1.3rem; font-weight: 800; font-variant-numeric: tabular-nums; letter-spacing: 0.01em; }
+  .clock .ct .sec { font-size: 0.8rem; color: var(--ink-3); font-weight: 600; }
+  .clock .cd { font-size: 0.7rem; color: var(--ink-2); }
+
+  /* ---------- stat tiles ---------- */
+  .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(145px,1fr)); gap: 12px; margin: 16px 0; }
+  .tile { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 15px 18px; box-shadow: var(--shadow); position: relative; overflow: hidden; }
+  .tile::before { content: ""; position: absolute; inset: 0 0 auto 0; height: 2px; background: var(--grad); opacity: .9; }
+  .tile.t-red::before { background: var(--crit); }
+  .tile.t-yellow::before { background: var(--warn); }
+  .tile .v { font-family: Georgia, serif; font-size: 1.6rem; font-weight: 700; }
+  .tile .l { font-size: 0.75rem; color: var(--ink-2); }
+
+  /* ---------- summary ---------- */
+  .summary { background: var(--surface); border: 1px solid var(--border); border-radius: 14px; padding: 22px 26px; margin: 14px 0 28px; box-shadow: var(--shadow); border-left: 4px solid transparent; border-image: none; position: relative; overflow: hidden; }
+  .summary::before { content:""; position:absolute; left:0; top:0; bottom:0; width:3px; background: var(--grad); }
+  .summary h2 { font-family: Georgia, serif; font-size: 1.08rem; margin-bottom: 12px; font-weight: 700; }
+  .summary ol { padding-left: 20px; display: grid; gap: 8px; }
+  .summary li { font-size: 0.9rem; color: var(--ink-2); }
+  .summary li strong { color: var(--ink-1); }
+
+  /* ---------- region tiles ---------- */
+  .regions { display: grid; grid-template-columns: repeat(auto-fit, minmax(270px, 1fr)); gap: 18px; margin-bottom: 32px; }
+  .rtile { position: relative; overflow: hidden; background: var(--surface); border: 1px solid var(--border); border-radius: 14px; padding: 24px; cursor: pointer; text-align: left; font-family: inherit; color: var(--ink-1); transition: transform .15s, box-shadow .15s, border-color .15s; box-shadow: var(--shadow); }
+  .rtile::before { content:""; position:absolute; inset:0 0 auto 0; height:2px; background: var(--grad); }
+  .rtile:hover { transform: translateY(-3px); box-shadow: var(--shadow-lift); border-color: var(--accent); }
+  .rtile .rt-flag { font-size: 2.1rem; filter: drop-shadow(0 2px 4px rgba(0,0,0,.15)); }
+  .rtile h3 { font-family: Georgia, serif; font-size: 1.35rem; margin: 8px 0 2px; font-weight: 700; }
+  .rtile .rt-counts { font-size: 0.8rem; color: var(--ink-2); margin-top: 6px; display: grid; gap: 2px; }
+  .rtile .rt-top { margin-top: 10px; font-size: 0.78rem; color: var(--ink-2); border-top: 1px solid var(--hairline); padding-top: 8px; }
+  .rtile .rt-top b { color: var(--crit); }
+  .rtile .rt-open { margin-top: 12px; color: var(--accent); font-size: 0.86rem; font-weight: 700; }
+
+  /* ---------- legend & filters ---------- */
+  .legend { display: flex; flex-wrap: wrap; gap: 14px; font-size: 0.78rem; color: var(--ink-2); margin: 4px 0 14px; }
+  .legend span { display: inline-flex; align-items: center; gap: 6px; }
+  .ldot { width: 10px; height: 10px; border-radius: 50%; display: inline-block; }
+  .filters { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; position: sticky; top: 0; z-index: 5; background: var(--page); padding: 12px 0; border-bottom: 1px solid var(--hairline); margin-bottom: 20px; }
+  .fgroup { display: flex; gap: 6px; align-items: center; flex-wrap: wrap; }
+  .fgroup .glabel { font-size: 0.7rem; color: var(--ink-3); margin-right: 2px; text-transform: uppercase; letter-spacing: 0.05em; font-weight: 700; }
+  .fbtn { background: var(--surface); border: 1px solid var(--border); border-radius: 999px; color: var(--ink-2); font-size: 0.82rem; padding: 5px 13px; cursor: pointer; font-family: inherit; box-shadow: var(--shadow); transition: border-color .12s, transform .12s; }
+  .fbtn:hover { border-color: var(--accent); transform: translateY(-1px); }
+  .fbtn.on { background: var(--grad); border-color: transparent; color: #fff; font-weight: 700; }
+  .fbtn.on-crit { background: var(--crit); border-color: var(--crit); color:#fff; font-weight:700; }
+  .fbtn.on-warn { background: var(--warn); border-color: var(--warn); color:#1a1a19; font-weight:700; }
+  .fbtn.on-good { background: var(--good); border-color: var(--good); color:#fff; font-weight:700; }
+  #q { flex: 1 1 170px; min-width: 150px; background: var(--surface); border: 1px solid var(--border); border-radius: 999px; color: var(--ink-1); font-size: 0.85rem; padding: 7px 15px; font-family: inherit; box-shadow: var(--shadow); }
+  #q:focus { outline: 2px solid var(--accent); outline-offset: 1px; }
+  .count-note { font-size: 0.78rem; color: var(--ink-3); margin-left: auto; }
+
+  /* ---------- region view ---------- */
+  .backbtn { background: var(--surface); border: 1px solid var(--border); border-radius: 999px; color: var(--ink-1); font-size: 0.9rem; padding: 8px 18px; cursor: pointer; font-family: inherit; font-weight: 700; margin-bottom: 14px; box-shadow: var(--shadow); }
+  .backbtn:hover { border-color: var(--accent); color: var(--accent); }
+  .rhead { display: flex; flex-wrap: wrap; align-items: center; gap: 14px; margin-bottom: 8px; }
+  .rhead h2 { font-family: Georgia, serif; font-size: 1.5rem; font-weight: 700; }
+
+  /* ---------- cards ---------- */
+  .cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(330px, 1fr)); gap: 14px; }
+  .card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 17px 19px; display: flex; flex-direction: column; gap: 8px; box-shadow: var(--shadow); transition: transform .12s, box-shadow .12s; position: relative; overflow: hidden; }
+  .card:hover { transform: translateY(-2px); box-shadow: var(--shadow-lift); }
+  .card::before { content:""; position:absolute; left:0; top:0; bottom:0; width:3px; }
+  .card.p-red::before   { background: var(--crit); }
+  .card.p-yellow::before{ background: var(--warn); }
+  .card.p-green::before { background: var(--good); }
+  .card .meta { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; font-size: 0.72rem; }
+  .badge { border-radius: 999px; padding: 2px 9px; font-weight: 700; display: inline-flex; align-items: center; gap: 5px; }
+  .b-red   { background: var(--crit-bg); color: var(--crit); }
+  .b-yellow{ background: var(--warn-bg); color: #8a6100; }
+  .b-green { background: var(--good-bg); color: var(--good); }
+  [data-theme="dark"] .b-yellow { color: var(--warn); }
+  @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .b-yellow { color: var(--warn); } }
+  .chip { background: var(--chip-bg); color: var(--ink-2); border-radius: 999px; padding: 2px 9px; }
+  .card h3 { font-size: 0.95rem; line-height: 1.35; }
+  .card h3 a { color: var(--ink-1); text-decoration: none; }
+  .card h3 a:hover { color: var(--accent); text-decoration: underline; }
+  .card p { font-size: 0.83rem; color: var(--ink-2); }
+  .card .src { font-size: 0.75rem; color: var(--ink-3); margin-top: auto; }
+  .card .src a { color: var(--ink-3); }
+
+  /* ---------- modules ---------- */
+  .modules { display: grid; grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); gap: 16px; margin-bottom: 28px; }
+  .module { background: var(--surface); border: 1px solid var(--border); border-radius: 14px; padding: 22px 24px; box-shadow: var(--shadow); }
+  .module h2 { font-family: Georgia, serif; font-size: 1.05rem; margin-bottom: 14px; font-weight: 700; }
+  .watch { display: grid; gap: 8px; }
+  .witem { display: flex; justify-content: space-between; align-items: center; gap: 10px; padding: 9px 12px; border: 1px solid var(--hairline); border-radius: 10px; cursor: pointer; background: var(--surface-2); font-family: inherit; color: var(--ink-1); text-align: left; transition: border-color .12s, transform .12s; }
+  .witem:hover { border-color: var(--accent); transform: translateX(2px); }
+  .witem .wname { font-size: 0.85rem; }
+  .witem .wcount { font-size: 0.74rem; font-weight: 700; background: var(--chip-bg); color: var(--ink-2); border-radius: 999px; padding: 2px 10px; white-space: nowrap; }
+  .witem .wcount.hot { background: var(--crit-bg); color: var(--crit); }
+  .events { display: grid; gap: 8px; }
+  .ev { display: grid; grid-template-columns: 96px 1fr; gap: 10px; padding: 9px 12px; border: 1px solid var(--hairline); border-radius: 10px; align-items: start; background: var(--surface-2); }
+  .ev .ed { font-size: 0.74rem; font-weight: 800; color: var(--accent); }
+  .ev .en { font-size: 0.85rem; }
+  .ev .en a { color: var(--ink-1); text-decoration: none; }
+  .ev .en a:hover { color: var(--accent); }
+  .ev .el { font-size: 0.72rem; color: var(--ink-3); }
+
+  .radarbox { margin-bottom: 24px; }
+  .rhead2 { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 10px; margin-bottom: 10px; }
+  .rhead2 h2 { margin-bottom: 0; }
+  .rsub { font-family: "DejaVu Sans", system-ui, sans-serif; font-weight: 400; color: var(--ink-3); font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; }
+  .rbtn { background: var(--grad); border: 0; border-radius: 999px; color: #fff; font-size: 0.83rem; padding: 8px 18px; cursor: pointer; font-family: inherit; font-weight: 700; box-shadow: var(--shadow); transition: transform .12s, opacity .12s; }
+  .rbtn:hover { transform: translateY(-1px); }
+  .rbtn:disabled { opacity: .55; cursor: wait; }
+  .ritem { display: grid; gap: 3px; padding: 9px 12px; border: 1px solid var(--hairline); border-radius: 10px; background: var(--surface-2); margin-bottom: 8px; }
+  .ritem .rt { font-size: 0.86rem; }
+  .ritem .rt a { color: var(--ink-1); text-decoration: none; }
+  .ritem .rt a:hover { color: var(--accent); text-decoration: underline; }
+  .ritem .rm { font-size: 0.72rem; color: var(--ink-3); }
+  .rtag { display: inline-block; border-radius: 999px; padding: 1px 8px; font-size: 0.68rem; font-weight: 700; background: var(--chip-bg); color: var(--ink-2); }
+  .rtime { font-size: 0.72rem; color: var(--ink-3); margin: 4px 0 8px; }
+  .rnote { font-size: 0.74rem; color: var(--ink-3); border-top: 1px solid var(--hairline); padding-top: 10px; margin-top: 6px; }
+
+  /* ---------- sources ---------- */
+  .sources { margin-bottom: 28px; }
+  .sources h2 { font-family: Georgia, serif; font-size: 1.05rem; margin-bottom: 4px; font-weight: 700; }
+  .sources .snote { font-size: 0.78rem; color: var(--ink-3); margin-bottom: 12px; }
+  .srcgrid { display: grid; grid-template-columns: repeat(auto-fit, minmax(290px, 1fr)); gap: 12px; }
+  .srccol { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 18px 20px; box-shadow: var(--shadow); }
+  .srccol h3 { font-size: 0.88rem; margin-bottom: 8px; }
+  .srccol h4 { font-size: 0.72rem; color: var(--ink-3); text-transform: uppercase; letter-spacing: 0.05em; margin: 10px 0 4px; }
+  .srccol ul { list-style: none; display: grid; gap: 3px; }
+  .srccol li { font-size: 0.8rem; color: var(--ink-2); }
+  .srccol li a { color: var(--ink-2); text-decoration: none; }
+  .srccol li a:hover { color: var(--accent); text-decoration: underline; }
+  .srccol li .stag { color: var(--ink-3); font-size: 0.7rem; }
+  .t1 { font-weight: 700; }
+
+  footer { color: var(--ink-3); font-size: 0.75rem; border-top: 1px solid var(--hairline); padding-top: 14px; }
+  .empty { color: var(--ink-3); font-size: 0.85rem; padding: 10px 0; }
+  .hidden { display: none !important; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <!-- ============ WIDOK GŁÓWNY ============ -->
+  <div id="view-home">
+    <div class="topbar">
+      <header class="titles">
+        <h1><span class="hgrad">Dashboard</span>: NEWS · AI · Technologie · Stomatologia</h1>
+        <div class="sub">Wybierz region, aby zobaczyć wiadomości z zaufanych, zweryfikowanych przez radę źródeł</div>
+        <div class="stamp">Ostatnia aktualizacja: <strong>12 lipca 2026, niedziela</strong> · aktualizowany codziennie ok. 9:30</div>
+      </header>
+      <div class="themesw" role="group" aria-label="Motyw kolorystyczny">
+        <button data-th="light">☀️ Jasny</button>
+        <button data-th="dark">🌙 Ciemny</button>
+        <button data-th="auto" class="on">🖥️ Auto</button>
+      </div>
+    </div>
+
+    <div class="clocks" id="clocks-home"></div>
+    <div class="stats" id="stats"></div>
+
+    <section class="summary">
+      <h2>Podsumowanie dnia — 5 rzeczy, które musisz wiedzieć</h2>
+      <ol>
+        <li><strong>Izrael ogłosił wybory parlamentarne na 27 października</strong> — głosowanie będzie de facto referendum ws. przywództwa Netanjahu; równolegle Autonomia Palestyńska wyznaczyła pierwsze od 20 lat wybory.</li>
+        <li><strong>Rosja przeprowadziła zmasowany atak na Kijów</strong> (8 ofiar), a wg Reuters Putin jest gotów eskalować mimo pokojowych nacisków Trumpa; eksperci ostrzegają o nasilających się rosyjskich cyberatakach na Polskę i Europę.</li>
+        <li><strong>OpenAI wydało GPT-5.6, xAI — Groka 4.5</strong>, a Nvidia straciła ok. bilion dolarów kapitalizacji — tydzień wielkich premier AI i korekty na rynku chipów.</li>
+        <li><strong>Polska ustawa o AI czeka na podpis prezydenta</strong>, NASK dostał dostęp do GPT-5.5 Cyber, a von der Leyen zapowiada unijne ograniczenia social mediów dla dzieci.</li>
+        <li><strong>Stomatologia:</strong> KE wszczęła postępowanie antymonopolowe wobec Align (iTero); Rapid Shape pokazał druk koron przy fotelu w 8 minut, a Planmeca — nowy skaner Onyx.</li>
+      </ol>
+    </section>
+
+    <div class="regions">
+      <button class="rtile" data-open="world"><span class="rt-flag">🌍</span><h3>Świat</h3><div class="rt-counts" id="rc-home-world"></div><div class="rt-top" id="rt-top-world"></div><div class="rt-open">Otwórz region →</div></button>
+      <button class="rtile" data-open="europe"><span class="rt-flag">🇪🇺</span><h3>Europa</h3><div class="rt-counts" id="rc-home-europe"></div><div class="rt-top" id="rt-top-europe"></div><div class="rt-open">Otwórz region →</div></button>
+      <button class="rtile" data-open="poland"><span class="rt-flag">🇵🇱</span><h3>Polska</h3><div class="rt-counts" id="rc-home-poland"></div><div class="rt-top" id="rt-top-poland"></div><div class="rt-open">Otwórz region →</div></button>
+    </div>
+
+    <section class="module radarbox">
+      <div class="rhead2">
+        <h2>Radar sygnałów <span class="rsub">wczesne, niezweryfikowane</span></h2>
+        <button class="rbtn" id="radar-refresh">🔄 Aktualizuj teraz</button>
+      </div>
+      <div id="radar-list"><div class="empty">Kurowane sygnały pojawią się przy porannej aktualizacji. Przycisk „Aktualizuj teraz" pobiera na żywo bieżące sygnały z Hacker News (dopasowane do Twoich tematów).</div></div>
+      <div class="rnote">Pełna aktualizacja całego dashboardu (kurowane wiadomości PL ze wszystkich źródeł) — codziennie ok. 9:30 lub na życzenie: napisz „odśwież dashboard" w czacie Claude.</div>
+    </section>
+
+    <div class="modules">
+      <section class="module">
+        <h2>Watchlista tematów <span style="font-weight:400;color:var(--ink-3);font-size:0.75rem">(kliknij — wyniki ze wszystkich regionów)</span></h2>
+        <div class="watch" id="watch"></div>
+      </section>
+      <section class="module">
+        <h2>Nadchodzące wydarzenia branżowe</h2>
+        <div class="events" id="events"></div>
+      </section>
+    </div>
+
+    <section class="sources">
+      <h2>Zaufane źródła — biała lista zatwierdzona przez radę</h2>
+      <div class="snote">Kryteria rady: własne dziennikarstwo (nie agregacja), wysoka faktograficzność i jawne sprostowania, brak twardego paywalla, zbalansowany mix; media państwowe oznaczone, tematy polityczne potwierdzane w ≥2 źródłach o różnym profilu. Odrzucono m.in. tabloidy, media skrajne oraz RT/Sputnik (dezinformacja).</div>
+      <div class="srcgrid">
+        <div class="srccol">
+          <h3>🌍 Świat</h3>
+          <h4>NEWS — Tier 1</h4>
+          <ul>
+            <li class="t1"><a href="https://www.reuters.com">Reuters</a> <span class="stag">— agencja, najwyższa faktograficzność</span></li>
+            <li class="t1"><a href="https://apnews.com">Associated Press</a> <span class="stag">— agencja, pełny otwarty dostęp</span></li>
+            <li class="t1"><a href="https://www.bbc.com/news">BBC News</a> <span class="stag">— największa sieć korespondentów</span></li>
+          </ul>
+          <h4>NEWS — Tier 2 (weryfikacja)</h4>
+          <ul>
+            <li><a href="https://www.theguardian.com/world">The Guardian</a> <span class="stag">— śledcze; profil liberalny</span></li>
+            <li><a href="https://www.aljazeera.com">Al Jazeera EN</a> <span class="stag">— Globalne Południe</span></li>
+            <li><a href="https://www.npr.org/sections/world/">NPR</a> · <a href="https://www.dw.com/en/">DW</a> · <a href="https://www.france24.com/en/">France 24</a> <span class="stag">— cross-check</span></li>
+          </ul>
+          <h4>Branżowe</h4>
+          <ul>
+            <li><a href="https://techcrunch.com/">TechCrunch</a> · <a href="https://www.theverge.com/">The Verge</a> · <a href="https://www.technologyreview.com/">MIT Tech Review</a></li>
+            <li><a href="https://www.dental-tribune.com/">Dental Tribune Intl</a> · <a href="https://www.ada.org/publications/ada-news">ADA News</a></li>
+          </ul>
+        </div>
+        <div class="srccol">
+          <h3>🇪🇺 Europa</h3>
+          <h4>NEWS — Tier 1</h4>
+          <ul>
+            <li class="t1"><a href="https://www.reuters.com/world/europe/">Reuters Europe</a> <span class="stag">— agencja</span></li>
+            <li class="t1"><a href="https://www.bbc.com/news/world/europe">BBC Europe</a> <span class="stag">— paneuropejski dział</span></li>
+            <li class="t1"><a href="https://www.politico.eu/">Politico Europe</a> <span class="stag">— instytucje UE</span></li>
+            <li class="t1"><a href="https://www.euronews.com/">Euronews</a> <span class="stag">— paneuropejski, bez paywalla</span></li>
+            <li class="t1"><a href="https://www.dw.com/en/europe/s-1433">DW Europe</a> <span class="stag">— publiczny*, niezależny redakcyjnie</span></li>
+          </ul>
+          <h4>NEWS — Tier 2 (weryfikacja)</h4>
+          <ul>
+            <li><a href="https://www.theguardian.com/world/europe-news">Guardian Europe</a> · <a href="https://www.euractiv.com/">Euractiv</a> · <a href="https://www.france24.com/en/europe/">France 24</a></li>
+            <li><a href="https://ec.europa.eu/commission/presscorner/">EC Press Corner / Consilium</a> <span class="stag">— źródła oficjalne UE</span></li>
+          </ul>
+          <h4>Branżowe</h4>
+          <ul>
+            <li><a href="https://sifted.eu/">Sifted</a> · <a href="https://mistral.ai/news/">Mistral AI</a></li>
+            <li><a href="https://www.dental-tribune.com/regions/europe/">Dental Tribune EU</a> · <a href="https://dentistry.co.uk/">Dentistry.co.uk</a></li>
+          </ul>
+        </div>
+        <div class="srccol">
+          <h3>🇵🇱 Polska</h3>
+          <h4>NEWS — Tier 1</h4>
+          <ul>
+            <li class="t1"><a href="https://www.pap.pl">PAP</a> <span class="stag">— agencja krajowa</span></li>
+            <li class="t1"><a href="https://www.rmf24.pl">RMF24</a> <span class="stag">— lider rankingu zaufania Reuters DNR</span></li>
+            <li class="t1"><a href="https://www.polsatnews.pl">Polsat News</a> <span class="stag">— wyśrodkowany</span></li>
+            <li class="t1"><a href="https://tvn24.pl">TVN24</a> <span class="stag">— + Konkret24; profil liberalny</span></li>
+            <li class="t1"><a href="https://www.rp.pl">Rzeczpospolita</a> <span class="stag">— balans centroprawicowy</span></li>
+          </ul>
+          <h4>NEWS — Tier 2 (weryfikacja)</h4>
+          <ul>
+            <li><a href="https://wiadomosci.radiozet.pl">Radio ZET</a> · <a href="https://wiadomosci.onet.pl">Onet</a> · <a href="https://wiadomosci.wp.pl">WP</a> · <a href="https://wydarzenia.interia.pl">Interia</a> · <a href="https://notesfrompoland.com">Notes from Poland</a></li>
+          </ul>
+          <h4>Branżowe</h4>
+          <ul>
+            <li><a href="https://cyberdefence24.pl/">CyberDefence24</a> · <a href="https://spidersweb.pl/">Spider's Web</a> · <a href="https://mamstartup.pl/">MamStartup</a> · <a href="https://www.gov.pl/web/cyfryzacja">Min. Cyfryzacji</a></li>
+            <li><a href="https://www.infodent24.pl/">infoDENT24</a> · <a href="https://dentonet.pl/">Dentonet</a> · <a href="https://pl.dental-tribune.com/">Dental Tribune PL</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      Dashboard generowany automatycznie na podstawie białej listy źródeł zatwierdzonej przez radę (12.07.2026). Priorytety (🔴/🟡/🟢) nadawane redakcyjnie wg wpływu na branżę/region. Newsy o tym samym wydarzeniu z wielu źródeł są deduplikowane — pokazywane raz, z najbardziej wiarygodnego źródła. * media finansowane publicznie oznaczone; przy tematach dot. fundatora wymagane drugie źródło. Wersja 2.4 · 12.07.2026.
+    </footer>
+  </div>
+
+  <!-- ============ WIDOK REGIONU ============ -->
+  <div id="view-region" class="hidden">
+    <button class="backbtn" id="back">← Powrót do wyboru regionu</button>
+    <div class="rhead">
+      <h2 id="r-title"></h2>
+      <div class="clocks" id="clocks-region" style="margin:0"></div>
+    </div>
+    <div class="legend" role="note">
+      <span><span class="ldot" style="background:var(--crit)"></span>🔴 Wysoki priorytet</span>
+      <span><span class="ldot" style="background:var(--warn)"></span>🟡 Średni</span>
+      <span><span class="ldot" style="background:var(--good)"></span>🟢 Informacyjne</span>
+    </div>
+    <div class="filters">
+      <div class="fgroup" id="fg-cat">
+        <span class="glabel">Kategoria</span>
+        <button class="fbtn on" data-f="cat" data-v="all">Wszystkie</button>
+        <button class="fbtn" data-f="cat" data-v="NEWS">📰 NEWS</button>
+        <button class="fbtn" data-f="cat" data-v="AI">🤖 AI</button>
+        <button class="fbtn" data-f="cat" data-v="Tech">💻 Tech</button>
+        <button class="fbtn" data-f="cat" data-v="Stomatologia">🦷 Stomatologia</button>
+      </div>
+      <div class="fgroup">
+        <span class="glabel">Ważność</span>
+        <button class="fbtn on" data-f="pri" data-v="all">Wszystkie</button>
+        <button class="fbtn" data-f="pri" data-v="red">🔴</button>
+        <button class="fbtn" data-f="pri" data-v="yellow">🟡</button>
+        <button class="fbtn" data-f="pri" data-v="green">🟢</button>
+      </div>
+      <input id="q" type="search" placeholder="🔍 Szukaj…" aria-label="Szukaj wiadomości">
+      <span class="count-note" id="cnt"></span>
+    </div>
+    <div class="cards" id="cards"></div>
+  </div>
+</div>
+
+<script>
+const NEWS = [
+  // ---------- NEWS ŚWIAT ----------
+  {title:"Izrael ogłosił termin wyborów parlamentarnych: 27 października",sum:"Koalicja rządząca i Kneset potwierdziły, że wybory w Izraelu odbędą się 27 października 2026. Głosowanie jest postrzegane jako referendum ws. przywództwa premiera Netanjahu po latach wojny i kryzysów.",src:"Al Jazeera",url:"https://www.aljazeera.com/news/2026/7/12/israel-to-hold-national-elections-on-october-27-parliament-says",date:"2026-07-12",cat:"NEWS",reg:"world",pri:"red"},
+  {title:"Rosyjski zmasowany atak rakietowo-dronowy na Ukrainę. Nie żyje osiem osób",sum:"Rosja przeprowadziła zmasowany atak rakietami balistycznymi i dronami na Kijów oraz inne miasta, zabijając osiem osób i raniąc kilkadziesiąt. W samym Kijowie służby zgłosiły kilkanaście osób rannych po nocnym ostrzale.",src:"Al Jazeera",url:"https://www.aljazeera.com/news/2026/7/11/russian-missile-attacks-wound-11-in-kyiv",date:"2026-07-11",cat:"NEWS",reg:"world",pri:"red"},
+  {title:"Reuters: Putin gotów eskalować wojnę mimo pokojowych nacisków Trumpa",sum:"Według źródeł Reuters Putin jest skłonny dalej eskalować wojnę w Ukrainie mimo presji Trumpa na rozmowy pokojowe. Kreml ma wierzyć, że czas gra na korzyść Rosji na froncie i w negocjacjach.",src:"Reuters",url:"https://www.reuters.com/world/europe/putin-likely-escalate-ukraine-war-despite-trump-peace-push-sources-say-2026-07-09/",date:"2026-07-09",cat:"NEWS",reg:"world",pri:"yellow"},
+  {title:"Autonomia Palestyńska wyznaczyła datę pierwszych od 20 lat wyborów",sum:"Władze Autonomii Palestyńskiej ogłosiły termin pierwszych od dwóch dekad dużych wyborów — kluczowy element powojennej reformy instytucji. Decyzja zapada pod międzynarodową presją na odnowę władz w Ramallah.",src:"The New York Times",url:"https://www.nytimes.com/2026/07/09/world/middleeast/palestinian-authority-elections-abbas.html",date:"2026-07-09",cat:"NEWS",reg:"world",pri:"yellow"},
+  {title:"Izrael ostrzegł USA: Iran przygotowywał nowy zamach na Trumpa",sum:"Według WSJ izraelski wywiad przekazał Amerykanom informacje o nowym irańskim spisku na życie prezydenta Trumpa. Doniesienia zaostrzają napięcia wokół kruchego porozumienia nuklearnego z Teheranem.",src:"The Wall Street Journal",url:"https://www.wsj.com/world/middle-east/iran-hatched-fresh-plot-to-kill-trump-israel-told-u-s-1511d9d2",date:"2026-07-10",cat:"NEWS",reg:"world",pri:"yellow"},
+  {title:"Największa od dekad ustawa mieszkaniowa w USA weszła w życie bez podpisu Trumpa",sum:"Ponadpartyjna ustawa o dostępności mieszkań, największa taka regulacja w USA od dziesięcioleci, stała się prawem bez podpisu prezydenta. Trump skrytykował projekt, ale nie zawetował go.",src:"NPR",url:"https://www.npr.org/2026/07/10/nx-s1-5885027/housing-bill-without-trump-signature",date:"2026-07-10",cat:"NEWS",reg:"world",pri:"yellow"},
+  {title:"Mundial 2026: Anglia i Argentyna zagrają w półfinale po dogrywkach",sum:"Anglia pokonała Norwegię 2:1 po dogrywce po dwóch golach Bellinghama, a Argentyna wygrała ze Szwajcarią w osłabieniu. Oba zespoły zmierzą się w półfinale mistrzostw świata.",src:"CNN",url:"https://www.cnn.com/2026/07/11/sport/live-news/world-cup-scores",date:"2026-07-11",cat:"NEWS",reg:"world",pri:"green"},
+  // ---------- NEWS EUROPA ----------
+  {title:"Hiszpania: pożar, w którym zginęło 12 osób, został opanowany",sum:"Władze Andaluzji poinformowały, że najtragiczniejszy w historii regionu pożar w rejonie Los Gallardos został ustabilizowany, a ewakuowani wracają do domów. Media ujawniają, że ofiary nie dostały ostrzeżenia o konieczności ucieczki.",src:"Euronews",url:"https://www.euronews.com/my-europe/2026/07/12/spain-wildfire-that-killed-12-people-has-now-stabilised-authorities-say",date:"2026-07-12",cat:"NEWS",reg:"europe",pri:"red"},
+  {title:"Trzecia fala upałów we Francji. Wieża Eiffla i paryskie zabytki zamykane wcześniej",sum:"Francja zmaga się z trzecią falą upałów od maja — Wieża Eiffla, Luwr i inne atrakcje skracają godziny otwarcia, rząd uruchomił procedury kryzysowe. Ekstremalne temperatury wymusiły zmiany w wydarzeniach plenerowych.",src:"France 24",url:"https://www.france24.com/en/france/20260711-paris-landmarks-to-close-early-as-france-swelters-under-third-heatwave-since-may",date:"2026-07-11",cat:"NEWS",reg:"europe",pri:"yellow"},
+  {title:"Mołdawia: prezydent Sandu nominowała biznesmena Vasile Tofana na premiera",sum:"Prezydent Maia Sandu desygnowała proeuropejskiego biznesmena i finansistę Vasile Tofana na szefa rządu Mołdawii. Nominacja ma przyspieszyć reformy i proces akcesji kraju do UE.",src:"Euronews",url:"https://www.euronews.com/my-europe/2026/07/11/moldovas-president-maia-sandu-nominates-pro-european-businessman-vasile-tofan-for-prime-mi",date:"2026-07-11",cat:"NEWS",reg:"europe",pri:"yellow"},
+  {title:"Von der Leyen zapowiada unijne ograniczenia dostępu dzieci do mediów społecznościowych",sum:"Szefowa KE oświadczyła, że jest przekonana do wprowadzenia w całej UE ograniczeń wiekowych w social mediach dla dzieci. Komisja rozważa m.in. zakaz dostępu dla najmłodszych na wzór australijski.",src:"Euronews",url:"https://www.euronews.com/my-europe/2026/07/13/von-der-leyen-social-media-ban",date:"2026-07-13",cat:"NEWS",reg:"europe",pri:"yellow"},
+  {title:"Setki pływaków w Sekwanie. Pierwszy od 80 lat wyścig rzeczny w Paryżu",sum:"Setki uczestników wzięły udział w pierwszym od 80 lat wyścigu pływackim w Sekwanie — efekt wieloletniego oczyszczania rzeki. Symboliczny sukces paryskiego programu przywracania rzeki mieszkańcom.",src:"Euronews",url:"https://ru.euronews.com/video/2026/07/12/france-hundreds-dive-into-the-seine-for-pariss-first-river-race-in-80-years",date:"2026-07-12",cat:"NEWS",reg:"europe",pri:"green"},
+  // ---------- NEWS POLSKA ----------
+  {title:"83. rocznica rzezi wołyńskiej. Tusk zapowiada budowę Muru Pamięci w Warszawie",sum:"W 83. rocznicę Krwawej Niedzieli premier Tusk ogłosił, że w Warszawie powstanie Mur Pamięci z nazwiskami ofiar zbrodni wołyńskiej. Prezydent Nawrocki podkreślił, że Polska nie zgadza się na zapomnienie o ok. 120 tys. zamordowanych.",src:"Polsat News",url:"https://www.polsatnews.pl/wiadomosc/2026-07-11/premier-w-rocznice-wolynia-w-warszawie-stanie-mur-pamieci/",date:"2026-07-11",cat:"NEWS",reg:"poland",pri:"red"},
+  {title:"Atak na policjantów CBZC na Ursynowie. Napastnik planował zabójstwa funkcjonariuszy",sum:"Sąd aresztował na trzy miesiące 29-latka, który zaatakował kastetem policjantów przed siedzibą CBZC w Warszawie. Śledczy ustalili, że od kwietnia planował zabójstwo szefa biura i kilkunastu funkcjonariuszy.",src:"RMF24",url:"https://www.rmf24.pl/regiony/warszawa/news-zaatakowal-kastetem-policjantow-potem-odkryto-przerazajace-p,nIdn,1009661",date:"2026-07-11",cat:"NEWS",reg:"poland",pri:"yellow"},
+  {title:"Rosyjskie cyberataki coraz groźniejsze. Polska i Europa na celowniku",sum:"Eksperci ostrzegają, że rosyjskie cyberataki na infrastrukturę w Polsce i Europie stają się coraz częstsze i bardziej zaawansowane. Celem są instytucje publiczne, energetyka i transport — element wojny hybrydowej.",src:"RMF24",url:"https://www.rmf24.pl/fakty/swiat/news-rosyjskie-cyberataki-staja-sie-coraz-grozniejsze-polska-i-eu,nIdn,1009822",date:"2026-07-13",cat:"NEWS",reg:"poland",pri:"yellow"},
+  {title:"IMGW wydał alerty: gwałtowna zmiana pogody, burze z gradem nad Polską",sum:"IMGW wydał ostrzeżenia przed gwałtownymi burzami z gradem i ulewami dla znacznej części kraju. Po fali upałów nadchodzi gwałtowna zmiana pogody; synoptycy ostrzegają przed podtopieniami.",src:"Goniec",url:"https://goniec.pl/imgw-wydal-alerty-nadchodzi-zmiana-pogody-w-czesci-polski-mozliwe-burze-z-gradem-ki-wmp-110726",date:"2026-07-11",cat:"NEWS",reg:"poland",pri:"green"},
+  {title:"Sprawa śmierci ojca Zbigniewa Ziobry wróciła do sądu",sum:"Głośna sprawa dotycząca śmierci ojca byłego ministra sprawiedliwości ponownie trafiła na wokandę — strony domagają się uchylenia wcześniejszego wyroku. Postępowanie od lat budzi emocje polityczne.",src:"RMF24",url:"https://www.rmf24.pl/fakty/polityka/news-sprawa-smierci-ojca-ziobry-wrocila-do-sadu-chca-uchylenia-wy,nIdn,1009821",date:"2026-07-13",cat:"NEWS",reg:"poland",pri:"green"},
+
+  // ---------- AI/TECH/STOMATOLOGIA ŚWIAT ----------
+  {title:"OpenAI publicznie udostępnia GPT-5.6 i nowe narzędzie ChatGPT Work",sum:"OpenAI wydało 9 lipca rodzinę modeli GPT-5.6 (Sol, Luna i Terra) po opóźnieniu wynikającym z przeglądu na prośbę rządu USA. Zaprezentowano też ChatGPT Work — agenta tworzącego dokumenty, arkusze i prezentacje.",src:"Axios",url:"https://www.axios.com/2026/07/09/ai-openai-gpt-release",date:"2026-07-09",cat:"AI",reg:"world",pri:"red"},
+  {title:"xAI wypuszcza Grok 4.5 — Musk nazywa go modelem klasy Opus",sum:"xAI zaprezentowało 8 lipca model Grok 4.5, konkurujący z najmocniejszymi modelami na rynku. Osiąga czołowe wyniki w agentowym użyciu narzędzi i inżynierii oprogramowania, choć recenzenci wskazują na podwyższone halucynacje.",src:"TechCrunch",url:"https://techcrunch.com/2026/07/08/spacexai-releases-grok-4-5-which-elon-describes-as-an-opus-class-model/",date:"2026-07-08",cat:"AI",reg:"world",pri:"red"},
+  {title:"Nvidia traci bilion dolarów kapitalizacji — wycena wraca do poziomów sprzed boomu AI",sum:"Kapitalizacja Nvidii spadła o ok. bilion dolarów, sprowadzając wskaźniki wyceny do poziomów sprzed boomu AI. Wyprzedaż objęła cały sektor półprzewodników na fali obaw o zwrot z wydatków na infrastrukturę.",src:"Bloomberg",url:"https://www.bloomberg.com/news/articles/2026-07-08/nvidia-s-1-trillion-slide-sends-valuation-to-pre-ai-boom-levels",date:"2026-07-08",cat:"Tech",reg:"world",pri:"red"},
+  {title:"Anthropic udostępnia Claude Cowork na urządzeniach mobilnych i w przeglądarce",sum:"Anthropic rozszerzył dostępność agenta Claude Cowork na iOS, Androida i web. Dane o użyciu pokazują, że większość użytkowników wykorzystuje narzędzie do zadań niezwiązanych z programowaniem.",src:"VentureBeat",url:"https://venturebeat.com/technology/anthropic-brings-claude-cowork-to-mobile-and-web-as-usage-data-shows-most-users-arent-coding",date:"2026-07-07",cat:"AI",reg:"world",pri:"yellow"},
+  {title:"Samsung notuje rekordowy zysk kwartalny, ale inwestorów niepokoją wydatki na AI",sum:"Samsung podał wstępne wyniki za II kw. 2026 z rekordowym zyskiem operacyjnym, napędzanym popytem na pamięci do centrów danych AI. Mimo ~1800% wzrostu zysku r/r akcje spadły z obawy o skalę dalszych inwestycji.",src:"CNBC",url:"https://www.cnbc.com/2026/07/07/samsung-electronics-preliminary-second-quarter-profit-hits-fresh-high.html",date:"2026-07-07",cat:"Tech",reg:"world",pri:"yellow"},
+  {title:"Niedobór pracowników zagraża wartym miliardy inwestycjom w amerykańskie fabryki chipów",sum:"Braki wykwalifikowanej kadry w USA zagrażają miliardowym inwestycjom w nowe fabryki półprzewodników. Problem dotyka projektów kluczowych dla łańcucha dostaw AI i może opóźnić uruchomienie zakładów.",src:"Bloomberg",url:"https://www.bloomberg.com/news/articles/2026-07-07/semiconductor-worker-shortfall-endangers-us-chip-factory-revival",date:"2026-07-07",cat:"Tech",reg:"world",pri:"yellow"},
+  {title:"Najgroźniejsze wycieki i ataki hakerskie pierwszej połowy 2026 roku — podsumowanie",sum:"TechCrunch opublikował przegląd największych naruszeń bezpieczeństwa H1 2026, w tym ataków ransomware i kradzieży danych milionów użytkowników. Rośnie skala wykorzystania AI w atakach.",src:"TechCrunch",url:"https://techcrunch.com/2026/07/07/the-worst-hacks-and-breaches-of-2026-so-far/",date:"2026-07-07",cat:"Tech",reg:"world",pri:"yellow"},
+  {title:"Dentsply Sirona i HeyGears: jednoczęściowy druk protez Lucitone",sum:"Zwalidowany workflow umożliwia jednoczęściowy druk protez całkowitych z żywic Lucitone Digital Print na drukarce UltraCraft MMF, eliminując klejenie elementów. Proces produkcji protez cyfrowych ulega skróceniu.",src:"Dental Tribune International",url:"https://www.dental-tribune.com/c/dentsply-sirona/news/dentsply-sirona-and-heygears-expand-digital-denture-collaboration-to-one-piece-production-with-lucitone/",date:"2026-06-30",cat:"Stomatologia",reg:"world",pri:"yellow"},
+  {title:"Samsung zapowiada Galaxy Unpacked na 22 lipca — nowe składane smartfony",sum:"Samsung rozesłał zaproszenia na Galaxy Unpacked pod hasłem \"A New Shape Unfolds\" (22 lipca). Spodziewane premiery: Galaxy Z Fold 8, Z Flip 8, nowe zegarki i możliwa nowa kategoria urządzeń składanych.",src:"Samsung Newsroom",url:"https://news.samsung.com/global/invitation-galaxy-unpacked-july-2026-a-new-shape-unfolds",date:"2026-07-08",cat:"Tech",reg:"world",pri:"green"},
+  {title:"Amazon zamyka platformę Mechanical Turk dla nowych klientów",sum:"Amazon przestaje przyjmować nowych klientów w pionierskim serwisie mikropracy, używanym m.in. do etykietowania danych dla AI. Decyzja odzwierciedla automatyzację zadań wykonywanych dotąd przez ludzi.",src:"TechCrunch",url:"https://techcrunch.com/2026/07/05/amazon-will-stop-accepting-new-customers-for-mechanical-turk/",date:"2026-07-05",cat:"AI",reg:"world",pri:"green"},
+  {title:"Midjourney żąda od studiów w Hollywood ujawnienia szczegółów wykorzystania AI",sum:"Midjourney domaga się, aby wielkie studia filmowe ujawniły szczegóły własnego wykorzystania narzędzi generatywnej AI. To element trwających sporów prawnych branży rozrywkowej z firmami AI.",src:"TechCrunch",url:"https://techcrunch.com/2026/07/04/midjourney-wants-hollywood-studios-to-reveal-the-details-of-their-ai-usage/",date:"2026-07-04",cat:"AI",reg:"world",pri:"green"},
+  {title:"Laboratorium Gator Dental Arts podwaja produkcję dzięki metalowej drukarce 3D Systems",sum:"Amerykańskie laboratorium wdrożyło drukarkę do metalu DMP Flex 200 do produkcji szkieletów protez z chromokobaltu. Wydajność wzrosła do ponad 5000 prac rocznie, a czas realizacji skrócił się do pięciu dni.",src:"Dental Tribune International",url:"https://www.dental-tribune.com/news/gator-dental-arts-redefines-dental-production-with-the-dmp-flex-200-3d-printer/",date:"2026-07-08",cat:"Stomatologia",reg:"world",pri:"green"},
+  {title:"AI staje się „systemem operacyjnym\" nowoczesnej stomatologii",sum:"Sztuczna inteligencja przeszła drogę od nowinki do zintegrowanej warstwy zarządzania praktyką i workflow klinicznych. O przewadze zdecyduje, czy praktyki użyją AI do cięcia kosztów, czy do podnoszenia jakości opieki.",src:"Dental Tribune International",url:"https://www.dental-tribune.com/news/from-seeds-to-systems-why-ai-is-becoming-the-operating-system-of-modern-dentistry/",date:"2026-07-01",cat:"Stomatologia",reg:"world",pri:"green"},
+  {title:"Chatboty AI zgodne z dowodami naukowymi w protetyce implantologicznej",sum:"Nowe badanie wykazało wysoką zgodność odpowiedzi dużych modeli językowych z aktualnymi dowodami naukowymi w protetyce na implantach. Rośnie potencjał chatbotów jako wsparcia informacyjnego dla klinicystów.",src:"Dental Tribune International",url:"https://www.dental-tribune.com/news/ai-chatbots-align-closely-with-implant-prosthodontic-evidence/",date:"2026-06-30",cat:"Stomatologia",reg:"world",pri:"green"},
+
+  // ---------- AI/TECH/STOMATOLOGIA EUROPA ----------
+  {title:"Rada UE dała ostateczne zielone światło dla uproszczenia i opóźnienia przepisów AI Act",sum:"Rada UE zatwierdziła pakiet zmian upraszczających AI Act, w tym odroczenie obowiązków dla systemów wysokiego ryzyka. To kluczowy element cyfrowego omnibusu zmniejszającego obciążenia regulacyjne firm.",src:"Rada UE (Consilium)",url:"https://www.consilium.europa.eu/en/press/press-releases/2026/06/29/artificial-intelligence-council-gives-final-green-light-to-simplify-and-streamline-rules/",date:"2026-06-29",cat:"AI",reg:"europe",pri:"red"},
+  {title:"Mistral AI wydaje pierwszy model robotyczny Robostral Navigate — wejście w fizyczną AI",sum:"Francuski Mistral zaprezentował Robostral Navigate, 8-miliardowy model nawigacji robotów z pojedynczej kamery RGB. To pierwszy krok europejskiego czempiona AI na rynek automatyzacji przemysłowej i robotyki.",src:"Bloomberg",url:"https://www.bloomberg.com/news/articles/2026-07-08/mistral-ai-releases-robotics-model-to-support-physical-ai-push",date:"2026-07-08",cat:"AI",reg:"europe",pri:"red"},
+  {title:"KE wszczyna postępowanie antymonopolowe wobec Align Technology ws. skanerów iTero",sum:"Komisja Europejska rozpoczęła formalne postępowanie dotyczące platformy skanerów wewnątrzustnych iTero i polityki akceptacji skanów. Align odrzuca zarzuty, podkreślając możliwość eksportu skanów do innych systemów.",src:"Align Technology (komunikat inwestorski)",url:"https://investor.aligntech.com/news-releases/news-release-details/align-technology-statement-european-commission-proceeding",date:"2026-06-30",cat:"Stomatologia",reg:"europe",pri:"red"},
+  {title:"Mistral AI zapowiada otwarty model frontier — wczesny dostęp już w lipcu",sum:"CEO Mistrala zapowiedział nowy otwarty model Mixture-of-Experts, który w lipcu wchodzi w fazę wczesnego dostępu i ma zmniejszyć dystans do zamkniętych modeli z USA. Firma ma infrastrukturę wartą 4 mld euro.",src:"TechTimes",url:"https://www.techtimes.com/articles/319798/20260706/mistral-ai-targets-frontier-gap-open-weight-model-entering-july-early-access.htm",date:"2026-07-06",cat:"AI",reg:"europe",pri:"yellow"},
+  {title:"Parlament Europejski poparł cyfrowe euro, by ograniczyć dominację USA w płatnościach",sum:"PE zatwierdził ramy prawne dla cyfrowego euro, otwierając negocjacje z państwami członkowskimi. Projekt ma wzmocnić suwerenność płatniczą Europy wobec amerykańskich systemów kart i big techów.",src:"Euronews",url:"https://www.euronews.com/business/2026/06/23/european-parliament-backs-long-awaited-digital-euro-to-reduce-us-dominance-in-payments",date:"2026-06-23",cat:"Tech",reg:"europe",pri:"yellow"},
+  {title:"Rekord w Europie: osiem startupów zebrało rundy powyżej 1 mld dolarów w 2026 roku",sum:"W H1 2026 aż osiem europejskich startupów zamknęło rundy finansowania ≥1 mld USD, bijąc rekordy. Kohortę dominują firmy AI oraz projekty związane z suwerennością technologiczną i obronnością.",src:"Sifted",url:"https://sifted.eu/articles/records-broken-as-eight-european-startups-raised-1bn-rounds-in-2026",date:"2026-06-24",cat:"Tech",reg:"europe",pri:"yellow"},
+  {title:"Straumann Group podnosi prognozę rentowności na 2026 rok",sum:"Straumann podwyższył prognozę ekspansji marży core EBIT na 2026 z 30-60 do 140-170 pb, wskazując na usprawnienia operacyjne. Grupa podtrzymuje cel wysokiego jednocyfrowego wzrostu organicznego przychodów.",src:"Straumann Group",url:"https://www.straumann.com/group/en/home/media/newsroom/mr/details.mr-detail.en.25aba1a4-df97-4995-a415-07a6b3bf6956.html",date:"2026-06-17",cat:"Stomatologia",reg:"europe",pri:"yellow"},
+  {title:"Rapid Shape prezentuje drukarkę ONE — korony przy fotelu w 8 minut",sum:"Niemiecki Rapid Shape wprowadził drukarkę 3D ONE z Rapid Print Kit, umożliwiając uzupełnienia tego samego dnia — koronę lub most można wydrukować przy fotelu w ok. 8 minut, w zwalidowanym workflow.",src:"Dental Tribune International",url:"https://www.dental-tribune.com/news/rapid-shape-introduces-the-one-and-rapid-print-kit/",date:"2026-07-03",cat:"Stomatologia",reg:"europe",pri:"yellow"},
+  {title:"Planmeca Onyx — nowy skaner wewnątrzustny fińskiego producenta już dostępny",sum:"Planmeca wprowadziła skaner wewnątrzustny Onyx o wysokiej precyzji we wszystkich wskazaniach — od ortodoncji po implantologię. Pracuje przewodowo i bezprzewodowo, integruje się z ekosystemem Planmeca PULSE.",src:"Planmeca",url:"https://www.planmeca.com/pl/aktualnosci/newsroom/2026/nowy-skaner-wewntrzustny-firmy-planmeca-jest-ju-dostpny--planmeca-onyx-oferuje-niezrownan-elastyczno-dla-kadej-kliniki/",date:"2026-06-22",cat:"Stomatologia",reg:"europe",pri:"yellow"},
+  {title:"Mistral wypuszcza OCR 4 — dokumentowa AI działająca na własnej infrastrukturze",sum:"Mistral wydał OCR 4: ekstrakcja danych z dokumentów w 170 językach, z bounding boxami i wskaźnikami pewności. Model działa on-premise, co czyni go atrakcyjnym dla sektorów regulowanych w Europie.",src:"Mistral AI",url:"https://mistral.ai/news/ocr-4/",date:"2026-06-24",cat:"AI",reg:"europe",pri:"green"},
+  {title:"Akcje Ericssona i Nokii w dół po doniesieniach o chipie Nvidii dla sieci 6G",sum:"Kursy Ericssona (-5,8%) i Nokii (-4,6%) spadły po informacjach, że Nvidia pracuje nad układem do jednostek radiowych 6G. Analitycy uspokajają, że na obawy jest za wcześnie, ale zalecają monitorowanie.",src:"MarketScreener",url:"https://www.marketscreener.com/news/ericsson-and-nokia-shares-slide-on-reports-of-potential-competition-from-nvidia-ce7f5cdad88bf526",date:"2026-06-09",cat:"Tech",reg:"europe",pri:"green"},
+
+  // ---------- AI/TECH/STOMATOLOGIA POLSKA ----------
+  {title:"USA dały Polsce zielone światło: NASK z dostępem do modelu GPT-5.5 Cyber od OpenAI",sum:"Polska jako trzeci kraj w Europie otrzymała zgodę USA na dostęp do wyspecjalizowanego modelu GPT-5.5 Cyber. NASK i CERT Polska użyją go do wykrywania podatności, analizy malware i informatyki śledczej.",src:"CyberDefence24",url:"https://cyberdefence24.pl/cyberbezpieczenstwo/amerykanie-dali-polsce-zielone-swiatlo-potezne-narzedzie-ai-juz-w-rekach-nask",date:"2026-07-02",cat:"AI",reg:"poland",pri:"red"},
+  {title:"Koniec prac parlamentu nad polską ustawą o AI — dokument na biurku prezydenta",sum:"Sejm przyjął 24 z 25 poprawek Senatu do ustawy o systemach AI wdrażającej unijny AI Act. Powstanie komisja KRiBSI nadzorująca rynek AI, nakładająca sankcje i prowadząca piaskownice regulacyjne.",src:"CyberDefence24",url:"https://cyberdefence24.pl/polityka-i-prawo/polska/koniec-parlamentarnych-prac-nad-ustawa-o-sztucznej-inteligencji-czas-na-ruch-prezydenta",date:"2026-07-03",cat:"AI",reg:"poland",pri:"red"},
+  {title:"Future Tech Poland przyspiesza: BGK przeznaczy ok. 500 mln zł na fundusze VC",sum:"BGK zainwestował już w trzy fundusze VC i growth, a do końca roku planuje ulokować ok. 500 mln zł w 5-6 zespołach. Kolejne 500 mln zł ma dołożyć Europejski Fundusz Inwestycyjny.",src:"MamStartup",url:"https://mamstartup.pl/miliony-na-polskie-innowacje-future-tech-poland-przyspiesza-z-inwestycjami/",date:"2026-07-11",cat:"Tech",reg:"poland",pri:"yellow"},
+  {title:"Duża lipcowa aktualizacja mObywatela: usługi dla firm, kierowców i studentów",sum:"Przedsiębiorcy mogą zawieszać i wznawiać działalność oraz zarządzać pełnomocnictwami, kierowcy sprawdzą OC pojazdu. Aktualizacja aktywuje też cyfrowe dyplomy i usługę e-Doręczeń.",src:"CHIP.pl",url:"https://www.chip.pl/2026/07/mobywatel-znowu-dostaje-nowosci-od-biznesu-po-sanepid",date:"2026-07-01",cat:"Tech",reg:"poland",pri:"yellow"},
+  {title:"Bielik odpowiada błyskawicznie — premiera technologii DFlash od SpeakLeash i Cyfronetu",sum:"SpeakLeash z Cyfronetem AGH udostępniły modele draft Bielik-11B-v3.0-DFlash, które dzięki dekodowaniu spekulatywnemu znacząco przyspieszają polski model. Pierwsze wdrożenie DFlash w Polsce obniża koszty infrastruktury.",src:"My Company Polska",url:"https://mycompanypolska.pl/artykul/blyskawiczne-odpowiedzi-od-polskiego-ai-tworcy-bielika-chwala-sie-nowym-rozwiazaniem/20888",date:"2026-06-26",cat:"AI",reg:"poland",pri:"yellow"},
+  {title:"CEDE 2026 w Poznaniu: 200 wystawców i nowoczesne technologie w stomatologii",sum:"33. edycja targów CEDE (11-13 czerwca, Poznań) zgromadziła ok. 200 wystawców. Program zdominowała stomatologia cyfrowa — od sprzętu, przez konferencje naukowe, po warsztaty z integracji technologii w protetyce.",src:"infoDENT24.pl",url:"https://www.infodent24.pl/bizdentpost/cede-2026-w-poznaniu-200-wystawcow-nowoczesne-technologie-w-stomatologii,127579.html",date:"2026-06-12",cat:"Stomatologia",reg:"poland",pri:"yellow"},
+  {title:"Bielik.AI wkrótce będzie mówić w 50 językach i wyprzedza Mistrala w pobraniach",sum:"Polski model Bielik rozszerza wsparcie z 30 do 50 języków i osiągnął 2,8 mln pobrań, wyprzedzając w swojej kategorii Mistrala. Model open source działa lokalnie — przydatny dla banków, medycyny i administracji.",src:"Bank.pl",url:"https://bank.pl/polski-model-jezykowy-bielik-ai-wkrotce-bedzie-mowic-w-50-jezykach/",date:"2026-06-16",cat:"AI",reg:"poland",pri:"green"},
+  {title:"AI ocenia pacjenta bez danych stomatologicznych — eksperci ostrzegają przed luką",sum:"Systemy AI analizujące zdrowie pacjentów nie mają dostępu do danych stomatologicznych, przez co obraz kliniczny jest niepełny. Integracja rekordów stomatologicznych z medycznymi dałaby trafniejsze rekomendacje.",src:"infoDENT24.pl",url:"https://www.infodent24.pl/techdentpost/sztuczna-inteligencja-bada-pacjenta-bez-danych-stomatologicznych-to-powazny-blad,127673.html",date:"2026-07-06",cat:"Stomatologia",reg:"poland",pri:"green"},
+  {title:"CEDE wraca do Poznania i stawia na edukację oraz innowacje",sum:"Po siedmiu latach przerwy targi CEDE powróciły do Poznania: trzy dni wykładów, warsztatów i prezentacji. Towarzyszyła im konferencja PTPS oraz warsztaty z cyfrowego projektowania uśmiechu i planowania CBCT.",src:"Dental Tribune Polska",url:"https://pl.dental-tribune.com/news/cede-wraca-do-poznania-i-stawia-na-edukacje-oraz-innowacje/",date:"2026-06-11",cat:"Stomatologia",reg:"poland",pri:"green"}
+];
+
+const EVENTS = [
+  {name:"Warsaw Dental Medica Show 2026",d:"17-19 września 2026",ds:"2026-09-17",loc:"Nadarzyn k. Warszawy 🇵🇱",type:"Stomatologia",url:"https://dentalmedicashow.pl/en/"},
+  {name:"EAO Congress 2026 (33. Kongres EAO)",d:"24-26 września 2026",ds:"2026-09-24",loc:"Lizbona, Portugalia 🇪🇺",type:"Stomatologia",url:"https://eao.org/congress/"},
+  {name:"World Summit AI 2026",d:"7-8 października 2026",ds:"2026-10-07",loc:"Amsterdam, Holandia 🇪🇺",type:"AI/Tech",url:"https://worldsummit.ai/"},
+  {name:"ADA 2026 Scientific Session",d:"8-10 października 2026",ds:"2026-10-08",loc:"Indianapolis, USA 🌍",type:"Stomatologia",url:"https://www.ada.org/education/scientific-session"},
+  {name:"Masters&Robots 2026",d:"20-21 października 2026",ds:"2026-10-20",loc:"Warszawa 🇵🇱",type:"AI/Tech",url:"https://mastersandrobots.tech/"},
+  {name:"Web Summit 2026",d:"9-12 listopada 2026",ds:"2026-11-09",loc:"Lizbona, Portugalia 🇪🇺",type:"AI/Tech",url:"https://websummit.com/"},
+  {name:"Slush 2026",d:"18-19 listopada 2026",ds:"2026-11-18",loc:"Helsinki, Finlandia 🇪🇺",type:"AI/Tech",url:"https://slush.org/"},
+  {name:"Greater New York Dental Meeting 2026",d:"27 XI - 1 XII 2026",ds:"2026-11-27",loc:"Nowy Jork, USA 🌍",type:"Stomatologia",url:"https://www.gnydm.com/"},
+  {name:"GITEX Global 2026",d:"7-11 grudnia 2026",ds:"2026-12-07",loc:"Dubaj, ZEA 🌍",type:"AI/Tech",url:"https://www.gitex.com/gitex-global-2026"},
+  {name:"CES 2027",d:"6-9 stycznia 2027",ds:"2027-01-06",loc:"Las Vegas, USA 🌍",type:"AI/Tech",url:"https://www.ces.tech/"},
+  {name:"IDS 2027 — International Dental Show",d:"16-20 marca 2027",ds:"2027-03-16",loc:"Kolonia, Niemcy 🇪🇺",type:"Stomatologia",url:"https://www.english.ids-cologne.de/"},
+  {name:"KRAKDENT 2027",d:"8-10 kwietnia 2027",ds:"2027-04-08",loc:"Kraków 🇵🇱",type:"Stomatologia",url:"https://krakdent.pl/"}
+];
+
+const WATCHLIST = [
+  {name:"🩻 AI w diagnostyce (RTG/CBCT, chatboty kliniczne)",kw:["diagnost","rtg","cbct","chatbot","pacjent","implant"]},
+  {name:"📷 Skanery wewnątrzustne",kw:["skaner","itero","wewnątrzustn","onyx"]},
+  {name:"🖨️ Druk 3D i CAD/CAM w stomatologii",kw:["druk","drukark","3d","protez","koron","cad"]},
+  {name:"🧠 Modele językowe (GPT, Grok, Mistral, Bielik)",kw:["gpt","grok","mistral","bielik","model"]},
+  {name:"⚖️ Regulacje AI (AI Act, ustawa PL)",kw:["ai act","ustaw","regulac","komisj","antymonopol","kribsi"]},
+  {name:"🔐 Cyberbezpieczeństwo",kw:["cyber","atak","wyciek","nask","ransomware","bezpieczeńst"]}
+];
+
+
+// ===================== MOTYW =====================
+let themeMode = "auto"; // pamięć sesji (bez localStorage — kompatybilność z artefaktami)
+function applyTheme(m){
+  themeMode = m;
+  if (m === "auto") document.documentElement.removeAttribute("data-theme");
+  else document.documentElement.setAttribute("data-theme", m);
+  document.querySelectorAll(".themesw button").forEach(b => b.classList.toggle("on", b.dataset.th === m));
+}
+document.querySelectorAll(".themesw button").forEach(b => b.addEventListener("click", () => applyTheme(b.dataset.th)));
+
+// ===================== ZEGARY =====================
+const ZONES = {
+  warsaw: {label:"Warszawa 🇵🇱", tz:"Europe/Warsaw"},
+  london: {label:"Londyn 🇬🇧", tz:"Europe/London"},
+  brussels: {label:"Bruksela 🇪🇺", tz:"Europe/Brussels"},
+  ny: {label:"Nowy Jork 🇺🇸", tz:"America/New_York"},
+  sf: {label:"San Francisco 🇺🇸", tz:"America/Los_Angeles"},
+  tokyo: {label:"Tokio 🇯🇵", tz:"Asia/Tokyo"}
+};
+const REGION_CLOCKS = { home:["warsaw","london","ny","sf","tokyo"], world:["ny","sf","london","tokyo"], europe:["warsaw","london","brussels"], poland:["warsaw"], all:["warsaw"] };
+
+function clockHTML(keys){
+  return keys.map(k => `
+  <div class="clock" data-tz="${ZONES[k].tz}">
+    <svg viewBox="0 0 44 44" aria-hidden="true">
+      <circle class="face" cx="22" cy="22" r="20"/>
+      <g class="ticks">${[0,1,2,3,4,5,6,7,8,9,10,11].map(i=>{const a=i*30*Math.PI/180;const x1=22+Math.sin(a)*17.2,y1=22-Math.cos(a)*17.2,x2=22+Math.sin(a)*(i%3===0?14.6:16),y2=22-Math.cos(a)*(i%3===0?14.6:16);return `<line class="tickm" x1="${x1.toFixed(1)}" y1="${y1.toFixed(1)}" x2="${x2.toFixed(1)}" y2="${y2.toFixed(1)}"/>`}).join("")}</g>
+      <line class="hh" x1="22" y1="22" x2="22" y2="12.5"/>
+      <line class="mh" x1="22" y1="22" x2="22" y2="8.5"/>
+      <line class="sh" x1="22" y1="24.5" x2="22" y2="7"/>
+      <circle class="pin" cx="22" cy="22" r="1.6"/>
+    </svg>
+    <div>
+      <div class="cz">${ZONES[k].label} <span class="dn"></span></div>
+      <div class="ct"><span class="hm">--:--</span> <span class="sec">--</span></div>
+      <div class="cd"></div>
+    </div>
+  </div>`).join("");
+}
+function tickClocks(){
+  const now = new Date();
+  document.querySelectorAll(".clock").forEach(el => {
+    const tz = el.dataset.tz;
+    try {
+      const parts = new Intl.DateTimeFormat("pl-PL",{timeZone:tz,hour:"2-digit",minute:"2-digit",second:"2-digit",hour12:false}).formatToParts(now);
+      const get = t => parts.find(p=>p.type===t).value;
+      const h = +get("hour"), m = +get("minute"), s = +get("second");
+      el.querySelector(".hm").textContent = `${String(h).padStart(2,"0")}:${String(m).padStart(2,"0")}`;
+      el.querySelector(".sec").textContent = String(s).padStart(2,"0");
+      el.querySelector(".cd").textContent = new Intl.DateTimeFormat("pl-PL",{timeZone:tz,weekday:"short",day:"numeric",month:"short"}).format(now);
+      el.querySelector(".dn").textContent = (h >= 7 && h < 20) ? "☀️" : "🌙";
+      el.querySelector(".hh").setAttribute("transform", `rotate(${(h%12)*30 + m*0.5} 22 22)`);
+      el.querySelector(".mh").setAttribute("transform", `rotate(${m*6 + s*0.1} 22 22)`);
+      el.querySelector(".sh").setAttribute("transform", `rotate(${s*6} 22 22)`);
+    } catch(e) { el.querySelector(".hm").textContent = "—"; }
+  });
+}
+
+// ===================== LOGIKA =====================
+const PRI_ORDER = {red:0, yellow:1, green:2};
+const PRI_META = { red:{cls:"b-red",ico:"🔴",label:"Wysoki priorytet"}, yellow:{cls:"b-yellow",ico:"🟡",label:"Średni"}, green:{cls:"b-green",ico:"🟢",label:"Info"} };
+const CAT_ICO = {NEWS:"📰", AI:"🤖", Tech:"💻", Stomatologia:"🦷"};
+const REG_META = {world:{flag:"🌍",name:"Świat"}, europe:{flag:"🇪🇺",name:"Europa"}, poland:{flag:"🇵🇱",name:"Polska"}, all:{flag:"🔎",name:"Wyniki ze wszystkich regionów"}};
+let curRegion = null, fCat = "all", fPri = "all", fQ = "";
+
+function fmtDate(d){ const m=["sty","lut","mar","kwi","maj","cze","lip","sie","wrz","paź","lis","gru"]; const [y,mo,da]=d.split("-"); return `${parseInt(da)} ${m[parseInt(mo)-1]} ${y}`; }
+function esc(s){ return s.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;"); }
+
+function matches(n){
+  if (curRegion !== "all" && n.reg !== curRegion) return false;
+  if (fCat !== "all" && n.cat !== fCat) return false;
+  if (fPri !== "all" && n.pri !== fPri) return false;
+  if (fQ) {
+    const hay = (n.title+" "+n.sum+" "+n.src).toLowerCase();
+    const terms = fQ.split("|").map(t => t.trim()).filter(Boolean);
+    if (!terms.some(t => hay.includes(t))) return false;
+  }
+  return true;
+}
+
+function card(n){
+  const p = PRI_META[n.pri];
+  const regChip = curRegion === "all" ? `<span class="chip">${REG_META[n.reg].flag} ${REG_META[n.reg].name}</span>` : "";
+  return `<article class="card p-${n.pri}">
+    <div class="meta">
+      <span class="badge ${p.cls}">${p.ico} ${p.label}</span>
+      <span class="chip">${CAT_ICO[n.cat]} ${n.cat}</span>
+      ${regChip}
+      <span class="chip">📆 ${fmtDate(n.date)}</span>
+    </div>
+    <h3><a href="${esc(n.url)}" target="_blank" rel="noopener">${esc(n.title)}</a></h3>
+    <p>${esc(n.sum)}</p>
+    <div class="src">Źródło: <a href="${esc(n.url)}" target="_blank" rel="noopener">${esc(n.src)}</a> ↗</div>
+  </article>`;
+}
+
+function renderRegion(){
+  const items = NEWS.filter(matches).sort((a,b)=>PRI_ORDER[a.pri]-PRI_ORDER[b.pri] || b.date.localeCompare(a.date));
+  document.getElementById("cards").innerHTML = items.length ? items.map(card).join("") : `<div class="empty">Brak wiadomości spełniających kryteria.</div>`;
+  const total = curRegion === "all" ? NEWS.length : NEWS.filter(n=>n.reg===curRegion).length;
+  document.getElementById("cnt").textContent = `${items.length} z ${total}`;
+}
+
+function openRegion(reg, presetQ){
+  curRegion = reg; fCat = "all"; fPri = "all"; fQ = presetQ ? presetQ.toLowerCase() : "";
+  document.querySelectorAll('.fbtn[data-f]').forEach(b => { b.className = "fbtn"; if (b.dataset.v === "all") b.classList.add("on"); });
+  document.getElementById("q").value = presetQ || "";
+  const rm = REG_META[reg];
+  document.getElementById("r-title").textContent = `${rm.flag} ${rm.name}`;
+  document.getElementById("clocks-region").innerHTML = clockHTML(REGION_CLOCKS[reg] || ["warsaw"]);
+  tickClocks();
+  document.getElementById("view-home").classList.add("hidden");
+  document.getElementById("view-region").classList.remove("hidden");
+  window.scrollTo(0,0);
+  renderRegion();
+}
+function goHome(){
+  document.getElementById("view-region").classList.add("hidden");
+  document.getElementById("view-home").classList.remove("hidden");
+  window.scrollTo(0,0);
+}
+
+function renderHome(){
+  const c = {red:0,yellow:0,green:0,NEWS:0,AI:0,Tech:0,Stomatologia:0};
+  NEWS.forEach(n => { c[n.pri]++; c[n.cat]++; });
+  document.getElementById("stats").innerHTML = `
+    <div class="tile"><div class="v">${NEWS.length}</div><div class="l">wiadomości łącznie</div></div>
+    <div class="tile t-red"><div class="v">${c.red}</div><div class="l">🔴 wysoki priorytet</div></div>
+    <div class="tile t-yellow"><div class="v">${c.yellow}</div><div class="l">🟡 średni priorytet</div></div>
+    <div class="tile"><div class="v">${c.NEWS}</div><div class="l">📰 NEWS</div></div>
+    <div class="tile"><div class="v">${c.AI} / ${c.Tech} / ${c.Stomatologia}</div><div class="l">🤖 AI / 💻 Tech / 🦷 Stomat.</div></div>
+    <div class="tile"><div class="v">${EVENTS.length}</div><div class="l">📅 wydarzenia</div></div>`;
+  for (const reg of ["world","europe","poland"]) {
+    const items = NEWS.filter(n=>n.reg===reg);
+    const cc = {NEWS:0,AI:0,Tech:0,Stomatologia:0,red:0};
+    items.forEach(n=>{cc[n.cat]++; if(n.pri==="red")cc.red++;});
+    document.getElementById("rc-home-"+reg).innerHTML =
+      `<span>📰 NEWS: <b>${cc.NEWS}</b> · 🤖 AI: <b>${cc.AI}</b> · 💻 Tech: <b>${cc.Tech}</b> · 🦷 Stomat.: <b>${cc.Stomatologia}</b></span><span>🔴 pilne: <b>${cc.red}</b> · razem: <b>${items.length}</b></span>`;
+    const top = items.filter(n=>n.pri==="red").sort((a,b)=>b.date.localeCompare(a.date))[0];
+    document.getElementById("rt-top-"+reg).innerHTML = top ? `<b>🔴 Najważniejsze:</b> ${esc(top.title)}` : "";
+  }
+  document.getElementById("clocks-home").innerHTML = clockHTML(REGION_CLOCKS.home);
+  document.getElementById("watch").innerHTML = WATCHLIST.map((w,i) => {
+    const hits = NEWS.filter(n => w.kw.some(k => (n.title+" "+n.sum).toLowerCase().includes(k)));
+    const reds = hits.filter(n => n.pri === "red").length;
+    return `<button class="witem" data-wi="${i}"><span class="wname">${w.name}</span><span class="wcount ${reds?"hot":""}">${hits.length} doniesień${reds?" · "+reds+"×🔴":""}</span></button>`;
+  }).join("");
+  document.querySelectorAll(".witem").forEach(el => el.addEventListener("click", () => openRegion("all", WATCHLIST[+el.dataset.wi].kw.join(" | "))));
+  document.getElementById("events").innerHTML = EVENTS.slice().sort((a,b)=>a.ds.localeCompare(b.ds)).map(e =>
+    `<div class="ev"><div class="ed">${e.d}</div><div><div class="en"><a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.name)}</a></div><div class="el">${e.type==="Stomatologia"?"🦷":"🤖"} ${e.type} · 📍 ${esc(e.loc)}</div></div></div>`).join("");
+}
+
+// bindings
+document.querySelectorAll(".rtile").forEach(t => t.addEventListener("click", () => openRegion(t.dataset.open)));
+document.getElementById("back").addEventListener("click", goHome);
+document.querySelectorAll(".fbtn").forEach(btn => {
+  btn.addEventListener("click", () => {
+    const f = btn.dataset.f, v = btn.dataset.v;
+    document.querySelectorAll(`.fbtn[data-f="${f}"]`).forEach(b => b.className = "fbtn");
+    if (f === "pri" && v !== "all") btn.classList.add(v==="red"?"on-crit":v==="yellow"?"on-warn":"on-good");
+    else btn.classList.add("on");
+    if (f === "cat") fCat = v; else fPri = v;
+    renderRegion();
+  });
+});
+document.getElementById("q").addEventListener("input", e => { fQ = e.target.value.trim().toLowerCase(); renderRegion(); });
+
+// ===================== RADAR: aktualizacja na żywo (Hacker News API, CORS) =====================
+const RADAR_KW = ["ai","gpt","llm"," model","openai","anthropic","claude","gemini","mistral","robot","chip","nvidia","semiconductor","dental","3d print","cyber","security","breach","quantum","agent"];
+function timeAgoPl(ts){ const m = Math.round((Date.now()/1000 - ts)/60); if (m < 60) return `${m} min temu`; const h = Math.round(m/60); if (h < 24) return `${h} godz. temu`; return `${Math.round(h/24)} dn. temu`; }
+async function refreshRadar(){
+  const btn = document.getElementById("radar-refresh");
+  const list = document.getElementById("radar-list");
+  btn.disabled = true; btn.textContent = "⏳ Pobieram…";
+  try {
+    const r = await fetch("https://hn.algolia.com/api/v1/search?tags=front_page&hitsPerPage=30");
+    if (!r.ok) throw new Error("HTTP " + r.status);
+    const data = await r.json();
+    const hits = (data.hits || []).filter(x => x.title);
+    const matched = hits.filter(x => { const t = (" " + x.title.toLowerCase()); return RADAR_KW.some(k => t.includes(k)); });
+    const pick = (matched.length ? matched : hits).slice(0, 5);
+    list.innerHTML = `<div class="rtime">Pobrano na żywo: ${new Intl.DateTimeFormat("pl-PL",{dateStyle:"medium",timeStyle:"short"}).format(new Date())} · źródło: Hacker News (front page)${matched.length ? "" : " · brak trafień tematycznych — pokazuję top ogólny"}</div>` +
+      pick.map(x => `<div class="ritem">
+        <div class="rt"><a href="${x.url || ("https://news.ycombinator.com/item?id="+x.objectID)}" target="_blank" rel="noopener">${x.title.replace(/</g,"&lt;")}</a></div>
+        <div class="rm"><span class="rtag">sygnał · EN</span> ${x.points || 0} pkt · ${x.num_comments || 0} komentarzy · ${x.created_at_i ? timeAgoPl(x.created_at_i) : ""}</div>
+      </div>`).join("");
+  } catch(e) {
+    list.innerHTML = `<div class="empty">Nie udało się pobrać sygnałów (${e.message}). Sprawdź połączenie z internetem i spróbuj ponownie.</div>`;
+  }
+  btn.disabled = false; btn.textContent = "🔄 Aktualizuj teraz";
+}
+document.getElementById("radar-refresh").addEventListener("click", refreshRadar);
+
+renderHome();
+tickClocks();
+setInterval(tickClocks, 1000);
+
+</script>
+</body>
+</html>

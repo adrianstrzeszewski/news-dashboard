@@ -338,7 +338,8 @@
         <div class="adtag">Clear · Stable · Secure</div>
       </div>
       <div class="adbody">
-        <p><b>Clinic Operational Intelligent Platform</b> — inteligentny system zarządzania kliniką stomatologiczną i medycyny estetycznej, ze wsparciem <b>AI</b> w codziennych operacjach: rejestracja i grafiki, EDM, rozliczenia i raporty w jednym miejscu. Do tego pełna opieka IT: RODO, cyberbezpieczeństwo, integracja RTG i skanerów 3D. <b>Warszawa i okolice.</b></p>
+        <p><b>Kompleksowa obsługa informatyczna gabinetów stomatologicznych i klinik medycyny estetycznej</b> — RODO, cyberbezpieczeństwo, EDM, integracja RTG i skanerów 3D, kopie zapasowe w chmurze. <b>Warszawa i okolice.</b></p>
+        <p style="margin-top:8px"><b>Clinic Operational Intelligent Platform</b> — nasz inteligentny system zarządzania kliniką ze wsparciem <b>AI</b> w codziennych operacjach: grafiki, rozliczenia i raporty w jednym miejscu.</p>
       </div>
       <div class="adcta">
         <a class="adbtn" href="https://itspace.com.pl/?utm_source=news-dashboard&utm_medium=referral&utm_campaign=daily-dashboard" target="_blank" rel="noopener">itspace.com.pl →</a>
@@ -451,7 +452,7 @@
     <footer>
       Dashboard generowany automatycznie wyłącznie ze źródeł spełniających pięć jawnych kryteriów wiarygodności (lista i kryteria powyżej). Priorytety (🔴/🟡/🟢) nadawane redakcyjnie wg wpływu na branżę/region. Newsy o tym samym wydarzeniu z wielu źródeł są deduplikowane — pokazywane raz, z najbardziej wiarygodnego źródła. * media finansowane publicznie oznaczone; przy tematach dot. fundatora wymagane drugie źródło.
       <br><br>
-      © 2026 <a class="fref" href="https://itspace.com.pl/?utm_source=news-dashboard&utm_medium=referral&utm_campaign=footer" target="_blank" rel="noopener">ITSPACE · itspace.com.pl</a> — serwis, jego układ, projekt graficzny oraz dobór i redakcja treści stanowią własność ITSPACE. <b>Wszelkie prawa zastrzeżone.</b> Tytuły i streszczenia materiałów prasowych przywoływane są w ramach <b>prawa cytatu</b> (art. 29 ustawy o prawie autorskim i prawach pokrewnych), każdorazowo ze wskazaniem źródła i odnośnikiem do oryginalnej publikacji; prawa do cytowanych materiałów pozostają przy ich wydawcach. Dashboard przygotowuje ITSPACE — IT dla stomatologii. Wersja 3.9 · 14.07.2026.
+      © 2026 <a class="fref" href="https://itspace.com.pl/?utm_source=news-dashboard&utm_medium=referral&utm_campaign=footer" target="_blank" rel="noopener">ITSPACE · itspace.com.pl</a> — serwis, jego układ, projekt graficzny oraz dobór i redakcja treści stanowią własność ITSPACE. <b>Wszelkie prawa zastrzeżone.</b> Tytuły i streszczenia materiałów prasowych przywoływane są w ramach <b>prawa cytatu</b> (art. 29 ustawy o prawie autorskim i prawach pokrewnych), każdorazowo ze wskazaniem źródła i odnośnikiem do oryginalnej publikacji; prawa do cytowanych materiałów pozostają przy ich wydawcach. Dashboard przygotowuje ITSPACE — IT dla stomatologii. Wersja 4.0 · 14.07.2026.
     </footer>
   </div>
 
@@ -626,7 +627,8 @@ const ZONES = {
   sf: {label:"San Francisco 🇺🇸", tz:"America/Los_Angeles", lat:37.7749, lon:-122.4194},
   tokyo: {label:"Tokio 🇯🇵", tz:"Asia/Tokyo", lat:35.6762, lon:139.6503}
 };
-const REGION_CLOCKS = { home:["warsaw","london","ny","sf","tokyo"], world:["ny","sf","london","tokyo"], europe:["warsaw","london","brussels"], poland:["warsaw"], warsaw:["warsaw"], all:["warsaw"] };
+const REGION_CLOCKS = { home:[], world:[], europe:[], poland:["warsaw"], warsaw:["warsaw"], all:[] };
+const WX_CITY = { world:"ny", europe:"warsaw", poland:"warsaw", warsaw:"warsaw", all:"warsaw" };
 
 function clockHTML(keys){
   return keys.map(k => `
@@ -877,7 +879,7 @@ async function fetchMap(kind){
   if (wxMapCache[kind]) return wxMapCache[kind];
   const cfg = WXMAPS[kind];
   const lats = cfg.cities.map(c=>c.lat).join(","), lons = cfg.cities.map(c=>c.lon).join(",");
-  const r = await fetch(`https://api.open-meteo.com/v1/forecast?latitude=${lats}&longitude=${lons}&daily=temperature_2m_max,temperature_2m_min,weather_code&timezone=Europe%2FWarsaw&forecast_days=3`);
+  const r = await fetch(`https://api.open-meteo.com/v1/forecast?latitude=${lats}&longitude=${lons}&daily=temperature_2m_max,temperature_2m_min,weather_code&hourly=temperature_2m,weather_code&timezone=Europe%2FWarsaw&forecast_days=3`);
   if (!r.ok) throw new Error("HTTP " + r.status);
   let j = await r.json();
   if (!Array.isArray(j)) j = [j];
@@ -893,19 +895,44 @@ async function renderWxMap(kind){
     const data = await fetchMap(kind);
     const CY = 12, days = data[0].daily.time;
     const dayLabel = (iso,i) => (i===0?"DZIŚ · ":i===1?"JUTRO · ":"") + new Intl.DateTimeFormat("pl-PL",{weekday:"long",day:"numeric",month:"numeric"}).format(new Date(iso+"T12:00:00")).toUpperCase();
+    // fazy dobowe zsynchronizowane z wędrówką słońca i nocnym przyciemnieniem
+    const PHASES = [
+      {name:"rano",      hour:7,  a:0,    b:0.25},
+      {name:"południe",  hour:13, a:0.25, b:0.62},
+      {name:"wieczór",   hour:19, a:0.62, b:0.82},
+      {name:"noc",       hour:23, a:0.82, b:1}
+    ];
+    // płynne przenikanie faz (ramp 0.03 cyklu ≈ 0,36 s)
+    const R = 0.03;
+    const phAnim = (a,b) => {
+      if (a === 0) return `<animate attributeName="opacity" values="1;1;0;0" keyTimes="0;${(b-R).toFixed(3)};${(b+R).toFixed(3)};1" dur="${CY}s" repeatCount="indefinite"/>`;
+      if (b >= 1)  return `<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;${(a-R).toFixed(3)};${(a+R).toFixed(3)};1" dur="${CY}s" repeatCount="indefinite"/>`;
+      return `<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;${(a-R).toFixed(3)};${(a+R).toFixed(3)};${(b-R).toFixed(3)};${(b+R).toFixed(3)};1" dur="${CY}s" repeatCount="indefinite"/>`;
+    };
+    const hourVal = (ci, arr, di, hour) => { const j = data[ci].hourly && data[ci].hourly[arr] ? data[ci].hourly[arr][di*24+hour] : null; return (j === null || j === undefined) ? null : j; };
     let groups = "";
     for (let di=0; di<3; di++){
       let g = `<g opacity="${di===0?1:0}"><animate attributeName="opacity" values="${[0,1,2].map(k=>k===di?1:0).join(";")};${di===0?1:0}" keyTimes="0;0.3333;0.6667;1" dur="${3*CY}s" calcMode="discrete" repeatCount="indefinite"/>`;
-      g += `<g clip-path="url(#mclip)" filter="url(#mblur)">`;
-      cfg.cities.forEach((c,ci)=>{ g += `<circle cx="${c.x}" cy="${c.y}" r="${cfg.heatR}" fill="${tempColor(data[ci].daily.temperature_2m_max[di])}" opacity="0.6"/>`; });
-      g += `</g>`;
       g += `<text x="${cfg.vw/2}" y="42" text-anchor="middle" font-size="24" font-weight="700" fill="var(--ink-1)" font-family="Georgia,serif">${dayLabel(days[di],di)}</text>`;
-      cfg.cities.forEach((c,ci)=>{
-        const code = data[ci].daily.weather_code[di];
-        g += wxIcon(wxCat(code), c.x, c.y-18, ci*0.4);
-        g += `<text x="${c.x}" y="${c.y+14}" text-anchor="middle" font-size="15" font-weight="800" fill="#1c262e" style="paint-order:stroke" stroke="rgba(255,255,255,0.75)" stroke-width="3">${Math.round(data[ci].daily.temperature_2m_max[di])}°</text>`;
-        g += `<text x="${c.x}" y="${c.y+28}" text-anchor="middle" font-size="9.5" fill="#2c3942" style="paint-order:stroke" stroke="rgba(255,255,255,0.6)" stroke-width="2.5">${c.n}</text>`;
-      });
+      for (const ph of PHASES){
+        let p = `<g opacity="0">${phAnim(ph.a, ph.b)}`;
+        p += `<g clip-path="url(#mclip)" filter="url(#mblur)">`;
+        cfg.cities.forEach((c,ci)=>{
+          const t = hourVal(ci, "temperature_2m", di, ph.hour) ?? data[ci].daily.temperature_2m_max[di];
+          p += `<circle cx="${c.x}" cy="${c.y}" r="${cfg.heatR}" fill="${tempColor(t)}" opacity="0.6"/>`;
+        });
+        p += `</g>`;
+        p += `<text x="${cfg.vw/2}" y="64" text-anchor="middle" font-size="12.5" font-weight="700" fill="var(--ink-2)" letter-spacing="2" style="text-transform:uppercase">${ph.name} · ${String(ph.hour).padStart(2,"0")}:00</text>`;
+        cfg.cities.forEach((c,ci)=>{
+          const code = hourVal(ci, "weather_code", di, ph.hour) ?? data[ci].daily.weather_code[di];
+          const t = hourVal(ci, "temperature_2m", di, ph.hour) ?? data[ci].daily.temperature_2m_max[di];
+          p += wxIcon(wxCat(code), c.x, c.y-18, ci*0.4);
+          p += `<text x="${c.x}" y="${c.y+14}" text-anchor="middle" font-size="15" font-weight="800" fill="#1c262e" style="paint-order:stroke" stroke="rgba(255,255,255,0.75)" stroke-width="3">${Math.round(t)}°</text>`;
+        });
+        p += `</g>`;
+        g += p;
+      }
+      cfg.cities.forEach(c => { g += `<text x="${c.x}" y="${c.y+28}" text-anchor="middle" font-size="9.5" fill="#2c3942" style="paint-order:stroke" stroke="rgba(255,255,255,0.6)" stroke-width="2.5">${c.n}</text>`; });
       g += `</g>`;
       groups += g;
     }
@@ -933,7 +960,7 @@ async function renderWxMap(kind){
     </svg>`;
     const lg = document.getElementById("wx-map-legend");
     lg.innerHTML = `<span class="lgl">°C:</span>` + [0,5,10,15,20,25,30,35].map(t=>`<span class="lgc" style="background:${tempColor(t)}">${t}</span>`).join("") +
-      `<span class="lgn">temperatury maks. dnia · cykl: świt → dzień → zmierzch → noc → kolejny dzień</span>`;
+      `<span class="lgn">temperatury godzinowe (7:00 / 13:00 / 19:00 / 23:00) · cykl: rano → południe → wieczór → noc → kolejny dzień</span>`;
   } catch(e) { host.innerHTML = `<div class="empty">Mapa pogody niedostępna (${e.message}) — sprawdź połączenie z internetem.</div>`; }
 }
 
@@ -950,7 +977,7 @@ async function fetch7(k){
   return wx7[k];
 }
 async function renderWxTiles(reg){
-  const k = (REGION_CLOCKS[reg] || ["warsaw"])[0];
+  const k = WX_CITY[reg] || "warsaw";
   const el = document.getElementById("wx-tiles");
   el.innerHTML = `<div class="wxtile"><div class="wl">Pogoda</div><div class="wd">pobieram…</div></div>`;
   try {

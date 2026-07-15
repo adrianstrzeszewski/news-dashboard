@@ -119,6 +119,9 @@
   .rtile::before { content:""; position:absolute; inset:0 0 auto 0; height:2px; background: var(--grad); }
   .rtile:hover { transform: translateY(-3px); box-shadow: var(--shadow-lift); border-color: var(--accent); }
   .rtile .rt-flag { font-size: 2.1rem; filter: drop-shadow(0 2px 4px rgba(0,0,0,.15)); }
+  .regico { vertical-align: -0.18em; }
+  .rt-flag .regico { vertical-align: middle; }
+  .clock svg.regico { width: 15px; height: 15px; vertical-align: -2px; }
   .rtile h3 { font-family: Georgia, serif; font-size: 1.35rem; margin: 8px 0 2px; font-weight: 700; }
   .rtile .rt-counts { font-size: 0.8rem; color: var(--ink-2); margin-top: 6px; display: grid; gap: 2px; }
   .rtile .rt-top { margin-top: 10px; font-size: 0.78rem; color: var(--ink-2); border-top: 1px solid var(--hairline); padding-top: 8px; }
@@ -294,6 +297,56 @@
 </style>
 </head>
 <body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="ico-world" viewBox="0 0 48 48">
+      <circle cx="24" cy="24" r="19" fill="#cfe3ea"/>
+      <path d="M24 5a19 19 0 100 38 19 19 0 000-38zm0 3c2.8 0 5.6 6.9 5.6 16S26.8 40 24 40s-5.6-6.9-5.6-16S21.2 8 24 8z" fill="#87b5c4" opacity=".55"/>
+      <path d="M14 13c3-2.5 7-3 9-2s1 3-1 4-5 .5-6 2-3 2-4 1 0-4 2-5z" fill="#6f8f5a"/>
+      <path d="M28 12c2.5-1 6 0 7.5 2s1.5 4-.5 4.5-4-1-5.5-1-3.5-.5-3.5-2 .5-3 2-3.5z" fill="#6f8f5a"/>
+      <path d="M17 24c2-2 6-1.5 8 0s2.5 4 1.5 6.5S23 35 21 34s-3-2.5-4-4-2-4 0-6z" fill="#6f8f5a"/>
+      <path d="M31 25c2-.8 4.5.2 5 2s-.5 4.5-2.5 5-3.5-1-4-3 0-3.5 1.5-4z" fill="#6f8f5a"/>
+      <circle cx="24" cy="24" r="19" fill="none" stroke="#2b3a44" stroke-width="2"/>
+      <ellipse cx="24" cy="24" rx="9" ry="19" fill="none" stroke="#2b3a44" stroke-width="1" opacity=".55"/>
+      <path d="M5.5 24h37M8 15h32M8 33h32" stroke="#2b3a44" stroke-width="1" opacity=".55" fill="none"/>
+    </symbol>
+    <symbol id="ico-eu" viewBox="0 0 48 48">
+      <rect x="3" y="9" width="42" height="30" rx="3.5" fill="#003399" stroke="#1d2733" stroke-width="1.6"/>
+      <g fill="#FFCC00">
+        <g id="eu-star"><path d="M24 12.1l.5 1.5h1.6l-1.3.95.5 1.5-1.3-.93-1.3.93.5-1.5-1.3-.95h1.6z"/></g>
+        <use href="#eu-star" transform="rotate(30 24 24)"/><use href="#eu-star" transform="rotate(60 24 24)"/>
+        <use href="#eu-star" transform="rotate(90 24 24)"/><use href="#eu-star" transform="rotate(120 24 24)"/>
+        <use href="#eu-star" transform="rotate(150 24 24)"/><use href="#eu-star" transform="rotate(180 24 24)"/>
+        <use href="#eu-star" transform="rotate(210 24 24)"/><use href="#eu-star" transform="rotate(240 24 24)"/>
+        <use href="#eu-star" transform="rotate(270 24 24)"/><use href="#eu-star" transform="rotate(300 24 24)"/>
+        <use href="#eu-star" transform="rotate(330 24 24)"/>
+      </g>
+    </symbol>
+    <symbol id="ico-pl" viewBox="0 0 48 48">
+      <rect x="3" y="9" width="42" height="15" fill="#f6f4ee"/>
+      <rect x="3" y="24" width="42" height="15" fill="#D4213D"/>
+      <rect x="3" y="9" width="42" height="30" rx="3.5" fill="none" stroke="#1d2733" stroke-width="1.6"/>
+    </symbol>
+    <symbol id="ico-wwa" viewBox="0 0 48 48">
+      <path d="M24 4.5c5.5 2.6 11.5 3.6 16 3.6 0 14.5-4 26.5-16 35.4C12 34.6 8 22.6 8 8.1c4.5 0 10.5-1 16-3.6z" fill="#b8272f" stroke="#1d2733" stroke-width="1.8"/>
+      <path d="M24 7.2c4.6 2 9.3 3 13.4 3.2-.3 12.6-3.9 23-13.4 30.6C14.5 33.4 10.9 23 10.6 10.4c4.1-.2 8.8-1.2 13.4-3.2z" fill="none" stroke="#e9c46a" stroke-width="1" opacity=".75"/>
+      <g fill="#e9c46a">
+        <path d="M28.8 19.8L36 11l1.9 1.6-7.1 9z"/>
+        <path d="M35.4 9.2l2.6-3 2 1.7-2.7 2.9z" fill="#f5e9c8"/>
+        <circle cx="26.6" cy="15" r="2.9"/>
+        <path d="M23.8 18.4c1.6-1 4-.9 5.2.3.9 1 .8 2.6.3 4.1l-1 3.2c-.3 1-.4 2-.3 3l-6-.1c-.3-2.1-.1-4.2.4-6.2.3-1.5.7-3.3 1.4-4.3z"/>
+        <circle cx="18.6" cy="21.6" r="3.4" fill="#f5e9c8"/>
+        <circle cx="18.6" cy="21.6" r="1.5"/>
+        <path d="M28 28.6c.4 3.5-1.6 6.6-5 7.7-2.7.9-5.6.1-7.4-1.9 2-.1 3.7-.9 4.8-2.3-2-.1-3.7-1.2-4.4-2.9 1.6.4 3.2.2 4.6-.6 1.5-.9 3-1.1 4.4-.6z"/>
+        <path d="M15.6 34.4c-1.9.2-3.7-.4-4.9-1.7 1.6-.5 2.9-1.5 3.7-2.9.5 1.6.9 3.1 1.2 4.6z"/>
+      </g>
+      <g fill="none" stroke="#8a5a12" stroke-width=".7" opacity=".85">
+        <circle cx="26.6" cy="15" r="2.9"/>
+        <circle cx="18.6" cy="21.6" r="3.4"/>
+      </g>
+    </symbol>
+  </defs>
+</svg>
 <div class="wrap">
 
   <!-- ============ WIDOK GŁÓWNY ============ -->
@@ -327,10 +380,10 @@
     </section>
 
     <div class="regions">
-      <button class="rtile" data-open="world"><span class="rt-flag">🌍</span><h3>Świat</h3><div class="rt-counts" id="rc-home-world"></div><div class="rt-top" id="rt-top-world"></div><div class="rt-open">Otwórz region →</div></button>
-      <button class="rtile" data-open="europe"><span class="rt-flag">🇪🇺</span><h3>Europa</h3><div class="rt-counts" id="rc-home-europe"></div><div class="rt-top" id="rt-top-europe"></div><div class="rt-open">Otwórz region →</div></button>
-      <button class="rtile" data-open="poland"><span class="rt-flag">🇵🇱</span><h3>Polska</h3><div class="rt-counts" id="rc-home-poland"></div><div class="rt-top" id="rt-top-poland"></div><div class="rt-open">Otwórz region →</div></button>
-      <button class="rtile" data-open="warsaw"><span class="rt-flag">🏙️</span><h3>Warszawa</h3><div class="rt-counts" id="rc-home-warsaw"></div><div class="rt-top" id="rt-top-warsaw"></div><div class="rt-open">Otwórz region →</div></button>
+      <button class="rtile" data-open="world"><span class="rt-flag"><svg class='regico' width='44' height='44' aria-hidden='true'><use href='#ico-world'></use></svg></span><h3>Świat</h3><div class="rt-counts" id="rc-home-world"></div><div class="rt-top" id="rt-top-world"></div><div class="rt-open">Otwórz region →</div></button>
+      <button class="rtile" data-open="europe"><span class="rt-flag"><svg class='regico' width='44' height='44' aria-hidden='true'><use href='#ico-eu'></use></svg></span><h3>Europa</h3><div class="rt-counts" id="rc-home-europe"></div><div class="rt-top" id="rt-top-europe"></div><div class="rt-open">Otwórz region →</div></button>
+      <button class="rtile" data-open="poland"><span class="rt-flag"><svg class='regico' width='44' height='44' aria-hidden='true'><use href='#ico-pl'></use></svg></span><h3>Polska</h3><div class="rt-counts" id="rc-home-poland"></div><div class="rt-top" id="rt-top-poland"></div><div class="rt-open">Otwórz region →</div></button>
+      <button class="rtile" data-open="warsaw"><span class="rt-flag"><svg class='regico' width='44' height='44' aria-hidden='true'><use href='#ico-wwa'></use></svg></span><h3>Warszawa</h3><div class="rt-counts" id="rc-home-warsaw"></div><div class="rt-top" id="rt-top-warsaw"></div><div class="rt-open">Otwórz region →</div></button>
     </div>
 
     <section class="adbox">
@@ -374,7 +427,7 @@
       <div class="snote">Pięć jawnych kryteriów doboru: (1) własne dziennikarstwo, nie agregacja clickbaitów; (2) udokumentowana rzetelność i praktyka sprostowań (m.in. wg rankingu zaufania Reuters Institute Digital News Report); (3) treść dostępna bez twardego paywalla; (4) zbalansowany mix profili — tematy polityczne potwierdzane w ≥2 źródłach o różnym przechyle; (5) media finansowane publicznie są oznaczone (*). Odrzucamy tabloidy, media skrajne i tuby propagandowe (np. RT/Sputnik). Tier 1 = czytane zawsze, Tier 2 = weryfikacja i uzupełnienie.</div>
       <div class="srcgrid">
         <div class="srccol">
-          <h3>🌍 Świat</h3>
+          <h3><svg class='regico' width='17' height='17' aria-hidden='true'><use href='#ico-world'></use></svg> Świat</h3>
           <h4>NEWS — Tier 1</h4>
           <ul>
             <li class="t1"><a href="https://www.reuters.com">Reuters</a> <span class="stag">— agencja, najwyższa faktograficzność</span></li>
@@ -394,7 +447,7 @@
           </ul>
         </div>
         <div class="srccol">
-          <h3>🇪🇺 Europa</h3>
+          <h3><svg class='regico' width='17' height='17' aria-hidden='true'><use href='#ico-eu'></use></svg> Europa</h3>
           <h4>NEWS — Tier 1</h4>
           <ul>
             <li class="t1"><a href="https://www.reuters.com/world/europe/">Reuters Europe</a> <span class="stag">— agencja</span></li>
@@ -415,7 +468,7 @@
           </ul>
         </div>
         <div class="srccol">
-          <h3>🇵🇱 Polska</h3>
+          <h3><svg class='regico' width='17' height='17' aria-hidden='true'><use href='#ico-pl'></use></svg> Polska</h3>
           <h4>NEWS — Tier 1</h4>
           <ul>
             <li class="t1"><a href="https://www.pap.pl">PAP</a> <span class="stag">— agencja krajowa</span></li>
@@ -435,7 +488,7 @@
           </ul>
         </div>
         <div class="srccol">
-          <h3>🏙️ Warszawa</h3>
+          <h3><svg class='regico' width='17' height='17' aria-hidden='true'><use href='#ico-wwa'></use></svg> Warszawa</h3>
           <h4>NEWS lokalne — Tier 1</h4>
           <ul>
             <li class="t1"><a href="https://tvn24.pl/tvnwarszawa">TVN Warszawa</a> <span class="stag">— największa redakcja miejska</span></li>
@@ -604,9 +657,10 @@ function applyTheme(m){
 }
 document.querySelectorAll(".themesw button").forEach(b => b.addEventListener("click", () => applyTheme(b.dataset.th)));
 
+const REG_ICO = (k, px) => "<svg class='regico' width='" + px + "' height='" + px + "' aria-hidden='true'><use href='#ico-" + k + "'></use></svg>";
 // ===================== ZEGARY =====================
 const ZONES = {
-  warsaw: {label:"Warszawa 🇵🇱", tz:"Europe/Warsaw", lat:52.2297, lon:21.0122},
+  warsaw: {label:"Warszawa " + REG_ICO("pl",15), tz:"Europe/Warsaw", lat:52.2297, lon:21.0122},
   london: {label:"Londyn 🇬🇧", tz:"Europe/London", lat:51.5072, lon:-0.1276},
   brussels: {label:"Bruksela 🇪🇺", tz:"Europe/Brussels", lat:50.8503, lon:4.3517},
   ny: {label:"Nowy Jork 🇺🇸", tz:"America/New_York", lat:40.7128, lon:-74.006},
@@ -657,7 +711,7 @@ function tickClocks(){
 const PRI_ORDER = {red:0, yellow:1, green:2};
 const PRI_META = { red:{cls:"b-red",ico:"🔴",label:"Wysoki priorytet"}, yellow:{cls:"b-yellow",ico:"🟡",label:"Średni"}, green:{cls:"b-green",ico:"🟢",label:"Info"} };
 const CAT_ICO = {NEWS:"📰", AI:"🤖", Tech:"💻", Stomatologia:"🦷"};
-const REG_META = {world:{flag:"🌍",name:"Świat"}, europe:{flag:"🇪🇺",name:"Europa"}, poland:{flag:"🇵🇱",name:"Polska"}, warsaw:{flag:"🏙️",name:"Warszawa"}, all:{flag:"🔎",name:"Wyniki ze wszystkich regionów"}};
+const REG_META = {world:{flag:REG_ICO("world",22),name:"Świat"}, europe:{flag:REG_ICO("eu",22),name:"Europa"}, poland:{flag:REG_ICO("pl",22),name:"Polska"}, warsaw:{flag:REG_ICO("wwa",22),name:"Warszawa"}, all:{flag:"🔎",name:"Wyniki ze wszystkich regionów"}};
 let curRegion = null, fCat = "all", fPri = "all", fQ = "";
 
 function fmtDate(d){ const m=["sty","lut","mar","kwi","maj","cze","lip","sie","wrz","paź","lis","gru"]; const [y,mo,da]=d.split("-"); return `${parseInt(da)} ${m[parseInt(mo)-1]} ${y}`; }
@@ -707,7 +761,7 @@ function openRegion(reg, presetQ, presetCat, presetPri){
   });
   document.getElementById("q").value = presetQ || "";
   const rm = REG_META[reg];
-  document.getElementById("r-title").textContent = `${rm.flag} ${rm.name}`;
+  document.getElementById("r-title").innerHTML = `${rm.flag} ${rm.name}`;
   document.getElementById("clocks-region").innerHTML = clockHTML(REGION_CLOCKS[reg] || ["warsaw"]);
   tickClocks();
   renderWxTiles(reg);

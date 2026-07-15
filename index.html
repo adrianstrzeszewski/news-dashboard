@@ -123,6 +123,11 @@
   .rt-flag .regico { vertical-align: middle; }
   .clock svg.regico { width: 15px; height: 15px; vertical-align: -2px; }
   .dlnav .regico { vertical-align: -2px; }
+  .goodsw { border: 1px solid var(--border); background: var(--surface); color: var(--ink-2); font-family: inherit; font-size: 0.8rem; font-weight: 600; padding: 6px 14px; border-radius: 999px; cursor: pointer; box-shadow: var(--shadow); margin-left: 10px; transition: all .15s; }
+  .goodsw.on { background: linear-gradient(135deg, #e8a020, #f4c542); border-color: #d99a1e; color: #3a2c05; }
+  .goodsw:hover { transform: translateY(-1px); }
+  .goodsum::before { background: linear-gradient(180deg, #e8a020, #f4c542); }
+  @media (max-width: 640px) { .goodsw { margin-left: 0; margin-top: 6px; } }
   .rtile h3 { font-family: Georgia, serif; font-size: 1.35rem; margin: 8px 0 2px; font-weight: 700; }
   .rtile .rt-counts { font-size: 0.8rem; color: var(--ink-2); margin-top: 6px; display: grid; gap: 2px; }
   .rtile .rt-top { margin-top: 10px; font-size: 0.78rem; color: var(--ink-2); border-top: 1px solid var(--hairline); padding-top: 8px; }
@@ -360,6 +365,7 @@
           <button data-th="dark">🌙 Ciemny</button>
           <button data-th="auto" class="on">🖥️ Auto</button>
         </div>
+        <button class="goodsw" id="goodsw" title="Pokaż wyłącznie dobre wiadomości z tego wydania">☀️ Dobre wiadomości</button>
       </div>
       <header class="masthead">
         <h1>NEWS · <span class="hgrad">AI</span> · Technologie · Stomatologia</h1>
@@ -369,7 +375,9 @@
     </div>
     <div class="stats" id="stats"></div>
 
-    <section class="summary">
+    <section class="summary goodsum hidden" id="good-summary"></section>
+
+    <section class="summary" id="day-summary">
       <h2>Podsumowanie dnia — 5 rzeczy, które musisz wiedzieć</h2>
       <ol>
         <li><strong>Świat na krawędzi — wojna, pożary, powodzie</strong> — USA i Iran trzeci tydzień eskalują starcie o Cieśninę Ormuz, w Bangkoku liczba ofiar pożaru pubu wzrosła do 30, a powodzie i osunięcia ziemi w Bangladeszu zabiły co najmniej 51 osób.</li>
@@ -426,6 +434,7 @@
     <section class="sources">
       <h2>Zaufane źródła — jak je dobieramy</h2>
       <div class="snote">Pięć jawnych kryteriów doboru: (1) własne dziennikarstwo, nie agregacja clickbaitów; (2) udokumentowana rzetelność i praktyka sprostowań (m.in. wg rankingu zaufania Reuters Institute Digital News Report); (3) treść dostępna bez twardego paywalla; (4) zbalansowany mix profili — tematy polityczne potwierdzane w ≥2 źródłach o różnym przechyle; (5) media finansowane publicznie są oznaczone (*). Odrzucamy tabloidy, media skrajne i tuby propagandowe (np. RT/Sputnik). Tier 1 = czytane zawsze, Tier 2 = weryfikacja i uzupełnienie.</div>
+      <div class="snote">☀️ <b>Dobre wiadomości — źródła dodatkowe</b> (ocenione według tych samych kryteriów): Tier 1: Positive News (spółdzielnia czytelnicza, regulator IMPRESS), Reasons to be Cheerful (non-profit, oryginalne reportaże), Nauka w Polsce (Fundacja PAP), PAP Biznes (filtr pozytywny) · Tier 2: Fix The News (wydanie darmowe, weryfikacja u źródła), BBC „People Fixing the World", Crazy Nauka, MamStartup (bez treści partnerskich) oraz um.warszawa.pl i WTP jako oznaczone źródła oficjalne. Odrzucone m.in.: Good News Network i agregatory bez własnej weryfikacji.</div>
       <div class="srcgrid">
         <div class="srccol">
           <h3><svg class='regico' width='17' height='17' aria-hidden='true'><use href='#ico-world'></use></svg> Świat</h3>
@@ -576,7 +585,7 @@ const NEWS = [
   {title:"Rosja znów zaatakowała Kijów pociskami balistycznymi",sum:"Rosja przeprowadziła kolejny nalot rakietowy na Kijów, kilka godzin po tym jak Ukraina i dziewięć europejskich państw ogłosiły nową koalicję mającą przeciwdziałać rosyjskim pociskom balistycznym; w mieście wybuchły pożary.",src:"Al Jazeera",url:"https://www.aljazeera.com/news/2026/7/13/ukraine-and-allies-launch-coalition-to-tackle-russias-ballistic-missiles",date:"2026-07-13",cat:"NEWS",reg:"world",pri:"yellow"},
   {title:"Wenezuela wciąż liczy ofiary trzęsień ziemi sprzed trzech tygodni",sum:"Liczba ofiar śmiertelnych czerwcowych trzęsień ziemi w Wenezueli przekroczyła 4300, a dziesiątki tysięcy ludzi wciąż mieszkają w obozach dla poszkodowanych, zmagając się z brakiem czystej wody i rosnącym ryzykiem epidemii.",src:"Al Jazeera",url:"https://www.aljazeera.com/news/2026/7/11/all-we-see-is-decay-covering-the-human-toll-of-venezuelas-earthquakes",date:"2026-07-11",cat:"NEWS",reg:"world",pri:"yellow"},
   {title:"Sudan pogrąża się w głodzie przez wojnę i kryzys w Ormuz",sum:"Trwający konflikt w Sudanie oraz zakłócenia w globalnym handlu wywołane wojną o Cieśninę Ormuz pogłębiają kryzys głodowy w kraju — ponad 100 tysięcy osób znajduje się już w najwyższej kategorii zagrożenia głodem według ONZ.",src:"Al Jazeera",url:"https://www.aljazeera.com/news/2026/7/14/sudan-faces-escalating-hunger-crisis-due-to-war-and-hormuz-disruption",date:"2026-07-14",cat:"NEWS",reg:"world",pri:"yellow"},
-  {title:"Paryska parada z okazji Święta Bastylii pokazała wsparcie dla Ukrainy",sum:"Doroczna wojskowa parada w Paryżu z 14 lipca zgromadziła samoloty z 11 krajów europejskich i żołnierzy koalicji wspierającej powojenne bezpieczeństwo Ukrainy — to była ostatnia taka parada za prezydentury Emmanuela Macrona.",src:"France 24",url:"https://www.france24.com/en/france/20260714-france-bastille-day-parade-showcase-european-support-ukraine",date:"2026-07-14",cat:"NEWS",reg:"world",pri:"green"},
+  {good:true, title:"Paryska parada z okazji Święta Bastylii pokazała wsparcie dla Ukrainy",sum:"Doroczna wojskowa parada w Paryżu z 14 lipca zgromadziła samoloty z 11 krajów europejskich i żołnierzy koalicji wspierającej powojenne bezpieczeństwo Ukrainy — to była ostatnia taka parada za prezydentury Emmanuela Macrona.",src:"France 24",url:"https://www.france24.com/en/france/20260714-france-bastille-day-parade-showcase-european-support-ukraine",date:"2026-07-14",cat:"NEWS",reg:"world",pri:"green"},
   // ---------- NEWS EUROPA ----------
   {title:"Węgierski parlament usuwa prezydenta Sulyoka z urzędu",sum:"Węgierscy posłowie przyjęli poprawkę konstytucyjną odsuwającą prezydenta Tamása Sulyoka, oskarżanego przez premiera Pétera Magyara o bierność wobec autorytarnych praktyk Orbána. Za głosowało 139 posłów, sześciu było przeciw, a partia Fidesz zbojkotowała posiedzenie.",src:"Euronews",url:"https://www.euronews.com/my-europe/2026/07/13/hungarian-parliament-removes-president-tamas-sulyok-from-office",date:"2026-07-13",cat:"NEWS",reg:"europe",pri:"red"},
   {title:"Fala upałów w Europie: 10 tysięcy nadmiarowych zgonów w czerwcu",sum:"Nowe dane pokazują, że czerwcowe upały doprowadziły w Europie do ok. 10 tys. dodatkowych zgonów, głównie wśród osób starszych. Rekordowe temperatury odnotowano m.in. we Francji (44,3°C) i Hiszpanii (45,1°C).",src:"Euronews",url:"https://www.euronews.com/my-europe/2026/07/13/europe-records-10000-excess-deaths-during-june-heatwaves-new-data-shows",date:"2026-07-13",cat:"NEWS",reg:"europe",pri:"red"},
@@ -598,29 +607,29 @@ const NEWS = [
   {title:"Reflection AI zawiera miliardowy kontrakt na moc obliczeniową z Nebiusem",sum:"Startup Reflection AI, rozwijający otwarte modele językowe, podpisał umowę o wartości miliarda dolarów na dostęp do infrastruktury obliczeniowej Nebiusa. To kolejny duży zakup mocy GPU przez laboratorium rywalizujące z zamkniętymi modelami OpenAI i Anthropic.",src:"TechCrunch",url:"https://techcrunch.com/2026/07/14/reflection-inks-1b-compute-deal-with-nebius/",date:"2026-07-14",cat:"AI",reg:"world",pri:"yellow"},
   {title:"Chińskie modele otwarte wyprzedzają USA na Hugging Face",sum:"Wiosną tego roku chińskie modele o otwartych wagach odpowiadały za 41 proc. pobrań na platformie Hugging Face, po raz pierwszy wyprzedzając modele amerykańskie. Na OpenRouterze sześć najpopularniejszych modeli pochodzi z chińskich laboratoriów, a Claude Opus 4.7 Anthropic jest dopiero siódmy.",src:"TechCrunch",url:"https://techcrunch.com/2026/07/14/the-real-ai-race-may-no-longer-be-at-the-frontier-open-models-hugging-face/",date:"2026-07-14",cat:"AI",reg:"world",pri:"yellow"},
   {title:"Nous Research w rozmowach o finansowaniu przy wycenie 1,5 mld dolarów",sum:"Twórca otwartego agenta Hermes negocjuje rundę finansowania prowadzoną przez Robot Ventures z udziałem USV, w ramach której chce pozyskać co najmniej 75 mln dolarów przy wycenie 1,5 miliarda dolarów.",src:"TechCrunch",url:"https://techcrunch.com/2026/07/13/hermes-agent-maker-nous-research-in-talks-for-new-funding-at-1-5b-valuation/",date:"2026-07-13",cat:"AI",reg:"world",pri:"yellow"},
-  {title:"PsiQuantum przedstawia plan gigantycznego komputera kwantowego ze światła",sum:"Firma PsiQuantum ujawniła szczegóły budowy komputera kwantowego opartego na fotonice, który ma powstać w hali przypominającej krzyżówkę centrum danych z fabryką lodów — setki szaf ze stali nierdzewnej połączonych układem chłodzenia ciekłym helem.",src:"MIT Technology Review",url:"https://www.technologyreview.com/2026/07/14/1140356/psiquantum-plan-massive-quantum-computer-out-of-light/",date:"2026-07-14",cat:"Tech",reg:"world",pri:"green"},
-  {title:"Wskaźnik cytowań JADA wzrósł niemal o cały punkt, do 4,4",sum:"Według najnowszego raportu Clarivate Journal Citation Reports czasopismo Journal of the American Dental Association awansowało na 19. miejsce wśród 165 tytułów z dziedziny stomatologii i chirurgii szczękowej.",src:"ADA News",url:"https://adanews.ada.org/ada-news/2026/july/jadas-impact-factor-rises-nearly-full-point-to-4-4/",date:"2026-07-08",cat:"Stomatologia",reg:"world",pri:"green"},
+  {good:true, title:"PsiQuantum przedstawia plan gigantycznego komputera kwantowego ze światła",sum:"Firma PsiQuantum ujawniła szczegóły budowy komputera kwantowego opartego na fotonice, który ma powstać w hali przypominającej krzyżówkę centrum danych z fabryką lodów — setki szaf ze stali nierdzewnej połączonych układem chłodzenia ciekłym helem.",src:"MIT Technology Review",url:"https://www.technologyreview.com/2026/07/14/1140356/psiquantum-plan-massive-quantum-computer-out-of-light/",date:"2026-07-14",cat:"Tech",reg:"world",pri:"green"},
+  {good:true, title:"Wskaźnik cytowań JADA wzrósł niemal o cały punkt, do 4,4",sum:"Według najnowszego raportu Clarivate Journal Citation Reports czasopismo Journal of the American Dental Association awansowało na 19. miejsce wśród 165 tytułów z dziedziny stomatologii i chirurgii szczękowej.",src:"ADA News",url:"https://adanews.ada.org/ada-news/2026/july/jadas-impact-factor-rises-nearly-full-point-to-4-4/",date:"2026-07-08",cat:"Stomatologia",reg:"world",pri:"green"},
   // ---------- AI/TECH/STOMATOLOGIA EUROPA ----------
   {title:"Brytyjski „Hive” zbiera 15 mln dolarów na „krzemowy mózg” dla fabryk",sum:"Startup Hive, budujący system automatyzujący pracę maszyn przemysłowych i obniżający koszty ich działania nawet o 80 proc., pozyskał 15 mln dolarów w rundzie pre-Series A prowadzonej przez brytyjski fundusz SuperSeed.",src:"Sifted",url:"https://sifted.eu/articles/hive-raises-15m-for-silicon-brain",date:"2026-07-07",cat:"Tech",reg:"europe",pri:"green"},
-  {title:"Monachijski „Skalar” pozyskuje 12 mln euro na AI dla księgowości",sum:"Niemiecki startup Skalar, tworzący narzędzia AI do rozliczeń podatkowych i księgowości, zebrał łącznie 12 mln euro w rundach pre-seed i seed, wpisując się w falę europejskich startupów automatyzujących pracę biurową.",src:"Sifted",url:"https://sifted.eu/articles/skalar-seed-fundraise",date:"2026-07-14",cat:"AI",reg:"europe",pri:"green"},
-  {title:"Litewski Oxylabs zostaje jednorożcem po pierwszej zewnętrznej inwestycji",sum:"Dostawca infrastruktury danych dla modeli AI, litewski Oxylabs, pozyskał 113,6 mln euro w swojej pierwszej rundzie z udziałem zewnętrznych inwestorów, osiągając wycenę 3,1 mld euro. Firma dostarcza ustrukturyzowane dane napędzające agentów AI i systemy korporacyjne.",src:"MamStartup",url:"https://mamstartup.pl/litewski-oxylabs-pozyskal-1136-mln-euro-i-zostal-nowym-jednorozcem/",date:"2026-07-13",cat:"Tech",reg:"europe",pri:"yellow"},
-  {title:"Komisja Europejska zapowiada wielki plan AI dla cyberbezpieczeństwa",sum:"KE przedstawiła sześciopunktowy plan wykorzystania zaawansowanych modeli AI w ochronie cyberprzestrzeni UE, obejmujący unijne zdolności oceny modeli, ustrukturyzowany dostęp do AI we współpracy z ENISA oraz konkurs „Grand Challenge on AI”.",src:"CyberDefence24",url:"https://cyberdefence24.pl/technologie/ai-dla-cyberbezpieczenstwa-ue-zapowiada-duze-zmiany",date:"2026-07-09",cat:"AI",reg:"europe",pri:"yellow"},
-  {title:"Oral-B pokazał w Berlinie nową elektryczną szczoteczkę iO2",sum:"Podczas premiery w Berlinie Oral-B zaprezentował iO2 — nowy model z rodziny iO, który ma ułatwić przejście z tradycyjnej na elektryczną szczoteczkę i usuwa więcej płytki nazębnej w trudno dostępnych miejscach.",src:"Dental Tribune Europe",url:"https://www.dental-tribune.com/news/designed-for-the-easiest-switch-ever-the-oral-b-io2-is-launched-in-berlin/",date:"2026-07-07",cat:"Stomatologia",reg:"europe",pri:"green"},
+  {good:true, title:"Monachijski „Skalar” pozyskuje 12 mln euro na AI dla księgowości",sum:"Niemiecki startup Skalar, tworzący narzędzia AI do rozliczeń podatkowych i księgowości, zebrał łącznie 12 mln euro w rundach pre-seed i seed, wpisując się w falę europejskich startupów automatyzujących pracę biurową.",src:"Sifted",url:"https://sifted.eu/articles/skalar-seed-fundraise",date:"2026-07-14",cat:"AI",reg:"europe",pri:"green"},
+  {good:true, title:"Litewski Oxylabs zostaje jednorożcem po pierwszej zewnętrznej inwestycji",sum:"Dostawca infrastruktury danych dla modeli AI, litewski Oxylabs, pozyskał 113,6 mln euro w swojej pierwszej rundzie z udziałem zewnętrznych inwestorów, osiągając wycenę 3,1 mld euro. Firma dostarcza ustrukturyzowane dane napędzające agentów AI i systemy korporacyjne.",src:"MamStartup",url:"https://mamstartup.pl/litewski-oxylabs-pozyskal-1136-mln-euro-i-zostal-nowym-jednorozcem/",date:"2026-07-13",cat:"Tech",reg:"europe",pri:"yellow"},
+  {good:true, title:"Komisja Europejska zapowiada wielki plan AI dla cyberbezpieczeństwa",sum:"KE przedstawiła sześciopunktowy plan wykorzystania zaawansowanych modeli AI w ochronie cyberprzestrzeni UE, obejmujący unijne zdolności oceny modeli, ustrukturyzowany dostęp do AI we współpracy z ENISA oraz konkurs „Grand Challenge on AI”.",src:"CyberDefence24",url:"https://cyberdefence24.pl/technologie/ai-dla-cyberbezpieczenstwa-ue-zapowiada-duze-zmiany",date:"2026-07-09",cat:"AI",reg:"europe",pri:"yellow"},
+  {good:true, title:"Oral-B pokazał w Berlinie nową elektryczną szczoteczkę iO2",sum:"Podczas premiery w Berlinie Oral-B zaprezentował iO2 — nowy model z rodziny iO, który ma ułatwić przejście z tradycyjnej na elektryczną szczoteczkę i usuwa więcej płytki nazębnej w trudno dostępnych miejscach.",src:"Dental Tribune Europe",url:"https://www.dental-tribune.com/news/designed-for-the-easiest-switch-ever-the-oral-b-io2-is-launched-in-berlin/",date:"2026-07-07",cat:"Stomatologia",reg:"europe",pri:"green"},
   {title:"Sztuczna inteligencja odbiera telefony w brytyjskich gabinetach — startuje „Greeta”",sum:"Firma Conversico uruchomiła Greetę, cyfrową recepcjonistkę AI, która odbiera połączenia i umawia wizyty bezpośrednio w systemie gabinetu, mając odciążyć personel recepcji w godzinach szczytu oraz poza nimi.",src:"Dentistry.co.uk",url:"https://dentistry.co.uk/2026/07/04/the-week-in-dentistry-venezuela-ai-reception-community-support/",date:"2026-06-30",cat:"Stomatologia",reg:"europe",pri:"yellow"},
   // ---------- AI/TECH/STOMATOLOGIA POLSKA ----------
-  {title:"Sejm kończy prace nad ustawą o systemach sztucznej inteligencji",sum:"Sejm przyjął większość senackich poprawek i zakończył prace nad ustawą wdrażającą unijny AI Act, która powoła Komisję ds. Rozwoju i Bezpieczeństwa Sztucznej Inteligencji jako krajowy organ nadzoru rynku AI. Przepisy trafiają teraz na biurko prezydenta.",src:"CyberDefence24",url:"https://cyberdefence24.pl/polityka-i-prawo/polska/koniec-parlamentarnych-prac-nad-ustawa-o-sztucznej-inteligencji-czas-na-ruch-prezydenta",date:"2026-07-03",cat:"AI",reg:"poland",pri:"yellow"},
-  {title:"NASK dostał od USA dostęp do modelu GPT-5.5 Cyber",sum:"Po zgodzie amerykańskiego rządu Polska jako trzeci kraj w Europie uzyskała dostęp do specjalistycznego modelu GPT-5.5 Cyber od OpenAI. NASK i CERT Polska będą go wykorzystywać do analizy złośliwego oprogramowania, wykrywania podatności i informatyki śledczej.",src:"CyberDefence24",url:"https://cyberdefence24.pl/cyberbezpieczenstwo/amerykanie-dali-polsce-zielone-swiatlo-potezne-narzedzie-ai-juz-w-rekach-nask",date:"2026-07-02",cat:"AI",reg:"poland",pri:"yellow"},
+  {good:true, title:"Sejm kończy prace nad ustawą o systemach sztucznej inteligencji",sum:"Sejm przyjął większość senackich poprawek i zakończył prace nad ustawą wdrażającą unijny AI Act, która powoła Komisję ds. Rozwoju i Bezpieczeństwa Sztucznej Inteligencji jako krajowy organ nadzoru rynku AI. Przepisy trafiają teraz na biurko prezydenta.",src:"CyberDefence24",url:"https://cyberdefence24.pl/polityka-i-prawo/polska/koniec-parlamentarnych-prac-nad-ustawa-o-sztucznej-inteligencji-czas-na-ruch-prezydenta",date:"2026-07-03",cat:"AI",reg:"poland",pri:"yellow"},
+  {good:true, title:"NASK dostał od USA dostęp do modelu GPT-5.5 Cyber",sum:"Po zgodzie amerykańskiego rządu Polska jako trzeci kraj w Europie uzyskała dostęp do specjalistycznego modelu GPT-5.5 Cyber od OpenAI. NASK i CERT Polska będą go wykorzystywać do analizy złośliwego oprogramowania, wykrywania podatności i informatyki śledczej.",src:"CyberDefence24",url:"https://cyberdefence24.pl/cyberbezpieczenstwo/amerykanie-dali-polsce-zielone-swiatlo-potezne-narzedzie-ai-juz-w-rekach-nask",date:"2026-07-02",cat:"AI",reg:"poland",pri:"yellow"},
   {title:"MON przeprasza za niezamierzoną edycję zdjęcia przez AI",sum:"Ministerstwo Obrony Narodowej przeprosiło i opublikowało oryginalne zdjęcie po tym, jak w wersji „poprawionej” przez narzędzie AI zmieniły się twarze i elementy munduru części osób na fotografii; osobno skrytykowano też grafikę z podaniem sobie dwóch lewych dłoni.",src:"Spider's Web",url:"https://spidersweb.pl/2026/07/kancelaria-premiera-ai-wpadka.html",date:"2026-07-14",cat:"Tech",reg:"poland",pri:"yellow"},
-  {title:"Gemini trafia do pierwszych telewizorów w Polsce — na start modele TCL",sum:"Rusza europejski rollout asystenta Google Gemini na telewizorach — jako pierwsze funkcję otrzymują wybrane modele TCL z 2026 i 2025 roku, z możliwością głosowego sterowania i inteligentnych rekomendacji treści.",src:"Spider's Web",url:"https://spidersweb.pl/2026/07/nowosc-gemini-telewizory-polska.html",date:"2026-07-14",cat:"Tech",reg:"poland",pri:"green"},
+  {good:true, title:"Gemini trafia do pierwszych telewizorów w Polsce — na start modele TCL",sum:"Rusza europejski rollout asystenta Google Gemini na telewizorach — jako pierwsze funkcję otrzymują wybrane modele TCL z 2026 i 2025 roku, z możliwością głosowego sterowania i inteligentnych rekomendacji treści.",src:"Spider's Web",url:"https://spidersweb.pl/2026/07/nowosc-gemini-telewizory-polska.html",date:"2026-07-14",cat:"Tech",reg:"poland",pri:"green"},
   {title:"AI stawia diagnozy bez danych o zębach — eksperci ostrzegają przed poważnym błędem",sum:"Algorytmy sztucznej inteligencji oceniające ryzyko chorób serca czy cukrzycy najczęściej nie mają dostępu do danych stomatologicznych, przez co mogą przeoczyć stany zapalne przyzębia zwiększające ryzyko chorób układu krążenia.",src:"infoDENT24",url:"https://www.infodent24.pl/techdentpost/sztuczna-inteligencja-bada-pacjenta-bez-danych-stomatologicznych-to-powazny-blad,127673.html",date:"2026-07-06",cat:"Stomatologia",reg:"poland",pri:"yellow"},
-  {title:"Aplikacja Lekarz PLUS z tytułem „Lidera Technologii 2026”",sum:"System do zarządzania gabinetem, automatyzujący umawianie wizyt, e-recepty oraz integrację z P1, eWUŚ i ZUS, otrzymał wyróżnienie „Gazety Finansowej” za innowacyjne rozwiązania cyfrowe dla ochrony zdrowia.",src:"infoDENT24",url:"https://www.infodent24.pl/techdentpost/lekarz-plus-nagrodzony-wyroznienie-lider-technologii-2026-dla-aplikacji-medycznej,127616.html",date:"2026-06-22",cat:"Stomatologia",reg:"poland",pri:"green"},
+  {good:true, title:"Aplikacja Lekarz PLUS z tytułem „Lidera Technologii 2026”",sum:"System do zarządzania gabinetem, automatyzujący umawianie wizyt, e-recepty oraz integrację z P1, eWUŚ i ZUS, otrzymał wyróżnienie „Gazety Finansowej” za innowacyjne rozwiązania cyfrowe dla ochrony zdrowia.",src:"infoDENT24",url:"https://www.infodent24.pl/techdentpost/lekarz-plus-nagrodzony-wyroznienie-lider-technologii-2026-dla-aplikacji-medycznej,127616.html",date:"2026-06-22",cat:"Stomatologia",reg:"poland",pri:"green"},
   // ---------- WARSZAWA (lokalne) ----------
   {title:"Bad Bunny i System of a Down na Stadionie Narodowym: utrudnienia w Warszawie",sum:"We wtorek na PGE Narodowym wystąpił Bad Bunny, a w najbliższy weekend zagra System of a Down. Miasto wprowadza ograniczony wjazd na Saską Kępę, a policja może czasowo zamknąć mosty Poniatowskiego i Świętokrzyskiego.",src:"TVN Warszawa",url:"https://tvn24.pl/tvnwarszawa/praga-poludnie/warszawa-bad-bunny-i-system-of-a-down-zagraja-na-stadionie-narodowy-utrudnienia-st9140131",date:"2026-07-14",cat:"NEWS",reg:"warsaw",pri:"yellow"},
   {title:"Siedem linii tramwajowych zawieszonych do końca sierpnia",sum:"Remont węzła przy Kinie Femina wstrzymał kursowanie tramwajów linii 9, 13, 19, 23, 25, 33 i 77. Pasażerowie mogą korzystać z linii zastępczych 63, 73 i 76 oraz autobusów Z26 i Z33.",src:"TVN Warszawa",url:"https://tvn24.pl/tvnwarszawa/ulice/prace-tramwajarzy-drogowcow-i-cieplownikow-wakacyjne-utrudnienia-w-stolicy-st9119705",date:"2026-07-11",cat:"NEWS",reg:"warsaw",pri:"yellow"},
   {title:"Kolejny zamknięty weekend w Alejach Jerozolimskich",sum:"W dwa kolejne weekendy — 10–13 i 17–20 lipca — trwa remont torowiska i jezdni w Alejach Jerozolimskich na Ochocie. Kierowcy i pasażerowie linii 117, 131, 507, 520, 521 i 525 muszą liczyć się z objazdami.",src:"TVN Warszawa",url:"https://tvn24.pl/tvnwarszawa/srodmiescie/warszawa-dwa-weekendy-z-remontami-objazdy-w-srodmiesciu-i-na-ochocie-st9134114",date:"2026-07-10",cat:"NEWS",reg:"warsaw",pri:"yellow"},
   {title:"Więcej czasu na wniosek o mieszkanie TBS przy Grójeckiej 91",sum:"Do końca lipca warszawiacy mogą składać wnioski o najem jednego z 205 mieszkań w nowym budynku TBS na rogu Grójeckiej i Banacha. Czynsz wyniesie niespełna 30 zł za metr kwadratowy.",src:"um.warszawa.pl",url:"https://um.warszawa.pl/-/tbs-wydluza-termin-skladania-wnioskow-o-najem-lokali-przy-ul-grojeckiej-91",date:"2026-07-13",cat:"NEWS",reg:"warsaw",pri:"green"},
-  {title:"Dawcy przeszczepów i wszyscy weterani pojadą komunikacją miejską za darmo",sum:"Od niedawna obowiązuje uchwała rady miasta rozszerzająca prawo do bezpłatnych przejazdów WTP na dawców przeszczepów oraz wszystkich weteranów, nie tylko poszkodowanych w działaniach poza granicami kraju.",src:"um.warszawa.pl",url:"https://um.warszawa.pl/-/warszawa-wprowadzila-bezplatne-przejazdy-komunikacja-miejska-dla-dawcow-przeszczepow-i-weteranow",date:"2026-07-12",cat:"NEWS",reg:"warsaw",pri:"green"},
-  {title:"W warszawskim zoo urodziła się samiczka pudu południowego",sum:"W stołecznym ogrodzie zoologicznym na świat przyszła córka Juany i Pitchu — jeden z najmniejszych gatunków jeleni na świecie, ważąca około kilograma. Mieszkańcy zgłaszali propozycje imienia.",src:"RMF24",url:"https://www.rmf24.pl/regiony/warszawa/news-niezwykle-narodziny-w-stolecznym-zoo-to-drugi-najmniejszy-je,nId,7822628",date:"2026-07-11",cat:"NEWS",reg:"warsaw",pri:"green"}
+  {good:true, title:"Dawcy przeszczepów i wszyscy weterani pojadą komunikacją miejską za darmo",sum:"Od niedawna obowiązuje uchwała rady miasta rozszerzająca prawo do bezpłatnych przejazdów WTP na dawców przeszczepów oraz wszystkich weteranów, nie tylko poszkodowanych w działaniach poza granicami kraju.",src:"um.warszawa.pl",url:"https://um.warszawa.pl/-/warszawa-wprowadzila-bezplatne-przejazdy-komunikacja-miejska-dla-dawcow-przeszczepow-i-weteranow",date:"2026-07-12",cat:"NEWS",reg:"warsaw",pri:"green"},
+  {good:true, title:"W warszawskim zoo urodziła się samiczka pudu południowego",sum:"W stołecznym ogrodzie zoologicznym na świat przyszła córka Juany i Pitchu — jeden z najmniejszych gatunków jeleni na świecie, ważąca około kilograma. Mieszkańcy zgłaszali propozycje imienia.",src:"RMF24",url:"https://www.rmf24.pl/regiony/warszawa/news-niezwykle-narodziny-w-stolecznym-zoo-to-drugi-najmniejszy-je,nId,7822628",date:"2026-07-11",cat:"NEWS",reg:"warsaw",pri:"green"}
 ];
 
 const EVENTS = [
@@ -714,11 +723,14 @@ const PRI_META = { red:{cls:"b-red",ico:"🔴",label:"Wysoki priorytet"}, yellow
 const CAT_ICO = {NEWS:"📰", AI:"🤖", Tech:"💻", Stomatologia:"🦷"};
 const REG_META = {world:{flag:REG_ICO("world",22),name:"Świat"}, europe:{flag:REG_ICO("eu",22),name:"Europa"}, poland:{flag:REG_ICO("pl",22),name:"Polska"}, warsaw:{flag:REG_ICO("wwa",22),name:"Warszawa"}, all:{flag:"🔎",name:"Wyniki ze wszystkich regionów"}};
 let curRegion = null, fCat = "all", fPri = "all", fQ = "";
+let goodMode = new URLSearchParams(location.search).get("dobre") === "1";
+const BASE = () => goodMode ? NEWS.filter(n => n.good === true) : NEWS;
 
 function fmtDate(d){ const m=["sty","lut","mar","kwi","maj","cze","lip","sie","wrz","paź","lis","gru"]; const [y,mo,da]=d.split("-"); return `${parseInt(da)} ${m[parseInt(mo)-1]} ${y}`; }
 function esc(s){ return s.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;"); }
 
 function matches(n){
+  if (goodMode && n.good !== true) return false;
   if (curRegion !== "all" && n.reg !== curRegion) return false;
   if (fCat !== "all" && n.cat !== fCat) return false;
   if (fPri !== "all" && n.pri !== fPri) return false;
@@ -748,8 +760,8 @@ function card(n){
 
 function renderRegion(){
   const items = NEWS.filter(matches).sort((a,b)=>PRI_ORDER[a.pri]-PRI_ORDER[b.pri] || b.date.localeCompare(a.date));
-  document.getElementById("cards").innerHTML = items.length ? items.map(card).join("") : `<div class="empty">Brak wiadomości spełniających kryteria.</div>`;
-  const total = curRegion === "all" ? NEWS.length : NEWS.filter(n=>n.reg===curRegion).length;
+  document.getElementById("cards").innerHTML = items.length ? items.map(card).join("") : `<div class="empty">${goodMode ? "☀️ W tym widoku nie ma dziś jeszcze dobrych wiadomości — zajrzyj po kolejnym wydaniu." : "Brak wiadomości spełniających kryteria."}</div>`;
+  const total = curRegion === "all" ? BASE().length : BASE().filter(n=>n.reg===curRegion).length;
   document.getElementById("cnt").textContent = `${items.length} z ${total}`;
 }
 
@@ -785,9 +797,9 @@ function goHome(){
 
 function renderHome(){
   const c = {red:0,yellow:0,green:0,NEWS:0,AI:0,Tech:0,Stomatologia:0};
-  NEWS.forEach(n => { c[n.pri]++; c[n.cat]++; });
+  BASE().forEach(n => { c[n.pri]++; c[n.cat]++; });
   document.getElementById("stats").innerHTML = `
-    <div class="tile tclick" data-c="all" data-p="all" title="Pokaż wszystkie wiadomości"><div class="v">${NEWS.length}</div><div class="l">wiadomości łącznie →</div></div>
+    <div class="tile tclick" data-c="all" data-p="all" title="Pokaż wszystkie wiadomości"><div class="v">${BASE().length}</div><div class="l">wiadomości łącznie →</div></div>
     <div class="tile t-red tclick" data-c="all" data-p="red" title="Pokaż pilne"><div class="v">${c.red}</div><div class="l">🔴 wysoki priorytet →</div></div>
     <div class="tile t-yellow tclick" data-c="all" data-p="yellow" title="Pokaż istotne"><div class="v">${c.yellow}</div><div class="l">🟡 średni priorytet →</div></div>
     <div class="tile tclick" data-c="NEWS" data-p="all" title="Pokaż NEWS"><div class="v">${c.NEWS}</div><div class="l">📰 NEWS →</div></div>
@@ -799,7 +811,7 @@ function renderHome(){
   }));
   document.querySelectorAll("#stats .statlink").forEach(sp => sp.addEventListener("click", e => { e.stopPropagation(); openRegion("all", "", sp.dataset.c, "all"); }));
   for (const reg of ["world","europe","poland","warsaw"]) {
-    const items = NEWS.filter(n=>n.reg===reg);
+    const items = BASE().filter(n=>n.reg===reg);
     const cc = {NEWS:0,AI:0,Tech:0,Stomatologia:0,red:0};
     items.forEach(n=>{cc[n.cat]++; if(n.pri==="red")cc.red++;});
     document.getElementById("rc-home-"+reg).innerHTML =
@@ -808,7 +820,7 @@ function renderHome(){
     document.getElementById("rt-top-"+reg).innerHTML = top ? `<b>🔴 Najważniejsze:</b> ${esc(top.title)}` : "";
   }
   document.getElementById("watch").innerHTML = WATCHLIST.map((w,i) => {
-    const hits = NEWS.filter(n => w.kw.some(k => (n.title+" "+n.sum).toLowerCase().includes(k)));
+    const hits = BASE().filter(n => w.kw.some(k => (n.title+" "+n.sum).toLowerCase().includes(k)));
     const reds = hits.filter(n => n.pri === "red").length;
     return `<button class="witem" data-wi="${i}"><span class="wname">${w.name}</span><span class="wcount ${reds?"hot":""}">${hits.length} doniesień${reds?" · "+reds+"×🔴":""}</span></button>`;
   }).join("");
@@ -1097,6 +1109,30 @@ async function refreshWeather(force){
 }
 document.getElementById("wx-refresh").addEventListener("click", () => refreshWeather(true));
 
+function renderGoodSummary(){
+  const top = NEWS.filter(n => n.good === true).sort((a,b)=>PRI_ORDER[a.pri]-PRI_ORDER[b.pri] || b.date.localeCompare(a.date)).slice(0,5);
+  const el = document.getElementById("good-summary");
+  el.innerHTML = top.length
+    ? `<h2>☀️ Na dobry dzień — dobre wiadomości z tego wydania</h2><ol>` + top.map(n =>
+        `<li><strong>${REG_META[n.reg].name}:</strong> ${esc(n.title)} <a href="${esc(n.url)}" target="_blank" rel="noopener">↗</a></li>`).join("") + `</ol>`
+    : `<h2>☀️ Na dobry dzień</h2><p style="color:var(--ink-2);font-size:0.9rem">W tym wydaniu nie oznaczyliśmy jeszcze dobrych wiadomości — pojawią się przy najbliższej aktualizacji.</p>`;
+}
+function applyGoodUI(){
+  document.getElementById("goodsw").classList.toggle("on", goodMode);
+  document.getElementById("day-summary").classList.toggle("hidden", goodMode);
+  document.getElementById("good-summary").classList.toggle("hidden", !goodMode);
+  if (goodMode) renderGoodSummary();
+  const u = new URL(location);
+  if (goodMode) u.searchParams.set("dobre","1"); else u.searchParams.delete("dobre");
+  history.replaceState(null, "", u);
+}
+document.getElementById("goodsw").addEventListener("click", () => {
+  goodMode = !goodMode;
+  applyGoodUI();
+  renderHome();
+  if (!document.getElementById("view-region").classList.contains("hidden")) renderRegion();
+});
+applyGoodUI();
 renderHome();
 tickClocks();
 setInterval(tickClocks, 1000);

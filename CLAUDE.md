@@ -25,3 +25,7 @@ Commit message dla wydań: `Wydanie nr X — RRRR-MM-DD HH:MM`.
 ## Dynamiczny datownik (od 15.07.2026)
 
 Datownik ma dwie części: span #dl-today (dzień, data, imieniny — liczone w przeglądarce czytelnika; NIE wpisuj tam nic) oraz span #dl-edition (statyczna metryka wydania). Przy każdej publikacji aktualizuj WYŁĄCZNIE tekst spanu #dl-edition w formacie „Wydanie nr X · opublikowano D miesiąca RRRR, HH:MM" (czas polski faktycznej publikacji) oraz jego atrybut data-pub w formacie RRRR-MM-DDTHH:MM. NIE zmieniaj spanu #dl-today, tablicy const IMIENINY, funkcji renderToday(), wywołań setInterval ani środkowego segmentu z godzinami aktualizacji. Nie researchuj dnia tygodnia ani imienin — liczy je strona.
+
+## SEO subdomeny (od 15.07.2026)
+
+W <head> index.html są meta SEO (description, canonical na https://news.itspace.com.pl/, Open Graph, Twitter Card) oraz blok JSON-LD — przy przebudowie wydania zachowuj je bez zmian. W repo są pliki robots.txt, llms.txt i sitemap.xml — przy każdej publikacji aktualizuj w sitemap.xml wartość <lastmod> na bieżącą datę (RRRR-MM-DD), pozostałych plików nie zmieniaj.

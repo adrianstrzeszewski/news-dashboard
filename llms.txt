@@ -1,0 +1,26 @@
+# News ITSPACE — gazeta NEWS · AI · Technologie · Stomatologia
+
+> Kurowana gazeta internetowa wydawana przez ITSPACE (https://itspace.com.pl) — firmę
+> specjalizującą się w obsłudze informatycznej gabinetów stomatologicznych i klinik
+> medycyny estetycznej w Warszawie. Wiadomości wyłącznie ze zweryfikowanych źródeł
+> (agencje prasowe i redakcje o potwierdzonej rzetelności), aktualizowane automatycznie
+> 2× dziennie: rano ok. 10:00 i po południu ok. 16:00 czasu polskiego.
+
+## Zawartość
+
+- Cztery regiony: Świat · Europa · Polska · Warszawa
+- Kategorie: NEWS (wydarzenia bieżące), AI (sztuczna inteligencja), Technologie, Stomatologia
+- Priorytety redakcyjne (wysoki / średni / informacyjny), podsumowanie dnia, kalendarz wydarzeń branżowych
+- Tryb „Dobre wiadomości" — wyłącznie pozytywne, konstruktywne informacje (parametr ?dobre=1)
+- Dane na żywo w przeglądarce: pogoda (Open-Meteo), zegary stref czasowych, radar sygnałów technologicznych
+
+## Źródła i rzetelność
+
+Biała lista źródeł z jawnymi kryteriami (własne dziennikarstwo, udokumentowana rzetelność,
+brak twardego paywalla, media publiczne oznaczone). Tytuły i streszczenia przywoływane w ramach
+prawa cytatu, zawsze z linkiem do źródła. Daty publikacji artykułów są weryfikowane przed emisją.
+
+## Powiązane
+
+- [ITSPACE — obsługa IT gabinetów stomatologicznych i klinik medycyny estetycznej, Warszawa](https://itspace.com.pl/)
+- Kontakt: kontakt@itspace.com.pl, +48 531 330 080

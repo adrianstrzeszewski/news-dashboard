@@ -122,6 +122,7 @@
   .regico { vertical-align: -0.18em; }
   .rt-flag .regico { vertical-align: middle; }
   .clock svg.regico { width: 15px; height: 15px; vertical-align: -2px; }
+  .dlnav .regico { vertical-align: -2px; }
   .rtile h3 { font-family: Georgia, serif; font-size: 1.35rem; margin: 8px 0 2px; font-weight: 700; }
   .rtile .rt-counts { font-size: 0.8rem; color: var(--ink-2); margin-top: 6px; display: grid; gap: 2px; }
   .rtile .rt-top { margin-top: 10px; font-size: 0.78rem; color: var(--ink-2); border-top: 1px solid var(--hairline); padding-top: 8px; }
@@ -363,7 +364,7 @@
       <header class="masthead">
         <h1>NEWS · <span class="hgrad">AI</span> · Technologie · Stomatologia</h1>
         <div class="sub">Wiadomości wyłącznie z wiarygodnych źródeł — agencji prasowych i redakcji o potwierdzonej rzetelności. Wybierz region poniżej</div>
-        <div class="dateline"><span>Wydanie nr 5 · 15 lipca 2026, środa · 🎂 imieniny: Anny, Daniela, Dawida, Ignacego, Roksany i Włodzimierza</span><span>aktualizowany 2× dziennie: rano (ok. 9:30–10:00) i po południu (ok. 15:30–16:00)</span><span class="dlnav"><a data-nav="world">Świat</a> · <a data-nav="europe">Europa</a> · <a data-nav="poland">Polska</a> · <a data-nav="warsaw">Warszawa</a></span></div>
+        <div class="dateline"><span>Wydanie nr 5 · 15 lipca 2026, środa · 🎂 imieniny: Anny, Daniela, Dawida, Ignacego, Roksany i Włodzimierza</span><span>aktualizowany 2× dziennie: rano (ok. 9:30–10:00) i po południu (ok. 15:30–16:00)</span><span class="dlnav"><a data-nav="world"><svg class='regico' width='13' height='13' aria-hidden='true'><use href='#ico-world'></use></svg> Świat</a> · <a data-nav="europe"><svg class='regico' width='13' height='13' aria-hidden='true'><use href='#ico-eu'></use></svg> Europa</a> · <a data-nav="poland"><svg class='regico' width='13' height='13' aria-hidden='true'><use href='#ico-pl'></use></svg> Polska</a> · <a data-nav="warsaw"><svg class='regico' width='13' height='13' aria-hidden='true'><use href='#ico-wwa'></use></svg> Warszawa</a></span></div>
       </header>
     </div>
     <div class="stats" id="stats"></div>
@@ -660,7 +661,7 @@ document.querySelectorAll(".themesw button").forEach(b => b.addEventListener("cl
 const REG_ICO = (k, px) => "<svg class='regico' width='" + px + "' height='" + px + "' aria-hidden='true'><use href='#ico-" + k + "'></use></svg>";
 // ===================== ZEGARY =====================
 const ZONES = {
-  warsaw: {label:"Warszawa " + REG_ICO("pl",15), tz:"Europe/Warsaw", lat:52.2297, lon:21.0122},
+  warsaw: {label:"Warszawa " + REG_ICO("pl",15), city:"Warszawa", tz:"Europe/Warsaw", lat:52.2297, lon:21.0122},
   london: {label:"Londyn 🇬🇧", tz:"Europe/London", lat:51.5072, lon:-0.1276},
   brussels: {label:"Bruksela 🇪🇺", tz:"Europe/Brussels", lat:50.8503, lon:4.3517},
   ny: {label:"Nowy Jork 🇺🇸", tz:"America/New_York", lat:40.7128, lon:-74.006},
@@ -1024,7 +1025,7 @@ async function renderWxTiles(reg){
   try {
     const j = await fetch7(k);
     const D = j.daily;
-    const city = ZONES[k].label.replace(/\s\S+$/, "");
+    const city = ZONES[k].city || ZONES[k].label.replace(/\s\S+$/, "");
     const day = i => `${wmo(D.weather_code[i])[0]} <b>${Math.round(D.temperature_2m_max[i])}°</b> / ${Math.round(D.temperature_2m_min[i])}°` +
       (D.precipitation_sum[i] >= 0.1 ? `<div class="wd">☔ ${D.precipitation_sum[i].toFixed(1)} mm</div>` : `<div class="wd">bez opadów</div>`);
     const wkMax = Math.max(...D.temperature_2m_max), wkMin = Math.min(...D.temperature_2m_min);

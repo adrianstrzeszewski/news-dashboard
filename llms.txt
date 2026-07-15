@@ -20,6 +20,26 @@ Biała lista źródeł z jawnymi kryteriami (własne dziennikarstwo, udokumentow
 brak twardego paywalla, media publiczne oznaczone). Tytuły i streszczenia przywoływane w ramach
 prawa cytatu, zawsze z linkiem do źródła. Daty publikacji artykułów są weryfikowane przed emisją.
 
+## Poradniki
+
+Poradniki IT dla gabinetów stomatologicznych i klinik medycyny estetycznej: [spis wszystkich poradników](https://news.itspace.com.pl/poradniki/)
+
+- [Ile kosztuje obsługa informatyczna gabinetu stomatologicznego?](https://news.itspace.com.pl/poradniki/ile-kosztuje-obsluga-it-gabinetu/)
+- [Backup danych w gabinecie stomatologicznym zgodny z prawem](https://news.itspace.com.pl/poradniki/backup-danych-w-gabinecie/)
+- [RODO w gabinecie stomatologicznym — checklista IT](https://news.itspace.com.pl/poradniki/rodo-w-gabinecie-checklista-it/)
+- [Awaria komputera w gabinecie a ciągłość pracy](https://news.itspace.com.pl/poradniki/awaria-komputera-w-gabinecie/)
+- [Jak wybrać firmę IT dla kliniki i gabinetu medycznego?](https://news.itspace.com.pl/poradniki/jak-wybrac-firme-it-dla-kliniki/)
+- [Integracja RTG i skanera wewnątrzustnego z oprogramowaniem gabinetu](https://news.itspace.com.pl/poradniki/integracja-rtg-i-skanera/)
+- [Phishing w placówce medycznej — jak rozpoznać atak?](https://news.itspace.com.pl/poradniki/phishing-w-placowce-medycznej/)
+- [EDM w gabinecie — wymogi techniczne dla dokumentacji elektronicznej](https://news.itspace.com.pl/poradniki/edm-wymogi-techniczne/)
+- [Ransomware w gabinecie stomatologicznym — scenariusz ataku i obrona](https://news.itspace.com.pl/poradniki/ransomware-w-gabinecie/)
+- [Wi-Fi w gabinecie — jak oddzielić sieć dla pacjentów od urządzeń medycznych?](https://news.itspace.com.pl/poradniki/wifi-w-gabinecie/)
+- [Ile kosztuje przestój IT w gabinecie stomatologicznym?](https://news.itspace.com.pl/poradniki/koszt-przestoju-it/)
+- [NIS2 a gabinet stomatologiczny — czy nowe przepisy Cię dotyczą?](https://news.itspace.com.pl/poradniki/nis2-a-gabinet/)
+- [Chmura czy serwer lokalny w gabinecie medycznym?](https://news.itspace.com.pl/poradniki/chmura-czy-serwer-lokalny/)
+- [Onboarding IT gabinetu — jak wyglądają pierwsze 30 dni współpracy?](https://news.itspace.com.pl/poradniki/onboarding-it-gabinetu/)
+- [Monitoring IT 24/7 w gabinecie i klinice — co właściwie obejmuje?](https://news.itspace.com.pl/poradniki/monitoring-24-7/)
+
 ## Powiązane
 
 - [ITSPACE — obsługa IT gabinetów stomatologicznych i klinik medycyny estetycznej, Warszawa](https://itspace.com.pl/)

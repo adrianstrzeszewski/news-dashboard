@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Backup danych w gabinecie stomatologicznym zgodny z prawem | Poradniki ITSPACE</title>
+<meta name="description" content="Zasada 3-2-1, szyfrowanie AES-256, kopia poza lokalizacją i test odtworzenia – jak zabezpieczyć dokumentację medyczną na 20 lat zgodnie z RODO.">
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+<link rel="canonical" href="https://news.itspace.com.pl/poradniki/backup-danych-w-gabinecie/">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="ITSPACE">
+<meta property="og:title" content="Backup danych w gabinecie stomatologicznym zgodny z prawem">
+<meta property="og:description" content="Zasada 3-2-1, szyfrowanie AES-256, kopia poza lokalizacją i test odtworzenia – jak zabezpieczyć dokumentację medyczną na 20 lat zgodnie z RODO.">
+<meta property="og:url" content="https://news.itspace.com.pl/poradniki/backup-danych-w-gabinecie/">
+<meta property="og:locale" content="pl_PL">
+<meta name="twitter:card" content="summary">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","headline":"Backup danych w gabinecie stomatologicznym zgodny z prawem","description":"Zasada 3-2-1, szyfrowanie AES-256, kopia poza lokalizacją i test odtworzenia – jak zabezpieczyć dokumentację medyczną na 20 lat zgodnie z RODO.","datePublished":"2026-07-15","dateModified":"2026-07-15","author":{"@type":"Organization","name":"ITSPACE","url":"https://itspace.com.pl/"},"publisher":{"@type":"Organization","name":"ITSPACE","url":"https://itspace.com.pl/"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://news.itspace.com.pl/poradniki/backup-danych-w-gabinecie/"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"ITSPACE","item":"https://itspace.com.pl/"},{"@type":"ListItem","position":2,"name":"Poradniki","item":"https://news.itspace.com.pl/poradniki/"},{"@type":"ListItem","position":3,"name":"Backup danych w gabinecie stomatologicznym zgodny z prawem","item":"https://news.itspace.com.pl/poradniki/backup-danych-w-gabinecie/"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Jak często wykonywać kopię zapasową w gabinecie stomatologicznym?","acceptedAnswer":{"@type":"Answer","text":"Minimum raz dziennie, automatycznie, po zakończeniu przyjęć. Baza programu gabinetowego i nowe zdjęcia RTG powinny każdej nocy trafiać na drugi nośnik oraz do szyfrowanej kopii poza lokalizacją. Przy dużej liczbie wizyt warto dołożyć kopię migawkową w ciągu dnia."}},{"@type":"Question","name":"Czy dysk USB podpięty do komputera wystarczy jako backup?","acceptedAnswer":{"@type":"Answer","text":"Nie. Dysk podpięty na stałe zostanie zaszyfrowany przez ransomware razem z komputerem, a przy pożarze lub kradzieży zniknie wraz z resztą sprzętu. Zasada 3-2-1 wymaga co najmniej jednej kopii fizycznie poza gabinetem, np. w usłudze Cloud Backup z szyfrowaniem AES-256."}},{"@type":"Question","name":"Jak długo trzeba przechowywać dokumentację medyczną?","acceptedAnswer":{"@type":"Answer","text":"Co do zasady przez 20 lat od końca roku kalendarzowego, w którym dokonano ostatniego wpisu, z wyjątkami przewidzianymi w przepisach. Przez cały ten okres placówka musi zapewnić integralność, czytelność i dostępność danych, także w postaci elektronicznej."}},{"@type":"Question","name":"Ile kosztuje usługa Cloud Backup dla gabinetu?","acceptedAnswer":{"@type":"Answer","text":"Orientacyjnie w 2026 r. od około 150–400 zł miesięcznie dla małego gabinetu (1–3 stanowiska) do 400–1200 zł miesięcznie dla kliniki z tomografią CBCT. Ostateczna cena zależy od wolumenu danych, częstotliwości kopii i zakresu SLA – w abonamencie IT backup jest zwykle wliczony w stałą opłatę."}}]}]}</script>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: #0d0d0f; color: #cbd5e1; font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; line-height: 1.75; }
+  .topbar { display: flex; justify-content: space-between; align-items: center; padding: 20px 24px; border-bottom: 1px solid rgba(212,175,55,0.25); flex-wrap: wrap; gap: 10px; }
+  .logo { color: #fff; text-decoration: none; font-weight: 700; letter-spacing: 4px; font-size: 18px; }
+  .logo span { color: #d4af37; }
+  .topbar nav { display: flex; gap: 16px; flex-wrap: wrap; }
+  .topbar nav a { color: #cbd5e1; text-decoration: none; font-size: 14px; }
+  .topbar nav a:hover { color: #f3dc8a; }
+  .pill { border: 1px solid rgba(212,175,55,0.55); padding: 6px 14px; border-radius: 50px; color: #f3dc8a !important; font-weight: 600; }
+  main { max-width: 860px; margin: 0 auto; padding: 48px 24px 32px; }
+  .crumbs { font-size: 13px; color: #708090; margin-bottom: 22px; }
+  .crumbs a { color: #96a1aa; text-decoration: none; }
+  h1 { color: #fff; font-size: clamp(26px, 4vw, 38px); line-height: 1.25; margin-bottom: 14px; }
+  .meta-line { font-size: 13px; color: #708090; margin-bottom: 28px; }
+  .snippet { background: rgba(212,175,55,0.08); border-left: 3px solid #d4af37; padding: 18px 22px; border-radius: 0 10px 10px 0; margin-bottom: 34px; color: #e8e2d0; font-size: 17px; }
+  h2 { color: #f3dc8a; font-size: 22px; margin: 38px 0 14px; }
+  h3 { color: #e8e2d0; font-size: 17px; margin: 24px 0 10px; }
+  p { margin-bottom: 16px; }
+  ul, ol { margin: 0 0 18px 22px; }
+  li { margin-bottom: 8px; }
+  strong { color: #e8e2d0; }
+  a { color: #d4af37; }
+  .faq { margin-top: 44px; border-top: 1px solid rgba(212,175,55,0.25); padding-top: 8px; }
+  .faq h2 { margin-top: 26px; }
+  .faq h3 { color: #f3dc8a; }
+  .cta { margin: 48px 0 8px; background: linear-gradient(135deg, rgba(212,175,55,0.14), rgba(212,175,55,0.05)); border: 1px solid rgba(212,175,55,0.4); border-radius: 14px; padding: 26px; text-align: center; }
+  .cta p { color: #e8e2d0; margin-bottom: 14px; }
+  .cta a.btn { display: inline-block; background: linear-gradient(135deg, #d4af37, #b8962e); color: #14120a; font-weight: 700; padding: 12px 28px; border-radius: 50px; text-decoration: none; margin: 4px; }
+  .cta a.tel { display: inline-block; color: #f3dc8a; padding: 12px 10px; }
+  footer { border-top: 1px solid rgba(212,175,55,0.25); margin-top: 40px; padding: 26px 24px; text-align: center; font-size: 13px; color: #708090; }
+  footer a { color: #96a1aa; }
+</style>
+</head>
+<body>
+<header class="topbar">
+  <a class="logo" href="https://itspace.com.pl/">IT<span>SPACE</span></a>
+  <nav>
+    <a href="https://itspace.com.pl/">Strona główna</a>
+    <a href="https://news.itspace.com.pl/poradniki/">Poradniki</a>
+    <a class="pill" href="https://news.itspace.com.pl" target="_blank" rel="noopener">📰 News</a>
+  </nav>
+</header>
+<main>
+  <div class="crumbs"><a href="https://itspace.com.pl/">ITSPACE</a> › <a href="https://news.itspace.com.pl/poradniki/">Poradniki</a> › Backup danych w gabinecie stomatologicznym zgodny z prawem</div>
+  <h1>Backup danych w gabinecie stomatologicznym zgodny z prawem</h1>
+  <div class="meta-line">Zespół ITSPACE · opublikowano 15 lipca 2026 · aktualizacja: 15 lipca 2026</div>
+  <div class="snippet">Backup zgodny z prawem w gabinecie stomatologicznym opiera się na zasadzie 3-2-1: trzy kopie danych, dwa różne nośniki i jedna kopia poza lokalizacją, np. w usłudze Cloud Backup. Kopie muszą być szyfrowane (AES-256, w spoczynku i w transmisji) oraz regularnie testowane pod kątem odtworzenia, a dokumentację medyczną trzeba przechowywać co do zasady przez 20 lat. Orientacyjny koszt zarządzanego backupu dla małego gabinetu to w 2026 r. około 150–400 zł miesięcznie.</div>
+  <h2>Dlaczego backup w gabinecie stomatologicznym to wymóg, a nie opcja?</h2>
+<p>Dokumentacja medyczna – karty pacjentów, zdjęcia RTG, skany wewnątrzustne, historia leczenia i rozliczenia z NFZ – to najcenniejszy zasób każdej placówki. Przepisy nakazują przechowywać ją co do zasady przez <strong>20 lat</strong> od końca roku, w którym dokonano ostatniego wpisu, a wraz z obowiązkami dotyczącymi EDM i raportowania do systemu P1 (e-zdrowie) coraz większa część tej dokumentacji istnieje wyłącznie w postaci elektronicznej. Utrata bazy programu gabinetowego – Unident, Estomed czy SmartDental – oznacza więc nie tylko paraliż rejestracji i leczenia, ale też naruszenie obowiązków prawnych.</p>
+<p>Dane o zdrowiu należą do szczególnej kategorii danych osobowych (art. 9 RODO). Właściciel gabinetu jako administrator musi wykazać, że wdrożył adekwatne środki techniczne i organizacyjne. Regularnie wykonywana, szyfrowana i testowana kopia zapasowa jest jednym z pierwszych środków, o które UODO pyta po każdym zgłoszonym incydencie – a poważną utratę danych medycznych trzeba zgłosić organowi nadzorczemu w ciągu <strong>72 godzin</strong>.</p>
+<h2>Na czym polega zasada 3-2-1?</h2>
+<p>Standardem, który rekomendujemy każdej placówce medycznej, jest <strong>zasada 3-2-1</strong>:</p>
+<ul>
+<li><strong>3 kopie danych</strong> – dane robocze na serwerze lub stacji plus dwie niezależne kopie zapasowe;</li>
+<li><strong>2 różne nośniki</strong> – na przykład dysk sieciowy NAS w gabinecie oraz repozytorium chmurowe;</li>
+<li><strong>1 kopia poza lokalizacją</strong> – fizycznie poza gabinetem, najwygodniej w usłudze Cloud Backup.</li>
+</ul>
+<p>Kopia poza lokalizacją jest elementem krytycznym. Chroni przed pożarem, zalaniem i kradzieżą sprzętu, ale przede wszystkim przed ransomware, które szyfruje wszystko, co „widzi” w sieci lokalnej – łącznie z podpiętym na stałe dyskiem USB. Realistyczny przebieg takiego ataku i zasady obrony opisaliśmy w poradniku o <a href="../ransomware-w-gabinecie/">ransomware w gabinecie stomatologicznym</a>.</p>
+<h2>Co dokładnie trzeba kopiować?</h2>
+<p>Pełny backup gabinetu obejmuje znacznie więcej niż samą bazę pacjentów:</p>
+<ul>
+<li>bazę programu gabinetowego (Unident, Estomed, SmartDental) wraz z załącznikami;</li>
+<li>zdjęcia RTG, tomografie CBCT i skany wewnątrzustne – zwykle największy wolumen danych;</li>
+<li>dokumenty EDM oraz repozytorium plików podpisanych elektronicznie;</li>
+<li>obrazy systemów serwera i kluczowych stanowisk, certyfikaty P1, dokumentację licencji;</li>
+<li>pocztę i dokumenty biurowe, jeśli nie są utrzymywane w chmurze.</li>
+</ul>
+<h2>Jak szyfrować kopie danych medycznych?</h2>
+<p>Kopia zapasowa dokumentacji medycznej wyniesiona poza gabinet bez szyfrowania sama w sobie stanowi ryzyko naruszenia. Minimalny standard na 2026 r. wygląda następująco:</p>
+<ul>
+<li><strong>szyfrowanie w spoczynku</strong> algorytmem AES-256 – pliki kopii są bezużyteczne bez klucza, nawet jeśli nośnik lub konto chmurowe wpadnie w niepowołane ręce;</li>
+<li><strong>szyfrowanie transmisji</strong> (TLS) – dane wędrują do chmury wyłącznie zaszyfrowanym kanałem;</li>
+<li><strong>klucz szyfrujący pod kontrolą placówki</strong> – przechowywany w menedżerze haseł i w dokumentacji awaryjnej, a nie tylko „w głowie informatyka”.</li>
+</ul>
+<p>Jeżeli kopie trafiają do zewnętrznego dostawcy chmury, konieczna jest <strong>umowa powierzenia przetwarzania danych</strong>, a serwery powinny znajdować się w Europejskim Obszarze Gospodarczym. To standardowe wymagania, które UODO traktuje jako punkt wyjścia, a nie jako dobrą wolę administratora.</p>
+<h2>Dlaczego backup bez testu odtworzenia to nie backup?</h2>
+<p>Najczęstszy scenariusz, jaki widzimy podczas audytów nowych klientów: kopia „się robi” od miesięcy, ale nikt nigdy nie próbował jej odtworzyć. Po awarii okazuje się, że harmonogram pomijał plik bazy danych zablokowany przez działający program gabinetowy albo że archiwum jest uszkodzone. Dlatego przyjmujemy prostą zasadę: <strong>backup bez testu odtworzenia to nie backup, tylko nadzieja</strong>.</p>
+<p>Dobra praktyka w placówce medycznej wygląda tak:</p>
+<ol>
+<li>codzienna, automatyczna kopia bazy programu gabinetowego i obrazów diagnostycznych;</li>
+<li>automatyczna weryfikacja poprawności (sumy kontrolne) po każdym zadaniu kopii;</li>
+<li>co najmniej raz na kwartał <strong>testowe odtworzenie</strong> bazy w czystym środowisku i uruchomienie na niej programu gabinetowego;</li>
+<li>protokół z każdego testu – to dowód staranności na wypadek kontroli UODO lub sporu z pacjentem.</li>
+</ol>
+<h2>Ile kosztuje backup zgodny z prawem w 2026 roku?</h2>
+<p>Orientacyjne widełki na 2026 r. – ostateczna wycena zawsze zależy od ilości danych, liczby stanowisk i zakresu SLA:</p>
+<ul>
+<li>mały gabinet (1–3 stanowiska, do ok. 200–500 GB danych): <strong>150–400 zł miesięcznie</strong> za zarządzany Cloud Backup z monitoringiem wykonania kopii;</li>
+<li>klinika wielostanowiskowa z tomografem CBCT (kilka terabajtów): <strong>400–1200 zł miesięcznie</strong>;</li>
+<li>jednorazowo: NAS klasy biznesowej z dyskami to wydatek rzędu 2500–6000 zł.</li>
+</ul>
+<p>W ramach profesjonalnej <a href="https://itspace.com.pl/">obsługi informatycznej gabinetów stomatologicznych</a> backup zwykle nie jest osobną usługą, lecz elementem abonamentu: wdrożenie, codzienny monitoring, szyfrowanie i cykliczne testy odtworzenia wchodzą w stały miesięczny koszt. To podejście spójne z filarami SECURE i STABLE – placówka nie kupuje „programu do backupu”, tylko potwierdzoną odtwarzalność danych.</p>
+<p>Na koniec warto zapamiętać jedno: koszt backupu to ułamek kosztu jednego dnia przestoju po utracie bazy pacjentów. Kilkaset złotych miesięcznie kontra kilka lub kilkanaście tysięcy złotych strat dziennie, odwołane wizyty i ryzyko postępowania przed UODO – ten rachunek zawsze wychodzi na korzyść kopii. Jeśli nie wiesz, kiedy ostatnio ktoś testowo odtworzył Twoją kopię – właśnie znalazłeś pierwszy punkt na listę zadań na ten tydzień.</p>
+  <section class="faq">
+    <h2>Najczęstsze pytania</h2>
+    <h3>Jak często wykonywać kopię zapasową w gabinecie stomatologicznym?</h3>
+<p>Minimum raz dziennie, automatycznie, po zakończeniu przyjęć. Baza programu gabinetowego i nowe zdjęcia RTG powinny każdej nocy trafiać na drugi nośnik oraz do szyfrowanej kopii poza lokalizacją. Przy dużej liczbie wizyt warto dołożyć kopię migawkową w ciągu dnia.</p>
+<h3>Czy dysk USB podpięty do komputera wystarczy jako backup?</h3>
+<p>Nie. Dysk podpięty na stałe zostanie zaszyfrowany przez ransomware razem z komputerem, a przy pożarze lub kradzieży zniknie wraz z resztą sprzętu. Zasada 3-2-1 wymaga co najmniej jednej kopii fizycznie poza gabinetem, np. w usłudze Cloud Backup z szyfrowaniem AES-256.</p>
+<h3>Jak długo trzeba przechowywać dokumentację medyczną?</h3>
+<p>Co do zasady przez 20 lat od końca roku kalendarzowego, w którym dokonano ostatniego wpisu, z wyjątkami przewidzianymi w przepisach. Przez cały ten okres placówka musi zapewnić integralność, czytelność i dostępność danych, także w postaci elektronicznej.</p>
+<h3>Ile kosztuje usługa Cloud Backup dla gabinetu?</h3>
+<p>Orientacyjnie w 2026 r. od około 150–400 zł miesięcznie dla małego gabinetu (1–3 stanowiska) do 400–1200 zł miesięcznie dla kliniki z tomografią CBCT. Ostateczna cena zależy od wolumenu danych, częstotliwości kopii i zakresu SLA – w abonamencie IT backup jest zwykle wliczony w stałą opłatę.</p>
+  </section>
+  <div class="cta">
+    <p><strong>Potrzebujesz wsparcia IT w swoim gabinecie lub klinice?</strong><br>Obsługujemy placówki stomatologiczne i medycyny estetycznej w Warszawie i okolicach.</p>
+    <a class="btn" href="tel:+48531330080">📞 531 330 080</a>
+    <a class="tel" href="mailto:kontakt@itspace.com.pl">kontakt@itspace.com.pl</a>
+  </div>
+</main>
+<footer>© ITSPACE — obsługa informatyczna gabinetów stomatologicznych i klinik medycyny estetycznej · <a href="https://itspace.com.pl/">itspace.com.pl</a> · <a href="https://news.itspace.com.pl">news.itspace.com.pl</a></footer>
+</body>
+</html>

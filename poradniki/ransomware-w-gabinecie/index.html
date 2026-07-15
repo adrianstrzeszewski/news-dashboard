@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ransomware w gabinecie stomatologicznym — scenariusz ataku i obrona | Poradniki ITSPACE</title>
+<meta name="description" content="Poniedziałek 7:55: baza pacjentów i zdjęcia RTG zaszyfrowane, na ekranie żądanie okupu. Dlaczego nie płacić, jak zgłosić incydent do UODO i jak się obronić.">
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+<link rel="canonical" href="https://news.itspace.com.pl/poradniki/ransomware-w-gabinecie/">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="ITSPACE">
+<meta property="og:title" content="Ransomware w gabinecie stomatologicznym — scenariusz ataku i obrona">
+<meta property="og:description" content="Poniedziałek 7:55: baza pacjentów i zdjęcia RTG zaszyfrowane, na ekranie żądanie okupu. Dlaczego nie płacić, jak zgłosić incydent do UODO i jak się obronić.">
+<meta property="og:url" content="https://news.itspace.com.pl/poradniki/ransomware-w-gabinecie/">
+<meta property="og:locale" content="pl_PL">
+<meta name="twitter:card" content="summary">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","headline":"Ransomware w gabinecie stomatologicznym — scenariusz ataku i obrona","description":"Poniedziałek 7:55: baza pacjentów i zdjęcia RTG zaszyfrowane, na ekranie żądanie okupu. Dlaczego nie płacić, jak zgłosić incydent do UODO i jak się obronić.","datePublished":"2026-07-15","dateModified":"2026-07-15","author":{"@type":"Organization","name":"ITSPACE","url":"https://itspace.com.pl/"},"publisher":{"@type":"Organization","name":"ITSPACE","url":"https://itspace.com.pl/"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://news.itspace.com.pl/poradniki/ransomware-w-gabinecie/"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"ITSPACE","item":"https://itspace.com.pl/"},{"@type":"ListItem","position":2,"name":"Poradniki","item":"https://news.itspace.com.pl/poradniki/"},{"@type":"ListItem","position":3,"name":"Ransomware w gabinecie stomatologicznym — scenariusz ataku i obrona","item":"https://news.itspace.com.pl/poradniki/ransomware-w-gabinecie/"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Czy mały gabinet stomatologiczny naprawdę jest celem ransomware?","acceptedAnswer":{"@type":"Answer","text":"Tak, bo ataki są zautomatyzowane — złośliwe kampanie phishingowe i skanowanie internetu w poszukiwaniu otwartych pulpitów zdalnych nie rozróżniają wielkości firmy. Placówki medyczne są przy tym atrakcyjne, bo przechowują krytyczne dane i działają pod presją czasu, co zwiększa skłonność do zapłaty okupu."}},{"@type":"Question","name":"Co zrobić w pierwszej kolejności po wykryciu szyfrowania danych?","acceptedAnswer":{"@type":"Answer","text":"Natychmiast odłączyć zainfekowane komputery od sieci przewodowej i Wi-Fi, ale ich nie wyłączać ani nie restartować. Następnie spisać objawy i godzinę wykrycia, wezwać wsparcie IT oraz zabezpieczyć kopie zapasowe przed podłączeniem do zainfekowanej sieci. Zgłoszenie naruszenia do UODO musi nastąpić w ciągu 72 godzin od jego stwierdzenia."}},{"@type":"Question","name":"Czy zapłacenie okupu rozwiązuje problem?","acceptedAnswer":{"@type":"Answer","text":"Nie. Nie ma gwarancji otrzymania działającego klucza, część danych często pozostaje uszkodzona, a placówka trafia na listy ofiar skłonnych płacić. Obowiązki prawne, w tym zgłoszenie naruszenia do UODO i ewentualne zawiadomienie pacjentów, pozostają aktualne niezależnie od zapłaty."}},{"@type":"Question","name":"Jaki backup chroni przed ransomware?","acceptedAnswer":{"@type":"Answer","text":"Taki, którego atakujący nie może zaszyfrować ani usunąć: kopia offline na odłączanym nośniku albo kopia niezmienna w chmurze z wersjonowaniem i blokadą usuwania, przechowywana poza lokalizacją gabinetu. Kluczowy jest też regularny test odtworzenia — kopia, której nikt nigdy nie przywrócił testowo, może okazać się bezużyteczna."}}]}]}</script>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: #0d0d0f; color: #cbd5e1; font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; line-height: 1.75; }
+  .topbar { display: flex; justify-content: space-between; align-items: center; padding: 20px 24px; border-bottom: 1px solid rgba(212,175,55,0.25); flex-wrap: wrap; gap: 10px; }
+  .logo { color: #fff; text-decoration: none; font-weight: 700; letter-spacing: 4px; font-size: 18px; }
+  .logo span { color: #d4af37; }
+  .topbar nav { display: flex; gap: 16px; flex-wrap: wrap; }
+  .topbar nav a { color: #cbd5e1; text-decoration: none; font-size: 14px; }
+  .topbar nav a:hover { color: #f3dc8a; }
+  .pill { border: 1px solid rgba(212,175,55,0.55); padding: 6px 14px; border-radius: 50px; color: #f3dc8a !important; font-weight: 600; }
+  main { max-width: 860px; margin: 0 auto; padding: 48px 24px 32px; }
+  .crumbs { font-size: 13px; color: #708090; margin-bottom: 22px; }
+  .crumbs a { color: #96a1aa; text-decoration: none; }
+  h1 { color: #fff; font-size: clamp(26px, 4vw, 38px); line-height: 1.25; margin-bottom: 14px; }
+  .meta-line { font-size: 13px; color: #708090; margin-bottom: 28px; }
+  .snippet { background: rgba(212,175,55,0.08); border-left: 3px solid #d4af37; padding: 18px 22px; border-radius: 0 10px 10px 0; margin-bottom: 34px; color: #e8e2d0; font-size: 17px; }
+  h2 { color: #f3dc8a; font-size: 22px; margin: 38px 0 14px; }
+  h3 { color: #e8e2d0; font-size: 17px; margin: 24px 0 10px; }
+  p { margin-bottom: 16px; }
+  ul, ol { margin: 0 0 18px 22px; }
+  li { margin-bottom: 8px; }
+  strong { color: #e8e2d0; }
+  a { color: #d4af37; }
+  .faq { margin-top: 44px; border-top: 1px solid rgba(212,175,55,0.25); padding-top: 8px; }
+  .faq h2 { margin-top: 26px; }
+  .faq h3 { color: #f3dc8a; }
+  .cta { margin: 48px 0 8px; background: linear-gradient(135deg, rgba(212,175,55,0.14), rgba(212,175,55,0.05)); border: 1px solid rgba(212,175,55,0.4); border-radius: 14px; padding: 26px; text-align: center; }
+  .cta p { color: #e8e2d0; margin-bottom: 14px; }
+  .cta a.btn { display: inline-block; background: linear-gradient(135deg, #d4af37, #b8962e); color: #14120a; font-weight: 700; padding: 12px 28px; border-radius: 50px; text-decoration: none; margin: 4px; }
+  .cta a.tel { display: inline-block; color: #f3dc8a; padding: 12px 10px; }
+  footer { border-top: 1px solid rgba(212,175,55,0.25); margin-top: 40px; padding: 26px 24px; text-align: center; font-size: 13px; color: #708090; }
+  footer a { color: #96a1aa; }
+</style>
+</head>
+<body>
+<header class="topbar">
+  <a class="logo" href="https://itspace.com.pl/">IT<span>SPACE</span></a>
+  <nav>
+    <a href="https://itspace.com.pl/">Strona główna</a>
+    <a href="https://news.itspace.com.pl/poradniki/">Poradniki</a>
+    <a class="pill" href="https://news.itspace.com.pl" target="_blank" rel="noopener">📰 News</a>
+  </nav>
+</header>
+<main>
+  <div class="crumbs"><a href="https://itspace.com.pl/">ITSPACE</a> › <a href="https://news.itspace.com.pl/poradniki/">Poradniki</a> › Ransomware w gabinecie stomatologicznym — scenariusz ataku i obrona</div>
+  <h1>Ransomware w gabinecie stomatologicznym — scenariusz ataku i obrona</h1>
+  <div class="meta-line">Zespół ITSPACE · opublikowano 15 lipca 2026 · aktualizacja: 15 lipca 2026</div>
+  <div class="snippet">Ransomware szyfruje bazę pacjentów, zdjęcia RTG i dokumenty, a przestępcy żądają okupu — w Polsce zwykle równowartości kilkunastu–kilkudziesięciu tysięcy złotych od małej placówki. Okupu nie warto płacić: nie ma gwarancji odzyskania danych, a incydent i tak trzeba zgłosić do UODO w ciągu 72 godzin. Realną obroną jest kopia zapasowa offline lub niezmienna poza lokalizacją, segmentacja sieci, EDR, MFA i aktualizacje — gabinet z przetestowanym backupem wraca do pracy w godziny, bez płacenia przestępcom.</div>
+  <h2>Jak wygląda atak ransomware na gabinet? Realistyczny scenariusz</h2>
+<p>Poniedziałek, 7:55. Rejestratorka włącza komputer, ale zamiast terminarza w Unidencie widzi czarny ekran z komunikatem: dane zostały zaszyfrowane, klucz do odzyskania kosztuje 2 bitcoiny, czas na wpłatę — 72 godziny. Baza pacjentów, zdjęcia RTG z pięciu lat, faktury i grafik pracy — wszystko ma rozszerzenie <strong>.locked</strong>. Za chwilę okazuje się, że zaszyfrowane są też komputery przy unitach oraz dysk sieciowy, na który „robił się backup”. Do ataku doszło najpewniej tydzień wcześniej: ktoś otworzył załącznik z „fakturą” albo przestępcy weszli przez źle zabezpieczony pulpit zdalny, po czym cicho rozpoznawali sieć i skasowali dostępne kopie zapasowe, zanim uruchomili szyfrowanie.</p>
+<p>To nie jest scenariusz filmowy — placówki medyczne są ulubionym celem grup ransomware, bo <strong>dane medyczne są krytyczne, a presja czasu ogromna</strong>: każdy dzień przestoju to odwołane wizyty i realne straty. Mały gabinet nie jest „za mały, żeby go atakować” — ataki są zautomatyzowane i trafiają tam, gdzie akurat otworzą się drzwi.</p>
+<h2>Dlaczego nie warto płacić okupu?</h2>
+<ul>
+<li><strong>Nie ma żadnej gwarancji.</strong> Część ofiar po zapłacie nie dostaje działającego klucza albo odzyskuje dane częściowo i w uszkodzonej formie. Bywa też, że po wpłacie pojawia się drugie żądanie — za nieujawnianie wykradzionych danych.</li>
+<li><strong>Płacąc, finansujesz przestępców</strong> i trafiasz na listę „płacących”, co zwiększa ryzyko ponownego ataku na tę samą placówkę.</li>
+<li><strong>Zapłata niczego nie załatwia prawnie.</strong> Naruszenie ochrony danych osobowych i tak wystąpiło — obowiązek zgłoszenia do UODO oraz analiza, czy zawiadomić pacjentów, pozostają w mocy niezależnie od okupu.</li>
+</ul>
+<h2>Jak się bronić? Sześć warstw, które naprawdę działają</h2>
+<ol>
+<li><strong>Kopia zapasowa offline lub niezmienna, poza lokalizacją.</strong> Nowoczesny ransomware najpierw szuka i niszczy backupy. Dlatego przynajmniej jedna kopia musi być nieosiągalna z sieci gabinetu: szyfrowany Cloud Backup z wersjonowaniem i blokadą usuwania albo nośnik fizycznie odłączany. Zasady doboru kopii, szyfrowania i testów odtworzenia opisujemy w poradniku o <a href="../backup-danych-w-gabinecie/">backupie danych w gabinecie zgodnym z prawem</a>.</li>
+<li><strong>Segmentacja sieci.</strong> Oddzielne VLAN-y dla stanowisk, urządzeń diagnostycznych i gości sprawiają, że infekcja jednego komputera nie rozlewa się na całą placówkę i archiwum RTG.</li>
+<li><strong>EDR zamiast samego antywirusa.</strong> Klasyczny antywirus reaguje na znane pliki; systemy EDR wykrywają podejrzane zachowania — masowe szyfrowanie, kasowanie kopii systemowych — i potrafią automatycznie odciąć stację od sieci.</li>
+<li><strong>Aktualizacje systemów i oprogramowania</strong>, w tym gabinetowego, oraz wyłączenie nieużywanych usług zdalnego dostępu. Większość ataków wykorzystuje luki znane od miesięcy.</li>
+<li><strong>MFA i konta imienne.</strong> Uwierzytelnianie wieloskładnikowe dla poczty, dostępu zdalnego i panelu backupu oraz osobne konta dla każdego pracownika — bez wspólnego hasła „recepcja”.</li>
+<li><strong>Ludzie.</strong> Krótkie, regularne szkolenia z rozpoznawania phishingu, bo to wciąż najczęstsza furtka wejścia.</li>
+</ol>
+<p>Żadna z tych warstw nie działa „raz na zawsze”. Kopie trzeba <strong>testowo odtwarzać</strong> co najmniej raz na kwartał, monitoring musi faktycznie alarmować (a ktoś musi te alarmy czytać), a uprawnienia pracowników — być przeglądane po każdej zmianie kadrowej. W placówkach, które przechodzą audyt bezpieczeństwa po raz pierwszy, niemal zawsze znajdujemy to samo: backup skonfigurowany lata temu, który od miesięcy kończy się błędem, i konto byłego pracownika z pełnym dostępem do bazy pacjentów. To dokładnie te furtki, z których korzystają grupy ransomware.</p>
+<h2>Obowiązki RODO: 72 godziny na zgłoszenie</h2>
+<p>Zaszyfrowanie danych pacjentów to naruszenie ochrony danych osobowych — a dane o zdrowiu należą do szczególnej kategorii z art. 9 RODO. Administrator ma <strong>72 godziny od stwierdzenia naruszenia na zgłoszenie do Prezesa UODO</strong>; przy wysokim ryzyku dla pacjentów trzeba też zawiadomić ich samych. Równolegle warto zawiadomić organy ścigania i zespół CERT Polska oraz udokumentować cały przebieg incydentu. Ukrywanie ataku jest najgorszą strategią: grozi karą administracyjną i utratą zaufania, a wyciek często i tak wychodzi na jaw, gdy przestępcy publikują dane. Warto pamiętać, że zgłoszenie naruszenia samo w sobie nie oznacza kary — UODO ocenia przede wszystkim to, jakie środki ochrony placówka stosowała przed incydentem i jak zareagowała po nim.</p>
+<h2>Plan reakcji: co robić w pierwszej godzinie?</h2>
+<p>Kolejność ma znaczenie: <strong>odłączyć zainfekowane komputery od sieci</strong> (nie wyłączać ich — to utrudnia analizę), nie restartować serwera, spisać co i kiedy zauważono, wezwać wsparcie IT i nie dotykać kopii zapasowych do czasu ustalenia zakresu infekcji. Placówki objęte stałą <a href="https://itspace.com.pl/">obsługą informatyczną gabinetów stomatologicznych i klinik</a> mają ten plan przygotowany zawczasu: monitoring wychwytuje anomalię, wiadomo gdzie są kopie i kto podejmuje decyzje. Koszt takiej ochrony w abonamencie to orientacyjnie <strong>kilkaset złotych miesięcznie dla małego gabinetu</strong> (ostateczna wycena zależy od liczby stanowisk i zakresu SLA) — wielokrotnie mniej niż jeden dzień przestoju, nie mówiąc o okupie, którego i tak nie warto płacić.</p>
+  <section class="faq">
+    <h2>Najczęstsze pytania</h2>
+    <h3>Czy mały gabinet stomatologiczny naprawdę jest celem ransomware?</h3>
+    <p>Tak, bo ataki są zautomatyzowane — złośliwe kampanie phishingowe i skanowanie internetu w poszukiwaniu otwartych pulpitów zdalnych nie rozróżniają wielkości firmy. Placówki medyczne są przy tym atrakcyjne, bo przechowują krytyczne dane i działają pod presją czasu, co zwiększa skłonność do zapłaty okupu.</p>
+    <h3>Co zrobić w pierwszej kolejności po wykryciu szyfrowania danych?</h3>
+    <p>Natychmiast odłączyć zainfekowane komputery od sieci przewodowej i Wi-Fi, ale ich nie wyłączać ani nie restartować. Następnie spisać objawy i godzinę wykrycia, wezwać wsparcie IT oraz zabezpieczyć kopie zapasowe przed podłączeniem do zainfekowanej sieci. Zgłoszenie naruszenia do UODO musi nastąpić w ciągu 72 godzin od jego stwierdzenia.</p>
+    <h3>Czy zapłacenie okupu rozwiązuje problem?</h3>
+    <p>Nie. Nie ma gwarancji otrzymania działającego klucza, część danych często pozostaje uszkodzona, a placówka trafia na listy ofiar skłonnych płacić. Obowiązki prawne, w tym zgłoszenie naruszenia do UODO i ewentualne zawiadomienie pacjentów, pozostają aktualne niezależnie od zapłaty.</p>
+    <h3>Jaki backup chroni przed ransomware?</h3>
+    <p>Taki, którego atakujący nie może zaszyfrować ani usunąć: kopia offline na odłączanym nośniku albo kopia niezmienna w chmurze z wersjonowaniem i blokadą usuwania, przechowywana poza lokalizacją gabinetu. Kluczowy jest też regularny test odtworzenia — kopia, której nikt nigdy nie przywrócił testowo, może okazać się bezużyteczna.</p>
+  </section>
+  <div class="cta">
+    <p><strong>Potrzebujesz wsparcia IT w swoim gabinecie lub klinice?</strong><br>Obsługujemy placówki stomatologiczne i medycyny estetycznej w Warszawie i okolicach.</p>
+    <a class="btn" href="tel:+48531330080">📞 531 330 080</a>
+    <a class="tel" href="mailto:kontakt@itspace.com.pl">kontakt@itspace.com.pl</a>
+  </div>
+</main>
+<footer>© ITSPACE — obsługa informatyczna gabinetów stomatologicznych i klinik medycyny estetycznej · <a href="https://itspace.com.pl/">itspace.com.pl</a> · <a href="https://news.itspace.com.pl">news.itspace.com.pl</a></footer>
+</body>
+</html>

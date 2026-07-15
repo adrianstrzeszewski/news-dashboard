@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Integracja RTG i skanera wewnątrzustnego z oprogramowaniem gabinetu | Poradniki ITSPACE</title>
+<meta name="description" content="TWAIN czy DICOM? Jak połączyć RTG i skaner wewnątrzustny z Unidentem, Estomedem lub SmartDental, czego unikać w sieci i ile kosztuje wdrożenie w 2026 r.">
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+<link rel="canonical" href="https://news.itspace.com.pl/poradniki/integracja-rtg-i-skanera/">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="ITSPACE">
+<meta property="og:title" content="Integracja RTG i skanera wewnątrzustnego z oprogramowaniem gabinetu">
+<meta property="og:description" content="TWAIN czy DICOM? Jak połączyć RTG i skaner wewnątrzustny z Unidentem, Estomedem lub SmartDental, czego unikać w sieci i ile kosztuje wdrożenie w 2026 r.">
+<meta property="og:url" content="https://news.itspace.com.pl/poradniki/integracja-rtg-i-skanera/">
+<meta property="og:locale" content="pl_PL">
+<meta name="twitter:card" content="summary">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","headline":"Integracja RTG i skanera wewnątrzustnego z oprogramowaniem gabinetu","description":"TWAIN czy DICOM? Jak połączyć RTG i skaner wewnątrzustny z Unidentem, Estomedem lub SmartDental, czego unikać w sieci i ile kosztuje wdrożenie w 2026 r.","datePublished":"2026-07-15","dateModified":"2026-07-15","author":{"@type":"Organization","name":"ITSPACE","url":"https://itspace.com.pl/"},"publisher":{"@type":"Organization","name":"ITSPACE","url":"https://itspace.com.pl/"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://news.itspace.com.pl/poradniki/integracja-rtg-i-skanera/"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"ITSPACE","item":"https://itspace.com.pl/"},{"@type":"ListItem","position":2,"name":"Poradniki","item":"https://news.itspace.com.pl/poradniki/"},{"@type":"ListItem","position":3,"name":"Integracja RTG i skanera wewnątrzustnego z oprogramowaniem gabinetu","item":"https://news.itspace.com.pl/poradniki/integracja-rtg-i-skanera/"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Czym różni się TWAIN od DICOM w gabinecie stomatologicznym?","acceptedAnswer":{"@type":"Answer","text":"TWAIN to prosty sterownik, którym program gabinetowy pobiera obraz bezpośrednio z urządzenia na lokalny komputer. DICOM to medyczny standard wymiany obrazów z metadanymi pacjenta, zwykle oparty na serwerze obrazów dostępnym ze wszystkich stanowisk. Czujniki punktowe najczęściej pracują przez TWAIN, a pantomografy, tomografy CBCT i skanery — przez DICOM lub formaty producenta."}},{"@type":"Question","name":"Dlaczego po aktualizacji Windows przestało działać RTG?","acceptedAnswer":{"@type":"Answer","text":"Duże aktualizacje Windows potrafią nadpisać lub zablokować starsze sterowniki TWAIN, przez co czujnik znika z programu gabinetowego. Zwykle pomaga ponowna instalacja sterownika producenta w odpowiedniej wersji. Dobrą praktyką jest testowanie aktualizacji najpierw na jednym stanowisku i przechowywanie instalatorów sterowników w dokumentacji placówki."}},{"@type":"Question","name":"Czy skaner wewnątrzustny może pracować przez Wi-Fi?","acceptedAnswer":{"@type":"Answer","text":"Część skanerów oferuje tryb bezprzewodowy i przy dobrej sieci działa on poprawnie, jednak urządzenia diagnostyczne przesyłające duże pliki najlepiej podłączać przewodem. Jeśli Wi-Fi jest konieczne, skaner powinien pracować w wydzielonej sieci (VLAN) o gwarantowanym paśmie, oddzielonej od sieci dla pacjentów."}},{"@type":"Question","name":"Jak długo trzeba przechowywać zdjęcia RTG pacjentów?","acceptedAnswer":{"@type":"Answer","text":"Zdjęcia RTG stanowią część dokumentacji medycznej, którą co do zasady przechowuje się 20 lat od końca roku kalendarzowego, w którym dokonano ostatniego wpisu. Dlatego archiwum badań obrazowych musi być objęte kopią zapasową, w tym kopią poza lokalizacją, i okresowym testem odtwarzania danych."}}]}]}</script>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: #0d0d0f; color: #cbd5e1; font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; line-height: 1.75; }
+  .topbar { display: flex; justify-content: space-between; align-items: center; padding: 20px 24px; border-bottom: 1px solid rgba(212,175,55,0.25); flex-wrap: wrap; gap: 10px; }
+  .logo { color: #fff; text-decoration: none; font-weight: 700; letter-spacing: 4px; font-size: 18px; }
+  .logo span { color: #d4af37; }
+  .topbar nav { display: flex; gap: 16px; flex-wrap: wrap; }
+  .topbar nav a { color: #cbd5e1; text-decoration: none; font-size: 14px; }
+  .topbar nav a:hover { color: #f3dc8a; }
+  .pill { border: 1px solid rgba(212,175,55,0.55); padding: 6px 14px; border-radius: 50px; color: #f3dc8a !important; font-weight: 600; }
+  main { max-width: 860px; margin: 0 auto; padding: 48px 24px 32px; }
+  .crumbs { font-size: 13px; color: #708090; margin-bottom: 22px; }
+  .crumbs a { color: #96a1aa; text-decoration: none; }
+  h1 { color: #fff; font-size: clamp(26px, 4vw, 38px); line-height: 1.25; margin-bottom: 14px; }
+  .meta-line { font-size: 13px; color: #708090; margin-bottom: 28px; }
+  .snippet { background: rgba(212,175,55,0.08); border-left: 3px solid #d4af37; padding: 18px 22px; border-radius: 0 10px 10px 0; margin-bottom: 34px; color: #e8e2d0; font-size: 17px; }
+  h2 { color: #f3dc8a; font-size: 22px; margin: 38px 0 14px; }
+  h3 { color: #e8e2d0; font-size: 17px; margin: 24px 0 10px; }
+  p { margin-bottom: 16px; }
+  ul, ol { margin: 0 0 18px 22px; }
+  li { margin-bottom: 8px; }
+  strong { color: #e8e2d0; }
+  a { color: #d4af37; }
+  .faq { margin-top: 44px; border-top: 1px solid rgba(212,175,55,0.25); padding-top: 8px; }
+  .faq h2 { margin-top: 26px; }
+  .faq h3 { color: #f3dc8a; }
+  .cta { margin: 48px 0 8px; background: linear-gradient(135deg, rgba(212,175,55,0.14), rgba(212,175,55,0.05)); border: 1px solid rgba(212,175,55,0.4); border-radius: 14px; padding: 26px; text-align: center; }
+  .cta p { color: #e8e2d0; margin-bottom: 14px; }
+  .cta a.btn { display: inline-block; background: linear-gradient(135deg, #d4af37, #b8962e); color: #14120a; font-weight: 700; padding: 12px 28px; border-radius: 50px; text-decoration: none; margin: 4px; }
+  .cta a.tel { display: inline-block; color: #f3dc8a; padding: 12px 10px; }
+  footer { border-top: 1px solid rgba(212,175,55,0.25); margin-top: 40px; padding: 26px 24px; text-align: center; font-size: 13px; color: #708090; }
+  footer a { color: #96a1aa; }
+</style>
+</head>
+<body>
+<header class="topbar">
+  <a class="logo" href="https://itspace.com.pl/">IT<span>SPACE</span></a>
+  <nav>
+    <a href="https://itspace.com.pl/">Strona główna</a>
+    <a href="https://news.itspace.com.pl/poradniki/">Poradniki</a>
+    <a class="pill" href="https://news.itspace.com.pl" target="_blank" rel="noopener">📰 News</a>
+  </nav>
+</header>
+<main>
+  <div class="crumbs"><a href="https://itspace.com.pl/">ITSPACE</a> › <a href="https://news.itspace.com.pl/poradniki/">Poradniki</a> › Integracja RTG i skanera wewnątrzustnego z oprogramowaniem gabinetu</div>
+  <h1>Integracja RTG i skanera wewnątrzustnego z oprogramowaniem gabinetu</h1>
+  <div class="meta-line">Zespół ITSPACE · opublikowano 15 lipca 2026 · aktualizacja: 15 lipca 2026</div>
+  <div class="snippet">Radiografię cyfrową i skaner wewnątrzustny łączy się z programem gabinetowym (Unident, Estomed, SmartDental) przez sterownik TWAIN lub protokół DICOM z serwerem obrazów. Urządzenia diagnostyczne powinny pracować w sieci przewodowej, w wydzielonym VLAN-ie — Wi-Fi bywa źródłem zrywanych transferów i uszkodzonych zdjęć. Orientacyjny koszt profesjonalnej integracji jednego urządzenia to w 2026 r. około 400–1500 zł, a pełnej konfiguracji serwera obrazów z kopiami zapasowymi — 1500–4000 zł, zależnie od skali placówki.</div>
+  <h2>Jak zdjęcie z RTG trafia do programu gabinetowego?</h2>
+<p>W nowoczesnym gabinecie zdjęcie punktowe, pantomogram czy skan łuku zębowego powinny automatycznie trafiać do kartoteki pacjenta w programie gabinetowym — najczęściej jest to <strong>Unident, Estomed lub SmartDental</strong>. Technicznie odbywa się to na dwa sposoby. Pierwszy to sterownik <strong>TWAIN</strong>: program gabinetowy „woła” urządzenie podobnie jak zwykły skaner dokumentów, a obraz wraca prosto do karty pacjenta. Drugi to <strong>DICOM</strong> — medyczny standard wymiany obrazów, w którym pośredniczy oprogramowanie diagnostyczne producenta albo dedykowany serwer obrazów.</p>
+<p>W praktyce większość czujników radiografii punktowej w polskich gabinetach pracuje przez TWAIN, natomiast pantomografy, tomografy CBCT i skanery wewnątrzustne coraz częściej korzystają z DICOM lub z własnych formatów producenta synchronizowanych przez folder sieciowy. Dobrze wykonana integracja oznacza, że lekarz klika jeden przycisk w programie i po kilku sekundach widzi obraz — bez ręcznego przenoszenia plików pendrive’em i bez ryzyka podpięcia zdjęcia pod niewłaściwego pacjenta.</p>
+<h2>TWAIN czy DICOM — czym się różnią i co wybrać?</h2>
+<p>Wybór rzadko jest w pełni dowolny — dyktują go producent urządzenia i możliwości programu gabinetowego — ale warto rozumieć konsekwencje:</p>
+<ul>
+<li><strong>TWAIN</strong> jest prosty i tani we wdrożeniu, lecz działa lokalnie: obraz trafia na ten komputer, przy którym stoi urządzenie. Przy kilku unitach szybko robi się z tego problem z dostępem do zdjęć między stanowiskami.</li>
+<li><strong>DICOM</strong> wymaga serwera obrazów i staranniejszej konfiguracji sieci, ale daje centralne archiwum: każde stanowisko widzi te same badania, a metadane (pacjent, data, urządzenie) są zapisane w samym pliku, co porządkuje dokumentację i ułatwia jej eksport.</li>
+<li><strong>Model mieszany</strong> — czujniki punktowe przez TWAIN, pantomograf i skaner przez DICOM lub folder sieciowy — to najczęstsza konfiguracja w klinikach wielostanowiskowych.</li>
+</ul>
+<h2>Najczęstsze problemy z integracją i skąd się biorą</h2>
+<ol>
+<li><strong>Aktualizacje Windows psujące TWAIN.</strong> To klasyka: po dużej aktualizacji systemu sterownik czujnika przestaje być widoczny w Unidencie czy Estomedzie. Ratunkiem jest kontrolowane wdrażanie aktualizacji (najpierw jedno stanowisko testowe) i trzymanie instalatorów sterowników w dokumentacji placówki.</li>
+<li><strong>Stare sterowniki i niewspierane oprogramowanie.</strong> Część urządzeń diagnostycznych ma sterowniki pisane lata temu; po wymianie komputera na nowy system potrafią nie działać wcale. Przed zakupem stacji roboczej trzeba sprawdzić zgodność, a nie odwrotnie.</li>
+<li><strong>Problemy sieciowe.</strong> Zrywane transfery, brak widoczności serwera obrazów po zmianie ustawień, konflikt adresów IP po podłączeniu nowego sprzętu — to typowe skutki sieci „rozbudowywanej po kawałku”, bez dokumentacji.</li>
+<li><strong>Konflikt wersji.</strong> Aktualizacja programu gabinetowego bywa niezgodna ze starszym modułem radiologicznym. Aktualizacje warto planować, a nie klikać „tak” między pacjentami.</li>
+</ol>
+<h2>Wymagania sieciowe: dlaczego przewód wygrywa z Wi-Fi</h2>
+<p>Dla urządzeń diagnostycznych obowiązuje żelazna zasada: <strong>RTG, pantomograf, tomograf i serwer obrazów podłączamy przewodem</strong>, a nie bezprzewodowo. Transfer pantomogramu czy skanu CBCT to dziesiątki, czasem setki megabajtów — chwilowe zakłócenie Wi-Fi potrafi przerwać zapis i uszkodzić badanie. Skanery wewnątrzustne z opcją pracy bezprzewodowej to wyjątek, ale i one wymagają stabilnego, wydzielonego pasma. Urządzenia medyczne powinny też pracować w osobnym segmencie sieci (VLAN), odizolowanym od komputerów recepcji i od gości — jak to zaprojektować, opisujemy w poradniku o <a href="../wifi-w-gabinecie/">rozdzielaniu sieci Wi-Fi dla pacjentów i urządzeń medycznych</a>. Segmentacja ogranicza również skutki ewentualnego ataku ransomware: zaszyfrowana recepcja nie oznacza wtedy utraty archiwum badań.</p>
+<h2>Serwer obrazów i kopie zdjęć RTG</h2>
+<p>Zdjęcia RTG są częścią dokumentacji medycznej — obowiązuje je co do zasady <strong>20-letni okres przechowywania</strong>, tak samo jak wpisów w EDM raportowanych do systemu P1. Oznacza to, że archiwum badań musi być objęte kopią zapasową dokładnie tak jak baza pacjentów: kopia lokalna plus <strong>kopia poza lokalizacją</strong> (np. szyfrowany Cloud Backup), z okresowym testem odtworzenia. W praktyce spotykamy gabinety, w których baza Unidenta jest backupowana, ale folder ze zdjęciami z pantomografu — już nie; po awarii dysku znika kilka lat diagnostyki. Warto raz na kwartał sprawdzić, czy kopia obejmuje wszystkie katalogi obrazów i czy da się z niej realnie odzyskać badanie.</p>
+<h2>Ile kosztuje profesjonalna integracja w 2026 r.?</h2>
+<p>Orientacyjne widełki rynkowe na 2026 r.: podłączenie i skonfigurowanie pojedynczego urządzenia (czujnik, kamera, skaner) to zwykle <strong>400–1500 zł</strong>, konfiguracja serwera obrazów z uporządkowaniem sieci i kopiami zapasowymi — <strong>1500–4000 zł</strong>, a bieżąca opieka nad całością mieści się w abonamencie serwisowym placówki. Ostateczna wycena zależy od liczby stanowisk, wieku urządzeń i zakresu SLA. Jeśli integracja ma działać latami, a nie do najbliższej aktualizacji Windows, warto powierzyć ją firmie zajmującej się <a href="https://itspace.com.pl/">obsługą informatyczną gabinetów stomatologicznych</a>, która zna zarówno oprogramowanie gabinetowe, jak i specyfikę sprzętu diagnostycznego — i która dokumentuje konfigurację, zamiast trzymać ją w głowie jednego informatyka.</p>
+  <section class="faq">
+    <h2>Najczęstsze pytania</h2>
+    <h3>Czym różni się TWAIN od DICOM w gabinecie stomatologicznym?</h3>
+    <p>TWAIN to prosty sterownik, którym program gabinetowy pobiera obraz bezpośrednio z urządzenia na lokalny komputer. DICOM to medyczny standard wymiany obrazów z metadanymi pacjenta, zwykle oparty na serwerze obrazów dostępnym ze wszystkich stanowisk. Czujniki punktowe najczęściej pracują przez TWAIN, a pantomografy, tomografy CBCT i skanery — przez DICOM lub formaty producenta.</p>
+    <h3>Dlaczego po aktualizacji Windows przestało działać RTG?</h3>
+    <p>Duże aktualizacje Windows potrafią nadpisać lub zablokować starsze sterowniki TWAIN, przez co czujnik znika z programu gabinetowego. Zwykle pomaga ponowna instalacja sterownika producenta w odpowiedniej wersji. Dobrą praktyką jest testowanie aktualizacji najpierw na jednym stanowisku i przechowywanie instalatorów sterowników w dokumentacji placówki.</p>
+    <h3>Czy skaner wewnątrzustny może pracować przez Wi-Fi?</h3>
+    <p>Część skanerów oferuje tryb bezprzewodowy i przy dobrej sieci działa on poprawnie, jednak urządzenia diagnostyczne przesyłające duże pliki najlepiej podłączać przewodem. Jeśli Wi-Fi jest konieczne, skaner powinien pracować w wydzielonej sieci (VLAN) o gwarantowanym paśmie, oddzielonej od sieci dla pacjentów.</p>
+    <h3>Jak długo trzeba przechowywać zdjęcia RTG pacjentów?</h3>
+    <p>Zdjęcia RTG stanowią część dokumentacji medycznej, którą co do zasady przechowuje się 20 lat od końca roku kalendarzowego, w którym dokonano ostatniego wpisu. Dlatego archiwum badań obrazowych musi być objęte kopią zapasową, w tym kopią poza lokalizacją, i okresowym testem odtwarzania danych.</p>
+  </section>
+  <div class="cta">
+    <p><strong>Potrzebujesz wsparcia IT w swoim gabinecie lub klinice?</strong><br>Obsługujemy placówki stomatologiczne i medycyny estetycznej w Warszawie i okolicach.</p>
+    <a class="btn" href="tel:+48531330080">📞 531 330 080</a>
+    <a class="tel" href="mailto:kontakt@itspace.com.pl">kontakt@itspace.com.pl</a>
+  </div>
+</main>
+<footer>© ITSPACE — obsługa informatyczna gabinetów stomatologicznych i klinik medycyny estetycznej · <a href="https://itspace.com.pl/">itspace.com.pl</a> · <a href="https://news.itspace.com.pl">news.itspace.com.pl</a></footer>
+</body>
+</html>

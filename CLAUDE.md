@@ -29,3 +29,7 @@ Datownik ma dwie części: span #dl-today (dzień, data, imieniny — liczone w 
 ## SEO subdomeny (od 15.07.2026)
 
 W <head> index.html są meta SEO (description, canonical na https://news.itspace.com.pl/, Open Graph, Twitter Card) oraz blok JSON-LD — przy przebudowie wydania zachowuj je bez zmian. W repo są pliki robots.txt, llms.txt i sitemap.xml — przy każdej publikacji aktualizuj w sitemap.xml wartość <lastmod> na bieżącą datę (RRRR-MM-DD), pozostałych plików nie zmieniaj.
+
+## Poradniki (od 15.07.2026)
+
+Katalog `poradniki/` (spis `poradniki/index.html` + 15 artykułów `poradniki/<slug>/index.html`) to statyczna sekcja poradnikowa serwowana pod https://news.itspace.com.pl/poradniki/. Rutyna publikacyjna „nowe wydanie" NIE zmienia jej zawartości — nowe artykuły lub modyfikacje istniejących powstają wyłącznie na wyraźne zlecenie właściciela repozytorium. Przy aktualizacji sitemap.xml zachowuj wpisy poradników (spis i artykuły) bez zmian — aktualizuje się tylko <lastmod> strony głównej.

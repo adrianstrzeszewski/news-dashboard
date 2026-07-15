@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Wi-Fi w gabinecie — jak oddzielić sieć dla pacjentów od urządzeń medycznych? | Poradniki ITSPACE</title>
+<meta name="description" content="Jedna sieć Wi-Fi dla pacjentów, recepcji i RTG to ryzyko RODO i ransomware. Jak podzielić sieć na VLAN-y, jaki sprzęt wybrać i ile to kosztuje w 2026 r.">
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+<link rel="canonical" href="https://news.itspace.com.pl/poradniki/wifi-w-gabinecie/">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="ITSPACE">
+<meta property="og:title" content="Wi-Fi w gabinecie — jak oddzielić sieć dla pacjentów od urządzeń medycznych?">
+<meta property="og:description" content="Jedna sieć Wi-Fi dla pacjentów, recepcji i RTG to ryzyko RODO i ransomware. Jak podzielić sieć na VLAN-y, jaki sprzęt wybrać i ile to kosztuje w 2026 r.">
+<meta property="og:url" content="https://news.itspace.com.pl/poradniki/wifi-w-gabinecie/">
+<meta property="og:locale" content="pl_PL">
+<meta name="twitter:card" content="summary">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","headline":"Wi-Fi w gabinecie — jak oddzielić sieć dla pacjentów od urządzeń medycznych?","description":"Jedna sieć Wi-Fi dla pacjentów, recepcji i RTG to ryzyko RODO i ransomware. Jak podzielić sieć na VLAN-y, jaki sprzęt wybrać i ile to kosztuje w 2026 r.","datePublished":"2026-07-15","dateModified":"2026-07-15","author":{"@type":"Organization","name":"ITSPACE","url":"https://itspace.com.pl/"},"publisher":{"@type":"Organization","name":"ITSPACE","url":"https://itspace.com.pl/"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://news.itspace.com.pl/poradniki/wifi-w-gabinecie/"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"ITSPACE","item":"https://itspace.com.pl/"},{"@type":"ListItem","position":2,"name":"Poradniki","item":"https://news.itspace.com.pl/poradniki/"},{"@type":"ListItem","position":3,"name":"Wi-Fi w gabinecie — jak oddzielić sieć dla pacjentów od urządzeń medycznych?","item":"https://news.itspace.com.pl/poradniki/wifi-w-gabinecie/"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Czy pacjenci mogą korzystać z tego samego Wi-Fi co komputery gabinetu?","acceptedAnswer":{"@type":"Answer","text":"Nie powinni. Wspólna sieć oznacza, że urządzenie pacjenta pracuje w tej samej przestrzeni co serwer z dokumentacją medyczną, co jest trudne do obrony na gruncie RODO i ułatwia rozprzestrzenianie się złośliwego oprogramowania. Pacjentom udostępnia się osobną, izolowaną sieć gościnną z dostępem wyłącznie do internetu."}},{"@type":"Question","name":"Czym jest VLAN i czy wymaga osobnych routerów?","acceptedAnswer":{"@type":"Answer","text":"VLAN to wirtualna sieć lokalna — logiczny podział jednej fizycznej infrastruktury na odseparowane segmenty, np. medyczny, biurowy i gościnny. Nie wymaga osobnych routerów; wystarczy jeden zestaw sprzętu klasy biznesowej z zarządzalnym przełącznikiem i punktami dostępowymi, który rozgłasza kilka niezależnych sieci."}},{"@type":"Question","name":"Czy RTG i skaner mogą działać przez Wi-Fi?","acceptedAnswer":{"@type":"Answer","text":"Urządzenia diagnostyczne najlepiej podłączać przewodem, bo przesyłają duże pliki badań, a zerwany transfer może oznaczać uszkodzone zdjęcie i konieczność powtórzenia ekspozycji. Wi-Fi zostawia się urządzeniom mobilnym; wyjątkiem bywają skanery z trybem bezprzewodowym, które i tak wymagają wydzielonego, stabilnego pasma."}},{"@type":"Question","name":"Ile kosztuje wydzielenie sieci dla pacjentów w małym gabinecie?","acceptedAnswer":{"@type":"Answer","text":"Orientacyjnie 2500–8000 zł w 2026 r. za sprzęt klasy biznesowej (router, przełącznik zarządzalny, punkty dostępowe) wraz z konfiguracją VLAN-ów, sieci gościnnej i dokumentacją. Ostateczna cena zależy od metrażu, liczby urządzeń i zakresu umowy SLA; bieżące utrzymanie sieci zwykle wchodzi w abonament IT."}}]}]}</script>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: #0d0d0f; color: #cbd5e1; font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; line-height: 1.75; }
+  .topbar { display: flex; justify-content: space-between; align-items: center; padding: 20px 24px; border-bottom: 1px solid rgba(212,175,55,0.25); flex-wrap: wrap; gap: 10px; }
+  .logo { color: #fff; text-decoration: none; font-weight: 700; letter-spacing: 4px; font-size: 18px; }
+  .logo span { color: #d4af37; }
+  .topbar nav { display: flex; gap: 16px; flex-wrap: wrap; }
+  .topbar nav a { color: #cbd5e1; text-decoration: none; font-size: 14px; }
+  .topbar nav a:hover { color: #f3dc8a; }
+  .pill { border: 1px solid rgba(212,175,55,0.55); padding: 6px 14px; border-radius: 50px; color: #f3dc8a !important; font-weight: 600; }
+  main { max-width: 860px; margin: 0 auto; padding: 48px 24px 32px; }
+  .crumbs { font-size: 13px; color: #708090; margin-bottom: 22px; }
+  .crumbs a { color: #96a1aa; text-decoration: none; }
+  h1 { color: #fff; font-size: clamp(26px, 4vw, 38px); line-height: 1.25; margin-bottom: 14px; }
+  .meta-line { font-size: 13px; color: #708090; margin-bottom: 28px; }
+  .snippet { background: rgba(212,175,55,0.08); border-left: 3px solid #d4af37; padding: 18px 22px; border-radius: 0 10px 10px 0; margin-bottom: 34px; color: #e8e2d0; font-size: 17px; }
+  h2 { color: #f3dc8a; font-size: 22px; margin: 38px 0 14px; }
+  h3 { color: #e8e2d0; font-size: 17px; margin: 24px 0 10px; }
+  p { margin-bottom: 16px; }
+  ul, ol { margin: 0 0 18px 22px; }
+  li { margin-bottom: 8px; }
+  strong { color: #e8e2d0; }
+  a { color: #d4af37; }
+  .faq { margin-top: 44px; border-top: 1px solid rgba(212,175,55,0.25); padding-top: 8px; }
+  .faq h2 { margin-top: 26px; }
+  .faq h3 { color: #f3dc8a; }
+  .cta { margin: 48px 0 8px; background: linear-gradient(135deg, rgba(212,175,55,0.14), rgba(212,175,55,0.05)); border: 1px solid rgba(212,175,55,0.4); border-radius: 14px; padding: 26px; text-align: center; }
+  .cta p { color: #e8e2d0; margin-bottom: 14px; }
+  .cta a.btn { display: inline-block; background: linear-gradient(135deg, #d4af37, #b8962e); color: #14120a; font-weight: 700; padding: 12px 28px; border-radius: 50px; text-decoration: none; margin: 4px; }
+  .cta a.tel { display: inline-block; color: #f3dc8a; padding: 12px 10px; }
+  footer { border-top: 1px solid rgba(212,175,55,0.25); margin-top: 40px; padding: 26px 24px; text-align: center; font-size: 13px; color: #708090; }
+  footer a { color: #96a1aa; }
+</style>
+</head>
+<body>
+<header class="topbar">
+  <a class="logo" href="https://itspace.com.pl/">IT<span>SPACE</span></a>
+  <nav>
+    <a href="https://itspace.com.pl/">Strona główna</a>
+    <a href="https://news.itspace.com.pl/poradniki/">Poradniki</a>
+    <a class="pill" href="https://news.itspace.com.pl" target="_blank" rel="noopener">📰 News</a>
+  </nav>
+</header>
+<main>
+  <div class="crumbs"><a href="https://itspace.com.pl/">ITSPACE</a> › <a href="https://news.itspace.com.pl/poradniki/">Poradniki</a> › Wi-Fi w gabinecie — jak oddzielić sieć dla pacjentów od urządzeń medycznych?</div>
+  <h1>Wi-Fi w gabinecie — jak oddzielić sieć dla pacjentów od urządzeń medycznych?</h1>
+  <div class="meta-line">Zespół ITSPACE · opublikowano 15 lipca 2026 · aktualizacja: 15 lipca 2026</div>
+  <div class="snippet">Sieć dla pacjentów oddziela się od urządzeń medycznych za pomocą VLAN-ów: osobny segment dla stanowisk i sprzętu diagnostycznego, osobny dla biura i osobny, w pełni izolowany, dla gości. Potrzebny jest do tego sprzęt klasy biznesowej (np. rozwiązania typu UniFi lub MikroTik), szyfrowanie WPA2/WPA3 i podłączenie RTG oraz skanerów przewodem. Orientacyjny koszt modernizacji sieci małego gabinetu w 2026 r. to 2500–8000 zł, kliniki wielostanowiskowej — 8000–20 000 zł, zależnie od metrażu i liczby urządzeń.</div>
+  <h2>Dlaczego jedna wspólna sieć Wi-Fi to ryzyko?</h2>
+<p>W wielu gabinetach sieć wygląda tak samo: jeden router od operatora, jedno hasło Wi-Fi — to samo dla rejestracji, komputera z Unidentem, kamery wewnątrzustnej i pacjentów w poczekalni. Problem w tym, że <strong>każde urządzenie w takiej sieci „widzi” wszystkie pozostałe</strong>. Zainfekowany telefon pacjenta lub laptop przedstawiciela handlowego pracuje wtedy w tej samej przestrzeni co baza danych medycznych. Konsekwencje są trojakie:</p>
+<ul>
+<li><strong>RODO.</strong> Dane o zdrowiu to szczególna kategoria danych (art. 9 RODO). Udostępnianie osobom postronnym sieci, w której pracuje serwer z dokumentacją i EDM, trudno obronić przed UODO jako „odpowiedni środek techniczny”.</li>
+<li><strong>Ransomware i ataki.</strong> Płaska sieć to autostrada dla złośliwego oprogramowania — infekcja jednego urządzenia może rozlać się na stanowiska, dysk sieciowy i archiwum zdjęć RTG.</li>
+<li><strong>Wydajność.</strong> Pacjent oglądający filmy w poczekalni konkuruje o pasmo z transmisją pantomogramu. Efekt: „wolny program”, zrywane transfery, frustracja zespołu.</li>
+</ul>
+<h2>VLAN-y, czyli jak podzielić sieć w gabinecie</h2>
+<p>Rozwiązaniem nie są trzy osobne routery, lecz <strong>VLAN-y — wirtualne sieci lokalne</strong> działające na jednym, porządnym sprzęcie. Ten sam przełącznik i punkty dostępowe rozgłaszają kilka logicznie odseparowanych sieci. Sensowny podział dla placówki medycznej wygląda tak:</p>
+<ol>
+<li><strong>Sieć medyczna</strong> — serwer, stanowiska z programem gabinetowym, RTG, skanery, drukarki. Bez dostępu z pozostałych segmentów.</li>
+<li><strong>Sieć biurowa</strong> — komputery administracji, telefony służbowe; dostęp do internetu i wybranych zasobów, ale nie do urządzeń diagnostycznych.</li>
+<li><strong>Sieć gościnna dla pacjentów</strong> — tylko internet, z włączoną izolacją klientów (urządzenia nie widzą się nawzajem), limitem pasma i opcjonalnie stroną powitalną (captive portal) z regulaminem.</li>
+<li><strong>Sieć IoT</strong> — kamery, telewizor w poczekalni, inteligentne gniazdka; ten sprzęt bywa najsłabiej zabezpieczony, więc nie powinien sąsiadować z danymi pacjentów.</li>
+</ol>
+<p>Między segmentami rządzą reguły zapory: domyślnie „nic nie przechodzi”, a wyjątki (np. dostęp stanowisk do serwera wydruku) dopisuje się świadomie i dokumentuje.</p>
+<h2>Jaki sprzęt sieciowy wybrać do gabinetu?</h2>
+<p>Router z pakietu operatorskiego zwykle nie obsługuje VLAN-ów ani izolacji gości. Potrzebny jest <strong>sprzęt klasy biznesowej</strong> — przykładowe klasy rozwiązań to ekosystem UniFi (prosty centralny zarząd, czytelne aplikacje) albo MikroTik (bardzo elastyczny, wymaga większej wiedzy przy konfiguracji). Kompletny zestaw dla gabinetu to router/zapora, przełącznik zarządzalny z zasilaniem PoE oraz 1–3 punkty dostępowe. Ważne, by konfiguracja była udokumentowana i objęta kopią zapasową — sieć „skonfigurowana kiedyś przez znajomego” jest nie do odtworzenia po awarii sprzętu.</p>
+<p>Przy doborze punktów dostępowych liczy się nie tylko zasięg, ale i liczba jednoczesnych klientów: w klinice z poczekalnią na dwadzieścia osób tani punkt konsumencki po prostu się „zatka”. Warto też przewidzieć zapas portów na przełączniku — placówki rosną, a dokładanie kolejnego niezarządzalnego switcha „na chwilę” to najczęstszy początek sieciowego bałaganu, który później trudno posprzątać.</p>
+<h2>Szyfrowanie, hasła i higiena Wi-Fi</h2>
+<p>Minimalny standard na 2026 r. to <strong>WPA2, a najlepiej WPA3</strong>, długie hasła (osobne dla każdej sieci), wyłączony WPS oraz zmienione fabryczne hasło administratora urządzeń. Hasło sieci medycznej nie powinno być nikomu dyktowane — najlepiej, gdy zna je wyłącznie obsługa IT, a personel korzysta z sieci biurowej. Hasło dla pacjentów warto okresowo zmieniać. Dobrą praktyką jest też aktualizowanie oprogramowania układowego punktów dostępowych — to element, o którym bez monitoringu nikt nie pamięta. Jeżeli placówka korzysta ze zdalnego dostępu do sieci (np. serwisant oprogramowania gabinetowego), powinien on odbywać się przez szyfrowany tunel VPN z uwierzytelnianiem wieloskładnikowym, a nie przez port otwarty „na świat” — to jedna z najczęstszych dróg ataków na placówki medyczne.</p>
+<h2>Co podłączyć przewodem, a co przez Wi-Fi?</h2>
+<p>Zasada jest prosta: <strong>wszystko, co krytyczne, pracuje na kablu</strong>. Serwer, stanowiska z programem gabinetowym, RTG, pantomograf i skanery diagnostyczne powinny być podłączone przewodowo — Wi-Fi zostawiamy laptopom, tabletom i gościom. Duże pliki badań źle znoszą transmisję bezprzewodową, a zerwany transfer potrafi oznaczać powtarzanie zdjęcia. Szczegółowo opisujemy to w poradniku o <a href="../integracja-rtg-i-skanera/">integracji RTG i skanera wewnątrzustnego z oprogramowaniem gabinetu</a> — sieć i diagnostyka obrazowa to system naczyń połączonych.</p>
+<h2>Ile kosztuje modernizacja sieci w 2026 r.?</h2>
+<p>Orientacyjne widełki: mały gabinet (1–3 stanowiska) — <strong>2500–8000 zł</strong> za sprzęt klasy biznesowej z konfiguracją VLAN-ów i sieci gościnnej; klinika wielostanowiskowa z okablowaniem — <strong>8000–20 000 zł</strong>. Ostateczna wycena zależy od metrażu, liczby urządzeń i zakresu SLA, a bieżąca opieka nad siecią zwykle mieści się w abonamencie. Projekt i wdrożenie warto powierzyć firmie specjalizującej się w <a href="https://itspace.com.pl/">obsłudze informatycznej gabinetów stomatologicznych i klinik</a> — segmentacja sieci wykonana raz, porządnie i z dokumentacją, służy potem latami i realnie zmniejsza ryzyko incydentu RODO.</p>
+  <section class="faq">
+    <h2>Najczęstsze pytania</h2>
+    <h3>Czy pacjenci mogą korzystać z tego samego Wi-Fi co komputery gabinetu?</h3>
+    <p>Nie powinni. Wspólna sieć oznacza, że urządzenie pacjenta pracuje w tej samej przestrzeni co serwer z dokumentacją medyczną, co jest trudne do obrony na gruncie RODO i ułatwia rozprzestrzenianie się złośliwego oprogramowania. Pacjentom udostępnia się osobną, izolowaną sieć gościnną z dostępem wyłącznie do internetu.</p>
+    <h3>Czym jest VLAN i czy wymaga osobnych routerów?</h3>
+    <p>VLAN to wirtualna sieć lokalna — logiczny podział jednej fizycznej infrastruktury na odseparowane segmenty, np. medyczny, biurowy i gościnny. Nie wymaga osobnych routerów; wystarczy jeden zestaw sprzętu klasy biznesowej z zarządzalnym przełącznikiem i punktami dostępowymi, który rozgłasza kilka niezależnych sieci.</p>
+    <h3>Czy RTG i skaner mogą działać przez Wi-Fi?</h3>
+    <p>Urządzenia diagnostyczne najlepiej podłączać przewodem, bo przesyłają duże pliki badań, a zerwany transfer może oznaczać uszkodzone zdjęcie i konieczność powtórzenia ekspozycji. Wi-Fi zostawia się urządzeniom mobilnym; wyjątkiem bywają skanery z trybem bezprzewodowym, które i tak wymagają wydzielonego, stabilnego pasma.</p>
+    <h3>Ile kosztuje wydzielenie sieci dla pacjentów w małym gabinecie?</h3>
+    <p>Orientacyjnie 2500–8000 zł w 2026 r. za sprzęt klasy biznesowej (router, przełącznik zarządzalny, punkty dostępowe) wraz z konfiguracją VLAN-ów, sieci gościnnej i dokumentacją. Ostateczna cena zależy od metrażu, liczby urządzeń i zakresu umowy SLA; bieżące utrzymanie sieci zwykle wchodzi w abonament IT.</p>
+  </section>
+  <div class="cta">
+    <p><strong>Potrzebujesz wsparcia IT w swoim gabinecie lub klinice?</strong><br>Obsługujemy placówki stomatologiczne i medycyny estetycznej w Warszawie i okolicach.</p>
+    <a class="btn" href="tel:+48531330080">📞 531 330 080</a>
+    <a class="tel" href="mailto:kontakt@itspace.com.pl">kontakt@itspace.com.pl</a>
+  </div>
+</main>
+<footer>© ITSPACE — obsługa informatyczna gabinetów stomatologicznych i klinik medycyny estetycznej · <a href="https://itspace.com.pl/">itspace.com.pl</a> · <a href="https://news.itspace.com.pl">news.itspace.com.pl</a></footer>
+</body>
+</html>

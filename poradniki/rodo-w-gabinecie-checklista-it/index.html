@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RODO w gabinecie stomatologicznym — checklista IT | Poradniki ITSPACE</title>
+<meta name="description" content="Praktyczna checklista RODO dla gabinetu: szyfrowanie dysków, konta imienne i MFA, backup poza lokalizacją, umowy powierzenia, zgłoszenie naruszenia w 72 h.">
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+<link rel="canonical" href="https://news.itspace.com.pl/poradniki/rodo-w-gabinecie-checklista-it/">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="ITSPACE">
+<meta property="og:title" content="RODO w gabinecie stomatologicznym — checklista IT">
+<meta property="og:description" content="Praktyczna checklista RODO dla gabinetu: szyfrowanie dysków, konta imienne i MFA, backup poza lokalizacją, umowy powierzenia, zgłoszenie naruszenia w 72 h.">
+<meta property="og:url" content="https://news.itspace.com.pl/poradniki/rodo-w-gabinecie-checklista-it/">
+<meta property="og:locale" content="pl_PL">
+<meta name="twitter:card" content="summary">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","headline":"RODO w gabinecie stomatologicznym — checklista IT","description":"Praktyczna checklista RODO dla gabinetu: szyfrowanie dysków, konta imienne i MFA, backup poza lokalizacją, umowy powierzenia, zgłoszenie naruszenia w 72 h.","datePublished":"2026-07-15","dateModified":"2026-07-15","author":{"@type":"Organization","name":"ITSPACE","url":"https://itspace.com.pl/"},"publisher":{"@type":"Organization","name":"ITSPACE","url":"https://itspace.com.pl/"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://news.itspace.com.pl/poradniki/rodo-w-gabinecie-checklista-it/"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"ITSPACE","item":"https://itspace.com.pl/"},{"@type":"ListItem","position":2,"name":"Poradniki","item":"https://news.itspace.com.pl/poradniki/"},{"@type":"ListItem","position":3,"name":"RODO w gabinecie stomatologicznym — checklista IT","item":"https://news.itspace.com.pl/poradniki/rodo-w-gabinecie-checklista-it/"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Czy mały gabinet stomatologiczny naprawdę musi szyfrować dyski?","acceptedAnswer":{"@type":"Answer","text":"Tak. Dane o zdrowiu to szczególna kategoria danych z art. 9 RODO, a szyfrowanie dysków (np. BitLocker) jest dziś uznawane za standardowe, tanie zabezpieczenie. Kradzież lub zgubienie niezaszyfrowanego komputera z bazą pacjentów oznacza obowiązek zgłoszenia naruszenia do UODO i zwykle także zawiadomienia pacjentów."}},{"@type":"Question","name":"Z kim gabinet musi podpisać umowę powierzenia danych?","acceptedAnswer":{"@type":"Answer","text":"Z każdym podmiotem, który ma dostęp do danych pacjentów w Twoim imieniu: producentem oprogramowania gabinetowego (np. Unident, Estomed, SmartDental — jeśli świadczy serwis lub hosting), dostawcą chmury i backupu, firmą IT oraz biurem rachunkowym przetwarzającym dane pracowników. Bez umowy powierzenia przekazanie dostępu jest naruszeniem RODO."}},{"@type":"Question","name":"Ile czasu mam na zgłoszenie naruszenia danych do UODO?","acceptedAnswer":{"@type":"Answer","text":"72 godziny od stwierdzenia naruszenia — licząc również weekendy i święta. Dlatego procedura musi być znana całemu personelowi: każdy podejrzany incydent (phishing, zgubiony nośnik, zaszyfrowane pliki) zgłasza się natychmiast osobie odpowiedzialnej, która ocenia ryzyko i decyduje o zgłoszeniu."}},{"@type":"Question","name":"Ile kosztuje wdrożenie checklisty RODO w gabinecie?","acceptedAnswer":{"@type":"Answer","text":"Orientacyjnie na 2026 r.: audyt 800–2000 zł, jednorazowe wdrożenie zabezpieczeń 1500–4000 zł, stała opieka IT z monitoringiem i backupem od ok. 500–1200 zł miesięcznie dla małego gabinetu. Ostateczna wycena zależy od liczby stanowisk, sprzętu diagnostycznego i uzgodnionego SLA."}}]}]}</script>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: #0d0d0f; color: #cbd5e1; font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; line-height: 1.75; }
+  .topbar { display: flex; justify-content: space-between; align-items: center; padding: 20px 24px; border-bottom: 1px solid rgba(212,175,55,0.25); flex-wrap: wrap; gap: 10px; }
+  .logo { color: #fff; text-decoration: none; font-weight: 700; letter-spacing: 4px; font-size: 18px; }
+  .logo span { color: #d4af37; }
+  .topbar nav { display: flex; gap: 16px; flex-wrap: wrap; }
+  .topbar nav a { color: #cbd5e1; text-decoration: none; font-size: 14px; }
+  .topbar nav a:hover { color: #f3dc8a; }
+  .pill { border: 1px solid rgba(212,175,55,0.55); padding: 6px 14px; border-radius: 50px; color: #f3dc8a !important; font-weight: 600; }
+  main { max-width: 860px; margin: 0 auto; padding: 48px 24px 32px; }
+  .crumbs { font-size: 13px; color: #708090; margin-bottom: 22px; }
+  .crumbs a { color: #96a1aa; text-decoration: none; }
+  h1 { color: #fff; font-size: clamp(26px, 4vw, 38px); line-height: 1.25; margin-bottom: 14px; }
+  .meta-line { font-size: 13px; color: #708090; margin-bottom: 28px; }
+  .snippet { background: rgba(212,175,55,0.08); border-left: 3px solid #d4af37; padding: 18px 22px; border-radius: 0 10px 10px 0; margin-bottom: 34px; color: #e8e2d0; font-size: 17px; }
+  h2 { color: #f3dc8a; font-size: 22px; margin: 38px 0 14px; }
+  h3 { color: #e8e2d0; font-size: 17px; margin: 24px 0 10px; }
+  p { margin-bottom: 16px; }
+  ul, ol { margin: 0 0 18px 22px; }
+  li { margin-bottom: 8px; }
+  strong { color: #e8e2d0; }
+  a { color: #d4af37; }
+  .faq { margin-top: 44px; border-top: 1px solid rgba(212,175,55,0.25); padding-top: 8px; }
+  .faq h2 { margin-top: 26px; }
+  .faq h3 { color: #f3dc8a; }
+  .cta { margin: 48px 0 8px; background: linear-gradient(135deg, rgba(212,175,55,0.14), rgba(212,175,55,0.05)); border: 1px solid rgba(212,175,55,0.4); border-radius: 14px; padding: 26px; text-align: center; }
+  .cta p { color: #e8e2d0; margin-bottom: 14px; }
+  .cta a.btn { display: inline-block; background: linear-gradient(135deg, #d4af37, #b8962e); color: #14120a; font-weight: 700; padding: 12px 28px; border-radius: 50px; text-decoration: none; margin: 4px; }
+  .cta a.tel { display: inline-block; color: #f3dc8a; padding: 12px 10px; }
+  footer { border-top: 1px solid rgba(212,175,55,0.25); margin-top: 40px; padding: 26px 24px; text-align: center; font-size: 13px; color: #708090; }
+  footer a { color: #96a1aa; }
+</style>
+</head>
+<body>
+<header class="topbar">
+  <a class="logo" href="https://itspace.com.pl/">IT<span>SPACE</span></a>
+  <nav>
+    <a href="https://itspace.com.pl/">Strona główna</a>
+    <a href="https://news.itspace.com.pl/poradniki/">Poradniki</a>
+    <a class="pill" href="https://news.itspace.com.pl" target="_blank" rel="noopener">📰 News</a>
+  </nav>
+</header>
+<main>
+  <div class="crumbs"><a href="https://itspace.com.pl/">ITSPACE</a> › <a href="https://news.itspace.com.pl/poradniki/">Poradniki</a> › RODO w gabinecie stomatologicznym — checklista IT</div>
+  <h1>RODO w gabinecie stomatologicznym — checklista IT</h1>
+  <div class="meta-line">Zespół ITSPACE · opublikowano 15 lipca 2026 · aktualizacja: 15 lipca 2026</div>
+  <div class="snippet">Dane pacjentów gabinetu stomatologicznego — karty, zdjęcia RTG, dokumentacja EDM — to dane szczególnej kategorii z art. 9 RODO, więc wymagają realnych zabezpieczeń technicznych: szyfrowania dysków, imiennych kont z MFA, blokady ekranu w recepcji, kopii zapasowej poza lokalizacją i umów powierzenia z dostawcami IT. Naruszenie ochrony danych trzeba zgłosić do UODO w ciągu 72 godzin. Uporządkowanie pełnej checklisty w małym gabinecie zajmuje zwykle 2–4 tygodnie i kosztuje orientacyjnie 1500–4000 zł jednorazowo plus abonament serwisowy od ok. 500 zł miesięcznie — ostateczna wycena zależy od skali placówki i zakresu SLA.</div>
+  <h2>Dlaczego RODO w gabinecie to przede wszystkim zadanie IT?</h2>
+<p>Karta pacjenta, plan leczenia, zdjęcia pantomograficzne czy wpisy w Elektronicznej Dokumentacji Medycznej to <strong>dane dotyczące zdrowia</strong>, czyli szczególna kategoria danych osobowych opisana w art. 9 RODO. Prawo wymaga dla nich zabezpieczeń „odpowiednich do ryzyka” — a w praktyce o tym, czy dane są bezpieczne, decyduje nie segregator z polityką ochrony danych, lecz stan komputerów, sieci i kopii zapasowych. UODO w postępowaniach po naruszeniach pyta wprost: czy dyski były zaszyfrowane, kto miał dostęp do bazy, czy istniała kopia zapasowa i czy była testowana. Poniższa checklista porządkuje te wymagania punkt po punkcie, w kolejności, w jakiej wdrażamy je w placówkach medycznych.</p>
+<h2>Checklista: stanowiska pracy i konta użytkowników</h2>
+<ul>
+<li><strong>Szyfrowanie dysków</strong> — każdy komputer z dostępem do danych pacjentów (w tym laptopy i serwer) powinien mieć włączone szyfrowanie, np. BitLocker w Windows Pro. Kradzież niezaszyfrowanego laptopa z bazą pacjentów to niemal pewne zgłoszenie do UODO i zawiadomienie pacjentów.</li>
+<li><strong>Konta imienne</strong> — koniec ze wspólnym loginem „recepcja”. Każda osoba pracuje na własnym koncie w systemie Windows i w oprogramowaniu gabinetowym (Unident, Estomed, SmartDental mają rozbudowane moduły uprawnień), a asystentka nie potrzebuje dostępu do rozliczeń.</li>
+<li><strong>Hasła i MFA</strong> — menedżer haseł zamiast karteczek na monitorze, unikalne hasła, a tam gdzie to możliwe uwierzytelnianie wieloskładnikowe: do poczty, do systemu P1/e-zdrowie, do panelu bankowości i do zdalnego dostępu.</li>
+<li><strong>Blokada ekranu</strong> — wygaszacz z hasłem po maksymalnie 5 minutach bezczynności, a w recepcji ustawienie monitora tak, by pacjenci nie widzieli terminarza z danymi innych osób.</li>
+</ul>
+<h2>Checklista: kopie zapasowe i ciągłość działania</h2>
+<p>Utrata dostępności danych — np. po awarii dysku albo ataku ransomware — to również naruszenie RODO, nie tylko wyciek. Dlatego minimum to <strong>codzienna, automatyczna kopia zapasowa przechowywana poza lokalizacją gabinetu</strong>, zaszyfrowana i regularnie testowana przez próbne odtworzenie. Pamiętaj też o retencji: dokumentację medyczną przechowuje się co do zasady 20 lat, więc kopie muszą obejmować pełne archiwum, a nie tylko bieżącą bazę. Szczegółowe wymagania — zasadę 3-2-1, szyfrowanie AES-256 i testy odtworzeniowe — opisaliśmy w poradniku o <a href="../backup-danych-w-gabinecie/">backupie danych w gabinecie zgodnym z prawem</a>.</p>
+<h2>Checklista: sieć, aktualizacje i oprogramowanie</h2>
+<ul>
+<li><strong>Wi-Fi dla pacjentów oddzielone od sieci gabinetu</strong> — goście nigdy nie powinni być w tej samej sieci co serwer z bazą, RTG i stanowiska lekarskie; wystarczy router klasy biznesowej z wydzielonym VLAN-em.</li>
+<li><strong>Aktualizacje</strong> — systemy Windows, oprogramowanie gabinetowe i przeglądarki aktualizowane na bieżąco; wsparcie dla starych wersji systemów wygasa, a niezałatane luki to najczęstsza droga włamania.</li>
+<li><strong>Ochrona antywirusowa/EDR</strong> — na każdym stanowisku, z centralnym podglądem, czy działa i czy nie zgłasza alertów.</li>
+<li><strong>Kontrola dostępu zdalnego</strong> — serwis IT i dostawca oprogramowania łączą się wyłącznie przez nadzorowane, szyfrowane kanały, a nie przez otwarty pulpit zdalny wystawiony do internetu.</li>
+</ul>
+<h2>Checklista: oprogramowanie gabinetowe i system P1</h2>
+<p>Osobny punkt to programy, w których żyją dane pacjentów. Sprawdź, czy baza oprogramowania gabinetowego jest zabezpieczona hasłem innym niż domyślne, czy dostęp serwisowy producenta jest udzielany tylko na czas prac, a certyfikaty do systemu P1/e-zdrowie (do raportowania zdarzeń medycznych i wystawiania e-recept) są przechowywane bezpiecznie, a nie skopiowane na każdym stanowisku „na wszelki wypadek”. Jeśli korzystasz z wersji chmurowej programu, upewnij się, że dostawca deklaruje przechowywanie danych w Europejskim Obszarze Gospodarczym i ma z Tobą podpisaną umowę powierzenia. Dokumentacja EDM podpisywana elektronicznie musi być dodatkowo archiwizowana w sposób gwarantujący integralność — to wprost wymaganie przepisów o dokumentacji medycznej.</p>
+<h2>Checklista: dokumenty i procedury, które sprawdzi UODO</h2>
+<p>Warstwa formalna musi opisywać to, co realnie działa technicznie. Skompletuj: <strong>umowy powierzenia przetwarzania</strong> z każdym dostawcą mającym dostęp do danych (producent oprogramowania gabinetowego, dostawca chmury i backupu, firma IT, biuro rachunkowe), <strong>rejestr czynności przetwarzania</strong>, upoważnienia dla personelu oraz <strong>procedurę zgłaszania naruszeń</strong>. Ta ostatnia jest kluczowa: od stwierdzenia naruszenia masz 72 godziny na zgłoszenie do UODO, więc personel musi wiedzieć, komu zgłosić zgubiony pendrive, phishing czy zaszyfrowany komputer — natychmiast, a nie po weekendzie.</p>
+<h2>Ile kosztuje uporządkowanie RODO od strony IT?</h2>
+<p>Orientacyjnie na 2026 r.: audyt bezpieczeństwa z raportem dla małego gabinetu to ok. 800–2000 zł, wdrożenie braków (szyfrowanie, kopie, porządek w kontach i sieci) — zwykle 1500–4000 zł jednorazowo, a stała opieka informatyczna z monitoringiem i backupem to abonament od ok. 500–1200 zł miesięcznie. Ostateczna wycena zależy od liczby stanowisk, sprzętu diagnostycznego i zakresu SLA. Wyspecjalizowana <a href="https://itspace.com.pl/">obsługa informatyczna gabinetów stomatologicznych i klinik medycyny estetycznej</a> zaczyna się od analizy potrzeb, po której dobierane są SLA i abonament — dzięki temu płacisz za realne ryzyka swojej placówki, a nie za usługi „z katalogu”. Checklistę najlepiej przejść raz z profesjonalnym audytem, a potem utrzymywać ją w ramach stałej umowy: RODO to proces, nie jednorazowy projekt.</p>
+  <section class="faq">
+    <h2>Najczęstsze pytania</h2>
+    <h3>Czy mały gabinet stomatologiczny naprawdę musi szyfrować dyski?</h3>
+    <p>Tak. Dane o zdrowiu to szczególna kategoria danych z art. 9 RODO, a szyfrowanie dysków (np. BitLocker) jest dziś uznawane za standardowe, tanie zabezpieczenie. Kradzież lub zgubienie niezaszyfrowanego komputera z bazą pacjentów oznacza obowiązek zgłoszenia naruszenia do UODO i zwykle także zawiadomienia pacjentów.</p>
+    <h3>Z kim gabinet musi podpisać umowę powierzenia danych?</h3>
+    <p>Z każdym podmiotem, który ma dostęp do danych pacjentów w Twoim imieniu: producentem oprogramowania gabinetowego (np. Unident, Estomed, SmartDental — jeśli świadczy serwis lub hosting), dostawcą chmury i backupu, firmą IT oraz biurem rachunkowym przetwarzającym dane pracowników. Bez umowy powierzenia przekazanie dostępu jest naruszeniem RODO.</p>
+    <h3>Ile czasu mam na zgłoszenie naruszenia danych do UODO?</h3>
+    <p>72 godziny od stwierdzenia naruszenia — licząc również weekendy i święta. Dlatego procedura musi być znana całemu personelowi: każdy podejrzany incydent (phishing, zgubiony nośnik, zaszyfrowane pliki) zgłasza się natychmiast osobie odpowiedzialnej, która ocenia ryzyko i decyduje o zgłoszeniu.</p>
+    <h3>Ile kosztuje wdrożenie checklisty RODO w gabinecie?</h3>
+    <p>Orientacyjnie na 2026 r.: audyt 800–2000 zł, jednorazowe wdrożenie zabezpieczeń 1500–4000 zł, stała opieka IT z monitoringiem i backupem od ok. 500–1200 zł miesięcznie dla małego gabinetu. Ostateczna wycena zależy od liczby stanowisk, sprzętu diagnostycznego i uzgodnionego SLA.</p>
+  </section>
+  <div class="cta">
+    <p><strong>Potrzebujesz wsparcia IT w swoim gabinecie lub klinice?</strong><br>Obsługujemy placówki stomatologiczne i medycyny estetycznej w Warszawie i okolicach.</p>
+    <a class="btn" href="tel:+48531330080">📞 531 330 080</a>
+    <a class="tel" href="mailto:kontakt@itspace.com.pl">kontakt@itspace.com.pl</a>
+  </div>
+</main>
+<footer>© ITSPACE — obsługa informatyczna gabinetów stomatologicznych i klinik medycyny estetycznej · <a href="https://itspace.com.pl/">itspace.com.pl</a> · <a href="https://news.itspace.com.pl">news.itspace.com.pl</a></footer>
+</body>
+</html>

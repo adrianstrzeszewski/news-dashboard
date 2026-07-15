@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Awaria komputera w gabinecie a ciągłość pracy | Poradniki ITSPACE</title>
+<meta name="description" content="Awaria komputera z Unidentem lub RTG potrafi zatrzymać dzień przyjęć. Zobacz pierwsze kroki, różnice SLA 1 h, 4 h i NBD oraz jak skrócić przestój do godzin.">
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+<link rel="canonical" href="https://news.itspace.com.pl/poradniki/awaria-komputera-w-gabinecie/">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="ITSPACE">
+<meta property="og:title" content="Awaria komputera w gabinecie a ciągłość pracy">
+<meta property="og:description" content="Awaria komputera z Unidentem lub RTG potrafi zatrzymać dzień przyjęć. Zobacz pierwsze kroki, różnice SLA 1 h, 4 h i NBD oraz jak skrócić przestój do godzin.">
+<meta property="og:url" content="https://news.itspace.com.pl/poradniki/awaria-komputera-w-gabinecie/">
+<meta property="og:locale" content="pl_PL">
+<meta name="twitter:card" content="summary">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","headline":"Awaria komputera w gabinecie a ciągłość pracy","description":"Awaria komputera z Unidentem lub RTG potrafi zatrzymać dzień przyjęć. Zobacz pierwsze kroki, różnice SLA 1 h, 4 h i NBD oraz jak skrócić przestój do godzin.","datePublished":"2026-07-15","dateModified":"2026-07-15","author":{"@type":"Organization","name":"ITSPACE","url":"https://itspace.com.pl/"},"publisher":{"@type":"Organization","name":"ITSPACE","url":"https://itspace.com.pl/"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://news.itspace.com.pl/poradniki/awaria-komputera-w-gabinecie/"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"ITSPACE","item":"https://itspace.com.pl/"},{"@type":"ListItem","position":2,"name":"Poradniki","item":"https://news.itspace.com.pl/poradniki/"},{"@type":"ListItem","position":3,"name":"Awaria komputera w gabinecie a ciągłość pracy","item":"https://news.itspace.com.pl/poradniki/awaria-komputera-w-gabinecie/"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Ile trwa usunięcie awarii komputera w gabinecie bez umowy SLA?","acceptedAnswer":{"@type":"Answer","text":"Zwykle od jednego do trzech dni roboczych: znalezienie wolnego serwisanta, diagnoza, oczekiwanie na części i odtwarzanie konfiguracji bez dokumentacji. Z umową SLA i przygotowanym obrazem systemu ten sam zakres prac zamyka się najczęściej w 1–4 godziny."}},{"@type":"Question","name":"Czy stanowisko zapasowe musi być identycznym komputerem?","acceptedAnswer":{"@type":"Answer","text":"Nie. Wystarczy maszyna o zbliżonych parametrach z zainstalowanym oprogramowaniem gabinetowym i sterownikami do czujnika RTG, aktualizowana co kilka tygodni. Kluczowe jest, żeby przełączenie było wcześniej przećwiczone i trwało minuty, a nie godziny."}},{"@type":"Question","name":"Czym obraz systemu różni się od kopii zapasowej danych?","acceptedAnswer":{"@type":"Answer","text":"Kopia danych chroni bazę pacjentów i pliki, ale nie sam system. Obraz systemu to pełny zrzut dysku — Windows, sterowniki TWAIN, konfiguracja integracji, certyfikaty — który pozwala odtworzyć stanowisko na nowym dysku w około godzinę zamiast instalować wszystko od zera."}},{"@type":"Question","name":"Czy SLA 1 h opłaca się małemu gabinetowi?","acceptedAnswer":{"@type":"Answer","text":"Zwykle wystarcza SLA 4 h z natychmiastową reakcją zdalną, bo większość awarii można zdiagnozować zdalnie od ręki. SLA 1 h z gwarantowanym dojazdem wybierają placówki wielostanowiskowe, w których godzina przestoju kosztuje więcej niż miesięczna różnica w cenie abonamentu."}}]}]}</script>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: #0d0d0f; color: #cbd5e1; font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; line-height: 1.75; }
+  .topbar { display: flex; justify-content: space-between; align-items: center; padding: 20px 24px; border-bottom: 1px solid rgba(212,175,55,0.25); flex-wrap: wrap; gap: 10px; }
+  .logo { color: #fff; text-decoration: none; font-weight: 700; letter-spacing: 4px; font-size: 18px; }
+  .logo span { color: #d4af37; }
+  .topbar nav { display: flex; gap: 16px; flex-wrap: wrap; }
+  .topbar nav a { color: #cbd5e1; text-decoration: none; font-size: 14px; }
+  .topbar nav a:hover { color: #f3dc8a; }
+  .pill { border: 1px solid rgba(212,175,55,0.55); padding: 6px 14px; border-radius: 50px; color: #f3dc8a !important; font-weight: 600; }
+  main { max-width: 860px; margin: 0 auto; padding: 48px 24px 32px; }
+  .crumbs { font-size: 13px; color: #708090; margin-bottom: 22px; }
+  .crumbs a { color: #96a1aa; text-decoration: none; }
+  h1 { color: #fff; font-size: clamp(26px, 4vw, 38px); line-height: 1.25; margin-bottom: 14px; }
+  .meta-line { font-size: 13px; color: #708090; margin-bottom: 28px; }
+  .snippet { background: rgba(212,175,55,0.08); border-left: 3px solid #d4af37; padding: 18px 22px; border-radius: 0 10px 10px 0; margin-bottom: 34px; color: #e8e2d0; font-size: 17px; }
+  h2 { color: #f3dc8a; font-size: 22px; margin: 38px 0 14px; }
+  h3 { color: #e8e2d0; font-size: 17px; margin: 24px 0 10px; }
+  p { margin-bottom: 16px; }
+  ul, ol { margin: 0 0 18px 22px; }
+  li { margin-bottom: 8px; }
+  strong { color: #e8e2d0; }
+  a { color: #d4af37; }
+  .faq { margin-top: 44px; border-top: 1px solid rgba(212,175,55,0.25); padding-top: 8px; }
+  .faq h2 { margin-top: 26px; }
+  .faq h3 { color: #f3dc8a; }
+  .cta { margin: 48px 0 8px; background: linear-gradient(135deg, rgba(212,175,55,0.14), rgba(212,175,55,0.05)); border: 1px solid rgba(212,175,55,0.4); border-radius: 14px; padding: 26px; text-align: center; }
+  .cta p { color: #e8e2d0; margin-bottom: 14px; }
+  .cta a.btn { display: inline-block; background: linear-gradient(135deg, #d4af37, #b8962e); color: #14120a; font-weight: 700; padding: 12px 28px; border-radius: 50px; text-decoration: none; margin: 4px; }
+  .cta a.tel { display: inline-block; color: #f3dc8a; padding: 12px 10px; }
+  footer { border-top: 1px solid rgba(212,175,55,0.25); margin-top: 40px; padding: 26px 24px; text-align: center; font-size: 13px; color: #708090; }
+  footer a { color: #96a1aa; }
+</style>
+</head>
+<body>
+<header class="topbar">
+  <a class="logo" href="https://itspace.com.pl/">IT<span>SPACE</span></a>
+  <nav>
+    <a href="https://itspace.com.pl/">Strona główna</a>
+    <a href="https://news.itspace.com.pl/poradniki/">Poradniki</a>
+    <a class="pill" href="https://news.itspace.com.pl" target="_blank" rel="noopener">📰 News</a>
+  </nav>
+</header>
+<main>
+  <div class="crumbs"><a href="https://itspace.com.pl/">ITSPACE</a> › <a href="https://news.itspace.com.pl/poradniki/">Poradniki</a> › Awaria komputera w gabinecie a ciągłość pracy</div>
+  <h1>Awaria komputera w gabinecie a ciągłość pracy</h1>
+  <div class="meta-line">Zespół ITSPACE · opublikowano 15 lipca 2026 · aktualizacja: 15 lipca 2026</div>
+  <div class="snippet">Gdy w środku dnia przyjęć pada komputer z Unidentem lub obsługujący radiografię, gabinet bez planu awaryjnego traci zwykle 1–3 dni pracy — z umową SLA przestój skraca się do 1–4 godzin. Kluczowe są trzy elementy: gwarantowany czas reakcji zapisany w umowie, przygotowane stanowisko zapasowe oraz aktualny obraz systemu wraz z dokumentacją konfiguracji.</div>
+  <h2>Co się dzieje, gdy komputer padnie w środku dnia przyjęć?</h2>
+<p>Wtorek, godzina 11:40. Pacjent na fotelu, w Unidencie otwarta karta leczenia, do podjęcia decyzji potrzebne zdjęcie RTG — i właśnie ten komputer po restarcie już nie wstaje. Recepcja traci podgląd grafiku, lekarz dostęp do dokumentacji, poczekalnia się zapełnia. W placówce bez planu awaryjnego ten scenariusz kończy się zwykle odwoływaniem wizyt i nerwowym szukaniem „kogoś od komputerów”, kto — być może — przyjedzie jutro.</p>
+<p>Problem rzadko ogranicza się do jednego urządzenia. Komputer w gabinecie stomatologicznym jest węzłem, który spina oprogramowanie gabinetowe, czujnik radiografii, bazę pacjentów, e-recepty oraz raportowanie zdarzeń medycznych do systemu P1 (e-zdrowie). Gdy pada, zatrzymuje się cały łańcuch pracy: od rejestracji, przez diagnostykę, po prowadzenie EDM. Dlatego ciągłość pracy planuje się przed awarią, a nie w jej trakcie.</p>
+<h2>Pierwsze kroki po awarii — co zrobić w ciągu kwadransa?</h2>
+<ol>
+<li><strong>Zatrzymaj eksperymenty.</strong> Kolejne twarde restarty, „naprawa startowa” uruchamiana na ślepo czy wyjmowanie dysku potrafią pogłębić uszkodzenie — zwłaszcza gdy przyczyną jest padający dysk z bazą pacjentów.</li>
+<li><strong>Zgłoś awarię natychmiast.</strong> Przy umowie serwisowej dzwonisz na jeden numer, podajesz stanowisko i objawy; gwarantowany czas reakcji liczy się od zgłoszenia, więc każda minuta zwłoki wydłuża przestój.</li>
+<li><strong>Przełącz pracę tam, gdzie się da.</strong> Jeśli serwer i sieć działają, grafik i karty pacjentów są dostępne z pozostałych stanowisk — przyjęcia można kontynuować z ograniczeniami.</li>
+<li><strong>Uruchom procedurę papierową.</strong> Notuj wykonane procedury i zgody, a dokumentację elektroniczną uzupełnij po przywróceniu systemu — to standardowy tryb awaryjny, który warto mieć opisany zawczasu.</li>
+</ol>
+<h2>SLA 1 h, 4 h i NBD — czym różnią się w praktyce?</h2>
+<p><strong>SLA</strong> to zapisany w umowie gwarantowany czas reakcji serwisu. Trzy najczęstsze warianty wyglądają tak:</p>
+<ul>
+<li><strong>SLA 1 h</strong> — diagnoza zdalna praktycznie od ręki, a w razie potrzeby serwisant w drodze w ciągu godziny. Wariant dla klinik wielostanowiskowych, w których każda godzina przestoju oznacza realne tysiące złotych strat.</li>
+<li><strong>SLA 4 h</strong> — rozsądny standard dla większości gabinetów: awaria zgłoszona rano jest podjęta przed południem, a większość problemów zamyka się tego samego dnia.</li>
+<li><strong>NBD (następny dzień roboczy)</strong> — najtańszy wariant, ale awaria w piątek po południu może oznaczać rozpoczęcie naprawy dopiero w poniedziałek. Dla placówki przyjmującej pacjentów codziennie to zwykle za wolno.</li>
+</ul>
+<p>Uwaga na definicje: „czas reakcji” to moment podjęcia zgłoszenia, a nie gwarancja naprawy. Dobra umowa precyzuje jedno i drugie oraz rozdziela reakcję zdalną od dojazdu na miejsce.</p>
+<h2>Stanowisko zapasowe: zimna czy gorąca rezerwa?</h2>
+<p><strong>Zimna rezerwa</strong> to przygotowany komputer przechowywany w szafie: z systemem, oprogramowaniem gabinetowym i sterownikami czujnika RTG, aktualizowany co kilka tygodni. Po awarii podłącza się go w miejsce padniętego stanowiska w 15–30 minut. Koszt to w praktyce cena średniej klasy komputera, orientacyjnie 2,5–4 tys. zł jednorazowo — najtańsza polisa ciągłości pracy, jaką może kupić gabinet.</p>
+<p><strong>Gorąca rezerwa</strong> to stanowisko podłączone do sieci i gotowe do pracy natychmiast, spotykane głównie w klinikach, gdzie przestój diagnostyki jest niedopuszczalny. W małym gabinecie zwykle wystarcza zimna rezerwa plus możliwość przełączenia pracy na inne stanowiska.</p>
+<h2>Obraz systemu i dokumentacja konfiguracji</h2>
+<p>Sama kopia bazy danych nie odtworzy stanowiska. Do szybkiego powrotu do pracy potrzebny jest <strong>obraz systemu</strong> — pełny zrzut dysku z systemem Windows, sterownikami TWAIN do radiografii, konfiguracją integracji i certyfikatami P1 — oraz <strong>dokumentacja konfiguracji</strong>: adresy sieciowe, konta, ustawienia urządzeń diagnostycznych. Z aktualnym obrazem odtworzenie komputera na nowym dysku trwa około godziny; bez niego instalacja i konfiguracja od zera potrafi zająć dzień lub dwa, szczególnie gdy nikt w placówce nie pamięta, jak skonfigurowany był czujnik RTG i kto ma hasło do panelu.</p>
+<h2>Jak abonament z SLA skraca przestój z dni do godzin?</h2>
+<p>Wszystkie powyższe elementy — monitoring, obrazy systemów, stanowisko zapasowe, dokumentacja i gwarantowany czas reakcji — składają się w całość dopiero w ramach stałej opieki serwisowej. Monitoring wychwytuje sygnały ostrzegawcze (błędy S.M.A.R.T. dysku, niewykonane kopie zapasowe, zapełniające się nośniki), zanim staną się awarią, a gdy coś mimo to padnie, serwis działa według procedury, nie improwizacji. Tak wygląda <a href="https://itspace.com.pl/">obsługa informatyczna gabinetów stomatologicznych w modelu abonamentowym</a>: najpierw analiza potrzeb, potem dobór SLA, wreszcie stała, monitorowana opieka nad infrastrukturą.</p>
+<p>Różnica jest policzalna: bez umowy przestój trwa zwykle 1–3 dni robocze, z umową i przygotowaną rezerwą — 1–4 godziny. Ile to znaczy w złotówkach, pokazujemy w osobnym poradniku o tym, <a href="../koszt-przestoju-it/">ile kosztuje przestój IT w gabinecie stomatologicznym</a>. W skrócie: zwykle wielokrotnie więcej niż roczny koszt przygotowania placówki na awarię.</p>
+  <section class="faq">
+    <h2>Najczęstsze pytania</h2>
+    <h3>Ile trwa usunięcie awarii komputera w gabinecie bez umowy SLA?</h3>
+    <p>Zwykle od jednego do trzech dni roboczych: znalezienie wolnego serwisanta, diagnoza, oczekiwanie na części i odtwarzanie konfiguracji bez dokumentacji. Z umową SLA i przygotowanym obrazem systemu ten sam zakres prac zamyka się najczęściej w 1–4 godziny.</p>
+    <h3>Czy stanowisko zapasowe musi być identycznym komputerem?</h3>
+    <p>Nie. Wystarczy maszyna o zbliżonych parametrach z zainstalowanym oprogramowaniem gabinetowym i sterownikami do czujnika RTG, aktualizowana co kilka tygodni. Kluczowe jest, żeby przełączenie było wcześniej przećwiczone i trwało minuty, a nie godziny.</p>
+    <h3>Czym obraz systemu różni się od kopii zapasowej danych?</h3>
+    <p>Kopia danych chroni bazę pacjentów i pliki, ale nie sam system. Obraz systemu to pełny zrzut dysku — Windows, sterowniki TWAIN, konfiguracja integracji, certyfikaty — który pozwala odtworzyć stanowisko na nowym dysku w około godzinę zamiast instalować wszystko od zera.</p>
+    <h3>Czy SLA 1 h opłaca się małemu gabinetowi?</h3>
+    <p>Zwykle wystarcza SLA 4 h z natychmiastową reakcją zdalną, bo większość awarii można zdiagnozować zdalnie od ręki. SLA 1 h z gwarantowanym dojazdem wybierają placówki wielostanowiskowe, w których godzina przestoju kosztuje więcej niż miesięczna różnica w cenie abonamentu.</p>
+  </section>
+  <div class="cta">
+    <p><strong>Potrzebujesz wsparcia IT w swoim gabinecie lub klinice?</strong><br>Obsługujemy placówki stomatologiczne i medycyny estetycznej w Warszawie i okolicach.</p>
+    <a class="btn" href="tel:+48531330080">📞 531 330 080</a>
+    <a class="tel" href="mailto:kontakt@itspace.com.pl">kontakt@itspace.com.pl</a>
+  </div>
+</main>
+<footer>© ITSPACE — obsługa informatyczna gabinetów stomatologicznych i klinik medycyny estetycznej · <a href="https://itspace.com.pl/">itspace.com.pl</a> · <a href="https://news.itspace.com.pl">news.itspace.com.pl</a></footer>
+</body>
+</html>

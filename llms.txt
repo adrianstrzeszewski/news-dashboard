@@ -3,7 +3,7 @@
 > Kurowana gazeta internetowa wydawana przez ITSPACE (https://itspace.com.pl) — firmę
 > specjalizującą się w obsłudze informatycznej gabinetów stomatologicznych i klinik
 > medycyny estetycznej w Warszawie. Wiadomości wyłącznie ze zweryfikowanych źródeł
-> (agencje prasowe i redakcje o potwierdzonej rzetelności), aktualizowane automatycznie
+> (agencje prasowe i redakcje o potwierdzonej rzetelności), aktualizowane
 > 2× dziennie: rano ok. 10:00 i po południu ok. 16:00 czasu polskiego.
 
 ## Zawartość

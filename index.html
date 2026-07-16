@@ -1198,5 +1198,24 @@ tickClocks();
 setInterval(tickClocks, 1000);
 
 </script>
+<script>
+/* Auto-odswiezanie na nowe wydanie — cicho, co 60s, z pominieciem cache */
+(function(){try{
+  var el=document.getElementById('dl-edition');
+  var cur=el?el.getAttribute('data-pub'):null;
+  if(!cur)return;
+  function check(){
+    fetch(location.pathname+'?_cb='+Date.now(),{cache:'no-store'})
+      .then(function(r){return r.ok?r.text():null;})
+      .then(function(h){if(!h)return;
+        var d=new DOMParser().parseFromString(h,'text/html');
+        var e=d.getElementById('dl-edition');
+        var p=e?e.getAttribute('data-pub'):null;
+        if(p&&p!==cur){location.reload();}
+      }).catch(function(){});
+  }
+  setInterval(check,60000);
+}catch(e){}})();
+</script>
 </body>
 </html>

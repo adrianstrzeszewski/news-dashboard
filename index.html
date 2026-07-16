@@ -1071,12 +1071,9 @@ async function renderWxTiles(reg){
     const city = ZONES[k].city || ZONES[k].label.replace(/\s\S+$/, "");
     const day = i => `${wmo(D.weather_code[i])[0]} <b>${Math.round(D.temperature_2m_max[i])}°</b> / ${Math.round(D.temperature_2m_min[i])}°` +
       (D.precipitation_sum[i] >= 0.1 ? `<div class="wd">☔ ${D.precipitation_sum[i].toFixed(1)} mm</div>` : `<div class="wd">bez opadów</div>`);
-    const wkMax = Math.max(...D.temperature_2m_max), wkMin = Math.min(...D.temperature_2m_min);
-    const wkRain = D.precipitation_sum.reduce((a,b)=>a+b,0);
     el.innerHTML = `
       <div class="wxtile"><div class="wl">Dziś · ${city}</div><div class="wv">${day(0)}</div></div>
-      <div class="wxtile"><div class="wl">Jutro</div><div class="wv">${day(1)}</div></div>
-      <div class="wxtile"><div class="wl">Ten tydzień</div><div class="wv">🌡️ ${Math.round(wkMin)}°…${Math.round(wkMax)}°</div><div class="wd">☔ razem ${wkRain.toFixed(0)} mm</div></div>`;
+      <div class="wxtile"><div class="wl">Jutro</div><div class="wv">${day(1)}</div></div>`;
   } catch(e) { el.innerHTML = `<div class="wxtile"><div class="wl">Pogoda</div><div class="wd" title="${e.message}">niedostępna — sprawdź internet</div></div>`; }
 }
 function renderWeather(cur, daily){

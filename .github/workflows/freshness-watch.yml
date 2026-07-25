@@ -1,0 +1,121 @@
+# freshness-watch — kontrola świeżości wydania (dead-man switch)
+#
+# Cel: niezależny od Cowork czujnik, który wykrywa brak świeżego wydania i zakłada
+#      zgłoszenie (Issue) w repozytorium. GitHub wysyła je mailem właścicielowi.
+# Uprawnienia: wyłącznie wbudowany GITHUB_TOKEN — ŻADNYCH sekretów, PAT-ów ani kluczy.
+# Docelowa ścieżka w repozytorium: .github/workflows/freshness-watch.yml
+#
+# Kontrola nie modyfikuje strony ani treści wydania — tylko czyta index.html i alarmuje.
+# Wartości odczytane z pliku trafiają do skryptu przez zmienne środowiskowe, nigdy przez
+# podstawienie ${{ }} w treści polecenia (ochrona przed script injection).
+
+name: Kontrola świeżości wydania
+
+on:
+  schedule:
+    - cron: '15 8 * * *'    # 10:15 CEST — ~55 min po slocie porannym (09:20)
+    - cron: '15 14 * * *'   # 16:15 CEST — ~55 min po slocie popołudniowym (15:20)
+  workflow_dispatch:        # pozwala uruchomić kontrolę ręcznie z zakładki Actions
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: freshness-watch
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+      TZ: Europe/Warsaw          # datownik data-pub jest w czasie lokalnym
+      ALARM_TITLE: 'Brak świeżego wydania gazety'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Odczytaj datownik wydania
+        id: stamp
+        run: |
+          set -euo pipefail
+          STAMP="$(grep -o 'data-pub="[^"]*"' index.html | head -n1 | sed 's/.*data-pub="//; s/"$//')" || STAMP=""
+          TODAY="$(date +%F)"
+          HOUR_NOW="$(date +%-H)"
+          if [ -z "$STAMP" ]; then
+            STATUS="brak-datownika"
+          else
+            PUB_DATE="${STAMP%%T*}"
+            PUB_HOUR="$(printf '%s' "${STAMP#*T}" | cut -d: -f1 | sed 's/^0//')"
+            PUB_HOUR="${PUB_HOUR:-0}"
+            if [ "$PUB_DATE" != "$TODAY" ]; then
+              STATUS="wydanie-nie-z-dzisiaj"
+            elif [ "$HOUR_NOW" -ge 16 ] && [ "$PUB_HOUR" -lt 12 ]; then
+              STATUS="brak-wydania-popoludniowego"
+            else
+              STATUS="ok"
+            fi
+          fi
+          {
+            echo "stamp=$STAMP"
+            echo "status=$STATUS"
+            echo "checked=$(date '+%Y-%m-%d %H:%M %Z')"
+          } >> "$GITHUB_OUTPUT"
+          echo "Datownik: '${STAMP:-brak}' · dziś: $TODAY · godzina: $HOUR_NOW · status: $STATUS"
+
+      - name: Alarm — brak świeżego wydania
+        if: steps.stamp.outputs.status != 'ok'
+        env:
+          PUB_STAMP: ${{ steps.stamp.outputs.stamp }}
+          PUB_STATUS: ${{ steps.stamp.outputs.status }}
+          PUB_CHECKED: ${{ steps.stamp.outputs.checked }}
+        run: |
+          set -euo pipefail
+          BODY=$(cat <<'EOF'
+          Automatyczna kontrola świeżości nie znalazła aktualnego wydania.
+
+          | pole | wartość |
+          |:--|:--|
+          | datownik w index.html | `__STAMP__` |
+          | status kontroli | `__STATUS__` |
+          | czas kontroli | __CHECKED__ |
+
+          **Najczęstsza przyczyna (2 wystąpienia: 17.07, 25.07):** rutyna publikacyjna straciła
+          podpięcie repozytorium z prawem zapisu i dostaje 403 na każdej ścieżce publikacji.
+
+          **Naprawa (ok. 2 minuty):**
+          1. Panel Claude → Routines → „ITSPACE Herald — publikacja 2× dziennie (v2 · wierność źródeł)".
+          2. Ikona ołówka (Edit) → sekcja **Repositories** → podepnij `adrianstrzeszewski/news-dashboard` → **Save**.
+          3. Po zapisie sprawdź, że sekcja Repositories nadal tam jest, i kliknij **Run now**.
+          4. Jeśli podpięcie jest na miejscu, a publikacja dalej pada — zajrzyj do raportu runu,
+             do linii `KROK 0`, i zgłoś dokładny komunikat błędu.
+
+          To zgłoszenie zamknie się samo, gdy świeże wydanie pojawi się na `main`.
+          EOF
+          )
+          BODY="${BODY//__STAMP__/${PUB_STAMP:-brak}}"
+          BODY="${BODY//__STATUS__/$PUB_STATUS}"
+          BODY="${BODY//__CHECKED__/$PUB_CHECKED}"
+          NUM="$(gh issue list --state open --search "\"$ALARM_TITLE\" in:title" --json number --jq '.[0].number // empty')"
+          if [ -n "$NUM" ]; then
+            gh issue comment "$NUM" --body "$BODY"
+            echo "Dopisano komentarz do istniejącego zgłoszenia #$NUM"
+          else
+            gh issue create --title "$ALARM_TITLE" --body "$BODY"
+          fi
+
+      - name: Zamknij alarm, gdy wydanie wróciło
+        if: steps.stamp.outputs.status == 'ok'
+        env:
+          PUB_STAMP: ${{ steps.stamp.outputs.stamp }}
+        run: |
+          set -euo pipefail
+          NUM="$(gh issue list --state open --search "\"$ALARM_TITLE\" in:title" --json number --jq '.[0].number // empty')"
+          if [ -n "$NUM" ]; then
+            gh issue close "$NUM" --comment "Wydanie wróciło — datownik \`$PUB_STAMP\`. Kontrola automatyczna zamyka zgłoszenie."
+            echo "Zamknięto zgłoszenie #$NUM"
+          else
+            echo "Wszystko w porządku, brak otwartych alarmów."
+          fi

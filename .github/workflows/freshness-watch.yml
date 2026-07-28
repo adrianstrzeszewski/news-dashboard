@@ -1,4 +1,4 @@
-# freshness-watch — kontrola świeżości wydania (dead-man switch)
+# freshness-watch — kontrola świeżości wydania (dead-man switch) · wersja 2
 #
 # Cel: niezależny od Cowork czujnik, który wykrywa brak świeżego wydania i zakłada
 #      zgłoszenie (Issue) w repozytorium. GitHub wysyła je mailem właścicielowi.
@@ -8,13 +8,34 @@
 # Kontrola nie modyfikuje strony ani treści wydania — tylko czyta index.html i alarmuje.
 # Wartości odczytane z pliku trafiają do skryptu przez zmienne środowiskowe, nigdy przez
 # podstawienie ${{ }} w treści polecenia (ochrona przed script injection).
+#
+# ── DLACZEGO WERSJA 2 (zmiana z 28.07.2026) ────────────────────────────────────────────
+# Wersja 1 nie założyła ANI JEDNEGO zgłoszenia przez 3 dni działania, mimo dwóch
+# nieudanych wydań. Przyczyna: harmonogram GitHub Actions jest tylko „best effort" i
+# realne uruchomienia były opóźnione o 3–8 godzin (25–27.07 startowały o 13:50, 18:37,
+# 19:46, 21:01 zamiast o 10:15 i 16:15). Wersja 1 porównywała datownik ze SZTYWNĄ
+# godziną („czy jest po 16:00"), więc każde spóźnione uruchomienie trafiało już na
+# opublikowane wydanie i meldowało „ok".
+#
+# Wersja 2 usuwa zależność od punktualności runnera:
+#   1) kontrola chodzi CO GODZINĘ — jeśli GitHub pominie lub opóźni część uruchomień,
+#      któreś i tak trafi w okno, w którym brak wydania jest już faktem;
+#   2) werdykt liczony jest od OCZEKIWANEGO SLOTU wyznaczonego z aktualnego czasu, a nie
+#      od sztywnej godziny — uruchomienie o 21:01 ocenia dzień tak samo poprawnie jak
+#      uruchomienie o 16:15;
+#   3) usunięty jest błąd logiczny wersji 1 (warunek PUB_HOUR < 12): spóźnione wydanie
+#      poranne, np. o 12:25, maskowało całkowity brak wydania popołudniowego;
+#   4) przy trwającym alarmie kolejne godzinowe kontrole MILCZĄ (bez komentarza co
+#      godzinę) — jedno zgłoszenie na incydent, automatycznie zamykane po powrocie wydania.
+#
+# Uwaga: harmonogram GitHub pozostaje best-effort — ten czujnik jest warstwą L3, nie
+# gwarancją. Niezależny watchdog L2 po stronie Cowork nadal jest potrzebny.
 
 name: Kontrola świeżości wydania
 
 on:
   schedule:
-    - cron: '15 8 * * *'    # 10:15 CEST — ~55 min po slocie porannym (09:20)
-    - cron: '15 14 * * *'   # 16:15 CEST — ~55 min po slocie popołudniowym (15:20)
+    - cron: '37 * * * *'    # co godzinę, o :37 (minuta poza szczytem — mniejsze opóźnienia kolejki)
   workflow_dispatch:        # pozwala uruchomić kontrolę ręcznie z zakładki Actions
 
 permissions:
@@ -30,49 +51,77 @@ jobs:
     runs-on: ubuntu-latest
     env:
       GH_TOKEN: ${{ github.token }}
-      TZ: Europe/Warsaw          # datownik data-pub jest w czasie lokalnym
+      TZ: Europe/Warsaw           # datownik data-pub jest w czasie lokalnym
       ALARM_TITLE: 'Brak świeżego wydania gazety'
+      # ── konfiguracja slotów (jedyne miejsce do strojenia) ──────────────────────────
+      SLOT_AM: '09:00'            # najwcześniejszy dopuszczalny datownik wydania porannego
+      SLOT_PM: '15:00'            # najwcześniejszy dopuszczalny datownik wydania popołudniowego
+      DEADLINE_AM: '11:15'        # do tej godziny wydanie poranne ma być na main (slot 09:20 + zapas)
+      DEADLINE_PM: '17:15'        # do tej godziny wydanie popołudniowe ma być na main (slot 15:20 + zapas)
     steps:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 1
 
-      - name: Odczytaj datownik wydania
+      - name: Odczytaj datownik i wyznacz oczekiwany slot
         id: stamp
         run: |
           set -euo pipefail
+
           STAMP="$(grep -o 'data-pub="[^"]*"' index.html | head -n1 | sed 's/.*data-pub="//; s/"$//')" || STAMP=""
           TODAY="$(date +%F)"
-          HOUR_NOW="$(date +%-H)"
-          if [ -z "$STAMP" ]; then
-            STATUS="brak-datownika"
+          YESTERDAY="$(date -d 'yesterday' +%F)"
+          NOW_EPOCH="$(date +%s)"
+
+          # Który slot POWINIEN być już zamknięty o tej godzinie? Liczone z aktualnego
+          # czasu, więc uruchomienie opóźnione przez GitHub daje ten sam werdykt.
+          if   [ "$NOW_EPOCH" -ge "$(date -d "$TODAY $DEADLINE_PM" +%s)" ]; then
+            EXPECT_EPOCH="$(date -d "$TODAY $SLOT_PM" +%s)";      SLOT='popołudniowy (dzisiejszy)'
+          elif [ "$NOW_EPOCH" -ge "$(date -d "$TODAY $DEADLINE_AM" +%s)" ]; then
+            EXPECT_EPOCH="$(date -d "$TODAY $SLOT_AM" +%s)";      SLOT='poranny (dzisiejszy)'
           else
-            PUB_DATE="${STAMP%%T*}"
-            PUB_HOUR="$(printf '%s' "${STAMP#*T}" | cut -d: -f1 | sed 's/^0//')"
-            PUB_HOUR="${PUB_HOUR:-0}"
-            if [ "$PUB_DATE" != "$TODAY" ]; then
-              STATUS="wydanie-nie-z-dzisiaj"
-            elif [ "$HOUR_NOW" -ge 16 ] && [ "$PUB_HOUR" -lt 12 ]; then
-              STATUS="brak-wydania-popoludniowego"
-            else
-              STATUS="ok"
-            fi
+            EXPECT_EPOCH="$(date -d "$YESTERDAY $SLOT_PM" +%s)";  SLOT='popołudniowy (wczorajszy)'
           fi
+          EXPECT_HUMAN="$(date -d "@$EXPECT_EPOCH" '+%Y-%m-%d %H:%M')"
+
+          if [ -z "$STAMP" ]; then
+            STATUS='brak-datownika'
+          elif ! PUB_EPOCH="$(date -d "${STAMP/T/ }" +%s 2>/dev/null)"; then
+            STATUS='datownik-nieczytelny'
+          elif [ "$PUB_EPOCH" -lt "$EXPECT_EPOCH" ]; then
+            STATUS='brak-wydania'
+          else
+            STATUS='ok'
+          fi
+
           {
             echo "stamp=$STAMP"
             echo "status=$STATUS"
+            echo "slot=$SLOT"
+            echo "expected=$EXPECT_HUMAN"
             echo "checked=$(date '+%Y-%m-%d %H:%M %Z')"
           } >> "$GITHUB_OUTPUT"
-          echo "Datownik: '${STAMP:-brak}' · dziś: $TODAY · godzina: $HOUR_NOW · status: $STATUS"
+          echo "Datownik: '${STAMP:-brak}' · oczekiwany slot: $SLOT (nie starszy niż $EXPECT_HUMAN) · status: $STATUS"
 
       - name: Alarm — brak świeżego wydania
         if: steps.stamp.outputs.status != 'ok'
         env:
           PUB_STAMP: ${{ steps.stamp.outputs.stamp }}
           PUB_STATUS: ${{ steps.stamp.outputs.status }}
+          PUB_SLOT: ${{ steps.stamp.outputs.slot }}
+          PUB_EXPECTED: ${{ steps.stamp.outputs.expected }}
           PUB_CHECKED: ${{ steps.stamp.outputs.checked }}
         run: |
           set -euo pipefail
+
+          # Jedno zgłoszenie na incydent. Kontrola chodzi co godzinę, więc przy trwającym
+          # alarmie MILCZYMY — inaczej zrobiłby się komentarz co 60 minut.
+          NUM="$(gh issue list --state open --search "\"$ALARM_TITLE\" in:title" --json number --jq '.[0].number // empty')"
+          if [ -n "$NUM" ]; then
+            echo "Alarm już otwarty jako #$NUM — nie duplikuję zgłoszenia."
+            exit 0
+          fi
+
           BODY=$(cat <<'EOF'
           Automatyczna kontrola świeżości nie znalazła aktualnego wydania.
 
@@ -80,31 +129,33 @@ jobs:
           |:--|:--|
           | datownik w index.html | `__STAMP__` |
           | status kontroli | `__STATUS__` |
+          | oczekiwany slot | __SLOT__ |
+          | datownik nie starszy niż | __EXPECTED__ |
           | czas kontroli | __CHECKED__ |
 
-          **Najczęstsza przyczyna (2 wystąpienia: 17.07, 25.07):** rutyna publikacyjna straciła
-          podpięcie repozytorium z prawem zapisu i dostaje 403 na każdej ścieżce publikacji.
+          **Co sprawdzić w pierwszej kolejności — raport ostatniego runu rutyny:**
 
-          **Naprawa (ok. 2 minuty):**
-          1. Panel Claude → Routines → „ITSPACE Herald — publikacja 2× dziennie (v2 · wierność źródeł)".
-          2. Ikona ołówka (Edit) → sekcja **Repositories** → podepnij `adrianstrzeszewski/news-dashboard` → **Save**.
-          3. Po zapisie sprawdź, że sekcja Repositories nadal tam jest, i kliknij **Run now**.
-          4. Jeśli podpięcie jest na miejscu, a publikacja dalej pada — zajrzyj do raportu runu,
-             do linii `KROK 0`, i zgłoś dokładny komunikat błędu.
+          1. Linia `KROK 0` — jeśli **BŁĄD**, rutyna straciła podpięcie repozytorium z prawem
+             zapisu. Naprawa: Panel Claude → Routines → „ITSPACE Herald — publikacja 2× dziennie" →
+             Edit → sekcja **Repositories** → podepnij `adrianstrzeszewski/news-dashboard` → **Save**
+             → **Run now**.
+          2. Linia `KROK 0B` — jeśli **BŁĄD — 0/3**, zepsuty jest kanał pobierania stron w sandboxie
+             rutyny (403 na każdej domenie, jak 28.07.2026). Repozytorium jest wtedy sprawne i
+             przepinanie go NIC nie da — jedyna naprawa to ponowienie przebiegu (**Run now**) po
+             30–60 minutach, żeby trafić na inny sandbox.
+          3. Jeśli obie linie są OK, a wydania nie ma — run prawdopodobnie wyczerpał budżet lub czas.
+             Sprawdź, czy zadziałał KROK 5B (gotowy plik + łatka do ręcznego dokończenia).
 
           To zgłoszenie zamknie się samo, gdy świeże wydanie pojawi się na `main`.
           EOF
           )
           BODY="${BODY//__STAMP__/${PUB_STAMP:-brak}}"
           BODY="${BODY//__STATUS__/$PUB_STATUS}"
+          BODY="${BODY//__SLOT__/$PUB_SLOT}"
+          BODY="${BODY//__EXPECTED__/$PUB_EXPECTED}"
           BODY="${BODY//__CHECKED__/$PUB_CHECKED}"
-          NUM="$(gh issue list --state open --search "\"$ALARM_TITLE\" in:title" --json number --jq '.[0].number // empty')"
-          if [ -n "$NUM" ]; then
-            gh issue comment "$NUM" --body "$BODY"
-            echo "Dopisano komentarz do istniejącego zgłoszenia #$NUM"
-          else
-            gh issue create --title "$ALARM_TITLE" --body "$BODY"
-          fi
+
+          gh issue create --title "$ALARM_TITLE" --body "$BODY"
 
       - name: Zamknij alarm, gdy wydanie wróciło
         if: steps.stamp.outputs.status == 'ok'

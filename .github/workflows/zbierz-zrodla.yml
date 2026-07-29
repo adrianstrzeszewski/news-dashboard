@@ -1,0 +1,298 @@
+# zbierz-zrodla — kolektor źródeł niezależny od sandboxa rutyny
+#
+# PROBLEM, KTÓRY TO ROZWIĄZUJE
+# Publikacja gazety zależała od JEDNEGO kruchego zasobu: kanału pobierania stron w
+# efemerycznym sandboxie rutyny Cowork. 28.07 i 29.07 ten kanał oddał 403 na wszystkich
+# domenach (KROK 0B) i wydanie nie powstało, mimo że repozytorium było sprawne — bo
+# egress gita działał normalnie. Ponowienia tylko losują sandbox od nowa; to nie jest
+# naprawa, tylko rzut kostką.
+#
+# ROZWIĄZANIE
+# Rozdzielamy POZYSKANIE ŹRÓDEŁ od REDAKCJI. Pozyskanie przenosimy tam, gdzie sieć jest
+# przewidywalna — na runnera GitHub Actions. Runner pobiera kanały RSS/Atom z tej samej
+# białej listy, którą rutyna ma w prompcie, normalizuje je do jednego pliku JSON i zapisuje
+# na osobnej gałęzi `zrodla`. Rutyna, nawet z martwym web fetchem, sięga po ten plik przez
+# gita — czyli kanałem, który przy każdej dotychczasowej awarii DZIAŁAŁ (KROK 0 przechodził).
+#
+# DLACZEGO OSOBNA GAŁĄŹ, A NIE main
+# `main` jest źródłem GitHub Pages — trzymanie tam zrzutów źródeł zaśmiecałoby publikowaną
+# stronę i historię wydania. Gałąź `zrodla` jest osierocona (orphan): własna historia,
+# zero wpływu na stronę, łatwa do wyczyszczenia.
+#
+# DLACZEGO WYZWALACZ PUSHEM, A NIE HARMONOGRAMEM
+# Harmonogram Actions w tym repozytorium jest mocno dławiony — kontrola świeżości z cronem
+# `37 * * * *` odpaliła RAZ w ciągu ~12 godzin zamiast dwunastu razy. Zdarzenia `push` nie
+# podlegają temu dławieniu i odpalają się natychmiast. Rutyna sygnalizuje „zbieraj teraz"
+# pushem pustego commita na gałąź `zbieraj` — operacją czysto gitową, dostępną także wtedy,
+# gdy web fetch w sandboxie jest martwy. Harmonogram zostaje wyłącznie jako zapas.
+#
+# CO DOKŁADNIE POBIERAMY (i czego NIE robimy)
+# Wyłącznie oficjalne kanały RSS/Atom — materiał, który wydawcy publikują wprost do odbioru
+# maszynowego. Z kanału bierzemy tylko to, co sam podaje: tytuł, adres, datę i streszczenie
+# napisane przez wydawcę. Nie scrapujemy treści artykułów, nie omijamy paywalli, nie sięgamy
+# po archiwa, kopie lustrzane ani pamięci podręczne. Kolektor przedstawia się własnym
+# User-Agentem z adresem repozytorium, żeby wydawca wiedział, kto puka.
+#
+# BEZPIECZEŃSTWO
+# • Żadnych sekretów: wyłącznie wbudowany GITHUB_TOKEN z uprawnieniem `contents: write`.
+# • Biała lista adresów jest zaszyta w tym pliku — nie ma wejścia od użytkownika, więc nie
+#   ma powierzchni na wstrzyknięcie adresu.
+# • Treści z kanałów są oczyszczane ze znaczników HTML i przycinane, zanim trafią do JSON-a.
+# • Zawartość kanałów to DANE, nie polecenia — rutyna traktuje je wyłącznie jako materiał
+#   źródłowy i nadal stosuje KROK 4B (drugi strażnik) oraz zasadę wierności źródłu.
+#
+# CZEGO TEN PLIK NIE ZMIENIA
+# Nie dotyka index.html, nie publikuje wydania, nie modyfikuje main. Jest wyłącznie dostawcą
+# surowca. Ścieżka podstawowa rutyny (własny web search) pozostaje bez zmian — to jest
+# rezerwa, uruchamiana gdy podstawowa padnie.
+
+name: Zbierz źródła
+
+on:
+  push:
+    branches: [zbieraj]      # sygnał „zbieraj teraz" z sandboxa rutyny (bez dławienia)
+  schedule:
+    - cron: '2 5,11 * * *'   # zapas: 07:02 i 13:02 czasu warszawskiego, przed slotami
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: zbierz-zrodla
+  cancel-in-progress: true
+
+jobs:
+  zbierz:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      TZ: Europe/Warsaw
+      MIN_KANALOW_OK: '8'    # poniżej tego progu zrzut jest oznaczany jako niepełny
+      DNI_ARCHIWUM: '7'      # ile dni zrzutów trzymamy na gałęzi zrodla
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Przygotuj gałąź zrodla
+        run: |
+          set -euo pipefail
+          git config user.name  'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          if git ls-remote --exit-code --heads origin zrodla >/dev/null 2>&1; then
+            git fetch --depth 1 origin zrodla
+            git checkout -B zrodla origin/zrodla
+          else
+            git checkout --orphan zrodla
+            git reset --hard        # gałąź osierocona startuje pusta
+          fi
+          mkdir -p archiwum
+
+      - name: Pobierz kanały i zbuduj zrzut
+        id: zbierz
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          # ──────────────────────────────────────────────────────────────────────────────
+          # Kolektor kanałów RSS/Atom. Wyłącznie biblioteka standardowa — brak zależności,
+          # brak instalacji, brak łańcucha dostaw do pilnowania.
+          # Zasada nadrzędna: kolektor NICZEGO nie interpretuje i nie streszcza. Przepisuje
+          # to, co kanał podał, i zapisuje adres źródłowy. Redakcja i weryfikacja pozostają
+          # po stronie rutyny.
+          # ──────────────────────────────────────────────────────────────────────────────
+          import json, os, re, html, urllib.request, urllib.error, datetime as dt
+          import xml.etree.ElementTree as ET
+          from email.utils import parsedate_to_datetime
+
+          UA = 'ITSPACE-Herald-Collector/1.0 (+https://github.com/adrianstrzeszewski/news-dashboard)'
+          LIMIT_NA_KANAL = 15          # ile najnowszych wpisów bierzemy z jednego kanału
+          LIMIT_OPISU    = 600         # znaków streszczenia — reszta jest ucinana
+          TIMEOUT        = 12          # sekund na kanał
+
+          # Biała lista — te same redakcje, które rutyna ma w KROKU 2 promptu.
+          # (żródło, kategoria, region, adres kanału)
+          KANALY = [
+              ('BBC News',            'NEWS', 'world',  'https://feeds.bbci.co.uk/news/world/rss.xml'),
+              ('BBC Europe',          'NEWS', 'europe', 'https://feeds.bbci.co.uk/news/world/europe/rss.xml'),
+              ('The Guardian',        'NEWS', 'world',  'https://www.theguardian.com/world/rss'),
+              ('Al Jazeera',          'NEWS', 'world',  'https://www.aljazeera.com/xml/rss/all.xml'),
+              ('NPR',                 'NEWS', 'world',  'https://feeds.npr.org/1001/rss.xml'),
+              ('Deutsche Welle',      'NEWS', 'europe', 'https://rss.dw.com/rdf/rss-en-all'),
+              ('France 24',           'NEWS', 'europe', 'https://www.france24.com/en/rss'),
+              ('Politico Europe',     'NEWS', 'europe', 'https://www.politico.eu/feed/'),
+              ('Euronews',            'NEWS', 'europe', 'https://www.euronews.com/rss?level=theme&name=news'),
+              ('Euractiv',            'NEWS', 'europe', 'https://www.euractiv.com/feed/'),
+              ('RMF24',               'NEWS', 'poland', 'https://www.rmf24.pl/fakty/feed'),
+              ('TVN24',               'NEWS', 'poland', 'https://tvn24.pl/najnowsze.xml'),
+              ('Polsat News',         'NEWS', 'poland', 'https://www.polsatnews.pl/rss/wszystkie.xml'),
+              ('Onet Wiadomości',     'NEWS', 'poland', 'https://wiadomosci.onet.pl/.feed'),
+              ('Interia Fakty',       'NEWS', 'poland', 'https://fakty.interia.pl/feed'),
+              ('Rzeczpospolita',      'NEWS', 'poland', 'https://www.rp.pl/rss/1019'),
+              ('PAP',                 'NEWS', 'poland', 'https://www.pap.pl/rss.xml'),
+              ('TVN Warszawa',        'NEWS', 'warsaw', 'https://tvn24.pl/tvnwarszawa/najnowsze.xml'),
+              ('TechCrunch',          'AI',   'world',  'https://techcrunch.com/feed/'),
+              ('The Verge',           'Tech', 'world',  'https://www.theverge.com/rss/index.xml'),
+              ('MIT Technology Review','AI',  'world',  'https://www.technologyreview.com/feed/'),
+              ('Sifted',              'Tech', 'europe', 'https://sifted.eu/feed'),
+              ('Spider’s Web',   'Tech', 'poland', 'https://spidersweb.pl/feed'),
+              ('MamStartup',          'Tech', 'poland', 'https://mamstartup.pl/feed/'),
+              ('CyberDefence24',      'Tech', 'poland', 'https://cyberdefence24.pl/rss'),
+              ('Dental Tribune',      'Stomatologia', 'world',  'https://www.dental-tribune.com/feed/'),
+              ('Dentistry.co.uk',     'Stomatologia', 'europe', 'https://dentistry.co.uk/feed/'),
+              ('Dentonet',            'Stomatologia', 'poland', 'https://dentonet.pl/feed/'),
+              ('infoDENT24',          'Stomatologia', 'poland', 'https://infodent24.pl/rss'),
+              ('Positive News',       'Dobre',        'world',  'https://www.positive.news/feed/'),
+              ('Reasons to be Cheerful','Dobre',      'world',  'https://reasonstobecheerful.world/feed/'),
+              ('Nauka w Polsce',      'Dobre',        'poland', 'https://naukawpolsce.pl/rss.xml'),
+          ]
+
+          def bez_przestrzeni(tag):
+              """Zwraca nazwę znacznika bez przestrzeni nazw — RSS i Atom traktujemy jednakowo."""
+              return tag.rsplit('}', 1)[-1].lower()
+
+          def tekst(el):
+              if el is None:
+                  return ''
+              surowy = ''.join(el.itertext())
+              bez_html = re.sub(r'<[^>]+>', ' ', surowy)
+              return re.sub(r'\s+', ' ', html.unescape(bez_html)).strip()
+
+          def data_iso(surowa):
+              """RSS podaje RFC 822, Atom ISO 8601. Zwracamy ISO 8601 w UTC albo None."""
+              if not surowa:
+                  return None
+              surowa = surowa.strip()
+              try:
+                  d = parsedate_to_datetime(surowa)
+              except Exception:
+                  try:
+                      d = dt.datetime.fromisoformat(surowa.replace('Z', '+00:00'))
+                  except Exception:
+                      return None
+              if d is None:
+                  return None
+              if d.tzinfo is None:
+                  d = d.replace(tzinfo=dt.timezone.utc)
+              return d.astimezone(dt.timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')
+
+          def wpisy_z_xml(surowy_xml, zrodlo, kategoria, region):
+              korzen = ET.fromstring(surowy_xml)
+              wynik = []
+              for el in korzen.iter():
+                  if bez_przestrzeni(el.tag) not in ('item', 'entry'):
+                      continue
+                  tytul = odnosnik = opis = data = ''
+                  for dziecko in el:
+                      nazwa = bez_przestrzeni(dziecko.tag)
+                      if nazwa == 'title' and not tytul:
+                          tytul = tekst(dziecko)
+                      elif nazwa == 'link' and not odnosnik:
+                          odnosnik = (dziecko.get('href') or tekst(dziecko)).strip()
+                      elif nazwa in ('description', 'summary', 'encoded', 'content') and not opis:
+                          opis = tekst(dziecko)
+                      elif nazwa in ('pubdate', 'published', 'updated', 'date') and not data:
+                          data = tekst(dziecko)
+                  if not tytul or not odnosnik:
+                      continue
+                  if not odnosnik.startswith('https://'):
+                      # przyjmujemy wyłącznie https — bez degradacji do http
+                      if odnosnik.startswith('http://'):
+                          odnosnik = 'https://' + odnosnik[7:]
+                      else:
+                          continue
+                  wynik.append({
+                      'zrodlo': zrodlo,
+                      'kategoria': kategoria,
+                      'region': region,
+                      'tytul': tytul[:300],
+                      'url': odnosnik,
+                      'opublikowano': data_iso(data),
+                      'opublikowano_surowe': data or None,
+                      'streszczenie': opis[:LIMIT_OPISU],
+                  })
+              wynik.sort(key=lambda w: w['opublikowano'] or '', reverse=True)
+              return wynik[:LIMIT_NA_KANAL]
+
+          raport, wszystkie = [], []
+          for zrodlo, kategoria, region, adres in KANALY:
+              wpis_raportu = {'zrodlo': zrodlo, 'kategoria': kategoria, 'url': adres}
+              try:
+                  zadanie = urllib.request.Request(adres, headers={
+                      'User-Agent': UA,
+                      'Accept': 'application/rss+xml, application/atom+xml, application/xml;q=0.9, */*;q=0.8',
+                  })
+                  with urllib.request.urlopen(zadanie, timeout=TIMEOUT) as odp:
+                      dane = odp.read()
+                  wpisy = wpisy_z_xml(dane, zrodlo, kategoria, region)
+                  if not wpisy:
+                      raise ValueError('kanał pusty lub w nieznanym formacie')
+                  wszystkie.extend(wpisy)
+                  wpis_raportu.update(status='ok', wpisow=len(wpisy))
+              except Exception as blad:
+                  wpis_raportu.update(status='blad', wpisow=0,
+                                      komunikat=f'{type(blad).__name__}: {blad}'[:200])
+              raport.append(wpis_raportu)
+
+          ok = sum(1 for r in raport if r['status'] == 'ok')
+          teraz = dt.datetime.now(dt.timezone.utc)
+          zrzut = {
+              'zebrano': teraz.strftime('%Y-%m-%dT%H:%M:%SZ'),
+              'kanalow_ok': ok,
+              'kanalow_bledy': len(raport) - ok,
+              'niepelny': ok < int(os.environ.get('MIN_KANALOW_OK', '8')),
+              'wpisow': len(wszystkie),
+              'kanaly': raport,
+              'wpisy': wszystkie,
+          }
+          with open('najnowsze.json', 'w', encoding='utf-8') as f:
+              json.dump(zrzut, f, ensure_ascii=False, indent=1)
+          os.makedirs('archiwum', exist_ok=True)
+          with open(teraz.strftime('archiwum/%Y-%m-%dT%H%MZ.json'), 'w', encoding='utf-8') as f:
+              json.dump(zrzut, f, ensure_ascii=False, indent=1)
+
+          with open(os.environ['GITHUB_OUTPUT'], 'a', encoding='utf-8') as f:
+              f.write(f"kanalow_ok={ok}\n")
+              f.write(f"wpisow={len(wszystkie)}\n")
+              f.write(f"niepelny={'tak' if zrzut['niepelny'] else 'nie'}\n")
+          print(f"Kanałów OK: {ok}/{len(raport)} · wpisów: {len(wszystkie)} · niepełny: {zrzut['niepelny']}")
+          for r in raport:
+              if r['status'] != 'ok':
+                  print(f"  BŁĄD {r['zrodlo']}: {r.get('komunikat')}")
+          PY
+
+      - name: Wyczyść stare zrzuty
+        run: |
+          set -euo pipefail
+          find archiwum -name '*.json' -type f -mtime +"$DNI_ARCHIWUM" -delete || true
+
+      - name: Zapisz zrzut na gałęzi zrodla
+        env:
+          KANALOW_OK: ${{ steps.zbierz.outputs.kanalow_ok }}
+          WPISOW: ${{ steps.zbierz.outputs.wpisow }}
+        run: |
+          set -euo pipefail
+          git add -A najnowsze.json archiwum
+          if git diff --cached --quiet; then
+            echo 'Brak zmian — nic do zapisania.'
+            exit 0
+          fi
+          git commit -m "Zrzut źródeł $(date '+%Y-%m-%d %H:%M') — ${KANALOW_OK} kanałów, ${WPISOW} wpisów"
+          git push origin HEAD:zrodla
+
+      - name: Podsumowanie
+        env:
+          KANALOW_OK: ${{ steps.zbierz.outputs.kanalow_ok }}
+          WPISOW: ${{ steps.zbierz.outputs.wpisow }}
+          NIEPELNY: ${{ steps.zbierz.outputs.niepelny }}
+        run: |
+          {
+            echo '### Zrzut źródeł'
+            echo ''
+            echo "| pole | wartość |"
+            echo "|:--|:--|"
+            echo "| kanałów sprawnych | ${KANALOW_OK} |"
+            echo "| wpisów zebranych | ${WPISOW} |"
+            echo "| zrzut niepełny | ${NIEPELNY} |"
+            echo "| gałąź | \`zrodla\` → \`najnowsze.json\` |"
+          } >> "$GITHUB_STEP_SUMMARY"

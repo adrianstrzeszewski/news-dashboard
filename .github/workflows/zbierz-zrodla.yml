@@ -131,6 +131,7 @@ jobs:
               ('Rzeczpospolita',      'NEWS', 'poland', 'https://www.rp.pl/rss/1019'),
               ('PAP',                 'NEWS', 'poland', 'https://www.pap.pl/rss.xml'),
               ('TVN Warszawa',        'NEWS', 'warsaw', 'https://tvn24.pl/tvnwarszawa/najnowsze.xml'),
+              ('Gazeta Stołeczna',    'NEWS', 'warsaw', 'https://rss.gazeta.pl/pub/rss/warszawa.xml'),
               ('TechCrunch',          'AI',   'world',  'https://techcrunch.com/feed/'),
               ('The Verge',           'Tech', 'world',  'https://www.theverge.com/rss/index.xml'),
               ('MIT Technology Review','AI',  'world',  'https://www.technologyreview.com/feed/'),

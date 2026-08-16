@@ -113,7 +113,11 @@ button,input{font-family:inherit}
 .szkło,.module,.summary,.rtile,.adbox,.sources,.wxtile,.clock,.wxd{backdrop-filter:blur(18px) saturate(150%)}
 
 /* ---------- pasek poleceń ---------- */
-.topbar{position:sticky;top:12px;z-index:60;max-width:1200px;margin:12px auto 0;padding:0 22px}
+/* Pasek narzędzi zostaje na górze dokumentu i odjeżdża razem z treścią.
+   Wersja przyklejona (position:sticky) zabierała miejsce na każdym ekranie i — przy
+   rozmyciu tła na całą szerokość — kazała przeglądarce rozmywać tło przy każdej klatce
+   przewijania. Na dotyku zdjęte już wcześniej; teraz to samo na komputerze. */
+  .topbar{position:static;max-width:1200px;margin:12px auto 0;padding:0 22px}
 .themesw-row{display:flex;gap:10px;align-items:center;padding:9px 10px 9px 16px;border-radius:18px;
   border:1px solid var(--hairline);background:var(--surface);backdrop-filter:blur(22px) saturate(180%);
   box-shadow:var(--shadow-lift);flex-wrap:wrap}
@@ -453,7 +457,7 @@ footer b{color:var(--ink-2)}
   /* 3. Pasek narzędzi przestaje być przyklejony. Na ekranie 390 px zawijał się do
         trzech rzędów i zabierał 137 px, czyli 16% widoku — na stałe. Teraz odjeżdża
         w górę razem z winietą. */
-  .topbar{position:static;margin-top:10px}
+  .topbar{margin-top:10px}   /* pozycja już statyczna globalnie */
   .themesw-row{box-shadow:none}
 }
 

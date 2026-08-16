@@ -507,6 +507,38 @@ footer b{color:var(--ink-2)}
   .card:hover,.rtile:hover,.tile.tclick:hover{transform:none !important;box-shadow:none !important}
   .card,.rtile,.tile.tclick,.witem,.pl,.fbtn{transition:none !important}
 }
+
+
+/* ===== OPTYMALIZACJA, TURA TRZECIA — PŁYNNOŚĆ PRZEWIJANIA ===========================
+   Trzy wzorce, które psują samo przewijanie, niezależnie od kosztu rysowania kart.
+   ==================================================================================== */
+
+@media (max-width:1024px), (pointer:coarse){
+
+  /* 11. <body> przestaje być kontenerem przewijania.
+         overflow-x:hidden było potrzebne, dopóki mgła wystawała poza szerokość ekranu.
+         Od tury pierwszej mgła mieści się w kolumnie (inset:0 0 auto 0), więc przycinanie
+         w poziomie jest już zbędne — a to ono odbierało przewijaniu natywny charakter. */
+  body{overflow-x:visible}
+
+  /* 12. Poświata przenosi się z osobnego elementu do tła karty.
+         Dzięki temu znika potrzeba overflow:hidden — a więc sześćdziesiąt zaokrąglonych
+         przycięć, z których każde wymaga własnej powierzchni renderowania. */
+  .card{overflow:visible}
+  .card .glow{display:none}
+  /* środek gradientu leży poza kartą, więc promień musi być odpowiednio większy,
+     żeby w kadrze została ta sama ilość koloru co przy rozmytym kole */
+  .card.p-red{background-image:radial-gradient(circle 240px at calc(100% + 34px) -28px,
+    color-mix(in srgb,var(--crit) 46%,transparent),transparent 100%)}
+  .card.p-yellow{background-image:radial-gradient(circle 240px at calc(100% + 34px) -28px,
+    color-mix(in srgb,var(--warn) 40%,transparent),transparent 100%)}
+  .card.p-green{background-image:radial-gradient(circle 240px at calc(100% + 34px) -28px,
+    color-mix(in srgb,var(--good) 38%,transparent),transparent 100%)}
+  /* kreska u góry karty mieściła się w obrysie, więc nie wymaga przycinania */
+
+  /* 13. Przewijanie programowe bez animacji — na dotyku to tylko opóźnienie. */
+  html{scroll-behavior:auto}
+}
 </style>
 </head>
 <body>

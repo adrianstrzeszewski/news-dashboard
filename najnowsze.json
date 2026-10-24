@@ -1,9 +1,9 @@
 {
- "zebrano": "2026-10-24T13:21:59Z",
- "kanalow_ok": 29,
- "kanalow_bledy": 4,
+ "zebrano": "2026-10-24T14:26:10Z",
+ "kanalow_ok": 31,
+ "kanalow_bledy": 2,
  "niepelny": false,
- "wpisow": 380,
+ "wpisow": 410,
  "kanaly": [
   {
    "zrodlo": "BBC News",
@@ -86,9 +86,8 @@
    "zrodlo": "TVN24",
    "kategoria": "NEWS",
    "url": "https://tvn24.pl/najnowsze.xml",
-   "status": "blad",
-   "wpisow": 0,
-   "komunikat": "HTTPError: HTTP Error 403: Forbidden"
+   "status": "ok",
+   "wpisow": 15
   },
   {
    "zrodlo": "Polsat News",
@@ -130,9 +129,8 @@
    "zrodlo": "TVN Warszawa",
    "kategoria": "NEWS",
    "url": "https://tvn24.pl/tvnwarszawa/najnowsze.xml",
-   "status": "blad",
-   "wpisow": 0,
-   "komunikat": "HTTPError: HTTP Error 403: Forbidden"
+   "status": "ok",
+   "wpisow": 15
   },
   {
    "zrodlo": "Gazeta Stołeczna",
@@ -246,21 +244,21 @@
    "zrodlo": "BBC News",
    "kategoria": "NEWS",
    "region": "world",
-   "tytul": "Ukraine says Starlink connection 'now stable' after network limits",
-   "url": "https://www.bbc.co.uk/news/articles/cwkg5md14j8go?at_medium=RSS&at_campaign=rss",
-   "opublikowano": "2026-10-24T12:12:40Z",
-   "opublikowano_surowe": "Sat, 24 Oct 2026 12:12:40 GMT",
-   "streszczenie": "The slowed Starlink connections had affected the Ukraine's military and drone operations for a week."
+   "tytul": "Arrest made after fire at Hitler's mountaintop Eagle's Nest retreat",
+   "url": "https://www.bbc.co.uk/news/articles/cr93zwjw1k4qo?at_medium=RSS&at_campaign=rss",
+   "opublikowano": "2026-10-24T14:16:05Z",
+   "opublikowano_surowe": "Sat, 24 Oct 2026 14:16:05 GMT",
+   "streszczenie": "Some 200 emergency personnel were deployed to fight the blaze at the Nazi dictator's Alpine residence in Germany."
   },
   {
    "zrodlo": "BBC News",
    "kategoria": "NEWS",
    "region": "world",
-   "tytul": "Arrest made after fire at Hitler's mountaintop Eagle's Nest retreat",
-   "url": "https://www.bbc.co.uk/news/articles/cr93zwjw1k4qo?at_medium=RSS&at_campaign=rss",
-   "opublikowano": "2026-10-24T11:23:59Z",
-   "opublikowano_surowe": "Sat, 24 Oct 2026 11:23:59 GMT",
-   "streszczenie": "Around 200 emergency personnel are deployed to fight the blaze at the Nazi dictator's Alpine residence in Germany."
+   "tytul": "Ukraine says Starlink connection 'now stable' after network limits",
+   "url": "https://www.bbc.co.uk/news/articles/cwkg5md14j8go?at_medium=RSS&at_campaign=rss",
+   "opublikowano": "2026-10-24T12:12:40Z",
+   "opublikowano_surowe": "Sat, 24 Oct 2026 12:12:40 GMT",
+   "streszczenie": "The slowed Starlink connections had affected the Ukraine's military and drone operations for a week."
   },
   {
    "zrodlo": "BBC News",
@@ -291,6 +289,16 @@
    "opublikowano": "2026-10-24T09:44:01Z",
    "opublikowano_surowe": "Sat, 24 Oct 2026 09:44:01 GMT",
    "streszczenie": "Rescue efforts are under way to find people trapped under the block, which was still under construction when it buckled."
+  },
+  {
+   "zrodlo": "BBC News",
+   "kategoria": "NEWS",
+   "region": "world",
+   "tytul": "Three released without charge after fatal arson attack in Ireland",
+   "url": "https://www.bbc.co.uk/news/articles/cv0ld9571511o?at_medium=RSS&at_campaign=rss",
+   "opublikowano": "2026-10-24T09:38:28Z",
+   "opublikowano_surowe": "Sat, 24 Oct 2026 09:38:28 GMT",
+   "streszczenie": "Three people - two women and one man - have been released, and one person remains in custody, gardaí say."
   },
   {
    "zrodlo": "BBC News",
@@ -383,24 +391,24 @@
    "streszczenie": "The Student List has emerged from almost two years of anti-corruption protests to form the biggest challenge to Vučić's rule."
   },
   {
-   "zrodlo": "BBC News",
+   "zrodlo": "BBC Europe",
    "kategoria": "NEWS",
-   "region": "world",
-   "tytul": "Father who killed Oregon school gunman describes anguish over children he couldn't save",
-   "url": "https://www.bbc.co.uk/news/articles/crgj9ndwvj9jo?at_medium=RSS&at_campaign=rss",
-   "opublikowano": "2026-10-23T22:47:07Z",
-   "opublikowano_surowe": "Fri, 23 Oct 2026 22:47:07 GMT",
-   "streszczenie": "Kaylub Giamanco has been hailed as a hero for killing a teenager who fatally shot three children and a teacher."
+   "region": "europe",
+   "tytul": "Arrest made after fire at Hitler's mountaintop Eagle's Nest retreat",
+   "url": "https://www.bbc.co.uk/news/articles/cr93zwjw1k4qo?at_medium=RSS&at_campaign=rss",
+   "opublikowano": "2026-10-24T14:16:05Z",
+   "opublikowano_surowe": "Sat, 24 Oct 2026 14:16:05 GMT",
+   "streszczenie": "Some 200 emergency personnel were deployed to fight the blaze at the Nazi dictator's Alpine residence in Germany."
   },
   {
    "zrodlo": "BBC Europe",
    "kategoria": "NEWS",
    "region": "europe",
-   "tytul": "France prepares for day of protest a week after nationwide riots",
-   "url": "https://www.bbc.co.uk/news/articles/cj62yv5k0w4yo?at_medium=RSS&at_campaign=rss",
-   "opublikowano": "2026-10-24T09:34:32Z",
-   "opublikowano_surowe": "Sat, 24 Oct 2026 09:34:32 GMT",
-   "streszczenie": "Hundreds of thousands are expected to turn out, as more than 70,000 police officers are to be deployed over some may defy restrictions."
+   "tytul": "Ukraine says Starlink connection 'now stable' after network limits",
+   "url": "https://www.bbc.co.uk/news/articles/cwkg5md14j8go?at_medium=RSS&at_campaign=rss",
+   "opublikowano": "2026-10-24T12:12:40Z",
+   "opublikowano_surowe": "Sat, 24 Oct 2026 12:12:40 GMT",
+   "streszczenie": "The slowed Starlink connections had affected the Ukraine's military and drone operations for a week."
   },
   {
    "zrodlo": "BBC Europe",
@@ -533,24 +541,24 @@
    "streszczenie": "The disease, which usually affects cattle, has been identified in a patient who died in early October."
   },
   {
-   "zrodlo": "BBC Europe",
+   "zrodlo": "The Guardian",
    "kategoria": "NEWS",
-   "region": "europe",
-   "tytul": "At least four dead after storm brings flooding to southern France",
-   "url": "https://www.bbc.co.uk/news/articles/cm5ynl4v4wgwo?at_medium=RSS&at_campaign=rss",
-   "opublikowano": "2026-10-22T11:23:16Z",
-   "opublikowano_surowe": "Thu, 22 Oct 2026 11:23:16 GMT",
-   "streszczenie": "The deaths include two women found drowned in a cellar in the Bouches-du-Rhône region."
+   "region": "world",
+   "tytul": "Thousands march in Paris and other French cities as protests take place across Europe – Europe live",
+   "url": "https://www.theguardian.com/world/live/2026/oct/24/france-demonstrations-police-macron-italy-albania-belgium-spain-ukraine-russia-europe-latest-news",
+   "opublikowano": "2026-10-24T14:14:24Z",
+   "opublikowano_surowe": "Sat, 24 Oct 2026 14:14:24 GMT",
+   "streszczenie": "French police have made 135 arrests, while Italian officers have raided homes in Milan, with protests also taking place in Spain and Albania Jesse, 40, a charity worker from the north of Paris, had turned out for the street march. She said: “I’m so angry. I’m here to support schoolchildren’s demands for better conditions. I’m so proud of them and we have to stand together.” Continue reading..."
   },
   {
    "zrodlo": "The Guardian",
    "kategoria": "NEWS",
    "region": "world",
-   "tytul": "Thousands march in Paris as protests take place across Europe – Europe live",
-   "url": "https://www.theguardian.com/world/live/2026/oct/24/france-demonstrations-police-macron-italy-albania-belgium-spain-ukraine-russia-europe-latest-news",
-   "opublikowano": "2026-10-24T13:13:33Z",
-   "opublikowano_surowe": "Sat, 24 Oct 2026 13:13:33 GMT",
-   "streszczenie": "French police have made 135 arrests, while Italian officers have raided homes in Milan, with protests also taking place in Spain and Albania Jesse, 40, a charity worker from the north of Paris, had turned out for the street march. She said: “I’m so angry. I’m here to support schoolchildren’s demands for better conditions. I’m so proud of them and we have to stand together.” Continue reading..."
+   "tytul": "Met says it shared allegations about Meghan’s father with her but not other forces",
+   "url": "https://www.theguardian.com/uk-news/2026/oct/24/met-admits-it-did-not-pass-on-2019-letter-about-meghan-markle-father-thomas-markle-allegations-",
+   "opublikowano": "2026-10-24T13:52:58Z",
+   "opublikowano_surowe": "Sat, 24 Oct 2026 13:52:58 GMT",
+   "streszczenie": "Scotland Yard says it shared letter about Thomas Markle Sr allegations in 2019 but did not pass claims to other agencies The Metropolitan police have confirmed they gave a letter to the Duchess of Sussex in 2019 concerning “alleged offending” involving her father, after accusations arose on Friday about Thomas Markle Sr having child sexual abuse images. Scotland Yard said it had received a letter in January 2019 making a number of allegations about offending outside Britain. Continue reading..."
   },
   {
    "zrodlo": "The Guardian",
@@ -558,19 +566,19 @@
    "region": "world",
    "tytul": "Kim Jong-un crosses newly opened bridge into China",
    "url": "https://www.theguardian.com/world/2026/oct/24/kim-jong-un-crosses-newly-opened-bridge-into-china",
-   "opublikowano": "2026-10-24T12:54:33Z",
-   "opublikowano_surowe": "Sat, 24 Oct 2026 12:54:33 GMT",
+   "opublikowano": "2026-10-24T13:34:56Z",
+   "opublikowano_surowe": "Sat, 24 Oct 2026 13:34:56 GMT",
    "streszczenie": "North Korean leader travels over New Yalu River Bridge to meet senior Communist party member Kim Jong-un has visited China, inaugurating a bridge that connects the two countries and saying he hopes to expand cooperation with his neighbour. The North Korean leader arrived in the Chinese border city of Dandong on Saturday after crossing the New Yalu River Bridge, according to South Korea’s unification ministry, which handles affairs related to North Korea, and China’s official Xinhua news agency. Continue reading..."
   },
   {
    "zrodlo": "The Guardian",
    "kategoria": "NEWS",
    "region": "world",
-   "tytul": "Met police confirm giving Duchess of Sussex letter about father’s alleged offending",
-   "url": "https://www.theguardian.com/uk-news/2026/oct/24/met-admits-it-did-not-pass-on-2019-letter-about-meghan-markle-father-thomas-markle-allegations-",
-   "opublikowano": "2026-10-24T12:52:48Z",
-   "opublikowano_surowe": "Sat, 24 Oct 2026 12:52:48 GMT",
-   "streszczenie": "Scotland Yard says it shared information about Thomas Markle Sr allegations in 2019 but did not pass claims to other agencies The Metropolitan police have confirmed they gave a letter to the Duchess of Sussex in 2019 concerning “alleged offending” involving her father, after accusations arose on Friday about Thomas Markle Sr having child sexual abuse images. Scotland Yard said it had received a letter in January 2019 making a number of allegations about offending outside Britain. Continue reading..."
+   "tytul": "Storm Boelo to bring 80mph gusts and heavy rain to parts of UK",
+   "url": "https://www.theguardian.com/world/2026/oct/24/storm-boelo-80mph-winds-heavy-rain-northern-uk",
+   "opublikowano": "2026-10-24T13:28:07Z",
+   "opublikowano_surowe": "Sat, 24 Oct 2026 13:28:07 GMT",
+   "streszczenie": "Second named storm will hit northern parts of UK as thousands remain without power after Friday’s Storm Austen The UK is bracing for a second storm this weekend, as strong winds and heavy rain are expected to disrupt travel and cause further power cuts in the north. Storm Boelo, the second named storm of the season, is expected to bring heavy, frequent showers and winds potentially exceeding 80mph to northern parts of the UK. Continue reading..."
   },
   {
    "zrodlo": "The Guardian",
@@ -578,9 +586,9 @@
    "region": "world",
    "tytul": "Israeli soldiers raze neighbourhood in Hebron, driving families from homes",
    "url": "https://www.theguardian.com/world/2026/oct/24/israel-soldiers-raze-west-bank-neighbourhood-hebron-families-from-homes",
-   "opublikowano": "2026-10-24T12:37:31Z",
-   "opublikowano_surowe": "Sat, 24 Oct 2026 12:37:31 GMT",
-   "streszczenie": "PM Benjamin Netanyahu vows ‘to destroy this place’ in retaliation for militant attack on army checkpoint Israeli troops have levelled a neighbourhood in Hebron, driving out hundreds of families, in collective punishment for a militant attack on an army checkpoint outside the West Bank city, local Palestinian authorities said. The Hebron municipality estimated that 35 hectares (86 acres) had been destroyed or marked for destruction and about 1,500 people had been evicted from their homes by Saturday afternoon in the district of Ein Deir Baha. The whole city of 250,000 people was sealed off by c"
+   "opublikowano": "2026-10-24T13:17:13Z",
+   "opublikowano_surowe": "Sat, 24 Oct 2026 13:17:13 GMT",
+   "streszczenie": "PM Benjamin Netanyahu vows ‘to destroy this place’ in retaliation for militant attack on army checkpoint Israeli troops have levelled a neighbourhood in Hebron, driving out hundreds of families in collective punishment for a militant attack on an army checkpoint outside the West Bank city, local Palestinian authorities said. The Hebron municipality estimated that 35 hectares (86 acres) had been destroyed or marked for destruction and about 1,500 people had been evicted from their homes by Saturday afternoon in the district of Ein Deir Baha. The whole city of 250,000 people was sealed off by ch"
   },
   {
    "zrodlo": "The Guardian",
@@ -606,11 +614,11 @@
    "zrodlo": "The Guardian",
    "kategoria": "NEWS",
    "region": "world",
-   "tytul": "Storm Boelo to bring gusts of up to 80mph and heavy rain to parts of UK",
-   "url": "https://www.theguardian.com/world/2026/oct/24/storm-boelo-80mph-winds-heavy-rain-northern-uk",
-   "opublikowano": "2026-10-24T11:24:19Z",
-   "opublikowano_surowe": "Sat, 24 Oct 2026 11:24:19 GMT",
-   "streszczenie": "Second named storm in as many days will hit northern parts of UK as thousands remain without power after Friday’s Storm Austen The UK is bracing for a second storm this weekend, as strong winds and heavy rain are expected to disrupt travel and cause further power cuts in the north. Storm Boelo, the second named storm of the season, is expected to bring heavy, frequent showers and winds potentially exceeding 80mph to northern parts of the UK. Continue reading..."
+   "tytul": "ICC prosecutor says court making ‘significant progress’ despite US sanctions",
+   "url": "https://www.theguardian.com/law/2026/oct/24/icc-deputy-prosecutor-nazhat-shameem-khan-marco-rubio-us-sanctions",
+   "opublikowano": "2026-10-24T11:35:22Z",
+   "opublikowano_surowe": "Sat, 24 Oct 2026 11:35:22 GMT",
+   "streszczenie": "Nazhat Shameem Khan claims some staff are facing ‘banking difficulties’ but their work is unaffected The deputy prosecutor of the international criminal court has said new US sanctions are beginning to take effect on its staff but insisted they have not hindered the court’s work. The US secretary of state, Marco Rubio, announced the sanctions this month , accusing the ICC – a frequent target of the Trump administration – of being a “rogue court” and declaring: “Either the ICC will end its threats, or we will end the ICC.” Continue reading..."
   },
   {
    "zrodlo": "The Guardian",
@@ -676,21 +684,71 @@
    "zrodlo": "The Guardian",
    "kategoria": "NEWS",
    "region": "world",
-   "tytul": "Verse from Qu’ran inspired US man to leap on runaway school bus and halt it",
-   "url": "https://www.theguardian.com/us-news/2026/oct/24/runaway-school-bus-quran-minnesota",
-   "opublikowano": "2026-10-24T10:00:31Z",
-   "opublikowano_surowe": "Sat, 24 Oct 2026 10:00:31 GMT",
-   "streszczenie": "Ebro Ahmed, who acted after driver’s medical emergency, said he hopes incident will show Eritreans ‘in a good way’ A man who hopped on to a school bus full of terrified children that was careering down a Minnesota street after its driver had a medical emergency and manually halted it says he was motivated to act by a Qu’ran verse about how saving one life is equivalent to saving all of humanity. “I’m a numbers guy, and those numbers make sense to me,” Ebro Ahmed, 27, said on Friday during an interview about his actions four days earlier in front of his family’s convenience store in Saint Paul,"
-  },
-  {
-   "zrodlo": "The Guardian",
-   "kategoria": "NEWS",
-   "region": "world",
    "tytul": "British woman dies trying to save sons on Bahamas snorkelling trip",
    "url": "https://www.theguardian.com/world/2026/oct/24/british-woman-dies-trying-to-save-sons-on-bahamas-snorkelling-trip",
    "opublikowano": "2026-10-24T09:43:09Z",
    "opublikowano_surowe": "Sat, 24 Oct 2026 09:43:09 GMT",
    "streszczenie": "Mother, 36, died after current off North Bimini reportedly swept away two boys, who were later rescued, police say A British woman has died in the Bahamas while trying to rescue her two sons after a current swept them away as they were snorkelling. The Royal Bahamas police force said it had launched an investigation after the death of a 36-year-old woman on Tuesday. Continue reading..."
+  },
+  {
+   "zrodlo": "Al Jazeera",
+   "kategoria": "NEWS",
+   "region": "world",
+   "tytul": "Do abstaining voters hold the key to Brazil’s 2026 presidential election?",
+   "url": "https://www.aljazeera.com/news/longform/2026/10/24/do-abstaining-voters-hold-the-key-to-brazils-2026-presidential-election?traffic_source=rss",
+   "opublikowano": "2026-10-24T13:58:14Z",
+   "opublikowano_surowe": "Sat, 24 Oct 2026 13:58:14 +0000",
+   "streszczenie": "Some 21 percent of Brazilian adults did not cast a ballot in the first round of voting. Will they affect the run-off?"
+  },
+  {
+   "zrodlo": "Al Jazeera",
+   "kategoria": "NEWS",
+   "region": "world",
+   "tytul": "Rybakina readies for title defence at Ningbo Open in final with Fernandez",
+   "url": "https://www.aljazeera.com/sports/2026/10/24/rybakina-readies-for-title-defence-at-ningbo-open-in-final-with-fernandez?traffic_source=rss",
+   "opublikowano": "2026-10-24T13:52:08Z",
+   "opublikowano_surowe": "Sat, 24 Oct 2026 13:52:08 +0000",
+   "streszczenie": "The world number one will face Leylah Fernandez in the final after the unseeded Canadian beat Czech Marie Bouzkova."
+  },
+  {
+   "zrodlo": "Al Jazeera",
+   "kategoria": "NEWS",
+   "region": "world",
+   "tytul": "Sudan’s soaring fuel prices make getting by harder for workers",
+   "url": "https://www.aljazeera.com/economy/2026/10/24/sudans-soaring-fuel-prices-makes-getting-by-harder-for-workers?traffic_source=rss",
+   "opublikowano": "2026-10-24T13:51:08Z",
+   "opublikowano_surowe": "Sat, 24 Oct 2026 13:51:08 +0000",
+   "streszczenie": "Sudan is suffering from a cost-of-living crisis affecting millions across the country."
+  },
+  {
+   "zrodlo": "Al Jazeera",
+   "kategoria": "NEWS",
+   "region": "world",
+   "tytul": "Who was behind the deadly church shooting in Jordan?",
+   "url": "https://www.aljazeera.com/news/2026/10/24/who-was-behind-the-deadly-church-shooting-in-jordan?traffic_source=rss",
+   "opublikowano": "2026-10-24T13:39:26Z",
+   "opublikowano_surowe": "Sat, 24 Oct 2026 13:39:26 +0000",
+   "streszczenie": "Authorities are investigating the rare attack on a Christian church; the assailants remain unidentified and at large."
+  },
+  {
+   "zrodlo": "Al Jazeera",
+   "kategoria": "NEWS",
+   "region": "world",
+   "tytul": "Netanyahu floats Crypto to bypass sanctions",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/24/netanyahu-floats-crypto-to-bypass-sanctions?traffic_source=rss",
+   "opublikowano": "2026-10-24T13:27:11Z",
+   "opublikowano_surowe": "Sat, 24 Oct 2026 13:27:11 +0000",
+   "streszczenie": "Netanyahu floats Crypto to bypass sanctions"
+  },
+  {
+   "zrodlo": "Al Jazeera",
+   "kategoria": "NEWS",
+   "region": "world",
+   "tytul": "Armed Israeli settlers try to break into Palestinian grandfather’s home",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/24/armed-israeli-settlers-try-to-break-into-palestinian-grandfathers-home?traffic_source=rss",
+   "opublikowano": "2026-10-24T13:16:23Z",
+   "opublikowano_surowe": "Sat, 24 Oct 2026 13:16:23 +0000",
+   "streszczenie": "A Palestinian man is facing Israeli settler attacks and a demolition order from Israeli forces in Umm Safa village."
   },
   {
    "zrodlo": "Al Jazeera",
@@ -783,66 +841,6 @@
    "streszczenie": "Matches between Barca and Real are among the biggest in world football, with their rivalry spanning more than a century."
   },
   {
-   "zrodlo": "Al Jazeera",
-   "kategoria": "NEWS",
-   "region": "world",
-   "tytul": "Czech Republic advances media funding overhaul despite criticism",
-   "url": "https://www.aljazeera.com/news/2026/10/24/czech-republic-advances-media-funding-overhaul-despite-criticism?traffic_source=rss",
-   "opublikowano": "2026-10-24T11:50:32Z",
-   "opublikowano_surowe": "Sat, 24 Oct 2026 11:50:32 +0000",
-   "streszczenie": "Journalists prepare to strike as politicians push through changes that critics say threaten independence."
-  },
-  {
-   "zrodlo": "Al Jazeera",
-   "kategoria": "NEWS",
-   "region": "world",
-   "tytul": "Democracy by ZIP Code: Two Americas, one election",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/24/democracy-by-zip-code-two-americas-one-election?traffic_source=rss",
-   "opublikowano": "2026-10-24T11:44:16Z",
-   "opublikowano_surowe": "Sat, 24 Oct 2026 11:44:16 +0000",
-   "streszczenie": "How can Americans living just miles apart experience completely different versions of the American dream?"
-  },
-  {
-   "zrodlo": "Al Jazeera",
-   "kategoria": "NEWS",
-   "region": "world",
-   "tytul": "German police detain suspect after fire engulfs Hitler’s Eagle’s Nest",
-   "url": "https://www.aljazeera.com/news/2026/10/24/german-police-detain-suspect-after-fire-engulfs-hitlers-eagles-nest?traffic_source=rss",
-   "opublikowano": "2026-10-24T11:01:05Z",
-   "opublikowano_surowe": "Sat, 24 Oct 2026 11:01:05 +0000",
-   "streszczenie": "No injuries were reported at the building, while police said a ‘suspicious person’ had been taken into custody."
-  },
-  {
-   "zrodlo": "Al Jazeera",
-   "kategoria": "NEWS",
-   "region": "world",
-   "tytul": "Bayern say coach Kompany ‘stable’ in hospital but will be out for weeks",
-   "url": "https://www.aljazeera.com/sports/2026/10/24/bayern-say-coach-kompany-stable-in-hospital-but-will-be-out-for-weeks?traffic_source=rss",
-   "opublikowano": "2026-10-24T10:59:34Z",
-   "opublikowano_surowe": "Sat, 24 Oct 2026 10:59:34 +0000",
-   "streszczenie": "Bayern Munich coach Vincent Kompany collapsed during training on Friday but is said to be 'stable' in hospital."
-  },
-  {
-   "zrodlo": "Al Jazeera",
-   "kategoria": "NEWS",
-   "region": "world",
-   "tytul": "Deadly ‘racist’ attack in France: Are hate crimes rising in Europe?",
-   "url": "https://www.aljazeera.com/news/2026/10/24/deadly-racist-attack-in-france-are-hate-crimes-rising-in-europe?traffic_source=rss",
-   "opublikowano": "2026-10-24T10:47:07Z",
-   "opublikowano_surowe": "Sat, 24 Oct 2026 10:47:07 +0000",
-   "streszczenie": "Monitoring group reports more Muslims in Europe face racial discrimination as 'terrorist' attack kills one in France."
-  },
-  {
-   "zrodlo": "Al Jazeera",
-   "kategoria": "NEWS",
-   "region": "world",
-   "tytul": "France braces for another day of mass protests as security on high alert",
-   "url": "https://www.aljazeera.com/news/2026/10/24/france-braces-for-another-day-of-mass-protests-as-security-on-high-alert?traffic_source=rss",
-   "opublikowano": "2026-10-24T10:04:25Z",
-   "opublikowano_surowe": "Sat, 24 Oct 2026 10:04:25 +0000",
-   "streszczenie": "Several planned marches in major cities in France have been banned by authorities, provoking an uproar by rights groups."
-  },
-  {
    "zrodlo": "NPR",
    "kategoria": "NEWS",
    "region": "world",
@@ -866,21 +864,21 @@
    "zrodlo": "NPR",
    "kategoria": "NEWS",
    "region": "world",
-   "tytul": "Is your Medicare Advantage plan ending next year? Here's what to know",
-   "url": "https://www.npr.org/2026/10/24/nx-s1-6014612/medicare-advantage-open-enrollment-cancelled-plan",
-   "opublikowano": "2026-10-24T10:00:00Z",
-   "opublikowano_surowe": "Sat, 24 Oct 2026 06:00:00 -0400",
-   "streszczenie": "Medicare open enrollment runs through Dec. 7, and for as many as 5 million seniors, it will be important to log on and pick a new plan."
-  },
-  {
-   "zrodlo": "NPR",
-   "kategoria": "NEWS",
-   "region": "world",
    "tytul": "U.S. birth rate drops to record low, but older women are having more babies",
    "url": "https://www.npr.org/2026/10/24/nx-s1-6012804/birth-rate-population-cdc",
    "opublikowano": "2026-10-24T10:00:00Z",
    "opublikowano_surowe": "Sat, 24 Oct 2026 06:00:00 -0400",
    "streszczenie": "The U.S. birth rate fell to its lowest level ever recorded, according to a report from the Centers for Disease Control and Prevention. The drop would have been greater, but women over age 30 are having more children."
+  },
+  {
+   "zrodlo": "NPR",
+   "kategoria": "NEWS",
+   "region": "world",
+   "tytul": "Is your Medicare Advantage plan ending next year? Here's what to know",
+   "url": "https://www.npr.org/2026/10/24/nx-s1-6014612/medicare-advantage-open-enrollment-cancelled-plan",
+   "opublikowano": "2026-10-24T10:00:00Z",
+   "opublikowano_surowe": "Sat, 24 Oct 2026 06:00:00 -0400",
+   "streszczenie": "Medicare open enrollment runs through Dec. 7, and for as many as 5 million seniors, it will be important to log on and pick a new plan."
   },
   {
    "zrodlo": "NPR",
@@ -926,6 +924,16 @@
    "zrodlo": "NPR",
    "kategoria": "NEWS",
    "region": "world",
+   "tytul": "Israeli PM pledges massive military operation after West Bank checkpoint attack",
+   "url": "https://www.npr.org/2026/10/23/nx-s1-6013613/israeli-pm-pledges-massive-military-operation-after-west-bank-checkpoint-attack",
+   "opublikowano": "2026-10-23T21:38:54Z",
+   "opublikowano_surowe": "Fri, 23 Oct 2026 17:38:54 -0400",
+   "streszczenie": "Israel's Prime Minister is vowing to launch a major military operation in the West Bank in response to an attack by two Palestinian gunmen on an Israeli military checkpoint that killed two soldiers."
+  },
+  {
+   "zrodlo": "NPR",
+   "kategoria": "NEWS",
+   "region": "world",
    "tytul": "The Pentagon's guidelines for \"responsible AI\" aren't always followed, report shows",
    "url": "https://www.npr.org/2026/10/23/nx-s1-6012296/ai-department-of-defense-war",
    "opublikowano": "2026-10-23T19:31:15Z",
@@ -933,14 +941,14 @@
    "streszczenie": "The Pentagon is building weapons and projects with AI capabilities that officials say don't always closely adhere to the agency's own guidelines for AI, according to a congressional watchdog report published in October."
   },
   {
-   "zrodlo": "NPR",
+   "zrodlo": "Deutsche Welle",
    "kategoria": "NEWS",
-   "region": "world",
-   "tytul": "Ohio could decide control of the Senate. Its rural voters might decide the winner",
-   "url": "https://www.npr.org/2026/10/23/nx-s1-6012809/ohio-senate-governor-election-rural-voters",
-   "opublikowano": "2026-10-23T18:30:00Z",
-   "opublikowano_surowe": "Fri, 23 Oct 2026 14:30:00 -0400",
-   "streszczenie": "Ohio has been a reliably red state for several elections but it's competitive this year. If Democrats want to prevail, they'll have to win people who have backed Republicans, like rural voters."
+   "region": "europe",
+   "tytul": "Turkey's new deal on Mediterranean maritime boundaries with Libya is exacerbating issues with Greece and the EU",
+   "url": "https://www.dw.com/en/turkey-s-new-deal-on-mediterranean-maritime-boundaries-with-libya-is-exacerbating-issues-with-greece-and-the-eu/a-79745971?maca=en-rss-en-all-1573-rdf",
+   "opublikowano": "2026-10-24T14:09:00Z",
+   "opublikowano_surowe": "2026-10-24T14:09:00Z",
+   "streszczenie": "Turkey and Libya plan to redraw maritime boundaries in the Mediterranean as part of a new economic corridor. This has sparked strong protests from Greece, and has also drawn the European Union into the conflict."
   },
   {
    "zrodlo": "Deutsche Welle",
@@ -986,11 +994,11 @@
    "zrodlo": "Deutsche Welle",
    "kategoria": "NEWS",
    "region": "europe",
-   "tytul": "France protests: More violence feared amid renewed demonstrations",
-   "url": "https://www.dw.com/en/france-protests-more-violence-feared-amid-renewed-demonstrations/live-79748223?maca=en-rss-en-all-1573-rdf",
+   "tytul": "Live: Fresh protests hit France amid heightened security",
+   "url": "https://www.dw.com/en/live-fresh-protests-hit-france-amid-heightened-security/live-79748223?maca=en-rss-en-all-1573-rdf",
    "opublikowano": "2026-10-24T06:34:00Z",
    "opublikowano_surowe": "2026-10-24T06:34:00Z",
-   "streszczenie": "France is deploying some 70,000 police officers as fresh nationwide protests begin. A deadly shooting near Paris has additionally fueled tensions. DW has the latest."
+   "streszczenie": "Police and elite security forces are out in force in French cities as thousands participate in a new round of protests. The protest location was changed last minute in Paris. Follow DW."
   },
   {
    "zrodlo": "Deutsche Welle",
@@ -1083,14 +1091,44 @@
    "streszczenie": "The Ukrainian city of Oleshky, occupied by Russia and on the frontline, faces a humanitarian crisis. The localized truce comes as Ukrainian President Zelenskyy said negotiators would meet for wider talks next month."
   },
   {
-   "zrodlo": "Deutsche Welle",
+   "zrodlo": "France 24",
    "kategoria": "NEWS",
    "region": "europe",
-   "tytul": "Afghan women could lose one of their last paths to a higher education",
-   "url": "https://www.dw.com/en/afghan-women-could-lose-one-of-their-last-paths-to-a-higher-education/a-79745173?maca=en-rss-en-all-1573-rdf",
-   "opublikowano": "2026-10-23T14:54:00Z",
-   "opublikowano_surowe": "2026-10-23T14:54:00Z",
-   "streszczenie": "The US has defunded one of the last universities giving Afghan women the chance to receive an education after the Taliban takeover in 2021. DW spoke with a student who says she's lost hope of ever earning a degree."
+   "tytul": "Israeli forces displace 1,200 Palestinians in Hebron after deadly attack on soldiers",
+   "url": "https://www.france24.com/en/middle-east/20261024-israeli-forces-displace-1-200-palestinians-in-hebron-after-deadly-attack-on-soldiers",
+   "opublikowano": "2026-10-24T13:50:12Z",
+   "opublikowano_surowe": "Sat, 24 Oct 2026 13:50:12 GMT",
+   "streszczenie": "The Palestinian Authority has called for international pressure on Israel after a Palestinian official said around 1,200 Palestinians in Hebron in the West Bank were forced to leave their homes following an attack on Friday which killed two Israeli soldiers. The head of Hebron's municipality said an additional 1,300 may also be forced to leave."
+  },
+  {
+   "zrodlo": "France 24",
+   "kategoria": "NEWS",
+   "region": "europe",
+   "tytul": "Fresh protests across France",
+   "url": "https://www.france24.com/en/fresh-protests-across-france",
+   "opublikowano": "2026-10-24T13:22:01Z",
+   "opublikowano_surowe": "Sat, 24 Oct 2026 13:22:01 GMT",
+   "streszczenie": "A coalition of the “Yellow Vests” movement, trade unions and students will march across France on Saturday with demands over studying conditions and purchasing power. Some 70,000 police are expected to be deployed as authorities fear looting and vandalism similar to last Saturday's unrest."
+  },
+  {
+   "zrodlo": "France 24",
+   "kategoria": "NEWS",
+   "region": "europe",
+   "tytul": "Macron condemns racist terrorist attack in Paris suburb",
+   "url": "https://www.france24.com/en/macron-condemns-racist-terrorist-attack-in-paris-suburb",
+   "opublikowano": "2026-10-24T13:21:02Z",
+   "opublikowano_surowe": "Sat, 24 Oct 2026 13:21:02 GMT",
+   "streszczenie": "Adding to the tensions, France is reeling from a shooting that authorities are investigating as a potentially racist and Islamophobic terrorist attack. One person was killed and five others wounded in the Paris suburbs of Trappes and La Verrière, including a 12-year-old girl who was shot eight times. Police arrested the suspected gunman, and investigators reportedly found three gas cylinders rigged to a timer in his apartment, as well as a submachine gun in his car. The French president has condemned the attack, while the mayor of Saint-Denis has denounced the impact of hate speech."
+  },
+  {
+   "zrodlo": "France 24",
+   "kategoria": "NEWS",
+   "region": "europe",
+   "tytul": "France: Anti-far-right protest in Orleans",
+   "url": "https://www.france24.com/en/france-anti-far-right-protest-in-orleans",
+   "opublikowano": "2026-10-24T13:19:54Z",
+   "opublikowano_surowe": "Sat, 24 Oct 2026 13:19:54 GMT",
+   "streszczenie": "Far-right candidate Marine Le Pen is officially launching her presidential campaign this weekend at the National Rally’s two-day party congress in Orléans, where thousands of supporters are expected to attend. Local authorities have put exceptional security measures in place as anti-far-right demonstrations take place in the city."
   },
   {
    "zrodlo": "France 24",
@@ -1203,54 +1241,14 @@
    "streszczenie": "Typhoon Champi is heading towards China and Japan. Yesterday, it battered Taiwan with heavy rain and winds reaching up to 180 kilometres per hour. Across the island, 56,000 households are without power. Nicolas Chamontin and Ophelie Jacobson report."
   },
   {
-   "zrodlo": "France 24",
-   "kategoria": "NEWS",
-   "region": "europe",
-   "tytul": "French students vow to keep protesting",
-   "url": "https://www.france24.com/en/french-students-vow-to-keep-protesting",
-   "opublikowano": "2026-10-24T10:31:08Z",
-   "opublikowano_surowe": "Sat, 24 Oct 2026 10:31:08 GMT",
-   "streszczenie": "Amid growing concerns over violence, people across France, young and old alike, are weighing up whether taking part in demonstrations is worth the risk. France 24’s Ophelie Jackson reports."
-  },
-  {
-   "zrodlo": "France 24",
-   "kategoria": "NEWS",
-   "region": "europe",
-   "tytul": "France: March against National Rally in Orleans",
-   "url": "https://www.france24.com/en/france-march-against-national-rally-in-orleans",
-   "opublikowano": "2026-10-24T10:30:02Z",
-   "opublikowano_surowe": "Sat, 24 Oct 2026 10:30:02 GMT",
-   "streszczenie": "Against this backdrop of heightened tensions, France’s far-right National Rally is holding its annual congress in Orléans, south of Paris, where it is expected to officially launch Marine Le Pen’s presidential campaign and re-elect Jordan Bardella as party leader. Thousands of supporters are expected to attend, while a major counter-demonstration has been organised against racism, fascism and imperialism. Local authorities are preparing for possible clashes between the two groups. Antonia Kerrigan reports the latest."
-  },
-  {
-   "zrodlo": "France 24",
-   "kategoria": "NEWS",
-   "region": "europe",
-   "tytul": "Paris: Last-minute change to the protest route",
-   "url": "https://www.france24.com/en/paris-last-minute-change-to-the-protest-route",
-   "opublikowano": "2026-10-24T10:29:10Z",
-   "opublikowano_surowe": "Sat, 24 Oct 2026 10:29:10 GMT",
-   "streszczenie": "The Paris police prefecture changed the route of the authorised trade union march at the last minute ahead of the 24 October mobilisation. The new route runs between Place d’Italie and Porte de Vincennes. But this morning, many protesters turned up at Place de la Bastille, the march’s original starting point, before the route was changed, leaving them confused and unsure where to go. France 24 journalist Elitsa Gadeva brings us the latest from the scene."
-  },
-  {
-   "zrodlo": "France 24",
-   "kategoria": "NEWS",
-   "region": "europe",
-   "tytul": "Ukraine says Starlink and Starshield connection 'stable' again",
-   "url": "https://www.france24.com/en/europe/20261024-ukraine-says-starlink-and-starshield-connection-stable-again",
-   "opublikowano": "2026-10-24T09:48:23Z",
-   "opublikowano_surowe": "Sat, 24 Oct 2026 09:48:23 GMT",
-   "streszczenie": "Ukraine has regained a \"stable\" connection to the Starlink and Starshield satellite communications systems, Kyiv's defence minister said on Saturday. Recent disruptions to the connection led to tensions with Washington over the SpaceX-made network crucial to the Ukrainian army's operations."
-  },
-  {
    "zrodlo": "Politico Europe",
    "kategoria": "NEWS",
    "region": "europe",
-   "tytul": "70,000 police officers deployed in France for tense day of protests",
+   "tytul": "French protests see fewer early incidents as tighter policing draws criticism",
    "url": "https://www.politico.eu/article/france-police-deploy-protests/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
    "opublikowano": "2026-10-24T11:41:22Z",
    "opublikowano_surowe": "Sat, 24 Oct 2026 11:41:22 +0000",
-   "streszczenie": "Le Pen’s campaign launch in Orléans is set to draw tens of thousands of protesters, adding to a day of demonstrations and heightened security across France."
+   "streszczenie": "Interior Minister Laurent Nuñez told police forces to be \"uncompromising\" with potential rioters."
   },
   {
    "zrodlo": "Politico Europe",
@@ -1341,6 +1339,16 @@
    "opublikowano": "2026-10-23T11:34:27Z",
    "opublikowano_surowe": "Fri, 23 Oct 2026 11:34:27 +0000",
    "streszczenie": "President Nicușor Dan said the incident was part of Russia’s “escalation” of the war in Ukraine."
+  },
+  {
+   "zrodlo": "Euronews",
+   "kategoria": "NEWS",
+   "region": "europe",
+   "tytul": "Fire engulfs Hitler’s former Eagle’s Nest retreat in Germany",
+   "url": "https://www.euronews.com/2026/10/24/fire-engulfs-hitlers-former-eagles-nest-retreat-in-germany",
+   "opublikowano": "2026-10-24T14:11:34Z",
+   "opublikowano_surowe": "Sat, 24 Oct 2026 16:11:34 +0200",
+   "streszczenie": "A fire broke out at the Eagle's Nest, Adolf Hitler's former mountain retreat in southern Germany. Police say a suspect has been detained, and around 200 firefighters were deployed to tackle the blaze."
   },
   {
    "zrodlo": "Euronews",
@@ -1483,14 +1491,14 @@
    "streszczenie": "Three miners were killed and five injured, two of them seriously, in an explosion at a privately owned mine in northern Turkey."
   },
   {
-   "zrodlo": "Euronews",
+   "zrodlo": "Euractiv",
    "kategoria": "NEWS",
    "region": "europe",
-   "tytul": "From education to cancer care: Global summit calls for better support for children",
-   "url": "https://www.euronews.com/2026/10/23/from-education-to-cancer-care-global-summit-calls-for-better-support-for-children",
-   "opublikowano": "2026-10-23T10:27:52Z",
-   "opublikowano_surowe": "Fri, 23 Oct 2026 12:27:52 +0200",
-   "streszczenie": "Experts interviewed by Euronews explained why improving children's lives requires more than simply expanding access to essential services."
+   "tytul": "250,000 rally in Madrid demanding state pension guarantees",
+   "url": "https://www.rapporteur.com/news/250000-rally-in-madrid-demanding-state-pension-guarantees/",
+   "opublikowano": "2026-10-24T13:28:06Z",
+   "opublikowano_surowe": "Sat, 24 Oct 2026 13:28:06 +0000",
+   "streszczenie": "Rally comes amid political row over sustainability of Spain's pension scheme and cost of living"
   },
   {
    "zrodlo": "Euractiv",
@@ -1633,14 +1641,34 @@
    "streszczenie": "Ukraine also signed a letter of intent with ICEYE and Nokia"
   },
   {
-   "zrodlo": "Euractiv",
+   "zrodlo": "RMF24",
    "kategoria": "NEWS",
-   "region": "europe",
-   "tytul": "Denmark to phase out mink farming",
-   "url": "https://www.rapporteur.com/news/denmark-to-phase-out-mink-farming/",
-   "opublikowano": "2026-10-23T10:24:40Z",
-   "opublikowano_surowe": "Fri, 23 Oct 2026 10:24:40 +0000",
-   "streszczenie": "The Commission faces growing pressure to propose an EU fur-farming ban"
+   "region": "poland",
+   "tytul": "Deszcz meteorów i „niebieski punkt”. Niebo w listopadzie zgotuje nam niezwykły pokaz",
+   "url": "https://www.rmf24.pl/fakty/polska/news-deszcz-meteorow-i-niebieski-punkt-niebo-w-listopadzie-zgotuj,nIdn,1022813",
+   "opublikowano": "2026-10-24T14:11:00Z",
+   "opublikowano_surowe": "Sat, 24 Oct 2026 16:11:00 +0200",
+   "streszczenie": "Deszcz meteorów i „niebieski punkt”. Niebo w listopadzie zgotuje nam niezwykły pokaz"
+  },
+  {
+   "zrodlo": "RMF24",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Starlink w Ukrainie znów działa bez ograniczeń. Zełenski dziękuje Amerykanom",
+   "url": "https://www.rmf24.pl/fakty/swiat/news-starlink-w-ukrainie-znow-dziala-bez-ograniczen-zelenski-dzie,nIdn,1023272",
+   "opublikowano": "2026-10-24T14:08:00Z",
+   "opublikowano_surowe": "Sat, 24 Oct 2026 16:08:00 +0200",
+   "streszczenie": "Starlink w Ukrainie znów działa bez ograniczeń. Zełenski dziękuje Amerykanom"
+  },
+  {
+   "zrodlo": "RMF24",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Tłumy protestujących w Paryżu. Zatrzymano już dziesiątki osób",
+   "url": "https://www.rmf24.pl/fakty/swiat/news-tlumy-protestujacych-w-paryzu-zatrzymano-juz-dziesiatki-osob,nIdn,1023269",
+   "opublikowano": "2026-10-24T13:27:00Z",
+   "opublikowano_surowe": "Sat, 24 Oct 2026 15:27:00 +0200",
+   "streszczenie": "Tłumy protestujących w Paryżu. Zatrzymano już dziesiątki osób"
   },
   {
    "zrodlo": "RMF24",
@@ -1763,34 +1791,184 @@
    "streszczenie": "Wybuch gazu w Częstochowie. Ewakuacja mieszkańców"
   },
   {
-   "zrodlo": "RMF24",
+   "zrodlo": "TVN24",
    "kategoria": "NEWS",
    "region": "poland",
-   "tytul": "Stan najwyższej gotowości we Włoszech i Francji",
-   "url": "https://www.rmf24.pl/fakty/swiat/news-stan-najwyzszej-gotowosci-we-wloszech-i-francji,nIdn,1023240",
-   "opublikowano": "2026-10-24T07:47:00Z",
-   "opublikowano_surowe": "Sat, 24 Oct 2026 09:47:00 +0200",
-   "streszczenie": "Stan najwyższej gotowości we Włoszech i Francji"
+   "tytul": "Na filmie jedzie, a naprawdę nie ruszy. Jak rządowy spot \"lukruje rzeczywistość\"",
+   "url": "https://konkret24.tvn24.pl/polska/na-filmie-jedzie-a-naprawde-nie-ruszy-jak-rzadowy-spot-lukruje-rzeczywistosc-st9278665?source=rss",
+   "opublikowano": "2026-10-24T14:05:00Z",
+   "opublikowano_surowe": "Sat, 24 Oct 2026 14:05:00 GMT",
+   "streszczenie": "Nowoczesny pociąg, polska kolej, która przyspiesza i zadowoleni pasażerowie w Łomży, którzy na powrót połączeń czekali ponad 30 lat. Tyle pokazuje promocyjny spot kancelarii premiera. A my szukamy lokomotywy ze spotu i sprawdzamy, czy ta wizja zbiega się z kolejową rzeczywistością."
   },
   {
-   "zrodlo": "RMF24",
+   "zrodlo": "TVN24",
    "kategoria": "NEWS",
    "region": "poland",
-   "tytul": "Błędne koło odwetów. Rosja uderzyła w infrastrukturę portową, Ukraina w kombinat petrochemiczny",
-   "url": "https://www.rmf24.pl/fakty/swiat/news-bledne-kolo-odwetow-rosja-uderzyla-w-infrastrukture-portowa-,nIdn,1023238",
-   "opublikowano": "2026-10-24T07:28:00Z",
-   "opublikowano_surowe": "Sat, 24 Oct 2026 09:28:00 +0200",
-   "streszczenie": "Błędne koło odwetów. Rosja uderzyła w infrastrukturę portową, Ukraina w kombinat petrochemiczny"
+   "tytul": "Włodzimierz Czarzasty: prezydent Trump jest naszym przyjacielem, ale jest liderem chaosu",
+   "url": "https://tvn24.pl/polska/wlodzimierz-czarzasty-w-lublinie-donald-trump-jest-naszym-przyjacielem-ale-jest-liderem-chaosu-st9304085?source=rss",
+   "opublikowano": "2026-10-24T13:54:24Z",
+   "opublikowano_surowe": "Sat, 24 Oct 2026 13:54:24 GMT",
+   "streszczenie": "Przewodniczący Nowej Lewicy Włodzimierz Czarzasty mówił o sytuacji międzynarodowej i zwrócił się do prezydenta Karola Nawrockiego: \"niech pan nie opowiada, że pan nie widzi zagrożenia, że zagrożenie nie rośnie, bo Putin jest mordercą, a Trump jest niepewny\"."
   },
   {
-   "zrodlo": "RMF24",
+   "zrodlo": "TVN24",
    "kategoria": "NEWS",
    "region": "poland",
-   "tytul": "10 magicznych kierunków na zimę. Trafiły na prestiżową listę",
-   "url": "https://www.rmf24.pl/ciekawostki-rmf24/news-10-magicznych-kierunkow-na-zime-trafily-na-prestizowa-liste,nIdn,1022855",
-   "opublikowano": "2026-10-24T07:06:00Z",
-   "opublikowano_surowe": "Sat, 24 Oct 2026 09:06:00 +0200",
-   "streszczenie": "10 magicznych kierunków na zimę. Trafiły na prestiżową listę"
+   "tytul": "Akademik albo 1700 złotych za pokój klitkę. Studenckie realia w Warszawie",
+   "url": "https://tvn24.pl/tvnwarszawa/srodmiescie/warszawa-akademik-albo-wynajem-pokoju-ile-kosztuje-studencka-stolica-st9301055?source=rss",
+   "opublikowano": "2026-10-24T13:53:38Z",
+   "opublikowano_surowe": "Sat, 24 Oct 2026 13:53:38 GMT",
+   "streszczenie": "Dostać się na studia to jedno, zamieszkać w Warszawie - drugie. Mimo że akademiki największych publicznych uczelni oferują tysiące miejsc, nie wszyscy chętni znaleźli w nich zakwaterowanie. Natomiast na rynku prywatnym koszty wynajmu pokoju potrafią mocno zaskoczyć. Jakimi cenami stolica powitała tegorocznych studentów?"
+  },
+  {
+   "zrodlo": "TVN24",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Dzisiaj zmiana czasu. To warto wiedzieć",
+   "url": "https://tvn24.pl/biznes/z-kraju/zmiana-czasu-na-zimowy-2026-rok-to-warto-wiedziec-st9303889?source=rss",
+   "opublikowano": "2026-10-24T13:51:55Z",
+   "opublikowano_surowe": "Sat, 24 Oct 2026 13:51:55 GMT",
+   "streszczenie": "W nocy z soboty na niedzielę cofniemy wskazówki z godziny trzeciej na drugą rano. Dzięki zmianie czasu mamy zyskać więcej światła o poranku, ale to również niebagatelne obciążenie dla organizmu. Stanowi też pewne wyzwanie logistyczne, co szczególnie widać na kolei. Oto, co musisz wiedzieć o tegorocznej zmianie czasu na zimowy."
+  },
+  {
+   "zrodlo": "TVN24",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Sikorski do Muska: szkodzisz własnej marce",
+   "url": "https://tvn24.pl/biznes/ze-swiata/radoslaw-sikorski-do-elona-muska-szkodzisz-wlasnej-marce-st9304123?source=rss",
+   "opublikowano": "2026-10-24T13:42:03Z",
+   "opublikowano_surowe": "Sat, 24 Oct 2026 13:42:03 GMT",
+   "streszczenie": "Stany Zjednoczone przestały wspierać finansowo Ukrainę, a amerykańskie firmy zarabiają na broni z USA, za którą płacą Europejczycy - stwierdził minister spraw zagranicznych Radosław Sikorski. Odpowiedział w ten sposób na wpis Elona Muska."
+  },
+  {
+   "zrodlo": "TVN24",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Trzyletni Miecio zginął w przedszkolu. \"Jego serduszko będzie biło w innym ciele\". Poruszający wpis rodziców",
+   "url": "https://tvn24.pl/rzeszow/jedlicze-trzyletni-miecio-zginal-w-wypadku-w-przedszkolu-zostal-dawca-organow-poruszajacy-wpis-rodzicow-st9304096?source=rss",
+   "opublikowano": "2026-10-24T13:20:06Z",
+   "opublikowano_surowe": "Sat, 24 Oct 2026 13:20:06 GMT",
+   "streszczenie": "Rodzice trzyletniego chłopca, który zmarł po potrąceniu przez kierowcę karetki na terenie przedszkola w Jedliczu (Podkarpackie), poinformowali w mediach społecznościowych, że ich syn został dawcą narządów. \"Jego serduszko będzie biło w innym ciele, jego cząstka będzie podróżowała po całym świecie\" - napisali."
+  },
+  {
+   "zrodlo": "TVN24",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Efekt fenowy i cyklon Manja. Pogoda w Polsce będzie niespokojna",
+   "url": "https://tvn24.pl/tvnmeteo/prognoza/efekt-fenowy-i-cyklon-manja-pogoda-w-polsce-bedzie-niespokojna-st9303901?source=rss",
+   "opublikowano": "2026-10-24T13:17:02Z",
+   "opublikowano_surowe": "Sat, 24 Oct 2026 13:17:02 GMT",
+   "streszczenie": "Polska znajdzie się pod wpływem głębokiego niżu Manja, który sprowadzi do naszego kraju zarówno intensywne opady deszczu, jak i silne porywy wiatru. W najbliższym czasie czekają nas też wizyty raz chłodnego, raz ciepłego powietrza."
+  },
+  {
+   "zrodlo": "TVN24",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Śledztwo przeciwko prezydentowi umorzone. W tle kryptowaluty",
+   "url": "https://tvn24.pl/biznes/ze-swiata/kryptowalutowy-skandal-w-argentynie-sledztwo-w-sprawie-prezydenta-umorzone-st9304093?source=rss",
+   "opublikowano": "2026-10-24T13:15:37Z",
+   "opublikowano_surowe": "Sat, 24 Oct 2026 13:15:37 GMT",
+   "streszczenie": "Śledztwo w sprawie domniemanego udziału prezydenta Argentyny Javiera Milei oraz jego siostry w skandalu kryptowalutowym zostało umorzone - przekazał portal BBC. - Nie promowałem tego projektu, a jedynie udostępniłem informację na jego temat - przekonywał Milei."
+  },
+  {
+   "zrodlo": "TVN24",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Zderzenie busa i auta dostawczego. Nie żyje 60-latka",
+   "url": "https://tvn24.pl/krakow/zurada-wypadek-busa-i-auta-dostawczego-nie-zyje-kobieta-st9304094?source=rss",
+   "opublikowano": "2026-10-24T12:54:17Z",
+   "opublikowano_surowe": "Sat, 24 Oct 2026 12:54:17 GMT",
+   "streszczenie": "60-letnia kobieta zginęła w zderzeniu busa z samochodem dostawczym. Do wypadku doszło w okolicy miejscowości Żurada (Małopolskie)."
+  },
+  {
+   "zrodlo": "TVN24",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Media: partie Zbigniewa Ziobry zostały wykreślone z rejestru",
+   "url": "https://tvn24.pl/polska/media-partie-zbigniewa-ziobry-solidarna-polska-i-suwerenna-polska-wykreslone-z-rejestru-st9303899?source=rss",
+   "opublikowano": "2026-10-24T12:42:44Z",
+   "opublikowano_surowe": "Sat, 24 Oct 2026 12:42:44 GMT",
+   "streszczenie": "Sąd wykreślił z rejestru partie Zbigniewa Ziobry: Solidarną Polskę i jej następczynię Suwerenną Polskę - dowiedziała się \"Rzeczpospolita\". Według informatora, do którego dotarł dziennik, celowo nie złożono sprawozdania finansowego, by spowodować formalne zakończenie funkcjonowania ugrupowań."
+  },
+  {
+   "zrodlo": "TVN24",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "\"Nadchodzi najdroższa zima w historii\". Czarnek zapowiada nowy projekt",
+   "url": "https://tvn24.pl/biznes/pieniadze/nadchodzi-najdrozsza-zima-w-historii-przemyslaw-czarnek-zapowiada-nowy-projekt-st9304052?source=rss",
+   "opublikowano": "2026-10-24T12:34:20Z",
+   "opublikowano_surowe": "Sat, 24 Oct 2026 12:34:20 GMT",
+   "streszczenie": "W poniedziałek zaprezentowany zostanie projekt ustawy mający obniżyć koszty między innymi ogrzewania - zapowiedział wiceprezes Prawa i Sprawiedliwości Przemysław Czarnek. Propozycja ma odpowiadać na oczekiwania przedsiębiorców i rodzin, szczególnie w obliczu - jak ocenił - nadchodzącej najdroższej zimy w historii."
+  },
+  {
+   "zrodlo": "TVN24",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Interwencja w prywatnym zoo w Łącznej. Zarzut dla policjantki, koordynatorka się wycofuje",
+   "url": "https://tvn24.pl/wroclaw/interwencja-w-zoo-w-lacznej-zarzuty-dla-policjantki-koordynatorka-opieki-nad-zwierzetami-rezygnuje-st9303858?source=rss",
+   "opublikowano": "2026-10-24T12:19:54Z",
+   "opublikowano_surowe": "Sat, 24 Oct 2026 12:19:54 GMT",
+   "streszczenie": "Ekspertka, która miała koordynować opiekę nad zwierzętami w zoo w Łącznej po tym, kiedy weszła tam prokuratura, ogłosiła, że rezygnuje z tego zadania. Przekazała, że mimo wysiłków z jej strony nie udało się dopełnić formalności. Z kolei prokuratura poinformowała o postawieniu zarzutu kolejnej osobie w związku z tą sprawą - chodzi o policjantkę."
+  },
+  {
+   "zrodlo": "TVN24",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Przewoźnicy zawieszają część lotów. Słony rachunek za paliwo",
+   "url": "https://tvn24.pl/biznes/ze-swiata/przewoznicy-zawieszaja-czesc-lotow-slony-rachunek-za-paliwo-st9303735?source=rss",
+   "opublikowano": "2026-10-24T11:58:38Z",
+   "opublikowano_surowe": "Sat, 24 Oct 2026 11:58:38 GMT",
+   "streszczenie": "W tym roku ceny paliwa mogą stanowić 30 procent wydatków linii lotniczych, osiągając wartość wyższą nawet o 100 miliardów dolarów względem ubiegłego roku. Koszty paliwa zmuszają niektórych przewoźników - w tym polski LOT - do zawieszenia części połączeń."
+  },
+  {
+   "zrodlo": "TVN24",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Autobus zjechał do rowu w Dawidach Bankowych",
+   "url": "https://tvn24.pl/tvnwarszawa/okolice/pruszkow-autobus-715-zjechal-do-rowu-w-dawidach-bankowych-st9303887?source=rss",
+   "opublikowano": "2026-10-24T11:47:00Z",
+   "opublikowano_surowe": "Sat, 24 Oct 2026 11:47:00 GMT",
+   "streszczenie": "Do groźnie wyglądającego zdarzenia doszło w sobotę w miejscowości Dawidy Bankowe (Mazowieckie), gdzie kierowca autobusu zjechał do przydrożnego rowu. W zdarzeniu nikt nie ucierpiał."
+  },
+  {
+   "zrodlo": "TVN24",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Młodzi ludzie protestują w całej Europie. Jest jedna przyczyna \"wszystkich tych wydarzeń\"",
+   "url": "https://tvn24.pl/swiat/mlodzi-ludzie-protestuja-w-calej-europie-chce-to-wykorzystac-prawica-st9303739?source=rss",
+   "opublikowano": "2026-10-24T11:45:30Z",
+   "opublikowano_surowe": "Sat, 24 Oct 2026 11:45:30 GMT",
+   "streszczenie": "Stan edukacji, mieszkalnictwo, rosnące koszty życia - to głównie z tych powodów młodzi ludzie w kilkunastu europejskich krajach wyszli na ulice. Młode pokolenie ma uzasadnione powody, by spodziewać się, że będzie żyło gorzej niż jego rodzice - wskazuje \"The Guardian\". Brytyjski dziennik przypomina o zbliżających się wyborach w kilku państwach Europy, w tym w Polsce, i przestrzega, że falę demonstracji może wykorzystać skrajna prawica."
+  },
+  {
+   "zrodlo": "Polsat News",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Rodzice Miecia z Jedlicza zdecydowali. \"Chcemy, by istniał w życiu innych\"",
+   "url": "https://www.polsatnews.pl/wiadomosc/2026-10-24/rodzice-miecia-z-jedlicza-zdecydowali-chcemy-by-istnial-w-zyciu-innych/",
+   "opublikowano": "2026-10-24T14:11:00Z",
+   "opublikowano_surowe": "Sat, 24 Oct 2026 16:11:00 +0200",
+   "streszczenie": "Nasz aniołek przekaże to, co najcenniejsze - oświadczyła pani Anna, mama tragicznie zmarłego trzyletniego Miecia z Jedlicza. Rodzice zdecydowali przekazać organy chłopca do transplantacji. Nie szukamy rozgłosu, ale chcemy tylko, aby nasz najukochańszy syn nadal istniał w życiu innych ludzi - przekazała kobieta Polskiemu Radiu Rzeszów."
+  },
+  {
+   "zrodlo": "Polsat News",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Gorąco we Francji, zmobilizowano tysiące mundurowych. Pierwsze zatrzymania",
+   "url": "https://www.polsatnews.pl/wiadomosc/2026-10-24/goraco-we-francji-zmobilizowano-tysiace-mundurowych-musimy-byc-ultra-responsywni/",
+   "opublikowano": "2026-10-24T13:41:00Z",
+   "opublikowano_surowe": "Sat, 24 Oct 2026 15:41:00 +0200",
+   "streszczenie": "Tysiące osób we Francji ponownie wyszły na ulice. Do pilnowania porządku podczas demonstracji zmobilizowano w całym kraju ponad 70 tys. policjantów. Władze starają się zapobiec wybuchom zamieszek, które wstrząsnęły krajem w ubiegły weekend. Część sklepów, muzeów i stacji metra pozostaje zamknięta. Według najnowszych danych zatrzymano w sobotę do wczesnego popołudnia 135 osób."
+  },
+  {
+   "zrodlo": "Polsat News",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Poseł Morawieckiego stracił prawo jazdy. \"Z pokorą przyjmuję mandat\"",
+   "url": "https://www.polsatnews.pl/wiadomosc/2026-10-24/posel-morawieckiego-stracil-prawo-jazdy-z-pokora-przyjmuje-mandat/",
+   "opublikowano": "2026-10-24T13:35:00Z",
+   "opublikowano_surowe": "Sat, 24 Oct 2026 15:35:00 +0200",
+   "streszczenie": "Z pokorą przyjmuję mandat i zakaz prowadzenia auta na trzy miesiące - poinformował Ryszard Bartosik, poseł Rozwoju Plus Mateusza Morawieckiego. Polityk przeprosił za przekroczenie prędkości i w ramach zadośćuczynienia zdecydował się wpłacić pieniądze na cel charytatywny."
   },
   {
    "zrodlo": "Polsat News",
@@ -1841,16 +2019,6 @@
    "opublikowano": "2026-10-24T10:24:00Z",
    "opublikowano_surowe": "Sat, 24 Oct 2026 12:24:00 +0200",
    "streszczenie": "W nocy z soboty na niedzielę pogoda zmieni swoje oblicze. Pierwszy dzień weekendu upłynie pod znakiem łagodnej aury w większości kraju, ale gdy zapadnie zmrok w kilku regionach temperatura może spaść niemalże do zera. W niedzielę z kolei słupki rtęci pokażą od 6 do nawet 17 stopni C."
-  },
-  {
-   "zrodlo": "Polsat News",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Ile kroków dziennie robisz? Nowe badanie wskazuje na związek z demencją",
-   "url": "https://www.polsatnews.pl/ciekawostki/2026-10-24/ile-krokow-dziennie-robisz-nowe-badanie-wskazuje-na-zwiazek-z-demencja/",
-   "opublikowano": "2026-10-24T09:58:00Z",
-   "opublikowano_surowe": "Sat, 24 Oct 2026 11:58:00 +0200",
-   "streszczenie": "Mała liczba kroków może być sygnałem ostrzegawczym dla zdrowia mózgu. Z badania naukowców z Florida Atlantic University wynika, że wśród najmniej aktywnych osób demencję, chorobę Parkinsona i udar diagnozowano niemal dwa razy częściej niż wśród najbardziej aktywnych. Badacze wskazują też, jaka dzienna aktywność to rozsądny cel."
   },
   {
    "zrodlo": "Polsat News",
@@ -1923,24 +2091,54 @@
    "streszczenie": "Dmitrij Pieskow podkreślił wkład rzeczników praw człowieka zarówno z Rosji, jak i z Ukrainy, w sprawie zawieszenia broni w Oleszkach. - Jana Lantratowa i Dmytro Łubinec wykonali wiele pracy - powiedział rzecznik Kremla."
   },
   {
-   "zrodlo": "Polsat News",
+   "zrodlo": "Onet Wiadomości",
    "kategoria": "NEWS",
    "region": "poland",
-   "tytul": "Zatrzymanie Piotra W. na proteście przed Trybunałem Konstytucyjnym. Ruch obrony",
-   "url": "https://www.polsatnews.pl/wiadomosc/2026-10-24/zatrzymanie-piotra-w-na-protescie-przed-trybunalem-konstytucyjnym-ruch-obrony/",
-   "opublikowano": "2026-10-24T05:51:00Z",
-   "opublikowano_surowe": "Sat, 24 Oct 2026 07:51:00 +0200",
-   "streszczenie": "Mec. Bartosz Malewski, pełnomocnik Piotra W., który został zatrzymany podczas protestu przed Trybunałem Konstytucyjnym, złożył do sądu zażalenie na przebieg policyjnych czynności wobec podejrzanego. Według policji Piotr W. miał zaatakować funkcjonariuszkę. Przy zatrzymanym mężczyźnie znaleziono nóż, postawiono mu zarzuty."
+   "tytul": "\"Najważniejsza wiadomość tego dnia\". Wołodymyr Zełenski o wsparciu Starlinków",
+   "url": "https://wiadomosci.onet.pl/swiat/najwazniejsza-wiadomosc-tego-dnia-wolodymyr-zelenski-o-wsparciu-starlinkow/3hgvx4m",
+   "opublikowano": "2026-10-24T14:03:42Z",
+   "opublikowano_surowe": "Sat, 24 Oct 2026 14:03:42 GMT",
+   "streszczenie": "Wołodymyr Zełenski przekazał, że działanie Starlinków zostało przywrócone do wcześniejszych prędkości. — Teraz odpowiadają naszym potrzebom — przekazał ukraiński prezydent."
   },
   {
-   "zrodlo": "Polsat News",
+   "zrodlo": "Onet Wiadomości",
    "kategoria": "NEWS",
    "region": "poland",
-   "tytul": "Ambasador USA uderza w europejskich liderów. Jako przykład wskazuje Polskę",
-   "url": "https://www.polsatnews.pl/wiadomosc/2026-10-24/ambasador-usa-uderza-w-europejskich-liderow-jako-przyklad-wskazuje-polske/",
-   "opublikowano": "2026-10-24T03:40:00Z",
-   "opublikowano_surowe": "Sat, 24 Oct 2026 05:40:00 +0200",
-   "streszczenie": "W przeciwieństwie do Polski, europejscy przywódcy nalegają, aby Ameryka stawiła czoła zagrożeniu za nich - napisał w kontekście wojny w Ukrainie ambasador USA Thomas Rose. Sugerował, że wspieranie Kijowa wiąże się z ryzykiem dla życia Amerykanów. Jednocześnie dyplomata zarzucił europejskim liderom, że oczerniają prezydenta Donalda Trumpa za jego pokojowe starania, oskarżając go o zdradę."
+   "tytul": "Dlaczego niektórzy odnoszą sukcesy, a inni nie? To nie tylko kwestia zaplecza i talentu",
+   "url": "https://wiadomosci.onet.pl/nauka/dlaczego-niektorzy-odnosza-sukcesy-a-inni-nie-istotna-jest-rola-rodzenstwa/97qpxqz",
+   "opublikowano": "2026-10-24T14:03:18Z",
+   "opublikowano_surowe": "Sat, 24 Oct 2026 14:03:18 GMT",
+   "streszczenie": "Dlaczego niektórzy osiągają niezwykłe sukcesy, podczas gdy inni — mimo talentu — ledwo robią postępy? Badania pokazują, że geny odgrywają w tym istotną rolę, ale niekoniecznie w tak oczywisty sposób, jak dziedziczenie predyspozycji. I wcale nie decydują o wszystkim."
+  },
+  {
+   "zrodlo": "Onet Wiadomości",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Włodzimierz Czarzasty gani prezydenta. \"Stań po stronie polskich żołnierzy\"",
+   "url": "https://wiadomosci.onet.pl/kraj/wlodzimierz-czarzasty-do-karola-nawrockiego-stan-po-stronie-zolnierzy/lbsq2bl",
+   "opublikowano": "2026-10-24T13:44:43Z",
+   "opublikowano_surowe": "Sat, 24 Oct 2026 13:44:43 GMT",
+   "streszczenie": "— Nie zgadzamy się na to, żeby Stany Zjednoczone nie dostrzegały polskich żołnierzy, którzy zginęli na różnych akcjach zagranicznych — powiedział w sobotę marszałek Sejmu Włodzimierz Czarzasty, zwracając się do Karola Nawrockiego. Skrytykował też prezydenta za podejście do Grzegorza Brauna."
+  },
+  {
+   "zrodlo": "Onet Wiadomości",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "To on ma kierować komisją ds. pedofili w Kościele. \"Dokonaliśmy bardzo ważnego kroku\"",
+   "url": "https://wiadomosci.onet.pl/kraj/to-on-ma-kierowac-komisja-ds-pedofili-w-kosciele-dokonalismy-bardzo-waznego-kroku/9hj6gft",
+   "opublikowano": "2026-10-24T13:29:37Z",
+   "opublikowano_surowe": "Sat, 24 Oct 2026 13:29:37 GMT",
+   "streszczenie": "Historyk prof. Piotr Franaszek stanie na czele komisji niezależnych ekspertów do zbadania zjawiska wykorzystywania seksualnego osób małoletnich w Kościele katolickim w Polsce."
+  },
+  {
+   "zrodlo": "Onet Wiadomości",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "7. dzień tygodnia w Radiu ZET | 25.10.2026",
+   "url": "https://wiadomosci.onet.pl/kraj/7-dzien-tygodnia-w-radiu-zet-or-25102026/zymde3m",
+   "opublikowano": "2026-10-24T13:28:16Z",
+   "opublikowano_surowe": "Sat, 24 Oct 2026 13:28:16 GMT",
+   "streszczenie": "Zapraszamy na transmisję z programu \"7.dzień tygodnia w Radiu ZET. Start o godz. 9.02."
   },
   {
    "zrodlo": "Onet Wiadomości",
@@ -2043,54 +2241,24 @@
    "streszczenie": "Warszawski Sąd Okręgowy podjął postanowienie o wykreśleniu Solidarnej Polski i jej następczyni Suwerennej Polski z ewidencji partii politycznych — informuje w sobotę \"Rzeczpospolita\"."
   },
   {
-   "zrodlo": "Onet Wiadomości",
+   "zrodlo": "Interia Fakty",
    "kategoria": "NEWS",
    "region": "poland",
-   "tytul": "Problemy ze Starlinkiem zażegnane? Nowe doniesienia ukraińskich mediów",
-   "url": "https://wiadomosci.onet.pl/swiat/starlink-znow-dziala-armia-ukrainy-odnotowuje-przywrocenie-lacznosci/2qddccj",
-   "opublikowano": "2026-10-24T09:55:42Z",
-   "opublikowano_surowe": "Sat, 24 Oct 2026 09:55:42 GMT",
-   "streszczenie": "Ukraińska armia potwierdza, że odzyskała łączność za pośrednictwem terminali satelitarnych Starlink oraz ich wojskowej wersji Starshield — taką informację przekazały ukraińskie media, powołując się na źródła w resorcie obrony w Kijowie. Już wcześniej prezydent USA Donald Trump przekonywał, że pełne działanie sieci zostanie przywrócone."
+   "tytul": "Protesty we Francji. Dziesiątki zatrzymanych, w Paryżu wielka demonstracja",
+   "url": "https://wydarzenia.interia.pl/zagranica/news-francja-w-ogniu-protestow-dziesiatki-zatrzymanych-w-paryzu-w,nId,23563350",
+   "opublikowano": "2026-10-24T14:10:48Z",
+   "opublikowano_surowe": "Sat, 24 Oct 2026 14:10:48 GMT",
+   "streszczenie": "Francuska policja zatrzymała 135 osób w związku z ogólnokrajowymi protestami. Funkcjonariusze skonfiskowali niebezpieczne przedmioty, w tym metalowe kulki, śrut ołowiany oraz broń typu airsoft. W Paryżu rozpoczęła się wielka demonstracja. Do interwencji służb doszło m.in. w Lyonie, gdzie użyto gazu łzawiącego, by rozpędzić uczestników nielegalnego zgromadzenia."
   },
   {
-   "zrodlo": "Onet Wiadomości",
+   "zrodlo": "Interia Fakty",
    "kategoria": "NEWS",
    "region": "poland",
-   "tytul": "Groźny wypadek w Grudziądzu. 2-latka walczy o życie",
-   "url": "https://wiadomosci.onet.pl/kujawsko-pomorskie/grozny-wypadek-w-grudziadzu-2-latka-walczy-o-zycie/vtxf887",
-   "opublikowano": "2026-10-24T09:14:13Z",
-   "opublikowano_surowe": "Sat, 24 Oct 2026 09:14:13 GMT",
-   "streszczenie": "W nocy z piątku na sobotę w Grudziądzu (woj. kujawsko-pomorskie) zderzyły się dwa samochody osobowe. Siedem osób trafiło do szpitala. Wśród poszkodowanych jest 2-letnia dziewczynka, której stan jest krytyczny — informuje serwis Grudziądz Nasze Miasto."
-  },
-  {
-   "zrodlo": "Onet Wiadomości",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Kluczowe wybory w Izraelu. Podczas \"dziwacznej\" kampanii wszyscy unikali jednego tematu",
-   "url": "https://wiadomosci.onet.pl/politico/dziwaczna-kampania-wyborcza-w-izraelu-wszyscy-unikali-jednego-tematu/pc4c0k3",
-   "opublikowano": "2026-10-24T08:47:19Z",
-   "opublikowano_surowe": "Sat, 24 Oct 2026 08:47:19 GMT",
-   "streszczenie": "W kampanii przed wyborami w Izraelu temat zakończenia wojny w Strefie Gazy właściwie się nie pojawił — pomimo tego, że izraelska mniejszość arabska, o palestyńskim pochodzeniu, może w dużej mierze zadecydować o tym, kto zostanie premierem."
-  },
-  {
-   "zrodlo": "Onet Wiadomości",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Premier Donald Tusk w Wietnamie. Rzecznik rządu mówi o celu wizyty",
-   "url": "https://wiadomosci.onet.pl/kraj/premier-donald-tusk-w-wietnamie-rzecznik-rzadu-mowi-o-celu-wizyty/hh2yhc5",
-   "opublikowano": "2026-10-24T08:47:17Z",
-   "opublikowano_surowe": "Sat, 24 Oct 2026 08:47:17 GMT",
-   "streszczenie": "Rzecznik rządu przekazał, że premier Donald Tusk odwiedził Wietnam przede wszystkim po to, aby rozmawiać o zacieśnianiu współpracy gospodarczej z tym krajem. — Może otworzyć naszym firmom dostęp do rynków Azji Południowo-Wschodniej — zaznaczył Adam Szłapka."
-  },
-  {
-   "zrodlo": "Onet Wiadomości",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Zwykli Rosjanie prawie nic nie wiedzą o Polsce. \"Myślą stereotypami\"",
-   "url": "https://wiadomosci.onet.pl/swiat/rosjanka-szczerze-o-swoich-rodakach-prawie-nic-nie-wiedza-o-polsce/4b8xtrl",
-   "opublikowano": "2026-10-24T08:39:14Z",
-   "opublikowano_surowe": "Sat, 24 Oct 2026 08:39:14 GMT",
-   "streszczenie": "Co przeciętny Rosjanin wie o Polsce? Niewiele — i często są to skojarzenia sprzed kilku dekad: Barbara Brylska, Lech Wałęsa, kiełbasa krakowska. Sama długo myślałam o Polsce głównie przez pryzmat Warszawy, aż podczas urlopu pod Olsztynem uświadomiłam sobie, jak bardzo obie strony patrzą na siebie przez stereotypy — pisze Anastasia Arinushkina."
+   "tytul": "\"Trzeba się przyznać i przeprosić\". Poseł Bartosik zamieścił w sieci wpis",
+   "url": "https://wydarzenia.interia.pl/kraj/news-posel-ryszard-bartosik-bije-sie-w-piers-trzeba-sie-przyznac,nId,23563340",
+   "opublikowano": "2026-10-24T13:26:14Z",
+   "opublikowano_surowe": "Sat, 24 Oct 2026 13:26:14 GMT",
+   "streszczenie": "Poseł Stowarzyszenia Rozwój Plus, były wiceminister rolnictwa Ryszard Bartosik przekroczył prędkość w terenie zabudowanym i w konsekwencji stracił prawo jazdy na trzy miesiące. O zdarzeniu poinformował sam za pośrednictwem mediów społecznościowych. Przeprosił za swoje zachowanie. \"Z pokorą przyjmuję mandat\" - oznajmił."
   },
   {
    "zrodlo": "Interia Fakty",
@@ -2150,7 +2318,7 @@
    "url": "https://wydarzenia.interia.pl/ukraina-rosja/news-zwrot-na-wojnie-z-rosja-ukrainski-minister-oglosil-w-sprawie,nId,23563294",
    "opublikowano": "2026-10-24T10:34:25Z",
    "opublikowano_surowe": "Sat, 24 Oct 2026 10:34:25 GMT",
-   "streszczenie": "Ukraina odzyskała stabilne połączenie ze Starlinkiem - poinformował tamtejszy minister obrony Jewhenij Chmara. Z jego słów wynika, że wojsko rejestruje obecnie \"prędkość ponad 400 km/h\". Kwestia działania Starlinka, a w szczególności jego wojskowej wersji Starshield, stała się kolejnym punktem sporu między Ukrainą a USA. Kijów zarzucił bowiem Waszyngtonowi celowe spowolnienie systemu."
+   "streszczenie": "Ukraina odzyskała stabilne połączenie ze Starlinkiem - poinformował tamtejszy minister obrony Jewhenij Chmara. Z jego słów wynika, że wojsko rejestruje obecnie \"prędkość ponad 400 km/h\". Kwestia działania Starlinka, a w szczególności jego wojskowej wersji Starshield, stała się kolejnym punktem sporu między Ukrainą a USA. Głos w sprawie zabrał też prezydent Zełenski."
   },
   {
    "zrodlo": "Interia Fakty",
@@ -2223,24 +2391,64 @@
    "streszczenie": "Weekend przyniesie kolejne zmiany w pogodzie nad Polską - wynika z prognozy przygotowanej przez IMGW. W sobotę spodziewać się można bowiem umiarkowanego zachmurzenia oraz temperatur sięgających do 12 stopni Celsjusza. Pogoda jednak pogorszy się w niedzielę. Wówczas spodziewać się trzeba zachmurzenia, które obejmie niemal cały kraj oraz przemieszczającej się strefy opadów deszczu."
   },
   {
-   "zrodlo": "Interia Fakty",
+   "zrodlo": "Rzeczpospolita",
    "kategoria": "NEWS",
    "region": "poland",
-   "tytul": "Groźny wypadek w Grudziądzu. Siedmioro rannych, w tym dzieci",
-   "url": "https://wydarzenia.interia.pl/kujawsko-pomorskie/news-grozny-wypadek-w-grudziadzu-siedmioro-rannych-w-tym-dzieci,nId,23563260",
-   "opublikowano": "2026-10-24T06:39:14Z",
-   "opublikowano_surowe": "Sat, 24 Oct 2026 06:39:14 GMT",
-   "streszczenie": "Dwa samochody osobowe zderzyły się w nocy na ul. Jana Pawła II w Grudziądzu. W wyniku zdarzenia rannych zostało siedem osób, w tym czwórka dzieci - przekazał Interii rzecznik policji w Grudziądzu st. asp. Łukasz Kowalczyk. Jedno z nich trafiło do szpitala w stanie zagrażającym życiu."
+   "tytul": "Sikorski ostrzega przed planem Putina i uderza w Muska. „Płaci za to m.in. Polska”",
+   "url": "https://www.rp.pl/polityka/art45391261-sikorski-ostrzega-przed-planem-putina-i-uderza-w-muska-placi-za-to-m-in-polska",
+   "opublikowano": "2026-10-24T14:22:31Z",
+   "opublikowano_surowe": "Sat, 24 Oct 2026 16:22:31 +0200",
+   "streszczenie": "Sytuację na froncie na Ukrainie należy obecnie ocenić jako remis, jednak w przyszłym roku zasoby Rosji zaczną się wyczerpywać, jeśli Ukraina przetrwa nadchodzącą zimę – powiedział w sobotę w Wejherowie (woj. pomorskie) wicepremier i minister spraw zagranicznych Radosław Sikorski."
   },
   {
-   "zrodlo": "Interia Fakty",
+   "zrodlo": "Rzeczpospolita",
    "kategoria": "NEWS",
    "region": "poland",
-   "tytul": "Emerytury 2027. Rząd szykuje podwyżki. Ile senior zyska na rękę?",
-   "url": "https://wydarzenia.interia.pl/kraj/news-emerytury-2027-rzad-szykuje-podwyzki-ile-senior-zyska-na-rek,nId,23562347",
-   "opublikowano": "2026-10-24T06:00:03Z",
-   "opublikowano_surowe": "Sat, 24 Oct 2026 06:00:03 GMT",
-   "streszczenie": "Przy waloryzacji 3,48 proc. minimalna emerytura wzrosłaby od marca 2027 r. do 2047,34 zł brutto. Sprawdzamy, jak taka podwyżka przełożyłaby się na miesięczne przelewy dla seniorów. Na ten moment ostateczny wskaźnik nie jest jeszcze potwierdzony."
+   "tytul": "Ile kosztuje malowanie mieszkania? Oto stawki fachowców pod koniec 2026 r.",
+   "url": "https://www.rp.pl/ekonomia/art45384171-ile-kosztuje-malowanie-mieszkania-oto-stawki-fachowcow-pod-koniec-2026-r",
+   "opublikowano": "2026-10-24T14:09:00Z",
+   "opublikowano_surowe": "Sat, 24 Oct 2026 16:09:00 +0200",
+   "streszczenie": "Malowanie mieszkania jest jedną z najczęściej zamawianych usług remontowych. Wykonawcy zwykle podają cenę za metr kwadratowy, jednak stawki mogą się znacznie różnić w zależności od lokalizacji, stanu ścian oraz zakresu prac przygotowawczych. Ile trzeba będzie zapłacić za usługę, jeśli chcemy zlecić ją jeszcze w tym roku?"
+  },
+  {
+   "zrodlo": "Rzeczpospolita",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Polscy widzowie nabici w platformy streamingowe. Seria kuriozalnych błędów",
+   "url": "https://www.rp.pl/plus-minus/art45385741-polscy-widzowie-nabici-w-platformy-streamingowe-seria-kuriozalnych-bledow",
+   "opublikowano": "2026-10-24T14:04:00Z",
+   "opublikowano_surowe": "Sat, 24 Oct 2026 16:04:00 +0200",
+   "streszczenie": "Kuriozalne wpadki w tłumaczeniach? Lektor zamiast dubbingu i to jeszcze zagłuszający ścieżkę dźwiękową? Niespełnione obietnice dotyczące oferty? Tego w zetknięciu z płatnymi platformami wideo doświadczają fani japońskich animacji, ale ich problemy pokazują też, jak słabą pozycję wobec serwisów streamingowych ma polski konsument."
+  },
+  {
+   "zrodlo": "Rzeczpospolita",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Ukraina ogłasza sukcesy, uderzyła w czułe punkty Rosji. „Ciąg dalszy nastąpi”",
+   "url": "https://www.rp.pl/konflikty-zbrojne/art45391241-ukraina-oglasza-sukcesy-uderzyla-w-czule-punkty-rosji-ciag-dalszy-nastapi",
+   "opublikowano": "2026-10-24T13:53:18Z",
+   "opublikowano_surowe": "Sat, 24 Oct 2026 15:53:18 +0200",
+   "streszczenie": "Ukraińskie siły zbrojne przeprowadziły serię ataków na obiekty znajdujące się na terytorium Rosji. Celem były między innymi zakłady produkujące komponenty wykorzystywane w rosyjskim przemyśle rakietowym. W wyniku uderzeń doszło do eksplozji i pożaru, a na jednym z lotnisk trafiony został samolot."
+  },
+  {
+   "zrodlo": "Rzeczpospolita",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "W polskiej stadninie padł ogier wart setki tysięcy euro. „Nie skontaktował się z nami nikt”",
+   "url": "https://www.rp.pl/spoleczenstwo/art45365421-w-polskiej-stadninie-padl-ogier-wart-setki-tysiecy-euro-nie-skontaktowal-sie-z-nami-nikt",
+   "opublikowano": "2026-10-24T13:45:00Z",
+   "opublikowano_surowe": "Sat, 24 Oct 2026 15:45:00 +0200",
+   "streszczenie": "Wart kilkaset tysięcy euro ogier Rafea Al Rayat padł 8 października w Stadninie Koni Białka. Należał do Kuwejtczyków. O krytycznym stanie zwierzęcia dowiedzieli się pośrednio, nie od stadniny. Ta zapewnia, że działała zgodnie z procedurami."
+  },
+  {
+   "zrodlo": "Rzeczpospolita",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Rosja może zyskać na kolejnej decyzji Donalda Trumpa. Chodzi o nawozy",
+   "url": "https://www.rp.pl/rolnictwo/art45391071-rosja-moze-zyskac-na-kolejnej-decyzji-donalda-trumpa-chodzi-o-nawozy",
+   "opublikowano": "2026-10-24T13:31:21Z",
+   "opublikowano_surowe": "Sat, 24 Oct 2026 15:31:21 +0200",
+   "streszczenie": "Amerykańska administracja pracuje nad kolejnym złagodzeniem sankcji wobec Rosji. Tym razem Donaldowi Trumpowi zależy na tańszych rosyjskich nawozach. Oficjalnie sprawa ma pomóc zatrzymać wojnę z Ukrainą."
   },
   {
    "zrodlo": "Rzeczpospolita",
@@ -2333,64 +2541,154 @@
    "streszczenie": "Zakończyła się akcja poszukiwania niezidentyfikowanego obiektu latającego, którego odgłos był słyszany w ubiegłą niedzielę w nocy w okolicy Zalewu Zemborzyckiego w Lublinie."
   },
   {
-   "zrodlo": "Rzeczpospolita",
+   "zrodlo": "TVN Warszawa",
    "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Zderzenie dwóch samolotów wojskowych na Filipinach. Zginęło czterech pilotów",
-   "url": "https://www.rp.pl/wypadki/art45391021-zderzenie-dwoch-samolotow-wojskowych-na-filipinach-zginelo-czterech-pilotow",
-   "opublikowano": "2026-10-24T11:22:42Z",
-   "opublikowano_surowe": "Sat, 24 Oct 2026 13:22:42 +0200",
-   "streszczenie": "Czterech pilotów zginęło po zderzeniu dwóch samolotów filipińskich sił powietrznych podczas lotu szkoleniowego. Maszyny rozbiły się na terenie bazy wojskowej na południe od Manili – informuje Associated Press."
+   "region": "warsaw",
+   "tytul": "Akademik albo 1700 złotych za pokój klitkę. Studenckie realia w Warszawie",
+   "url": "https://tvn24.pl/tvnwarszawa/srodmiescie/warszawa-akademik-albo-wynajem-pokoju-ile-kosztuje-studencka-stolica-st9301055?source=rss",
+   "opublikowano": "2026-10-24T13:53:38Z",
+   "opublikowano_surowe": "Sat, 24 Oct 2026 13:53:38 GMT",
+   "streszczenie": "Dostać się na studia to jedno, zamieszkać w Warszawie - drugie. Mimo że akademiki największych publicznych uczelni oferują tysiące miejsc, nie wszyscy chętni znaleźli w nich zakwaterowanie. Natomiast na rynku prywatnym koszty wynajmu pokoju potrafią mocno zaskoczyć. Jakimi cenami stolica powitała tegorocznych studentów?"
   },
   {
-   "zrodlo": "Rzeczpospolita",
+   "zrodlo": "TVN Warszawa",
    "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Powołanie wicepremiera. Czy Karol Nawrocki może zablokować decyzję Donalda Tuska",
-   "url": "https://www.rp.pl/polityka/art45387081-powolanie-wicepremiera-czy-karol-nawrocki-moze-zablokowac-decyzje-donalda-tuska",
-   "opublikowano": "2026-10-24T11:01:00Z",
-   "opublikowano_surowe": "Sat, 24 Oct 2026 13:01:00 +0200",
-   "streszczenie": "Prezydent dokonuje zmian w składzie rządu. Wniosek o powierzenie Andrzejowi Domańskiemu funkcji wiceprezesa Rady Ministrów stawia ważne pytanie ustrojowe. Czy konstytucja daje głowie państwa swobodę decydowania o składzie rządu?"
+   "region": "warsaw",
+   "tytul": "Autobus zjechał do rowu w Dawidach Bankowych",
+   "url": "https://tvn24.pl/tvnwarszawa/okolice/pruszkow-autobus-715-zjechal-do-rowu-w-dawidach-bankowych-st9303887?source=rss",
+   "opublikowano": "2026-10-24T11:47:00Z",
+   "opublikowano_surowe": "Sat, 24 Oct 2026 11:47:00 GMT",
+   "streszczenie": "Do groźnie wyglądającego zdarzenia doszło w sobotę w miejscowości Dawidy Bankowe (Mazowieckie), gdzie kierowca autobusu zjechał do przydrożnego rowu. W zdarzeniu nikt nie ucierpiał."
   },
   {
-   "zrodlo": "Rzeczpospolita",
+   "zrodlo": "TVN Warszawa",
    "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Francja szykuje się na protesty. 70 tys. policjantów, śmigłowce i pojazdy opancerzone w gotowości",
-   "url": "https://www.rp.pl/spoleczenstwo/art45390921-francja-szykuje-sie-na-protesty-70-tys-policjantow-smiglowce-i-pojazdy-opancerzone-w-gotowosci",
-   "opublikowano": "2026-10-24T10:54:33Z",
-   "opublikowano_surowe": "Sat, 24 Oct 2026 12:54:33 +0200",
-   "streszczenie": "Francja przygotowuje się na kolejną falę protestów. Po ubiegłotygodniowych zamieszkach i aktach grabieży władze zmobilizowały na sobotę 70 tys. policjantów. Służbom przekazano do dyspozycji śmigłowce, pojazdy opancerzone i armatki wodne."
+   "region": "warsaw",
+   "tytul": "Pijany kierowca spowodował kolizję. W aucie przewoził zwłoki mężczyzny",
+   "url": "https://tvn24.pl/tvnwarszawa/okolice/radom-pijany-kierowca-na-tylnym-siedzeniu-zwloki-st9303723?source=rss",
+   "opublikowano": "2026-10-24T10:12:08Z",
+   "opublikowano_surowe": "Sat, 24 Oct 2026 10:12:08 GMT",
+   "streszczenie": "W Radomiu policjanci rozliczający kolizję spowodowaną przez pijanego kierowcę, odkryli zwłoki na tylnym siedzeniu samochodu."
   },
   {
-   "zrodlo": "Rzeczpospolita",
+   "zrodlo": "TVN Warszawa",
    "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Protesty przeciwko reformie mediów w Czechach. Dziennikarze zapowiadają strajk",
-   "url": "https://www.rp.pl/media/art45390901-protesty-przeciwko-reformie-mediow-w-czechach-dziennikarze-zapowiadaja-strajk",
-   "opublikowano": "2026-10-24T10:23:17Z",
-   "opublikowano_surowe": "Sat, 24 Oct 2026 12:23:17 +0200",
-   "streszczenie": "Czeski rząd chce zlikwidować opłatę audiowizualną i ograniczyć finansowanie mediów publicznych o około 15 proc. Projekt przeszedł pierwszy etap prac parlamentarnych po nocnym głosowaniu – informuje Reuters."
+   "region": "warsaw",
+   "tytul": "Zginął 27-letni rowerzysta. Policja: kierowca wjechał na czerwonym",
+   "url": "https://tvn24.pl/tvnwarszawa/bialoleka/warszawa-smiertelne-potracenie-rowerzysty-na-modlinskiej-st9303477?source=rss",
+   "opublikowano": "2026-10-24T08:41:08Z",
+   "opublikowano_surowe": "Sat, 24 Oct 2026 08:41:08 GMT",
+   "streszczenie": "W piątek na ulicy Modlińskiej w Warszawie zginął 27-letni rowerzysta. Ze wstępnych ustaleń policji wynika, że kierujący autem osobowym wjechał na przejazd rowerowy na czerwonym świetle. Doszło do zderzenia."
   },
   {
-   "zrodlo": "Rzeczpospolita",
+   "zrodlo": "TVN Warszawa",
    "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "IATA: Droższe paliwo zwiększy koszty linii lotniczych nawet o 100 miliardów dolarów",
-   "url": "https://turystyka.rp.pl/linie-lotnicze/art45390851-iata-drozsze-paliwo-zwiekszy-koszty-linii-lotniczych-nawet-o-100-miliardow-dolarow",
-   "opublikowano": "2026-10-24T09:38:29Z",
-   "opublikowano_surowe": "Sat, 24 Oct 2026 11:38:29 +0200",
-   "streszczenie": "Rosnące ceny paliwa lotniczego zwiększają koszty przewoźników; w tym roku mogą one przekroczyć 30 procent wydatków linii lotniczych, a łączny rachunek za paliwo może wzrosnąć o około 100 miliardów dolarów względem 2025 roku - prognozuje IATA."
+   "region": "warsaw",
+   "tytul": "Budowa trzeciej linii metra. Ruszyły konsultacje społeczne",
+   "url": "https://tvn24.pl/tvnwarszawa/praga-poludnie/warszawa-konsultacje-spoleczne-w-sprawie-trzeciej-linii-metra-st9303177?source=rss",
+   "opublikowano": "2026-10-24T08:01:05Z",
+   "opublikowano_surowe": "Sat, 24 Oct 2026 08:01:05 GMT",
+   "streszczenie": "Rozpoczęły się konsultacje społeczne dotyczące trzeciej linii metra przed wydaniem decyzji środowiskowej. Zainteresowani mogą do 20 listopada zapoznać się z dokumentacją w siedzibie Regionalnej Dyrekcji Ochrony Środowiska, składać uwagi i wnioski."
   },
   {
-   "zrodlo": "Rzeczpospolita",
+   "zrodlo": "TVN Warszawa",
    "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Ile Polacy wydadzą na Wszystkich Świętych? Są wyniki badania",
-   "url": "https://www.rp.pl/handel/art45390871-ile-polacy-wydadza-na-wszystkich-swietych-sa-wyniki-badania",
-   "opublikowano": "2026-10-24T09:34:29Z",
-   "opublikowano_surowe": "Sat, 24 Oct 2026 11:34:29 +0200",
-   "streszczenie": "Ponad połowa Polaków (55 proc.) planuje przeznaczyć na Wszystkich Świętych od 201 do 1000 zł – wynika z badania Santander Consumer Banku. Koszty zakupu m.in. zniczy i kwiatów czy sprzątania grobów dla 25 proc. osób nie przekroczą 200 zł."
+   "region": "warsaw",
+   "tytul": "Był stałym klientem, ale nigdy nie płacił. Trafi do więzienia",
+   "url": "https://tvn24.pl/tvnwarszawa/okolice/piaseczno-okradal-sklepy-trafi-do-wiezienia-st9303386?source=rss",
+   "opublikowano": "2026-10-24T07:42:48Z",
+   "opublikowano_surowe": "Sat, 24 Oct 2026 07:42:48 GMT",
+   "streszczenie": "Ponad rok w więzieniu spędzi 39-latek skazany za kradzieże w sklepach. Podczas ostatniej wizyty w markecie łupem mężczyzny padły artykuły spożywcze, alkohol oraz elektronika warte blisko trzy tysiące złotych."
+  },
+  {
+   "zrodlo": "TVN Warszawa",
+   "kategoria": "NEWS",
+   "region": "warsaw",
+   "tytul": "Wójt stanie przed sądem za jazdę po alkoholu",
+   "url": "https://tvn24.pl/tvnwarszawa/okolice/gozdowo-wojt-stanie-przed-sadem-za-jazde-po-alkoholu-st9303262?source=rss",
+   "opublikowano": "2026-10-23T19:15:24Z",
+   "opublikowano_surowe": "Fri, 23 Oct 2026 19:15:24 GMT",
+   "streszczenie": "Do Sądu Rejonowego w Płocku trafił akt oskarżenia wobec wójta gminy Gozdowo Dariusza K. Mężczyzna odpowie za kierowanie samochodem w stanie nietrzeźwości. Jak ustalił biegły, wójt miał między 2,35 a 2,45 promila alkoholu w organizmie."
+  },
+  {
+   "zrodlo": "TVN Warszawa",
+   "kategoria": "NEWS",
+   "region": "warsaw",
+   "tytul": "Tajemnicze pakunki na kukurydzy, znalazł je pies",
+   "url": "https://tvn24.pl/tvnwarszawa/okolice/tajemnicze-pakunki-na-kukurydzy-znalazl-je-pies-st9303233?source=rss",
+   "opublikowano": "2026-10-23T18:09:08Z",
+   "opublikowano_surowe": "Fri, 23 Oct 2026 18:09:08 GMT",
+   "streszczenie": "Pies szkolony do wykrywania narkotyków zaprowadził policjantów na pole kukurydzy. W czterech miejscach do roślin przywiązane były czarne pakunki. Zatrzymany został 60-latek, grozi mu 10 lat więzienia."
+  },
+  {
+   "zrodlo": "TVN Warszawa",
+   "kategoria": "NEWS",
+   "region": "warsaw",
+   "tytul": "Awantura na szpitalnym oddziale. \"Niech pan się opanuje. Uspokoi\"",
+   "url": "https://tvn24.pl/tvnwarszawa/wawer/awantura-w-szpitalu-w-miedzylesiu-wyzwiska-i-atak-na-polozna-nowe-nagranie-st9303068?source=rss",
+   "opublikowano": "2026-10-23T17:08:41Z",
+   "opublikowano_surowe": "Fri, 23 Oct 2026 17:08:41 GMT",
+   "streszczenie": "Pozywaj mnie - krzyczał do położnej mężczyzna w szpitalu w Międzylesiu po tym, jak chwilę wcześniej ją popchnął. Do nagrania z awantury na oddziale dotarł reporter \"Czarno na białym\" Artur Warcholiński. Sprawą awantury zajmuje się policja. Skarga na to, co miało ją poprzedzić, trafiła do Rzecznika Praw Pacjenta."
+  },
+  {
+   "zrodlo": "TVN Warszawa",
+   "kategoria": "NEWS",
+   "region": "warsaw",
+   "tytul": "Dominik otrzymał bioniczną dłoń. Dąży do samodzielności, mimo wypadku wciąż kocha kolej",
+   "url": "https://tvn24.pl/tvnwarszawa/okolice/dominik-otrzymal-bioniczna-dlon-po-koszmarnym-wypadku-na-torach-st9303064?source=rss",
+   "opublikowano": "2026-10-23T16:38:05Z",
+   "opublikowano_surowe": "Fri, 23 Oct 2026 16:38:05 GMT",
+   "streszczenie": "Historia Dominika Hołuja, licealisty z Radomia, który w wypadku na peronie stacji Wola Bierwiecka (Mazowieckie), stracił obie nogi i część dłoni, poruszyła tysiące serc. Dzięki pomocy darczyńców 18-latek otrzymał nowoczesne protezy. - Nie czuję żalu do kolei; jest cały czas w moim sercu - mówił Dominik, dziękując za olbrzymie wsparcie."
+  },
+  {
+   "zrodlo": "TVN Warszawa",
+   "kategoria": "NEWS",
+   "region": "warsaw",
+   "tytul": "Źle zaparkowane auta zablokowały strażaków",
+   "url": "https://tvn24.pl/tvnwarszawa/bemowo/warszawa-zle-zaparkowane-auta-zablokowaly-wyjazd-strazakom-st9302959?source=rss",
+   "opublikowano": "2026-10-23T14:32:25Z",
+   "opublikowano_surowe": "Fri, 23 Oct 2026 14:32:25 GMT",
+   "streszczenie": "Poranny wyjazd strażaków na Bemowo skończył się problemami. Z powodu nieprawidłowo zaparkowanych aut, wóz musiał cofać na wąskiej ulicy. Kierowcami zajmie się straż miejska."
+  },
+  {
+   "zrodlo": "TVN Warszawa",
+   "kategoria": "NEWS",
+   "region": "warsaw",
+   "tytul": "Usłyszały szelest i popiskiwanie. W koszu na śmieci był szczeniak",
+   "url": "https://tvn24.pl/tvnwarszawa/mokotow/warszawa-szczeniak-wyrzucony-do-kosza-na-smieci-st9302861?source=rss",
+   "opublikowano": "2026-10-23T14:26:34Z",
+   "opublikowano_surowe": "Fri, 23 Oct 2026 14:26:34 GMT",
+   "streszczenie": "Matka z córką podczas spaceru po warszawskim Mokotowie usłyszały szelest dochodzący z pojemnika na odpady. Okazało się, że w środku był szczeniak. Zdaniem strażników miejskich, którzy zaopiekowali się psem, ktoś z premedytacją wyrzucił zwierzę do śmieci."
+  },
+  {
+   "zrodlo": "TVN Warszawa",
+   "kategoria": "NEWS",
+   "region": "warsaw",
+   "tytul": "Aleja Centralna połączy \"patelnię\" z dworcem. Ruszają prace",
+   "url": "https://tvn24.pl/tvnwarszawa/srodmiescie/warszawa-powstaje-aleja-centralna-st9302762?source=rss",
+   "opublikowano": "2026-10-23T13:59:50Z",
+   "opublikowano_surowe": "Fri, 23 Oct 2026 13:59:50 GMT",
+   "streszczenie": "Elegancka aleja z porządną nawierzchnią zamiast nierównej kostki, która urywa kółka walizek. Do tego zadbana zieleń. Rozpoczyna się przebudowa terenu między placykiem przed stacją metra Centrum a Dworcem Centralnym."
+  },
+  {
+   "zrodlo": "TVN Warszawa",
+   "kategoria": "NEWS",
+   "region": "warsaw",
+   "tytul": "Pierwsze linie cmentarne pojadą już w ten weekend",
+   "url": "https://tvn24.pl/tvnwarszawa/bielany/warszawa-jak-dojechac-na-cmentarz-autobusy-tramwaje-st9302423?source=rss",
+   "opublikowano": "2026-10-23T13:13:58Z",
+   "opublikowano_surowe": "Fri, 23 Oct 2026 13:13:58 GMT",
+   "streszczenie": "Przed zbliżającym się świętem Wszystkich Świętych i Dniem Zadusznym Zarząd Transportu Miejskiego uruchamia autobusowe i tramwajowe linie cmentarne. Pierwsze wyjadą na stołeczne ulice już w najbliższy weekend 24-25 października."
+  },
+  {
+   "zrodlo": "TVN Warszawa",
+   "kategoria": "NEWS",
+   "region": "warsaw",
+   "tytul": "Ministerstwo bezpodstawnie odwołało dyrektora muzeum. Po wyroku nie przywróci go na stanowisko",
+   "url": "https://tvn24.pl/tvnwarszawa/zoliborz/warszawa-ministerstwo-kultury-bez-podstaw-odwolalo-dyrektora-muzeum-historii-polski-stanowiska-nie-odzyska-st9302361?source=rss",
+   "opublikowano": "2026-10-23T12:13:55Z",
+   "opublikowano_surowe": "Fri, 23 Oct 2026 12:13:55 GMT",
+   "streszczenie": "Mimo sądowych wyroków Ministerstwo Kultury i Dziedzictwa Narodowego nie widzi podstaw do przywrócenia Roberta Kostry na stanowisko dyrektora Muzeum Historii Polski. Zdaniem resortu może on jedynie domagać się odszkodowania. Sam zainteresowany przyznaje, że \"nie jest do końca jasne, czy da się wywalczyć cokolwiek więcej\"."
   },
   {
    "zrodlo": "Gazeta Stołeczna",
@@ -2546,6 +2844,26 @@
    "zrodlo": "TechCrunch",
    "kategoria": "AI",
    "region": "world",
+   "tytul": "The Boox Palma 2 Pro finally got me to stop reading on my phone",
+   "url": "https://techcrunch.com/2026/10/24/the-boox-palma-2-pro-finally-got-me-to-stop-reading-on-my-phone/",
+   "opublikowano": "2026-10-24T14:15:00Z",
+   "opublikowano_surowe": "Sat, 24 Oct 2026 14:15:00 +0000",
+   "streszczenie": "The $400 Boox Palma 2 Pro is a smartphone-sized e-reader designed for people who want to read books, articles, and documents on a small E Ink display."
+  },
+  {
+   "zrodlo": "TechCrunch",
+   "kategoria": "AI",
+   "region": "world",
+   "tytul": "Here are the top AI agents that can live in your text messages",
+   "url": "https://techcrunch.com/2026/10/24/all-the-ai-agents-that-can-live-in-your-text-messages/",
+   "opublikowano": "2026-10-24T14:00:00Z",
+   "opublikowano_surowe": "Sat, 24 Oct 2026 14:00:00 +0000",
+   "streszczenie": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work."
+  },
+  {
+   "zrodlo": "TechCrunch",
+   "kategoria": "AI",
+   "region": "world",
    "tytul": "Startups don’t need to go viral to win customers",
    "url": "https://techcrunch.com/2026/10/23/startups-dont-need-to-go-viral-to-win-customers/",
    "opublikowano": "2026-10-23T23:07:45Z",
@@ -2673,24 +2991,14 @@
    "streszczenie": "The company plans to begin testing Pony.ai's robotaxis in Kazakhstan's capital in the first half of 2027."
   },
   {
-   "zrodlo": "TechCrunch",
-   "kategoria": "AI",
+   "zrodlo": "The Verge",
+   "kategoria": "Tech",
    "region": "world",
-   "tytul": "Left alone with nothing to do, AI agents started playing",
-   "url": "https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing/",
-   "opublikowano": "2026-10-23T00:45:37Z",
-   "opublikowano_surowe": "Fri, 23 Oct 2026 00:45:37 +0000",
-   "streszczenie": "MIT researchers marooned 13 AIs on a virtual island, and they responded by inventing games, mourning a lost ring and, eventually, getting better at their jobs."
-  },
-  {
-   "zrodlo": "TechCrunch",
-   "kategoria": "AI",
-   "region": "world",
-   "tytul": "Mark Zuckerberg’s creative plan to pay California’s proposed billionaire tax without losing control of Meta",
-   "url": "https://techcrunch.com/2026/10/22/mark-zuckerbergs-creative-plan-to-pay-californias-proposed-billionaire-tax-without-losing-control-of-meta/",
-   "opublikowano": "2026-10-22T23:50:41Z",
-   "opublikowano_surowe": "Thu, 22 Oct 2026 23:50:41 +0000",
-   "streszczenie": "A newly launched stock class being offered was partially engineered to help Meta founder and CEO Mark Zuckerberg pay the \"billionaire's tax,\" should the measure be voted into law."
+   "tytul": "What to expect from Apple’s ‘Pro and tell’ event",
+   "url": "https://www.theverge.com/tech/1018169/what-to-expect-apple-pro-and-tell-event-touchscreen-macbook-pro",
+   "opublikowano": "2026-10-24T14:13:02Z",
+   "opublikowano_surowe": "2026-10-24T10:13:02-04:00",
+   "streszczenie": "It feels like Apple's Welcome Home event just happened. And the iPhone Duo announcement isn't all that far in our rearview mirror, either. Yet, the company is back with another launch, focused on the MacBook Pro, it looks like. Its \"Pro and tell\" event is scheduled for October 28th at 1PM ET in Los Angeles. […]"
   },
   {
    "zrodlo": "The Verge",
@@ -2701,6 +3009,16 @@
    "opublikowano": "2026-10-24T12:14:27Z",
    "opublikowano_surowe": "2026-10-24T08:14:27-04:00",
    "streszczenie": "Lee Chang Dong's seventh feature film, Possible Love, is inspired by true events from 2009, when a Korean conglomerate fired a third of its staff - 2,600 employees - after which many died by suicide. Possible Love is the latest in a long line of Lee movies that engage with themes of class or labor […]"
+  },
+  {
+   "zrodlo": "The Verge",
+   "kategoria": "Tech",
+   "region": "world",
+   "tytul": "I hope Apple’s touchscreen MacBook takes some lessons from this Lenovo laptop",
+   "url": "https://www.theverge.com/report/1018131/apple-macbook-touchscreen-stylus-pencil-lenovo-laptop-analysis",
+   "opublikowano": "2026-10-24T04:03:50Z",
+   "opublikowano_surowe": "2026-10-24T00:03:50-04:00",
+   "streszczenie": "It looks like the long-rumored touchscreen MacBook might actually get announced next week, and after using the Lenovo Yoga 9n for our testing of Nvidia's RTX Spark platform, it got me thinking: this is a lot of what I want from a touchscreen MacBook. Like the Apple silicon in modern MacBook Pros, RTX Spark is […]"
   },
   {
    "zrodlo": "The Verge",
@@ -2771,26 +3089,6 @@
    "opublikowano": "2026-10-23T18:43:30Z",
    "opublikowano_surowe": "2026-10-23T14:43:30-04:00",
    "streszczenie": "My colleague John Higgins considered Soundcore’s Space One some of the best budget noise-canceling headphones you could buy when they launched in 2023 — and their successor has only improved upon their winning formula, albeit with a $30 price increase. Thankfully, the Soundcore Space 2 are currently on sale at Amazon, Best Buy, and Walmart […]"
-  },
-  {
-   "zrodlo": "The Verge",
-   "kategoria": "Tech",
-   "region": "world",
-   "tytul": "Fi’s GPS-equipped dog trackers are on sale for 30 percent off",
-   "url": "https://www.theverge.com/gadgets/1017196/fi-ultra-gps-dog-tracker-kirby-air-riders-deal-sale",
-   "opublikowano": "2026-10-23T17:55:03Z",
-   "opublikowano_surowe": "2026-10-23T13:55:03-04:00",
-   "streszczenie": "If your dog or cat is prone to getting lost, or you frequently go on adventures together, you can save 30 percent on Fi pet trackers through October 25th when you enter coupon code SCARY at checkout. The sale includes several satellite-connected trackers, including the Fi Ultra GPS we previously tested, which is down to […]"
-  },
-  {
-   "zrodlo": "The Verge",
-   "kategoria": "Tech",
-   "region": "world",
-   "tytul": "Elon Musk’s dangerous grip on outer space",
-   "url": "https://www.theverge.com/science/1017443/spacex-starlink-ukraine-elon-musk-monopoly",
-   "opublikowano": "2026-10-23T17:35:15Z",
-   "opublikowano_surowe": "2026-10-23T13:35:15-04:00",
-   "streszczenie": "Last week, Starshield - the version of SpaceX's Starlink used by the Ukrainian military - was throttled to block terminals traveling above certain speeds from accessing the service. The Ukrainian army's interceptors, which counter Russian drones carrying bombs, suddenly stopped working at high speeds, making it easier for Russia to attack the country's energy infrastructure […]"
   },
   {
    "zrodlo": "MIT Technology Review",
@@ -3046,6 +3344,46 @@
    "zrodlo": "Spider’s Web",
    "kategoria": "Tech",
    "region": "poland",
+   "tytul": "Tysiące kilometrów torów bez ruszania z miejsca. Polregio ma bardzo nietypowy plan",
+   "url": "https://spidersweb.pl/2026/10/polregio-mobilny-symulator-maszynistow.html",
+   "opublikowano": "2026-10-24T14:25:00Z",
+   "opublikowano_surowe": "Sat, 24 Oct 2026 16:25:00 +0200",
+   "streszczenie": "Tysiące kilometrów torów bez ruszania z miejsca. Polregio ma bardzo nietypowy plan"
+  },
+  {
+   "zrodlo": "Spider’s Web",
+   "kategoria": "Tech",
+   "region": "poland",
+   "tytul": "Znaleźli kosmiczne smocze jajo. Może kryć narodziny wielkiej gwiazdy",
+   "url": "https://spidersweb.pl/2026/10/smocze-jajo-alma-narodziny-masywna-gwiazda.html",
+   "opublikowano": "2026-10-24T14:17:00Z",
+   "opublikowano_surowe": "Sat, 24 Oct 2026 16:17:00 +0200",
+   "streszczenie": "Znaleźli kosmiczne smocze jajo. Może kryć narodziny wielkiej gwiazdy"
+  },
+  {
+   "zrodlo": "Spider’s Web",
+   "kategoria": "Tech",
+   "region": "poland",
+   "tytul": "Nowy teleskop NASA już działa. Roman zbada miliardy galaktyk",
+   "url": "https://spidersweb.pl/2026/10/nancy-grace-roman-kalibracja-obserwacje.html",
+   "opublikowano": "2026-10-24T14:01:00Z",
+   "opublikowano_surowe": "Sat, 24 Oct 2026 16:01:00 +0200",
+   "streszczenie": "Nowy teleskop NASA już działa. Roman zbada miliardy galaktyk"
+  },
+  {
+   "zrodlo": "Spider’s Web",
+   "kategoria": "Tech",
+   "region": "poland",
+   "tytul": "Posłuchałem systemu audio za 8 mln zł. Właśnie po to warto przyjść na Audio Video Show",
+   "url": "https://spidersweb.pl/2026/10/audio-video-show-2026-yg-acoustics-ultimate-titan.html",
+   "opublikowano": "2026-10-24T13:49:00Z",
+   "opublikowano_surowe": "Sat, 24 Oct 2026 15:49:00 +0200",
+   "streszczenie": "Posłuchałem systemu audio za 8 mln zł. Właśnie po to warto przyjść na Audio Video Show"
+  },
+  {
+   "zrodlo": "Spider’s Web",
+   "kategoria": "Tech",
+   "region": "poland",
    "tytul": "Nowa generacja robotów z mopem rolkowym. Roborock wprowadza do Polski serię Flow",
    "url": "https://spidersweb.pl/2026/10/roborock-wprowadza-do-polski-serie-flow.html",
    "opublikowano": "2026-10-24T12:00:00Z",
@@ -3151,46 +3489,6 @@
    "opublikowano": "2026-10-24T07:15:00Z",
    "opublikowano_surowe": "Sat, 24 Oct 2026 09:15:00 +0200",
    "streszczenie": "Sadzą lasy, by pochłaniały CO2. Ich zdaniem to głupota"
-  },
-  {
-   "zrodlo": "Spider’s Web",
-   "kategoria": "Tech",
-   "region": "poland",
-   "tytul": "W ten wałek możesz uwierzyć. Nigdy nie miałem tak czystych podłóg",
-   "url": "https://spidersweb.pl/2026/10/deebot-x12-omnicyclone-opinie.html",
-   "opublikowano": "2026-10-24T07:00:00Z",
-   "opublikowano_surowe": "Sat, 24 Oct 2026 09:00:00 +0200",
-   "streszczenie": "W ten wałek możesz uwierzyć. Nigdy nie miałem tak czystych podłóg"
-  },
-  {
-   "zrodlo": "Spider’s Web",
-   "kategoria": "Tech",
-   "region": "poland",
-   "tytul": "Księżycowa noc to mrok, -150 stopni i śmierć maszyn. Europa ma na to pomysł",
-   "url": "https://spidersweb.pl/2026/10/esa-oasis-stacja-na-ksiezycu.html",
-   "opublikowano": "2026-10-24T06:45:00Z",
-   "opublikowano_surowe": "Sat, 24 Oct 2026 08:45:00 +0200",
-   "streszczenie": "Księżycowa noc to mrok, -150 stopni i śmierć maszyn. Europa ma na to pomysł"
-  },
-  {
-   "zrodlo": "Spider’s Web",
-   "kategoria": "Tech",
-   "region": "poland",
-   "tytul": "Bot może usłyszeć polecenie, którego ty nie słyszysz. Konieczna nowa ochrona",
-   "url": "https://spidersweb.pl/2026/10/asystent-ai-ukryte-polecenia-glosowe-divnet.html",
-   "opublikowano": "2026-10-24T06:30:00Z",
-   "opublikowano_surowe": "Sat, 24 Oct 2026 08:30:00 +0200",
-   "streszczenie": "Bot może usłyszeć polecenie, którego ty nie słyszysz. Konieczna nowa ochrona"
-  },
-  {
-   "zrodlo": "Spider’s Web",
-   "kategoria": "Tech",
-   "region": "poland",
-   "tytul": "Czy bombą atomową można rozbić planetoidę? Już wiadomo",
-   "url": "https://spidersweb.pl/2026/10/bomba-atomowa-planetoida-symulacja-rozbicie.html",
-   "opublikowano": "2026-10-24T06:15:00Z",
-   "opublikowano_surowe": "Sat, 24 Oct 2026 08:15:00 +0200",
-   "streszczenie": "Czy bombą atomową można rozbić planetoidę? Już wiadomo"
   },
   {
    "zrodlo": "MamStartup",
@@ -3346,6 +3644,16 @@
    "zrodlo": "CyberDefence24",
    "kategoria": "Tech",
    "region": "poland",
+   "tytul": "Rosyjski Rybar pod lupą. Fałszywi aktywiści, wybory i związki z Kremlem",
+   "url": "https://cyberdefence24.pl/cyberbezpieczenstwo/dezinformacja/rosyjski-rybar-pod-lupa-falszywi-aktywisci-wybory-i-zwiazki-z-kremlem",
+   "opublikowano": "2026-10-24T14:11:39Z",
+   "opublikowano_surowe": "Sat, 24 Oct 2026 16:11:39 +0200",
+   "streszczenie": "Fałszywi aktywiści w Stanach Zjednoczonych i portal udający niezależne medium w Mołdawii. Za tymi działaniami stoi Rybar, rosyjski projekt powiązany z aparatem państwowym. Jego działalność pokazuje, w jaki sposób Moskwa może wykorzystywać formalnie prywatne organizacje do prowadzenia zagranicznych operacji wpływu."
+  },
+  {
+   "zrodlo": "CyberDefence24",
+   "kategoria": "Tech",
+   "region": "poland",
    "tytul": "GovNet ma przejąć ruch państwowego systemu bezpiecznej łączności",
    "url": "https://cyberdefence24.pl/armia-i-sluzby/govnet-ma-przejac-ruch-panstwowego-systemu-bezpiecznej-lacznosci",
    "opublikowano": "2026-10-24T08:02:50Z",
@@ -3481,16 +3789,6 @@
    "opublikowano": "2026-10-22T11:32:00Z",
    "opublikowano_surowe": "Thu, 22 Oct 2026 13:32:00 +0200",
    "streszczenie": "Nowe kontakty, praktyczna wiedza i rozmowy o możliwościach rozwoju przedsiębiorstw. II Kongres MŚP na Dolnym Śląsku połączył lokalny biznes z ekspertami, instytucjami finansowymi i administracją. Pod hasłem „Dolny Śląsk. W gospodarczym sercu Europy” rozmawiano o nowych technologiach, zdobywaniu rynków i współpracy, która pomaga firmom realizować ambitne plany."
-  },
-  {
-   "zrodlo": "CyberDefence24",
-   "kategoria": "Tech",
-   "region": "poland",
-   "tytul": "Poważne luki w Javie i Node.js. Jedna może prowadzić do zdalnego wykonania kodu",
-   "url": "https://cyberdefence24.pl/cyberbezpieczenstwo/cyberataki/powazne-luki-w-javie-i-nodejs-jedna-moze-prowadzic-do-zdalnego-wykonania-kodu",
-   "opublikowano": "2026-10-22T11:06:04Z",
-   "opublikowano_surowe": "Thu, 22 Oct 2026 13:06:04 +0200",
-   "streszczenie": "Oracle i twórcy Node.js opublikowali poprawki dla dwóch poważnych podatności ujawnionych 21 października. Obie mogą zostać wykorzystane zdalnie, a luka w Node.js może w określonych warunkach doprowadzić do wykonania kodu przez atakującego."
   },
   {
    "zrodlo": "Dental Tribune",
@@ -3946,6 +4244,16 @@
    "zrodlo": "Nauka w Polsce",
    "kategoria": "Dobre",
    "region": "poland",
+   "tytul": "Poprawa sprawności fizycznej obniża śmiertelność kandydatów do przeszczepu",
+   "url": "https://naukawpolsce.pl/aktualnosci/news%2C115570%2Cpoprawa-sprawnosci-fizycznej-obniza-smiertelnosc-kandydatow-do-przeszczepu",
+   "opublikowano": "2026-10-24T14:20:00Z",
+   "opublikowano_surowe": "Sat, 24 Oct 2026 14:20:00 +0000",
+   "streszczenie": "Poprawa sprawności fizycznej obniża śmiertelność kandydatów do przeszczepu tryton sob., 10/24/2026 - 16:20 2 minuty"
+  },
+  {
+   "zrodlo": "Nauka w Polsce",
+   "kategoria": "Dobre",
+   "region": "poland",
    "tytul": "Viking 2 mógł faktycznie zarejestrować trzęsienia marsjańskiego gruntu pół wieku temu",
    "url": "https://naukawpolsce.pl/aktualnosci/news%2C115581%2Cviking-2-mogl-faktycznie-zarejestrowac-trzesienia-marsjanskiego-gruntu-pol",
    "opublikowano": "2026-10-24T12:30:00Z",
@@ -4021,16 +4329,6 @@
    "opublikowano": "2026-10-24T05:30:00Z",
    "opublikowano_surowe": "Sat, 24 Oct 2026 05:30:00 +0000",
    "streszczenie": "W Słupsku przeprowadzono pierwszą w Polsce operację wspomagającą leczenie choroby Alzheimera tryton sob., 10/24/2026 - 07:30 3 minuty"
-  },
-  {
-   "zrodlo": "Nauka w Polsce",
-   "kategoria": "Dobre",
-   "region": "poland",
-   "tytul": "Dermatolożka: mamy skuteczne terapie na wiele poważnych chorób skóry",
-   "url": "https://naukawpolsce.pl/aktualnosci/news%2C115597%2Cdermatolozka-mamy-skuteczne-terapie-na-wiele-powaznych-chorob-skory.html",
-   "opublikowano": "2026-10-23T18:59:00Z",
-   "opublikowano_surowe": "Fri, 23 Oct 2026 18:59:00 +0000",
-   "streszczenie": "Dermatolożka: mamy skuteczne terapie na wiele poważnych chorób skóry tryton pt., 10/23/2026 - 20:59 2 minuty"
   },
   {
    "zrodlo": "Nauka w Polsce",

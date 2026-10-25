@@ -1,5 +1,5 @@
 {
- "zebrano": "2026-10-25T14:22:25Z",
+ "zebrano": "2026-10-25T14:55:51Z",
  "kanalow_ok": 31,
  "kanalow_bledy": 2,
  "niepelny": false,
@@ -244,6 +244,26 @@
    "zrodlo": "BBC News",
    "kategoria": "NEWS",
    "region": "world",
+   "tytul": "Gabon says access to social media restored after eight-month ban",
+   "url": "https://www.bbc.co.uk/news/articles/c6x2w0ngejneo?at_medium=RSS&at_campaign=rss",
+   "opublikowano": "2026-10-25T14:39:47Z",
+   "opublikowano_surowe": "Sun, 25 Oct 2026 14:39:47 GMT",
+   "streszczenie": "The authorities had justified the ban by saying online content was fuelling conflict, while the opposition had condemned it as an abuse of power."
+  },
+  {
+   "zrodlo": "BBC News",
+   "kategoria": "NEWS",
+   "region": "world",
+   "tytul": "Russia to host first Olympic federation world event since Ukraine invasion",
+   "url": "https://www.bbc.co.uk/sport/olympics/articles/cmq5ny00gzy0o?at_medium=RSS&at_campaign=rss",
+   "opublikowano": "2026-10-25T14:34:33Z",
+   "opublikowano_surowe": "Sun, 25 Oct 2026 14:34:33 GMT",
+   "streszczenie": "The International Weightlifting Federation becomes the first Olympic federation to choose Russia to host a world championships since its invasion of Ukraine."
+  },
+  {
+   "zrodlo": "BBC News",
+   "kategoria": "NEWS",
+   "region": "world",
    "tytul": "Voters in Brazil head to polls as Lula goes up against Bolsonaro's son",
    "url": "https://www.bbc.co.uk/news/articles/cxp8g21j4648o?at_medium=RSS&at_campaign=rss",
    "opublikowano": "2026-10-25T11:54:16Z",
@@ -369,26 +389,6 @@
    "opublikowano": "2026-10-24T22:58:43Z",
    "opublikowano_surowe": "Sat, 24 Oct 2026 22:58:43 GMT",
    "streszczenie": "More than a million people flocked to Busan to catch a glimpse of the female dusky shark they called Bukangi."
-  },
-  {
-   "zrodlo": "BBC News",
-   "kategoria": "NEWS",
-   "region": "world",
-   "tytul": "Who are the candidates in Brazil's presidential election?",
-   "url": "https://www.bbc.co.uk/news/videos/cm0e0del4jewo?at_medium=RSS&at_campaign=rss",
-   "opublikowano": "2026-10-24T22:08:47Z",
-   "opublikowano_surowe": "Sat, 24 Oct 2026 22:08:47 GMT",
-   "streszczenie": "Voters in Sunday's election are choosing between two very different candidates, as Americas correspondent Ione Wells reports from Rio de Janeiro."
-  },
-  {
-   "zrodlo": "BBC News",
-   "kategoria": "NEWS",
-   "region": "world",
-   "tytul": "Fireworks and tear gas as protesters and riot police clash in Paris",
-   "url": "https://www.bbc.co.uk/news/videos/cm89zqw9lx1do?at_medium=RSS&at_campaign=rss",
-   "opublikowano": "2026-10-24T19:37:35Z",
-   "opublikowano_surowe": "Sat, 24 Oct 2026 19:37:35 GMT",
-   "streszczenie": "The BBC's Europe correspondent reports from Paris where mostly peaceful protests turned into unrest after nightfall."
   },
   {
    "zrodlo": "BBC Europe",
@@ -544,6 +544,26 @@
    "zrodlo": "The Guardian",
    "kategoria": "NEWS",
    "region": "world",
+   "tytul": "Brazilians vote in presidential election runoff pitting leftist Lula against far-right Bolsonaro",
+   "url": "https://www.theguardian.com/world/2026/oct/25/lula-da-silva-flavio-bolsonaro-brazil-presidential-election",
+   "opublikowano": "2026-10-25T14:41:17Z",
+   "opublikowano_surowe": "Sun, 25 Oct 2026 14:41:17 GMT",
+   "streszczenie": "Incumbent president lost in first round to senator and son of convicted ex-president Brazilians are going to the polls on Sunday in a highly unpredictable runoff in which the leftist president, Luiz Inácio Lula da Silva , is attempting an unprecedented comeback against the far-right senator Flávio Bolsonaro , who won the first-round vote. Bolsonaro’s surprise victory despite not leading most polls made him the favourite three weeks ago, but since then Lula’s campaign has gained ground, and the two go into the contest virtually tied. Continue reading..."
+  },
+  {
+   "zrodlo": "The Guardian",
+   "kategoria": "NEWS",
+   "region": "world",
+   "tytul": "Suspect in shooting death of teen on Missouri highway charged in second road incident",
+   "url": "https://www.theguardian.com/us-news/2026/oct/25/shooting-death-teen-missouri-highway",
+   "opublikowano": "2026-10-25T14:16:37Z",
+   "opublikowano_surowe": "Sun, 25 Oct 2026 14:16:37 GMT",
+   "streszczenie": "Man accused of shooting teen, who was driving to a party, has also been linked to shooting of a vehicle days earlier A man accused in the shooting death of a Missouri teen has been charged in a second shooting incident – both of which involve firing into cars on the highway. Alyssa Wilson, 17, was shot and killed as she drove down Interstate 170 in Overland, Missouri, on 14 October. The teen was on her way to a Halloween party at St Louis Zoo, called Boo at the Zoo, when a suspect fired a single shot into the back of Wilson’s Buick Encore. Continue reading..."
+  },
+  {
+   "zrodlo": "The Guardian",
+   "kategoria": "NEWS",
+   "region": "world",
    "tytul": "Almost two-thirds of Australians bulk-billed for all GP care amid extra incentives for doctors",
    "url": "https://www.theguardian.com/australia-news/2026/oct/26/almost-two-thirds-of-australians-bulk-billed-for-all-gp-care-amid-extra-incentives-for-doctors",
    "opublikowano": "2026-10-25T14:00:06Z",
@@ -671,24 +691,24 @@
    "streszczenie": "Police closed case of Andrew Frederick despite autopsy report ruling his death a homicide A time-critical investigation into the death of a British father whose body was found in a ransacked property on the Caribbean island of Grenada has stalled because of diplomatic delays between the two countries. Charity workers supporting the family of Andrew Frederick are demanding immediate government intervention to clear the path for a full investigation to begin almost 10 months after his death, which has been ruled a homicide by a pathologist. Continue reading..."
   },
   {
-   "zrodlo": "The Guardian",
+   "zrodlo": "Al Jazeera",
    "kategoria": "NEWS",
    "region": "world",
-   "tytul": "Brazilians vote in presidential election runoff pitting leftist Lula against far-right Bolsonaro",
-   "url": "https://www.theguardian.com/world/2026/oct/25/lula-da-silva-flavio-bolsonaro-brazil-presidential-election",
-   "opublikowano": "2026-10-25T08:00:58Z",
-   "opublikowano_surowe": "Sun, 25 Oct 2026 08:00:58 GMT",
-   "streszczenie": "Incumbent president lost in first round to senator and son of convicted ex-president Brazilians are going to the polls on Sunday in a highly unpredictable runoff in which the leftist president, Luiz Inácio Lula da Silva , is attempting an unprecedented comeback against the far-right senator Flávio Bolsonaro , who won the first-round vote. Bolsonaro’s surprise victory despite not leading most polls made him the favourite three weeks ago, but since then Lula’s campaign has gained ground, and the two go into the contest virtually tied. Continue reading..."
+   "tytul": "Gaza content creator tells Al Jazeera how much her award win means",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/25/gaza-content-creator-tells-al-jazeera-how-much-her-award-win-means?traffic_source=rss",
+   "opublikowano": "2026-10-25T14:16:06Z",
+   "opublikowano_surowe": "Sun, 25 Oct 2026 14:16:06 +0000",
+   "streszczenie": "Palestinian girl Nisreen Skaik tells Al Jazeera how much winning a Junior Digital Creator Award means"
   },
   {
-   "zrodlo": "The Guardian",
+   "zrodlo": "Al Jazeera",
    "kategoria": "NEWS",
    "region": "world",
-   "tytul": "Israeli soldiers raze neighbourhood in Hebron, driving families from homes",
-   "url": "https://www.theguardian.com/world/2026/oct/24/israel-soldiers-raze-west-bank-neighbourhood-hebron-families-from-homes",
-   "opublikowano": "2026-10-25T06:24:46Z",
-   "opublikowano_surowe": "Sun, 25 Oct 2026 06:24:46 GMT",
-   "streszczenie": "PM Benjamin Netanyahu vows ‘to destroy this place’ in retaliation for militant attack on army checkpoint Israeli troops have levelled a neighbourhood in Hebron, driving out hundreds of families in collective punishment for a militant attack on an army checkpoint outside the West Bank city, local Palestinian authorities said. The Hebron municipality estimated that 35 hectares (86 acres) had been destroyed or marked for destruction and about 1,500 people had been evicted from their homes by Saturday afternoon in the district of Ein Deir Baha. The whole city of 250,000 people was sealed off by ch"
+   "tytul": "Bangladesh per capita GDP forecast to outstrip India’s: What does it mean?",
+   "url": "https://www.aljazeera.com/news/2026/10/25/bangladesh-per-capita-gdp-forecast-to-outstrip-indias-what-does-it-mean?traffic_source=rss",
+   "opublikowano": "2026-10-25T14:11:29Z",
+   "opublikowano_surowe": "Sun, 25 Oct 2026 14:11:29 +0000",
+   "streszczenie": "Bangladesh expected to surpass India's per capita GDP this year, but that's not the complete economic picture."
   },
   {
    "zrodlo": "Al Jazeera",
@@ -819,26 +839,6 @@
    "opublikowano": "2026-10-25T10:50:38Z",
    "opublikowano_surowe": "Sun, 25 Oct 2026 10:50:38 +0000",
    "streszczenie": "The IRGC says it wants to use main squares in every capital of Iran’s 31 provinces for the Janfada campaign."
-  },
-  {
-   "zrodlo": "Al Jazeera",
-   "kategoria": "NEWS",
-   "region": "world",
-   "tytul": "Police in Albania filmed beating protester unconscious",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/25/police-in-albania-filmed-beating-protester-unconscious?traffic_source=rss",
-   "opublikowano": "2026-10-25T10:45:51Z",
-   "opublikowano_surowe": "Sun, 25 Oct 2026 10:45:51 +0000",
-   "streszczenie": "Police in Albania’s capital, Tirana, were filmed beating a protester lying on the ground."
-  },
-  {
-   "zrodlo": "Al Jazeera",
-   "kategoria": "NEWS",
-   "region": "world",
-   "tytul": "Saudi Arabia intercepts missiles and drones as fighting with Houthis rages",
-   "url": "https://www.aljazeera.com/news/2026/10/25/saudi-arabia-intercepts-missiles-and-drones-as-fighting-with-houthis-rages?traffic_source=rss",
-   "opublikowano": "2026-10-25T10:42:51Z",
-   "opublikowano_surowe": "Sun, 25 Oct 2026 10:42:51 +0000",
-   "streszczenie": "Saudi Civil Defence says the interception of Houthi ballistic missiles caused two injuries in the country's south."
   },
   {
    "zrodlo": "NPR",
@@ -1094,6 +1094,16 @@
    "zrodlo": "France 24",
    "kategoria": "NEWS",
    "region": "europe",
+   "tytul": "Calais, 10 years after the Jungle: Migrants still risk the Channel crossing",
+   "url": "https://www.france24.com/en/video/20261025-calais-10-years-after-the-jungle-migrants-still-risk-the-channel-crossing",
+   "opublikowano": "2026-10-25T14:17:32Z",
+   "opublikowano_surowe": "Sun, 25 Oct 2026 14:17:32 GMT",
+   "streszczenie": "Ten years ago, in 2016, thousands of #migrants lived in what was known as the “Great #Jungle”, a vast camp on the outskirts of #Calais. It took the authorities seven days to dismantle it. Today, dozens of smaller “jungles” are scattered across a wider stretch of the coastline. These camps are dismantled every 48 hours on average. For migrants, the goal remains the same: to cross the Channel and reach the United Kingdom. Despite the risks posed by “small boats”, these makeshift vessels, many continue to attempt the crossing in the hope of a better life. Our reporters Pauline Godart, Claire Pacc"
+  },
+  {
+   "zrodlo": "France 24",
+   "kategoria": "NEWS",
+   "region": "europe",
    "tytul": "Presidential runoff under way in Brazil",
    "url": "https://www.france24.com/en/presidential-runoff-under-way-in-brazil",
    "opublikowano": "2026-10-25T13:52:44Z",
@@ -1134,7 +1144,7 @@
    "zrodlo": "France 24",
    "kategoria": "NEWS",
    "region": "europe",
-   "tytul": "Voting under way across Brazil in tight presidential run-off between Lula and Bolsonaro",
+   "tytul": "Voting under way across Brazil in tight presidential run-off between Lula and Flavio Bolsonaro",
    "url": "https://www.france24.com/en/americas/20261025-live-voting-under-way-across-brazil-in-tight-presidential-run-off-between-lula-and-bolsonaro",
    "opublikowano": "2026-10-25T12:46:02Z",
    "opublikowano_surowe": "Sun, 25 Oct 2026 12:46:02 GMT",
@@ -1229,16 +1239,6 @@
    "opublikowano": "2026-10-25T09:32:21Z",
    "opublikowano_surowe": "Sun, 25 Oct 2026 09:32:21 GMT",
    "streszczenie": "Saturday’s demonstrations across France were largely peaceful, easing fears of a repeat of the violence seen last weekend. Hundreds of thousands took to the streets to demand action on the rising cost of living and more funding for public services, with students, workers and retirees marching side by side. Many say their anger shows no sign of fading. The government put turnout at 410,000 nationwide, while the CGT union estimated the figure was almost twice as high. Here’s Jack Pownall with more."
-  },
-  {
-   "zrodlo": "France 24",
-   "kategoria": "NEWS",
-   "region": "europe",
-   "tytul": "France’s far right gathers as Le Pen prepares her presidential campaign",
-   "url": "https://www.france24.com/en/france-s-far-right-gathers-as-le-pen-prepares-her-presidential-campaign",
-   "opublikowano": "2026-10-25T09:31:02Z",
-   "opublikowano_surowe": "Sun, 25 Oct 2026 09:31:02 GMT",
-   "streszczenie": "Meanwhile, France’s far-right National Rally is holding the second day of its party congress in Orléans, south of Paris. Marine Le Pen is expected to officially launch her presidential campaign in a speech later this afternoon, while Jordan Bardella is being re-elected as party leader. On Saturday, a large counter-demonstration against the far right was held in the city. For more on what’s happening there, let’s cross to our reporter, Antonia Kerrigan."
   },
   {
    "zrodlo": "Politico Europe",
@@ -1644,6 +1644,36 @@
    "zrodlo": "RMF24",
    "kategoria": "NEWS",
    "region": "poland",
+   "tytul": "Zakazana wyspa. Żyje na niej najbardziej odizolowane plemię na świecie",
+   "url": "https://www.rmf24.pl/fakty/swiat/news-zakazana-wyspa-zyje-na-niej-najbardziej-odizolowane-plemie-n,nIdn,1022866",
+   "opublikowano": "2026-10-25T14:41:00Z",
+   "opublikowano_surowe": "Sun, 25 Oct 2026 15:41:00 +0100",
+   "streszczenie": "Zakazana wyspa. Żyje na niej najbardziej odizolowane plemię na świecie"
+  },
+  {
+   "zrodlo": "RMF24",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Partia Razem idzie sama. Po wyborach w Krakowie czuje się mocna",
+   "url": "https://www.rmf24.pl/fakty/polityka/news-partia-razem-idzie-sama-po-wyborach-w-krakowie-czuje-sie-moc,nIdn,1023328",
+   "opublikowano": "2026-10-25T14:41:00Z",
+   "opublikowano_surowe": "Sun, 25 Oct 2026 15:41:00 +0100",
+   "streszczenie": "Partia Razem idzie sama. Po wyborach w Krakowie czuje się mocna"
+  },
+  {
+   "zrodlo": "RMF24",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Przedterminowe wybory w Serbii. Tłumy głosujących, część przyszła z własnymi długopisami",
+   "url": "https://www.rmf24.pl/fakty/swiat/news-przedterminowe-wybory-w-serbii-tlumy-glosujacych-czesc-przys,nIdn,1023325",
+   "opublikowano": "2026-10-25T14:27:00Z",
+   "opublikowano_surowe": "Sun, 25 Oct 2026 15:27:00 +0100",
+   "streszczenie": "Przedterminowe wybory w Serbii. Tłumy głosujących, część przyszła z własnymi długopisami"
+  },
+  {
+   "zrodlo": "RMF24",
+   "kategoria": "NEWS",
+   "region": "poland",
    "tytul": "Wicemarszałek Senatu: Pełczyńska-Nałęcz chce założyć nowe stowarzyszenie",
    "url": "https://www.rmf24.pl/fakty/polityka/news-wicemarszalek-senatu-pelczynska-nalecz-chce-zalozyc-nowe-sto,nIdn,1023324",
    "opublikowano": "2026-10-25T13:10:00Z",
@@ -1761,34 +1791,54 @@
    "streszczenie": "Bratysława mówi \"nie\" rządowi Ficy. Vallo wygrywa w stolicy Słowacji"
   },
   {
-   "zrodlo": "RMF24",
+   "zrodlo": "TVN24",
    "kategoria": "NEWS",
    "region": "poland",
-   "tytul": "Drugie życie starego asfaltu. Polscy naukowcy stworzą drogi przyszłości",
-   "url": "https://www.rmf24.pl/fakty/nauka/news-drugie-zycie-starego-asfaltu-polscy-naukowcy-stworza-drogi-p,nIdn,1022806",
-   "opublikowano": "2026-10-25T08:12:00Z",
-   "opublikowano_surowe": "Sun, 25 Oct 2026 09:12:00 +0100",
-   "streszczenie": "Drugie życie starego asfaltu. Polscy naukowcy stworzą drogi przyszłości"
+   "tytul": "Jedna firma na całą Europę. Trwa spór o \"EU Inc\"",
+   "url": "https://tvn24.pl/biznes/dlafirm/jedna-firma-na-cala-europe-trwa-spor-o-eu-inc-st9304977?source=rss",
+   "opublikowano": "2026-10-25T14:44:12Z",
+   "opublikowano_surowe": "Sun, 25 Oct 2026 14:44:12 GMT",
+   "streszczenie": "Kraje Wspólnoty zrezygnowały z części założeń projektu nowej struktury prawnej dla przedsiębiorstw, które chciałyby operować w kilku państwach Unii Europejskiej jednocześnie - poinformował \"Financial Times\". Dobrowolny status prawny, nazywany potocznie \"EU Inc\", stanowi element szerszych starań Brukseli na rzecz wyeliminowania różnic regulacyjnych wewnątrz UE."
   },
   {
-   "zrodlo": "RMF24",
+   "zrodlo": "TVN24",
    "kategoria": "NEWS",
    "region": "poland",
-   "tytul": "GIS wydał komunikat w sprawie pierwszego przypadku wykrycia wirusa Shamonda u człowieka",
-   "url": "https://www.rmf24.pl/fakty/polska/news-gis-wydal-komunikat-w-sprawie-pierwszego-przypadku-wykrycia-,nIdn,1023296",
-   "opublikowano": "2026-10-25T08:05:00Z",
-   "opublikowano_surowe": "Sun, 25 Oct 2026 09:05:00 +0100",
-   "streszczenie": "GIS wydał komunikat w sprawie pierwszego przypadku wykrycia wirusa Shamonda u człowieka"
+   "tytul": "Zderzenie w Alei Niepodległości, jedno auto dachowało",
+   "url": "https://tvn24.pl/tvnwarszawa/mokotow/warszawa-zderzenie-w-alei-niepodleglosci-jedno-auto-dachowalo-st9305055?source=rss",
+   "opublikowano": "2026-10-25T14:43:46Z",
+   "opublikowano_surowe": "Sun, 25 Oct 2026 14:43:46 GMT",
+   "streszczenie": "W niedzielę w godzinach popołudniowych w Alei Niepodległości, w okolicy stacji metra Racławicka, zderzyły się dwa pojazdy osobowe. Są utrudnienia w ruchu. Autobusy zostały skierowane na objazdy."
   },
   {
-   "zrodlo": "RMF24",
+   "zrodlo": "TVN24",
    "kategoria": "NEWS",
    "region": "poland",
-   "tytul": "W poniedziałek rusza przebudowa ważnej ulicy w Krakowie",
-   "url": "https://www.rmf24.pl/regiony/krakow/news-w-poniedzialek-rusza-przebudowa-waznej-ulicy-w-krakowie,nIdn,1023297",
-   "opublikowano": "2026-10-25T07:36:00Z",
-   "opublikowano_surowe": "Sun, 25 Oct 2026 08:36:00 +0100",
-   "streszczenie": "W poniedziałek rusza przebudowa ważnej ulicy w Krakowie"
+   "tytul": "Chmury mieniły się barwami tęczy. Zdjęcia",
+   "url": "https://tvn24.pl/tvnmeteo/polska/chmury-mienily-sie-barwami-teczy-zdjecia-iryzacja-jak-powstaje-to-zjawisko-st9304955?source=rss",
+   "opublikowano": "2026-10-25T14:41:31Z",
+   "opublikowano_surowe": "Sun, 25 Oct 2026 14:41:31 GMT",
+   "streszczenie": "W niedzielę na chmurach w Małopolsce pojawiły się tęczowe barwy. Można to zobaczyć na zdjęciach. Sprawdź, jak nazywa się to zjawisko i jak powstało."
+  },
+  {
+   "zrodlo": "TVN24",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "\"Z Kasią zawsze mieliśmy inne ustawienia fabryczne\". Szymon Hołownia z refleksją na niedzielę",
+   "url": "https://tvn24.pl/polska/szymon-holownia-z-refleksja-o-wyrzuceniu-katarzyny-pelczynskiej-nalecz-z-polski-2050-inne-ustawienia-fabryczne-st9305004?source=rss",
+   "opublikowano": "2026-10-25T14:35:42Z",
+   "opublikowano_surowe": "Sun, 25 Oct 2026 14:35:42 GMT",
+   "streszczenie": "Szef klubu Polski 2050 Szymon Hołownia przekonuje, że wyrzucenie Katarzyny Pełczyńskiej-Nałęcz z partii jest \"naturalną konsekwencją\" jej własnych decyzji. Zarzucił jej, że chciała wyprowadzić Polskę 2050 z koalicji rządzącej \"jednoosobowo\". Napisał też, że \"wojna\" z Tuskiem, Nawrockim, PSL i Lewicą to \"idiotyzm\"."
+  },
+  {
+   "zrodlo": "TVN24",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Spór o Starlinka. Musk: ukraińskie wojsko złamało warunki",
+   "url": "https://tvn24.pl/biznes/ze-swiata/spor-o-starlinka-elon-musk-ukrainskie-wojsko-zlamalo-warunki-st9305003?source=rss",
+   "opublikowano": "2026-10-25T14:26:29Z",
+   "opublikowano_surowe": "Sun, 25 Oct 2026 14:26:29 GMT",
+   "streszczenie": "Ukraina poinformowała, że system satelitarny Starlink oraz jego wojskowa wersja Starshield są już w pełni sprawne po ponad tygodniu ograniczeń - przekazał Reuters. Kilka godzin później szef SpaceX Elon Musk zarzucił ukraińskim siłom zbrojnym naruszenie regulaminu usługi."
   },
   {
    "zrodlo": "TVN24",
@@ -1814,11 +1864,11 @@
    "zrodlo": "TVN24",
    "kategoria": "NEWS",
    "region": "poland",
-   "tytul": "Ewakuacja Lotniska Chopina, zablokowane są jezdnie przed terminalem",
+   "tytul": "Ewakuacja Lotniska Chopina z powodu bagażu",
    "url": "https://tvn24.pl/tvnwarszawa/wlochy/warszawa-ewakuacja-lotniska-chopina-utrudnienia-na-pobliskich-ulicach-st9304982?source=rss",
    "opublikowano": "2026-10-25T13:49:43Z",
    "opublikowano_surowe": "Sun, 25 Oct 2026 13:49:43 GMT",
-   "streszczenie": "W niedzielę w godzinach popołudniowych ewakuowano część pasażerów przebywających na Lotnisku Chopina. Powodem jest pozostawiony bez opieki bagaż. Są też utrudnienia w kursowaniu autobusów."
+   "streszczenie": "W niedzielę w godzinach popołudniowych ewakuowano część pasażerów przebywających na Lotnisku Chopina. Powodem był pozostawiony bez opieki bagaż. Akcja już się zakończyła."
   },
   {
    "zrodlo": "TVN24",
@@ -1891,54 +1941,24 @@
    "streszczenie": "Trwa najdłuższa w tym roku przerwa w kalendarzu niedziel handlowych. Najbliższe przypadną dopiero pod koniec roku: 6, 13 i 20 grudnia. To ponad trzy miesiące od ostatniej niedzieli handlowej."
   },
   {
-   "zrodlo": "TVN24",
+   "zrodlo": "Polsat News",
    "kategoria": "NEWS",
    "region": "poland",
-   "tytul": "Tragiczny wypadek na torach. Utrudnienia w kursowaniu pociągów",
-   "url": "https://tvn24.pl/tvnwarszawa/okolice/minsk-mazowiecki-smiertelny-wypadek-na-torach-utrudnienia-st9304745?source=rss",
-   "opublikowano": "2026-10-25T12:09:57Z",
-   "opublikowano_surowe": "Sun, 25 Oct 2026 12:09:57 GMT",
-   "streszczenie": "W niedzielę przed południem na torach w miejscowości Cisie (Mazowieckie) doszło do śmiertelnego potrącenia mężczyzny. Są utrudnienia w kursowaniu pociągów Kolei Mazowieckich i Szybkiej Kolei Miejskiej."
+   "tytul": "Hołownia odpowiada \"gorącym głowom\" ws. Pełczyńskiej-Nałęcz. Sięgnął po Biblię",
+   "url": "https://www.polsatnews.pl/wiadomosc/2026-10-25/holownia-odpowiada-goracym-glowom-ws-peczynskiej-nalecz-siegna-po-biblie/",
+   "opublikowano": "2026-10-25T14:36:00Z",
+   "opublikowano_surowe": "Sun, 25 Oct 2026 15:36:00 +0100",
+   "streszczenie": "Nie wypada ogłaszać zwrócenia powierzonego sobie mandatu w mediach społecznościowych, zanim nie zakomunikuje się ich drużynie. To nie fair, to łamie naszą umowę i zasady gry - napisał Szymon Hołownia, odnosząc się do decyzji Katarzyny Pełczyńskiej-Nałęcz o dymisji z funkcji ministra. Dalej wyjaśnił, dlaczego polityk została usunięta z partii."
   },
   {
-   "zrodlo": "TVN24",
+   "zrodlo": "Polsat News",
    "kategoria": "NEWS",
    "region": "poland",
-   "tytul": "Dlaczego Katarzyna Pełczyńska-Nałęcz odeszła z rządu? \"Po prostu pękła\"",
-   "url": "https://tvn24.pl/polska/dlaczego-katarzyna-pelczynska-nalecz-odeszla-z-rzadu-i-zostala-wyrzucona-z-partii-politycy-komentuja-st9304464?source=rss",
-   "opublikowano": "2026-10-25T11:59:38Z",
-   "opublikowano_surowe": "Sun, 25 Oct 2026 11:59:38 GMT",
-   "streszczenie": "Katarzyna Pełczyńska-Nałęcz miała tak poważne i duże ambicje zostania wicepremierem, że kiedy się to nie udało, po prostu odeszła - oceniła w \"Kawie na ławę\" w TVN24 Urszula Pasławska (PSL). Anita Kucharska-Dziedzic (Lewica) wskazała, które zachowanie ministry \"odbija się na stosunku wszystkich, którzy się w tej chwili wypowiadają o niej\". Paweł Śliz z Polski 2050 zapowiedział, że uchwała w sprawie usunięcia Pełczyńskiej-Nałęcz z partii \"zostanie pokazana\"."
-  },
-  {
-   "zrodlo": "TVN24",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Zderzył się z innym autem i wjechał w przystanek",
-   "url": "https://tvn24.pl/poznan/poznan-zderzyl-sie-z-innym-autem-i-wjechal-w-przystanek-st9304704?source=rss",
-   "opublikowano": "2026-10-25T11:43:07Z",
-   "opublikowano_surowe": "Sun, 25 Oct 2026 11:43:07 GMT",
-   "streszczenie": "Po zderzeniu z innym autem wjechał w wiatę przystankową. Na szczęście, znajdującym się tam osobom nic się nie stało."
-  },
-  {
-   "zrodlo": "TVN24",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Zjechał z dogi i uderzył w płot. Strażacy rozcinali wrak auta, by wydobyć kierowcę",
-   "url": "https://tvn24.pl/tvnwarszawa/okolice/sochaczew-zjechal-z-dogi-i-uderzyl-w-plot-strazacy-rozcinali-wrak-auta-by-wydobyc-kierowce-st9304660?source=rss",
-   "opublikowano": "2026-10-25T11:38:20Z",
-   "opublikowano_surowe": "Sun, 25 Oct 2026 11:38:20 GMT",
-   "streszczenie": "27-letni kierowca zjechał z drogi i uderzył w ogrodzenie sadu. Z wraku auta uwolnili go strażacy, trafił do szpitala."
-  },
-  {
-   "zrodlo": "TVN24",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "\"Nie bez Polski\". Rozmowy o bezpieczeństwie w Europie",
-   "url": "https://tvn24.pl/swiat/piotr-lukasiewicz-w-faktach-po-faktach-dyplomata-o-planach-trojstronnego-spotkania-st9304327?source=rss",
-   "opublikowano": "2026-10-25T11:30:35Z",
-   "opublikowano_surowe": "Sun, 25 Oct 2026 11:30:35 GMT",
-   "streszczenie": "Nie ma rozmowy o bezpieczeństwie w Europie Centralnej, w Europie Środkowej bez Polski, bez państw, których takie rozmowy bezpośrednio dotyczą - powiedział Piotr Łukasiewicz, charge d'affaires w Ukrainie w sobotniej rozmowie w \"Faktach po Faktach\". Dyplomata skomentował plany trójstronnego spotkania przywódców USA, Rosji i Chin."
+   "tytul": "Najniebezpieczniejszy szlak morski świata. Wcale nie chodzi o cieśninę Ormuz",
+   "url": "https://www.polsatnews.pl/wiadomosc/2026-10-25/najniebezpieczniejszy-szlak-morski-swiata-wcale-nie-chodzi-o-ciesnine-ormuz/",
+   "opublikowano": "2026-10-25T14:26:00Z",
+   "opublikowano_surowe": "Sun, 25 Oct 2026 15:26:00 +0100",
+   "streszczenie": "Morze Czarne stało się najbardziej śmiercionośnym szlakiem żeglugowym na świecie - informuje Financial Times. Od początku roku zaatakowano tam ponad 570 statków, a zginęło co najmniej 40 marynarzy. Liczba ofiar przewyższa bilans w rejonie cieśniny Ormuz. Eksperci alarmują, że wojna między Rosją a Ukrainą coraz bardziej zagraża międzynarodowemu transportowi morskiemu."
   },
   {
    "zrodlo": "Polsat News",
@@ -2071,24 +2091,34 @@
    "streszczenie": "O godz. 7.00 w Częstochowie rozpoczęło się głosowanie w referendum w sprawie odwołania prezydenta i rady miasta. Organizatorzy akcji uważają, że Krzysztof Matyjaszczyk nie powinien rządzić, ponieważ ciążą na nim zarzuty prokuratorskie dotyczące korupcji. Mieszkańcy będą mogli oddawać głosy do godziny 21.00."
   },
   {
-   "zrodlo": "Polsat News",
+   "zrodlo": "Onet Wiadomości",
    "kategoria": "NEWS",
    "region": "poland",
-   "tytul": "\"Śniadanie Rymanowskiego w Polsat News i Interii\" [OGLĄDAJ]",
-   "url": "https://www.polsatnews.pl/wiadomosc/2026-10-25/sniadanie-rymanowskiego-w-polsat-news-i-interii-ogladaj-od-955-25/",
-   "opublikowano": "2026-10-25T06:59:00Z",
-   "opublikowano_surowe": "Sun, 25 Oct 2026 07:59:00 +0100",
-   "streszczenie": "Bogdan Rymanowski oraz zaproszeni przez niego goście rozmawiają o bieżącej sytuacji w Polsce i na świecie. Transmisja programu Śniadanie Rymanowskiego od godz. 9.55 w Polsat News, Interii i na polsatnews.pl."
+   "tytul": "Pożar restauracji Młyn w Bytowie. Siedemnaście zastępów straży walczy z ogniem",
+   "url": "https://wiadomosci.onet.pl/trojmiasto/pozar-restauracji-mlyn-w-bytowie-siedemnascie-zastepow-strazy-w-akcji/x22f5sw",
+   "opublikowano": "2026-10-25T14:50:21Z",
+   "opublikowano_surowe": "Sun, 25 Oct 2026 14:50:21 GMT",
+   "streszczenie": "17 zastępów straży pożarnej gasi pożar restauracji Młyn w Bytowie przy ul. Wolności. Ogień, który pojawił się w pomieszczeniach kuchni, szybko się rozprzestrzenił na poddasze budynku. Nie ma osób poszkodowanych — informuje rzecznik prasowy pomorskiej PSP mł. asp. Dawid Westrych."
   },
   {
-   "zrodlo": "Polsat News",
+   "zrodlo": "Onet Wiadomości",
    "kategoria": "NEWS",
    "region": "poland",
-   "tytul": "Marcin Horała w \"Politycznym WF-ie z gościem\" [OGLĄDAJ]",
-   "url": "https://www.polsatnews.pl/wiadomosc/2026-10-25/marcin-horala-w-politycznym-wf-ie-z-gosciem-ogladaj-od-1100/",
-   "opublikowano": "2026-10-25T06:25:00Z",
-   "opublikowano_surowe": "Sun, 25 Oct 2026 07:25:00 +0100",
-   "streszczenie": "Czy wprowadzenie podatku od big techów spotka się z reakcją USA? Jakie błędy popełnił PiS i jak Rozwój Plus postrzega zarządzanie w partii Jarosława Kaczyńskiego? O tym - i nie tylko - w Politycznym WF-ie z gościem z Marcinem Horałą, wicemarszałkiem Sejmu z Rozwoju Plus, porozmawiają Marcin Fijołek oraz Marek Tejchman. Transmisja w polsatnews.pl i w Polsat News od godz. 11:00."
+   "tytul": "Ekspert od bezpieczeństwa: USA i Izrael wkrótce uderzą na Iran. Nie mam wątpliwości, że czeka nas kolejna runda [WYWIAD]",
+   "url": "https://wiadomosci.onet.pl/swiat/ekspert-usa-i-izrael-wkrotce-uderza-na-iran-wskazuje-dwa-rozne-cele/8y4q2vc",
+   "opublikowano": "2026-10-25T14:50:05Z",
+   "opublikowano_surowe": "Sun, 25 Oct 2026 14:50:05 GMT",
+   "streszczenie": "Przed wyborami w Izraelu 27 listopada rośnie niepokój związany z możliwą eskalacją wojny na Bliskim Wschodzie. Zdaniem eksperta ds. bezpieczeństwa Itaja Mediny irański reżim musi obawiać się przede wszystkim jednej daty — wskazuje nawet konkretne cele ataku."
+  },
+  {
+   "zrodlo": "Onet Wiadomości",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Kierowca przelewał alkohol do butelki z napojem. Tak zareagowały 17-latki",
+   "url": "https://wiadomosci.onet.pl/lublin/kierowca-przelewal-alkohol-do-butelki-z-napojem-tak-zareagowaly-17-latki/ke4vp9w",
+   "opublikowano": "2026-10-25T14:36:01Z",
+   "opublikowano_surowe": "Sun, 25 Oct 2026 14:36:01 GMT",
+   "streszczenie": "Dwie 17-letnie uczennice z Biłgoraja na Lubelszczyźnie zauważyły kierowcę autobusu, który podczas postoju przelewał alkohol do butelki z gazowanym napojem. Niezwłocznie poinformowały o tym policję."
   },
   {
    "zrodlo": "Onet Wiadomości",
@@ -2211,34 +2241,14 @@
    "streszczenie": "To Donald Tusk jest lepszym liderem swojego obozu politycznego niż Jarosław Kaczyński. Przewaga wynosi ponad 13 pkt proc. — wynika z sondażu United Surveys dla Wirtualnej Polski."
   },
   {
-   "zrodlo": "Onet Wiadomości",
+   "zrodlo": "Interia Fakty",
    "kategoria": "NEWS",
    "region": "poland",
-   "tytul": "Katarzyna Pełczyńska-Nałęcz będzie rozmawiać z obozem prezydenckim? \"Political fiction\"",
-   "url": "https://wiadomosci.onet.pl/kraj/pelczynska-nalecz-bedzie-rozmawiac-z-obozem-prezydenckim-political-fiction/3yl04qn",
-   "opublikowano": "2026-10-25T10:34:54Z",
-   "opublikowano_surowe": "Sun, 25 Oct 2026 10:34:54 GMT",
-   "streszczenie": "— Pan prezydent będzie opierał się o takich ludzi, z którymi się zgadza, natomiast z panią Pełczyńską w wielu aspektach również też politycznych i ideologicznych się nie zgadza — powiedział prezydencki minister Marcin Przydacz, pytany w Polsat News o ewentualną współpracę obozu prezydenckiego z byłą szefową Polski 2050."
-  },
-  {
-   "zrodlo": "Onet Wiadomości",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Sądny dzień dla ostatniego przyjaciela Putina w Europie. Konsekwencje wyborów w Serbii odczuje i Rosja, i UE",
-   "url": "https://wiadomosci.onet.pl/swiat/wybory-w-serbii-ostatni-przyjaciel-putina-w-europie-walczy-o-przetrwanie/913733g",
-   "opublikowano": "2026-10-25T10:25:35Z",
-   "opublikowano_surowe": "Sun, 25 Oct 2026 10:25:35 GMT",
-   "streszczenie": "Moskwa bacznie i z niepokojem obserwuje, jak Aleksandar Vucić staje przed największym wyzwaniem, odkąd zdobył władzę — najważniejszymi wyborami parlamentarnymi w Serbii od czasu obalenia Slobodana Miloszewicia w 2000 r. Co ciekawe, przegrana tego prorosyjskiego kandydata to potencjalny problem także dla UE i Ameryki."
-  },
-  {
-   "zrodlo": "Onet Wiadomości",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Przemek rzucił karierę w IT i wpadł na nietypowy pomysł. \"Patrzyli jak na wariata albo złodzieja\"",
-   "url": "https://wiadomosci.onet.pl/kraj/przemek-rzucil-kariere-w-it-i-zostal-sadownikiem-dostalem-brutalna-lekcje/v3fetdz",
-   "opublikowano": "2026-10-25T10:20:17Z",
-   "opublikowano_surowe": "Sun, 25 Oct 2026 10:20:17 GMT",
-   "streszczenie": "Przemysław Gontarz przez dekadę zarządzał projektami w międzynarodowych korporacjach. Szybkie awanse i wysokie zarobki nie przynosiły satysfakcji. — Po 10 latach człowiek budzi się z pytaniem: co ja właściwie mam z tego życia? — mówi Przemysław. Dziś ratuje tradycyjne odmiany polskich jabłek i tłoczy z nich soki."
+   "tytul": "Francuskie miasta w ogniu, liczą straty po \"bitwach\". Zatrzymano setki osób",
+   "url": "https://wydarzenia.interia.pl/zagranica/news-francuskie-miasta-w-ogniu-licza-straty-po-bitwach-zatrzymano,nId,23563650",
+   "opublikowano": "2026-10-25T14:43:46Z",
+   "opublikowano_surowe": "Sun, 25 Oct 2026 14:43:46 GMT",
+   "streszczenie": "Francuskie służby liczą straty po kolejnej fali protestów w całym kraju. W starciach z agresywnymi demonstrantami rannych zostało 53 funkcjonariuszy. W sumie zatrzymano w całym kraju 1314 osób. W kilku miastach odnotowano przypadki poważnych obrażeń wśród protestujących."
   },
   {
    "zrodlo": "Interia Fakty",
@@ -2248,7 +2258,7 @@
    "url": "https://wydarzenia.interia.pl/mazowieckie/news-w-srodku-nocy-wypadl-na-luku-z-drogi-kierowca-uwieziony-w-zm,nId,23563648",
    "opublikowano": "2026-10-25T14:13:35Z",
    "opublikowano_surowe": "Sun, 25 Oct 2026 14:13:35 GMT",
-   "streszczenie": "Groźna kolizja w Sochaczewie w środku nocy. 27-letni kierowca na łuku drogi zjechał z jezdni i uderzył ogrodzenie. Samochód był na tyle zdeformowany, że kierowca nie mógł opuścić go o własnych siłach - został uwięziony w zmiażdżonym wnętrzu. Trzeba było użyć specjalistycznego sprzętu."
+   "streszczenie": "Groźna kolizja w Sochaczewie w środku nocy. 27-latek na łuku drogi zjechał z jezdni i uderzył ogrodzenie. Samochód był na tyle zdeformowany, że kierowca nie mógł opuścić go o własnych siłach - został uwięziony w zmiażdżonym wnętrzu. Trzeba było użyć specjalistycznego sprzętu."
   },
   {
    "zrodlo": "Interia Fakty",
@@ -2381,14 +2391,34 @@
    "streszczenie": "Stawał się dla mnie bardziej współlokatorem niż partnerem, a każda propozycja wyjścia gdzieś razem kończyła się pytaniem, czy musimy, albo żebym poszła z koleżanką - mówi o swoim \"cichym rozwodzie\" Beata. Niby razem, ale coraz bardziej osobno. Dla jednych to etap przed rozwodem, dla innych sposób na życie przez wiele lat."
   },
   {
-   "zrodlo": "Interia Fakty",
+   "zrodlo": "Rzeczpospolita",
    "kategoria": "NEWS",
    "region": "poland",
-   "tytul": "Miliony dolarów dla pokrzywdzonych. Kościół w USA zawiera ugodę",
-   "url": "https://wydarzenia.interia.pl/zagranica/news-miliony-dolarow-dla-pokrzywdzonych-kosciol-w-usa-zawiera-ugo,nId,23563564",
-   "opublikowano": "2026-10-25T08:43:37Z",
-   "opublikowano_surowe": "Sun, 25 Oct 2026 08:43:37 GMT",
-   "streszczenie": "Archidiecezja Nowego Jorku i prawnicy około 1300 osób, które twierdzą, że zostały skrzywdzone przez duchownych, uzgodnili ugodę prawną na kwotę 800 milionów dolarów. Porozumienie, które ma zakończyć ponad siedem lat sporów sądowych, jest drugą co do wielkości ugodą dotyczącą nadużyć w Kościele katolickim w Stanach Zjednoczonych - podała agencja Associated Press."
+   "tytul": "Russell sięga do tej samej historii co Kawalerowicz. „Diabły” w kinach po 55 latach",
+   "url": "https://www.rp.pl/plus-minus/art45387181-russell-siega-do-tej-samej-historii-co-kawalerowicz-diably-w-kinach-po-55-latach",
+   "opublikowano": "2026-10-25T14:55:00Z",
+   "opublikowano_surowe": "Sun, 25 Oct 2026 15:55:00 +0100",
+   "streszczenie": "W małym Loudun diabeł okazuje się znakomitym narzędziem politycznym."
+  },
+  {
+   "zrodlo": "Rzeczpospolita",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Zełenski odrzucił propozycję pokoju w 2023 roku. Ukraiński poseł potwierdza doniesienia",
+   "url": "https://www.rp.pl/konflikty-zbrojne/art45392201-zelenski-odrzucil-propozycje-pokoju-w-2023-roku-ukrainski-posel-potwierdza-doniesienia",
+   "opublikowano": "2026-10-25T14:40:08Z",
+   "opublikowano_surowe": "Sun, 25 Oct 2026 15:40:08 +0100",
+   "streszczenie": "Wymagano od nas przyjęcia ustawy, zakazującej odzyskiwania Krymu drogą militarną – przekazał ukraiński deputowany Oleksiy Goncharenko. Potwierdził on nieoficjalną propozycję paktu pokojowego, jaką w 2023 roku miał odrzucić prezydent Ukrainy Wołodymyr Zełenski."
+  },
+  {
+   "zrodlo": "Rzeczpospolita",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Chińskie towary zalewają Polskę. Prawie 400 grup produktów zagraża krajowym fabrykom",
+   "url": "https://www.rp.pl/biznes/art45390861-chinskie-towary-zalewaja-polske-prawie-400-grup-produktow-zagraza-krajowym-fabrykom",
+   "opublikowano": "2026-10-25T14:32:25Z",
+   "opublikowano_surowe": "Sun, 25 Oct 2026 15:32:25 +0100",
+   "streszczenie": "Coraz więcej towarów sprowadzanych z Chin do Polski stanowi bezpośrednią konkurencję dla polskich fabryk – wskazują ekonomiści Credit Agricole w analizie, którą w „Rzeczpospolitej” publikujemy jako pierwsi. Na nadmiarowym imporcie z Azji stratni mogą być przede wszystkim producenci tekstyliów, odzieży, obuwia, maszyn i elektroniki."
   },
   {
    "zrodlo": "Rzeczpospolita",
@@ -2511,44 +2541,14 @@
    "streszczenie": "Obiekty handlowe, które dostosują ofertę do starzejącego się społeczeństwa i rosnącej liczby mniejszych gospodarstw domowych, zyskają przewagę."
   },
   {
-   "zrodlo": "Rzeczpospolita",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Radykalna lewica rośnie na ulicznych protestach we Francji",
-   "url": "https://www.rp.pl/polityka/art45391861-radykalna-lewica-rosnie-na-ulicznych-protestach-we-francji",
-   "opublikowano": "2026-10-25T10:50:46Z",
-   "opublikowano_surowe": "Sun, 25 Oct 2026 11:50:46 +0100",
-   "streszczenie": "W sobotę na ulicach francuskich miast mogło protestować ponad pół miliona osób. Mimo obaw, że brutalne starcia się powtórzą, było zaskakująco spokojnie. A współorganizator protestów, kandydat na prezydenta republiki, Jean-Luc Mélenchon, zyskuje w sondażach."
-  },
-  {
-   "zrodlo": "Rzeczpospolita",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Po Konkursie Wieniawskiego: Jak grać, aby wygrać nie tylko nagrodę",
-   "url": "https://www.rp.pl/muzyka-klasyczna/art45391751-po-konkursie-wieniawskiego-jak-grac-aby-wygrac-nie-tylko-nagrode",
-   "opublikowano": "2026-10-25T10:44:13Z",
-   "opublikowano_surowe": "Sun, 25 Oct 2026 11:44:13 +0100",
-   "streszczenie": "Atrakcyjnie odmieniony Międzynarodowy Konkurs im. Henryka Wieniawskiego stara się dać światu artystów, którzy w dzisiejszym globalnym świecie będą wyróżniać się indywidualnością. Taką szansę mają z pewnością tegoroczni zwycięzcy."
-  },
-  {
-   "zrodlo": "Rzeczpospolita",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Od niedzieli w Polsce mamy „właściwy” czas. Choć niemal nigdzie nie jest zgodny ze słonecznym",
-   "url": "https://www.rp.pl/spoleczenstwo/art45391981-od-niedzieli-w-polsce-mamy-wlasciwy-czas-choc-niemal-nigdzie-nie-jest-zgodny-ze-slonecznym",
-   "opublikowano": "2026-10-25T10:29:11Z",
-   "opublikowano_surowe": "Sun, 25 Oct 2026 11:29:11 +0100",
-   "streszczenie": "W nocy z 24 na 25 października cofnęliśmy zegarki o godzinę, ponieważ Polska przeszła z czasu letniego na czas zimowy. To właśnie czas zimowy jest tym, który jest bliższy średniemu czasowi słonecznemu na większości terytorium Polski."
-  },
-  {
    "zrodlo": "TVN Warszawa",
    "kategoria": "NEWS",
    "region": "warsaw",
-   "tytul": "Ewakuacja Lotniska Chopina, zablokowane są jezdnie przed terminalem",
+   "tytul": "Ewakuacja Lotniska Chopina z powodu bagażu",
    "url": "https://tvn24.pl/tvnwarszawa/wlochy/warszawa-ewakuacja-lotniska-chopina-utrudnienia-na-pobliskich-ulicach-st9304982?source=rss",
    "opublikowano": "2026-10-25T13:49:43Z",
    "opublikowano_surowe": "Sun, 25 Oct 2026 13:49:43 GMT",
-   "streszczenie": "W niedzielę w godzinach popołudniowych ewakuowano część pasażerów przebywających na Lotnisku Chopina. Powodem jest pozostawiony bez opieki bagaż. Są też utrudnienia w kursowaniu autobusów."
+   "streszczenie": "W niedzielę w godzinach popołudniowych ewakuowano część pasażerów przebywających na Lotnisku Chopina. Powodem był pozostawiony bez opieki bagaż. Akcja już się zakończyła."
   },
   {
    "zrodlo": "TVN Warszawa",
@@ -2994,6 +2994,16 @@
    "zrodlo": "The Verge",
    "kategoria": "Tech",
    "region": "world",
+   "tytul": "r/opensource just banned AI, non-English speakers, and more",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban",
+   "opublikowano": "2026-10-25T13:52:12Z",
+   "opublikowano_surowe": "2026-10-25T09:52:12-04:00",
+   "streszczenie": "The mods at r/opensource posted new submission rules that, among other things, banned projects that use AI. The post made Saturday evening opens by saying, \"If your project uses AI, is made by AI, or is intended for AI, it's not welcome on r/opensource. AI, as it exists today, is incongruent to this Open Source […]"
+  },
+  {
+   "zrodlo": "The Verge",
+   "kategoria": "Tech",
+   "region": "world",
    "tytul": "Blue Planet III is keeping the rough edges in the age of AI",
    "url": "https://www.theverge.com/ai-artificial-intelligence/1018205/blue-planet-iii-authentic-organic-ai",
    "opublikowano": "2026-10-24T21:29:12Z",
@@ -3039,16 +3049,6 @@
    "opublikowano": "2026-10-24T12:14:27Z",
    "opublikowano_surowe": "2026-10-24T08:14:27-04:00",
    "streszczenie": "Lee Chang Dong's seventh feature film, Possible Love, is inspired by true events from 2009, when a Korean conglomerate fired a third of its staff - 2,600 employees - after which many died by suicide. Possible Love is the latest in a long line of Lee movies that engage with themes of class or labor […]"
-  },
-  {
-   "zrodlo": "The Verge",
-   "kategoria": "Tech",
-   "region": "world",
-   "tytul": "It’s time to find a new browser",
-   "url": "https://www.theverge.com/tech/1018121/cod-4-claude-duet-wildwood-installer",
-   "opublikowano": "2026-10-24T01:16:47Z",
-   "opublikowano_surowe": "2026-10-23T21:16:47-04:00",
-   "streszczenie": "Hi, friends! Welcome to Installer No. 149, your guide to the best and Verge-iest stuff in the world. (If you're new here, welcome, happy It Actually Feels Like Fall Now At Least In My Neighborhood), and also you can read all the old editions at the Installer homepage.) This week, I've been reading about Demis […]"
   },
   {
    "zrodlo": "The Verge",

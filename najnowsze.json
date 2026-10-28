@@ -1,9 +1,9 @@
 {
- "zebrano": "2026-10-28T14:34:33Z",
- "kanalow_ok": 31,
- "kanalow_bledy": 2,
+ "zebrano": "2026-10-28T14:57:52Z",
+ "kanalow_ok": 30,
+ "kanalow_bledy": 3,
  "niepelny": false,
- "wpisow": 410,
+ "wpisow": 395,
  "kanaly": [
   {
    "zrodlo": "BBC News",
@@ -93,8 +93,9 @@
    "zrodlo": "Polsat News",
    "kategoria": "NEWS",
    "url": "https://www.polsatnews.pl/rss/wszystkie.xml",
-   "status": "ok",
-   "wpisow": 15
+   "status": "blad",
+   "wpisow": 0,
+   "komunikat": "URLError: <urlopen error timed out>"
   },
   {
    "zrodlo": "Onet Wiadomości",
@@ -244,21 +245,21 @@
    "zrodlo": "BBC News",
    "kategoria": "NEWS",
    "region": "world",
-   "tytul": "Israel's election result is messy - here's why",
-   "url": "https://www.bbc.co.uk/news/videos/c893zeknlvnno?at_medium=RSS&at_campaign=rss",
-   "opublikowano": "2026-10-28T14:26:24Z",
-   "opublikowano_surowe": "Wed, 28 Oct 2026 14:26:24 GMT",
-   "streszczenie": "Despite having the highest voter turnout in nearly three decades, Israel's elections have had no clear winner. What does this mean for the country, asks the BBC's Yolande Knell."
+   "tytul": "What we know so far about deadly Spain train crash",
+   "url": "https://www.bbc.co.uk/news/articles/cm8xz7pkd0jjo?at_medium=RSS&at_campaign=rss",
+   "opublikowano": "2026-10-28T14:53:38Z",
+   "opublikowano_surowe": "Wed, 28 Oct 2026 14:53:38 GMT",
+   "streszczenie": "More than 500 passengers were on board the trains when the incident occurred in the province of Toledo, south of Madrid."
   },
   {
    "zrodlo": "BBC News",
    "kategoria": "NEWS",
    "region": "world",
-   "tytul": "What we know so far about deadly Spain train crash",
-   "url": "https://www.bbc.co.uk/news/articles/cm8xz7pkd0jjo?at_medium=RSS&at_campaign=rss",
-   "opublikowano": "2026-10-28T12:14:44Z",
-   "opublikowano_surowe": "Wed, 28 Oct 2026 12:14:44 GMT",
-   "streszczenie": "More than 500 passengers were on board the trains when the incident occurred in the province of Toledo, south of Madrid."
+   "tytul": "Israel's election result is messy - here's why",
+   "url": "https://www.bbc.co.uk/news/videos/c893zeknlvnno?at_medium=RSS&at_campaign=rss",
+   "opublikowano": "2026-10-28T14:26:24Z",
+   "opublikowano_surowe": "Wed, 28 Oct 2026 14:26:24 GMT",
+   "streszczenie": "Despite having the highest voter turnout in nearly three decades, Israel's elections have had no clear winner. What does this mean for the country, asks the BBC's Yolande Knell."
   },
   {
    "zrodlo": "BBC News",
@@ -544,6 +545,86 @@
    "zrodlo": "The Guardian",
    "kategoria": "NEWS",
    "region": "world",
+   "tytul": "Death toll rises to 64 with dozens injured after high-speed train collision in Spain – latest updates",
+   "url": "https://www.theguardian.com/world/live/2026/oct/28/spain-train-crash-toledo-europe-latest-news-updates",
+   "opublikowano": "2026-10-28T14:49:47Z",
+   "opublikowano_surowe": "Wed, 28 Oct 2026 14:49:47 GMT",
+   "streszczenie": "Spanish transport minister suggests an ‘inexplicable’ traffic order preceded the crash Full report from Spain At least 30 people are believed to have died after two high-speed trains collided in the province of Toledo in Spain, with concerns the death toll could be much higher. The number of people affected is expected to rise ( 10:46 ) , local authorities said, with growing concerns about a “major tragedy” ( 11:03 ). The affected trains are understood to be Iryo 7076 with 146 passengers plus one baby on board, and AVE 2080 with 397 passengers on board, making it 544 people in total on board o"
+  },
+  {
+   "zrodlo": "The Guardian",
+   "kategoria": "NEWS",
+   "region": "world",
+   "tytul": "Israel election results live: Netanyahu bloc and main opposition set to fall short of majority as 92% of ballots counted",
+   "url": "https://www.theguardian.com/world/live/2026/oct/28/israel-election-results-live-updates-exit-polls-netanyahu-likud-eisenkot-latest-news",
+   "opublikowano": "2026-10-28T14:47:51Z",
+   "opublikowano_surowe": "Wed, 28 Oct 2026 14:47:51 GMT",
+   "streszczenie": "Opposition bloc and Netanyahu’s coalition predicted to fall short of 61 seats needed to form a government, while Palestinian parties set for big gains Full report: Coalition talks loom in Israel Analysis: Rise of Palestinian parties will redraw political landscape Israel election: what we know so far One apparent loser from Tuesday’s election was far-right national security minister Itamar Ben-Gvir, who was expected to better his party’s result of six seats from the 2022 elections. But instead there was stunned silence at the watch party for Otzma Yehudit (Jewish Power) in central Israel as re"
+  },
+  {
+   "zrodlo": "The Guardian",
+   "kategoria": "NEWS",
+   "region": "world",
+   "tytul": "Budget 2026 live: Healey announces £100 energy payment for millions and rise in bank tax",
+   "url": "https://www.theguardian.com/uk-news/live/2026/oct/28/budget-2026-latest-updates-john-healey-andy-burnham-labour-uk-politics",
+   "opublikowano": "2026-10-28T14:46:19Z",
+   "opublikowano_surowe": "Wed, 28 Oct 2026 14:46:19 GMT",
+   "streszczenie": "Chancellor also announces tax relief for business founders, and funding to tackle rough sleeping and ‘new deal for datacentres’ Budget 2026: key points at a glance Martin Lewis said that, when he met John Healey this morning, the chancellor said that, having removed standing charges from gas bills, he would also like to get rid of them from electricity bills. Lewis said: The chancellor said he will be talking to Ofgem about how they get rid of the charge on electricity as well, but that is ‘trickier’ apparently and will take longer. Continue reading..."
+  },
+  {
+   "zrodlo": "The Guardian",
+   "kategoria": "NEWS",
+   "region": "world",
+   "tytul": "Russell Brand says he couldn’t find anyone to give evidence on his behalf in rape and sexual assault trial – latest updates",
+   "url": "https://www.theguardian.com/uk-news/live/2026/oct/28/russell-brand-evidence-trial-latest-news-updates",
+   "opublikowano": "2026-10-28T14:44:25Z",
+   "opublikowano_surowe": "Wed, 28 Oct 2026 14:44:25 GMT",
+   "streszczenie": "Brand, 51, has been charged with three counts of rape, three counts of sexual assault and one count of attempted indecent assault Content warning: this article contains references to allegations of sexual abuse which some readers might find distressing Winter moved on to count 5, in which a woman alleged Brand sexually assaulted her when she was in her 20s and working at a radio station in 2004 or 2005. Winter asked Brand whether he “sloppily kissed her”. Continue reading..."
+  },
+  {
+   "zrodlo": "The Guardian",
+   "kategoria": "NEWS",
+   "region": "world",
+   "tytul": "Judge rules Trump-appointed US prosecutor in Los Angeles is not serving legally – US politics live",
+   "url": "https://www.theguardian.com/us-news/live/2026/oct/28/trump-administration-bill-essayli-republicans-flavio-bolsonaro-us-news-latest",
+   "opublikowano": "2026-10-28T14:41:25Z",
+   "opublikowano_surowe": "Wed, 28 Oct 2026 14:41:25 GMT",
+   "streszczenie": "Department of Justice says it intends to appeal as administration tries to keep president’s ally Bill Essayli in office Sign up for the Breaking News US email Robert F Kennedy Jr , the US health secretary, faced backlash on Wednesday for a “wildly racist tirade” during a campaign stop in Michigan in which he falsely asserted that Arabs never won major awards in science or literature. Kennedy was speaking at the Monday night event in Grand Rapids in support of Mike Rogers, the Republican US Senate candidate trailing his Democratic midterms opponent Abdul El-Sayed, who is Muslim, in polling. Con"
+  },
+  {
+   "zrodlo": "The Guardian",
+   "kategoria": "NEWS",
+   "region": "world",
+   "tytul": "Tommy Robinson found guilty of harassing journalists",
+   "url": "https://www.theguardian.com/uk-news/2026/oct/28/tommy-robinson-found-guilty-of-harassing-journalists",
+   "opublikowano": "2026-10-28T14:39:34Z",
+   "opublikowano_surowe": "Wed, 28 Oct 2026 14:39:34 GMT",
+   "streszczenie": "Daily Mail reporters and their families fled homes after far-right activist targeted them over coverage The far-right activist Tommy Robinson has been found guilty of harassing two journalists to the point where it caused them fear of violence. Journalists from the Daily Mail and their family members fled their homes after “bullyboy, intimidatory tactics” were deployed by Robinson, whose real name is Stephen Yaxley Lennon, his trial was told. Continue reading..."
+  },
+  {
+   "zrodlo": "The Guardian",
+   "kategoria": "NEWS",
+   "region": "world",
+   "tytul": "Trump says government to ‘terminate’ Biden-era methane emissions rules",
+   "url": "https://www.theguardian.com/us-news/2026/oct/27/trump-biden-era-methane-emissions-rules-oil-gas",
+   "opublikowano": "2026-10-28T14:30:29Z",
+   "opublikowano_surowe": "Wed, 28 Oct 2026 14:30:29 GMT",
+   "streszczenie": "Critics warn of climate danger as president in Texas claims change will save companies and consumers billions Donald Trump said his administration is “terminating” Biden-era regulations holding oil and gas companies accountable for large leaks of planet-warming methane during a rally in Lubbock, Texas, on Tuesday evening. “Tonight, I’m officially terminating Biden’s expensive and unnecessary methane regulations to save consumers and energy producers,” Trump said, lifting what he called “crippling regulations on methane that caused prices to skyrocket” for small oil and gas operators. The chang"
+  },
+  {
+   "zrodlo": "The Guardian",
+   "kategoria": "NEWS",
+   "region": "world",
+   "tytul": "Second fatal train collision this year casts doubt over Spain’s high-speed rail network",
+   "url": "https://www.theguardian.com/world/2026/oct/28/analysis-fatal-collision-doubt-over-spain-high-speed-rail",
+   "opublikowano": "2026-10-28T14:29:34Z",
+   "opublikowano_surowe": "Wed, 28 Oct 2026 14:29:34 GMT",
+   "streszczenie": "Questions were raised before Toledo crash over rail safety in a country where train travel has surged by 40% Deadly Spanish rail collision – latest updates Spain’s high-speed rail network, the most extensive in Europe and the second largest in the world after China, has long ranked as a point of pride in the country. But Wednesday’s deadly crash – the second in nine months – has recast the spotlight on questions about safety. Officials said at least 64 people were killed on Wednesday morning after two trains collided, leading to the derailment of several carriages. The two trains were carrying"
+  },
+  {
+   "zrodlo": "The Guardian",
+   "kategoria": "NEWS",
+   "region": "world",
    "tytul": "OBR slashes UK growth forecast for 2027 despite Healey’s budget measures",
    "url": "https://www.theguardian.com/business/2026/oct/28/obr-slashes-uk-growth-forecast-for-2027-despite-healey-budget-measures",
    "opublikowano": "2026-10-28T14:19:32Z",
@@ -564,46 +645,6 @@
    "zrodlo": "The Guardian",
    "kategoria": "NEWS",
    "region": "world",
-   "tytul": "Budget 2026 live: Healey announces £100 energy payment for millions and rise in bank tax",
-   "url": "https://www.theguardian.com/uk-news/live/2026/oct/28/budget-2026-latest-updates-john-healey-andy-burnham-labour-uk-politics",
-   "opublikowano": "2026-10-28T14:15:52Z",
-   "opublikowano_surowe": "Wed, 28 Oct 2026 14:15:52 GMT",
-   "streszczenie": "Chancellor also announces tax relief for business founders, and funding to tackle rough sleeping and ‘new deal for datacentres’ Budget 2026: key points at a glance Martin Lewis said that, when he met John Healey this morning, the chancellor said that, having removed standing charges from gas bills, he would also like to get rid of them from electricity bills. Lewis said: The chancellor said he will be talking to Ofgem about how they get rid of the charge on electricity as well, but that is ‘trickier’ apparently and will take longer. Continue reading..."
-  },
-  {
-   "zrodlo": "The Guardian",
-   "kategoria": "NEWS",
-   "region": "world",
-   "tytul": "Death toll rises to 64 after two trains collide in Spain – latest updates",
-   "url": "https://www.theguardian.com/world/live/2026/oct/28/spain-train-crash-toledo-europe-latest-news-updates",
-   "opublikowano": "2026-10-28T14:14:04Z",
-   "opublikowano_surowe": "Wed, 28 Oct 2026 14:14:04 GMT",
-   "streszczenie": "Dozens also injured after high-speed train crash in Toledo province Full report from Spain At least 30 people are believed to have died after two high-speed trains collided in the province of Toledo in Spain, with concerns the death toll could be much higher. The number of people affected is expected to rise ( 10:46 ) , local authorities said, with growing concerns about a “major tragedy” ( 11:03 ). The affected trains are understood to be Iryo 7076 with 146 passengers plus one baby on board, and AVE 2080 with 397 passengers on board, making it 544 people in total on board of both train ( 11:0"
-  },
-  {
-   "zrodlo": "The Guardian",
-   "kategoria": "NEWS",
-   "region": "world",
-   "tytul": "Russell Brand says he couldn’t find anyone to give evidence on his behalf in rape and sexual assault trial – latest updates",
-   "url": "https://www.theguardian.com/uk-news/live/2026/oct/28/russell-brand-evidence-trial-latest-news-updates",
-   "opublikowano": "2026-10-28T14:10:45Z",
-   "opublikowano_surowe": "Wed, 28 Oct 2026 14:10:45 GMT",
-   "streszczenie": "Brand, 51, has been charged with three counts of rape, three counts of sexual assault and one count of attempted indecent assault Content warning: this article contains references to allegations of sexual abuse which some readers might find distressing Winter moved on to count 5, in which a woman alleged Brand sexually assaulted her when she was in her 20s and working at a radio station in 2004 or 2005. Winter asked Brand whether he “sloppily kissed her”. Continue reading..."
-  },
-  {
-   "zrodlo": "The Guardian",
-   "kategoria": "NEWS",
-   "region": "world",
-   "tytul": "Judge rules Trump-appointed US prosecutor in Los Angeles is not serving legally – US politics live",
-   "url": "https://www.theguardian.com/us-news/live/2026/oct/28/trump-administration-bill-essayli-republicans-flavio-bolsonaro-us-news-latest",
-   "opublikowano": "2026-10-28T14:09:24Z",
-   "opublikowano_surowe": "Wed, 28 Oct 2026 14:09:24 GMT",
-   "streszczenie": "Department of Justice says it intends to appeal as administration tries to keep president’s ally Bill Essayli in office Sign up for the Breaking News US email Flavio Bolsonaro, the son of jailed former Brazilian president Jair Bolsonaro who recently lost the race for his father’s former office, has landed in Miami, apparently taking shelter under the aegis of the Trump administration after fleeing his home country. The younger Bolsonaro had been ordered to turn over his passport following his election defeat in connection with a criminal investigation over money laundering. Instead, Reuters an"
-  },
-  {
-   "zrodlo": "The Guardian",
-   "kategoria": "NEWS",
-   "region": "world",
    "tytul": "Menindee Lakes water levels drop to lowest in five years as experts warn of mass fish deaths",
    "url": "https://www.theguardian.com/australia-news/2026/oct/28/menindee-lakes-water-levels-drop-mass-fish-death-fears",
    "opublikowano": "2026-10-28T14:00:07Z",
@@ -619,16 +660,6 @@
    "opublikowano": "2026-10-28T13:58:01Z",
    "opublikowano_surowe": "Wed, 28 Oct 2026 13:58:01 GMT",
    "streszczenie": "EHRC says transparency needed to prevent pay discrimination, particularly against women Workers should have a legal right to know their colleagues’ pay to help prevent pay discrimination, particularly against women, the UK’s human rights watchdog has said. The Equality and Human Rights Commission (EHRC) made the recommendation in response to government proposals to overhaul equal pay laws, saying workers deserved a right to transparency if they suspected other staff were being paid more for similar work. Continue reading..."
-  },
-  {
-   "zrodlo": "The Guardian",
-   "kategoria": "NEWS",
-   "region": "world",
-   "tytul": "Israel election results live: Netanyahu bloc and main opposition set to fall short of majority as 92% of ballots counted",
-   "url": "https://www.theguardian.com/world/live/2026/oct/28/israel-election-results-live-updates-exit-polls-netanyahu-likud-eisenkot-latest-news",
-   "opublikowano": "2026-10-28T13:55:25Z",
-   "opublikowano_surowe": "Wed, 28 Oct 2026 13:55:25 GMT",
-   "streszczenie": "Opposition bloc and Netanyahu’s coalition predicted to fall short of 61 seats needed to form a government, while Palestinian parties set for big gains Full report: Coalition talks loom in Israel Analysis: Rise of Palestinian parties will redraw political landscape Israel election: what we know so far One apparent loser from Tuesday’s election was far-right national security minister Itamar Ben-Gvir, who was expected to better his party’s result of six seats from the 2022 elections. But instead there was stunned silence at the watch party for Otzma Yehudit (Jewish Power) in central Israel as re"
   },
   {
    "zrodlo": "The Guardian",
@@ -661,34 +692,54 @@
    "streszczenie": "High-speed service travelling from Madrid to Seville runs into back of another, knocking two carriages off track Spain train crash – latest updates At least 64 people have been killed after two high-speed trains collided in Toledo province in central Spain, in the country’s second major train accident this year. The trains were travelling in the same direction on the line from the Spanish capital, Madrid, to Seville in the south-west of the country. One ran into the tail of the other that had stopped, knocking two of its cars off the track. Authorities said the cause of the crash was not yet k"
   },
   {
-   "zrodlo": "The Guardian",
+   "zrodlo": "Al Jazeera",
    "kategoria": "NEWS",
    "region": "world",
-   "tytul": "Budget 2026: John Healey offers £100 payments to households to help navigate ‘global economic storms’",
-   "url": "https://www.theguardian.com/uk-news/2026/oct/28/budget-2026-john-healey-offers-100-payment-to-households-to-help-navigate-global-economic-storms",
-   "opublikowano": "2026-10-28T13:17:31Z",
-   "opublikowano_surowe": "Wed, 28 Oct 2026 13:17:31 GMT",
-   "streszczenie": "Payment to 20m homes part of package to help cut energy bills and ease cost-of-living crisis, paid for by bank windfall tax Budget 2026: key points at a glance Budget 2026 live – latest updates John Healey promised to steer Britain through “global economic storms,” as he announced a package of measures to cut consumers’ energy bills, funded by a smaller-than-expected windfall tax on banks. In his first budget, the chancellor said 20m households in council tax bands A to D would receive a £100 payment – a measure he said would cost £2.6bn. Continue reading..."
+   "tytul": "Are GCC countries looking for a regional security pact with Iran?",
+   "url": "https://www.aljazeera.com/news/2026/10/28/are-gcc-countries-looking-for-a-regional-security-pact-with-iran?traffic_source=rss",
+   "opublikowano": "2026-10-28T14:51:14Z",
+   "opublikowano_surowe": "Wed, 28 Oct 2026 14:51:14 +0000",
+   "streszczenie": "Observers say diverging views are unlikely to turn current diplomatic efforts into a lasting infrastructure."
   },
   {
-   "zrodlo": "The Guardian",
+   "zrodlo": "Al Jazeera",
    "kategoria": "NEWS",
    "region": "world",
-   "tytul": "RFK Jr assailed over ‘wildly racist tirade’ about Arabs at Michigan campaign stop",
-   "url": "https://www.theguardian.com/us-news/2026/oct/28/rfk-jr-michigan-arabs-comment",
-   "opublikowano": "2026-10-28T13:17:00Z",
-   "opublikowano_surowe": "Wed, 28 Oct 2026 13:17:00 GMT",
-   "streszczenie": "US health secretary falsely claims at Mike Rogers rally that Arabs have never won major prizes in science or literature Robert F Kennedy Jr , the US health secretary, faced backlash on Wednesday for a “wildly racist tirade” during a campaign stop in Michigan in which he falsely asserted that Arabs never won major awards in science or literature. Kennedy was speaking at the Monday night event in Grand Rapids in support of Mike Rogers, the Republican US Senate candidate who is trailing his Democratic midterms opponent Abdul El-Sayed , a Muslim, in polling. Continue reading..."
+   "tytul": "Boxer Serrano to hang up gloves in Puerto Rico farewell on January 9",
+   "url": "https://www.aljazeera.com/sports/2026/10/28/boxer-serrano-to-hang-up-gloves-in-puerto-rico-farewell-on-january-9?traffic_source=rss",
+   "opublikowano": "2026-10-28T14:40:46Z",
+   "opublikowano_surowe": "Wed, 28 Oct 2026 14:40:46 +0000",
+   "streszczenie": "Amanda Serrano will defend her unified WBO and WBA featherweight world boxing titles against Australia's Skye ⁠Falzon."
   },
   {
-   "zrodlo": "The Guardian",
+   "zrodlo": "Al Jazeera",
    "kategoria": "NEWS",
    "region": "world",
-   "tytul": "Australia must recruit hundreds more to crew Aukus submarines, retired admiral warns",
-   "url": "https://www.theguardian.com/world/2026/oct/28/australia-must-recruit-hundreds-more-to-crew-aukus-submarines-retired-admiral-warns",
-   "opublikowano": "2026-10-28T12:46:36Z",
-   "opublikowano_surowe": "Wed, 28 Oct 2026 12:46:36 GMT",
-   "streszczenie": "As USS Colorado showcases the program in Perth, Peter Briggs says personnel is just one of the ‘huge issues’ it faces Get our breaking news email , free app or daily news podcast Australia faces an uphill battle to recruit and train enough naval personnel to serve on submarines planned for the future fleet of nuclear-powered vessels under the controversial $368bn Aukus deal , a retired admiral has warned. As the Virginia-class submarine USS Colorado arrived at HMAS Stirling south of Perth on Tuesday for a month of routine maintenance and to help build Australian expertise, retired admiral Pete"
+   "tytul": "Shadman Islam’s 99 leads Bangladesh to 213-3 vs West Indies in first Test",
+   "url": "https://www.aljazeera.com/sports/2026/10/28/shadman-islams-99-leads-bangladesh-to-213-3-in-first-west-indies-in-test?traffic_source=rss",
+   "opublikowano": "2026-10-28T14:38:27Z",
+   "opublikowano_surowe": "Wed, 28 Oct 2026 14:38:27 +0000",
+   "streszczenie": "Bad light prevents Shadman Islam from completing century against West Indies in opener of first cricket Test in Mirpur."
+  },
+  {
+   "zrodlo": "Al Jazeera",
+   "kategoria": "NEWS",
+   "region": "world",
+   "tytul": "Flavio Bolsonaro lands in Miami after losing Brazil’s presidential election",
+   "url": "https://www.aljazeera.com/news/2026/10/28/flavio-bolsonaro-lands-in-miami-after-losing-brazils-presidential-election?traffic_source=rss",
+   "opublikowano": "2026-10-28T14:32:16Z",
+   "opublikowano_surowe": "Wed, 28 Oct 2026 14:32:16 +0000",
+   "streszczenie": "Bolsonaro and his family fled to the US amid a Brazilian Supreme Court order to surrender his passports."
+  },
+  {
+   "zrodlo": "Al Jazeera",
+   "kategoria": "NEWS",
+   "region": "world",
+   "tytul": "Why Arab parties may not be the ‘kingmakers’ in this Israeli election",
+   "url": "https://www.aljazeera.com/news/2026/10/28/can-israeli-leader-eisenkot-ally-with-arab-parties-to-unseat-netanyahu?traffic_source=rss",
+   "opublikowano": "2026-10-28T14:30:17Z",
+   "opublikowano_surowe": "Wed, 28 Oct 2026 14:30:17 +0000",
+   "streszczenie": "Exit poll projections show that if Eisenkot’s bloc teamed up with Arab parties, they could potentially unseat Bibi."
   },
   {
    "zrodlo": "Al Jazeera",
@@ -791,56 +842,6 @@
    "streszczenie": "Jordan’s air strikes in southern Syria killed at least seven people, including three children. Here are their stories."
   },
   {
-   "zrodlo": "Al Jazeera",
-   "kategoria": "NEWS",
-   "region": "world",
-   "tytul": "Israel’s election: The battle between change and anti-Palestinian sentiment",
-   "url": "https://www.aljazeera.com/news/2026/10/28/israels-election-the-battle-between-change-and-anti-palestinian-sentiment?traffic_source=rss",
-   "opublikowano": "2026-10-28T12:22:20Z",
-   "opublikowano_surowe": "Wed, 28 Oct 2026 12:22:20 +0000",
-   "streszczenie": "With both blocs short of a majority, parties face a choice: to break the taboo on Arab allies or return to the polls."
-  },
-  {
-   "zrodlo": "Al Jazeera",
-   "kategoria": "NEWS",
-   "region": "world",
-   "tytul": "Israeli voters: hope and despair as election ballots are counted",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/28/israeli-voters-hope-and-despair-as-election-ballots-are-counted?traffic_source=rss",
-   "opublikowano": "2026-10-28T11:55:08Z",
-   "opublikowano_surowe": "Wed, 28 Oct 2026 11:55:08 +0000",
-   "streszczenie": "Israeli voters in Tel Aviv expressed mixed emotions as ballots were counted after the election."
-  },
-  {
-   "zrodlo": "Al Jazeera",
-   "kategoria": "NEWS",
-   "region": "world",
-   "tytul": "Hackers target US campaign finance system days before midterm elections",
-   "url": "https://www.aljazeera.com/news/2026/10/28/hackers-target-us-campaign-finance-system-days-before-midterm-elections?traffic_source=rss",
-   "opublikowano": "2026-10-28T11:47:10Z",
-   "opublikowano_surowe": "Wed, 28 Oct 2026 11:47:10 +0000",
-   "streszczenie": "An FEC email said a 'bad actor' tried to breach its systems as the US prepares for its most expensive elections ever."
-  },
-  {
-   "zrodlo": "Al Jazeera",
-   "kategoria": "NEWS",
-   "region": "world",
-   "tytul": "Nigerian artist reframes children with albinism as heroes",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/28/nigerian-artist-reframes-children-with-albinism-as-heroes?traffic_source=rss",
-   "opublikowano": "2026-10-28T11:46:49Z",
-   "opublikowano_surowe": "Wed, 28 Oct 2026 11:46:49 +0000",
-   "streszczenie": "Nigerian artist reframes children with albinism as heroes"
-  },
-  {
-   "zrodlo": "Al Jazeera",
-   "kategoria": "NEWS",
-   "region": "world",
-   "tytul": "Cyclone leaves trail of destruction in India as thousands evacuated",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/28/cyclone-leaves-trail-of-destruction-in-india-as-thousands-evacuated?traffic_source=rss",
-   "opublikowano": "2026-10-28T11:41:04Z",
-   "opublikowano_surowe": "Wed, 28 Oct 2026 11:41:04 +0000",
-   "streszczenie": "Cyclone Arnab has left a trail of destruction along India’s eastern coast."
-  },
-  {
    "zrodlo": "NPR",
    "kategoria": "NEWS",
    "region": "world",
@@ -874,6 +875,16 @@
    "zrodlo": "NPR",
    "kategoria": "NEWS",
    "region": "world",
+   "tytul": "Senate candidates built up massive campaign war chests with out-of-state donations",
+   "url": "https://www.npr.org/2026/10/28/nx-s1-5940017/senate-campaign-fundraising-actblue-winred-ossoff",
+   "opublikowano": "2026-10-28T09:00:00Z",
+   "opublikowano_surowe": "Wed, 28 Oct 2026 05:00:00 -0400",
+   "streszczenie": "In several competitive U.S. Senate contests, candidates have built healthy campaign accounts with out-of-state donations. But the messages to those donors is very different from the one back at home."
+  },
+  {
+   "zrodlo": "NPR",
+   "kategoria": "NEWS",
+   "region": "world",
    "tytul": "Why many student voters have a right to choose where to register to vote",
    "url": "https://www.npr.org/2026/10/28/nx-s1-5793936/college-student-voting",
    "opublikowano": "2026-10-28T09:00:00Z",
@@ -889,16 +900,6 @@
    "opublikowano": "2026-10-28T09:00:00Z",
    "opublikowano_surowe": "Wed, 28 Oct 2026 05:00:00 -0400",
    "streszczenie": "Congressional Democrats are working with good governance groups to create an action plan for any potential claims of election fraud."
-  },
-  {
-   "zrodlo": "NPR",
-   "kategoria": "NEWS",
-   "region": "world",
-   "tytul": "Senate candidates built up massive campaign war chests with out-of-state donations",
-   "url": "https://www.npr.org/2026/10/28/nx-s1-5940017/senate-campaign-fundraising-actblue-winred-ossoff",
-   "opublikowano": "2026-10-28T09:00:00Z",
-   "opublikowano_surowe": "Wed, 28 Oct 2026 05:00:00 -0400",
-   "streszczenie": "In several competitive U.S. Senate contests, candidates have built healthy campaign accounts with out-of-state donations. But the messages to those donors is very different from the one back at home."
   },
   {
    "zrodlo": "NPR",
@@ -944,6 +945,16 @@
    "zrodlo": "Deutsche Welle",
    "kategoria": "NEWS",
    "region": "europe",
+   "tytul": "Spain train crash caused by operator 'inexplicably' telling driver to resume journey despite red signal, transport minister says",
+   "url": "https://www.dw.com/en/spain-train-crash-caused-by-operator-inexplicably-telling-driver-to-resume-journey-despite-red-signal-transport-minister-says/live-79785087?maca=en-rss-en-all-1573-rdf",
+   "opublikowano": "2026-10-28T14:33:00Z",
+   "opublikowano_surowe": "2026-10-28T14:33:00Z",
+   "streszczenie": "Two high-speed trains carrying hundreds of passengers collided south of Madrid. Spain's transport minister said one of the trains was told to continue its journey despite a \"red signal\" being in effect. Follow DW."
+  },
+  {
+   "zrodlo": "Deutsche Welle",
+   "kategoria": "NEWS",
+   "region": "europe",
    "tytul": "Is Iran headed to war or peace after Mecca alliance meeting?",
    "url": "https://www.dw.com/en/is-iran-headed-to-war-or-peace-after-mecca-alliance-meeting/a-79788256?maca=en-rss-en-all-1573-rdf",
    "opublikowano": "2026-10-28T14:20:00Z",
@@ -959,16 +970,6 @@
    "opublikowano": "2026-10-28T13:43:00Z",
    "opublikowano_surowe": "2026-10-28T13:43:00Z",
    "streszczenie": "Young people in Germany will take to the streets this weekend to demand education and action on climate change. Politicians warn that the protests could become violent, as in France, but the situations are different."
-  },
-  {
-   "zrodlo": "Deutsche Welle",
-   "kategoria": "NEWS",
-   "region": "europe",
-   "tytul": "Death toll in Spain train crash rises to at least 64, with rescue and recovery operations ongoing",
-   "url": "https://www.dw.com/en/death-toll-in-spain-train-crash-rises-to-at-least-64-with-rescue-and-recovery-operations-ongoing/live-79785087?maca=en-rss-en-all-1573-rdf",
-   "opublikowano": "2026-10-28T13:12:00Z",
-   "opublikowano_surowe": "2026-10-28T13:12:00Z",
-   "streszczenie": "Two high-speed trains carrying hundreds of passengers collided south of Madrid. Spain's transport minister said one of the trains was told to continue its journey despite a \"red signal\" being in effect. Follow DW."
   },
   {
    "zrodlo": "Deutsche Welle",
@@ -1094,6 +1095,36 @@
    "zrodlo": "France 24",
    "kategoria": "NEWS",
    "region": "europe",
+   "tytul": "REPLAY: Spanish Transport Minister gives press conference on train crash",
+   "url": "https://www.france24.com/en/video/20261028-replay-spanish-transport-minister-gives-press-conference-on-train-crash",
+   "opublikowano": "2026-10-28T14:43:33Z",
+   "opublikowano_surowe": "Wed, 28 Oct 2026 14:43:33 GMT",
+   "streszczenie": "A high-speed train collision south of Madrid killed 64 people and injured scores more on Wednesday (October 28), with the toll likely to rise, authorities said in one of Europe's deadliest such disasters this century. Spanish Transport Minister Oscar Puente gave some details in a press conference."
+  },
+  {
+   "zrodlo": "France 24",
+   "kategoria": "NEWS",
+   "region": "europe",
+   "tytul": "Spain: Dozens killed after one high-speed train slams into another",
+   "url": "https://www.france24.com/en/video/20261028-spain-dozens-killed-after-one-high-speed-train-slams-into-another",
+   "opublikowano": "2026-10-28T14:34:15Z",
+   "opublikowano_surowe": "Wed, 28 Oct 2026 14:34:15 GMT",
+   "streszczenie": "Spain suffered its second deadly high-speed train accident this year when one train on Wednesday, October 28, slammed into another that had stopped on the tracks, with the impact shredding cars and killing at least 64 people. The accident comes with memories still fresh of another crash between high-speed trains in southern Spain in January. France 24's correspondent in Madrid Sarah Morris gives us the latest."
+  },
+  {
+   "zrodlo": "France 24",
+   "kategoria": "NEWS",
+   "region": "europe",
+   "tytul": "Spain: At least 64 dead in high-speed train crash",
+   "url": "https://www.france24.com/en/video/20261028-spain-at-least-64-dead-in-high-speed-train-crash",
+   "opublikowano": "2026-10-28T14:33:17Z",
+   "opublikowano_surowe": "Wed, 28 Oct 2026 14:33:17 GMT",
+   "streszczenie": "In Spain, a high-speed train slammed into the rear of another train that had stopped, derailing two cars and killing at least 64 people on Wednesday, October 28. The central government’s office for Castilla La Mancha confirmed the death toll had risen. It is the second major train accident in Spain this year."
+  },
+  {
+   "zrodlo": "France 24",
+   "kategoria": "NEWS",
+   "region": "europe",
    "tytul": "West Bank: settlers using drones to monitor Palestinians",
    "url": "https://www.france24.com/en/tv-shows/the-observers/20261028-west-bank-settlers-using-drones-to-monitor-palestinians",
    "opublikowano": "2026-10-28T13:39:26Z",
@@ -1211,34 +1242,14 @@
    "streszczenie": "A local ceasefire in the Russian-occupied southern Ukrainian city of Oleshky held through its first day and night, despite continued fighting between Moscow and Kyiv elsewhere. The truce, which began on Tuesday in the devastated city, is expected to remain in place until Sunday. Emerald Maxwell reports."
   },
   {
-   "zrodlo": "France 24",
+   "zrodlo": "Politico Europe",
    "kategoria": "NEWS",
    "region": "europe",
-   "tytul": "US midterms: Slashing of food stamps in Arizona angers voters",
-   "url": "https://www.france24.com/en/video/20261028-us-midterms-slashing-of-food-stamps-in-arizona-angers-voters",
-   "opublikowano": "2026-10-28T10:43:14Z",
-   "opublikowano_surowe": "Wed, 28 Oct 2026 10:43:14 GMT",
-   "streszczenie": "With the US midterm elections just under a week away, the cost of living has emerged as a key campaign issue. In Arizona, many Americans are criticising the administration’s decision to slash food stamps, which has had significant consequences for the poorest. Camille Corcoran reports."
-  },
-  {
-   "zrodlo": "France 24",
-   "kategoria": "NEWS",
-   "region": "europe",
-   "tytul": "Israel: Netanyahu edges closer to a majority",
-   "url": "https://www.france24.com/en/israel-netanyahu-edges-closer-to-a-majority",
-   "opublikowano": "2026-10-28T10:20:00Z",
-   "opublikowano_surowe": "Wed, 28 Oct 2026 10:20:00 GMT",
-   "streszczenie": "The final results are expected tonight or tomorrow morning. For now, the picture is looking increasingly favourable for Benjamin Netanyahu and his bloc, but the Israeli prime minister is still short of a clear victory, as he needs 61 seats to secure a parliamentary majority. He addressed his supporters at the National Congress Centre at around 3 a.m. local time. France 24’s Clovis Casali joins us live from Jerusalem with the latest."
-  },
-  {
-   "zrodlo": "France 24",
-   "kategoria": "NEWS",
-   "region": "europe",
-   "tytul": "Spain: Local authorities confirm at least 10 dead in train accident",
-   "url": "https://www.france24.com/en/spain-local-authorities-confirm-at-least-10-dead-in-train-accident",
-   "opublikowano": "2026-10-28T10:17:48Z",
-   "opublikowano_surowe": "Wed, 28 Oct 2026 10:17:48 GMT",
-   "streszczenie": "Two trains travelling in opposite directions have collided in southern Spain, on the route between Madrid and Seville. At least 10 deaths have been confirmed, although some media reports put the toll as high as 39. The crash brings back painful memories of a deadly train accident in Córdoba in January. The cause of the collision remains unknown. France 24 correspondent Sarah Morris joins us live from Madrid with the latest."
+   "tytul": "EU set to scrap ‘associate member’ status offer for Canada",
+   "url": "https://www.politico.eu/article/eu-set-to-scrap-associate-member-status-offer-for-canada/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+   "opublikowano": "2026-10-28T14:50:24Z",
+   "opublikowano_surowe": "Wed, 28 Oct 2026 14:50:24 +0000",
+   "streszczenie": "A group of countries including Germany, Italy, Greece and France all objected to mentioning associate membership in a joint EU-Canada statement."
   },
   {
    "zrodlo": "Politico Europe",
@@ -1331,16 +1342,6 @@
    "streszczenie": "It’s budget day – and it’s a critical moment for the chancellor and the UK economy. So, what are the plans to ease the squeeze on household bills and the cost-of-living crisis? Sam Coates and Anne McElvoy unpack the high-stakes decisions facing the government, and how John Healey plans to raise billions in additional revenue […]"
   },
   {
-   "zrodlo": "Politico Europe",
-   "kategoria": "NEWS",
-   "region": "europe",
-   "tytul": "The Putin call dividing EU leaders",
-   "url": "https://www.politico.eu/podcast/brussels-playbook-podcast/the-putin-call-dividing-eu-leaders/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-   "opublikowano": "2026-10-28T05:05:00Z",
-   "opublikowano_surowe": "Wed, 28 Oct 2026 05:05:00 +0000",
-   "streszczenie": "Europe’s united front on Ukraine is showing cracks. Finnish President Alexander Stubb and Norwegian Prime Minister Jonas Gahr Støre have opened a direct line to Vladimir Putin, drawing criticism from some fellow European leaders — even as Ukraine backs their efforts. Nicholas Vinocur and Paul Dallison examine the fallout and the growing scramble over who […]"
-  },
-  {
    "zrodlo": "Euronews",
    "kategoria": "NEWS",
    "region": "europe",
@@ -1364,7 +1365,7 @@
    "zrodlo": "Euronews",
    "kategoria": "NEWS",
    "region": "europe",
-   "tytul": "US to grant Flavio Bolsonaro visa as he flees Brazil and makes brief stop in Ecuador via Argentina",
+   "tytul": "Flavio Bolsonaro arrives in Miami after fleeing Brazil",
    "url": "https://www.euronews.com/2026/10/28/us-to-grant-flavio-bolsonaro-visa-as-he-flees-brazil-and-makes-brief-stop-in-ecuador-via-a",
    "opublikowano": "2026-10-28T11:14:24Z",
    "opublikowano_surowe": "Wed, 28 Oct 2026 12:14:24 +0100",
@@ -1794,6 +1795,36 @@
    "zrodlo": "TVN24",
    "kategoria": "NEWS",
    "region": "poland",
+   "tytul": "Ruszył proces w sprawie wybuchu na uczelni. Studentka zmarła",
+   "url": "https://tvn24.pl/szczecin/szczecin-wybuch-na-uczelni-ruszyl-proces-studentka-zmarla-w-wyniku-oparzen-st9310572?source=rss",
+   "opublikowano": "2026-10-28T14:50:43Z",
+   "opublikowano_surowe": "Wed, 28 Oct 2026 14:50:43 GMT",
+   "streszczenie": "Przed Sądem Rejonowym Szczecin Centrum ruszył proces w sprawie wybuchu w Akademii Sztuki w Szczecinie. Na ławie oskarżonych zasiadła rektorka uczelni Mirosława J. i wykładowczyni Marta K. Obie nie przyznają się do winy."
+  },
+  {
+   "zrodlo": "TVN24",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Przybory kuchenne wycofane ze sklepów. \"Nie należy używać\"",
+   "url": "https://tvn24.pl/biznes/z-kraju/przybory-kuchenne-wycofane-ze-sklepow-nie-nalezy-uzywac-st9310524?source=rss",
+   "opublikowano": "2026-10-28T14:40:37Z",
+   "opublikowano_surowe": "Wed, 28 Oct 2026 14:40:37 GMT",
+   "streszczenie": "Główny Inspektorat Sanitarny poinformował o wycofaniu jednej z partii zestawów przyborów kuchennych. Stwierdzono, że z przyborów kuchennych do żywności przenikają szkodliwe substancje chemiczne."
+  },
+  {
+   "zrodlo": "TVN24",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Auto stanęło w płomieniach",
+   "url": "https://tvn24.pl/tvnwarszawa/wawer/warszawa-auto-stanelo-w-plomieniach-przed-wjazdem-na-trase-s2-utrudnienia-na-ulicy-patriotow-st9310595?source=rss",
+   "opublikowano": "2026-10-28T14:29:55Z",
+   "opublikowano_surowe": "Wed, 28 Oct 2026 14:29:55 GMT",
+   "streszczenie": "Przed wjazdem na trasę S2 auto osobowe stanęło w płomieniach. Ogień objął przód pojazdu. Na ulicy Patriotów są utrudnienia w ruchu."
+  },
+  {
+   "zrodlo": "TVN24",
+   "kategoria": "NEWS",
+   "region": "poland",
    "tytul": "Wybrzeże Kalifornii pod wodą. \"Matka Natura pobiera od nas podatek\"",
    "url": "https://tvn24.pl/tvnmeteo/swiat/wybrzeze-kalifornii-pod-woda-matka-natura-pobiera-od-nas-podatek-st9310001?source=rss",
    "opublikowano": "2026-10-28T14:29:23Z",
@@ -1911,184 +1942,24 @@
    "streszczenie": "Doświadczona opiekunka, która przez cztery dekady pracowała w holenderskim zoo, zmarła kilka dni po ataku zwierzęcia. Do zdarzenia doszło, gdy kobieta przebywała na wybiegu dwóch samców. Doznała obrażeń głowy i szyi. Trwa wyjaśnianie okoliczności tragedii."
   },
   {
-   "zrodlo": "TVN24",
+   "zrodlo": "Onet Wiadomości",
    "kategoria": "NEWS",
    "region": "poland",
-   "tytul": "Drożej niż w czasach Bidena. \"Powinien był nic nie robić\"",
-   "url": "https://tvn24.pl/biznes/ze-swiata/wysokie-ceny-benzyny-w-stanach-zjednoczonych-paliwo-najdrozsze-od-kadencji-joe-bidena-st9309524?source=rss",
-   "opublikowano": "2026-10-28T13:26:47Z",
-   "opublikowano_surowe": "Wed, 28 Oct 2026 13:26:47 GMT",
-   "streszczenie": "Ceny benzyny w trakcie obecnej, drugiej, kadencji prezydenta USA Donalda Trumpa są wyższe niż za czasów jego poprzednika, Joe Bidena. Tymczasem w trakcie kampanii wyborczej w 2024 roku Trump obiecywał, że paliwo stanie się znacznie tańsze. Drożyzna na stacjach benzynowych pogłębia frustrację Amerykanów, co może mieć przełożenie na wynik wyborów połówkowych w przyszłym tygodniu - wskazuje CNN."
+   "tytul": "Zaskakujące słowa Władimira Putina o Elonie Musku. \"Doprawdy geniusz\"",
+   "url": "https://wiadomosci.onet.pl/swiat/zaskakujace-slowa-wladimira-putina-o-elonie-musku-doprawdy-geniusz/261gemt",
+   "opublikowano": "2026-10-28T14:40:44Z",
+   "opublikowano_surowe": "Wed, 28 Oct 2026 14:40:44 GMT",
+   "streszczenie": "Władimir Putin odniósł się do działalności Elona Muska podczas prezentacji rosyjskich technologii kosmicznych. — Elon Musk to geniusz, doprawdy geniusz — powiedział rosyjski przywódca."
   },
   {
-   "zrodlo": "TVN24",
+   "zrodlo": "Onet Wiadomości",
    "kategoria": "NEWS",
    "region": "poland",
-   "tytul": "Mieli spędzić życie na morzu. Nagle musieli opuścić luksusowy statek",
-   "url": "https://tvn24.pl/swiat/rejs-wycieczkowca-odyssey-nagle-zakonczony-w-kambodzy-st9309803?source=rss",
-   "opublikowano": "2026-10-28T13:25:06Z",
-   "opublikowano_surowe": "Wed, 28 Oct 2026 13:25:06 GMT",
-   "streszczenie": "Pasażerowie luksusowego wycieczkowca Odyssey, którzy dwa lata temu wyruszyli w podróż, określaną jako \"pierwszy na świecie nieprzerwany rejs\", zostali nagle poproszeni o opuszczenie pokładu w Kambodży. Firma tłumaczy decyzję \"nadzwyczajnym wzrostem kosztów paliwa\"."
-  },
-  {
-   "zrodlo": "TVN24",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Chcieli rozebrać świetlicę, mieszkańcy Osiedla Maltańskiego powiedzieli \"nie\"",
-   "url": "https://tvn24.pl/poznan/proba-rozbiorki-swietlicy-na-osiedlu-maltanskim-w-poznaniu-st9310031?source=rss",
-   "opublikowano": "2026-10-28T13:24:57Z",
-   "opublikowano_surowe": "Wed, 28 Oct 2026 13:24:57 GMT",
-   "streszczenie": "Trwa spór o budynek świetlicy na Osiedlu Maltańskim w Poznaniu. Rano pojawili się tam budowlańcy, którzy mieli przeprowadzić rozbiórkę tego obiektu. Doszło do przepychanek między ekipą a mieszkańcami. Na miejscu interweniuje policja."
-  },
-  {
-   "zrodlo": "Polsat News",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Problemy ze Starlinkiem w Ukrainie. Kijów szuka zamiennika",
-   "url": "https://www.polsatnews.pl/wiadomosc/2026-10-28/problemy-ze-starlinkiem-w-ukrainie-kijow-szuka-zamiennika/",
-   "opublikowano": "2026-10-28T14:24:00Z",
-   "opublikowano_surowe": "Wed, 28 Oct 2026 15:24:00 +0100",
-   "streszczenie": "Ukraina i UE dążą do stworzenia niezależnej od Amerykanów sieci komunikacji satelitarnej - przekazał Axios. Według ekspertów cytowanych przez portal niedawne incydenty z ograniczeniami działania Starlinka spowodowały w Kijowie utratę zaufania do systemu."
-  },
-  {
-   "zrodlo": "Polsat News",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Zełenski broni rozmowy z Putinem. Europejscy przywódcy podzieleni",
-   "url": "https://www.polsatnews.pl/wiadomosc/2026-10-28/zelenski-broni-rozmowy-z-putinem-europejscy-przywodcy-podzieleni/",
-   "opublikowano": "2026-10-28T14:05:00Z",
-   "opublikowano_surowe": "Wed, 28 Oct 2026 15:05:00 +0100",
-   "streszczenie": "Wołodymyr Zełenski stanął w obronie przywódców Finlandii i Norwegii, których rozmowa telefoniczna z Władimirem Putinem wywołała spór w Europie. Prezydent Ukrainy podkreślił, że inicjatywa była wcześniej uzgodniona z Kijowem, a podobne kontakty z Moskwą prowadzono już wcześniej. Krytyka płynie m.in. z Danii i Szwecji. Włochy domagają się wspólnego europejskiego stanowiska."
-  },
-  {
-   "zrodlo": "Polsat News",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Chciał zostać prezydentem, rozpłynął się w powietrzu. Gdzie jest Flavio Bolsonaro?",
-   "url": "https://www.polsatnews.pl/wiadomosc/2026-10-28/chcial-zostac-prezydentem-rozplynal-sie-w-powietrzu-gdzie-jest-flavio-bolsonaro/",
-   "opublikowano": "2026-10-28T14:00:00Z",
-   "opublikowano_surowe": "Wed, 28 Oct 2026 15:00:00 +0100",
-   "streszczenie": "Po przegranych wyborach prezydenckich i wszczęciu śledztwa w sprawie finansowania kampanii Flavio Bolsonaro wyjechał z Brazylii. Choć początkowo informowano, że polityk udał się do USA, obecnie nie jest to już jasne. Urząd migracyjny Argentyny wskazał, że 45-latek wyjechał do Ekwadoru."
-  },
-  {
-   "zrodlo": "Polsat News",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "17-latka miała planować zabójstwo pracownika szkoły. W plecaku trzymała nóż",
-   "url": "https://www.polsatnews.pl/wiadomosc/2026-10-28/17-latka-miala-planowac-zabojstwo-pracownika-szkoly-w-plecaku-trzymala-noz/",
-   "opublikowano": "2026-10-28T13:51:00Z",
-   "opublikowano_surowe": "Wed, 28 Oct 2026 14:51:00 +0100",
-   "streszczenie": "17-latka z powiatu żnińskiego usłyszała zarzut przygotowania do zabójstwa pracownika jednej ze szkół. Według śledczych nastolatka gromadziła niebezpieczne narzędzia, w tym noże, które trzymała w domu i plecaku. Dziewczyna została zatrzymana przez policję, a sąd zdecydował o jej tymczasowym aresztowaniu na trzy miesiące. Grozi jej do 15 lat więzienia."
-  },
-  {
-   "zrodlo": "Polsat News",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "63-latek groził wysadzeniem przychodni. Na komendę przyjechał pijany",
-   "url": "https://www.polsatnews.pl/wiadomosc/2026-10-28/63-latek-grozil-wysadzeniem-przychodni-na-komende-przyjechal-pijany/",
-   "opublikowano": "2026-10-28T13:50:00Z",
-   "opublikowano_surowe": "Wed, 28 Oct 2026 14:50:00 +0100",
-   "streszczenie": "Do przychodni w Skierniewicach zadzwonił 63-latek, który chciał umówić się na wizytę lekarską. Po usłyszeniu informacji, że termin zapisów przypada na następny dzień odpowiedział, że pod budynek należy podłożyć bombę. Gdy przyjechał na komendę złożyć wyjaśnienia, okazało się, że był pod wpływem alkoholu. Teraz odpowie nie tylko za groźby, ale też prowadzenie auta w stanie nietrzeźwości."
-  },
-  {
-   "zrodlo": "Polsat News",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Media: USA planują atak po wyborach. Biały Dom ostrzegł sojuszników",
-   "url": "https://www.polsatnews.pl/wiadomosc/2026-10-28/media-usa-zwrocily-sie-do-panstw-arabskich-krotka-intensywna-kampanie-wojskowa/",
-   "opublikowano": "2026-10-28T13:35:00Z",
-   "opublikowano_surowe": "Wed, 28 Oct 2026 14:35:00 +0100",
-   "streszczenie": "USA poleciły krajom Zatoki Perskiej przygotowania do krótkiej, intensywnej kampanii wojskowej przeciwko Iranowi po przyszłotygodniowych wyborach - podał The Wall Street Journal. Operacja ma osłabić Teheran i zmusić go do negocjacji. Dziennik zaznaczył jednak, że prezydent Donald Trump nie podał jeszcze ostatecznej decyzji."
-  },
-  {
-   "zrodlo": "Polsat News",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Kondolencje polityków po katastrofie w Hiszpanii. \"Polska łączy się w żałobie\"",
-   "url": "https://www.polsatnews.pl/wiadomosc/2026-10-28/kondolencje-politykow-po-katastrofie-w-hiszpanii-polska-laczy-sie-w-zalobie/",
-   "opublikowano": "2026-10-28T13:26:00Z",
-   "opublikowano_surowe": "Wed, 28 Oct 2026 14:26:00 +0100",
-   "streszczenie": "Po katastrofie kolejowej w Hiszpanii polscy i światowi politycy opublikowali kondolencje ze słowami wsparcia dla rodzin ofiar. Polska łączy się w żałobie z narodem hiszpańskim - napisał prezydent Karol Nawrocki. Wyrazy solidarności przekazali też m.in. premier Donald Tusk i minister Radosław Sikorski. Polskie MSZ przekazało, że według wstępnych ustaleń wśród ofiar nie ma Polaków."
-  },
-  {
-   "zrodlo": "Polsat News",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Białorusin próbował przemycić do Polski żywy towar. Był wart majątek",
-   "url": "https://www.polsatnews.pl/wiadomosc/2026-10-28/bialorusin-probowal-przemycic-do-polski-zywy-towar-byl-wart-majatek/",
-   "opublikowano": "2026-10-28T13:20:00Z",
-   "opublikowano_surowe": "Wed, 28 Oct 2026 14:20:00 +0100",
-   "streszczenie": "41 żywych i w dużej części znajdujących się pod ochroną jaszczurek próbował przemycić do Polski 41-letni Białorusin. Gady warte 100 tysięcy złotych zostały zakupione w Rosji i miały trafić do obywatela Polski. Ten miał je nabyć po nieproporcjonalnie niższej cenie."
-  },
-  {
-   "zrodlo": "Polsat News",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Katastrofa kolejowa w Hiszpanii. Zginęły 64 osoby, rośnie tragiczny bilans",
-   "url": "https://www.polsatnews.pl/wiadomosc/2026-10-28/katastrofa-kolejowa-w-hiszpanii-zderzyly-sie-dwa-pociagi/",
-   "opublikowano": "2026-10-28T12:58:00Z",
-   "opublikowano_surowe": "Wed, 28 Oct 2026 13:58:00 +0100",
-   "streszczenie": "W katastrofie kolejowej w Hiszpanii zginęły co najmniej 64 osoby - przekazał rzecznik rządu regionu Kastylia-La Mancha. To ponad dwukrotny wzrost pod względem ostatnich, oficjalnych danych. Między miastami Mora i Orgaz w prowincji Toledo zderzyły się dwa pociągi dużych prędkości. - Usłyszeliśmy potężny huk - relacjonował jeden z pasażerów."
-  },
-  {
-   "zrodlo": "Polsat News",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Wrze w Izraelu, partie arabskie języczkiem u wagi. \"Netanjahu przegrał\"",
-   "url": "https://www.polsatnews.pl/wiadomosc/2026-10-28/wrze-w-izraelu-partie-arabskie-jezyczkiem-u-wagi-netanjahu-przegral/",
-   "opublikowano": "2026-10-28T12:41:00Z",
-   "opublikowano_surowe": "Wed, 28 Oct 2026 13:41:00 +0100",
-   "streszczenie": "54 miejsca dla bloku Binjamina Netanjahu i 49 dla opozycji po przeliczeniu 4,4 miliona głosów - tak obecnie przedstawiają się wyniki wyborów w Izraelu, podaje The Jerusalem Post. Liderzy ugrupowań przeciwnych obecnemu rządowi wzywają do współpracy z partiami arabskimi. Liczbę uzyskanych przez nie miejsc szacuje się obecnie na 17."
-  },
-  {
-   "zrodlo": "Polsat News",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Absurdalny wykład Putina. Zamiast o pokoju mówił o średniowieczu",
-   "url": "https://www.polsatnews.pl/wiadomosc/2026-10-28/absurdalny-wyklad-putina-zamiast-o-pokoju-mowil-o-sredniowieczu/",
-   "opublikowano": "2026-10-28T12:19:00Z",
-   "opublikowano_surowe": "Wed, 28 Oct 2026 13:19:00 +0100",
-   "streszczenie": "Władimir Putin poświęcił większość rozmowy z przywódcami Finlandii i Norwegii na wykład na temat średniowiecznej historii Słowian - informuje Financial Times, powołując się na źródła zaznajomione z treścią dyskusji. To nie pierwszy raz, gdy rosyjski dyktator próbuje odgrywać przed zachodnimi liderami rolę historyka."
-  },
-  {
-   "zrodlo": "Polsat News",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "ZUS sprawi niespodziankę seniorom przed weekendem. Blisko 370 zł dodatku",
-   "url": "https://www.polsatnews.pl/ciekawostki/2026-10-28/zus-sprawi-niespodzianke-seniorom-przed-weekendem-blisko-370-zl-dodatku/",
-   "opublikowano": "2026-10-28T12:14:00Z",
-   "opublikowano_surowe": "Wed, 28 Oct 2026 13:14:00 +0100",
-   "streszczenie": "Emeryci, którym ZUS przelewa emeryturę lub rentę pierwszego dnia miesiąca, dostaną listopadową wypłatę wcześniej. Osoby po 75. roku życia znajdą w niej także dodatek pielęgnacyjny."
-  },
-  {
-   "zrodlo": "Polsat News",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Burza wokół prokuratury w sprawie senatora Lenza. Politycy żądają wyjaśnień",
-   "url": "https://www.polsatnews.pl/wiadomosc/2026-10-28/burza-wokol-prokuratury-w-sprawie-senatora-lenza-politycy-zadaja-wyjasnien/",
-   "opublikowano": "2026-10-28T11:56:00Z",
-   "opublikowano_surowe": "Wed, 28 Oct 2026 12:56:00 +0100",
-   "streszczenie": "Burza po ustaleniach Wirtualnej Polski dotyczących działań prokuratury w sprawie senatora KO Tomasza Lenza. Śledczy zabezpieczyli telefon dyrektora szpitala, który kontaktował się z dziennikarzem opisującym nieprawidłowości w placówce. Politycy żądają wyjaśnień, a minister sprawiedliwości Waldemar Żurek zapowiada, że zbada sprawę."
-  },
-  {
-   "zrodlo": "Polsat News",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Nawet się nie obejrzała. 13-latka na hulajnodze wjechała wprost pod auto",
-   "url": "https://www.polsatnews.pl/wiadomosc/2026-10-28/nawet-sie-nie-obejrzala-13-latka-na-hulajnodze-wjechala-wprost-pod-auto/",
-   "opublikowano": "2026-10-28T11:04:00Z",
-   "opublikowano_surowe": "Wed, 28 Oct 2026 12:04:00 +0100",
-   "streszczenie": "13-latka jadąca hulajnogą elektryczną wjechała w przejeżdżający przez skrzyżowanie samochód osobowy. Nastolatka nie miała na sobie kasku ochronnego, po zderzeniu trafiła do szpitala. Augustowska policja opublikowała moment zdarzenia, nagrany przez kamerę monitoringu."
-  },
-  {
-   "zrodlo": "Polsat News",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Nie żyje były prezes wrocławskiego ZOO. Radosław Ratajszczak miał 69 lat",
-   "url": "https://www.polsatnews.pl/wiadomosc/2026-10-28/nie-zyje-byly-prezes-wroclawskiego-zoo-radoslaw-ratajszczak-mial-69-lat/",
-   "opublikowano": "2026-10-28T10:51:00Z",
-   "opublikowano_surowe": "Wed, 28 Oct 2026 11:51:00 +0100",
-   "streszczenie": "W wieku 69 lat zmarł Radosław Ratajszczak, zoolog który w latach 2007-2022 kierował wrocławskim ogrodem zoologicznym. Był inicjatorem stworzenia Fundacji ZOO Wrocław DODO, wspierającej ochronę zagrożonych gatunków na całym świecie. Pozostanie w naszej pamięci jako człowiek wielkiej pasji, wizji i oddania przyrodzie - napisało biuro prasowe Urzędu Miejskiego Wrocławia."
+   "tytul": "Zbigniew Komosa ma przeprosić Jarosława Kaczyńskiego. Jest decyzja sądu",
+   "url": "https://wiadomosci.onet.pl/kraj/zbigniew-komosa-ma-przeprosic-jaroslawa-kaczynskiego-bedzie-apelacja/3q5dj5j",
+   "opublikowano": "2026-10-28T14:36:26Z",
+   "opublikowano_surowe": "Wed, 28 Oct 2026 14:36:26 GMT",
+   "streszczenie": "Sąd zdecydował, że Zbigniew Komosa nie może publicznie prezentować treści sugerujących współodpowiedzialność Lecha Kaczyńskiego za katastrofę smoleńską oraz nakazał przeprosiny wobec Jarosława Kaczyńskiego. Aktywista już zapowiedział apelację."
   },
   {
    "zrodlo": "Onet Wiadomości",
@@ -2221,24 +2092,34 @@
    "streszczenie": "Gdy czołowi republikanie robią dobrą minę do złej gry, zagrzewając do walki o Kongres, szeregowi politycy przygotowują się do zaciętej batalii o wpływy i stanowisko lidera mniejszości (najwyższy rangą przedstawiciel partii, która ma mniej mandatów w tej izbie)."
   },
   {
-   "zrodlo": "Onet Wiadomości",
+   "zrodlo": "Interia Fakty",
    "kategoria": "NEWS",
    "region": "poland",
-   "tytul": "Katastrofa kolejowa w Hiszpanii. Donald Tusk reaguje. \"Druzgocące wieści\"",
-   "url": "https://wiadomosci.onet.pl/swiat/katastrofa-kolejowa-w-hiszpanii-donald-tusk-druzgocace-wiesci/b7c7kfc",
-   "opublikowano": "2026-10-28T13:03:51Z",
-   "opublikowano_surowe": "Wed, 28 Oct 2026 13:03:51 GMT",
-   "streszczenie": "Dwa pociągi pasażerskie zderzyły się w środę rano w pobliżu stacji Urda w prowincji Toledo w środkowej części Hiszpanii. W wyniku wypadku zginęło co najmniej 64 osoby. \" Wszyscy Polacy są w tym strasznym czasie solidarni z narodem hiszpańskim\" — napisał premier Donald Tusk."
+   "tytul": "\"Polski Rambo\". Wiceszef MON reaguje na zaskakujące słowa ambasadora USA",
+   "url": "https://wydarzenia.interia.pl/kraj/news-polski-rambo-wiceszef-mon-reaguje-na-zaskakujace-slowa-ambas,nId,23565495",
+   "opublikowano": "2026-10-28T14:54:38Z",
+   "opublikowano_surowe": "Wed, 28 Oct 2026 14:54:38 GMT",
+   "streszczenie": "Wiceminister MON Cezary Tomczyk został zapytany, jak czuje się jako \"polski Rambo\". To nawiązanie do słów ambasadora USA w Polsce Toma Rose'a, który mianem tego kultowego bohatera filmowego określił wiceministra obrony. Tomczyk stwierdził, że John Rambo to jedna z jego ulubionych postaci filmowych. - On zawsze walczył o dobre rzeczy - dodał."
   },
   {
-   "zrodlo": "Onet Wiadomości",
+   "zrodlo": "Interia Fakty",
    "kategoria": "NEWS",
    "region": "poland",
-   "tytul": "Afera byłego senatora KO. Minister Żurek reaguje na doniesienia mediów",
-   "url": "https://wiadomosci.onet.pl/kraj/zabieg-bez-kolejki-dla-syna-senatora-ko-tomasza-lenza-zurek-zapowiada-zbadanie-sprawy/sjdr0c3",
-   "opublikowano": "2026-10-28T12:55:30Z",
-   "opublikowano_surowe": "Wed, 28 Oct 2026 12:55:30 GMT",
-   "streszczenie": "\"O działaniach podejmowanych przez prokuraturę w sprawie ujawnienia informacji o zabiegu syna senatora Tomasza Lenza dowiedziałem się z mediów\" — przekazał minister sprawiedliwości Waldemar Żurek. Chodzi o poważne nieprawidłowości podczas wizyty dziecka polityka KO w jednym ze szpitali w Aleksandrowie Kujawskim."
+   "tytul": "Ordynacja wyborcza musi ulec zmianie. PKW śle pismo do Czarzastego",
+   "url": "https://wydarzenia.interia.pl/kraj/news-ordynacja-wyborcza-musi-ulec-zmianie-pkw-wyznaczyla-sejmowi,nId,23565501",
+   "opublikowano": "2026-10-28T14:51:04Z",
+   "opublikowano_surowe": "Wed, 28 Oct 2026 14:51:04 GMT",
+   "streszczenie": "Przewodniczący Państwowej Komisji Wyborczej Sylwester Marciniak skierował do marszałka Sejmu pismo, w którym zawnioskował o modyfikację okręgów wyborczych i liczby wybieranych w nich posłów. \"Komisja zwraca uwagę, że aktualny podział na okręgi wyborcze określone w załącznikach do ustawy narusza przepisy Kodeksu wyborczego\" - napisał Marciniak. Projekt zmian ordynacji wyborczej zawetował prezydent."
+  },
+  {
+   "zrodlo": "Interia Fakty",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Zapytano Niemców o oszczędności. Wyniki badań wskazują na spory problem",
+   "url": "https://wydarzenia.interia.pl/zagranica/news-zapytano-niemcow-o-oszczednosci-wyniki-badan-wskazuja-na-spo,nId,23565532",
+   "opublikowano": "2026-10-28T14:45:38Z",
+   "opublikowano_surowe": "Wed, 28 Oct 2026 14:45:38 GMT",
+   "streszczenie": "Co trzeci Niemiec nie byłby w stanie nagle wydać trzech tysięcy euro bez popadnięcia w kłopoty finansowe - wynika z badania instytutu Civey dotyczącego stanu oszczędności mieszkańców tego kraju. Problem z niewielkimi oszczędnościami lub ich brakiem dotyczy szczególnie młodych ludzi oraz rodzin z dziećmi."
   },
   {
    "zrodlo": "Interia Fakty",
@@ -2361,34 +2242,34 @@
    "streszczenie": "Wirus Ebola może wymknąć się spod kontroli i, podobnie jak koronawirus, rozprzestrzenić się na inne kontynenty - taką wizję przedstawił doktor Jean Kaseya. Wiadomo, że jedna z zakażonych pacjentek trafiła już do Europy. Dyrektor generalny Afrykańskiego Centrum Kontroli i Prewencji Chorób apeluje o zwiększenie możliwości leczenia w Afryce. Darczyńcy z USA, UE i Wielkiej Brytanii zobowiązali się do przekazania środków na walkę z chorobą, ale przelewy nadal nie dotarły."
   },
   {
-   "zrodlo": "Interia Fakty",
+   "zrodlo": "Rzeczpospolita",
    "kategoria": "NEWS",
    "region": "poland",
-   "tytul": "Polska spięta żółtym suwakiem pogodowym. To nie wróży nic dobrego",
-   "url": "https://wydarzenia.interia.pl/kraj/news-wieczor-nie-wszedzie-bedzie-bezpieczny-rozwinie-sie-grozne-z,nId,23565388",
-   "opublikowano": "2026-10-28T11:57:42Z",
-   "opublikowano_surowe": "Wed, 28 Oct 2026 11:57:42 GMT",
-   "streszczenie": "Najpierw Dolny Śląsk, a potem centrum i południe kraju. Po południu i wieczorem do Polski wrócą gęste mgły, przed którymi ostrzegają eksperci z IMGW. Na niektórych drogach widzialność spadnie poniżej 200 metrów. Zagrożenie może się utrzymywać przez całą noc i czwartkowy poranek."
+   "tytul": "Oto Zielona Stolica Europy. Polskie miasto w finale międzynarodowego konkursu",
+   "url": "https://klimat.rp.pl/klimat/art45410741-oto-zielona-stolica-europy-polskie-miasto-w-finale-miedzynarodowego-konkursu",
+   "opublikowano": "2026-10-28T14:54:53Z",
+   "opublikowano_surowe": "Wed, 28 Oct 2026 15:54:53 +0100",
+   "streszczenie": "Bielsko-Biała jako jedyne polskie miasto znalazło się w finale konkursu o tytuł Zielonej Stolicy Europy 2028. Choć ostatecznie jury wybrało hiszpańską Saragossę, już sam awans do ostatniego etapu był dużym osiągnięciem."
   },
   {
-   "zrodlo": "Interia Fakty",
+   "zrodlo": "Rzeczpospolita",
    "kategoria": "NEWS",
    "region": "poland",
-   "tytul": "Traktat ponad głowami Ukraińców? Zełenski o ukrytym celu Kremla",
-   "url": "https://wydarzenia.interia.pl/ukraina-rosja/news-drugie-dno-gwarancji-bezpieczenstwa-putin-ma-plan-zelenski-w,nId,23565278",
-   "opublikowano": "2026-10-28T11:40:54Z",
-   "opublikowano_surowe": "Wed, 28 Oct 2026 11:40:54 GMT",
-   "streszczenie": "Rosja chce dla siebie gwarancji bezpieczeństwa, ale nie chodzi jedynie o wstrzymanie ukraińskich ataków - twierdzi Wołodymyr Zełenski. Zdaniem prezydenta Ukrainy Moskwa ma znacznie szerszy plan i zakłada on żądania wobec NATO. Już wcześniej pojawiły się pogłoski, iż Władimir Putin może domagać się powrotu do porozumień z 1997 roku."
+   "tytul": "Rosja zapowiada negocjacje z Ukrainą i USA bez udziału Europy",
+   "url": "https://www.rp.pl/konflikty-zbrojne/art45410721-rosja-zapowiada-negocjacje-z-ukraina-i-usa-bez-udzialu-europy",
+   "opublikowano": "2026-10-28T14:47:13Z",
+   "opublikowano_surowe": "Wed, 28 Oct 2026 15:47:13 +0100",
+   "streszczenie": "Trójstronne rozmowy przedstawicieli Rosji, Ukrainy i Stanów Zjednoczonych mają zostać wznowione bez udziału państw europejskich. Uzgodniono to ze stroną amerykańską - poinformował Jurij Uszakow, doradca prezydenta Rosji."
   },
   {
-   "zrodlo": "Interia Fakty",
+   "zrodlo": "Rzeczpospolita",
    "kategoria": "NEWS",
    "region": "poland",
-   "tytul": "Ukraiński nokaut. Rosja chce ukryć je pod ziemią, są oficjalne zalecenia",
-   "url": "https://wydarzenia.interia.pl/ukraina-rosja/news-ukraincy-trafili-w-czuly-punkt-rosja-chce-ukryc-je-pod-ziemi,nId,23565195",
-   "opublikowano": "2026-10-28T11:30:32Z",
-   "opublikowano_surowe": "Wed, 28 Oct 2026 11:30:32 GMT",
-   "streszczenie": "Ukraińcy znaleźli kolejny czuły punkt i uderzyli. Wysiadały płatności i nawigacja. Taksówki nie dojeżdżały, a w sądach odwoływano rozprawy. Teraz rosyjskie ministerstwo wydało zalecenia, by cenne centra ukryć pod ziemią."
+   "tytul": "Gen. Roman Polko: Obrona powietrzna Polski była mocno niedoinwestowana, teraz jest budowana",
+   "url": "https://radar.rp.pl/modernizacja-sil-zbrojnych/art45410711-gen-roman-polko-obrona-powietrzna-polski-byla-mocno-niedoinwestowana-teraz-jest-budowana",
+   "opublikowano": "2026-10-28T14:34:53Z",
+   "opublikowano_surowe": "Wed, 28 Oct 2026 15:34:53 +0100",
+   "streszczenie": "– Kluczowe jest, aby do tego czasu, kiedy będziemy gotowi w stu procentach – w sytuacjach trudniejszych, zagrożeniach – pozyskiwać środki od naszych partnerów z NATO – podkreślił były dowódca jednostki GROM gen. Roman Polko w rozmowie z „Faktem”."
   },
   {
    "zrodlo": "Rzeczpospolita",
@@ -2446,8 +2327,8 @@
    "region": "poland",
    "tytul": "Nowy gracz na rynku rezerwacji apartamentów. „Polska marka z europejskimi ambicjami”",
    "url": "https://turystyka.rp.pl/apartamenty/art45410351-nowy-gracz-na-rynku-rezerwacji-apartamentow-polska-marka-z-europejskimi-ambicjami",
-   "opublikowano": "2026-10-28T13:39:42Z",
-   "opublikowano_surowe": "Wed, 28 Oct 2026 14:39:42 +0100",
+   "opublikowano": "2026-10-28T13:39:00Z",
+   "opublikowano_surowe": "Wed, 28 Oct 2026 14:39:00 +0100",
    "streszczenie": "Nowa polska platforma Heyrent na początek udostępnia ponad 5 tysięcy apartamentów w 60 miejscach w całej Polsce. W kolejnym etapie planuje rozszerzenie oferty o Chorwację i Bułgarię, a docelowo stworzenie międzynarodowej europejskiej platformy rezerwacyjnej."
   },
   {
@@ -2511,34 +2392,34 @@
    "streszczenie": "W Polsce co trzeci zatrudniony boi się dziś utraty pracy w perspektywie dwóch lat, przy czym w pierwszej połowie tego roku, w ramach zwolnień grupowych pracę straciło 11,6 tys. osób. W obliczu tych zmian coraz częściej mówi się o zjawisku career grief. Dotyczy ono osób, które zostały zwolnione lub same zdecydowały o odejściu i w związku z tym odczuwają silne poczucie straty."
   },
   {
-   "zrodlo": "Rzeczpospolita",
+   "zrodlo": "TVN Warszawa",
    "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Fatalne wyniki egzaminu notarialnego. Oblało go trzech na czterech przystępujących",
-   "url": "https://www.rp.pl/aplikacje-i-egzaminy/art45398891-fatalne-wyniki-egzaminu-notarialnego-oblalo-go-trzech-na-czterech-przystepujacych",
-   "opublikowano": "2026-10-28T12:41:00Z",
-   "opublikowano_surowe": "Wed, 28 Oct 2026 13:41:00 +0100",
-   "streszczenie": "Wstępne wyniki egzaminu notarialnego potwierdzają utrzymujący się od lat trend – z roku na rok zdaje coraz mniej osób. W tym roku najmniej od lat – jedynie 23,37 proc."
+   "region": "warsaw",
+   "tytul": "Auto stanęło w płomieniach",
+   "url": "https://tvn24.pl/tvnwarszawa/wawer/warszawa-auto-stanelo-w-plomieniach-przed-wjazdem-na-trase-s2-utrudnienia-na-ulicy-patriotow-st9310595?source=rss",
+   "opublikowano": "2026-10-28T14:29:55Z",
+   "opublikowano_surowe": "Wed, 28 Oct 2026 14:29:55 GMT",
+   "streszczenie": "Przed wjazdem na trasę S2 auto osobowe stanęło w płomieniach. Ogień objął przód pojazdu. Na ulicy Patriotów są utrudnienia w ruchu."
   },
   {
-   "zrodlo": "Rzeczpospolita",
+   "zrodlo": "TVN Warszawa",
    "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Po decyzji sądu Zbigniew Ziobro może ubiegać się o odszkodowanie",
-   "url": "https://www.rp.pl/prawo-karne/art45409861-po-decyzji-sadu-zbigniew-ziobro-moze-ubiegac-sie-o-odszkodowanie",
-   "opublikowano": "2026-10-28T12:33:00Z",
-   "opublikowano_surowe": "Wed, 28 Oct 2026 13:33:00 +0100",
-   "streszczenie": "Zbigniew Ziobro może domagać się odszkodowania i zadośćuczynienia. To efekt decyzji Sądu Apelacyjnego w Warszawie, który uchylił postanowienie o przymusowym doprowadzeniu byłego ministra sprawiedliwości na przesłuchanie przed komisją śledczą – informuje RMF FM."
+   "region": "warsaw",
+   "tytul": "Błąkał się po drodze ekspresowej. Liczą, że zgłosi się jego właściciel",
+   "url": "https://tvn24.pl/tvnwarszawa/okolice/ostrow-mazowiecka-piesek-blakal-sie-po-drodze-ekspresowej-s61-na-pomoc-ruszyli-policjanci-szukaja-wlasciciela-zwierzaka-st9310446?source=rss",
+   "opublikowano": "2026-10-28T14:08:03Z",
+   "opublikowano_surowe": "Wed, 28 Oct 2026 14:08:03 GMT",
+   "streszczenie": "Pies z ranną łapą błąkał się po trasie ekspresowej S61. Pomogli mu policjanci, zabrali z drogi i zawieźli do lekarza weterynarii. Jeśli nie zgłosi się jego właściciel, trafi do schroniska."
   },
   {
-   "zrodlo": "Rzeczpospolita",
+   "zrodlo": "TVN Warszawa",
    "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Wraca kontrowersyjna amerykańska marka odzieżowa. Tym razem ma być grzecznie",
-   "url": "https://sukces.rp.pl/moda/art45400761-wraca-kontrowersyjna-amerykanska-marka-odziezowa-tym-razem-ma-byc-grzecznie",
-   "opublikowano": "2026-10-28T12:32:00Z",
-   "opublikowano_surowe": "Wed, 28 Oct 2026 13:32:00 +0100",
-   "streszczenie": "Niegdyś była głośna i kontrowersyjna, ale przegrała z rynkime. Amerykańska marka odzieżowa American Apparel wraca na rynek. Otwarcie pierwszego fizycznego sklepu ma być zapowiedzią realizacji nowej strategii, odległej od dawnego wizerunku marki niegrzecznej i nieobliczalnej."
+   "region": "warsaw",
+   "tytul": "Zasnęła w aucie, trafi do więzienia",
+   "url": "https://tvn24.pl/tvnwarszawa/okolice/drogi-w-polsce-zasnela-w-aucie-trafi-do-wiezienia-st9310492?source=rss",
+   "opublikowano": "2026-10-28T13:58:31Z",
+   "opublikowano_surowe": "Wed, 28 Oct 2026 13:58:31 GMT",
+   "streszczenie": "Świadkowie chcieli jej pomóc, ale szybko zauważyli, co spowodowało, że zasnęła w aucie. Wyłączyli silnik i wezwali policję. 48-latka w trybie przyspieszonym została skazana na osiem miesięcy więzienia."
   },
   {
    "zrodlo": "TVN Warszawa",
@@ -2659,36 +2540,6 @@
    "opublikowano": "2026-10-27T16:56:36Z",
    "opublikowano_surowe": "Tue, 27 Oct 2026 16:56:36 GMT",
    "streszczenie": "Na jezdni przed tunelem Wisłostrady znów pojawiły się zraszacze. To element systemu zapobiegającego oblodzeniu drogi. Gdy parametry wskazują na ryzyko zamarzania wilgoci, z dysz rozpylany jest środek chemiczny."
-  },
-  {
-   "zrodlo": "TVN Warszawa",
-   "kategoria": "NEWS",
-   "region": "warsaw",
-   "tytul": "\"Przez lata była symbolem polskiego dziedzictwa\". Została zabytkiem",
-   "url": "https://tvn24.pl/tvnwarszawa/srodmiescie/warszawa-akwarela-zygmunta-vogla-widok-lazienek-od-strony-polnocnej-zostala-zabytkiem-st9308127?source=rss",
-   "opublikowano": "2026-10-27T16:25:13Z",
-   "opublikowano_surowe": "Tue, 27 Oct 2026 16:25:13 GMT",
-   "streszczenie": "Przed wojną zdobiła Pałac na Wyspie, potem zaginęła. W 2025 roku wróciła na swoje miejsce - do Łazienek Królewskich. Teraz akwarela Zygmunta Vogla \"Widok Łazienek od strony północnej\" została zabytkiem."
-  },
-  {
-   "zrodlo": "TVN Warszawa",
-   "kategoria": "NEWS",
-   "region": "warsaw",
-   "tytul": "Zastraszony nożem 14-latek stracił motorower. Policja zatrzymała 15-latka",
-   "url": "https://tvn24.pl/tvnwarszawa/okolice/sierpc-zastraszyl-nozem-nastolatka-zabral-motorower-i-odjechal-st9308612?source=rss",
-   "opublikowano": "2026-10-27T16:05:14Z",
-   "opublikowano_surowe": "Tue, 27 Oct 2026 16:05:14 GMT",
-   "streszczenie": "W centrum Sierpca (Mazowieckie) 15-latek miał zastraszyć 14-latka nożem, zabrać mu motorower i odjechać. Skradziony pojazd został odzyskany, a nastolatek podejrzany o rozbój zatrzymany. O jego losie zadecyduje sąd."
-  },
-  {
-   "zrodlo": "TVN Warszawa",
-   "kategoria": "NEWS",
-   "region": "warsaw",
-   "tytul": "18-latek rajd po A2 zakończył na barierach, auto spłonęło. Policja o nagraniu i \"dalszych czynnościach\"",
-   "url": "https://tvn24.pl/tvnwarszawa/okolice/kaluszyn-rajd-po-autostradzie-a2-zakonczyl-na-barierach-auto-stanelo-w-plomieniach-st9308088?source=rss",
-   "opublikowano": "2026-10-27T15:08:36Z",
-   "opublikowano_surowe": "Tue, 27 Oct 2026 15:08:36 GMT",
-   "streszczenie": "Nastolatek pędził Seatem po autostradzie A2. Podczas wyprzedzania stracił panowanie nad autem i uderzył w bariery energochłonne. Jego samochód stanął w płomieniach. Po publikacji nagrań świadków, policja zdecydowała się zbadać dodatkowo przebieg kolizji."
   },
   {
    "zrodlo": "Gazeta Stołeczna",
@@ -2844,6 +2695,16 @@
    "zrodlo": "TechCrunch",
    "kategoria": "AI",
    "region": "world",
+   "tytul": "Amazon debuts the Alexa Photo Frame and Echo Time smart clock, plus other upgraded devices",
+   "url": "https://techcrunch.com/2026/10/28/amazon-debuts-the-alexa-photo-frame-and-echo-time-smart-clock-plus-other-upgraded-devices/",
+   "opublikowano": "2026-10-28T14:34:25Z",
+   "opublikowano_surowe": "Wed, 28 Oct 2026 14:34:25 +0000",
+   "streszczenie": "Amazon's other new decides include an upgraded Echo Dot, an Echo Studio with visual intelligence features, and the Echo Show 16."
+  },
+  {
+   "zrodlo": "TechCrunch",
+   "kategoria": "AI",
+   "region": "world",
    "tytul": "TikTok expands into restaurant guides with ‘Must Eat’ feature",
    "url": "https://techcrunch.com/2026/10/28/tiktok-expands-into-restaurant-guides-with-must-eat-feature/",
    "opublikowano": "2026-10-28T14:26:36Z",
@@ -2981,14 +2842,34 @@
    "streszczenie": "Here's a clear explanation of Anthropic's incredibly complex governance structure."
   },
   {
-   "zrodlo": "TechCrunch",
-   "kategoria": "AI",
+   "zrodlo": "The Verge",
+   "kategoria": "Tech",
    "region": "world",
-   "tytul": "Discord is making its public communities more searchable, and people have concerns",
-   "url": "https://techcrunch.com/2026/10/27/discord-is-making-its-public-communities-more-searchable-and-people-have-concerns/",
-   "opublikowano": "2026-10-27T21:22:35Z",
-   "opublikowano_surowe": "Tue, 27 Oct 2026 21:22:35 +0000",
-   "streszczenie": "In December, messages from Discord's public discoverable servers will begin appearing in search engine results."
+   "tytul": "Apple raises the MacBook Neo’s student pricing again",
+   "url": "https://www.theverge.com/tech/1020629/apple-macbook-neo-price-hike-education-store",
+   "opublikowano": "2026-10-28T14:49:34Z",
+   "opublikowano_surowe": "2026-10-28T10:49:34-04:00",
+   "streszczenie": "The MacBook Neo now starts at $649 on Apple's Education Store, up $150 from its initial $499 education starting price. As reported earlier by MacRumors, the student discount for the Neo received a $50 price bump in recent days, following a $100 price bump back in June. Apple's budget MacBook is now just $50 off […]"
+  },
+  {
+   "zrodlo": "The Verge",
+   "kategoria": "Tech",
+   "region": "world",
+   "tytul": "xAI is buying out homeowners who promise not to sue over data center noise",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1020596/xai-mississippi-neighborhood-data-center-lawsuit",
+   "opublikowano": "2026-10-28T14:44:00Z",
+   "opublikowano_surowe": "2026-10-28T10:44:00-04:00",
+   "streszczenie": "A subsidiary of Elon Musk's xAI is offering to buy up homes in a Mississippi neighborhood, as long as residents don't join a lawsuit targeting the company's nearby data center and power plant, according to a report from The Guardian. A realtor going door-to-door in the Southaven neighborhood reportedly told one resident that xAI plans […]"
+  },
+  {
+   "zrodlo": "The Verge",
+   "kategoria": "Tech",
+   "region": "world",
+   "tytul": "Here’s Virgin Galactic’s new Apeiron spaceship",
+   "url": "https://www.theverge.com/science/1020607/virgin-galactic-apeiron-2027-commercial-spaceflight",
+   "opublikowano": "2026-10-28T14:17:43Z",
+   "opublikowano_surowe": "2026-10-28T10:17:43-04:00",
+   "streszczenie": "Virgin Galactic's new spaceship is here, dubbed \"Apeiron\" by popular vote from a public poll. Apeiron is the first of the company's new Delta-class spacecraft, but it isn't slated to launch for nearly another year. Earlier this week, Virgin Galactic announced another delay in its launch timeline: The lead Spaceship's first commercial spaceflight is now […]"
   },
   {
    "zrodlo": "The Verge",
@@ -3054,41 +2935,11 @@
    "zrodlo": "The Verge",
    "kategoria": "Tech",
    "region": "world",
-   "tytul": "Amazon’s first digital picture frame lets you add voice notes to photos",
-   "url": "https://www.theverge.com/tech/1019626/amazon-alexa-plus-photo-digital-picture-frame-smart-speaker",
-   "opublikowano": "2026-10-28T12:58:07Z",
-   "opublikowano_surowe": "2026-10-28T08:58:07-04:00",
-   "streszczenie": "Amazon's screen-equipped smart speakers have long been able to display your family's photos, but its new Alexa Photo Frame is purpose-built for that task. It's designed to compete with other digital picture frames from companies like Aura, and Amazon's incorporates a smart speaker with access to Alexa Plus' capabilities through voice commands. However, unlike the […]"
-  },
-  {
-   "zrodlo": "The Verge",
-   "kategoria": "Tech",
-   "region": "world",
    "tytul": "Voters in Texas agree: They hate data centers",
    "url": "https://www.theverge.com/ai-artificial-intelligence/1018676/data-center-midterm-election-energy-water-texas",
    "opublikowano": "2026-10-28T12:39:57Z",
    "opublikowano_surowe": "2026-10-28T08:39:57-04:00",
    "streszczenie": "Ask Texas NAACP president Gary Bledsoe what it's been like to see data center developers descend upon Austin and its surrounding suburbs and he can rattle off project after project facing opposition from locals. There's the fight in Taylor over plans to build a data center at a site that's supposed to be a park. […]"
-  },
-  {
-   "zrodlo": "The Verge",
-   "kategoria": "Tech",
-   "region": "world",
-   "tytul": "Amazon’s new Echo Studio speaker has a camera",
-   "url": "https://www.theverge.com/tech/1020241/amazon-echo-studio-home-camera-dot-smart-home-hub",
-   "opublikowano": "2026-10-28T12:09:32Z",
-   "opublikowano_surowe": "2026-10-28T08:09:32-04:00",
-   "streszczenie": "Amazon is giving its premium smart speaker a camera. The new Echo Studio with Home Camera, announced today as part of Amazon's big blast of announcements, has a built-in camera for monitoring a room while you're away, showing things to Alexa, and, soon, to use with video calls on Fire TV devices. It's an iteration […]"
-  },
-  {
-   "zrodlo": "The Verge",
-   "kategoria": "Tech",
-   "region": "world",
-   "tytul": "How a grocery merger could expand a surveillance network",
-   "url": "https://www.theverge.com/policy/1020187/kroger-grocery-merger-surveillance",
-   "opublikowano": "2026-10-27T22:47:25Z",
-   "opublikowano_surowe": "2026-10-27T18:47:25-04:00",
-   "streszczenie": "Kroger's $1.65 billion proposed acquisition of Giant Eagle might not only consolidate the grocery market, but also a vast surveillance network that includes Flock cameras, a new report warns. Beyond standard concerns that a merger could decrease competition and increase prices, the American Economic Liberties Project (AELP), which advocates for competition policy reforms, says that […]"
   },
   {
    "zrodlo": "MIT Technology Review",
@@ -3189,6 +3040,16 @@
    "opublikowano": "2026-10-23T09:00:00Z",
    "opublikowano_surowe": "Fri, 23 Oct 2026 09:00:00 +0000",
    "streszczenie": "Earlier this week, I attended a screening of You Can See Everything, the buzzy new documentary about the disgraced former biotech CEO Elizabeth Holmes. I went in not really knowing what to expect. I’d avoided spoilers (and won’t be giving anything away here, either!). I was wondering what new information this film could reveal, given…"
+  },
+  {
+   "zrodlo": "Sifted",
+   "kategoria": "Tech",
+   "region": "europe",
+   "tytul": "The executive talent market is divided in two",
+   "url": "https://sifted.eu/articles/executive-talent-market-is-divided-in-two-brnd/",
+   "opublikowano": "2026-10-28T14:32:29Z",
+   "opublikowano_surowe": "Wed, 28 Oct 2026 14:32:29 GMT",
+   "streszczenie": ""
   },
   {
    "zrodlo": "Sifted",
@@ -3331,14 +3192,14 @@
    "streszczenie": ""
   },
   {
-   "zrodlo": "Sifted",
+   "zrodlo": "Spider’s Web",
    "kategoria": "Tech",
-   "region": "europe",
-   "tytul": "EQT Ventures and QuantumLight back wealthtech platform Nevis in $70m raise",
-   "url": "https://sifted.eu/articles/revolut-alumni-nevis-wealth-tech-management-funding-round/",
-   "opublikowano": "2026-10-26T16:57:44Z",
-   "opublikowano_surowe": "Mon, 26 Oct 2026 16:57:44 GMT",
-   "streszczenie": ""
+   "region": "poland",
+   "tytul": "Duża zmiana w mObywatelu od 1 listopada. Koniec z okienkiem w urzędzie",
+   "url": "https://spidersweb.pl/2026/10/mobywatel-zakladanie-firmy-zmiana.html",
+   "opublikowano": "2026-10-28T14:55:00Z",
+   "opublikowano_surowe": "Wed, 28 Oct 2026 15:55:00 +0100",
+   "streszczenie": "Duża zmiana w mObywatelu od 1 listopada. Koniec z okienkiem w urzędzie"
   },
   {
    "zrodlo": "Spider’s Web",
@@ -3479,16 +3340,6 @@
    "opublikowano": "2026-10-28T07:00:00Z",
    "opublikowano_surowe": "Wed, 28 Oct 2026 08:00:00 +0100",
    "streszczenie": "Jak rozpoznać oszustwo w sieci? Dzięki tym zasadom nie dasz się złapać"
-  },
-  {
-   "zrodlo": "Spider’s Web",
-   "kategoria": "Tech",
-   "region": "poland",
-   "tytul": "Polsat wchodzi na YouTube'a. Tłumaczę, co to oznacza dla widzów",
-   "url": "https://spidersweb.pl/2026/10/polsat-youtube-programy.html",
-   "opublikowano": "2026-10-28T06:34:00Z",
-   "opublikowano_surowe": "Wed, 28 Oct 2026 07:34:00 +0100",
-   "streszczenie": "Polsat wchodzi na YouTube'a. Tłumaczę, co to oznacza dla widzów"
   },
   {
    "zrodlo": "MamStartup",

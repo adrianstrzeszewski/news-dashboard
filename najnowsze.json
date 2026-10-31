@@ -1,5 +1,5 @@
 {
- "zebrano": "2026-10-31T08:21:49Z",
+ "zebrano": "2026-10-31T10:51:05Z",
  "kanalow_ok": 31,
  "kanalow_bledy": 2,
  "niepelny": false,
@@ -244,6 +244,26 @@
    "zrodlo": "BBC News",
    "kategoria": "NEWS",
    "region": "world",
+   "tytul": "CCTV, zip ties and election watchers: How US mail-in votes are secured and counted",
+   "url": "https://www.bbc.co.uk/news/videos/cw4g1vlj4v2jo?at_medium=RSS&at_campaign=rss",
+   "opublikowano": "2026-10-31T09:16:14Z",
+   "opublikowano_surowe": "Sat, 31 Oct 2026 09:16:14 GMT",
+   "streszczenie": "BBC Verify goes to an election centre to get a behind-the-scenes look at how mail-in ballots for the US midterm elections are processed."
+  },
+  {
+   "zrodlo": "BBC News",
+   "kategoria": "NEWS",
+   "region": "world",
+   "tytul": "Hundreds evacuated from Russian-occupied Oleshky during rare Ukraine ceasefire",
+   "url": "https://www.bbc.co.uk/news/articles/c60me298k1yeo?at_medium=RSS&at_campaign=rss",
+   "opublikowano": "2026-10-31T08:49:35Z",
+   "opublikowano_surowe": "Sat, 31 Oct 2026 08:49:35 GMT",
+   "streszczenie": "Hundreds of people are also understood to have stayed in the front-line town, despite the dangers."
+  },
+  {
+   "zrodlo": "BBC News",
+   "kategoria": "NEWS",
+   "region": "world",
    "tytul": "Spain train disaster clouds Sánchez chances of re-election",
    "url": "https://www.bbc.co.uk/news/articles/cmeweppr990qo?at_medium=RSS&at_campaign=rss",
    "opublikowano": "2026-10-31T05:44:21Z",
@@ -371,24 +391,14 @@
    "streszczenie": "Ukraine correspondent Dan Johnson explains the temporary ceasefire in the devastated town of Oleshky."
   },
   {
-   "zrodlo": "BBC News",
+   "zrodlo": "BBC Europe",
    "kategoria": "NEWS",
-   "region": "world",
-   "tytul": "G20 'family photo' cancelled after protests over presence of Russian minister",
-   "url": "https://www.bbc.co.uk/news/articles/cmd6dp2y576do?at_medium=RSS&at_campaign=rss",
-   "opublikowano": "2026-10-30T22:11:52Z",
-   "opublikowano_surowe": "Fri, 30 Oct 2026 22:11:52 GMT",
-   "streszczenie": "UK Foreign Secretary Ed Miliband confronted his Russian counterpart at the meeting and accused his government of killing innocent civilians in Ukraine."
-  },
-  {
-   "zrodlo": "BBC News",
-   "kategoria": "NEWS",
-   "region": "world",
-   "tytul": "Crypto giant Binance attempting to recover $6.3bn stolen in hack linked to North Korea",
-   "url": "https://www.bbc.co.uk/news/articles/cwe8lp7zy07zo?at_medium=RSS&at_campaign=rss",
-   "opublikowano": "2026-10-30T21:13:14Z",
-   "opublikowano_surowe": "Fri, 30 Oct 2026 21:13:14 GMT",
-   "streszczenie": "The cyber-attack, which the company describes as complex, is believed to be the largest ever of its kind."
+   "region": "europe",
+   "tytul": "Hundreds evacuated from Russian-occupied Oleshky during rare Ukraine ceasefire",
+   "url": "https://www.bbc.co.uk/news/articles/c60me298k1yeo?at_medium=RSS&at_campaign=rss",
+   "opublikowano": "2026-10-31T08:49:35Z",
+   "opublikowano_surowe": "Sat, 31 Oct 2026 08:49:35 GMT",
+   "streszczenie": "Hundreds of people are also understood to have stayed in the front-line town, despite the dangers."
   },
   {
    "zrodlo": "BBC Europe",
@@ -429,16 +439,6 @@
    "opublikowano": "2026-10-30T20:41:51Z",
    "opublikowano_surowe": "Fri, 30 Oct 2026 20:41:51 GMT",
    "streszczenie": "Novaya Gazeta has been one of the most high-profile independent news outlets in Russia over the last three decades."
-  },
-  {
-   "zrodlo": "BBC Europe",
-   "kategoria": "NEWS",
-   "region": "europe",
-   "tytul": "Hundreds evacuated from Russian-occupied Oleshky during rare Ukraine ceasefire",
-   "url": "https://www.bbc.co.uk/news/articles/c60me298k1yeo?at_medium=RSS&at_campaign=rss",
-   "opublikowano": "2026-10-30T16:26:11Z",
-   "opublikowano_surowe": "Fri, 30 Oct 2026 16:26:11 GMT",
-   "streszczenie": "Hundreds of people are also understood to have stayed in the front-line town, despite the dangers."
   },
   {
    "zrodlo": "BBC Europe",
@@ -544,6 +544,36 @@
    "zrodlo": "The Guardian",
    "kategoria": "NEWS",
    "region": "world",
+   "tytul": "Fallon Sherrock pulls off shock defeat of world darts No 1 Luke Littler in live TV battle",
+   "url": "https://www.theguardian.com/sport/2026/oct/31/fallon-sherrock-shock-defeat-luke-littler-darts-live-tv-battle-netflix",
+   "opublikowano": "2026-10-31T10:17:37Z",
+   "opublikowano_surowe": "Sat, 31 Oct 2026 10:17:37 GMT",
+   "streszczenie": "The 15th amateur to challenge Littler in Netflix stream on Friday evening, Sherrock was ‘lost for words’ after winning £501,000 prize The name of the programme was Beat Luke Littler, and Fallon Sherrock did just that. On one of the biggest nights of the year for British TV, Netflix, too, there was much at stake: not just £501,000 to any of the 20 amateur challengers who managed to beat Littler in a single leg of darts, but also the jeopardy of whether audiences would choose to watch the streamer’s first UK live entertainment event – or the final of BBC juggernaut Celebrity Traitors. Continue r"
+  },
+  {
+   "zrodlo": "The Guardian",
+   "kategoria": "NEWS",
+   "region": "world",
+   "tytul": "Trump beware: US voters are concerned about government corruption",
+   "url": "https://www.theguardian.com/us-news/2026/oct/31/trump-government-corruption-midterms-voters",
+   "opublikowano": "2026-10-31T10:00:41Z",
+   "opublikowano_surowe": "Sat, 31 Oct 2026 10:00:41 GMT",
+   "streszczenie": "Alleged self-dealing by the president and his allies doesn’t look so good as corruption emerges as a key issue for midterm voters Government corruption a top issue for US midterm voters, exclusive poll finds Voters under 50 probably won’t remember the “ welfare queen ”. But she once embodied Republicans’ claim of the underlying reason for US societal decay: the poor are a bunch of fraudsters. Ronald Reagan introduced Linda Taylor to US voters at a rally during the Republican presidential primary season in 1976. A resident of Chicago’s South Side, Taylor had been arrested for welfare fraud. “Sh"
+  },
+  {
+   "zrodlo": "The Guardian",
+   "kategoria": "NEWS",
+   "region": "world",
+   "tytul": "Cost of living protests to spread to Germany and reignite in France on Halloween",
+   "url": "https://www.theguardian.com/world/2026/oct/30/cost-of-living-protests-to-spread-to-germany-and-reignite-in-france-on-halloween",
+   "opublikowano": "2026-10-31T09:13:22Z",
+   "opublikowano_surowe": "Sat, 31 Oct 2026 09:13:22 GMT",
+   "streszczenie": "Activists call for people to make their anger known over poor public services including education and housing Street protests sweeping Europe are expected to spread to Germany and reignite in France on Saturday, with police mobilised to stop potential looting and rioting on the fringes of what organisers hope will be peaceful rallies. Weeks of, at times violent, student demonstrations have rocked Italy, Spain, Portugal, Albania and France, where activists on Halloween have again called for people to make their anger over the cost of living and deficient public services felt across the country."
+  },
+  {
+   "zrodlo": "The Guardian",
+   "kategoria": "NEWS",
+   "region": "world",
    "tytul": "Florid language and long silences: five things we learned from week three of Russell Brand’s rape trial",
    "url": "https://www.theguardian.com/uk-news/2026/oct/31/five-things-we-learned-from-week-three-russell-brand-rape-trial",
    "opublikowano": "2026-10-31T08:00:38Z",
@@ -599,16 +629,6 @@
    "opublikowano": "2026-10-31T06:00:37Z",
    "opublikowano_surowe": "Sat, 31 Oct 2026 06:00:37 GMT",
    "streszczenie": "Sellers in areas such as Belgravia and Mayfair face hundreds of thousands of pounds in losses as property prices fall Eight out of 10 properties in London’s most exclusive neighbourhoods – such as Mayfair, Belgravia and Knightsbridge – now sell below asking price, according to research by Coutts, which provides private banking services to wealthy clients. Property prices in “prime central London”, which covers the city’s most expensive postcodes, have dropped 5% in the third quarter of 2026, as the slowdown in the UK’s property market hits its wealthiest residents. Continue reading..."
-  },
-  {
-   "zrodlo": "The Guardian",
-   "kategoria": "NEWS",
-   "region": "world",
-   "tytul": "‘Reparations now’: King and Burnham face protests at Antigua Commonwealth summit",
-   "url": "https://www.theguardian.com/world/2026/oct/31/protests-expected-king-charles-reparations-slave-trade-commonwealth-summit-antigua",
-   "opublikowano": "2026-10-31T06:00:37Z",
-   "opublikowano_surowe": "Sat, 31 Oct 2026 06:00:37 GMT",
-   "streszczenie": "Activists see meeting as opportunity to demand UK confront role in transatlantic enslavement “The royal family enslaved us! Apologise now! Reparatory justice now!” King Charles and the UK prime minister, Andy Burnham, will be greeted with messages as they travel through Antigua’s capital, St John’s, to attend meetings at the Commonwealth leaders’ summit next week. On billboards, placards and T-shirts, in letters and at a candlelight vigil for the thousands of Africans trafficked to Antigua and Barbuda during the transatlantic slave trade, the message from the Caribbean will be pervasive: slave"
   },
   {
    "zrodlo": "The Guardian",
@@ -671,24 +691,134 @@
    "streszczenie": "Marco Rubio pulls plug on traditional photo op at meeting of foreign ministers after about one-third of countries threaten boycott The traditional “family photo” to open the G20 foreign ministers’ meeting has been abruptly cancelled in the US after a host of nations – including Australia and the UK – refused to appear beside the Russian foreign minister, Sergei Lavrov. The US secretary of state, Marco Rubio, pulled the plug after several European officials, the UK and Australia made it known they would boycott or walk out of the snapshot that often kicks off such international gatherings. Cont"
   },
   {
-   "zrodlo": "The Guardian",
+   "zrodlo": "Al Jazeera",
    "kategoria": "NEWS",
    "region": "world",
-   "tytul": "A top-secret spy mission, a decades-old scandal – and the Austin Powers-esque saga to lift the lid",
-   "url": "https://www.theguardian.com/australia-news/2026/oct/31/timor-leste-australia-bugging-rex-patrick-ntwnfb",
-   "opublikowano": "2026-10-31T00:04:51Z",
-   "opublikowano_surowe": "Sat, 31 Oct 2026 00:04:51 GMT",
-   "streszczenie": "Rex Patrick’s latest transparency fight is over what he calls ‘most open secret in the history of Australian spying’ – maybe even the world Get our daily political email , free app or daily news podcast A campaign to uncover any documents relating to whether Australian spies bugged Timor-Leste to gain the upper hand in sensitive oil and gas negotiations will be a little less secret after a critical win by the former senator Rex Patrick. The politician turned transparency advocate is trying to finally lift the lid on the top-secret mission in 2004 that became a public scandal years later after "
+   "tytul": "How Ambani’s Jio became India’s second-largest company",
+   "url": "https://www.aljazeera.com/news/2026/10/31/how-ambanis-jio-became-indias-second-largest-company?traffic_source=rss",
+   "opublikowano": "2026-10-31T10:39:15Z",
+   "opublikowano_surowe": "Sat, 31 Oct 2026 10:39:15 +0000",
+   "streszczenie": "Jio makes India’s largest-ever stock market debut, raising $3.2bn in IPO."
   },
   {
-   "zrodlo": "The Guardian",
+   "zrodlo": "Al Jazeera",
    "kategoria": "NEWS",
    "region": "world",
-   "tytul": "Retired Michigan teacher released from Russian prison believed he would never be freed",
-   "url": "https://www.theguardian.com/us-news/2026/oct/30/retired-michigan-teacher-released-russian-prison",
-   "opublikowano": "2026-10-30T23:19:41Z",
-   "opublikowano_surowe": "Fri, 30 Oct 2026 23:19:41 GMT",
-   "streszczenie": "Stephen Hubbard said that only when he was being taken from Moscow to St Petersburg did he believe he was ‘going somewhere’ In his first comments since recently being released from a Russian prison, a retired Michigan teacher said he only believed he would be freed when he got new clothes. Stephen Hubbard, 74, remarked on Friday that he had heard many times previously that he would be released – but never really trusted what he was told, adopting a philosophy of “seeing is believing” and “actions speak louder than words”. Continue reading..."
+   "tytul": "Can Democrats win the US Senate? 10 key midterm races to watch",
+   "url": "https://www.aljazeera.com/news/2026/10/31/can-democrats-win-the-us-senate-10-key-midterm-races-to-watch?traffic_source=rss",
+   "opublikowano": "2026-10-31T10:38:43Z",
+   "opublikowano_surowe": "Sat, 31 Oct 2026 10:38:43 +0000",
+   "streszczenie": "From Texas to Maine, rising prices and the Iran war put key Senate races in play as Democrats fight for control."
+  },
+  {
+   "zrodlo": "Al Jazeera",
+   "kategoria": "NEWS",
+   "region": "world",
+   "tytul": "‘Paycheck to paycheck’: Texas border voters shed parties amid economic woes",
+   "url": "https://www.aljazeera.com/news/2026/10/31/paycheck-to-paycheck-texas-border-voters-shed-parties-amid-economic-woes?traffic_source=rss",
+   "opublikowano": "2026-10-31T10:24:21Z",
+   "opublikowano_surowe": "Sat, 31 Oct 2026 10:24:21 +0000",
+   "streszczenie": "Voters reassess 2024 swing towards Trump as Republicans and Democrats grapple for Rio Grande Valley votes."
+  },
+  {
+   "zrodlo": "Al Jazeera",
+   "kategoria": "NEWS",
+   "region": "world",
+   "tytul": "Education under fire: Gaza’s children face death on their way to school",
+   "url": "https://www.aljazeera.com/features/2026/10/31/education-under-fire-gazas-children-face-death-on-their-way-to-school?traffic_source=rss",
+   "opublikowano": "2026-10-31T10:00:17Z",
+   "opublikowano_surowe": "Sat, 31 Oct 2026 10:00:17 +0000",
+   "streszczenie": "Children have faced Israeli bombs and sniper fire since the academic year resumed in Gaza."
+  },
+  {
+   "zrodlo": "Al Jazeera",
+   "kategoria": "NEWS",
+   "region": "world",
+   "tytul": "Liverpool vs Arsenal: Premier League – Predictions, news, teams, lineups",
+   "url": "https://www.aljazeera.com/sports/2026/10/31/liverpool-arsenal-premier-league-predictions-news-lineups?traffic_source=rss",
+   "opublikowano": "2026-10-31T09:47:12Z",
+   "opublikowano_surowe": "Sat, 31 Oct 2026 09:47:12 +0000",
+   "streszczenie": "Arsenal, second in the table, travel to Anfield looking to bounce back from their shock League Cup fourth-round exit."
+  },
+  {
+   "zrodlo": "Al Jazeera",
+   "kategoria": "NEWS",
+   "region": "world",
+   "tytul": "Rival US and Russian resolutions on Western Sahara fail at UN",
+   "url": "https://www.aljazeera.com/news/2026/10/31/rival-us-and-russian-resolutions-on-western-sahara-fail-at-un?traffic_source=rss",
+   "opublikowano": "2026-10-31T09:35:21Z",
+   "opublikowano_surowe": "Sat, 31 Oct 2026 09:35:21 +0000",
+   "streszczenie": "UN Security Council rejected the competing proposals, leaving the peacekeeping mission without an approved extension."
+  },
+  {
+   "zrodlo": "Al Jazeera",
+   "kategoria": "NEWS",
+   "region": "world",
+   "tytul": "Lebanon charges 13 over confiscated Hezbollah explosives",
+   "url": "https://www.aljazeera.com/news/2026/10/31/lebanon-charges-13-over-hezbollah-confiscated-explosives?traffic_source=rss",
+   "opublikowano": "2026-10-31T09:26:46Z",
+   "opublikowano_surowe": "Sat, 31 Oct 2026 09:26:46 +0000",
+   "streszczenie": "Group calls charges 'unjust', says weapons were meant to be used against Israeli forces in south Lebanon."
+  },
+  {
+   "zrodlo": "Al Jazeera",
+   "kategoria": "NEWS",
+   "region": "world",
+   "tytul": "Flávio Bolsonaro vows to continue father’s political fight in Brazil",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/31/flavio-bolsonaro-vows-to-continue-fathers-political-fight-in-brazil?traffic_source=rss",
+   "opublikowano": "2026-10-31T09:14:45Z",
+   "opublikowano_surowe": "Sat, 31 Oct 2026 09:14:45 +0000",
+   "streszczenie": "Flávio Bolsonaro vows to continue father's political fight in Brazil"
+  },
+  {
+   "zrodlo": "Al Jazeera",
+   "kategoria": "NEWS",
+   "region": "world",
+   "tytul": "A UN protection force must be urgently deployed to Palestine",
+   "url": "https://www.aljazeera.com/opinions/2026/10/31/a-un-protection-force-must-be-urgently-deployed-to-palestine?traffic_source=rss",
+   "opublikowano": "2026-10-31T08:57:35Z",
+   "opublikowano_surowe": "Sat, 31 Oct 2026 08:57:35 +0000",
+   "streszczenie": "Israel is making Palestinian existence in Palestine increasingly impossible."
+  },
+  {
+   "zrodlo": "Al Jazeera",
+   "kategoria": "NEWS",
+   "region": "world",
+   "tytul": "Chelsea vs Manchester United: LIVE – Premier League",
+   "url": "https://www.aljazeera.com/sports/liveblog/2026/10/31/chelsea-vs-manchester-united-live-premier-league?traffic_source=rss",
+   "opublikowano": "2026-10-31T08:30:54Z",
+   "opublikowano_surowe": "Sat, 31 Oct 2026 08:30:54 +0000",
+   "streszczenie": "Follow updates with build-up and team news coverage from our live text commentary stream, as Bruno Fernandes headlines."
+  },
+  {
+   "zrodlo": "Al Jazeera",
+   "kategoria": "NEWS",
+   "region": "world",
+   "tytul": "Dead dolphins, naval mines: Russia-Ukraine war destroys the Black Sea",
+   "url": "https://www.aljazeera.com/news/2026/10/31/dead-dolphins-naval-mines-russia-ukraine-war-destroys-the-black-sea?traffic_source=rss",
+   "opublikowano": "2026-10-31T08:27:10Z",
+   "opublikowano_surowe": "Sat, 31 Oct 2026 08:27:10 +0000",
+   "streszczenie": "Conflict devastates Black Sea marine life, killing more than 120,000 dolphins and causing ecological damage."
+  },
+  {
+   "zrodlo": "Al Jazeera",
+   "kategoria": "NEWS",
+   "region": "world",
+   "tytul": "RSF senior commander defects, accusing Sudan group’s leadership of nepotism",
+   "url": "https://www.aljazeera.com/news/2026/10/31/rsf-senior-commander-defects-accusing-sudan-groups-leadership-of-nepotism?traffic_source=rss",
+   "opublikowano": "2026-10-31T08:09:36Z",
+   "opublikowano_surowe": "Sat, 31 Oct 2026 08:09:36 +0000",
+   "streszczenie": "In exclusive footage obtained by Al Jazeera, Siddiq Ander describes RSF as a 'purely family-based project'."
+  },
+  {
+   "zrodlo": "Al Jazeera",
+   "kategoria": "NEWS",
+   "region": "world",
+   "tytul": "Are Houthis using Russian satellites as Saudi Arabia fends off strikes?",
+   "url": "https://www.aljazeera.com/news/2026/10/31/are-houthis-using-russian-satellites-as-saudi-arabia-faces-hits?traffic_source=rss",
+   "opublikowano": "2026-10-31T08:08:30Z",
+   "opublikowano_surowe": "Sat, 31 Oct 2026 08:08:30 +0000",
+   "streszczenie": "Analysts say the seizure of state arsenals, external backing and extensive military evolution has helped the Houthis."
   },
   {
    "zrodlo": "Al Jazeera",
@@ -711,134 +841,84 @@
    "streszczenie": "The joint statement comes as US President Donald Trump seeks a new meeting with North Korean leader Kim Jong Un."
   },
   {
-   "zrodlo": "Al Jazeera",
+   "zrodlo": "NPR",
    "kategoria": "NEWS",
    "region": "world",
-   "tytul": "US midterms: 3 days to go – What latest polls say as early voting surges",
-   "url": "https://www.aljazeera.com/news/2026/10/31/us-midterms-3-days-to-go-what-latest-polls-say-as-early-voting-surges?traffic_source=rss",
-   "opublikowano": "2026-10-31T06:59:55Z",
-   "opublikowano_surowe": "Sat, 31 Oct 2026 06:59:55 +0000",
-   "streszczenie": "More than 43 million Americans have voted early as Democrats lead opinion polls and Trump prepares for final rallies."
+   "tytul": "Do you have seasonal affective disorder? How to tell — and what to do about it",
+   "url": "https://www.npr.org/2026/10/31/nx-s1-6023200/do-you-have-seasonal-affective-disorder-how-to-tell-and-what-to-do-about-it",
+   "opublikowano": "2026-10-31T09:01:00Z",
+   "opublikowano_surowe": "Sat, 31 Oct 2026 05:01:00 -0400",
+   "streszczenie": "The syndrome can make people feel like a \"hibernating bear,\" says Dr. Norman Rosenthal, who published the first research on SAD. He explains how to identify the symptoms and what to do to feel better."
   },
   {
-   "zrodlo": "Al Jazeera",
+   "zrodlo": "NPR",
    "kategoria": "NEWS",
    "region": "world",
-   "tytul": "Canada’s in-form Leylah Fernandez reaches Pan Pacific Open final in Tokyo",
-   "url": "https://www.aljazeera.com/sports/2026/10/31/leylah-fernandez-canada-pan-pacific-open-final-tokyo-tennis-wta?traffic_source=rss",
-   "opublikowano": "2026-10-31T06:36:05Z",
-   "opublikowano_surowe": "Sat, 31 Oct 2026 06:36:05 +0000",
-   "streszczenie": "Fernandez fought back from a break down in both sets to reach the Tokyo title clash, her third final of 2026."
+   "tytul": "After last year's storm, this remote Alaska town is still picking up the pieces",
+   "url": "https://www.npr.org/2026/10/31/nx-s1-6021471/ex-typhoon-halong-damages-western-alaska-native-villages-kipnuk",
+   "opublikowano": "2026-10-31T09:00:00Z",
+   "opublikowano_surowe": "Sat, 31 Oct 2026 05:00:00 -0400",
+   "streszczenie": "In October, 2025, the remnants of a typhoon seriously damaged Alaska Native villages in the far western part of the state. A year later, one of the hardest hit communities is still recovering."
   },
   {
-   "zrodlo": "Al Jazeera",
+   "zrodlo": "NPR",
    "kategoria": "NEWS",
    "region": "world",
-   "tytul": "LeBron James, Tyrese Maxey shine as 76ers beat Knicks in NBA Cup thriller",
-   "url": "https://www.aljazeera.com/sports/2026/10/31/lebron-james-tyrese-maxey-philadelphia-76ers-win-new-york-knicks-nba-cup?traffic_source=rss",
-   "opublikowano": "2026-10-31T06:11:53Z",
-   "opublikowano_surowe": "Sat, 31 Oct 2026 06:11:53 +0000",
-   "streszczenie": "LeBron scored 20 points and hit the go-ahead fadeaway late, and Maxey had 27 points to lead the 76ers to a victory."
+   "tytul": "Can I trust the polls? And other questions from listeners about the 2026 midterms",
+   "url": "https://www.npr.org/2026/10/31/g-s1-149981/listener-questions-npr-midterms-2026-election",
+   "opublikowano": "2026-10-31T09:00:00Z",
+   "opublikowano_surowe": "Sat, 31 Oct 2026 05:00:00 -0400",
+   "streszczenie": "Ahead of Election Day, listeners send in questions about whether debates are dead, if polls are reliable for election coverage and how Trump might work with Democrats if they win control of Congress."
   },
   {
-   "zrodlo": "Al Jazeera",
+   "zrodlo": "NPR",
    "kategoria": "NEWS",
    "region": "world",
-   "tytul": "The selective solidarity at the heart of India’s voter protests",
-   "url": "https://www.aljazeera.com/opinions/2026/10/31/the-selective-solidarity-at-the-heart-of-indias-voter-protests?traffic_source=rss",
-   "opublikowano": "2026-10-31T06:08:19Z",
-   "opublikowano_surowe": "Sat, 31 Oct 2026 06:08:19 +0000",
-   "streszczenie": "The opposition is fighting voter exclusion without confronting the discrimination Muslims warned about in 2019."
+   "tytul": "Plans for a data center threaten scenic wilderness and dark skies in West Virginia",
+   "url": "https://www.npr.org/2026/10/31/nx-s1-5992790/data-centers-west-virginia-skiing-dark-skies",
+   "opublikowano": "2026-10-31T09:00:00Z",
+   "opublikowano_surowe": "Sat, 31 Oct 2026 05:00:00 -0400",
+   "streszczenie": "Residents are fighting back against plans for a project that would span thousands of acres near the Monongahela National Forest and popular outdoor recreation, ski areas and dark sky sites."
   },
   {
-   "zrodlo": "Al Jazeera",
+   "zrodlo": "NPR",
    "kategoria": "NEWS",
    "region": "world",
-   "tytul": "What has it cost to keep Al Jazeera on air for 30 years?",
-   "url": "https://www.aljazeera.com/video/by-the-numbers-3/2026/10/31/what-has-it-cost-to-keep-al-jazeera-on-air-for-30-years?traffic_source=rss",
-   "opublikowano": "2026-10-31T06:03:54Z",
-   "opublikowano_surowe": "Sat, 31 Oct 2026 06:03:54 +0000",
-   "streszczenie": "For 30 years, Al Jazeera went where others couldn’t. Or wouldn’t. AJLabs traces the price of staying on air."
+   "tytul": "Oil company earnings skyrocket — again",
+   "url": "https://www.npr.org/2026/10/31/nx-s1-6008072/oil-company-profits-gasoline-diesel-prices",
+   "opublikowano": "2026-10-31T09:00:00Z",
+   "opublikowano_surowe": "Sat, 31 Oct 2026 05:00:00 -0400",
+   "streszczenie": "Oil companies are reporting another quarter of sky-high profits as the war in Iran pushes up the price of oil — and prices at the pump."
   },
   {
-   "zrodlo": "Al Jazeera",
+   "zrodlo": "NPR",
    "kategoria": "NEWS",
    "region": "world",
-   "tytul": "After the ‘martyr’s’ funeral: The families left behind by Yemen’s war",
-   "url": "https://www.aljazeera.com/features/2026/10/31/after-the-martyrs-funeral-the-families-left-behind-by-yemens-war?traffic_source=rss",
-   "opublikowano": "2026-10-31T05:48:25Z",
-   "opublikowano_surowe": "Sat, 31 Oct 2026 05:48:25 +0000",
-   "streszczenie": "Rising fatalities in Yemen’s conflict deepen the burden on families of fighters, both emotionally and financially."
+   "tytul": "Your writing was flagged as AI. What does that actually mean?",
+   "url": "https://www.npr.org/2026/10/31/nx-s1-5963520/ai-writing-detectors-pangram",
+   "opublikowano": "2026-10-31T09:00:00Z",
+   "opublikowano_surowe": "Sat, 31 Oct 2026 05:00:00 -0400",
+   "streszczenie": "As editors turn to imperfect AI detection tools to weed out machine-generated submissions, writers who say they were falsely accused of using AI are left wondering what triggered a positive result."
   },
   {
-   "zrodlo": "Al Jazeera",
+   "zrodlo": "NPR",
    "kategoria": "NEWS",
    "region": "world",
-   "tytul": "Why are US, Russia and China racing to put nuclear reactors on the moon?",
-   "url": "https://www.aljazeera.com/news/2026/10/31/why-are-us-russia-and-china-racing-to-put-nuclear-reactors-on-the-moon?traffic_source=rss",
-   "opublikowano": "2026-10-31T05:37:51Z",
-   "opublikowano_surowe": "Sat, 31 Oct 2026 05:37:51 +0000",
-   "streszczenie": "Reactors could revolutionise moon exploration, providing energy for bases and mining, but risks of contamination remain."
+   "tytul": "Oyster stocks have plunged in the Chesapeake. This resident wants to bring them back",
+   "url": "https://www.npr.org/2026/10/31/nx-s1-6011228/oyster-farming-conservation-chesapeake-bay",
+   "opublikowano": "2026-10-31T09:00:00Z",
+   "opublikowano_surowe": "Sat, 31 Oct 2026 05:00:00 -0400",
+   "streszczenie": "Oyster reefs once abounded in the Chesapeake, but overharvesting slashed their populations, leading to poorer water quality and less habitat for other species. Now, researchers and local residents are finding creative ways to bring their numbers back up."
   },
   {
-   "zrodlo": "Al Jazeera",
+   "zrodlo": "NPR",
    "kategoria": "NEWS",
    "region": "world",
-   "tytul": "Mohammed Deif, rare footage and October 7 documents",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/31/mohammed-deif-rare-footage-and-october-7-documents?traffic_source=rss",
-   "opublikowano": "2026-10-31T05:07:34Z",
-   "opublikowano_surowe": "Sat, 31 Oct 2026 05:07:34 +0000",
-   "streszczenie": "Rare footage obtained by Al Jazeera offers a look at the life of former Hamas military commander, Mohammed Deif."
-  },
-  {
-   "zrodlo": "Al Jazeera",
-   "kategoria": "NEWS",
-   "region": "world",
-   "tytul": "Trump tells voters to send El-Sayed ‘back to where he came from’",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/31/trump-tells-voters-to-send-el-sayed-back-to-where-he-came?traffic_source=rss",
-   "opublikowano": "2026-10-31T05:07:25Z",
-   "opublikowano_surowe": "Sat, 31 Oct 2026 05:07:25 +0000",
-   "streszczenie": "Speaking at a campaign rally, Donald Trump told voters to send Michigan’s Abdul El-Sayed ‘back to where he came from’."
-  },
-  {
-   "zrodlo": "Al Jazeera",
-   "kategoria": "NEWS",
-   "region": "world",
-   "tytul": "US greenlights $2.1bn Patriot missile sale to Ukraine",
-   "url": "https://www.aljazeera.com/news/2026/10/31/us-greenlights-2-1bn-patriot-missile-sale-to-ukraine?traffic_source=rss",
-   "opublikowano": "2026-10-31T04:51:25Z",
-   "opublikowano_surowe": "Sat, 31 Oct 2026 04:51:25 +0000",
-   "streszczenie": "Deal would be one of the most significant steps to supply defensive weapons to Kyiv since ​Trump took office in 2025."
-  },
-  {
-   "zrodlo": "Al Jazeera",
-   "kategoria": "NEWS",
-   "region": "world",
-   "tytul": "US jails two Chinese nationals for spying",
-   "url": "https://www.aljazeera.com/news/2026/10/31/us-jails-two-chinese-nationals-for-spying?traffic_source=rss",
-   "opublikowano": "2026-10-31T04:41:32Z",
-   "opublikowano_surowe": "Sat, 31 Oct 2026 04:41:32 +0000",
-   "streszczenie": "Liren Lai and Yuance Chen admitted to facilitating 'dead drop' cash payments worth at least $30,000 to people in the US."
-  },
-  {
-   "zrodlo": "Al Jazeera",
-   "kategoria": "NEWS",
-   "region": "world",
-   "tytul": "Iran says four tankers on fire after striking mines in Hormuz",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/31/iran-says-four-tankers-on-fire-after-striking-mines-in-hormuz?traffic_source=rss",
-   "opublikowano": "2026-10-31T03:55:48Z",
-   "opublikowano_surowe": "Sat, 31 Oct 2026 03:55:48 +0000",
-   "streszczenie": "Iran's Revolutionary Guard says four tankers have caught fire in the Strait of Hormuz."
-  },
-  {
-   "zrodlo": "Al Jazeera",
-   "kategoria": "NEWS",
-   "region": "world",
-   "tytul": "US execution survivor Christa Pike says she is now in ‘constant pain’",
-   "url": "https://www.aljazeera.com/news/2026/10/31/us-execution-survivor-christa-pike-says-she-is-now-in-constant?traffic_source=rss",
-   "opublikowano": "2026-10-31T03:42:14Z",
-   "opublikowano_surowe": "Sat, 31 Oct 2026 03:42:14 +0000",
-   "streszczenie": "Pike, 50, is being held in solitary confinement and faces an uncertain future after surviving a failed lethal injection."
+   "tytul": "100 years later, Harry Houdini's death still haunts Detroit",
+   "url": "https://www.npr.org/2026/10/31/nx-s1-6008110/100-years-harry-houdinis-death-haunts-detroit",
+   "opublikowano": "2026-10-31T09:00:00Z",
+   "opublikowano_surowe": "Sat, 31 Oct 2026 05:00:00 -0400",
+   "streszczenie": "The legacy of magician Harry Houdini still looms large in Detroit 100 years after his death there. Some mark the anniversary of Houdini's death by trying to make contact with his spirit."
   },
   {
    "zrodlo": "NPR",
@@ -861,84 +941,14 @@
    "streszczenie": "A federal judge is opening an formal inquiry into Trump officials' conduct in the East Potomac case, including whether they misled the court about their plans for the municipal golf course."
   },
   {
-   "zrodlo": "NPR",
+   "zrodlo": "Deutsche Welle",
    "kategoria": "NEWS",
-   "region": "world",
-   "tytul": "ICE activity is surging ahead of midterms. So is voter turnout.",
-   "url": "https://www.npr.org/2026/10/30/nx-s1-6023331/ice-activity-surge-midterms",
-   "opublikowano": "2026-10-30T17:45:27Z",
-   "opublikowano_surowe": "Fri, 30 Oct 2026 13:45:27 -0400",
-   "streszczenie": "Across the country, there are reports of heightened ICE activity. Advocates worry about how close it is to midterms, but so far voter turnout is surging."
-  },
-  {
-   "zrodlo": "NPR",
-   "kategoria": "NEWS",
-   "region": "world",
-   "tytul": "NPR special: 5 takeaways from a year of listening to swing voters",
-   "url": "https://www.npr.org/2026/10/30/nx-s1-6008113/npr-special-swing-voter-focus-groups",
-   "opublikowano": "2026-10-30T15:00:00Z",
-   "opublikowano_surowe": "Fri, 30 Oct 2026 11:00:00 -0400",
-   "streszczenie": "Every election, there is a crucial sliver of voters who help determine which candidates win. Here are five takeaways from a year of listening to voters who backed Biden in 2020 and then Trump in 2024."
-  },
-  {
-   "zrodlo": "NPR",
-   "kategoria": "NEWS",
-   "region": "world",
-   "tytul": "Blockchain intelligence firms link North Korea to $6.3B hack on Binance",
-   "url": "https://www.npr.org/2026/10/30/g-s1-150902/blockchain-intelligence-firms-link-north-korea-to-6-3b-hack-on-binance",
-   "opublikowano": "2026-10-30T13:01:22Z",
-   "opublikowano_surowe": "Fri, 30 Oct 2026 09:01:22 -0400",
-   "streszczenie": "The world's biggest cryptocurrency exchange reported Thursday that approximately $6.3 billion was impacted in an apparent hack."
-  },
-  {
-   "zrodlo": "NPR",
-   "kategoria": "NEWS",
-   "region": "world",
-   "tytul": "Why is the Cheesecake Factory at the center of the latest culture war?",
-   "url": "https://www.npr.org/2026/10/30/nx-s1-6023106/cheesecake-factory-culture-war-affordability-trump-obama",
-   "opublikowano": "2026-10-30T12:00:31Z",
-   "opublikowano_surowe": "Fri, 30 Oct 2026 08:00:31 -0400",
-   "streszczenie": "A joke by former President Obama has gone viral and received backlash from the Trump administration as the issue of affordability looms large over next week's midterm elections."
-  },
-  {
-   "zrodlo": "NPR",
-   "kategoria": "NEWS",
-   "region": "world",
-   "tytul": "Binance flags 'potential security issue,' says approximately $6.3 billion impacted",
-   "url": "https://www.npr.org/2026/10/30/nx-s1-6023109/binance-security-issue",
-   "opublikowano": "2026-10-30T11:21:56Z",
-   "opublikowano_surowe": "Fri, 30 Oct 2026 07:21:56 -0400",
-   "streszczenie": "It wasn't immediately clear the extent of the damage hackers might have been able to cause, and Binance had not explicitly confirmed that funds had been pilfered. The company said its teams are \"working around the clock\" to resolve the issue."
-  },
-  {
-   "zrodlo": "NPR",
-   "kategoria": "NEWS",
-   "region": "world",
-   "tytul": "Alaska's Senate race faces claims of spoiler candidate. And, Hegseth ousts Army general",
-   "url": "https://www.npr.org/2026/10/30/g-s1-150889/up-first-newsletter-midterm-elections-iran-war-veteran-affairs-loans",
-   "opublikowano": "2026-10-30T11:20:26Z",
-   "opublikowano_surowe": "Fri, 30 Oct 2026 07:20:26 -0400",
-   "streszczenie": "Alaska's governor ordered an investigation into claims that Dems recruited a spoiler candidate to confuse voters. And, Hegseth ousted an Army general as the U.S. prepares for potential attacks on Iran."
-  },
-  {
-   "zrodlo": "NPR",
-   "kategoria": "NEWS",
-   "region": "world",
-   "tytul": "The two most interesting risks to Anthropic",
-   "url": "https://www.npr.org/sections/planet-money/2026/10/30/nx-s1-6022515/the-two-most-interesting-risks-to-anthropic",
-   "opublikowano": "2026-10-30T11:00:00Z",
-   "opublikowano_surowe": "Fri, 30 Oct 2026 07:00:00 -0400",
-   "streszczenie": "Anthropic gave a 94-page list of risk factors in its S-1 this week. Two of them stood out."
-  },
-  {
-   "zrodlo": "NPR",
-   "kategoria": "NEWS",
-   "region": "world",
-   "tytul": "Candy prices got you scared stiff? What to know about the cost of Halloween this year",
-   "url": "https://www.npr.org/2026/10/30/nx-s1-6018566/halloween-candy-prices-chocolate",
-   "opublikowano": "2026-10-30T09:00:00Z",
-   "opublikowano_surowe": "Fri, 30 Oct 2026 05:00:00 -0400",
-   "streszczenie": "Prices for candy, the most popular Halloween purchase, and gum have risen 7.7% in one year and are up more than 18% in two years, according to the latest federal data."
+   "region": "europe",
+   "tytul": "Massive Gen Z protests set to sweep cities across Germany",
+   "url": "https://www.dw.com/en/massive-gen-z-protests-set-to-sweep-cities-across-germany/live-79814694?maca=en-rss-en-all-1573-rdf",
+   "opublikowano": "2026-10-31T09:47:00Z",
+   "opublikowano_surowe": "2026-10-31T09:47:00Z",
+   "streszczenie": "Young people in Germany are taking to the streets in some 34 cities, calling for greater political say and a more hopeful future. The protests come amid a wave of youth demonstrations across Europe. DW has more."
   },
   {
    "zrodlo": "Deutsche Welle",
@@ -964,11 +974,11 @@
    "zrodlo": "Deutsche Welle",
    "kategoria": "NEWS",
    "region": "europe",
-   "tytul": "India news: Tanker carrying 27 Indians attacked in Strait of Hormuz",
-   "url": "https://www.dw.com/en/india-news-tanker-carrying-27-indians-attacked-in-strait-of-hormuz/live-79814329?maca=en-rss-en-all-1573-rdf",
+   "tytul": "India news: Amit Shah challenges Rahul Gandhi to debate vote theft in Parliament",
+   "url": "https://www.dw.com/en/india-news-amit-shah-challenges-rahul-gandhi-to-debate-vote-theft-in-parliament/live-79814329?maca=en-rss-en-all-1573-rdf",
    "opublikowano": "2026-10-31T05:06:00Z",
    "opublikowano_surowe": "2026-10-31T05:06:00Z",
-   "streszczenie": "Two vessels carrying Indian crew members have been attacked in the Strait of Hormuz over the past two days as Iran steps up attacks on shipping. DW has more."
+   "streszczenie": "Home Minister Amit Shah has challenged Rahul Gandhi to debate electoral irregularity allegations in Parliament, ahead of a major opposition rally against the election chief in Delhi. DW has more."
   },
   {
    "zrodlo": "Deutsche Welle",
@@ -1081,14 +1091,84 @@
    "streszczenie": "Chancellor Friedrich Merz has expressed hope for Korean reunification during a visit to the heavily fortified border. Meanwhile, President Steinmeier has held talks with China's Xi Jinping in Beijing."
   },
   {
-   "zrodlo": "Deutsche Welle",
+   "zrodlo": "France 24",
    "kategoria": "NEWS",
    "region": "europe",
-   "tytul": "Seoul fears being sidelined as US reaches out to North Korea",
-   "url": "https://www.dw.com/en/seoul-fears-being-sidelined-as-us-reaches-out-to-north-korea/a-79808098?maca=en-rss-en-all-1573-rdf",
-   "opublikowano": "2026-10-30T14:08:00Z",
-   "opublikowano_surowe": "2026-10-30T14:08:00Z",
-   "streszczenie": "With ties between South Korea and the Trump administration strained, the South Korean government worries that Donald Trump's pursuit of a diplomatic breakthrough with Kim Jong Un may come at Seoul's expense."
+   "tytul": "Trump vs MAGA: Why his movement is splitting",
+   "url": "https://www.france24.com/en/video/20261031-trump-vs-maga-why-his-movement-is-splitting",
+   "opublikowano": "2026-10-31T10:11:47Z",
+   "opublikowano_surowe": "Sat, 31 Oct 2026 10:11:47 GMT",
+   "streszczenie": "As the 2026 midterm elections approach, divisions within the MAGA camp are becoming increasingly visible. From the war in Iran and rising fuel prices to the Epstein files, several of Trump’s decisions are fuelling divisions among his most loyal supporters. Once united by a shared vision of America, MAGA now brings together factions that increasingly disagree over foreign policy, the economy and what “America First” should actually mean. Yet Trump remains the central figure holding this political coalition together – and he is fighting to keep it that way. Why are some of the president’s longti"
+  },
+  {
+   "zrodlo": "France 24",
+   "kategoria": "NEWS",
+   "region": "europe",
+   "tytul": "PSG secure 9th consecutive win thanks to Achraf Hakimi hat-trick",
+   "url": "https://www.france24.com/en/tv-shows/sports/20261031-psg-secure-9th-consecutive-win-thanks-to-achraf-hakimi-hat-trick",
+   "opublikowano": "2026-10-31T09:51:06Z",
+   "opublikowano_surowe": "Sat, 31 Oct 2026 09:51:06 GMT",
+   "streszczenie": "A night to remember for PSG in Le Havre. In the opening fixture of Ligue 1's ninth round, the French champions thrashed Le Havre at the Stade Océane, inspired by an outstanding performance from Achraf Hakimi. The Moroccan star scored a hat-trick and provided two assists, playing a decisive role in all five of his team's goals. PSG strengthened their grip on top spot, while Le Havre remain rooted to the bottom of the table."
+  },
+  {
+   "zrodlo": "France 24",
+   "kategoria": "NEWS",
+   "region": "europe",
+   "tytul": "'Atmosphere of fear': Trump moves to curtail voting rights ahead of the midterms",
+   "url": "https://www.france24.com/en/americas/20261031-united-states-atmosphere-of-fear-trump-moves-to-curtail-voting-rights-ahead-of-the-midterms",
+   "opublikowano": "2026-10-31T09:40:54Z",
+   "opublikowano_surowe": "Sat, 31 Oct 2026 09:40:54 GMT",
+   "streszczenie": "Americans vote on November 3 in midterm elections that could see Republicans lose control of Congress, endangering US President Donald Trump's legislative agenda. Under the US Constitution, elections are organized by the respective states – but that has not halted US President Donald Trump from trying to wield his influence ahead of the vote."
+  },
+  {
+   "zrodlo": "France 24",
+   "kategoria": "NEWS",
+   "region": "europe",
+   "tytul": "Senegal hosts Africa’s first ever Youth Olympic Games",
+   "url": "https://www.france24.com/en/africa/20261031-senegal-hosts-africa-s-first-ever-youth-olympic-games",
+   "opublikowano": "2026-10-31T09:37:07Z",
+   "opublikowano_surowe": "Sat, 31 Oct 2026 09:37:07 GMT",
+   "streszczenie": "The 2026 Youth Olympic Games opens with a spectacular ceremony Saturday in the Senegalese capital Dakar in the first ever Olympics to be held on African soil. It comes as the continent seeks a bigger role in international sporting competitions."
+  },
+  {
+   "zrodlo": "France 24",
+   "kategoria": "NEWS",
+   "region": "europe",
+   "tytul": "Protesters gather at Poland's Top court",
+   "url": "https://www.france24.com/en/protesters-gather-at-poland-s-top-court",
+   "opublikowano": "2026-10-31T09:31:23Z",
+   "opublikowano_surowe": "Sat, 31 Oct 2026 09:31:23 GMT",
+   "streszczenie": "Police in Poland have stepped up security around the country’s Constitutional Tribunal after dozens of protesters gathered on Friday to oppose the government’s suspension of its president, which they say was unlawful. Police say several people were detained after some demonstrators breached the court’s perimeter fence. Charlotte Hughes reports."
+  },
+  {
+   "zrodlo": "France 24",
+   "kategoria": "NEWS",
+   "region": "europe",
+   "tytul": "Russia's presence divides G20 ministers",
+   "url": "https://www.france24.com/en/russia-s-presence-divides-g20-ministers",
+   "opublikowano": "2026-10-31T09:30:04Z",
+   "opublikowano_surowe": "Sat, 31 Oct 2026 09:30:04 GMT",
+   "streszczenie": "The G20 foreign ministers’ meeting in the US is wrapping up two days of talks without agreement on several key global security issues. On the sidelines, US Secretary of State Marco Rubio signed an Arctic cooperation deal with Japan and South Korea and confirmed Washington’s participation in Riyadh’s World Expo in 2030. Meanwhile, European ministers confronted Russia’s Sergei Lavrov over the war in Ukraine and refused to join him for the traditional group photo. Jack Pownall reports."
+  },
+  {
+   "zrodlo": "France 24",
+   "kategoria": "NEWS",
+   "region": "europe",
+   "tytul": "French Interior Minister fears disorder after dark on Halloween",
+   "url": "https://www.france24.com/en/french-interior-minister-fears-disorder-after-dark-on-halloween",
+   "opublikowano": "2026-10-31T09:28:52Z",
+   "opublikowano_surowe": "Sat, 31 Oct 2026 09:28:52 GMT",
+   "streszczenie": "Saturday is set to see another day of nationwide demonstrations over the cost of living and conditions in schools. Dubbed “Act Three”, the protests bring together Yellow Vest activists and student demonstrators. But France’s highest administrative court has just upheld a ban on the planned route of the Paris march, forcing protesters to remain on the eastern outskirts of the capital. Authorities are deploying 70,000 security personnel and imposing curfews in some areas, repeating many of the measures seen last weekend. The interior minister has also issued a Halloween-themed warning: covering "
+  },
+  {
+   "zrodlo": "France 24",
+   "kategoria": "NEWS",
+   "region": "europe",
+   "tytul": "France: Two rallies against racism near Paris",
+   "url": "https://www.france24.com/en/france-two-rallies-against-racism-near-paris",
+   "opublikowano": "2026-10-31T09:27:17Z",
+   "opublikowano_surowe": "Sat, 31 Oct 2026 09:27:17 GMT",
+   "streszczenie": "France is bracing for a third weekend of protests, with demonstrations against the rising cost of living planned across the country. Nearly half a million people are expected to take to the streets, prompting the government to deploy 70,000 police officers to maintain order. In Paris, a last-minute court ruling has restricted today’s march to the eastern outskirts of the capital. Jack Pownall reports."
   },
   {
    "zrodlo": "France 24",
@@ -1108,7 +1188,7 @@
    "url": "https://www.france24.com/en/americas/20261031-flavio-bolsonaro-posts-video-says-he-fled-brazil-due-to-persecution",
    "opublikowano": "2026-10-31T06:25:07Z",
    "opublikowano_surowe": "Sat, 31 Oct 2026 06:25:07 GMT",
-   "streszczenie": "Brazil's defeated right-wing presidential candidate Flavio Bolsonaro posted a video message on social media late Friday to declare he fled to the US because he was a victim of 'persecution'. Bolsonaro, who lost Sunday's election runoff to President Luiz Inacio Lula da Silva, gave no details of how he left the country."
+   "streszczenie": "Brazil's defeated right-wing presidential candidate Flavio Bolsonaro posted a video message on social media late Friday to declare he had fled to the US because he was a victim of 'persecution'. Bolsonaro, who lost Sunday's election runoff to President Luiz Inacio Lula da Silva, gave no details of how he left the country."
   },
   {
    "zrodlo": "France 24",
@@ -1161,84 +1241,24 @@
    "streszczenie": "Almost 200 nations approved two agreements on Friday to halt biodiversity loss by 2030, following almost two weeks of negotiations that ran into extra time on the final day."
   },
   {
-   "zrodlo": "France 24",
+   "zrodlo": "Politico Europe",
    "kategoria": "NEWS",
    "region": "europe",
-   "tytul": "'Five churches set on fire by Muslims?' Fake news by Islamophobic social media accounts",
-   "url": "https://www.france24.com/en/france/20261030-five-churches-set-on-fire-by-muslims-fake-news-from-islamophobic-social-media-accounts",
-   "opublikowano": "2026-10-30T18:37:58Z",
-   "opublikowano_surowe": "Fri, 30 Oct 2026 18:37:58 GMT",
-   "streszczenie": "Several social media accounts associated with sharing anti-immigrant views claim French Muslims were responsible for burning five churches on October 17 – the day the nation was rocked by en masse protests. But both this number and story are fictitious. The French government agency that monitors religious heritage sites confirmed only one fire in a church occured in recent days; its cause unknown."
+   "tytul": "Zelenskyy urges US to speed up Patriot deliveries",
+   "url": "https://www.politico.eu/article/volodymyr-zelenskyy-urges-us-speed-up-patriot-deliveries/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+   "opublikowano": "2026-10-31T10:41:36Z",
+   "opublikowano_surowe": "Sat, 31 Oct 2026 10:41:36 +0000",
+   "streszczenie": "Washington approved the sale of 500 interceptors to counter Russian ballistic missile attacks."
   },
   {
-   "zrodlo": "France 24",
+   "zrodlo": "Politico Europe",
    "kategoria": "NEWS",
    "region": "europe",
-   "tytul": "MAGA: Why Trump's movement is fracturing?",
-   "url": "https://www.france24.com/en/video/20261030-maga-why-trump-s-movement-is-fracturing",
-   "opublikowano": "2026-10-30T18:01:38Z",
-   "opublikowano_surowe": "Fri, 30 Oct 2026 18:01:38 GMT",
-   "streszczenie": "As the 2026 midterm elections approach, divisions within the MAGA camp are becoming increasingly visible. From the war in Iran and rising fuel prices to the Epstein files, several of Trump’s decisions are fuelling divisions among his most loyal supporters. Once united by a shared vision of America, MAGA now brings together factions that increasingly disagree over foreign policy, the economy and what “America First” should actually mean. Yet Trump remains the central figure holding this political coalition together – and he is fighting to keep it that way. Why are some of the president’s longti"
-  },
-  {
-   "zrodlo": "France 24",
-   "kategoria": "NEWS",
-   "region": "europe",
-   "tytul": "Oleshky: No access to basic needs, ceasefire offers limited opportunity for humanitarian assistance",
-   "url": "https://www.france24.com/en/oleshky-no-access-to-basic-needs-ceasefire-offers-limited-opportunity-for-humanitarian-assistance",
-   "opublikowano": "2026-10-30T17:11:53Z",
-   "opublikowano_surowe": "Fri, 30 Oct 2026 17:11:53 GMT",
-   "streszczenie": "Catherine Viette is pleased to welcome Jens Schumacher, Field Coordinator in Mykolaiv and Kherson with Solidarity International. Just a few kilometers separate the Ukrainian-controlled city of Kherson from Russian-occupied Oleshky. For civilians caught between military occupation, disrupted essential services and uncertain evacuation arrangements, geographical proximity offers little guarantee of access to life-saving assistance. Schumacher examines the humanitarian implications of a temporary ceasefire around Oleshky, where approximately 2,000 civilians were reported to remain. Although the c"
-  },
-  {
-   "zrodlo": "France 24",
-   "kategoria": "NEWS",
-   "region": "europe",
-   "tytul": "Russia’s Novaya Gazeta to cease publication amid Kremlin crackdown",
-   "url": "https://www.france24.com/en/video/20261030-russia-s-novaya-gazeta-to-cease-publication-amid-kremlin-crackdown",
-   "opublikowano": "2026-10-30T16:58:51Z",
-   "opublikowano_surowe": "Fri, 30 Oct 2026 16:58:51 GMT",
-   "streszczenie": "Russia’s most renowned independent newspaper, Novaya Gazeta, announced on Friday that it was ceasing publication after more than three decades. Known for its courageous investigative journalism, the flagship newspaper said the Kremlin’s crackdown and ban on the media outlet had made it impossible to continue its work."
-  },
-  {
-   "zrodlo": "France 24",
-   "kategoria": "NEWS",
-   "region": "europe",
-   "tytul": "'The International Criminal Court deserves the Sakharov Prize': CJEU President Koen Lenaerts",
-   "url": "https://www.france24.com/en/tv-shows/talking-europe/20261030-the-international-criminal-court-deserves-the-sakharov-prize-cjeu-president-koen-lenaerts",
-   "opublikowano": "2026-10-30T16:51:42Z",
-   "opublikowano_surowe": "Fri, 30 Oct 2026 16:51:42 GMT",
-   "streszczenie": "We speak to the influential and long-serving president of the Court of Justice of the European Union (CJEU), Koen Lenaerts. The court is the EU's supreme judicial authority, responsible for ensuring that European law is interpreted and applied across all 27 member states."
-  },
-  {
-   "zrodlo": "France 24",
-   "kategoria": "NEWS",
-   "region": "europe",
-   "tytul": "Stranded locals use rare truce to leave Moscow-occupied town in Ukraine",
-   "url": "https://www.france24.com/en/video/20261030-stranded-locals-use-rare-truce-to-leave-moscow-occupied-town-in-ukraine",
-   "opublikowano": "2026-10-30T16:44:11Z",
-   "opublikowano_surowe": "Fri, 30 Oct 2026 16:44:11 GMT",
-   "streszczenie": "Some residents of Oleshky, a Russian-occupied town in southern Ukraine ravaged by food and medicine shortages, left on Friday during a rare ceasefire brokered by the United States – due to end on Sunday evening. Ukrainian and Russian officials visited the town together on Friday, delivering aid and marshalling those who wanted to leave."
-  },
-  {
-   "zrodlo": "France 24",
-   "kategoria": "NEWS",
-   "region": "europe",
-   "tytul": "Star Wars: Has Russia's war with Ukraine gone intergalactic?",
-   "url": "https://www.france24.com/en/europe/20261030-star-wars-has-russias-war-with-ukraine-gone-intergalactic",
-   "opublikowano": "2026-10-30T16:29:01Z",
-   "opublikowano_surowe": "Fri, 30 Oct 2026 16:29:01 GMT",
-   "streszczenie": "Russian made an unprecedented combative move this month as one of its military satellites, the Cosmos-2612, encroached upon the orbit of Ukrainian commercial satellite, Iceye-X36, in behaviour deemed \"threatening\" by the US State Department. Norbert Pouzin, an orbital analyst at French space tech firm, Aldoria, described the mercenary manoeuvre as the first of its kind."
-  },
-  {
-   "zrodlo": "France 24",
-   "kategoria": "NEWS",
-   "region": "europe",
-   "tytul": "Could US midterms impact the EU? Transatlantic ties hit new low after Trump-Putin diesel deal",
-   "url": "https://www.france24.com/en/tv-shows/talking-europe/20261030-could-us-midterms-impact-the-eu-transatlantic-ties-hit-new-low-after-trump-putin-diesel-deal",
-   "opublikowano": "2026-10-30T16:24:10Z",
-   "opublikowano_surowe": "Fri, 30 Oct 2026 16:24:10 GMT",
-   "streszczenie": "From the EU's perspective, the second Trump presidency has felt even more destabilising than the first. From making the false claim that the EU was set up to \"screw\" the United States, to slapping tariffs on European goods, to making territorial claims on Greenland, to doing a diesel deal with Vladimir Putin and telling Ukraine to get a new president, Donald Trump has more than ruffled feathers on this side of the ocean. He has shaken the very foundations of the historical transatlantic relationship."
+   "tytul": "Polish president Nawrocki pushes his way into top court amid rule-of-law tussle",
+   "url": "https://www.politico.eu/article/poland-president-karol-nawrocki-rule-of-law-crisis/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+   "opublikowano": "2026-10-31T10:03:04Z",
+   "opublikowano_surowe": "Sat, 31 Oct 2026 10:03:04 +0000",
+   "streszczenie": "Karol Nawrocki made his way through protesters around midnight in the latest escalation of his conflict with Prime Minister Donald Tusk."
   },
   {
    "zrodlo": "Politico Europe",
@@ -1294,6 +1314,26 @@
    "zrodlo": "Politico Europe",
    "kategoria": "NEWS",
    "region": "europe",
+   "tytul": "EU und Kanada erzielen Einigung über kritische Mineralien und LNG",
+   "url": "https://www.politico.eu/article/eu-und-kanada-erzielen-einigung-ueber-kritische-mineralien-und-lng/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+   "opublikowano": "2026-10-30T16:51:58Z",
+   "opublikowano_surowe": "Fri, 30 Oct 2026 16:51:58 +0000",
+   "streszczenie": "Das Abkommen zielt darauf ab, den Handel mit Ressourcen zu fördern, die für die Energiewende benötigt werden."
+  },
+  {
+   "zrodlo": "Politico Europe",
+   "kategoria": "NEWS",
+   "region": "europe",
+   "tytul": "EU and Canada reach agreement on critical minerals and LNG",
+   "url": "https://www.politico.eu/article/eu-and-canada-reach-agreement-on-critical-minerals-and-lng/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+   "opublikowano": "2026-10-30T16:15:40Z",
+   "opublikowano_surowe": "Fri, 30 Oct 2026 16:15:40 +0000",
+   "streszczenie": "Deal aims to boost trade of resources needed in the energy transition."
+  },
+  {
+   "zrodlo": "Politico Europe",
+   "kategoria": "NEWS",
+   "region": "europe",
    "tytul": "The Rutte way or the Carney method? Scaramucci says Europe’s Trump strategy is off the Mark",
    "url": "https://www.politico.eu/article/mark-rutte-mark-carney-donald-trump-anthony-scaramucci-white-house-strategy-europe/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
    "opublikowano": "2026-10-30T14:32:19Z",
@@ -1301,44 +1341,14 @@
    "streszczenie": "The former White House comms chief described two models of behavior displayed by the NATO secretary-general and the Canadian prime minister."
   },
   {
-   "zrodlo": "Politico Europe",
+   "zrodlo": "Euronews",
    "kategoria": "NEWS",
    "region": "europe",
-   "tytul": "Russian citizen faces spying charges in Poland after photographing railways",
-   "url": "https://www.politico.eu/article/russian-citizen-detained-in-poland-over-espionage/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-   "opublikowano": "2026-10-30T13:35:45Z",
-   "opublikowano_surowe": "Fri, 30 Oct 2026 13:35:45 +0000",
-   "streszczenie": "The suspect was arrested while taking pictures at an unguarded railway crossing."
-  },
-  {
-   "zrodlo": "Politico Europe",
-   "kategoria": "NEWS",
-   "region": "europe",
-   "tytul": "Unrest in France is nightmare fuel for Macron’s heirs",
-   "url": "https://www.politico.eu/article/unrest-in-france-is-nightmare-fuel-for-emmanuel-macron-heirs/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-   "opublikowano": "2026-10-30T12:48:37Z",
-   "opublikowano_surowe": "Fri, 30 Oct 2026 12:48:37 +0000",
-   "streszczenie": "Center-right presidential candidates are struggling to get across their message amid a wave of protests in France."
-  },
-  {
-   "zrodlo": "Politico Europe",
-   "kategoria": "NEWS",
-   "region": "europe",
-   "tytul": "Former US ambassadors: America must stand with Ukraine",
-   "url": "https://www.politico.eu/article/former-united-states-ambassadors-say-america-must-stand-with-ukraine/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-   "opublikowano": "2026-10-30T11:28:44Z",
-   "opublikowano_surowe": "Fri, 30 Oct 2026 11:28:44 +0000",
-   "streszczenie": "Current U.S. policy raises the fundamental question of whether Washington understand what is at stake."
-  },
-  {
-   "zrodlo": "Politico Europe",
-   "kategoria": "NEWS",
-   "region": "europe",
-   "tytul": "Streeting insists Burnham won’t make ‘arbitrary’ welfare cuts",
-   "url": "https://www.politico.eu/article/uk-budget-streeting-insists-burnham-will-not-make-arbitrary-welfare-cuts/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-   "opublikowano": "2026-10-30T10:43:30Z",
-   "opublikowano_surowe": "Fri, 30 Oct 2026 10:43:30 +0000",
-   "streszczenie": "U.K. Cabinet minister says PM's predecessor didn’t have a “thought-through plan” to bring down welfare bill."
+   "tytul": "Kärcher boss: Less regulation, more action to get Europe and Germany fit again",
+   "url": "https://www.euronews.com/2026/10/31/karcher-boss-less-regulation-more-action-to-get-europe-and-germany-fit-again",
+   "opublikowano": "2026-10-31T08:30:30Z",
+   "opublikowano_surowe": "Sat, 31 Oct 2026 09:30:30 +0100",
+   "streszczenie": "Kärcher, best known for its pressure washers, recorded €3.5 billion in sales in 2025 and employs 17,000 people worldwide. Its CEO warns of a 'perfect storm' and calls for a fitness plan for Germany and Europe."
   },
   {
    "zrodlo": "Euronews",
@@ -1481,14 +1491,14 @@
    "streszczenie": "Law enforcement heads from 46 Islamic states gather in Baku to tackle cross-border financial crime, artificial intelligence and international asset recovery."
   },
   {
-   "zrodlo": "Euronews",
+   "zrodlo": "Euractiv",
    "kategoria": "NEWS",
    "region": "europe",
-   "tytul": "Czech Republic: Meerkats and cheetah cubs play with Halloween pumpkins",
-   "url": "https://www.euronews.com/video/2026/10/30/czech-republic-meerkats-and-cheetah-cubs-play-with-halloween-pumpkins",
-   "opublikowano": "2026-10-30T13:50:45Z",
-   "opublikowano_surowe": "Fri, 30 Oct 2026 14:50:45 +0100",
-   "streszczenie": "Halloween has arrived at Prague Zoo, where meerkats are exploring pumpkins stuffed with worms and cheetah cubs are discovering seasonal toys. Four days of activities will bring treats to 14 animal species."
+   "tytul": "Polish president calls crisis talks after court standoff",
+   "url": "https://www.rapporteur.com/news/polish-president-calls-crisis-talks-after-court-standoff/",
+   "opublikowano": "2026-10-31T09:32:45Z",
+   "opublikowano_surowe": "Sat, 31 Oct 2026 09:32:45 +0000",
+   "streszczenie": "Karol Nawrocki cut short a trip to Senegal and returned to Warsaw"
   },
   {
    "zrodlo": "Euractiv",
@@ -1631,14 +1641,114 @@
    "streszczenie": "Investigative judges placed him under \"assisted witness\" status"
   },
   {
-   "zrodlo": "Euractiv",
+   "zrodlo": "RMF24",
    "kategoria": "NEWS",
-   "region": "europe",
-   "tytul": "EU mourns four Italians killed in EUFOR Bosnia mission crash",
-   "url": "https://www.rapporteur.com/news/eu-mourns-four-italians-killed-in-eufor-bosnia-mission-crash/",
-   "opublikowano": "2026-10-30T11:50:21Z",
-   "opublikowano_surowe": "Fri, 30 Oct 2026 11:50:21 +0000",
-   "streszczenie": "Four Italian nationals serving with the EUFOR Althea mission died in a helicopter crash in Bosnia on Thursday."
+   "region": "poland",
+   "tytul": "Cztery osoby zatrzymane przed TK. Policja tłumaczy działania",
+   "url": "https://www.rmf24.pl/regiony/warszawa/news-cztery-osoby-zatrzymane-przed-tk-policja-tlumaczy-dzialania,nIdn,1024208",
+   "opublikowano": "2026-10-31T10:38:00Z",
+   "opublikowano_surowe": "Sat, 31 Oct 2026 11:38:00 +0100",
+   "streszczenie": "Cztery osoby zatrzymane przed TK. Policja tłumaczy działania"
+  },
+  {
+   "zrodlo": "RMF24",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "O co chodzi w awanturze o Trybunał Konstytucyjny? Wyjaśniamy genezę konfliktu",
+   "url": "https://www.rmf24.pl/fakty/polska/news-o-co-chodzi-w-awanturze-o-trybunal-konstytucyjny-wyjasniamy-,nIdn,1024206",
+   "opublikowano": "2026-10-31T10:30:00Z",
+   "opublikowano_surowe": "Sat, 31 Oct 2026 11:30:00 +0100",
+   "streszczenie": "O co chodzi w awanturze o Trybunał Konstytucyjny? Wyjaśniamy genezę konfliktu"
+  },
+  {
+   "zrodlo": "RMF24",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Bogdan Święczkowski: Wcześniej czy później do budynku Trybunału wejdziemy",
+   "url": "https://www.rmf24.pl/fakty/polityka/news-bogdan-swieczkowski-wczesniej-czy-pozniej-do-budynku-trybuna,nIdn,1024207",
+   "opublikowano": "2026-10-31T10:17:00Z",
+   "opublikowano_surowe": "Sat, 31 Oct 2026 11:17:00 +0100",
+   "streszczenie": "Bogdan Święczkowski: Wcześniej czy później do budynku Trybunału wejdziemy"
+  },
+  {
+   "zrodlo": "RMF24",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "900 zł za kilka kęsów. To najdroższa kanapka na świecie",
+   "url": "https://www.rmf24.pl/ciekawostki-rmf24/news-900-zl-za-kilka-kesow-to-najdrozsza-kanapka-na-swiecie,nIdn,1024075",
+   "opublikowano": "2026-10-31T10:15:00Z",
+   "opublikowano_surowe": "Sat, 31 Oct 2026 11:15:00 +0100",
+   "streszczenie": "900 zł za kilka kęsów. To najdroższa kanapka na świecie"
+  },
+  {
+   "zrodlo": "RMF24",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Żmijogłów sieje postrach w rzekach. Składa nawet 50 tysięcy jaj i... wychodzi na ląd",
+   "url": "https://www.rmf24.pl/fakty/polska/news-zmijoglow-sieje-postrach-w-rzekach-sklada-nawet-50-tysiecy-j,nIdn,1023913",
+   "opublikowano": "2026-10-31T10:13:00Z",
+   "opublikowano_surowe": "Sat, 31 Oct 2026 11:13:00 +0100",
+   "streszczenie": "Żmijogłów sieje postrach w rzekach. Składa nawet 50 tysięcy jaj i... wychodzi na ląd"
+  },
+  {
+   "zrodlo": "RMF24",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "„Wykonywanie zadań poza siedzibą Trybunału”. Anna Korwin-Piotrowska wydała zarządzenie",
+   "url": "https://www.rmf24.pl/fakty/polska/news-wykonywanie-zadan-poza-siedziba-trybunalu-anna-korwin-piotro,nIdn,1024205",
+   "opublikowano": "2026-10-31T10:10:00Z",
+   "opublikowano_surowe": "Sat, 31 Oct 2026 11:10:00 +0100",
+   "streszczenie": "„Wykonywanie zadań poza siedzibą Trybunału”. Anna Korwin-Piotrowska wydała zarządzenie"
+  },
+  {
+   "zrodlo": "RMF24",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Wojna o TK. Prezes Naczelnego Sądu Administracyjnego wydał oświadczenie",
+   "url": "https://www.rmf24.pl/fakty/polska/news-wojna-o-tk-prezes-naczelnego-sadu-administracyjnego-wydal-os,nIdn,1024204",
+   "opublikowano": "2026-10-31T09:59:00Z",
+   "opublikowano_surowe": "Sat, 31 Oct 2026 10:59:00 +0100",
+   "streszczenie": "Wojna o TK. Prezes Naczelnego Sądu Administracyjnego wydał oświadczenie"
+  },
+  {
+   "zrodlo": "RMF24",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Tragiczny pożar na Lubelszczyźnie. Nie żyją dwie osoby",
+   "url": "https://www.rmf24.pl/regiony/lublin/news-tragiczny-pozar-na-lubelszczyznie-nie-zyja-dwie-osoby,nIdn,1024203",
+   "opublikowano": "2026-10-31T09:54:00Z",
+   "opublikowano_surowe": "Sat, 31 Oct 2026 10:54:00 +0100",
+   "streszczenie": "Tragiczny pożar na Lubelszczyźnie. Nie żyją dwie osoby"
+  },
+  {
+   "zrodlo": "RMF24",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Kryzys w Trybunale Konstytucyjnym. Hołownia: To przynosi Polsce wstyd",
+   "url": "https://www.rmf24.pl/fakty/polska/news-kryzys-w-trybunale-konstytucyjnym-holownia-to-przynosi-polsc,nIdn,1024202",
+   "opublikowano": "2026-10-31T09:35:00Z",
+   "opublikowano_surowe": "Sat, 31 Oct 2026 10:35:00 +0100",
+   "streszczenie": "Kryzys w Trybunale Konstytucyjnym. Hołownia: To przynosi Polsce wstyd"
+  },
+  {
+   "zrodlo": "RMF24",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "„Wybuch radości w Rosji i na Białorusi”. Polski spór wodą na młyn wschodniej propagandy",
+   "url": "https://www.rmf24.pl/fakty/polska/news-wybuch-radosci-w-rosji-i-na-bialorusi-polski-spor-woda-na-ml,nIdn,1024201",
+   "opublikowano": "2026-10-31T09:10:00Z",
+   "opublikowano_surowe": "Sat, 31 Oct 2026 10:10:00 +0100",
+   "streszczenie": "„Wybuch radości w Rosji i na Białorusi”. Polski spór wodą na młyn wschodniej propagandy"
+  },
+  {
+   "zrodlo": "RMF24",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Sekrety najsłynniejszego fresku świata. Jakie tajemnice skrywa „Ostatnia Wieczerza” Leonarda da Vinci?",
+   "url": "https://www.rmf24.pl/fakty/kultura/news-sekrety-najslynniejszego-fresku-swiata-jakie-tajemnice-skryw,nIdn,1024055",
+   "opublikowano": "2026-10-31T09:02:00Z",
+   "opublikowano_surowe": "Sat, 31 Oct 2026 10:02:00 +0100",
+   "streszczenie": "Sekrety najsłynniejszego fresku świata. Jakie tajemnice skrywa „Ostatnia Wieczerza” Leonarda da Vinci?"
   },
   {
    "zrodlo": "RMF24",
@@ -1681,114 +1791,144 @@
    "streszczenie": "Ławrow krytykuje udział Polski w G20. „Nic nie wnosi”"
   },
   {
-   "zrodlo": "RMF24",
+   "zrodlo": "TVN24",
    "kategoria": "NEWS",
    "region": "poland",
-   "tytul": "Żurek grzmi o zachowaniu prezydenta. „Widziałem znowu głowę państwa, za którą musiałem się wstydzić”",
-   "url": "https://www.rmf24.pl/fakty/polityka/news-zurek-grzmi-o-zachowaniu-prezydenta-widzialem-znowu-glowe-pa,nIdn,1024194",
-   "opublikowano": "2026-10-31T07:08:00Z",
-   "opublikowano_surowe": "Sat, 31 Oct 2026 08:08:00 +0100",
-   "streszczenie": "Żurek grzmi o zachowaniu prezydenta. „Widziałem znowu głowę państwa, za którą musiałem się wstydzić”"
+   "tytul": "Prezydent rozpocznie serię spotkań z liderami środowisk parlamentarnych",
+   "url": "https://tvn24.pl/polska/prezydent-karol-nawrocki-rozpocznie-serie-spotkan-z-liderami-srodowisk-parlamentarnych-st9315602?source=rss",
+   "opublikowano": "2026-10-31T10:28:35Z",
+   "opublikowano_surowe": "Sat, 31 Oct 2026 10:28:35 GMT",
+   "streszczenie": "Prezydent Karol Nawrocki rozpocznie od godziny 13 w Pałacu Prezydenckim serię spotkań z liderami środowisk parlamentarnych - przekazał szef gabinetu prezydenta Paweł Szefernaker."
   },
   {
-   "zrodlo": "RMF24",
+   "zrodlo": "TVN24",
    "kategoria": "NEWS",
    "region": "poland",
-   "tytul": "Niezwykła lekcja historii: Tarnów ponownie pochowa swojego najpotężniejszego właściciela",
-   "url": "https://www.rmf24.pl/regiony/krakow/news-niezwykla-lekcja-historii-tarnow-ponownie-pochowa-swojego-na,nIdn,1023579",
-   "opublikowano": "2026-10-31T06:41:00Z",
-   "opublikowano_surowe": "Sat, 31 Oct 2026 07:41:00 +0100",
-   "streszczenie": "Niezwykła lekcja historii: Tarnów ponownie pochowa swojego najpotężniejszego właściciela"
+   "tytul": "Ewakuacja Ołeszek. Samoloty wylądowały",
+   "url": "https://tvn24.pl/swiat/woja-w-ukrainie-ewakuacja-oleszek-samoloty-z-mieszkancami-wyladowaly-st9315505?source=rss",
+   "opublikowano": "2026-10-31T10:19:41Z",
+   "opublikowano_surowe": "Sat, 31 Oct 2026 10:19:41 GMT",
+   "streszczenie": "W Homlu na południowym wschodzie Białorusi wylądowały trzy samoloty z mieszkańcami ukraińskiej miejscowości Ołeszki okupowanej przez rosyjskie wojsko. Na lotnisku przygotowano dla nich miasteczko namiotowe. Jak alarmowały władze USA, sytuacja w Ołeszkach jest dramatyczna, mieszkańcy nie mają dostępu do żywności i wody."
   },
   {
-   "zrodlo": "RMF24",
+   "zrodlo": "TVN24",
    "kategoria": "NEWS",
    "region": "poland",
-   "tytul": "Ukraina czeka na rakiety Patriot. Dostawy dopiero za kilka lat, Zełenski apeluje",
-   "url": "https://www.rmf24.pl/fakty/swiat/news-ukraina-czeka-na-rakiety-patriot-dostawy-dopiero-za-kilka-la,nIdn,1024191",
-   "opublikowano": "2026-10-31T06:18:00Z",
-   "opublikowano_surowe": "Sat, 31 Oct 2026 07:18:00 +0100",
-   "streszczenie": "Ukraina czeka na rakiety Patriot. Dostawy dopiero za kilka lat, Zełenski apeluje"
+   "tytul": "Arizona. Piorun uderzył blisko szkoły. Cztery osoby ranne",
+   "url": "https://tvn24.pl/tvnmeteo/swiat/arizona-piorun-uderzyl-blisko-szkoly-cztery-osoby-ranne-st9315468?source=rss",
+   "opublikowano": "2026-10-31T10:01:45Z",
+   "opublikowano_surowe": "Sat, 31 Oct 2026 10:01:45 GMT",
+   "streszczenie": "Cztery osoby zostały ranne wskutek uderzenia pioruna w Arizonie. Do zdarzenia doszło w piątek niedaleko szkoły podstawowej, ale żadne dziecko nie odniosło obrażeń. Tego dnia nad stanem przechodziły intensywne burze i ulewy."
   },
   {
-   "zrodlo": "RMF24",
+   "zrodlo": "TVN24",
    "kategoria": "NEWS",
    "region": "poland",
-   "tytul": "„Ojczyzna w potrzebie”. Lech Wałęsa reaguje na wydarzenia w Trybunale Konstytucyjnym",
-   "url": "https://www.rmf24.pl/fakty/polska/news-ojczyzna-w-potrzebie-lech-walesa-reaguje-na-wydarzenia-w-try,nIdn,1024190",
-   "opublikowano": "2026-10-31T05:32:00Z",
-   "opublikowano_surowe": "Sat, 31 Oct 2026 06:32:00 +0100",
-   "streszczenie": "„Ojczyzna w potrzebie”. Lech Wałęsa reaguje na wydarzenia w Trybunale Konstytucyjnym"
+   "tytul": "Święczkowski o spotkaniach z sędziami TK. \"Moja słodka tajemnica\"",
+   "url": "https://tvn24.pl/polska/bogdan-swieczkowski-pojawil-sie-w-sobote-rano-przed-trybunalem-konstytucyjnym-mowil-o-planach-st9315494?source=rss",
+   "opublikowano": "2026-10-31T10:01:24Z",
+   "opublikowano_surowe": "Sat, 31 Oct 2026 10:01:24 GMT",
+   "streszczenie": "W sobotę rano przed siedzibą Trybunału Konstytucyjnego pojawił się Bogdan Święczkowski. Wyjawił, że ma w planach \"spotkania\", ale nie doprecyzował, z kim. W rozmowie z powiązanym z Prawem i Sprawiedliwością medium mówił o przyjeździe do Warszawy pozostałych sędziów."
   },
   {
-   "zrodlo": "RMF24",
+   "zrodlo": "TVN24",
    "kategoria": "NEWS",
    "region": "poland",
-   "tytul": "Bogdan Święczkowski pod budynkiem TK: Mamy do czynienia z zamachem stanu",
-   "url": "https://www.rmf24.pl/fakty/polityka/news-bogdan-swieczkowski-pod-budynkiem-tk-mamy-do-czynienia-z-zam,nIdn,1024189",
-   "opublikowano": "2026-10-31T05:14:00Z",
-   "opublikowano_surowe": "Sat, 31 Oct 2026 06:14:00 +0100",
-   "streszczenie": "Bogdan Święczkowski pod budynkiem TK: Mamy do czynienia z zamachem stanu"
+   "tytul": "Protesty we Francji. Zamknięto ponad 40 stacji metra",
+   "url": "https://tvn24.pl/swiat/kolejne-protesty-we-francji-zamknieto-ponad-40-stacji-metra-st9315502?source=rss",
+   "opublikowano": "2026-10-31T09:59:29Z",
+   "opublikowano_surowe": "Sat, 31 Oct 2026 09:59:29 GMT",
+   "streszczenie": "We Francji odbędą się w sobotę demonstracje pod hasłami poparcia dla ruchu licealistów i protestu przeciw rosnącym kosztom życia. Będzie to już trzeci weekend z rzędu pod znakiem manifestacji od 17 października, gdy doszło do zamieszek. W Paryżu zamkniętych będzie ponad 40 stacji metra."
   },
   {
-   "zrodlo": "RMF24",
+   "zrodlo": "TVN24",
    "kategoria": "NEWS",
    "region": "poland",
-   "tytul": "Kwiaty, lampiony i rodzinne ołtarze. Jak różne kultury żegnają swoich bliskich?",
-   "url": "https://www.rmf24.pl/ciekawostki-rmf24/news-kwiaty-lampiony-i-rodzinne-oltarze-jak-rozne-kultury-zegnaja,nIdn,1023396",
-   "opublikowano": "2026-10-31T05:00:00Z",
-   "opublikowano_surowe": "Sat, 31 Oct 2026 06:00:00 +0100",
-   "streszczenie": "Kwiaty, lampiony i rodzinne ołtarze. Jak różne kultury żegnają swoich bliskich?"
+   "tytul": "Fajerwerki nad Warszawą. Huk i rozbłyski w różnych częściach miasta",
+   "url": "https://tvn24.pl/tvnwarszawa/srodmiescie/fajerwerki-nad-warszawa-huk-i-rozblyski-w-roznych-czesciach-miasta-st9315467?source=rss",
+   "opublikowano": "2026-10-31T09:46:40Z",
+   "opublikowano_surowe": "Sat, 31 Oct 2026 09:46:40 GMT",
+   "streszczenie": "W piątek wieczorem niebo nad Warszawą rozświetliły fajerwerki. Wiele osób zastanawiało się, z jakiej okazji zorganizowano pokaz. Przedstawiciele Polonii Warszawa wyjaśnili, że akcja miała związek ze 115-leciem klubu."
   },
   {
-   "zrodlo": "RMF24",
+   "zrodlo": "TVN24",
    "kategoria": "NEWS",
    "region": "poland",
-   "tytul": "Mumie, klątwy i zagadki przeszłości. Niezwykły grobowiec ukryty w mazurskich lasach",
-   "url": "https://www.rmf24.pl/ciekawostki-rmf24/news-mumie-klatwy-i-zagadki-przeszlosci-niezwykly-grobowiec-ukryt,nIdn,1023445",
-   "opublikowano": "2026-10-31T05:00:00Z",
-   "opublikowano_surowe": "Sat, 31 Oct 2026 06:00:00 +0100",
-   "streszczenie": "Mumie, klątwy i zagadki przeszłości. Niezwykły grobowiec ukryty w mazurskich lasach"
+   "tytul": "Hołownia apeluje do premiera i prezydenta. \"Nie pozwolimy wam uchylić się od odpowiedzialności\"",
+   "url": "https://tvn24.pl/polska/szymon-holownia-o-sytuacji-w-trybunale-konstytucyjnym-wzywa-donalda-tuska-i-karola-nawrockiego-do-resetu-tk-st9315469?source=rss",
+   "opublikowano": "2026-10-31T09:36:53Z",
+   "opublikowano_surowe": "Sat, 31 Oct 2026 09:36:53 GMT",
+   "streszczenie": "Klub poselski Polski 2050 weźmie udział w zwołanych przez prezydenta Karola Nawrockiego konsultacjach - ogłosił w sobotę Szymon Hołownia. Wicemarszałek Sejmu wezwał głowę państwa i premiera Donalda Tuska do podjęcia wspólnych działań w sprawie Trybunału Konstytucyjnego."
   },
   {
-   "zrodlo": "RMF24",
+   "zrodlo": "TVN24",
    "kategoria": "NEWS",
    "region": "poland",
-   "tytul": "Te cztery zamki zobaczysz w listopadzie za darmo",
-   "url": "https://www.rmf24.pl/fakty/polska/news-te-cztery-zamki-zobaczysz-w-listopadzie-za-darmo,nIdn,1023889",
-   "opublikowano": "2026-10-31T05:00:00Z",
-   "opublikowano_surowe": "Sat, 31 Oct 2026 06:00:00 +0100",
-   "streszczenie": "Te cztery zamki zobaczysz w listopadzie za darmo"
+   "tytul": "Przez dekadę liczył się każdy poród. Tak rozdano fortunę",
+   "url": "https://tvn24.pl/ciekawostki/great-stork-derby-majatek-za-dzieci-jak-biznesmen-z-kanady-rozpoczal-wielki-wyscig-bocianow-st9225505?source=rss",
+   "opublikowano": "2026-10-31T09:30:23Z",
+   "opublikowano_surowe": "Sat, 31 Oct 2026 09:30:23 GMT",
+   "streszczenie": "Majątek dla tej kobiety, która w ciągu 10 lat urodzi najwięcej dzieci? Tak zaczęła się historia Great Stork Derby, konkursu zapisanego w testamencie Charlesa Vance'a Millara. Ekscentryczny kanadyjski milioner postanowił zażartować nawet po śmierci."
   },
   {
-   "zrodlo": "RMF24",
+   "zrodlo": "TVN24",
    "kategoria": "NEWS",
    "region": "poland",
-   "tytul": "To zdecydowany lider rankingu. W tym województwie żyje się najlepiej",
-   "url": "https://www.rmf24.pl/regiony/slaskie/news-to-zdecydowany-lider-rankingu-w-tym-wojewodztwie-zyje-sie-na,nIdn,1023950",
-   "opublikowano": "2026-10-31T05:00:00Z",
-   "opublikowano_surowe": "Sat, 31 Oct 2026 06:00:00 +0100",
-   "streszczenie": "To zdecydowany lider rankingu. W tym województwie żyje się najlepiej"
+   "tytul": "Cukrzyk i płeć Boga. Trump nie może spać",
+   "url": "https://tvn24.pl/swiat/usa-wybory-do-kongresu-czy-demokraci-wygraja-w-teksasie-i-michigan-st9306298?source=rss",
+   "opublikowano": "2026-10-31T08:56:04Z",
+   "opublikowano_surowe": "Sat, 31 Oct 2026 08:56:04 GMT",
+   "streszczenie": "Nadchodzi nowe pokolenie demokratów, a na punkcie dwóch z nich Donald Trump ma niemal obsesję. Obaj kandydują do Senatu: jeden z Teksasu, drugi z Michigan. Czy pokonają rywali? W najbliższy wtorek wybory, w wyniku których republikanie mogą stracić kontrolę nad całym Kongresem."
   },
   {
-   "zrodlo": "RMF24",
+   "zrodlo": "TVN24",
    "kategoria": "NEWS",
    "region": "poland",
-   "tytul": "Nocne wydarzenia przed Trybunałem Konstytucyjnym. Prezydent Nawrocki wydał oświadczenie",
-   "url": "https://www.rmf24.pl/fakty/polska/news-nocne-wydarzenia-przed-trybunalem-konstytucyjnym-prezydent-n,nIdn,1024187",
-   "opublikowano": "2026-10-31T04:08:00Z",
-   "opublikowano_surowe": "Sat, 31 Oct 2026 05:08:00 +0100",
-   "streszczenie": "Nocne wydarzenia przed Trybunałem Konstytucyjnym. Prezydent Nawrocki wydał oświadczenie"
+   "tytul": "Odtworzył twarz młodej \"wampirzycy\". Chcą, by Zosia została w Polsce",
+   "url": "https://tvn24.pl/kujawsko-pomorskie/odtworzyl-twarz-mlodej-wampirzycy-chca-by-zosia-zostala-w-polsce-st9314934?source=rss",
+   "opublikowano": "2026-10-31T08:53:12Z",
+   "opublikowano_surowe": "Sat, 31 Oct 2026 08:53:12 GMT",
+   "streszczenie": "Rzeźba szwedzkiego artysty Oscara Nilssona, który podjął się wykonania rekonstrukcji twarzy 18-letniej \"wampirzycy\" z XVII-wiecznego cmentarzyska, może zostać w Polsce. Zbierane są pieniądze na jej zakup."
   },
   {
-   "zrodlo": "RMF24",
+   "zrodlo": "TVN24",
    "kategoria": "NEWS",
    "region": "poland",
-   "tytul": "Szefernaker uderza w Tuska po wydarzeniach w TK. „Powinien jak najszybciej ponieść odpowiedzialność”",
-   "url": "https://www.rmf24.pl/fakty/polska/news-szefernaker-uderza-w-tuska-po-wydarzeniach-w-tk-powinien-jak,nIdn,1024186",
-   "opublikowano": "2026-10-31T02:49:00Z",
-   "opublikowano_surowe": "Sat, 31 Oct 2026 03:49:00 +0100",
-   "streszczenie": "Szefernaker uderza w Tuska po wydarzeniach w TK. „Powinien jak najszybciej ponieść odpowiedzialność”"
+   "tytul": "\"Renia\" to największa dynia w Polsce. Syn i ojciec opowiadają, jak rosła",
+   "url": "https://tvn24.pl/poznan/krzysztof-i-tomasz-olejniczak-maja-najwieksza-dynie-w-polsce-wygrali-konkurs-podczas-festiwalu-dyni-w-krapkowicach-st9295962?source=rss",
+   "opublikowano": "2026-10-31T08:38:20Z",
+   "opublikowano_surowe": "Sat, 31 Oct 2026 08:38:20 GMT",
+   "streszczenie": "Ich okaz waży 918 kilogramów - to tyle, co dorosły żubr. Pan Tomasz i jego syn Krzysztof ustanowili rekord Polski w kategorii \"najcięższa dynia\". Ojciec pomaga przy trudniejszych zadaniach technicznych, ale za uprawę odpowiada 16-letni syn. Opowiedzieli, jak z małego ziarenka wyrósł taki kolos."
+  },
+  {
+   "zrodlo": "TVN24",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Wybory połówkowe w USA. W bastionach republikanów mówią o palącym problemie",
+   "url": "https://tvn24.pl/swiat/wybory-polowkowe-w-usa-w-bastionach-republikanow-mieszkancy-mowia-o-trudnej-sytuacji-gospodarczej-st9315423?source=rss",
+   "opublikowano": "2026-10-31T08:34:02Z",
+   "opublikowano_surowe": "Sat, 31 Oct 2026 08:34:02 GMT",
+   "streszczenie": "Na kilka dni przed amerykańskimi wyborami połówkowymi do Kongresu w bastionach republikanów mieszkańcy zwracają uwagę na wysokie koszty życia, które są według nich najbardziej palącym problemem. Z sondaży wynika, że po wyborach Partia Demokratyczna ma dużą szansę przejąć władzę w federalnej Izbie Reprezentantów."
+  },
+  {
+   "zrodlo": "TVN24",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Na przejeździe rowerowym zginął pracownik MZA. Kierowca z zarzutem",
+   "url": "https://tvn24.pl/tvnwarszawa/bialoleka/warszawa-na-przejezdzie-rowerowym-zginal-pracownik-mza-kierowca-z-zarzutem-st9311896?source=rss",
+   "opublikowano": "2026-10-31T08:33:13Z",
+   "opublikowano_surowe": "Sat, 31 Oct 2026 08:33:13 GMT",
+   "streszczenie": "Prokuratura przedstawiła zarzut kierowcy po śmiertelnym potrąceniu rowerzysty na Białołęce. Zmarły mężczyzna był pracownikiem Miejskich Zakładów Autobusowych. Jego śmierć wywołała poruszenie wśród kierowców miejskich autobusów."
+  },
+  {
+   "zrodlo": "TVN24",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Australia mierzy się z \"mięsożerną\" bakterią. \"Naprawdę niezwykły patogen\"",
+   "url": "https://tvn24.pl/tvnmeteo/swiat/owrzodzenie-buruli-australia-mierzy-sie-z-miesozerna-bakteria-naprawde-niezwykly-patogen-st9315397?source=rss",
+   "opublikowano": "2026-10-31T08:30:17Z",
+   "opublikowano_surowe": "Sat, 31 Oct 2026 08:30:17 GMT",
+   "streszczenie": "W Australii rośnie liczba przypadków zarażenia owrzodzeniem Buruli. Choroba, która na ludzi może przenosić się przez ugryzienie komara, doprowadza do powstawania trudno gojących się, otwartych ran."
   },
   {
    "zrodlo": "TVN24",
@@ -1801,144 +1941,104 @@
    "streszczenie": "Nie może być tak, żeby prawo było bezradne, kiedy są bardzo poważne zarzuty co do sposobu sprawowania urzędu przez prezesa Trybunału Konstytucyjnego - powiedział w TVN24 profesor Stanisław Biernat. Jego zdaniem \"punktem wyjścia jest bezprecedensowe naruszenie konstytucji przez prezydenta\"."
   },
   {
-   "zrodlo": "TVN24",
+   "zrodlo": "Polsat News",
    "kategoria": "NEWS",
    "region": "poland",
-   "tytul": "Ławrow o zaproszeniu Polski na G20: złamanie zasad dyplomacji",
-   "url": "https://tvn24.pl/swiat/spotkanie-g20-siergiej-lawrow-o-udziale-polski-nic-nie-wnosi-st9315411?source=rss",
-   "opublikowano": "2026-10-31T07:47:42Z",
-   "opublikowano_surowe": "Sat, 31 Oct 2026 07:47:42 GMT",
-   "streszczenie": "Według rosyjskiego ministra spraw zagranicznych Siergieja Ławrowa uczestnictwo Polski w spotkaniu G20 jest \"bezproduktywne\". W tym roku Polska uczestniczy w rozmowach na specjalne zaproszenie USA, które przewodzą rozmowom."
+   "tytul": "Lodowiec wygląda, jakby krwawił. Naukowcy mylili się, co jest tego przyczyną",
+   "url": "https://www.polsatnews.pl/ciekawostki/2026-10-31/lodowiec-wyglada-jakby-krwawil-naukowcy-mylili-sie-co-jest-tego-przyczyna/",
+   "opublikowano": "2026-10-31T10:47:00Z",
+   "opublikowano_surowe": "Sat, 31 Oct 2026 11:47:00 +0100",
+   "streszczenie": "Na Antarktydzie znajduje się Lodowiec Taylora, z którego wydobywa się strumień intensywnie czerwonej wody, do złudzenia przypominającej krew. Krwawy Wodospad fascynuje naukowców i podróżników. Był badany już wiele razy, naukowcy latami mylili się co do tego, skąd pochodzi krwista ciecz i co w niej żyje."
   },
   {
-   "zrodlo": "TVN24",
+   "zrodlo": "Polsat News",
    "kategoria": "NEWS",
    "region": "poland",
-   "tytul": "To ona stoi za odsunięciem Święczkowskiego. Kim jest sędzia Anna Korwin-Piotrowska?",
-   "url": "https://tvn24.pl/polska/kim-jest-anna-korwin-piotrowska-ktora-pelni-obowiazki-prezesa-trybunalu-konstytucyjnego-st9315369?source=rss",
-   "opublikowano": "2026-10-31T07:21:34Z",
-   "opublikowano_surowe": "Sat, 31 Oct 2026 07:21:34 GMT",
-   "streszczenie": "Anna Korwin-Piotrowska ogłosiła, że jako sędzia Trybunału Konstytucyjnego z najdłuższym stażem przejęła obowiązki prezesa TK i zarządziła przerwę w czynnościach Bogdana Święczkowskiego. W swojej prawniczej karierze już wcześniej znalazła się na torze kolizyjnym z przedstawicielami PiS."
+   "tytul": "Marco Rubio z ważnymi słowami o Polsce. Powołał się na Donalda Trumpa",
+   "url": "https://www.polsatnews.pl/wiadomosc/2026-10-31/marco-rubio-z-waznymi-slowami-o-polsce-powolal-sie-na-donalda-trumpa/",
+   "opublikowano": "2026-10-31T10:45:00Z",
+   "opublikowano_surowe": "Sat, 31 Oct 2026 11:45:00 +0100",
+   "streszczenie": "Sekretarz stanu USA Marco Rubio pochwalił Polskę podczas spotkania ministrów spraw zagranicznych państw G20 w Atlancie. Amerykański polityk przywołał opinię Donalda Trumpa, wskazując na dwa atuty naszego kraju, które zdaniem prezydenta USA mogą pomóc w rozwiązywaniu globalnych problemów gospodarczych. - Bardzo się cieszymy, że są dziś z nami - podkreślił szef amerykańskiej dyplomacji."
   },
   {
-   "zrodlo": "TVN24",
+   "zrodlo": "Polsat News",
    "kategoria": "NEWS",
    "region": "poland",
-   "tytul": "\"Dostałem tezy do narracji\". Pięć najważniejszych wniosków z pierwszego wywiadu generała Piotrowskiego",
-   "url": "https://tvn24.pl/polska/general-tomasz-piotrowski-w-wywiadzie-minister-blaszczak-wiedzial-o-rakiecie-od-poczatku-st9315101?source=rss",
-   "opublikowano": "2026-10-31T07:15:06Z",
-   "opublikowano_surowe": "Sat, 31 Oct 2026 07:15:06 GMT",
-   "streszczenie": "Rosyjska rakieta, publiczny konflikt z ministrem obrony, odejście z wojska i proces zakończony ugodą. Po raz pierwszy od zakończenia sporu z Mariuszem Błaszczakiem generał Tomasz Piotrowski szczegółowo opowiada o kulisach jednej z najgłośniejszych spraw dotyczących bezpieczeństwa państwa w ostatnich latach. Cała rozmowa Piotra Świerczka z generałem dostępna w TVN24+."
+   "tytul": "Mężczyzna z nożem przed Trybunałem Konstytucyjnym. \"Ludzie zaczęli krzyczeć\"",
+   "url": "https://www.polsatnews.pl/wiadomosc/2026-10-31/mezczyzna-z-nozem-przed-trybunalem-konstytucyjnym-ludzie-zaczeli-krzyczec/",
+   "opublikowano": "2026-10-31T10:18:00Z",
+   "opublikowano_surowe": "Sat, 31 Oct 2026 11:18:00 +0100",
+   "streszczenie": "W pewnym momencie wyrywano mu nóż - opowiadała na antenie Polsat News o niebezpiecznej sytuacji przed Trybunałem Konstytucyjnym posłanka PiS Anna Gembicka. Osoba, która częściowo była zamaskowana, jest w rękach służb. Policja potwierdziła zdarzenie i przekazała, że zatrzymany został przewieziony na komisariat, gdzie prowadzone są z nim czynności."
   },
   {
-   "zrodlo": "TVN24",
+   "zrodlo": "Polsat News",
    "kategoria": "NEWS",
    "region": "poland",
-   "tytul": "Meksyk. W 45 minut miasto znalazło się pod wodą. Nie żyją dwie osoby",
-   "url": "https://tvn24.pl/tvnmeteo/swiat/meksyk-w-45-minut-miasto-znalazlo-sie-pod-woda-nie-zyja-dwie-osoby-st9315372?source=rss",
-   "opublikowano": "2026-10-31T06:44:39Z",
-   "opublikowano_surowe": "Sat, 31 Oct 2026 06:44:39 GMT",
-   "streszczenie": "Ulewy nawiedziły w piątek zachodni Meksyk. Do groźnych powodzi błyskawicznych doszło w kurorcie Los Cabos na Półwyspie Kalifornijskim. Silnie lało także w stanie Sonora, gdzie wskutek powodzi zginęły dwie osoby."
+   "tytul": "Nowe zarządzenie w Trybunale Konstytucyjnym. Sędziowie mogą pracować poza siedzibą",
+   "url": "https://www.polsatnews.pl/wiadomosc/2026-10-31/nowe-zarzadzenie-w-trybunale-konstytucyjnym-sedziowie-moga-pracowac-poza-siedziba/",
+   "opublikowano": "2026-10-31T10:04:00Z",
+   "opublikowano_surowe": "Sat, 31 Oct 2026 11:04:00 +0100",
+   "streszczenie": "Zastępująca prezesa TK Anna Korwin-Piotrowska wydała nowe zarządzenie dotyczące funkcjonowania Trybunału Konstytucyjnego. Sędziom zalecono wykonywanie obowiązków poza siedzibą instytucji, a większość pracowników została zwolniona z obowiązku stawiania się do pracy. Decyzja ma związek z napiętą sytuacją wokół TK i obawami o bezpieczeństwo."
   },
   {
-   "zrodlo": "TVN24",
+   "zrodlo": "Polsat News",
    "kategoria": "NEWS",
    "region": "poland",
-   "tytul": "Manifestanci i kordon policji. Co się dzieje przed Trybunałem Konstytucyjnym?",
-   "url": "https://tvn24.pl/polska/manifestanci-i-kordon-policji-co-sie-dzieje-przed-trybunalem-konstytucyjnym-st9315374?source=rss",
-   "opublikowano": "2026-10-31T06:32:38Z",
-   "opublikowano_surowe": "Sat, 31 Oct 2026 06:32:38 GMT",
-   "streszczenie": "Przed Trybunałem Konstytucyjnym wciąż są manifestanci, jednak, jak relacjonował reporter TVN24 Sebastian Napieraj, w porównaniu do sytuacji z ostatnich godzin, ich liczba jest zdecydowanie mniejsza. Protestujących od budynku oddziela kordon policji."
+   "tytul": "\"Wszyscy nadal tam są\". Ustalenia Polsat News w sprawie Trybunału",
+   "url": "https://www.polsatnews.pl/wiadomosc/2026-10-31/wszyscy-nadal-tam-sa-ustalenia-polsat-news-w-sprawie-trybunalu/",
+   "opublikowano": "2026-10-31T09:38:00Z",
+   "opublikowano_surowe": "Sat, 31 Oct 2026 10:38:00 +0100",
+   "streszczenie": "Wszyscy sędziowie, którzy byli w nocy w Trybunale Konstytucyjnym, nadal tam są - potwierdził Polsat News, powołując się na sędzię Annę Korwin-Piotrowską. Informację podał w Czterech stronach mediów Marek Tejchman."
   },
   {
-   "zrodlo": "TVN24",
+   "zrodlo": "Polsat News",
    "kategoria": "NEWS",
    "region": "poland",
-   "tytul": "Mbappe, Oezil, Fornal. Dlaczego Chiny obrażają się na sportowców?",
-   "url": "https://tvn24.pl/swiat/mbappe-chiny-zrywaja-kontrakty-dlaczego-obrazaja-sie-na-sportowcow-st9312357?source=rss",
-   "opublikowano": "2026-10-31T06:01:52Z",
-   "opublikowano_surowe": "Sat, 31 Oct 2026 06:01:52 GMT",
-   "streszczenie": "Mbappe to nauczka dla wielu sportowców, jak może wyglądać zbytnie uzależnienie się od chińskich pieniędzy - mówi dr Adrian Brona z Uniwersytetu Jagiellońskiego. Pozornie niewinny żart piłkarza wywołał międzynarodowy skandal, falę hejtu i zerwanie milionowych kontraktów. Tylko czym piłkarz \"obraził\" Chińczyków?"
+   "tytul": "Turyści ustawiają się w kolejce. Miejsce trafiło do Księgi Guinnessa",
+   "url": "https://www.polsatnews.pl/ciekawostki/2026-10-31/turysci-ustawiaja-sie-w-kolejce-by-zrobic-zdjecie-miejsce-trafilo-do-ksiegi-guinnessa/",
+   "opublikowano": "2026-10-31T09:32:00Z",
+   "opublikowano_surowe": "Sat, 31 Oct 2026 10:32:00 +0100",
+   "streszczenie": "W Reutlingen w południowych Niemczech znajduje się ulica, która na pierwszy rzut oka wygląda jak szczelina między dwoma budynkami. Spreuerhofstrasse ma zaledwie 31 centymetrów szerokości w najwęższym miejscu. Mimo to jest oficjalnie uznawana za ulicę i wpisana do Księgi rekordów Guinnessa jako najwęższa na świecie."
   },
   {
-   "zrodlo": "TVN24",
+   "zrodlo": "Polsat News",
    "kategoria": "NEWS",
    "region": "poland",
-   "tytul": "Minister sprawiedliwości o prezydencie w trybunale. \"Mam nadzieję, że prokuratura podejmie działania\"",
-   "url": "https://tvn24.pl/polska/minister-sprawiedliwosci-waldemar-zurek-o-wejsciu-prezydenta-do-trybunalu-konstytucyjnego-mam-nadzieje-ze-prokuratura-podejmie-dzialania-st9315351?source=rss",
-   "opublikowano": "2026-10-31T05:32:59Z",
-   "opublikowano_surowe": "Sat, 31 Oct 2026 05:32:59 GMT",
-   "streszczenie": "Waldemar Żurek w rozmowie z TVN24 zwrócił uwagę, że zaniepokoiło go zachowanie prezydenta Karola Nawrockiego w Trybunale Konstytucyjnym. - Mam nadzieję, że prokuratura podejmie działania, bo to jest niedopuszczalne, żeby osoba, którą chroni immunitet prezydencki zachowywała się w taki sposób - powiedział."
+   "tytul": "Lech Wałęsa reaguje na sceny przed TK. \"Nie mamy wyboru\"",
+   "url": "https://www.polsatnews.pl/wiadomosc/2026-10-31/lech-walesa-reaguje-na-sceny-przed-tk-nie-mamy-wyboru/",
+   "opublikowano": "2026-10-31T09:26:00Z",
+   "opublikowano_surowe": "Sat, 31 Oct 2026 10:26:00 +0100",
+   "streszczenie": "Nie mamy wyboru. Ojczyzna w potrzebie! - napisał Lech Wałęsa, reagując na burzliwe wydarzenia wokół Trybunału Konstytucyjnego. Były prezydent opublikował w sobotę rano wpis, w którym zwrócił się bezpośrednio do premiera Donalda Tuska. Zadeklarował pełne poparcie dla szefa rządu i wystosował apel do swoich dawnych współpracowników."
   },
   {
-   "zrodlo": "TVN24",
+   "zrodlo": "Polsat News",
    "kategoria": "NEWS",
    "region": "poland",
-   "tytul": "Braun zrobił sobie \"bardzo wymowne\" zdjęcie z Kaczyńskim",
-   "url": "https://tvn24.pl/polska/grzegorz-braun-zrobil-randomowe-selfie-z-jaroslawem-kaczynskim-przed-trybunalem-konstytucyjnym-st9315321?source=rss",
-   "opublikowano": "2026-10-31T04:54:13Z",
-   "opublikowano_surowe": "Sat, 31 Oct 2026 04:54:13 GMT",
-   "streszczenie": "Lider Konfederacji Korony Polskiej Grzegorz Braun zamieścił \"randomowe selfie\" z prezesem Prawa i Sprawiedliwości Jarosławem Kaczyńskim. Dziennikarz tvn24.pl Marcin Złotkowski ocenił, że politycy PiS widoczni na fotografii \"mają znacznie więcej do stracenia\"."
+   "tytul": "Anna Korwin-Piotrowska w centrum zamieszania wokół TK. Kim jest sędzia?",
+   "url": "https://www.polsatnews.pl/wiadomosc/2026-10-31/anna-korwin-piotrowska-w-centrum-zamieszania-wokol-tk-kim-jest-sedzia/",
+   "opublikowano": "2026-10-31T09:13:00Z",
+   "opublikowano_surowe": "Sat, 31 Oct 2026 10:13:00 +0100",
+   "streszczenie": "To ona ogłosiła przejęcie kierowania Trybunałem Konstytucyjnym i zarządziła przerwę w czynnościach Bogdana Święczkowskiego. Anna Korwin-Piotrowska znalazła się w centrum sporu, który wywołał protesty przed siedzibą TK. W przeszłości sędzia była już skonfliktowana z przedstawicielami PiS. Jej odwołanie ze stanowiska w opolskim sądzie zakończyło się skargą do Strasburga."
   },
   {
-   "zrodlo": "TVN24",
+   "zrodlo": "Polsat News",
    "kategoria": "NEWS",
    "region": "poland",
-   "tytul": "Prezydent Karol Nawrocki zwołuje pilne konsultacje w związku z sytuacją wokół Trybunału Konstytucyjnego",
-   "url": "https://tvn24.pl/polska/trybunal-konstytucyjny-prezydent-karol-nawrocki-zwoluje-pilne-konsultacje-st9315336?source=rss",
-   "opublikowano": "2026-10-31T04:25:47Z",
-   "opublikowano_surowe": "Sat, 31 Oct 2026 04:25:47 GMT",
-   "streszczenie": "Karol Nawrocki zwołał pilne konsultacje z udziałem przedstawicieli sił parlamentarnych w celu doprowadzenia do \"stabilizacji sytuacji politycznej i przywrócenia porządku konstytucyjnego\". Jak ocenił prezydent, w trybunale doszło do \"naruszenia porządku konstytucyjnego RP\". Oświadczenie odczytano po opuszczeniu przez Nawrockiego budynku TK."
+   "tytul": "Oddziały prewencji cały czas pod TK. Szef MSWiA odniósł się do działań",
+   "url": "https://www.polsatnews.pl/wiadomosc/2026-10-31/oddzialy-prewencji-caly-czas-pod-tk-szef-mswia-odniosl-sie-do-dzialan/",
+   "opublikowano": "2026-10-31T08:51:00Z",
+   "opublikowano_surowe": "Sat, 31 Oct 2026 09:51:00 +0100",
+   "streszczenie": "Policyjne oddziały prewencji cały czas zabezpieczają teren siedziby Trybunału Konstytucyjnego przy al. Szucha w Warszawie. Z ustaleń Polsat News wynika, że liczba funkcjonariuszy jest mniejsza niż w nocy, a siły i środki są wprost proporcjonalne do ewentualnego zagrożenia. Wcześniej, nad ranem szef MSWiA Marcin Kierwiński wydał komunikat ws. działań policji."
   },
   {
-   "zrodlo": "TVN24",
+   "zrodlo": "Polsat News",
    "kategoria": "NEWS",
    "region": "poland",
-   "tytul": "Zawieszony Święczkowski, prezydent w siedzibie TK, protesty przed gmachem. To wydarzył się w nocy",
-   "url": "https://tvn24.pl/polska/trybunal-konstytucyjny-najwazniejsze-informacje-to-wydarzylo-sie-w-nocy-podsumowujemy-st9315322?source=rss",
-   "opublikowano": "2026-10-31T04:11:35Z",
-   "opublikowano_surowe": "Sat, 31 Oct 2026 04:11:35 GMT",
-   "streszczenie": "Sędzia Trybunału Konstytucyjnego Anna Korwin-Piotrowska poinformowała o zawieszeniu w czynnościach prezesa TK Bogdana Święczkowskiego oraz wiceprezesa TK Bartłomieja Sochańskiego. Prezydent Karol Nawrocki wszedł do siedziby Trybunału. Przed gmachem TK zgromadziło się wielu ludzi - demonstranci przecięli łańcuch na bramie. Interweniowała policja. Podsumowujemy najważniejsze wydarzenia z nocy."
-  },
-  {
-   "zrodlo": "TVN24",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Karol Nawrocki wszedł do Trybunału Konstytucyjnego. Był powstrzymywany. Relacja sędziego Macieja Berka",
-   "url": "https://tvn24.pl/polska/karol-nawrocki-wszedl-do-trybunalu-konstytucyjnego-relacja-sedziego-macieja-berka-st9314794?source=rss",
-   "opublikowano": "2026-10-31T03:43:00Z",
-   "opublikowano_surowe": "Sat, 31 Oct 2026 03:43:00 GMT",
-   "streszczenie": "Karol Nawrocki przyjechał w nocy z piątku na sobotę do Trybunału Konstytucyjnego. Wszedł do budynku, chociaż w drzwiach doszło do przepychanek. \"Prezydent wybrał ścieżkę fizycznej konfrontacji z sędzią TK A. Korwin-Piotrowską\" - napisał Maciej Berek. W późniejszym wpisie szerzej opisał zajście. Prezydencki doradca Marcin Przydacz ocenił z kolei, że Krystian Markiewicz i Korwin-Piotrowska \"próbowali szarpać prezydenta!\""
-  },
-  {
-   "zrodlo": "TVN24",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Światowe media relacjonują wydarzenia wokół Trybunału Konstytucyjnego",
-   "url": "https://tvn24.pl/polska/pisza-o-polsce-relacje-swiatowych-mediow-na-temat-wydarzen-wokol-trybunalu-konstytucyjnego-st9315312?source=rss",
-   "opublikowano": "2026-10-31T03:21:13Z",
-   "opublikowano_surowe": "Sat, 31 Oct 2026 03:21:13 GMT",
-   "streszczenie": "Sędzia Trybunału Konstytucyjnego Anna Korwin-Piotrowska poinformowała w piątek po południu, że zarządziła przerwę w czynnościach służbowych wobec Bogdana Święczkowskiego i Bartłomieja Sochańskiego. Nad ranem do gmachu TK wszedł prezydent Karol Nawrocki. O sytuacji wokół polskiego Trybunału Konstytucyjnego piszą światowe agencje prasowe i zagraniczne media."
-  },
-  {
-   "zrodlo": "TVN24",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Zmiana władzy w TK. Dwa kluczowe kroki. Wyjaśniamy",
-   "url": "https://tvn24.pl/polska/zmiana-wladzy-w-tk-dwa-kluczowe-kroki-wyjasniamy-st9314974?source=rss",
-   "opublikowano": "2026-10-31T02:42:11Z",
-   "opublikowano_surowe": "Sat, 31 Oct 2026 02:42:11 GMT",
-   "streszczenie": "Trzęsienie ziemi w Trybunale Konstytucyjnym. Jego stery - jak twierdzi - przejąła wybrana przez większość rządzącą sędzia i odsunęła dotychczasowego prezesa. Opinie prawników nie są jednoznaczne."
-  },
-  {
-   "zrodlo": "TVN24",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Karol Nawrocki w TK. \"Nie jesteście sędziami Trybunału Konstytucyjnego\"",
-   "url": "https://tvn24.pl/polska/prezydent-karol-nawrocki-do-sedzi-tk-anny-korwin-piotrowskiej-nie-jestescie-sedziami-tk-st9315306?source=rss",
-   "opublikowano": "2026-10-31T01:41:02Z",
-   "opublikowano_surowe": "Sat, 31 Oct 2026 01:41:02 GMT",
-   "streszczenie": "Nie jesteście sędziami Trybunału Konstytucyjnego i przejmujecie ten budynek nielegalnie - zwrócił się prezydent Karol Nawrocki do sędzi Anny Korwin-Piotrowskiej. \"Politycy wtargnęli do TK. To pokazuje stawkę tej sprawy\" - skomentował zdarzenie prezes Stowarzyszenia Sędziów Polskich Iustitia, Bartłomiej Przymusiński."
+   "tytul": "Hołownia z pilnym apelem do prezydenta i premiera. \"Nie pozwolimy wam\"",
+   "url": "https://www.polsatnews.pl/wiadomosc/2026-10-31/holownia-zwrocil-sie-do-prezydenta-i-premiera-to-my-dzis-wzywamy/",
+   "opublikowano": "2026-10-31T08:35:00Z",
+   "opublikowano_surowe": "Sat, 31 Oct 2026 09:35:00 +0100",
+   "streszczenie": "Prezydent wzywa dziś partie parlamentarne na konsultacje. Nasz klub weźmie w nich udział - zadeklarował Szymon Hołownia. Jednocześnie zaapelował do Karola Nawrockiego i Donalda Tuska, żeby jak najszybciej, jeszcze dziś, usiedli przy stole i dogadali się w sprawie resetu Trybunału Konstytucyjnego."
   },
   {
    "zrodlo": "Polsat News",
@@ -1991,104 +2091,144 @@
    "streszczenie": "Paweł Soloch złożył rezygnację z funkcji ambasadora RP w Rumunii. Oznajmił, że stało się to w związku z faktem próby sprzecznego z prawem przejęcia TK nie widzi możliwości pełnienia funkcji. Wcześniej podobną decyzję ogłosił Jakub Kumoch, ambasador Polski w Chinach."
   },
   {
-   "zrodlo": "Polsat News",
+   "zrodlo": "Onet Wiadomości",
    "kategoria": "NEWS",
    "region": "poland",
-   "tytul": "Ambasador USA reaguje na wydarzenia przed TK. \"Bezprecedensowa konfrontacja\"",
-   "url": "https://www.polsatnews.pl/wiadomosc/2026-10-31/ambasador-usa-reaguje-wezma-gleboki-oddech/",
-   "opublikowano": "2026-10-31T00:02:00Z",
-   "opublikowano_surowe": "Sat, 31 Oct 2026 01:02:00 +0100",
-   "streszczenie": "Ambasador USA w Polsce Thomas Rose odniósł się do sytuacji wokół polskiego Trybunału Konstytucyjnego. Mam nadzieję, że wszyscy zaangażowani wezmą głęboki oddech i nie podejmą żadnych działań, które mogłyby sprowokować przemoc lub dalszą eskalację. Polska osiągnęła zbyt wiele, by polityczne podziały narażały to na szwank - napisał."
+   "tytul": "Liderzy Konfederacji idą na rozmowy z prezydentem. \"Innego wyjścia nie ma\"",
+   "url": "https://wiadomosci.onet.pl/kraj/liderzy-konfederacji-ida-na-rozmowy-z-prezydentem-innego-wyjscia-nie-ma/kp596qg",
+   "opublikowano": "2026-10-31T10:43:57Z",
+   "opublikowano_surowe": "Sat, 31 Oct 2026 10:43:57 GMT",
+   "streszczenie": "\"Dzisiaj o 16:45 razem z Krzysztofem Bosakiem będziemy rozmawiać z Prezydentem na temat sposobów przywrócenia porządku konstytucyjnego\" — przekazał w serwisie X lider Konfederacji Sławomir Mentzen."
   },
   {
-   "zrodlo": "Polsat News",
+   "zrodlo": "Onet Wiadomości",
    "kategoria": "NEWS",
    "region": "poland",
-   "tytul": "Prezydent wszedł do siedziby TK. Doszło do szarpaniny",
-   "url": "https://www.polsatnews.pl/wiadomosc/2026-10-31/prezydent-przed-trybunalem-konstytucyjnym-towarzyszy-mu-i-prezes-sadu-najwyzszego/",
-   "opublikowano": "2026-10-30T23:40:00Z",
-   "opublikowano_surowe": "Sat, 31 Oct 2026 00:40:00 +0100",
-   "streszczenie": "Prezydent Karol Nawrocki w towarzystwie Pierwszego Prezesa Sądu Najwyższego Zbigniewa Kapińskiego przybył do budynku Trybunału Konstytucyjnego. Wcześniej polski przywódca odbył rozmowę z prezesem TK Bogdanem Święczkowskim."
+   "tytul": "Kulisy nocnej akcji Karola Nawrockiego w Trybunale. \"Na początku było bardzo ostro\"",
+   "url": "https://wiadomosci.onet.pl/kraj/karol-nawrocki-i-nocna-akcja-w-trybunale-konstytucyjnym-ujawniamy-kulisy/78g11yn",
+   "opublikowano": "2026-10-31T10:43:30Z",
+   "opublikowano_surowe": "Sat, 31 Oct 2026 10:43:30 GMT",
+   "streszczenie": "Najpierw przepychanki, próby zdobycia kluczy do pomieszczeń Trybunału Konstytucyjnego i ogromne napięcie. Później nerwowe negocjacje, które zakończyły się fiaskiem. Onet poznał kulisy wydarzeń, do których doszło w nocy z piątku na sobotę w siedzibie TK. — Na początku było bardzo ostro, bardzo agresywnie — słyszymy. Ujawniamy, co działo się za zamkniętymi drzwiami Trybunału."
   },
   {
-   "zrodlo": "Polsat News",
+   "zrodlo": "Onet Wiadomości",
    "kategoria": "NEWS",
    "region": "poland",
-   "tytul": "Policja o wydarzeniach przed TK. \"Z całą stanowczością\"",
-   "url": "https://www.polsatnews.pl/wiadomosc/2026-10-31/nagly-komunikat-policji-z-cala-stanowczoscia/",
-   "opublikowano": "2026-10-30T23:35:00Z",
-   "opublikowano_surowe": "Sat, 31 Oct 2026 00:35:00 +0100",
-   "streszczenie": "Z całą stanowczością dementujemy informację, która powołuje się na pismo z 29 października i sugeruje wykorzystanie funkcjonariuszy do sytuacji związanej z Trybunałem Konstytucyjnym - przekazała Komenda Główna Policji. Jak czytamy, pismo mówiące o pełnej gotowości policjantów związane jest z aktualnymi zagrożeniami związanymi z aktami sabotażu i dywersji."
+   "tytul": "Radosław Sikorski zabrał głos w sprawie TK. Pisze o \"republice prezydenckiej\"",
+   "url": "https://wiadomosci.onet.pl/kraj/radoslaw-sikorski-zabral-glos-w-sprawie-tk-pisze-o-republice-prezydenckiej/fj6x6v2",
+   "opublikowano": "2026-10-31T10:38:13Z",
+   "opublikowano_surowe": "Sat, 31 Oct 2026 10:38:13 GMT",
+   "streszczenie": "\"Polska nadal jest rządzona przez koalicyjny rząd wybrany przez parlament\" — napisał Radosław Sikorski w serwisie X, odnosząc się do chaosu przed Trybunałem Konstytucyjnym."
   },
   {
-   "zrodlo": "Polsat News",
+   "zrodlo": "Onet Wiadomości",
    "kategoria": "NEWS",
    "region": "poland",
-   "tytul": "\"Jedna wielka manipulacja Tuska\". Andrzej Duda o sytuacji w TK",
-   "url": "https://www.polsatnews.pl/wiadomosc/2026-10-31/andrzej-duda-o-trybunale-konstytucyjnym-bolszewia/",
-   "opublikowano": "2026-10-30T23:15:00Z",
-   "opublikowano_surowe": "Sat, 31 Oct 2026 00:15:00 +0100",
-   "streszczenie": "- Jedna wielka prawna manipulacja ze strony Donalda Tuska i Platformy Obywatelskiej - tak były prezydent Andrzej Duda zareagował na pytanie, czy odebrałby ślubowanie od sędziów, wokół których toczy się spór w sprawie Trybunału Konstytucyjnego. Wydarzenia przed TK Duda określił bolszewią."
+   "tytul": "Karol Nawrocki spotka się z liderami partii politycznych. Znamy godzinę",
+   "url": "https://wiadomosci.onet.pl/kraj/karol-nawrocki-spotka-sie-z-liderami-partii-politycznych-znamy-godzine/n1x079x",
+   "opublikowano": "2026-10-31T10:11:59Z",
+   "opublikowano_surowe": "Sat, 31 Oct 2026 10:11:59 GMT",
+   "streszczenie": "\"Dziś od godz. 13 w Pałacu Prezydenckim prezydent Karol Nawrocki rozpoczyna serię spotkań z liderami środowisk parlamentarnych\" — przekazał szef gabinetu prezydenta Paweł Szefernaker."
   },
   {
-   "zrodlo": "Polsat News",
+   "zrodlo": "Onet Wiadomości",
    "kategoria": "NEWS",
    "region": "poland",
-   "tytul": "Kościół zabrał głos ws. Trybunału Konstytucyjnego. Arcybiskup apeluje do rządzących",
-   "url": "https://www.polsatnews.pl/wiadomosc/2026-10-30/kosciol-zabral-glos-ws-trybunalu-konstytucyjnego-arcybiskup-apeluje-do-rzadzacych/",
-   "opublikowano": "2026-10-30T22:59:00Z",
-   "opublikowano_surowe": "Fri, 30 Oct 2026 23:59:00 +0100",
-   "streszczenie": "Bardzo proszę wszystkich wierzących o modlitwę w intencji Ojczyzny - napisał w mediach społecznościowych arcybiskup Adrian Galbas. Apel metropolity warszawskiego ma związek z wydarzeniami wokół Trybunału Konstytucyjnego, które nasiliły się w piątkowe popołudnie."
+   "tytul": "Trump chwilowo się uspokoił. Wkrótce będzie mógł działać bez ograniczeń. \"Ludzie są zaniepokojeni\"",
+   "url": "https://wiadomosci.onet.pl/politico/trump-chwilowo-sie-uspokoil-wkrotce-bedzie-mogl-dzialac-bez-ograniczen/4xg654f",
+   "opublikowano": "2026-10-31T10:11:18Z",
+   "opublikowano_surowe": "Sat, 31 Oct 2026 10:11:18 GMT",
+   "streszczenie": "Po kilku miesiącach względnej stabilności gospodarczej Waszyngton przygotowuje się na to, że prezydent Donald Trump podniesie stawki celne, w tym na UE i Chiny, a także nasili ataki na Bliskim Wschodzie. Jego nowe działania mogą pogrążyć rynki akcji i jeszcze bardziej podnieść ceny ropy naftowej."
   },
   {
-   "zrodlo": "Polsat News",
+   "zrodlo": "Onet Wiadomości",
    "kategoria": "NEWS",
    "region": "poland",
-   "tytul": "\"Wyłącznie z prezydentem\". Sędziowie w Trybunale Konstytucyjnym stawiają warunek",
-   "url": "https://www.polsatnews.pl/wiadomosc/2026-10-30/na-mnie-spoczal-ten-ciezar-sedzia-korwin-piotrowska-o-zamieszaniu-ws-tk/",
-   "opublikowano": "2026-10-30T22:10:00Z",
-   "opublikowano_surowe": "Fri, 30 Oct 2026 23:10:00 +0100",
-   "streszczenie": "- Wykonuję swoje obowiązki. Jestem sędzią Trybunału Konstytucyjnego, mam obowiązek strzec Konstytucji - stwierdziła na antenie Polsat News sędzia Anna Korwin-Piotrowska odnosząc się w ten sposób do dzisiejszych działań w Trybunale Konstytucyjnym. Jednocześnie prawnik zapowiedziała, że jest gotowa na spotkanie z prezydentem Karolem Nawrockim w budynku TK, ale bez udziału prezesa Święczkowskiego."
+   "tytul": "Nowe oświadczenie na stronie Trybunału Konstytucyjnego. \"Kieruję pracami TK\"",
+   "url": "https://wiadomosci.onet.pl/kraj/nowe-oswiadczenie-na-stronie-trybunalu-konstytucyjnego-kieruje-pracami-tk/v1162wl",
+   "opublikowano": "2026-10-31T10:01:18Z",
+   "opublikowano_surowe": "Sat, 31 Oct 2026 10:01:18 GMT",
+   "streszczenie": "W opublikowanym w sobotę oświadczeniu Anna Korwin-Piotrowska napisała, że w związku z zawieszeniem Bogdana Święczkowskiego i Bartłomieja Sochańskiego, to ona kieruje pracami Trybunału Konstytucyjnego. Ogłosiła też swoje pierwsze decyzje."
   },
   {
-   "zrodlo": "Polsat News",
+   "zrodlo": "Onet Wiadomości",
    "kategoria": "NEWS",
    "region": "poland",
-   "tytul": "Moskwa reaguje na wydarzenia w Polsce. Zacharowa kpi z Sikorskiego",
-   "url": "https://www.polsatnews.pl/wiadomosc/2026-10-30/moskwa-reaguje-na-wydarzenia-w-polsce-zacharowa-kpi-z-sikorskiego/",
-   "opublikowano": "2026-10-30T21:52:00Z",
-   "opublikowano_surowe": "Fri, 30 Oct 2026 22:52:00 +0100",
-   "streszczenie": "Panie Sikorski, nadeszła niezręczna chwila, ta, o której mówił pan dziś rano w Atlancie - napisała Marija Zacharowa komentując sytuację wokół polskiego Trybunału Konstytucyjnego. Wcześniej kremlowskie media informowały o szturmie na budynek i próbie zamachu stanu, a także pijanych manifestantach, którzy stale atakują będącą na miejscu policję."
+   "tytul": "Bitwa o Trybunał Konstytucyjny. Prof. Wojtasik mówi o planie Donalda Tuska",
+   "url": "https://wiadomosci.onet.pl/kraj/bitwa-o-trybunal-konstytucyjny-prof-wojtasik-mowi-o-planie-donalda-tuska/b0j1hzg",
+   "opublikowano": "2026-10-31T09:48:05Z",
+   "opublikowano_surowe": "Sat, 31 Oct 2026 09:48:05 GMT",
+   "streszczenie": "— Cała sytuacja związana z Trybunałem Konstytucyjnym jest trochę jak sztuka w teatrze. Reżyserem jest Donald Tusk, który w pierwszoplanowych rolach obsadził prezesa Jarosława Kaczyńskiego i prezydenta Karola Nawrockiego — mówi Onetowi prof. Waldemar Wojtasik. Politolog tłumaczy, kto zyska, a kto straci na całej sytuacji, którą jedni określają \"przywracaniem praworządności\", a drudzy — \"zamachem stanu\"."
   },
   {
-   "zrodlo": "Polsat News",
+   "zrodlo": "Onet Wiadomości",
    "kategoria": "NEWS",
    "region": "poland",
-   "tytul": "Barbara Piwnik o wydarzeniach wokół TK. \"Mam przed oczami sceny z lat osiemdziesiątych\"",
-   "url": "https://www.polsatnews.pl/wiadomosc/2026-10-30/barbara-piwnik-o-wydarzeniach-wokol-tk-mam-przed-oczami-sceny-z-lat-osiemdziesiatych/",
-   "opublikowano": "2026-10-30T21:43:00Z",
-   "opublikowano_surowe": "Fri, 30 Oct 2026 22:43:00 +0100",
-   "streszczenie": "- Mam przed oczami sceny z lat osiemdziesiątych - powiedziała w Debacie Gozdyry była minister sprawiedliwości, sędzia Barbara Piwnik, komentując wydarzenia wokół Trybunału Konstytucyjnego. Podkreśliła, że widok funkcjonariuszy policji na terenie TK budzi w niej ogromny niepokój. Zaapelowała o odsunięcie politycznych ambicji i ostrzegła, że na eskalacji sporu stracą wszyscy."
+   "tytul": "Prezydent zwołał pilne spotkanie. Kolejni politycy deklarują udział. \"Apeluję\" [RELACJA NA ŻYWO]",
+   "url": "https://wiadomosci.onet.pl/kraj/chaos-przed-trybunalem-konstytucyjnym-na-miejsce-jedzie-bogdan-swieczkowski-relacja/38b6ert",
+   "opublikowano": "2026-10-31T09:34:00Z",
+   "opublikowano_surowe": "Sat, 31 Oct 2026 09:34:00 GMT",
+   "streszczenie": "Przed Trybunałem Konstytucyjnym trwa demonstracja po tym, jak osoby wybrane przez obecny Sejm na sędziów TK podjęły próbę przejęcia instytucji. Do budynku w nocy weszli Karol Nawrocki i przedstawiciele Kancelarii Prezydenta. Po kilku godzinach szef gabinetu prezydenta odczytał oświadczenie, w którym Karol Nawrocki wzywa na spotkanie przedstawicieli sił politycznych. Rozmowy rozpoczną się od godz. 13 w Pałacu Prezydenckim. Obecność potwierdzili Krzysztof Bosak i Szymon Hołownia. Lider Polski 2050 zwrócił się z apelem do prezydenta i premiera. Śledź relację na żywo w Onecie!"
   },
   {
-   "zrodlo": "Polsat News",
+   "zrodlo": "Onet Wiadomości",
    "kategoria": "NEWS",
    "region": "poland",
-   "tytul": "Ziobro mówił o TK, polityk wyszedł ze studia. \"Nie będę siedział przy stole ze zbiegiem\"",
-   "url": "https://www.polsatnews.pl/wiadomosc/2026-10-30/michal-wawrykiewicz-wyszedl-w-trakcie-programu-w-polsat-news/",
-   "opublikowano": "2026-10-30T20:29:00Z",
-   "opublikowano_surowe": "Fri, 30 Oct 2026 21:29:00 +0100",
-   "streszczenie": "Michał Wawrykiewicz, europoseł Koalicji Obywatelskiej, wyszedł ze studia Debaty Gozdyry w trakcie trwania programu. - Nie mam zamiaru siedzieć przy jednym stole ze zbiegiem o charakterze kryminalnym i prowadzić z nim jakiejkolwiek dyskusji - mówił polityk, nawiązując do drugiego zaproszonego gościa - Zbigniewa Ziobry, z którym połączono się zdalnie."
+   "tytul": "Chaos wokół Trybunału Konstytucyjnego. Prezes Naczelnego Sądu Administracyjnego zabrał głos",
+   "url": "https://wiadomosci.onet.pl/kraj/chaos-wokol-trybunalu-konstytucyjnego-prezes-nsa-zabral-glos/bsq2xkf",
+   "opublikowano": "2026-10-31T09:25:53Z",
+   "opublikowano_surowe": "Sat, 31 Oct 2026 09:25:53 GMT",
+   "streszczenie": "\"Niezbędne jest osiągnięcie rzeczywistego kompromisu ponad podziałami politycznymi w celu przywrócenia autorytetu i wiarygodności Trybunału\" — napisał w oświadczeniu opublikowanym w niedzielę prof. Jacek Chlebny, prezes Naczelnego Sądu Administracyjnego."
   },
   {
-   "zrodlo": "Polsat News",
+   "zrodlo": "Onet Wiadomości",
    "kategoria": "NEWS",
    "region": "poland",
-   "tytul": "\"Zamach stanu\". Pierwszy Prezes SN grzmi ws. Trybunału Konstytucyjnego",
-   "url": "https://www.polsatnews.pl/wiadomosc/2026-10-30/zamach-stanu-pierwszy-prezes-sn-grzmi-ws-trybunalu-konstytucyjnego/",
-   "opublikowano": "2026-10-30T20:23:00Z",
-   "opublikowano_surowe": "Fri, 30 Oct 2026 21:23:00 +0100",
-   "streszczenie": "Jestem zbulwersowany, jestem oszołomiony tym, jak daleko ta władza była w stanie i jest w stanie się posunąć - stwierdził Pierwszy Prezes Sądu Najwyższego Zbigniew Kapiński. W rozmowie z Kanałem Zero sędzia nazwał wydarzenia sprzed Trybunału Konstytucyjnego zamachem stanu."
+   "tytul": "Marco Rubio chwali Polskę. \"Tego potrzebuje G20\"",
+   "url": "https://wiadomosci.onet.pl/kraj/marco-rubio-chwali-polske-tego-potrzebuje-g20/jwng01k",
+   "opublikowano": "2026-10-31T08:40:08Z",
+   "opublikowano_surowe": "Sat, 31 Oct 2026 08:40:08 GMT",
+   "streszczenie": "— Prezydent Trump uważa, że sukces gospodarczy Polski i jej rosnące globalne wpływy są dokładnie tym, czego potrzebuje G20, aby stawić czoła poważnym wyzwaniom gospodarczym, przed którymi wszyscy stoimy — powiedział sekretarz stanu USA w trakcie szczytu ministrów spraw zagranicznych państw G20."
+  },
+  {
+   "zrodlo": "Onet Wiadomości",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Węglarczyk: Mamy bardzo silnego prezydenta",
+   "url": "https://wiadomosci.onet.pl/opinie/weglarczyk-mamy-bardzo-silnego-prezydenta/21lvjbl",
+   "opublikowano": "2026-10-31T08:22:52Z",
+   "opublikowano_surowe": "Sat, 31 Oct 2026 08:22:52 GMT",
+   "streszczenie": "Kładę na stole swój ulubiony kubek do kawy, że prezydent Nawrocki wygrałby na rękę z każdym ze swoich poprzedników. Sędziowie TK powinni dziękować Opatrzności, że prezydent nie użył ciosów, których nauczył go podczas wizyty na Filipinach legendarny mistrz boksu Manny Pacquiao."
+  },
+  {
+   "zrodlo": "Onet Wiadomości",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "\"Dla Netanjahu najlepszym scenariuszem byłyby nowe wybory\". W Izraelu rozpoczyna się gra o władzę",
+   "url": "https://wiadomosci.onet.pl/swiat/netanjahu-odwraca-wynik-wyborow-dwa-scenariusze-dla-izraela/f1xv37m",
+   "opublikowano": "2026-10-31T08:21:37Z",
+   "opublikowano_surowe": "Sat, 31 Oct 2026 08:21:37 GMT",
+   "streszczenie": "Obóz opozycyjny skupiony wokół Gadiego Eisenkota uznał się już w Izraelu za zwycięzcę. Jednak długoletniemu premierowi Binjamin Netanjahu na ostatniej prostej udało się odwrócić wynik wyborów na swoją korzyść, m.in. dzięki kontrowersyjnej strategii. Obecnie w grze są dwa scenariusze."
+  },
+  {
+   "zrodlo": "Onet Wiadomości",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Pouczał sędziów TK o Konstytucji. Wiemy, kim jest tajemniczy mężczyzna z nagrania",
+   "url": "https://wiadomosci.onet.pl/tylko-w-onecie/pouczal-sedziow-tk-o-konstytucji-wiemy-kim-jest-tajemniczy-mezczyzna-z-nagrania/qhgk09h",
+   "opublikowano": "2026-10-31T08:17:44Z",
+   "opublikowano_surowe": "Sat, 31 Oct 2026 08:17:44 GMT",
+   "streszczenie": "W nocy sieć obiegło nagrania opublikowane przez sędziego Macieja Berka, na którym tajemniczy mężczyzna w gmachu Trybunału Konstytucyjnego zarzucał sędziom złamanie Konstytucji. Według Berka miał też próbować przejąć klucze do TK. Ustaliliśmy, że to wicedyrektor jednego z biur Kancelarii Prezydenta."
+  },
+  {
+   "zrodlo": "Onet Wiadomości",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Chaos w Trybunale Konstytucyjnym. Specjalne wydanie \"Stanu Wyjątkowego\"",
+   "url": "https://wiadomosci.onet.pl/kraj/chaos-w-trybunale-konstytucyjnym-specjalne-wydanie-stanu-wyjatkowego/b17xc4k",
+   "opublikowano": "2026-10-31T08:16:51Z",
+   "opublikowano_surowe": "Sat, 31 Oct 2026 08:16:51 GMT",
+   "streszczenie": "Trybunał Konstytucyjny w centrum politycznego i prawnego kryzysu. Co naprawdę wydarzyło się w jego siedzibie? Kto dziś kieruje TK i co oznacza zawieszenie prezesa Bogdana Święczkowskiego? Na te wszystkie pytania postarają się odpowiedzieć prowadzący \"Stanu Wyjątkowego\" w specjalnym programie, który będzie można zobaczyć w sobotę 31 października o godz. 11 na stronie głównej Onetu."
   },
   {
    "zrodlo": "Onet Wiadomości",
@@ -2101,144 +2241,74 @@
    "streszczenie": "\"Wzywamy dziś prezydenta i premiera, by jak najszybciej, jeszcze dziś, usiedli przy stole i dogadali się w sprawie resetu TK\" — napisał Szymon Hołownia w mediach społecznościowych. To reakcja na wydarzenia wokół Trybunału Konstytucyjnego. Zadeklarował też, że Polska 2050 weźmie udział w spotkaniu przedstawicieli sił parlamentarnych, które zwołał Karol Nawrocki."
   },
   {
-   "zrodlo": "Onet Wiadomości",
+   "zrodlo": "Interia Fakty",
    "kategoria": "NEWS",
    "region": "poland",
-   "tytul": "Jak zakończyć spór o Trybunał Konstytucyjny? Były wiceprezes TK wskazuje rozwiązanie. \"Szanse są niewielkie\"",
-   "url": "https://wiadomosci.onet.pl/kraj/jak-zakonczyc-spor-o-tk-prof-biernat-wskazuje-rozwiazanie-niewielkie-szanse/31h974w",
-   "opublikowano": "2026-10-31T07:52:42Z",
-   "opublikowano_surowe": "Sat, 31 Oct 2026 07:52:42 GMT",
-   "streszczenie": "— Tym sposobem było i dalej jest przyjęcie ślubowania od prawidłowo wybranych sędziów, jeśli prezydent nie uznaje tego ślubowania zastępczego — powiedział w rozmowie z TVN24 były sędzia i wiceprezes Trybunału Konstytucyjnego prof. Stanisław Biernat, wskazując, co jego zdaniem przyczyniłoby się do rozwiązania sporu o TK."
+   "tytul": "Światowy fenomen, od którego trudno się oderwać. Chętnych są miliony",
+   "url": "https://wydarzenia.interia.pl/zagranica/news-swiatowy-fenomen-od-ktorego-trudno-sie-oderwac-chetnych-sa-m,nId,23549251",
+   "opublikowano": "2026-10-31T10:28:39Z",
+   "opublikowano_surowe": "Sat, 31 Oct 2026 10:28:39 GMT",
+   "streszczenie": "79 tysięcy złotych na wirtualne postacie. Tyle w ciągu kilku lat wydał jeden z graczy Genshin Impact. Inny przez cztery lata nie opuścił ani jednego dnia gry. W świecie gier gacha pogoń za w wymarzoną postacią potrafi pochłonąć fortunę i podporządkować sobie codzienne życie. To, co zaczyna się jako niewinna rozrywka, z czasem staje się coraz trudniejsze do kontrolowania."
   },
   {
-   "zrodlo": "Onet Wiadomości",
+   "zrodlo": "Interia Fakty",
    "kategoria": "NEWS",
    "region": "poland",
-   "tytul": "Co ukrywa biskup Andrzej Jeż i tarnowska kuria? Oto przemilczane fakty",
-   "url": "https://wiadomosci.onet.pl/kraj/co-ukrywa-biskup-andrzej-jez-i-tarnowska-kuria-oto-przemilczane-fakty/brh0e68",
-   "opublikowano": "2026-10-31T07:51:13Z",
-   "opublikowano_surowe": "Sat, 31 Oct 2026 07:51:13 GMT",
-   "streszczenie": "\"Kuria nie zgadza się z rozstrzygnięciem sądu. Wyrok jest nieprawomocny i nie przesądza ostatecznie o odpowiedzialności karnej biskupa Andrzeja Jeża\" — napisali zaraz po wyroku skazującym biskupa jego podwładni z kurii. Niestety oni, podobnie jak sam Andrzej Jeż, ukrywają przed nami kluczowe fakty. Wyjaśniamy, co mogło pogrążyć hierarchę."
+   "tytul": "Seria spotkań Karola Nawrockiego. Komunikat z Pałacu Prezydenckiego",
+   "url": "https://wydarzenia.interia.pl/kraj/news-seria-spotkan-karola-nawrockiego-komunikat-z-palacu-prezyden,nId,23566865",
+   "opublikowano": "2026-10-31T10:17:18Z",
+   "opublikowano_surowe": "Sat, 31 Oct 2026 10:17:18 GMT",
+   "streszczenie": "Dziś od godz. 13 w Pałacu Prezydenckim prezydent Karol Nawrocki rozpoczyna serię spotkań z liderami środowisk parlamentarnych - poinformował szef Gabinetu Prezydenta RP Paweł Szefernaker. O godz. 15 odbędzie się z kolei posiedzenie Rady Parlamentarzystów przy Prezydencie RP."
   },
   {
-   "zrodlo": "Onet Wiadomości",
+   "zrodlo": "Interia Fakty",
    "kategoria": "NEWS",
    "region": "poland",
-   "tytul": "Kulisy wejścia prezydenta do TK. Berek: nie był zainteresowany rozmową [RELACJA NA ŻYWO]",
-   "url": "https://wiadomosci.onet.pl/kraj/chaos-przed-trybunalem-konstytucyjnym-na-miejsce-jedzie-bogdan-swieczkowski-relacja/38b6ert",
-   "opublikowano": "2026-10-31T07:51:00Z",
-   "opublikowano_surowe": "Sat, 31 Oct 2026 07:51:00 GMT",
-   "streszczenie": "Przed Trybunałem Konstytucyjnym trwa demonstracja po tym, jak osoby wybrane przez obecny Sejm na sędziów TK podjęły próbę przejęcia instytucji. Do budynku w nocy weszli Karol Nawrocki i przedstawiciele Kancelarii Prezydenta. \"Prezydent po wejściu do budynku, nie był zainteresowany żadną rozmową\" — napisał w X Maciej Berek. Po kilku godzinach Paweł Szefernaker, szef gabinetu prezydenta, odczytał oświadczenie, w którym Karol Nawrocki wzywa na spotkanie przedstawicieli sił politycznych. Śledź relację na żywo w Onecie!"
+   "tytul": "\"Kieruję pracami\". Nowe zarządzenie Korwin-Piotrowskiej na stronie TK",
+   "url": "https://wydarzenia.interia.pl/kraj/news-kieruje-pracami-nowe-zarzadzenie-korwin-piotrowskiej-na-stro,nId,23566857",
+   "opublikowano": "2026-10-31T09:57:44Z",
+   "opublikowano_surowe": "Sat, 31 Oct 2026 09:57:44 GMT",
+   "streszczenie": "Na stronie TK ukazało się zarządzenie dot. organizacji pracy Trybunału Konstytucyjnego. W piśmie podpisanym przez Annę Korwin-Piotrowską uchylono wydane dotychczas upoważnienia oraz zalecono sędziom wykonywać pracę poza siedzibą TK."
   },
   {
-   "zrodlo": "Onet Wiadomości",
+   "zrodlo": "Interia Fakty",
    "kategoria": "NEWS",
    "region": "poland",
-   "tytul": "Ukraina pokazała, jak walczyć z Goliatem i przetrwać. Tajwan wyciąga wnioski [ANALIZA]",
-   "url": "https://wiadomosci.onet.pl/swiat/ukraina-pokazala-jak-walczyc-z-goliatem-i-przetrwac-tajwan-wyciaga-wnioski-analiza/vxrnkfj",
-   "opublikowano": "2026-10-31T07:16:35Z",
-   "opublikowano_surowe": "Sat, 31 Oct 2026 07:16:35 GMT",
-   "streszczenie": "Ukraina podważyła jedno z najstarszych założeń w sztuce wojennej: przekonanie, że silniejsze państwo nieuchronnie zwycięży nad słabszym. Przywódcy tej samorządnej wyspy uważnie analizują przykład oporu Kijowa, przygotowując się na ewentualną chińską agresję."
+   "tytul": "\"Granice zostały przekroczone\". Prezes NSA wzywa do pilnych działań",
+   "url": "https://wydarzenia.interia.pl/kraj/news-granice-zostaly-przekroczone-prezes-nsa-wzywa-do-pilnych-dzi,nId,23566851",
+   "opublikowano": "2026-10-31T09:51:56Z",
+   "opublikowano_surowe": "Sat, 31 Oct 2026 09:51:56 GMT",
+   "streszczenie": "\"Granice podejmowanych przez organy władzy działań stanowią zasady konstytucyjne oraz poszanowanie ludzkiej godności. Granice te zostały przekroczone\" - napisał Jacek Chlebny. Prezes NSA zaapelował do rządzących o poszanowanie zasad konstytucyjnych. W jego ocenie potrzeba \"rzeczywistego kompromisu\" i działań, których legalności nie można podważać."
   },
   {
-   "zrodlo": "Onet Wiadomości",
+   "zrodlo": "Interia Fakty",
    "kategoria": "NEWS",
    "region": "poland",
-   "tytul": "Lech Wałęsa reaguje na sytuację wokół Trybunału Konstytucyjnego. \"Nie mamy wyboru\"",
-   "url": "https://wiadomosci.onet.pl/kraj/lech-walesa-reaguje-na-sytuacje-wokol-tk-nie-mamy-wyboru/9x15vp2",
-   "opublikowano": "2026-10-31T07:07:27Z",
-   "opublikowano_surowe": "Sat, 31 Oct 2026 07:07:27 GMT",
-   "streszczenie": "\"Wzywam przyjaciół z solidarnej walki do wsparcia naszych dążeń\" — napisał w sobotę rano Lech Wałęsa, reagując na chaos wokół Trybunału Konstytucyjnego. W krótkim wpisie były prezydent poparł działania premiera Donalda Tuska."
+   "tytul": "\"Wybuch radości\" w Rosji po wydarzeniach w TK. \"Tym lepiej dla nich\"",
+   "url": "https://wydarzenia.interia.pl/kraj/news-wybuch-radosci-w-rosji-po-wydarzeniach-w-tk-tym-lepiej-dla-n,nId,23566835",
+   "opublikowano": "2026-10-31T09:25:33Z",
+   "opublikowano_surowe": "Sat, 31 Oct 2026 09:25:33 GMT",
+   "streszczenie": "\"Wybuch radości w białoruskiej i rosyjskiej propagandzie był łatwy do przewidzenia\" - napisał białoruski opozycjonista polskiej mniejszości Andrzej Poczobut, odnosząc się do ostatnich wydarzeń w kontekście Trybunału Konstytucyjnego. Były więzień reżimu Łukaszenki zauważył, że \"im większy polityczny chaos w Polsce, tym większe jest ich (Rosjan i Białorusinów - red.) zadowolenie\"."
   },
   {
-   "zrodlo": "Onet Wiadomości",
+   "zrodlo": "Interia Fakty",
    "kategoria": "NEWS",
    "region": "poland",
-   "tytul": "Siergiej Ławrow krytykuje zaproszenie Polski na G20. \"Złamanie zasad dyplomacji\"",
-   "url": "https://wiadomosci.onet.pl/swiat/siergiej-lawrow-krytykuje-zaproszenie-polski-na-g20-zlamanie-zasad/tm62pl8",
-   "opublikowano": "2026-10-31T06:52:11Z",
-   "opublikowano_surowe": "Sat, 31 Oct 2026 06:52:11 GMT",
-   "streszczenie": "— Polska nic nie wnosi do tego spotkania — tak minister spraw zagranicznych Rosji Siergiej Ławrow ocenił zaproszenie Polski na spotkanie G20."
+   "tytul": "\"Premier stracił resztki zdrowego rozsądku\". Gawryluk po wydarzeniach w TK",
+   "url": "https://wydarzenia.interia.pl/kraj/news-premier-stracil-resztki-zdrowego-rozsadku-gawryluk-po-wydarz,nId,23566832",
+   "opublikowano": "2026-10-31T09:10:00Z",
+   "opublikowano_surowe": "Sat, 31 Oct 2026 09:10:00 GMT",
+   "streszczenie": "- Premier Donald Tusk stracił resztki zdrowego rozsądku i chyba resztki przyzwoitości - mówiła w programie \"Kalejdoskop Wydarzeń\" w Polsat News Dorota Gawryluk. Dodała, że wydarzeń wokół Trybunału Konstytucyjnego \"nie da się niczym wytłumaczyć, ani niczym usprawiedliwić\"."
   },
   {
-   "zrodlo": "Onet Wiadomości",
+   "zrodlo": "Interia Fakty",
    "kategoria": "NEWS",
    "region": "poland",
-   "tytul": "Waloryzacja emerytur 2027. Nowa prognoza przynosi seniorom dobre wiadomości",
-   "url": "https://wiadomosci.onet.pl/kraj/emerytury-w-gore-jest-nowa-prognoza-waloryzacji-na-2027-r/0je455l",
-   "opublikowano": "2026-10-31T06:15:00Z",
-   "opublikowano_surowe": "Sat, 31 Oct 2026 06:15:00 GMT",
-   "streszczenie": "Seniorzy czekają na ostateczne dane w sprawie marcowej waloryzacji emerytur i rent w 2027 r. Najnowsze prognozy są dla nich korzystniejsze niż wcześniejsze szacunki, choć pełny obraz dadzą dopiero dane gospodarcze za 2026 r."
-  },
-  {
-   "zrodlo": "Onet Wiadomości",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "2 listopada - Dzień Zaduszny. Czy to dzień wolny od pracy?",
-   "url": "https://wiadomosci.onet.pl/kraj/2-listopada-2026-r-czy-zaduszki-sa-dniem-wolnym-od-pracy/dcwvypq",
-   "opublikowano": "2026-10-31T05:55:00Z",
-   "opublikowano_surowe": "Sat, 31 Oct 2026 05:55:00 GMT",
-   "streszczenie": "Jakie święto przypada 2 listopada? Wiele osób zastanawia się, czy Zaduszki, a więc Dzień Zaduszny, są dniem wolnym od pracy. Wątpliwości dotyczą również szkół i tego, czy uczniowie tego dnia mają zajęcia. Oto najważniejsze informacje."
-  },
-  {
-   "zrodlo": "Onet Wiadomości",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Patrioty z USA dla Ukrainy. Zełenski wyjaśnia i apeluje do Europejczyków",
-   "url": "https://wiadomosci.onet.pl/swiat/patrioty-z-usa-dla-ukrainy-zelenski-wyjasnia-i-apeluje-do-europejczykow/jy2ll5g",
-   "opublikowano": "2026-10-31T05:40:11Z",
-   "opublikowano_surowe": "Sat, 31 Oct 2026 05:40:11 GMT",
-   "streszczenie": "Zatwierdzona sprzedaż rakiet do systemów Patriot dla Ukrainy dotyczy dostaw, które mają rozpocząć się za kilka lat — powiedział w piątek prezydent tego kraju, Wołodymyr Zełenski. Zaproponował USA i partnerom z Europy, by przekazali Ukrainie rakiety z zasobów w zamian za przyszłe dostawy dla Kijowa."
-  },
-  {
-   "zrodlo": "Onet Wiadomości",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Trybunał został pogrzebany [ANALIZA]",
-   "url": "https://wiadomosci.onet.pl/tylko-w-onecie/tusk-poszedl-po-bandzie-co-akcja-z-trybunalem-oznacza-dla-polski-analiza/23nyktv",
-   "opublikowano": "2026-10-31T05:09:08Z",
-   "opublikowano_surowe": "Sat, 31 Oct 2026 05:09:08 GMT",
-   "streszczenie": "Obóz władzy nie miał szans uzdrowić Trybunału Konstytucyjnego, więc postanowił usunąć jego szefów związanych z PiS. Skutek będzie jeden: przez kolejne lata nie będziemy mieć Trybunału."
-  },
-  {
-   "zrodlo": "Onet Wiadomości",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Wspólna lista koalicji rządzącej w wyborach? Polacy są mocno podzieleni [SONDAŻ]",
-   "url": "https://wiadomosci.onet.pl/kraj/wspolna-lista-koalicji-rzadzacej-w-wyborach-polacy-sa-mocno-podzielni/6cwwmlv",
-   "opublikowano": "2026-10-31T05:06:00Z",
-   "opublikowano_surowe": "Sat, 31 Oct 2026 05:06:00 GMT",
-   "streszczenie": "Polacy są mocno podzieleni w sprawie sukcesu ewentualnej wspólnej listy koalicji rządzącej w przyszłorocznych wyborach — wynika z najnowszego sondażu SW Research na zlecenie Onetu. Odpowiedzi różnią się zwłaszcza w poszczególnych grupach wiekowych."
-  },
-  {
-   "zrodlo": "Onet Wiadomości",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Chaos przed budynkiem Trybunału Konstytucyjnego. Wyjaśniamy, o co chodzi w sprawie",
-   "url": "https://wiadomosci.onet.pl/kraj/o-co-chodzi-z-protestem-przed-trybunalem-konstytucyjnym-wyjasniamy/9tnl4qc",
-   "opublikowano": "2026-10-31T05:01:15Z",
-   "opublikowano_surowe": "Sat, 31 Oct 2026 05:01:15 GMT",
-   "streszczenie": "Od piątkowego wieczora trwa chaos przed budynkiem Trybunału Konstytucyjnego. Ma on związek z informacją o odsunięciu prezesa TK Bogdana Święczkowskiego oraz jego zastępcy od czynności zawodowych. W siedzibie instytucji przez kilka godzin przebywał prezydent. Oto najważniejsze informacje na temat wydarzeń sprzed TK."
-  },
-  {
-   "zrodlo": "Onet Wiadomości",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Waldemar Żurek o zachowaniu prezydenta: mam nadzieję, że prokuratura podejmie działania",
-   "url": "https://wiadomosci.onet.pl/kraj/zurek-o-zachowaniu-prezydenta-mam-nadzieje-ze-prokuratura-podejmie-dzialania/zjx6y2v",
-   "opublikowano": "2026-10-31T04:33:07Z",
-   "opublikowano_surowe": "Sat, 31 Oct 2026 04:33:07 GMT",
-   "streszczenie": "— To niedopuszczalne, by osoba, którą chroni immunitet prezydencki, zachowywała się w taki sposób. Wdzierała się, atakowała sędziów. Dla mnie to skandaliczne zachowania — mówił w sobotę nad ranem Waldemar Żurek."
-  },
-  {
-   "zrodlo": "Onet Wiadomości",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Zielona Góra. Sprawdź prognozę pogody w dniu 31.10.2026",
-   "url": "https://wiadomosci.onet.pl/lubuskie/zielona-gora-prognoza-pogody-w-dniu-31102026/xtsg3b4",
-   "opublikowano": "2026-10-31T04:02:35Z",
-   "opublikowano_surowe": "Sat, 31 Oct 2026 04:02:35 GMT",
-   "streszczenie": "Zielona Góra. Prognoza pogody w twoim mieście. Jak będzie pogoda na zewnątrz w dniu 31.10.2026? Przedstawiamy najnowsze przewidywania meteorologów. Województwo lubuskie - jaka jest aktualna prognoza pogody?"
+   "tytul": "Nowa dopłata do paczek. Od listopada zapłacimy więcej za paczki z Chin",
+   "url": "https://wydarzenia.interia.pl/kraj/news-nowa-doplata-do-paczek-spoza-unii-europejskiej-od-listopada,nId,23565817",
+   "opublikowano": "2026-10-31T09:00:03Z",
+   "opublikowano_surowe": "Sat, 31 Oct 2026 09:00:03 GMT",
+   "streszczenie": "Już od listopada za zakupy spoza UE zapłacimy więcej. Wszystko przez nową opłatę manipulacyjną, która wyniesie dwa euro za każdą kategorię produktu w paczce. To kolejna dopłata do paczek spoza Unii Europejskiej po tym, jak w lipcu w życie wszedł obowiązek zapłaty cła w wysokości trzech euro."
   },
   {
    "zrodlo": "Interia Fakty",
@@ -2321,74 +2391,134 @@
    "streszczenie": "Katastrofa republikanów we wtorkowych wyborach do Kongresu może być jeszcze większa, niż przypuszczali. Prezydentura Donalda Trumpa i osobiste problemy kandydata mogą doprowadzić do wielkiej sensacji w Kansas. Po 94 latach demokraci mają szansę na zdobycie tam mandatu senackiego. Oto jak senny rolniczy stan stał się nagle centrum wielkiej polityki."
   },
   {
-   "zrodlo": "Interia Fakty",
+   "zrodlo": "Rzeczpospolita",
    "kategoria": "NEWS",
    "region": "poland",
-   "tytul": "\"Wpadł z impetem na sędzię\". Maciej Berek o wizycie prezydenta w TK",
-   "url": "https://wydarzenia.interia.pl/kraj/news-wpadl-z-impetem-na-sedzie-maciej-berek-o-wizycie-prezydenta,nId,23566810",
-   "opublikowano": "2026-10-31T05:45:57Z",
-   "opublikowano_surowe": "Sat, 31 Oct 2026 05:45:57 GMT",
-   "streszczenie": "\"Nadchodzący energicznie prezydent nie tylko nie zatrzymał się przed stojącą przed drzwiami sędzią. Używając najdelikatniejszych słów - prezydent z impetem wpadł na sędzię Annę Korwin-Piotrowską i zaczął przepychać się przez grupę pozostałych sędziów\" - twierdzi Maciej Berek, który opisał w mediach społecznościowych przebieg ostatnich wydarzeń w TK."
+   "tytul": "Politolog: Niektórzy ministrowie rządu Tuska grają przede wszystkim na siebie",
+   "url": "https://www.rp.pl/plus-minus/art45421031-politolog-niektorzy-ministrowie-rzadu-tuska-graja-przede-wszystkim-na-siebie",
+   "opublikowano": "2026-10-31T10:47:00Z",
+   "opublikowano_surowe": "Sat, 31 Oct 2026 11:47:00 +0100",
+   "streszczenie": "Premier Tusk ma dużo szczęścia i na jego szczęście PiS się podzieliło. Jeżeli ten podział się utrzyma, to widmo powtórzenia historii z 2023 r. – wygrane przez PiS wybory, ale utrata władzy z powodu braku koalicjantów – może się oddalić. Całkowicie jednak nie znika. Rozmowa z dr. hab. Olgierdem Annusewiczem, Politologiem z Uniwersytetu Warszawskiego"
   },
   {
-   "zrodlo": "Interia Fakty",
+   "zrodlo": "Rzeczpospolita",
    "kategoria": "NEWS",
    "region": "poland",
-   "tytul": "Oświadczenie prezydenta Karola Nawrockiego. \"Siłowe przejęcie\"",
-   "url": "https://wydarzenia.interia.pl/kraj/news-oswiadczenie-prezydenta-karola-nawrockiego-silowe-przejecie,nId,23566808",
-   "opublikowano": "2026-10-31T03:54:00Z",
-   "opublikowano_surowe": "Sat, 31 Oct 2026 03:54:00 GMT",
-   "streszczenie": "- Tej nocy doszło do naruszenia porządku konstytucyjnego Rzeczpospolitej Polskiej i siłowego przejęcia konstytucyjnego organu państwa - przeczytał Paweł Szefernaker. Szef Gabinetu Prezydenta RP odczytał oświadczenie Karola Nawrockiego przed Trybunałem Konstytucyjnym. Prezydent opuścił już budynek TK - przekazał Maciej Taborowski."
+   "tytul": "Sędzia Anna Korwin-Piotrowska zawiesiła wykonywanie obowiązków pracownikom TK",
+   "url": "https://www.rp.pl/sady-i-trybunaly/art45425341-sedzia-anna-korwin-piotrowska-zawiesila-wykonywanie-obowiazkow-pracownikom-tk",
+   "opublikowano": "2026-10-31T10:28:51Z",
+   "opublikowano_surowe": "Sat, 31 Oct 2026 11:28:51 +0100",
+   "streszczenie": "Sędzia Anna Korwin-Piotrowska, która jako najstarsza stażem zastępuje Prezesa Trybunału Konstytucyjnego po zawieszeniu Bogdana Święczkowskiego i Bartłomieja Sochańskiego, wydała zarządzenie ws. organizacji pracy w TK skierowane do pracowników i sędziów Trybunału."
   },
   {
-   "zrodlo": "Interia Fakty",
+   "zrodlo": "Rzeczpospolita",
    "kategoria": "NEWS",
    "region": "poland",
-   "tytul": "Kulisy akcji w TK. \"Wkroczyli razem z funkcjonariuszami SOP\"",
-   "url": "https://wydarzenia.interia.pl/kraj/news-kulisy-akcji-w-tk-wkroczyli-razem-z-funkcjonariuszami-sop,nId,23566780",
-   "opublikowano": "2026-10-31T01:59:10Z",
-   "opublikowano_surowe": "Sat, 31 Oct 2026 01:59:10 GMT",
-   "streszczenie": "Siedem osób wybranych na sędziów TK przez koalicję wkroczyło do TK w asyście funkcjonariuszy SOP - przekazała rzeczniczka Trybunału Konstytucyjnego Weronika Ścibor. Z jej informacji wynika, że strażnicy TK otrzymali polecenie \"spakowania swoich rzeczy i opuszczenia budynku\". Bogdan Święczkowski i Bartłomiej Sochański nie są wpuszczani na teren TK."
+   "tytul": "Polisa na nagrobek. Ubezpieczalnie potwierdzają, chętnych jest coraz więcej",
+   "url": "https://www.rp.pl/dobra-osobiste/art45421911-polisa-na-nagrobek-ubezpieczalnie-potwierdzaja-chetnych-jest-coraz-wiecej",
+   "opublikowano": "2026-10-31T10:26:17Z",
+   "opublikowano_surowe": "Sat, 31 Oct 2026 11:26:17 +0100",
+   "streszczenie": "Naprawa nagrobka zniszczonego przez wichurę, mróz, spadające gałęzie czy wandali może kosztować nawet kilka tysięcy złotych. Przed takim wydatkiem ochroni polisa, którą często wystarczy dokupić do ubezpieczenia mieszkania. Eksperci radzą jednak dokładnie sprawdzić jej warunki."
   },
   {
-   "zrodlo": "Interia Fakty",
+   "zrodlo": "Rzeczpospolita",
    "kategoria": "NEWS",
    "region": "poland",
-   "tytul": "Burza o TK, rezygnuje kolejny ambasador. \"Nie widzę możliwości\"",
-   "url": "https://wydarzenia.interia.pl/kraj/news-burza-o-tk-rezygnuje-kolejny-ambasador-nie-widze-mozliwosci,nId,23566805",
-   "opublikowano": "2026-10-31T00:00:18Z",
-   "opublikowano_surowe": "Sat, 31 Oct 2026 00:00:18 GMT",
-   "streszczenie": "Paweł Soloch złożył rezygnację z funkcji ambasadora RP w Rumunii - decyzja ma związek z wydarzeniami w Trybunale Konstytucyjnym. Wcześniej dymisję złożył ambasador Polski w Chinach Jakub Kumoch."
+   "tytul": "Halloween pod znakiem protestów i strachu. Francja obawia się powtórki zamieszek",
+   "url": "https://www.rp.pl/spoleczenstwo/art45425361-halloween-pod-znakiem-protestow-i-strachu-francja-obawia-sie-powtorki-zamieszek",
+   "opublikowano": "2026-10-31T10:26:00Z",
+   "opublikowano_surowe": "Sat, 31 Oct 2026 11:26:00 +0100",
+   "streszczenie": "Francja skieruje do zabezpieczenia sobotnich demonstracji 70 tys. policjantów, aby zapobiec kolejnej fali zamieszek. To kolejna odsłona ogólnokrajowych protestów wywołanych rosnącymi kosztami życia, pogarszającym się stanem usług publicznych i niezadowoleniem z rządów prezydenta Emmanuela Macrona."
   },
   {
-   "zrodlo": "Interia Fakty",
+   "zrodlo": "Rzeczpospolita",
    "kategoria": "NEWS",
    "region": "poland",
-   "tytul": "Prezydent wszedł do Trybunału. Doszło do szarpaniny, jest nagranie",
-   "url": "https://wydarzenia.interia.pl/kraj/news-prezydent-wszedl-do-trybunalu-doszlo-do-szarpaniny-jest-nagr,nId,23566782",
-   "opublikowano": "2026-10-30T23:55:09Z",
-   "opublikowano_surowe": "Fri, 30 Oct 2026 23:55:09 GMT",
-   "streszczenie": "Prezydent Karol Nawrocki w towarzystwie Pierwszego Prezesa Sądu Najwyższego Zbigniewa Kapińskiego wszedł do budynku Trybunału Konstytucyjnego - poinformował Paweł Szefernaker. Maciej Berek opublikował z kolei film, na którym widać, jak prezydent próbuje dostać się do środka. Doszło do szarpaniny."
+   "tytul": "Chaos wokół Trybunału Konstytucyjnego. Inwestorzy szykują się na poniedziałek",
+   "url": "https://www.rp.pl/opinie-ekonomiczne/art45425271-chaos-wokol-trybunalu-konstytucyjnego-inwestorzy-szykuja-sie-na-poniedzialek",
+   "opublikowano": "2026-10-31T10:00:57Z",
+   "opublikowano_surowe": "Sat, 31 Oct 2026 11:00:57 +0100",
+   "streszczenie": "W piątek wieczorem spór o Trybunał Konstytucyjny wszedł w najostrzejszą fazę od lat. Sędziowie wybrani przez obecny Sejm ogłosili odsunięcie prezesa TK od obowiązków. Przed samym budynkiem Trybunału przy al. Szucha w Warszawie pojawiła się policja i protestujący, a prezydent zawrócił samolot lecący do Senegalu, a następnie przy przepychankach wszedł do samego budynku"
   },
   {
-   "zrodlo": "Interia Fakty",
+   "zrodlo": "Rzeczpospolita",
    "kategoria": "NEWS",
    "region": "poland",
-   "tytul": "Kaczyński zobaczył Morawieckiego i od razu zareagował. \"Siadaj tutaj\"",
-   "url": "https://wydarzenia.interia.pl/kraj/news-kaczynski-zobaczyl-morawieckiego-i-od-razu-zareagowal-siadaj,nId,23566799",
-   "opublikowano": "2026-10-30T23:42:20Z",
-   "opublikowano_surowe": "Fri, 30 Oct 2026 23:42:20 GMT",
-   "streszczenie": "- Słuchaj, Mateusz, jedność to jedność. Siadaj tutaj - powiedział Jarosław Kaczyński na widok Mateusza Morawieckiego. Politycy spotkali się przed siedzibą Trybunału Konstytucyjnego, gdzie trwa manifestacja związana z zamieszaniem wokół instytucji. Kaczyński wcześniej nazwał sytuację mianem \"zamachu\" na TK oraz ocenił, że to \"pierwszy taki przypadek w skali światowej\"."
+   "tytul": "Konflikt o Trybunał Konstytucyjny krok po kroku. Ściąga dla laika",
+   "url": "https://www.rp.pl/sady-i-trybunaly/art45425241-konflikt-o-trybunal-konstytucyjny-krok-po-kroku-sciaga-dla-laika",
+   "opublikowano": "2026-10-31T09:57:26Z",
+   "opublikowano_surowe": "Sat, 31 Oct 2026 10:57:26 +0100",
+   "streszczenie": "Zaczęło się w 2015 r.. Od tamtej pory sytuacja wokół Trybunału Konstytucyjnego się tak skomplikowała, że nawet wnikliwym obserwatorom trudno rozwikłać ten węzeł. Przypominamy historię tego sporu punkt po punkcie."
   },
   {
-   "zrodlo": "Interia Fakty",
+   "zrodlo": "Rzeczpospolita",
    "kategoria": "NEWS",
    "region": "poland",
-   "tytul": "Ambasador USA reaguje na wydarzenia w Polsce. \"Ostatnią rzeczą\"",
-   "url": "https://wydarzenia.interia.pl/zagranica/news-ambasador-usa-reaguje-na-wydarzenia-w-polsce-ostatnia-rzecza,nId,23566804",
-   "opublikowano": "2026-10-30T22:28:37Z",
-   "opublikowano_surowe": "Fri, 30 Oct 2026 22:28:37 GMT",
-   "streszczenie": "\"Zdaje się, że jesteśmy świadkami bezprecedensowej konfrontacji dotyczącej wykorzystania przez rząd władzy państwowej oraz niezależności i autorytetu instytucji konstytucyjnej\" - napisał ambasador USA w Polsce Tom Rose. W ten sposób odniósł się do wydarzeń, jakie od kilku godzin mają miejsce przed i na terenie Trybunału Konstytucyjnego."
+   "tytul": "Kryzys w Trybunale: Polska 2050 idzie do prezydenta. Lewica nie. Co zrobi PSL?",
+   "url": "https://www.rp.pl/polityka/art45425161-kryzys-w-trybunale-polska-2050-idzie-do-prezydenta-lewica-nie-co-zrobi-psl",
+   "opublikowano": "2026-10-31T09:37:58Z",
+   "opublikowano_surowe": "Sat, 31 Oct 2026 10:37:58 +0100",
+   "streszczenie": "Z oficjalnych deklaracji oraz ustaleń „Rzeczpospolitej” wynika, że politycy Polski 2050 wezmą udział w zapowiedzianych w nocy przez Pałac Prezydencki konsultacjach w sprawie kryzysu wokół TK. Lewica do Pałacu Prezydenckie się nie wybiera."
+  },
+  {
+   "zrodlo": "Rzeczpospolita",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Paweł Kapusta: Święto zmarłej demokracji, czyli jak leczyć trybunał kordonem i pałą",
+   "url": "https://www.rp.pl/komentarze/art45425181-pawel-kapusta-swieto-zmarlej-demokracji-czyli-jak-leczyc-trybunal-kordonem-i-pala",
+   "opublikowano": "2026-10-31T09:24:16Z",
+   "opublikowano_surowe": "Sat, 31 Oct 2026 10:24:16 +0100",
+   "streszczenie": "Politycy koalicji rządzącej wiedzą, że zarządzenie sędzi Korwin-Piotrowskiej jest prawnie wątpliwe. Politycy opozycji wiedzą z kolei, że prawnie wątpliwe jest odmawianie przez prezydenta ślubowań sędziom wybranym przez Sejm. Obie strony uznają jednak, że ich własne wątpliwości nie mają żadnego znaczenia, bo w tej zabawie nie liczy się przecież prawda, tylko polityczny utarg. Niezależnie od opcji rządzą nami cynicy, elektoraty zajadają się przed telewizorami popcornem, a Trybunał, jak leżał w błocie, tak będzie leżał dalej – pisze Paweł Kapusta, redaktor naczelny „Rzeczpospolitej”."
+  },
+  {
+   "zrodlo": "Rzeczpospolita",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Hołownia wzywa Nawrockiego i Tuska do rozmów o TK. „Polska jest w Waszych rękach”",
+   "url": "https://www.rp.pl/polityka/art45425151-holownia-wzywa-nawrockiego-i-tuska-do-rozmow-o-tk-polska-jest-w-waszych-rekach",
+   "opublikowano": "2026-10-31T09:02:14Z",
+   "opublikowano_surowe": "Sat, 31 Oct 2026 10:02:14 +0100",
+   "streszczenie": "Polska 2050 krytykuje siłowe działania wokół Trybunału Konstytucyjnego. „Wydarzenia dzisiejszej nocy przynoszą Polsce wstyd” – napisał w sobotę Szymon Hołownia. Wezwał prezydenta Karola Nawrockiego i premiera Donalda Tuska, by jeszcze dziś usiedli do stołu i porozumieli się w sprawie resetu TK."
+  },
+  {
+   "zrodlo": "Rzeczpospolita",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Spór o TK tylko się pogłębia. „Jesteśmy świadkami partyzanckich batalii o TK\"",
+   "url": "https://www.rp.pl/sady-i-trybunaly/art45420321-spor-o-tk-tylko-sie-poglebia-jestesmy-swiadkami-partyzanckich-batalii-o-tk",
+   "opublikowano": "2026-10-31T09:00:00Z",
+   "opublikowano_surowe": "Sat, 31 Oct 2026 10:00:00 +0100",
+   "streszczenie": "Trudno mówić o zaufaniu do TK, który stał się instytucją upadłą w sensie swojej legitymizacji – mówi prof. Mateusz Stępień, socjolog prawa z Uniwersytetu Jagiellońskiego. Ekspert wyjaśnia, dlaczego Polacy są zmęczeni sporem wokół Trybunału."
+  },
+  {
+   "zrodlo": "Rzeczpospolita",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Artur Bartkiewicz: Trybunał Schrödingera, Nawrocki siłuje się z sędziami i tylko Polski szkoda",
+   "url": "https://www.rp.pl/komentarze/art45424981-artur-bartkiewicz-trybunal-schroedingera-nawrocki-siluje-sie-z-sedziami-i-tylko-polski-szkoda",
+   "opublikowano": "2026-10-31T08:35:36Z",
+   "opublikowano_surowe": "Sat, 31 Oct 2026 09:35:36 +0100",
+   "streszczenie": "Z tego, co stało się wokół Trybunału Konstytucyjnego paradoksalnie wszyscy główni gracze są zapewne zadowoleni. Donald Tusk okazał sprawczość, Karol Nawrocki zademonstrował zdecydowanie i siłę (i to dosłownie), Jarosław Kaczyński miał wreszcie w Alei Szucha Zjednoczoną Prawicę. I tylko Polacy jak nie mieli sądu konstytucyjnego, tak nadal go nie mają."
+  },
+  {
+   "zrodlo": "Rzeczpospolita",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Prof. Marek Migalski: Siłowy spór o Trybunał – Tusk, Kaczyński i Nawrocki grają o wszystko",
+   "url": "https://www.rp.pl/komentarze/art45425031-prof-marek-migalski-silowy-spor-o-trybunal-tusk-kaczynski-i-nawrocki-graja-o-wszystko",
+   "opublikowano": "2026-10-31T08:27:19Z",
+   "opublikowano_surowe": "Sat, 31 Oct 2026 09:27:19 +0100",
+   "streszczenie": "Walka o Trybunał Konstytucyjny może przesądzić o wyniku wyborów w 2027 r.. Donald Tusk, Jarosław Kaczyński i Karol Nawrocki wiedzą, że w tym starciu liczy się już tylko siła. Zwycięzca zdobędzie polityczną premię, pokonany zapłaci wysoką cenę."
+  },
+  {
+   "zrodlo": "Rzeczpospolita",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Polscy żołnierze sami kupią sobie rękawice, okulary ochronne i kabury",
+   "url": "https://radar.rp.pl/wojsko-polskie/art45410671-polscy-zolnierze-sami-kupia-sobie-rekawice-okulary-ochronne-i-kabury",
+   "opublikowano": "2026-10-31T08:25:10Z",
+   "opublikowano_surowe": "Sat, 31 Oct 2026 09:25:10 +0100",
+   "streszczenie": "W listopadzie MON ogłosi pierwszy nabór produktów na Zieloną Listę. Żołnierze zyskują prawo do używania prywatnie kupionego sprzętu, ale za takie zakupy zapłacą sami. Mechanizm legalizuje szarą strefę, ale o jego wartości przesądziłoby dopiero dofinansowanie zakupów."
   },
   {
    "zrodlo": "Rzeczpospolita",
@@ -2411,134 +2541,24 @@
    "streszczenie": "Sekretarz stanu USA Marco Rubio podkreślił, że sukces gospodarczy Polski i jej rosnąca pozycja na świecie są dokładnie tym, czego potrzebuje G20. Tymczasem szef rosyjskiej dyplomacji Siergiej Ławrow ostro skrytykował zaproszenie Polski na spotkanie w Atlancie."
   },
   {
-   "zrodlo": "Rzeczpospolita",
+   "zrodlo": "TVN Warszawa",
    "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "AI wychodzi z wieku niewinności. Branża dojrzewa w warunkach ostrej konkurencji",
-   "url": "https://www.rp.pl/plus-minus/art45420811-ai-wychodzi-z-wieku-niewinnosci-branza-dojrzewa-w-warunkach-ostrej-konkurencji",
-   "opublikowano": "2026-10-31T07:57:00Z",
-   "opublikowano_surowe": "Sat, 31 Oct 2026 08:57:00 +0100",
-   "streszczenie": "Czy sztuczna inteligencja sprowadzi na nas zagładę? Katastroficzne przepowiednie warto traktować jako ostrzeżenie, że AI wymaga ostrożności i namysłu, by stała się dla ludzi pomocą, a nie utrapieniem. Wbrew nim opowiadam się jednak za wiarą w człowieka – w jego mądrość i innowacyjność, które wielokrotnie już pozwalały ludzkości znaleźć sposoby na bezpieczne korzystanie z nowych technologii."
+   "region": "warsaw",
+   "tytul": "Fajerwerki nad Warszawą. Huk i rozbłyski w różnych częściach miasta",
+   "url": "https://tvn24.pl/tvnwarszawa/srodmiescie/fajerwerki-nad-warszawa-huk-i-rozblyski-w-roznych-czesciach-miasta-st9315467?source=rss",
+   "opublikowano": "2026-10-31T09:46:40Z",
+   "opublikowano_surowe": "Sat, 31 Oct 2026 09:46:40 GMT",
+   "streszczenie": "W piątek wieczorem niebo nad Warszawą rozświetliły fajerwerki. Wiele osób zastanawiało się, z jakiej okazji zorganizowano pokaz. Przedstawiciele Polonii Warszawa wyjaśnili, że akcja miała związek ze 115-leciem klubu."
   },
   {
-   "zrodlo": "Rzeczpospolita",
+   "zrodlo": "TVN Warszawa",
    "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Kryzys konstytucyjny w Polsce. Spór o TK na czołówkach zagranicznych mediów",
-   "url": "https://www.rp.pl/polityka/art45424941-kryzys-konstytucyjny-w-polsce-spor-o-tk-na-czolowkach-zagranicznych-mediow",
-   "opublikowano": "2026-10-31T07:49:00Z",
-   "opublikowano_surowe": "Sat, 31 Oct 2026 08:49:00 +0100",
-   "streszczenie": "Zagraniczne media szybko zareagowały na najnowsze wydarzenia przed polskim Trybunałem Konstytucyjnym. Piszą o chaosie i eskalacji trwającego od dawna sporu między obozem rządowym a prawicową opozycją. Zwracają uwagę, że spór „wykracza poza walkę o bieżące kompetencje”."
-  },
-  {
-   "zrodlo": "Rzeczpospolita",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Sławomir Wikariak: Trybunału Konstytucyjnego będzie jeszcze mniej",
-   "url": "https://www.rp.pl/opinie-prawne/art45424791-slawomir-wikariak-trybunalu-konstytucyjnego-bedzie-jeszcze-mniej",
-   "opublikowano": "2026-10-31T07:35:00Z",
-   "opublikowano_surowe": "Sat, 31 Oct 2026 08:35:00 +0100",
-   "streszczenie": "Jeśli ktoś wcześniej sądził, że nie ma już Trybunału Konstytucyjnego, to teraz nie ma go jeszcze bardziej."
-  },
-  {
-   "zrodlo": "Rzeczpospolita",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Co się dzieje w Trybunale Konstytucyjnym? Wyjaśniamy",
-   "url": "https://www.rp.pl/polityka/art45424911-co-sie-dzieje-w-trybunale-konstytucyjnym-wyjasniamy",
-   "opublikowano": "2026-10-31T07:19:27Z",
-   "opublikowano_surowe": "Sat, 31 Oct 2026 08:19:27 +0100",
-   "streszczenie": "Bogdan Święczkowski został odsunięty od kierowania Trybunałem Konstytucyjnym przez sędzię Annę Korwin-Piotrowską, której ani Święczkowski, ani Karol Nawrocki nie uważają za sędzię Trybunału. Opozycja i otoczenie prezydenta oskarżają rząd o zamach stanu, Donald Tusk pisze o przywracaniu rządów prawa. Jak wygląda obecna sytuacja w Trybunale Konstytucyjnym."
-  },
-  {
-   "zrodlo": "Rzeczpospolita",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Nie skorzystasz z ulgi w PCC na zakup domu, jeśli jeden już masz. Choć jest tylko na lato",
-   "url": "https://www.rp.pl/podatki/art45422231-nie-skorzystasz-z-ulgi-w-pcc-na-zakup-domu-jesli-jeden-juz-masz-choc-jest-tylko-na-lato",
-   "opublikowano": "2026-10-31T07:03:00Z",
-   "opublikowano_surowe": "Sat, 31 Oct 2026 08:03:00 +0100",
-   "streszczenie": "Kupujący mieszkanie bądź dom na rynku wtórnym może nie płacić 2 proc. podatku. Musi to jednak być jego pierwsze lokum. Zwolnienie wyklucza posiadanie nieruchomości, nawet wykorzystywanej tylko w celach rekreacyjnych. Tak wynika z interpretacji skarbówki."
-  },
-  {
-   "zrodlo": "Rzeczpospolita",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Waldemar Żurek: niedopuszczalne zachowanie prezydenta Karola Nawrockiego",
-   "url": "https://www.rp.pl/polityka/art45424891-waldemar-zurek-niedopuszczalne-zachowanie-prezydenta-karola-nawrockiego",
-   "opublikowano": "2026-10-31T06:37:00Z",
-   "opublikowano_surowe": "Sat, 31 Oct 2026 07:37:00 +0100",
-   "streszczenie": "- To jest niedopuszczalne, żeby osoba, którą chroni immunitet prezydencki zachowywała się w taki sposób - powiedział na antenie TVN24 minister sprawiedliwości Waldemar Żurek komentując nocne wejście prezydenta Karola Nawrockiego do siedziby TK. Żurek wyraził nadzieję, że prokuratura podejmie w tej sprawie działania."
-  },
-  {
-   "zrodlo": "Rzeczpospolita",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Paweł Czuryło: Zrozumieć Polskę, czyli Trybunał Konstytucyjny, NBP i sen dealera z City",
-   "url": "https://www.rp.pl/opinie-ekonomiczne/art45424781-pawel-czurylo-zrozumiec-polske-czyli-trybunal-konstytucyjny-nbp-i-sen-dealera-z-city",
-   "opublikowano": "2026-10-31T06:24:53Z",
-   "opublikowano_surowe": "Sat, 31 Oct 2026 07:24:53 +0100",
-   "streszczenie": "Po tym co dzieje się wokół Trybunału Konstytucyjnego rządowi trudniej może być sprzedawać dalej gospodarczą opowieść o Polsce, jako dojrzałym rynku rozwiniętym. Choć zarówno rząd, jak i jego zwolennicy powiedzą, że to co się dzieje to właśnie warunek, by Polska takim rynkiem była."
-  },
-  {
-   "zrodlo": "Rzeczpospolita",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Chaos wokół Trybunału Konstytucyjnego, prezydent zwołuje konsultacje. Relacja na żywo",
-   "url": "https://www.rp.pl/sady-i-trybunaly/art45424861-chaos-wokol-trybunalu-konstytucyjnego-prezydent-zwoluje-konsultacje-relacja-na-zywo",
-   "opublikowano": "2026-10-31T06:01:26Z",
-   "opublikowano_surowe": "Sat, 31 Oct 2026 07:01:26 +0100",
-   "streszczenie": "Prezydent Karol Nawrocki zwołuje pilne konsultacje z siłami parlamentarnymi po nocy, w której kontrolę nad Trybunałem Konstytucyjnym przejęła sędzia Anna Korwin-Piotrowska. Prezes TK Bogdan Święczkowski i wiceprezes Bartłomiej Sochański zostali odsunięci od obowiązków. Głowa państwa mówi o „siłowym przejęciu konstytucyjnego organu”, a rząd o przywracaniu praworządności. Ambasador w Rumunii Paweł Soloch złożył dymisję w proteście. Zgromadzenie Ogólne sędziów TK zaplanowano na 3 listopada."
-  },
-  {
-   "zrodlo": "Rzeczpospolita",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Nocna wizyta Karola Nawrockiego w TK. „Prezydent z impetem wpadł w sędzię”",
-   "url": "https://www.rp.pl/polityka/art45424841-nocna-wizyta-karola-nawrockiego-w-tk-prezydent-z-impetem-wpadl-w-sedzie",
-   "opublikowano": "2026-10-31T05:54:00Z",
-   "opublikowano_surowe": "Sat, 31 Oct 2026 06:54:00 +0100",
-   "streszczenie": "W nocy w siedzibie Trybunału Konstytucyjnego pojawił się prezydent Karol Nawrocki. Na nagraniu opublikowanym przez Macieja Berka widać, jak prezydent przeciska się przez osoby stojące w drzwiach Trybunału Konstytucyjnego. Berek pisze, że prezydent „nie był zainteresowany rozmową” i „z impetem wpadł na sędzię A. Korwin-Piotrowską”. Z kolei prezydencki minister Marcin Przydacz pisze o „siłowym szarpaniu Głowy Państwa” przez sędzię Korwin-Piotrowską."
-  },
-  {
-   "zrodlo": "Rzeczpospolita",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Ambasador w Rumunii Paweł Soloch rezygnuje. Protest wobec działań wokół TK",
-   "url": "https://www.rp.pl/dyplomacja/art45424831-ambasador-w-rumunii-pawel-soloch-rezygnuje-protest-wobec-dzialan-wokol-tk",
-   "opublikowano": "2026-10-31T05:37:16Z",
-   "opublikowano_surowe": "Sat, 31 Oct 2026 06:37:16 +0100",
-   "streszczenie": "Ambasador RP w Rumunii Paweł Soloch złożył w sobotę rezygnację. Były szef BBN twierdzi, że to reakcja na „próbę sprzecznego z prawem przejęcia” Trybunału Konstytucyjnego. Wcześniej z placówki w Chinach zrezygnował Jakub Kumoch."
-  },
-  {
-   "zrodlo": "Rzeczpospolita",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Jest oświadczenie prezydenta ws. sytuacji w TK. „Wzywam do opuszczenia terenu Trybunału przez siły przymusu”",
-   "url": "https://www.rp.pl/polityka/art45424801-jest-oswiadczenie-prezydenta-ws-sytuacji-w-tk-wzywam-do-opuszczenia-terenu-trybunalu-przez-sily-przymusu",
-   "opublikowano": "2026-10-31T05:12:00Z",
-   "opublikowano_surowe": "Sat, 31 Oct 2026 06:12:00 +0100",
-   "streszczenie": "„Tej nocy doszło do naruszenia porządku konstytucyjnego RP i siłowego przejęcia konstytucyjnego organu państwa” - napisał w wydanym wczesnym rankiem oświadczeniu prezydent Karol Nawrocki."
-  },
-  {
-   "zrodlo": "Rzeczpospolita",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Cmentarz jak muzeum sztuki nowoczesnej. Nekropolia w Mediolanie jest pełna arcydzieł",
-   "url": "https://sukces.rp.pl/sztuka/art45416371-cmentarz-jak-muzeum-sztuki-nowoczesnej-nekropolia-w-mediolanie-jest-pelna-arcydziel",
-   "opublikowano": "2026-10-31T05:00:00Z",
-   "opublikowano_surowe": "Sat, 31 Oct 2026 06:00:00 +0100",
-   "streszczenie": "Cmentarz Monumentalny w Mediolanie jest niezwykły, także dlatego, że znajduje się tam mnóstwo zabytkowych pomników i mauzoleów projektowanych przez znanych rzeźbiarzy i architektów. Szczególnie warte uwagi są te, które powstały w XX w."
-  },
-  {
-   "zrodlo": "Rzeczpospolita",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Drastyczny spadek populacji dzikich zwierząt na świecie. „Nasza przyroda obumiera”",
-   "url": "https://klimat.rp.pl/klimat/art45369961-drastyczny-spadek-populacji-dzikich-zwierzat-na-swiecie-nasza-przyroda-obumiera",
-   "opublikowano": "2026-10-31T05:00:00Z",
-   "opublikowano_surowe": "Sat, 31 Oct 2026 06:00:00 +0100",
-   "streszczenie": "Nowy raport organizacji WWF „Living Planet Report 2026” alarmuje: w ciągu ostatnich 52 lat średnia liczebność populacji dzikich zwierząt spadła o 73 proc. Wśród przyczyn jego autorzy wymieniają m.in. utratę i degradację siedlisk, nadmierną eksploatację zasobów oraz zmiany klimatu wywołane działalnością człowieka."
+   "region": "warsaw",
+   "tytul": "Na przejeździe rowerowym zginął pracownik MZA. Kierowca z zarzutem",
+   "url": "https://tvn24.pl/tvnwarszawa/bialoleka/warszawa-na-przejezdzie-rowerowym-zginal-pracownik-mza-kierowca-z-zarzutem-st9311896?source=rss",
+   "opublikowano": "2026-10-31T08:33:13Z",
+   "opublikowano_surowe": "Sat, 31 Oct 2026 08:33:13 GMT",
+   "streszczenie": "Prokuratura przedstawiła zarzut kierowcy po śmiertelnym potrąceniu rowerzysty na Białołęce. Zmarły mężczyzna był pracownikiem Miejskich Zakładów Autobusowych. Jego śmierć wywołała poruszenie wśród kierowców miejskich autobusów."
   },
   {
    "zrodlo": "TVN Warszawa",
@@ -2671,24 +2691,14 @@
    "streszczenie": "W piątek na zjeździe z Trasy Siekierkowskiej kierująca samochodem osobowym najechała na bariery. Od rana w Warszawie utrzymuje się mgła, która utrudnia ruch w niektórych częściach miasta."
   },
   {
-   "zrodlo": "TVN Warszawa",
+   "zrodlo": "Gazeta Stołeczna",
    "kategoria": "NEWS",
    "region": "warsaw",
-   "tytul": "Nocny alarm na lotnisku. Ewakuowano 450 osób",
-   "url": "https://tvn24.pl/tvnwarszawa/okolice/modlin-nocny-alarm-na-lotnisku-ewakuowano-450-osob-st9313185?source=rss",
-   "opublikowano": "2026-10-30T07:42:02Z",
-   "opublikowano_surowe": "Fri, 30 Oct 2026 07:42:02 GMT",
-   "streszczenie": "W nocy z czwartku na piątek pozostawiony bez opieki bagaż postawił na nogi służby na lotnisku Warszawa-Modlin. Zgodnie z procedurami ewakuowano pasażerów."
-  },
-  {
-   "zrodlo": "TVN Warszawa",
-   "kategoria": "NEWS",
-   "region": "warsaw",
-   "tytul": "Podejrzany o atak nożem w autobusie zatrzymany. Ukrywał się w lesie",
-   "url": "https://tvn24.pl/tvnwarszawa/bielany/warszawa-podejrzany-o-atak-nozem-w-autobusie-zatrzymany-policjanci-znalezli-go-w-lesie-ukrywal-sie-kilkanascie-dni-st9313093?source=rss",
-   "opublikowano": "2026-10-30T06:27:26Z",
-   "opublikowano_surowe": "Fri, 30 Oct 2026 06:27:26 GMT",
-   "streszczenie": "Policjanci zatrzymali 30-latka podejrzanego o zaatakowanie nożem dwóch obywateli Ukrainy w autobusie na warszawskich Bielanach. Mężczyzna przez kilkanaście dni ukrywał się przed policją w lesie."
+   "tytul": "CPK chce odbudować wąskotorówkę do Grójca. 13 stacji, prędkość 100 km na godz., przejazd w 35 minut",
+   "url": "https://warszawa.wyborcza.pl/warszawa/7,54420,33108889,spolka-cpk-chce-odbudowac-waskotorowke-do-grojca-13-stacji.html",
+   "opublikowano": "2026-10-31T10:39:00Z",
+   "opublikowano_surowe": "Sat, 31 Oct 2026 10:39:00 GMT",
+   "streszczenie": "Wrócą regularne kursy z pasażerami na linii wąskotorowej do Grójca. Za jej odbudowę zabiera się spółka Centralny Port Komunikacyjny od lotniska planowanego w Baranowie. Złożyła wniosek o decyzję środowiskową dla kolejki, przedstawiła listę stacji i planowane czasy przejazdu."
   },
   {
    "zrodlo": "Gazeta Stołeczna",
@@ -2829,16 +2839,6 @@
    "opublikowano": "2026-10-29T20:19:00Z",
    "opublikowano_surowe": "Thu, 29 Oct 2026 20:19:00 GMT",
    "streszczenie": "Do wypadku doszło na przejściu dla pierwszych z sygnalizacją świetlną."
-  },
-  {
-   "zrodlo": "Gazeta Stołeczna",
-   "kategoria": "NEWS",
-   "region": "warsaw",
-   "tytul": "103 mln zł dla Szpitala Bielańskiego. Nowe oddziały, robot da Vinci i szybsza diagnostyka nowotworów",
-   "url": "https://warszawa.wyborcza.pl/warszawa/7,54420,33105918,103-mln-zl-dla-szpitala-bielanskiego-nowe-oddzialy-robot-da.html",
-   "opublikowano": "2026-10-29T16:15:00Z",
-   "opublikowano_surowe": "Thu, 29 Oct 2026 16:15:00 GMT",
-   "streszczenie": "Onkologiczne Centrum Robotyczne z robotem da Vinci, oddział chemioterapii dziennej oraz zmodernizowane pracownie diagnostyki gastroenterologicznej i kardiologii otwarto w czwartek w Szpitalu Bielańskim w Warszawie."
   },
   {
    "zrodlo": "TechCrunch",
@@ -3344,6 +3344,36 @@
    "zrodlo": "Spider’s Web",
    "kategoria": "Tech",
    "region": "poland",
+   "tytul": "Papierowe słomki okazały się niewypałem. Są gorsze niż plastikowe",
+   "url": "https://spidersweb.pl/2026/10/papierowe-slomki-plastikowe-slomki-wplyw-na-srodowisko-co-lepsze.html",
+   "opublikowano": "2026-10-31T09:00:00Z",
+   "opublikowano_surowe": "Sat, 31 Oct 2026 10:00:00 +0100",
+   "streszczenie": "Papierowe słomki okazały się niewypałem. Są gorsze niż plastikowe"
+  },
+  {
+   "zrodlo": "Spider’s Web",
+   "kategoria": "Tech",
+   "region": "poland",
+   "tytul": "Korona Słońca gorętsza od jego powierzchni. Wreszcie to wyjaśnili",
+   "url": "https://spidersweb.pl/2026/10/korona-slonca-temperatura-eksperyment-lasery.html",
+   "opublikowano": "2026-10-31T08:45:00Z",
+   "opublikowano_surowe": "Sat, 31 Oct 2026 09:45:00 +0100",
+   "streszczenie": "Korona Słońca gorętsza od jego powierzchni. Wreszcie to wyjaśnili"
+  },
+  {
+   "zrodlo": "Spider’s Web",
+   "kategoria": "Tech",
+   "region": "poland",
+   "tytul": "Eksplozja, która nie chciała się skończyć. Rekordowy rozbłysk wprawia w osłupienie",
+   "url": "https://spidersweb.pl/2026/10/rekordowa-eksplozja-we-wszechswiecie.html",
+   "opublikowano": "2026-10-31T08:30:00Z",
+   "opublikowano_surowe": "Sat, 31 Oct 2026 09:30:00 +0100",
+   "streszczenie": "Eksplozja, która nie chciała się skończyć. Rekordowy rozbłysk wprawia w osłupienie"
+  },
+  {
+   "zrodlo": "Spider’s Web",
+   "kategoria": "Tech",
+   "region": "poland",
    "tytul": "Próbowałem pograć na Macu ze znajomymi. Szybko przeprosiłem się ze starym PC",
    "url": "https://spidersweb.pl/2026/10/granie-na-maku-2026-gry.html",
    "opublikowano": "2026-10-31T08:15:00Z",
@@ -3459,36 +3489,6 @@
    "opublikowano": "2026-10-30T19:59:00Z",
    "opublikowano_surowe": "Fri, 30 Oct 2026 20:59:00 +0100",
    "streszczenie": "Europejska sonda zobaczyła dwa kosmiczne głazy. Jeden z nich uderzyła NASA"
-  },
-  {
-   "zrodlo": "Spider’s Web",
-   "kategoria": "Tech",
-   "region": "poland",
-   "tytul": "Nikt nie chce Androida 17. Lepiej sprawdź ustawienia telefonu",
-   "url": "https://spidersweb.pl/2026/10/android-17-popularnosc-instalacja-systemow-google.html",
-   "opublikowano": "2026-10-30T19:47:00Z",
-   "opublikowano_surowe": "Fri, 30 Oct 2026 20:47:00 +0100",
-   "streszczenie": "Nikt nie chce Androida 17. Lepiej sprawdź ustawienia telefonu"
-  },
-  {
-   "zrodlo": "Spider’s Web",
-   "kategoria": "Tech",
-   "region": "poland",
-   "tytul": "Kosmiczny wybuch wyglądał niepozornie. Potem przyćmił własną galaktykę",
-   "url": "https://spidersweb.pl/2026/10/grb-260310a-rozblysk-gamma-poswiata.html",
-   "opublikowano": "2026-10-30T19:03:00Z",
-   "opublikowano_surowe": "Fri, 30 Oct 2026 20:03:00 +0100",
-   "streszczenie": "Kosmiczny wybuch wyglądał niepozornie. Potem przyćmił własną galaktykę"
-  },
-  {
-   "zrodlo": "Spider’s Web",
-   "kategoria": "Tech",
-   "region": "poland",
-   "tytul": "Zamienią elektrownie jądrowe w centra danych. Nvidia ma sprytny plan",
-   "url": "https://spidersweb.pl/2026/10/elektrownie-atomowe-niemcy-nvidia.html",
-   "opublikowano": "2026-10-30T18:16:00Z",
-   "opublikowano_surowe": "Fri, 30 Oct 2026 19:16:00 +0100",
-   "streszczenie": "Zamienią elektrownie jądrowe w centra danych. Nvidia ma sprytny plan"
   },
   {
    "zrodlo": "MamStartup",
@@ -4244,6 +4244,26 @@
    "zrodlo": "Nauka w Polsce",
    "kategoria": "Dobre",
    "region": "poland",
+   "tytul": "Hiszpania/ Węże inwazyjne stopniowo zadomowiają się na wyspach Balearów",
+   "url": "https://naukawpolsce.pl/aktualnosci/news%2C115702%2Chiszpania-weze-inwazyjne-stopniowo-zadomowiaja-sie-na-wyspach-balearow.html",
+   "opublikowano": "2026-10-31T09:03:00Z",
+   "opublikowano_surowe": "Sat, 31 Oct 2026 09:03:00 +0000",
+   "streszczenie": "Hiszpania/ Węże inwazyjne stopniowo zadomowiają się na wyspach Balearów tryton sob., 10/31/2026 - 10:03 2 minuty"
+  },
+  {
+   "zrodlo": "Nauka w Polsce",
+   "kategoria": "Dobre",
+   "region": "poland",
+   "tytul": "Genetykom udało się opisać przeciętność",
+   "url": "https://naukawpolsce.pl/aktualnosci/news%2C115655%2Cgenetykom-udalo-sie-opisac-przecietnosc.html",
+   "opublikowano": "2026-10-31T08:30:00Z",
+   "opublikowano_surowe": "Sat, 31 Oct 2026 08:30:00 +0000",
+   "streszczenie": "Genetykom udało się opisać przeciętność tryton sob., 10/31/2026 - 09:30 3 minuty"
+  },
+  {
+   "zrodlo": "Nauka w Polsce",
+   "kategoria": "Dobre",
+   "region": "poland",
    "tytul": "Psycholożka: śmierć nie jest końcem relacji, można ją pielęgnować w naszej pamięci",
    "url": "https://naukawpolsce.pl/aktualnosci/news%2C115691%2Cpsycholozka-smierc-nie-jest-koncem-relacji-mozna-ja-pielegnowac-w-naszej",
    "opublikowano": "2026-10-31T08:10:00Z",
@@ -4309,26 +4329,6 @@
    "opublikowano": "2026-10-30T15:10:00Z",
    "opublikowano_surowe": "Fri, 30 Oct 2026 15:10:00 +0000",
    "streszczenie": "Młodzi dorośli szukają w AI informacji o szkodliwych substancjach tryton pt., 10/30/2026 - 16:10 2 minuty"
-  },
-  {
-   "zrodlo": "Nauka w Polsce",
-   "kategoria": "Dobre",
-   "region": "poland",
-   "tytul": "Polska Akademia Nauk ma już 75 lat",
-   "url": "https://naukawpolsce.pl/aktualnosci/news%2C115711%2Cpolska-akademia-nauk-ma-juz-75-lat.html",
-   "opublikowano": "2026-10-30T15:01:02Z",
-   "opublikowano_surowe": "Fri, 30 Oct 2026 15:01:02 +0000",
-   "streszczenie": "Polska Akademia Nauk ma już 75 lat tryton pt., 10/30/2026 - 16:01 4 minuty"
-  },
-  {
-   "zrodlo": "Nauka w Polsce",
-   "kategoria": "Dobre",
-   "region": "poland",
-   "tytul": "Nagroda Birkelanda dla naukowca z Politechniki Wrocławskiej",
-   "url": "https://naukawpolsce.pl/aktualnosci/news%2C115716%2Cnagroda-birkelanda-dla-naukowca-z-politechniki-wroclawskiej.html",
-   "opublikowano": "2026-10-30T14:31:00Z",
-   "opublikowano_surowe": "Fri, 30 Oct 2026 14:31:00 +0000",
-   "streszczenie": "Nagroda Birkelanda dla naukowca z Politechniki Wrocławskiej tryton pt., 10/30/2026 - 15:31 2 minuty"
   },
   {
    "zrodlo": "Nauka w Polsce",

@@ -6,19 +6,23 @@ Właściciel repozytorium: Adrian Strzeszewski (adrian.strzeszewski@gmail.com).
 
 ## Struktura
 
-Cała strona (HTML/CSS/JS) żyje w jednym pliku `index.html`: 4 regiony (Świat/Europa/Polska/Warszawa), filtry, zegary, pogoda (Open-Meteo), mapy, radar HN, watchlista, kalendarz wydarzeń, blok ITSPACE i stopka. Treść wiadomości to tablica `NEWS` w `<script>`, wydarzenia branżowe — tablica `EVENTS`.
+Cała strona (HTML/CSS/JS) żyje w jednym pliku `index.html`: 4 regiony (Świat/Europa/Polska/Warszawa), filtry, zegary, pogoda (Open-Meteo: kafelki w nagłówku regionu i wykres temperatur na 7 dni; animowane mapy pogodowe usunięto 2026-11-15), radar HN, watchlista, kalendarz wydarzeń, blok ITSPACE i stopka. Treść wiadomości to tablica `NEWS` w `<script>`, wydarzenia branżowe — tablica `EVENTS`.
 
 ## Zasady aktualizacji treści (index.html)
 
-Aktualizacja „wydania" ogranicza się do zawartości: tablica `NEWS`, datownik `#dl-edition`, ewentualnie `EVENTS` i „Podsumowanie dnia"; następnie weryfikacja składni JS. NIE zmieniaj struktury, stylów, skryptów SPA ani innych plików.
+Aktualizacja „wydania" ogranicza się do zawartości: tablica `NEWS`, datownik `#dl-edition`, ewentualnie `EVENTS` i „Podsumowanie dnia"; następnie weryfikacja składni JS. NIE zmieniaj struktury, stylów, skryptów SPA ani innych plików (jedyny wyjątek: `<lastmod>` strony głównej w `sitemap.xml`, patrz SEO).
 
-Upoważnienie właściciela (2026-07-14): zmiany ograniczone WYŁĄCZNIE do powyższej aktualizacji treści w `index.html` mogą być commitowane i pushowane na `main` bez Pull Requesta i bez dodatkowego potwierdzenia. Każda inna zmiana (inne pliki, struktura/style/skrypty, konfiguracja repo, force-push, operacje destrukcyjne) wymaga wyraźnego potwierdzenia użytkownika w danej sesji.
+„Podsumowanie dnia" (`#day-summary`) ma dokładnie 10 zwięzłych pozycji (tytuł + jedno zdanie + źródło). Każda pozycja powstaje z jednego wpisu tablicy `NEWS` po jego weryfikacji i nie zawiera niczego, czego w tym wpisie nie ma; miejsca 8–10 są dla kategorii AI, Tech i Stomatologia. Szczegóły doboru i kontrola mechaniczna: prompt rutyny publikującej, KROK 4C.
+
+Upoważnienie właściciela (2026-07-14, rozszerzone 2026-11-15 o `sitemap.xml`): zmiany ograniczone WYŁĄCZNIE do powyższej aktualizacji treści w `index.html` oraz `<lastmod>` strony głównej w `sitemap.xml` mogą być commitowane i pushowane na `main` bez Pull Requesta i bez dodatkowego potwierdzenia. Każda inna zmiana (inne pliki, struktura/style/skrypty, konfiguracja repo, force-push, operacje destrukcyjne) wymaga wyraźnego potwierdzenia użytkownika w danej sesji.
 
 Format commita wydań: `Wydanie nr X — RRRR-MM-DD HH:MM`.
 
 ## Datownik
 
 Datownik ma dwie części: `#dl-today` (dzień, data, imieniny — liczone w przeglądarce; NIE wpisuj tam nic i nie zmieniaj `const IMIENINY`, `renderToday()`, `setInterval` ani segmentu godzin) oraz `#dl-edition` (statyczna metryka wydania). Aktualizuj WYŁĄCZNIE tekst `#dl-edition` w formacie „Wydanie nr X · opublikowano D miesiąca RRRR, HH:MM" oraz atrybut `data-pub` w formacie RRRR-MM-DDTHH:MM.
+
+Godzina wydania pochodzi z zegara, nie z szacunku: `TZ=Europe/Warsaw date '+%Y-%m-%dT%H:%M'` tuż przed commitem (czas warszawski, sam uwzględnia czas letni i zimowy). Ta sama wartość trafia do tekstu `#dl-edition`, do `data-pub` i do komunikatu commita. Strona przelicza `data-pub` na czas bezwzględny z przesunięciem właściwym dla tej daty (CET/CEST) — nie wpisuj przesunięcia na sztywno.
 
 ## SEO
 

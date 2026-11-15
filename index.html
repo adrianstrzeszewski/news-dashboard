@@ -240,6 +240,7 @@ button,input{font-family:inherit}
 .rtile h3{font-size:16.5px}
 .rt-counts{font-size:11.5px;color:var(--ink-3);display:flex;flex-direction:column;gap:2px;line-height:1.5}
 .rt-counts b{color:var(--ink-2)}
+.rt-counts .nw{white-space:nowrap}
 .rt-top{font-size:12px;color:var(--ink-2);line-height:1.42;
   display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 .rt-open{margin-top:auto;padding-top:8px;font-size:11.5px;font-weight:740;color:var(--accent-2)}
@@ -266,7 +267,7 @@ button,input{font-family:inherit}
 .adtel a{color:var(--ink-1)}
 
 /* ---------- moduły ---------- */
-.modules{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:14px;margin-top:14px}
+.modules{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(320px,100%),1fr));gap:14px;margin-top:14px}
 .module{border:1px solid var(--hairline);background:var(--surface);border-radius:var(--r);padding:21px 23px}
 .module h2{font-size:12px;letter-spacing:.14em;text-transform:uppercase;font-weight:790;color:var(--ink-3)}
 .module > h2{margin-bottom:13px}
@@ -293,7 +294,7 @@ button,input{font-family:inherit}
 .events{display:flex;flex-direction:column}
 .ev{display:flex;gap:13px;padding:10px 0;border-bottom:1px solid var(--hairline)}
 .ev:last-child{border-bottom:0}
-.ed{font-size:11px;font-weight:740;color:var(--accent-2);min-width:74px;padding-top:2px}
+.ed{font-size:11px;font-weight:740;color:var(--accent-2);flex:0 0 124px;padding-top:2px}
 .en{font-size:14px;font-weight:670;line-height:1.32}
 .en a:hover{color:var(--accent-2)}
 .el{font-size:11.5px;color:var(--ink-3);margin-top:3px}
@@ -350,6 +351,9 @@ footer b{color:var(--ink-2)}
 
 /* zegary */
 .clocks{display:flex;gap:12px;flex-wrap:wrap;margin:0}
+.clocks:empty{display:none}
+/* zegar i kafelki pogody w nagłówku regionu mają tę samą wysokość */
+.rhead .clocks,.rhead .wxtiles{align-self:stretch}
 .clock{display:flex;align-items:center;gap:12px;border:1px solid var(--hairline);background:var(--surface);
   border-radius:16px;padding:10px 16px 10px 12px;min-width:172px}
 .clock svg{width:46px;height:46px;flex:none}
@@ -362,16 +366,18 @@ footer b{color:var(--ink-2)}
 .clock .pin{fill:var(--accent-2)}
 .clock .cz{font-size:10.5px;color:var(--ink-3);text-transform:uppercase;letter-spacing:.08em;font-weight:700}
 .clock .ct{font-size:20px;font-weight:790;font-variant-numeric:tabular-nums}
-.clock .ct .sec{font-size:12px;color:var(--ink-3);font-weight:650}
+/* .sec to także klasa nagłówka sekcji (display:flex, padding 40px) — tu sekundy zegara, więc zerujemy układ */
+.clock .ct .sec{display:inline;padding:0;font-size:12px;color:var(--ink-3);font-weight:650}
 .clock .cd{font-size:11px;color:var(--ink-2)}
 
 /* pogoda */
 .wxtiles{display:flex;gap:10px;flex-wrap:wrap}
-.wxtile{border:1px solid var(--hairline);background:var(--surface);border-radius:16px;padding:10px 15px;min-width:118px}
+.wxtile{border:1px solid var(--hairline);background:var(--surface);border-radius:16px;padding:10px 15px;min-width:118px;
+  display:flex;flex-direction:column;justify-content:center}
 .wxtile .wl{font-size:10px;text-transform:uppercase;letter-spacing:.1em;color:var(--ink-3);font-weight:740;margin-bottom:3px}
 .wxtile .wv{font-size:16px;font-weight:790;font-variant-numeric:tabular-nums}
 .wxtile .wd{font-size:11.5px;color:var(--ink-2);font-weight:500}
-.wxpanel,.mapbox{margin-top:22px}
+.wxpanel{margin-top:22px}
 .wxnow{display:flex;gap:18px;align-items:center;flex-wrap:wrap;font-size:14px}
 .wxnow .wxt{font-size:34px;font-weight:800;letter-spacing:-.035em}
 .wxnow .wxi{font-size:30px}
@@ -379,12 +385,9 @@ footer b{color:var(--ink-2)}
 .wxd{border:1px solid var(--hairline);background:var(--chip-bg);border-radius:14px;padding:11px;text-align:center}
 .wxdays .wd{font-size:11px;color:var(--ink-3);font-weight:650}
 .wxdays .wl{font-size:12.5px;font-variant-numeric:tabular-nums;margin-top:4px}
-.wxlegend,.maplegend{display:flex;gap:14px;flex-wrap:wrap;margin-top:13px;font-size:11.5px;color:var(--ink-3)}
-.lgc{width:10px;height:10px;border-radius:3px;display:inline-block}
-.lgl,.lgn{display:inline-flex;align-items:center;gap:6px}
-.wxsw,.rainsw{border:1px solid var(--hairline);background:var(--chip-bg);color:var(--ink-2);border-radius:999px;
-  padding:6px 12px;font-size:12px;font-weight:650;cursor:pointer}
-.wxsw.on,.rainsw.on{background:var(--a-btn);border-color:transparent;color:#fff}
+.wxlegend{display:flex;gap:14px;flex-wrap:wrap;margin-top:13px;font-size:11.5px;color:var(--ink-3)}
+.wxlegend>span{display:inline-flex;align-items:center;gap:6px}
+.wxsw{display:inline-block;width:10px;height:10px;border-radius:3px;flex:none}
 
 /* ---------- responsywność ---------- */
 @media(max-width:1080px){
@@ -467,6 +470,14 @@ footer b{color:var(--ink-2)}
   .brandmark{font-size:13px}
   .themesw button{padding:5px 8px;font-size:11.5px}
   .goodsw{padding:7px 11px;font-size:11.5px}
+  .rhead{gap:12px}
+  .ed{flex-basis:92px}
+  .witem{text-align:left}
+  .rhead h2{flex:1 1 100%}
+  .rhead .clocks{flex:1 1 100%}
+  .rhead .clock{flex:1;justify-content:center}
+  .rhead .wxtiles{flex:1 1 100%}
+  .rhead .wxtile{flex:1}
 }
 
 /* 5. Poświaty priorytetu ZOSTAJĄ. Podejrzewałem je pierwsze, ale pomiar je oczyścił:
@@ -816,14 +827,6 @@ footer b{color:var(--ink-2)}
       <div id="wx-days" class="wxdays"></div>
       <div id="wx-chart"></div>
     </section>
-
-    <section class="module mapbox hidden" id="wx-map">
-      <div class="rhead2">
-        <h2><span id="wx-map-title-txt">Mapa pogody</span> <span class="rsub">3 dni · cykl dobowy · na żywo · Open-Meteo</span></h2>
-      </div>
-      <div id="wx-map-svg"></div>
-      <div class="maplegend" id="wx-map-legend"></div>
-    </section>
   </div>
 </div>
 
@@ -981,6 +984,8 @@ let goodMode = new URLSearchParams(location.search).get("dobre") === "1";
 const BASE = () => goodMode ? NEWS.filter(n => n.good === true) : NEWS;
 
 function fmtDate(d){ const m=["sty","lut","mar","kwi","maj","cze","lip","sie","wrz","paź","lis","gru"]; const [y,mo,da]=d.split("-"); return `${parseInt(da)} ${m[parseInt(mo)-1]} ${y}`; }
+// polska odmiana: 1 doniesienie, 2–4 doniesienia, 5+ (oraz 12–14) doniesień
+function odmDoniesien(n){ const d=n%10, s=n%100; return n===1 ? "doniesienie" : (d>=2 && d<=4 && !(s>=12 && s<=14)) ? "doniesienia" : "doniesień"; }
 function esc(s){ return s.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;"); }
 
 function matches(n){
@@ -1036,9 +1041,6 @@ function openRegion(reg, presetQ, presetCat, presetPri){
   const showPanel = (reg === "warsaw" || reg === "poland");
   document.getElementById("wx-module").classList.toggle("hidden", !showPanel);
   if (showPanel && !window.__wxLoaded) { window.__wxLoaded = true; refreshWeather(); }
-  const mapKind = reg === "poland" ? "poland" : reg === "warsaw" ? "mazowsze" : null;
-  document.getElementById("wx-map").classList.toggle("hidden", !mapKind);
-  if (mapKind) renderWxMap(mapKind);
   document.getElementById("view-home").classList.add("hidden");
   document.getElementById("view-region").classList.remove("hidden");
   window.scrollTo(0,0);
@@ -1071,9 +1073,9 @@ function renderHomeNews(){
   }
   const zapamietany = curRegion;
   curRegion = "all";                                   // karty pokazują chip regionu
-  // pierwsze dwie karty niosą wydanie: szeroka + wysoka, dalej rytm 6/4/4
+  // pierwsze dwie karty niosą wydanie: szeroka + wysoka (7+5), dalej pełne wiersze 6+6 i 4+4+4
   el.innerHTML = L.map((n,i) => {
-    const kl = i === 0 ? " big" : i === 1 ? " tall" : (i-2) % 5 === 0 ? " half" : "";
+    const kl = i === 0 ? " big" : i === 1 ? " tall" : (i-2) % 5 < 2 ? " half" : "";
     return card(n).replace('class="card p-', 'class="card' + kl + ' p-');
   }).join("");
   curRegion = zapamietany;
@@ -1099,14 +1101,14 @@ function renderHome(){
     const cc = {NEWS:0,AI:0,Tech:0,Stomatologia:0,red:0};
     items.forEach(n=>{cc[n.cat]++; if(n.pri==="red")cc.red++;});
     document.getElementById("rc-home-"+reg).innerHTML =
-      `<span>📰 NEWS: <b>${cc.NEWS}</b> · 🤖 AI: <b>${cc.AI}</b> · 💻 Tech: <b>${cc.Tech}</b> · 🦷 Stomat.: <b>${cc.Stomatologia}</b></span><span>🔴 pilne: <b>${cc.red}</b> · razem: <b>${items.length}</b></span>`;
+      `<span><span class="nw">📰 NEWS: <b>${cc.NEWS}</b></span> · <span class="nw">🤖 AI: <b>${cc.AI}</b></span> · <span class="nw">💻 Tech: <b>${cc.Tech}</b></span> · <span class="nw">🦷 Stomat.: <b>${cc.Stomatologia}</b></span></span><span><span class="nw">🔴 pilne: <b>${cc.red}</b></span> · <span class="nw">razem: <b>${items.length}</b></span></span>`;
     const top = items.filter(n=>n.pri==="red").sort((a,b)=>b.date.localeCompare(a.date))[0];
     document.getElementById("rt-top-"+reg).innerHTML = top ? `<b>🔴 Najważniejsze:</b> ${esc(top.title)}` : "";
   }
   document.getElementById("watch").innerHTML = WATCHLIST.map((w,i) => {
     const hits = BASE().filter(n => w.kw.some(k => (n.title+" "+n.sum).toLowerCase().includes(k)));
     const reds = hits.filter(n => n.pri === "red").length;
-    return `<button class="witem" data-wi="${i}"><span class="wname">${w.name}</span><span class="wcount ${reds?"hot":""}">${hits.length} doniesień${reds?" · "+reds+"×🔴":""}</span></button>`;
+    return `<button class="witem" data-wi="${i}"><span class="wname">${w.name}</span><span class="wcount ${reds?"hot":""}">${hits.length} ${odmDoniesien(hits.length)}${reds?" · "+reds+"×🔴":""}</span></button>`;
   }).join("");
   document.querySelectorAll(".witem").forEach(el => el.addEventListener("click", () => openRegion("all", WATCHLIST[+el.dataset.wi].kw.join(" | "))));
   document.getElementById("events").innerHTML = EVENTS.slice().sort((a,b)=>a.ds.localeCompare(b.ds)).map(e =>
@@ -1157,152 +1159,6 @@ async function refreshRadar(){
 document.getElementById("radar-refresh").addEventListener("click", refreshRadar);
 
 
-// ===================== MAPY POGODY (heatmapa, 3 dni, cykl dobowy) =====================
-const WXMAPS = {
-  poland: {
-    title: "Polska", vw: 600, vh: 571, heatR: 135,
-    path: "M66.5,363.9 L42.8,303.9 L47.3,271.5 L33.0,221.3 L12.0,187.8 L28.1,162.7 L14.6,114.9 L54.1,87.3 L144.4,43.8 L217.3,12.0 L275.0,27.9 L279.4,50.8 L335.2,52.0 L406.5,62.7 L512.8,61.2 L542.5,71.3 L556.4,100.2 L558.9,141.8 L575.0,177.6 L574.6,215.0 L539.9,234.2 L557.8,277.8 L558.9,319.6 L588.0,401.6 L581.8,428.0 L553.1,438.9 L500.5,517.1 L515.5,559.3 L502.8,553.8 L447.9,517.7 L406.2,531.0 L378.9,521.4 L344.7,541.5 L315.5,508.2 L291.7,520.9 L288.5,515.3 L261.9,469.0 L218.8,463.3 L213.3,433.9 L173.7,423.4 L165.0,447.7 L133.6,428.2 L137.2,402.4 L94.0,394.2 L66.5,363.9 Z",
-    cities: [
-      {n:"Szczecin",x:40,y:146,lat:53.43,lon:14.55},
-      {n:"Gdańsk",x:277,y:59,lat:54.35,lon:18.65},
-      {n:"Olsztyn",x:383,y:113,lat:53.78,lon:20.49},
-      {n:"Białystok",x:538,y:174,lat:53.13,lon:23.16},
-      {n:"Warszawa",x:413,y:258,lat:52.23,lon:21.01},
-      {n:"Poznań",x:177,y:241,lat:52.41,lon:16.93},
-      {n:"Łódź",x:324,y:303,lat:51.76,lon:19.46},
-      {n:"Wrocław",x:183,y:364,lat:51.11,lon:17.03},
-      {n:"Katowice",x:298,y:443,lat:50.26,lon:19.02},
-      {n:"Kraków",x:351,y:462,lat:50.06,lon:19.94},
-      {n:"Rzeszów",x:471,y:464,lat:50.04,lon:22.0},
-      {n:"Lublin",x:504,y:350,lat:51.25,lon:22.57}
-    ]
-  },
-  mazowsze: {
-    title: "Mazowsze", vw: 600, vh: 623, heatR: 160,
-    path: "M506.5,271.4 L522.0,277.5 L530.1,280.7 L544.4,282.0 L565.6,281.7 L577.7,291.2 L588.0,298.5 L581.9,313.8 L582.7,329.9 L569.9,332.7 L567.2,343.2 L556.1,349.1 L549.5,355.4 L536.8,351.6 L527.0,342.7 L522.4,356.1 L513.4,364.7 L499.5,354.7 L487.1,367.1 L473.8,372.1 L464.5,367.2 L444.1,367.7 L429.8,366.3 L417.9,373.1 L404.3,378.4 L405.0,392.8 L399.0,409.1 L413.5,413.7 L406.8,427.6 L403.3,437.3 L403.9,450.0 L386.2,458.8 L369.3,454.0 L369.5,467.9 L390.4,476.3 L400.4,490.1 L400.4,505.8 L392.4,510.6 L387.5,519.5 L397.0,522.1 L397.3,534.1 L397.7,545.6 L394.7,558.5 L391.0,573.1 L391.9,591.4 L385.0,605.5 L373.7,595.7 L366.8,599.2 L351.7,600.2 L341.8,611.5 L329.8,600.5 L295.3,595.1 L292.5,583.4 L289.8,571.1 L283.6,566.5 L276.0,578.1 L263.6,569.1 L245.7,571.2 L226.7,577.7 L227.5,567.0 L214.0,555.6 L202.4,554.4 L196.4,539.9 L187.4,532.1 L194.5,515.0 L199.3,504.9 L196.7,492.9 L192.6,478.2 L185.5,468.6 L181.8,457.2 L188.8,446.4 L199.6,447.8 L215.7,454.6 L219.5,436.9 L210.1,429.3 L206.5,417.0 L213.3,407.9 L207.9,398.6 L196.1,393.1 L184.5,388.3 L175.6,390.9 L165.3,386.3 L166.6,379.3 L156.4,370.1 L159.4,352.9 L155.1,342.7 L139.9,336.3 L132.0,322.9 L125.2,307.6 L113.5,300.9 L101.9,300.5 L88.6,306.9 L75.2,307.4 L65.1,301.2 L46.4,293.4 L36.6,289.2 L21.0,286.5 L16.1,275.8 L12.0,265.3 L20.3,262.3 L30.4,244.9 L23.9,233.4 L35.6,225.5 L33.1,214.5 L39.7,199.6 L51.5,200.1 L45.1,180.7 L38.3,173.1 L43.6,164.2 L49.0,160.2 L39.4,142.8 L59.0,138.7 L64.5,133.6 L75.4,137.0 L70.5,118.8 L69.6,100.7 L79.4,95.2 L98.7,93.7 L104.9,78.7 L108.7,84.9 L128.4,89.3 L140.4,88.5 L151.9,90.9 L172.7,92.7 L179.0,84.8 L190.6,68.9 L213.8,69.8 L226.4,56.9 L246.1,53.9 L256.6,51.3 L264.5,41.6 L280.5,46.7 L293.5,36.2 L314.5,24.2 L333.9,23.9 L349.7,12.0 L363.1,12.1 L366.0,28.8 L370.4,43.0 L382.6,51.9 L369.6,56.9 L367.3,65.5 L372.7,77.3 L376.4,94.4 L398.7,109.0 L409.4,111.0 L410.6,116.8 L411.6,131.5 L422.4,134.7 L426.4,144.0 L422.8,157.7 L434.8,165.5 L448.3,162.5 L459.8,158.1 L468.2,162.6 L464.1,180.2 L471.9,191.1 L479.5,182.1 L488.7,190.9 L488.7,205.1 L483.4,223.0 L492.5,233.8 L500.9,245.3 L504.4,257.5 Z",
-    cities: [
-      {n:"Warszawa",x:274,y:315,lat:52.23,lon:21.01},
-      {n:"Płock",x:78,y:238,lat:52.55,lon:19.7},
-      {n:"Ciechanów",x:215,y:157,lat:52.88,lon:20.62},
-      {n:"Ostrołęka",x:359,y:109,lat:53.08,lon:21.58},
-      {n:"Siedlce",x:466,y:330,lat:52.17,lon:22.29},
-      {n:"Radom",x:295,y:517,lat:51.4,lon:21.15}
-    ]
-  }
-};
-const TEMP_STOPS = [[-10,[123,104,238]],[0,[65,105,225]],[5,[74,144,217]],[10,[60,180,196]],[15,[60,179,113]],[20,[164,201,60]],[24,[244,208,63]],[28,[243,156,18]],[32,[231,76,60]],[38,[192,40,40]]];
-function tempColor(t){
-  let a = TEMP_STOPS[0], b = TEMP_STOPS[TEMP_STOPS.length-1];
-  for (let i=0;i<TEMP_STOPS.length-1;i++) if (t >= TEMP_STOPS[i][0] && t <= TEMP_STOPS[i+1][0]) { a = TEMP_STOPS[i]; b = TEMP_STOPS[i+1]; break; }
-  if (t <= a[0]) return `rgb(${a[1].join(",")})`; if (t >= b[0]) return `rgb(${b[1].join(",")})`;
-  const f = (t - a[0]) / (b[0] - a[0]);
-  return `rgb(${a[1].map((c,i)=>Math.round(c+(b[1][i]-c)*f)).join(",")})`;
-}
-const wxCat = c => [95,96,99].includes(c) ? "storm" : [51,53,55,61,63,65,80,81,82].includes(c) ? "rain" : [71,73,75].includes(c) ? "snow" : [0,1].includes(c) ? "sun" : "cloud";
-function wxIcon(kind, x, y, beg){
-  if (kind === "sun") return `<g><circle cx="${x}" cy="${y}" r="10" fill="#f4b942" opacity="0.3"><animate attributeName="r" values="10;13;10" dur="3s" repeatCount="indefinite"/></circle><g><animateTransform attributeName="transform" type="rotate" from="0 ${x} ${y}" to="360 ${x} ${y}" dur="18s" repeatCount="indefinite"/><line x1="${x-9}" y1="${y}" x2="${x-12}" y2="${y}" stroke="#e8a020" stroke-width="2" stroke-linecap="round"/><line x1="${x+9}" y1="${y}" x2="${x+12}" y2="${y}" stroke="#e8a020" stroke-width="2" stroke-linecap="round"/><line x1="${x}" y1="${y-9}" x2="${x}" y2="${y-12}" stroke="#e8a020" stroke-width="2" stroke-linecap="round"/><line x1="${x}" y1="${y+9}" x2="${x}" y2="${y+12}" stroke="#e8a020" stroke-width="2" stroke-linecap="round"/></g><circle cx="${x}" cy="${y}" r="5.5" fill="#f4b942"/></g>`;
-  const wet = (kind === "rain" || kind === "storm");
-  const f = wet ? 1.45 : 1;
-  const cf = kind === "storm" ? "#7e8a99" : wet ? "#a9b4c0" : "#c2cad4";
-  let s = `<g><animateTransform attributeName="transform" type="translate" values="-3 0;3 0;-3 0" dur="6s" begin="${beg}s" repeatCount="indefinite"/>
-    <ellipse cx="${x-4*f}" cy="${y}" rx="${9*f}" ry="${5.5*f}" fill="${cf}"/>
-    <ellipse cx="${x+5*f}" cy="${y+1}" rx="${8*f}" ry="${5*f}" fill="${cf}" opacity="0.92"/>
-    <ellipse cx="${x}" cy="${y-3*f}" rx="${7*f}" ry="${4.5*f}" fill="${cf}" opacity="0.85"/></g>`;
-  if (wet) for (let j=0;j<4;j++) s += `<g opacity="0"><animateTransform attributeName="transform" type="translate" values="0 0;0 26" dur="1.05s" begin="${(j*0.26+beg%1).toFixed(2)}s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.95;0" dur="1.05s" begin="${(j*0.26+beg%1).toFixed(2)}s" repeatCount="indefinite"/><line x1="${x-10+j*7}" y1="${y+11}" x2="${x-12+j*7}" y2="${y+19}" stroke="var(--wx-rain)" stroke-width="2.4" stroke-linecap="round"/></g>`;
-  if (kind === "storm") s += `<path d="M${x-1},${y+7} l4,0 l-3,6 l5,-1 l-8,10 l2,-7 l-4,0 z" fill="#fab219" opacity="0"><animate attributeName="opacity" values="0;0;1;0.2;1;0;0" dur="3s" begin="${beg}s" repeatCount="indefinite"/></path>`;
-  if (kind === "snow") for (let j=0;j<3;j++) s += `<circle cx="${x-6+j*6}" cy="${y+10}" r="1.6" fill="#eef4f8" opacity="0"><animateTransform attributeName="transform" type="translate" values="0 0;${j%2?3:-3} 18" dur="2.4s" begin="${(j*0.6+beg).toFixed(1)}s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.9;0" dur="2.4s" begin="${(j*0.6+beg).toFixed(1)}s" repeatCount="indefinite"/></circle>`;
-  return s;
-}
-const wxMapCache = {};
-async function fetchMap(kind){
-  if (wxMapCache[kind]) return wxMapCache[kind];
-  const cfg = WXMAPS[kind];
-  const lats = cfg.cities.map(c=>c.lat).join(","), lons = cfg.cities.map(c=>c.lon).join(",");
-  const r = await fetch(`https://api.open-meteo.com/v1/forecast?latitude=${lats}&longitude=${lons}&daily=temperature_2m_max,temperature_2m_min,weather_code&hourly=temperature_2m,weather_code&timezone=Europe%2FWarsaw&forecast_days=3`);
-  if (!r.ok) throw new Error("HTTP " + r.status);
-  let j = await r.json();
-  if (!Array.isArray(j)) j = [j];
-  wxMapCache[kind] = j;
-  return j;
-}
-async function renderWxMap(kind){
-  const cfg = WXMAPS[kind];
-  document.getElementById("wx-map-title-txt").textContent = `Mapa pogody — ${cfg.title}`;
-  const host = document.getElementById("wx-map-svg");
-  host.innerHTML = `<div class="empty">Pobieram dane pogodowe dla ${cfg.cities.length} miast…</div>`;
-  try {
-    const data = await fetchMap(kind);
-    const CY = 12, days = data[0].daily.time;
-    const dayLabel = (iso,i) => (i===0?"DZIŚ · ":i===1?"JUTRO · ":"") + new Intl.DateTimeFormat("pl-PL",{weekday:"long",day:"numeric",month:"numeric"}).format(new Date(iso+"T12:00:00")).toUpperCase();
-    // fazy dobowe zsynchronizowane z wędrówką słońca i nocnym przyciemnieniem
-    const PHASES = [
-      {name:"rano",      hour:7,  a:0,    b:0.25},
-      {name:"południe",  hour:13, a:0.25, b:0.62},
-      {name:"wieczór",   hour:19, a:0.62, b:0.82},
-      {name:"noc",       hour:23, a:0.82, b:1}
-    ];
-    // płynne przenikanie faz (ramp 0.03 cyklu ≈ 0,36 s)
-    const R = 0.03;
-    const phAnim = (a,b) => {
-      if (a === 0) return `<animate attributeName="opacity" values="1;1;0;0" keyTimes="0;${(b-R).toFixed(3)};${(b+R).toFixed(3)};1" dur="${CY}s" repeatCount="indefinite"/>`;
-      if (b >= 1)  return `<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;${(a-R).toFixed(3)};${(a+R).toFixed(3)};1" dur="${CY}s" repeatCount="indefinite"/>`;
-      return `<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;${(a-R).toFixed(3)};${(a+R).toFixed(3)};${(b-R).toFixed(3)};${(b+R).toFixed(3)};1" dur="${CY}s" repeatCount="indefinite"/>`;
-    };
-    const hourVal = (ci, arr, di, hour) => { const j = data[ci].hourly && data[ci].hourly[arr] ? data[ci].hourly[arr][di*24+hour] : null; return (j === null || j === undefined) ? null : j; };
-    let groups = "";
-    for (let di=0; di<3; di++){
-      let g = `<g opacity="${di===0?1:0}"><animate attributeName="opacity" values="${[0,1,2].map(k=>k===di?1:0).join(";")};${di===0?1:0}" keyTimes="0;0.3333;0.6667;1" dur="${3*CY}s" calcMode="discrete" repeatCount="indefinite"/>`;
-      g += `<text x="${cfg.vw/2}" y="42" text-anchor="middle" font-size="24" font-weight="700" fill="var(--ink-1)" font-family="Georgia,serif">${dayLabel(days[di],di)}</text>`;
-      for (const ph of PHASES){
-        let p = `<g opacity="0">${phAnim(ph.a, ph.b)}`;
-        p += `<g clip-path="url(#mclip)" filter="url(#mblur)">`;
-        cfg.cities.forEach((c,ci)=>{
-          const t = hourVal(ci, "temperature_2m", di, ph.hour) ?? data[ci].daily.temperature_2m_max[di];
-          p += `<circle cx="${c.x}" cy="${c.y}" r="${cfg.heatR}" fill="${tempColor(t)}" opacity="0.6"/>`;
-        });
-        p += `</g>`;
-        p += `<text x="${cfg.vw/2}" y="64" text-anchor="middle" font-size="12.5" font-weight="700" fill="var(--ink-2)" letter-spacing="2" style="text-transform:uppercase">${ph.name} · ${String(ph.hour).padStart(2,"0")}:00</text>`;
-        cfg.cities.forEach((c,ci)=>{
-          const code = hourVal(ci, "weather_code", di, ph.hour) ?? data[ci].daily.weather_code[di];
-          const t = hourVal(ci, "temperature_2m", di, ph.hour) ?? data[ci].daily.temperature_2m_max[di];
-          p += wxIcon(wxCat(code), c.x, c.y-18, ci*0.4);
-          p += `<text x="${c.x}" y="${c.y+14}" text-anchor="middle" font-size="15" font-weight="800" fill="#1c262e" style="paint-order:stroke" stroke="rgba(255,255,255,0.75)" stroke-width="3">${Math.round(t)}°</text>`;
-        });
-        p += `</g>`;
-        g += p;
-      }
-      cfg.cities.forEach(c => { g += `<text x="${c.x}" y="${c.y+28}" text-anchor="middle" font-size="9.5" fill="#2c3942" style="paint-order:stroke" stroke="rgba(255,255,255,0.6)" stroke-width="2.5">${c.n}</text>`; });
-      g += `</g>`;
-      groups += g;
-    }
-    const daynight = `
-      <rect x="0" y="0" width="${cfg.vw}" height="${cfg.vh}" fill="#1a2740" opacity="0" style="pointer-events:none"><animate attributeName="opacity" values="0.30;0.10;0;0;0.10;0.40;0.30" keyTimes="0;0.08;0.2;0.62;0.75;0.9;1" dur="${CY}s" repeatCount="indefinite"/></rect>
-      <rect x="0" y="0" width="${cfg.vw}" height="${cfg.vh}" fill="#f08c5a" opacity="0" style="pointer-events:none"><animate attributeName="opacity" values="0;0.12;0;0;0.14;0;0" keyTimes="0;0.1;0.22;0.6;0.78;0.88;1" dur="${CY}s" repeatCount="indefinite"/></rect>
-      <g opacity="0.95">
-        <animateMotion path="M -40,${cfg.vh-40} Q ${cfg.vw/2},-60 ${cfg.vw+40},${cfg.vh-40}" dur="${CY}s" repeatCount="indefinite"/>
-        <circle r="22" fill="#f4b942" opacity="0.22"><animate attributeName="r" values="22;28;22" dur="3s" repeatCount="indefinite"/></circle>
-        <g><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="14s" repeatCount="indefinite"/><line x1="12.0" y1="0.0" x2="17.0" y2="0.0" stroke="#e8a020" stroke-width="2.6" stroke-linecap="round"/><line x1="8.5" y1="8.5" x2="12.0" y2="12.0" stroke="#e8a020" stroke-width="2.6" stroke-linecap="round"/><line x1="0.0" y1="12.0" x2="0.0" y2="17.0" stroke="#e8a020" stroke-width="2.6" stroke-linecap="round"/><line x1="-8.5" y1="8.5" x2="-12.0" y2="12.0" stroke="#e8a020" stroke-width="2.6" stroke-linecap="round"/><line x1="-12.0" y1="0.0" x2="-17.0" y2="0.0" stroke="#e8a020" stroke-width="2.6" stroke-linecap="round"/><line x1="-8.5" y1="-8.5" x2="-12.0" y2="-12.0" stroke="#e8a020" stroke-width="2.6" stroke-linecap="round"/><line x1="-0.0" y1="-12.0" x2="-0.0" y2="-17.0" stroke="#e8a020" stroke-width="2.6" stroke-linecap="round"/><line x1="8.5" y1="-8.5" x2="12.0" y2="-12.0" stroke="#e8a020" stroke-width="2.6" stroke-linecap="round"/></g>
-        <circle r="9" fill="#f4b942" stroke="#e8a020" stroke-width="1.5"/>
-        <circle r="4" cx="-2.5" cy="-2.5" fill="#f9d77a" opacity="0.8"/>
-      </g>
-      <g opacity="0"><animate attributeName="opacity" values="0.9;0;0;0;0;0.9;0.9" keyTimes="0;0.12;0.2;0.6;0.8;0.93;1" dur="${CY}s" repeatCount="indefinite"/>
-        <circle cx="${cfg.vw-60}" cy="70" r="11" fill="#e8e4d4"/><circle cx="${cfg.vw-66}" cy="66" r="9" fill="var(--surface)"/>
-        <circle cx="70" cy="66" r="1.8" fill="#fff"><animate attributeName="opacity" values="0.2;1;0.2" dur="2s" repeatCount="indefinite"/></circle>
-        <circle cx="130" cy="100" r="1.5" fill="#fff"><animate attributeName="opacity" values="1;0.2;1" dur="2.6s" repeatCount="indefinite"/></circle>
-        <circle cx="${cfg.vw-130}" cy="120" r="1.6" fill="#fff"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.2s" repeatCount="indefinite"/></circle></g>`;
-    host.innerHTML = `<svg viewBox="0 0 ${cfg.vw} ${cfg.vh}" role="img" aria-label="Animowana mapa pogody — ${cfg.title}">
-      <defs><clipPath id="mclip"><path d="${cfg.path}"/></clipPath><filter id="mblur" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="22"/></filter></defs>
-      <path d="${cfg.path}" fill="#e9e2cf" stroke="none"/>
-      ${groups}
-      <path d="${cfg.path}" fill="none" stroke="var(--ink-2)" stroke-width="2.5" stroke-linejoin="round" opacity="0.7"/>
-      ${daynight}
-    </svg>`;
-    const lg = document.getElementById("wx-map-legend");
-    lg.innerHTML = `<span class="lgl">°C:</span>` + [0,5,10,15,20,25,30,35].map(t=>`<span class="lgc" style="background:${tempColor(t)}">${t}</span>`).join("") +
-      `<span class="lgn">temperatury godzinowe (7:00 / 13:00 / 19:00 / 23:00) · cykl: rano → południe → wieczór → noc → kolejny dzień</span>`;
-  } catch(e) { host.innerHTML = `<div class="empty">Mapa pogody niedostępna (${e.message}) — sprawdź połączenie z internetem.</div>`; }
-}
-
 // ===================== POGODA (Open-Meteo, na żywo) =====================
 const WMO = {0:["☀️","bezchmurnie"],1:["🌤️","przeważnie słonecznie"],2:["⛅","częściowe zachmurzenie"],3:["☁️","pochmurno"],45:["🌫️","mgła"],48:["🌫️","szadź"],51:["🌦️","mżawka"],53:["🌦️","mżawka"],55:["🌧️","gęsta mżawka"],61:["🌧️","lekki deszcz"],63:["🌧️","deszcz"],65:["🌧️","ulewa"],71:["🌨️","lekki śnieg"],73:["🌨️","śnieg"],75:["❄️","śnieżyca"],80:["🌦️","przelotne opady"],81:["🌧️","przelotny deszcz"],82:["⛈️","gwałtowne opady"],95:["⛈️","burza"],96:["⛈️","burza z gradem"],99:["⛈️","burza z gradem"]};
 const wmo = c => WMO[c] || ["🌡️",""];
@@ -1338,9 +1194,10 @@ function renderWeather(cur, daily){
   const dayName = (iso,i) => i===0 ? "Dziś" : i===1 ? "Jutro" : new Intl.DateTimeFormat("pl-PL",{weekday:"short"}).format(new Date(iso+"T12:00:00"));
   const n = daily.time.length;
   document.getElementById("wx-days").innerHTML = [0,1].map(i =>
-    `<span>${wmo(daily.weathercode ? daily.weathercode[i] : daily.weather_code[i])[0]} <b>${dayName(daily.time[i],i)}:</b> ${Math.round(daily.temperature_2m_min[i])}° / <b>${Math.round(daily.temperature_2m_max[i])}°</b>${daily.precipitation_sum[i] >= 0.1 ? " · ☔ " + daily.precipitation_sum[i].toFixed(1) + " mm" : ""}</span>`).join("");
+    `<span>${wmo(daily.weathercode ? daily.weathercode[i] : daily.weather_code[i])[0]} <b>${dayName(daily.time[i],i)}:</b> <b>${Math.round(daily.temperature_2m_max[i])}°</b> / ${Math.round(daily.temperature_2m_min[i])}°${daily.precipitation_sum[i] >= 0.1 ? " · ☔ " + daily.precipitation_sum[i].toFixed(1) + " mm" : ""}</span>`).join("");
   // wykres SVG: linie temp max/min + słupki opadów
-  const W=640, H=232, padL=30, padR=14, padT=18, padB=62;
+  // szerokość układu = szerokość panelu (330–640): na telefonie napisy osi zachowują czytelny rozmiar zamiast skalować się w dół
+  const W=Math.max(330, Math.min(640, Math.round(document.getElementById("wx-chart").clientWidth || 640))), H=232, padL=30, padR=14, padT=18, padB=62;
   const xs = i => padL + i * (W-padL-padR) / (n-1);
   const tmax = daily.temperature_2m_max, tmin = daily.temperature_2m_min, rain = daily.precipitation_sum;
   const tHi = Math.ceil(Math.max(...tmax)+1), tLo = Math.floor(Math.min(...tmin)-1);
@@ -1433,7 +1290,11 @@ function renderToday(){
   document.getElementById("dl-today").textContent =
     label + " · 🎂 imieniny obchodzą: " + njoin;
   const ed = document.getElementById("dl-edition");
-  const pub = new Date(ed.dataset.pub + ":00+02:00");
+  // data-pub to czas warszawski bez strefy: przesunięcie (CET zimą, CEST latem) liczymy dla tej daty,
+  // zamiast wpisywać je na sztywno — inaczej po zmianie czasu wiek wydania myli się o godzinę.
+  const asUtc = new Date(ed.dataset.pub + ":00Z");
+  const wallMs = t => new Date(asUtc.toLocaleString("en-US", { timeZone: t })).getTime();
+  const pub = new Date(asUtc.getTime() - (wallMs("Europe/Warsaw") - wallMs("UTC")));
   const stale = now - pub > 26 * 3600 * 1000;
   let nx = ed.querySelector(".nextissue");
   if (stale && !nx) {

@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jak powstaje wydanie — News ITSPACE</title>
+<meta name="description" content="Droga wiadomości od źródła do wydania: agenci AI przeszukujący zaufane redakcje, niezależna weryfikacja, skład czołówki, publikacja i zespół, który pilnuje każdego wydania gazety News ITSPACE.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://news.itspace.com.pl/redakcja">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="News ITSPACE">
+<meta property="og:title" content="Jak powstaje wydanie — News ITSPACE">
+<meta property="og:description" content="Droga wiadomości od źródła do wydania: kto szuka, kto sprawdza, kto składa i kto pilnuje.">
+<meta property="og:url" content="https://news.itspace.com.pl/redakcja">
+<meta property="og:image" content="https://news.itspace.com.pl/jak-powstaje-wydanie.jpg">
+<meta property="og:video" content="https://news.itspace.com.pl/jak-powstaje-wydanie.mp4">
+<meta property="og:video:type" content="video/mp4">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"VideoObject","name":"Jak powstaje wydanie News ITSPACE","description":"Droga wiadomości od źródła do wydania: źródła, reporterzy, redakcja, drugi strażnik, podsumowanie dnia, redaktor naczelny i publikacja. Obraz i głos wygenerowane przez AI.","thumbnailUrl":"https://news.itspace.com.pl/jak-powstaje-wydanie.jpg","contentUrl":"https://news.itspace.com.pl/jak-powstaje-wydanie.mp4","uploadDate":"2026-11-15","duration":"PT53S","inLanguage":"pl"}</script>
+<style>
+/* Tokeny skopiowane z index.html gazety — ta strona ma wyglądać jak jej część.
+   Zmieniasz paletę gazety? Zmień ją także tutaj. */
+:root{
+  --page:#07080c; --surface:rgba(255,255,255,.045); --solid:#12141b;
+  --ink-1:#f0f2f6; --ink-2:#9ba4b4; --ink-3:#7b8392;
+  --hairline:rgba(255,255,255,.09); --border:rgba(255,255,255,.16);
+  --accent:#8b93ff; --accent-2:#22d3ee;
+  --a-btn:linear-gradient(120deg,#5a55f0,#4840d8);
+  --grad:linear-gradient(100deg,#8b93ff,#22d3ee);
+  --crit:#ff4d6d; --warn:#ffb340; --good:#34d399;
+  --crit-bg:rgba(255,77,109,.14); --good-bg:rgba(52,211,153,.13);
+  --chip-bg:rgba(255,255,255,.07); --r:22px;
+}
+@media (prefers-color-scheme: light){
+  :root{
+    --page:#f4f5fa; --surface:rgba(255,255,255,.78); --solid:#ffffff;
+    --ink-1:#0d1020; --ink-2:#525b70; --ink-3:#636c7f;
+    --hairline:rgba(15,20,40,.10); --border:rgba(15,20,40,.18);
+    --accent:#4338ca; --accent-2:#0e7490;
+    --a-btn:linear-gradient(120deg,#4f46e5,#3f37bf);
+    --grad:linear-gradient(100deg,#4f46e5,#0891b2);
+    --crit:#c2183c; --warn:#8a5200; --good:#047857;
+    --crit-bg:rgba(194,24,60,.10); --good-bg:rgba(4,120,87,.10);
+    --chip-bg:rgba(15,20,40,.055);
+  }
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;min-height:100vh;background:var(--page);color:var(--ink-1);
+  font-family:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  font-size:16px;line-height:1.55;-webkit-font-smoothing:antialiased}
+body::before{content:"";position:fixed;inset:-28% -12% auto -12%;height:760px;pointer-events:none;z-index:0;
+  background:radial-gradient(46% 44% at 20% 28%,color-mix(in srgb,var(--accent) 30%,transparent),transparent 70%),
+             radial-gradient(40% 38% at 80% 16%,color-mix(in srgb,var(--accent-2) 22%,transparent),transparent 70%);
+  filter:blur(30px);opacity:.6}
+h1,h2,h3{margin:0;font-weight:790;letter-spacing:-.03em;line-height:1.12}
+p{margin:0}
+a{color:inherit}
+button{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--accent-2);outline-offset:3px;border-radius:6px}
+.wrap{position:relative;z-index:1;max-width:1200px;margin:0 auto;padding:0 22px 80px}
+
+/* pasek górny */
+.top{display:flex;justify-content:space-between;align-items:center;gap:14px;flex-wrap:wrap;padding:18px 0}
+.brand{display:inline-flex;align-items:center;gap:9px;font-weight:770;font-size:14.5px;text-decoration:none;letter-spacing:.01em}
+.brand::before{content:"";width:9px;height:9px;border-radius:50%;background:var(--grad)}
+.back{border:1px solid var(--hairline);background:var(--surface);border-radius:14px;padding:9px 15px;
+  font-size:13.5px;font-weight:650;text-decoration:none;color:var(--ink-2)}
+.back:hover{color:var(--ink-1);border-color:var(--border)}
+
+/* nagłówek */
+.lead{padding:38px 0 26px;max-width:860px}
+.lead h1{font-size:clamp(32px,5.2vw,58px);letter-spacing:-.042em;font-weight:810;line-height:1.04}
+.lead p{margin-top:16px;color:var(--ink-2);font-size:17px;max-width:62ch}
+.edition{margin-top:20px;display:inline-flex;flex-wrap:wrap;align-items:baseline;gap:6px 14px;
+  border:1px solid var(--hairline);background:var(--surface);border-radius:16px;padding:11px 16px;font-size:14px;color:var(--ink-2)}
+.edition b{color:var(--ink-1);font-weight:740}
+.edition .age{color:var(--ink-3)}
+
+/* ===== film ===== */
+.film{margin-bottom:26px}
+.film h2{font-size:19px;margin-bottom:12px}
+.film video{display:block;width:100%;max-width:960px;aspect-ratio:16/9;border-radius:var(--r);border:1px solid var(--hairline);background:#000}
+.film p{margin-top:10px}
+
+/* ===== scena: hala redakcji ===== */
+.scene{position:relative;border:1px solid var(--hairline);background:var(--surface);border-radius:var(--r);padding:22px 20px 20px;overflow:hidden}
+.scenehead{display:flex;justify-content:space-between;align-items:center;gap:12px 18px;flex-wrap:wrap;margin-bottom:16px}
+.scenehead h2{font-size:19px}
+.ctrl{display:flex;gap:8px;flex-wrap:wrap}
+.btn{border:1px solid var(--hairline);background:var(--chip-bg);border-radius:12px;padding:8px 14px;font-size:13.5px;font-weight:650;cursor:pointer}
+.btn:hover{border-color:var(--border)}
+.btn.primary{background:var(--a-btn);border-color:transparent;color:#fff;min-width:104px}
+/* Hala jest ciemna w obu motywach — to „pomieszczenie”, nie element interfejsu. Kolory napisów są tu stałe. */
+.hallwrap{position:relative;border-radius:16px;overflow:hidden;background:#04060b;aspect-ratio:16/9;border:1px solid rgba(255,255,255,.08)}
+.hallwrap canvas{display:block;width:100%;height:100%}
+.cap{position:absolute;left:0;right:0;bottom:0;padding:38px 18px 14px;pointer-events:none;color:#eef2ff;
+  background:linear-gradient(180deg,rgba(4,6,11,0),rgba(4,6,11,.88) 62%)}
+.cap .cstage{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 12px}
+.cap .cname{font-size:clamp(17px,2.3vw,25px);font-weight:790;letter-spacing:-.03em;line-height:1.15}
+.cap .cwho{font-size:13.5px;color:#aab4c8}
+.cap .cline{margin-top:5px;font-size:13px;color:#93a0b8;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-height:1.5em}
+.cap .cline b{color:#22d3ee;font-weight:650}
+.chips{display:flex;flex-wrap:wrap;gap:8px;list-style:none;margin:14px 0 0;padding:0}
+.chip{display:inline-flex;align-items:center;gap:8px;border:1px solid var(--hairline);background:var(--solid);border-radius:12px;
+  padding:8px 13px 8px 9px;font-size:13.5px;font-weight:680;cursor:pointer;min-height:40px}
+.chip:hover{border-color:var(--border)}
+.chip .n{display:inline-grid;place-items:center;width:22px;height:22px;border-radius:7px;background:var(--chip-bg);font-size:12px;font-variant-numeric:tabular-nums;color:var(--ink-2)}
+.chip[aria-pressed="true"]{border-color:var(--accent);box-shadow:0 0 0 1px var(--accent) inset}
+.chip[aria-pressed="true"] .n{background:var(--a-btn);color:#fff}
+.legend{display:flex;gap:8px 18px;flex-wrap:wrap;margin-top:14px;font-size:12.5px;color:var(--ink-3)}
+.legend span{display:inline-flex;align-items:center;gap:7px}
+.legend i{width:10px;height:10px;border-radius:50%;display:inline-block;flex:none}
+.detail{margin-top:16px;border-top:1px solid var(--hairline);padding-top:18px;display:grid;grid-template-columns:minmax(0,1.5fr) minmax(0,1fr);gap:14px 34px}
+.detail h3{font-size:21px}
+.detail .role{margin-top:4px;color:var(--ink-3);font-size:13.5px}
+.detail .dfact{margin-top:12px;font-size:14px;color:var(--ink-2)}
+.detail .dfact b{font-size:26px;letter-spacing:-.03em;color:var(--ink-1);margin-right:8px;font-variant-numeric:tabular-nums}
+.detail p.body{margin-top:10px;color:var(--ink-2);font-size:15.5px;max-width:64ch}
+.detail ul{margin:0;padding:0;list-style:none;display:grid;gap:9px;align-content:start}
+.detail li{font-size:14px;color:var(--ink-2);padding-left:18px;position:relative;line-height:1.45}
+.detail li::before{content:"";position:absolute;left:0;top:.6em;width:7px;height:7px;border-radius:50%;background:var(--accent)}
+.detail li.stopper::before{background:var(--crit)}
+
+/* ===== sekcje ===== */
+.block{margin-top:44px}
+.block>h2{font-size:clamp(22px,2.6vw,29px)}
+.block>.intro{margin-top:8px;color:var(--ink-2);max-width:66ch}
+.status{margin-top:18px;border:1px solid var(--hairline);background:var(--surface);border-radius:16px;padding:14px 18px;font-size:15.5px}
+.status b{font-weight:740}
+/* oś dnia */
+.day{position:relative;margin-top:16px;border:1px solid var(--hairline);background:var(--surface);border-radius:var(--r);padding:26px 22px 18px}
+.axis{position:relative;height:74px;margin:0 6px}
+.axis .line{position:absolute;left:0;right:0;top:36px;height:2px;background:var(--hairline)}
+.axis .win{position:absolute;top:29px;height:16px;border-radius:8px;background:color-mix(in srgb,var(--accent) 34%,transparent)}
+.axis .hr{position:absolute;top:44px;transform:translateX(-50%);font-size:11px;color:var(--ink-3);font-variant-numeric:tabular-nums}
+.axis .hr::before{content:"";position:absolute;left:50%;top:-10px;width:1px;height:6px;background:var(--border)}
+.axis .ev{position:absolute;top:30px;width:14px;height:14px;margin-left:-7px;border-radius:50%;background:var(--solid);border:2px solid var(--accent-2)}
+.axis .ev.audit{border-color:var(--good)}
+.axis .nowm{position:absolute;top:8px;bottom:8px;width:2px;margin-left:-1px;background:var(--crit);border-radius:2px}
+.axis .nowm::before{content:"teraz";position:absolute;top:-16px;left:50%;transform:translateX(-50%);font-size:11px;font-weight:700;color:var(--crit)}
+.axis .nowm.off{display:none}
+.watch{margin:14px 0 0;padding:0;list-style:none;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(250px,100%),1fr));gap:12px}
+.watch li{border:1px solid var(--hairline);background:var(--solid);border-radius:16px;padding:14px 16px}
+.watch .when{font-size:13px;font-weight:740;color:var(--accent-2);font-variant-numeric:tabular-nums}
+.watch h3{margin-top:3px;font-size:15.5px;letter-spacing:-.015em}
+.watch p{margin-top:6px;font-size:13.5px;color:var(--ink-2);line-height:1.45}
+/* liczby wydania */
+.nums{margin-top:16px;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(270px,100%),1fr));gap:12px}
+.panel{border:1px solid var(--hairline);background:var(--surface);border-radius:var(--r);padding:18px 20px}
+.panel h3{font-size:15.5px;letter-spacing:-.015em}
+.bars{margin:12px 0 0;padding:0;list-style:none;display:grid;gap:9px}
+.bars li{display:grid;grid-template-columns:minmax(96px,46%) 1fr auto;gap:10px;align-items:center;font-size:13.5px}
+.bars .lbl{color:var(--ink-2);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.bars .trk{height:8px;border-radius:5px;background:var(--chip-bg);overflow:hidden}
+.bars .fill{display:block;height:100%;border-radius:5px;background:var(--grad);width:0;transition:width .8s cubic-bezier(.2,.7,.2,1)}
+.bars .val{font-weight:740;font-variant-numeric:tabular-nums;min-width:2ch;text-align:right}
+.tops{margin:12px 0 0;padding-left:22px;display:grid;gap:8px;font-size:14.5px;color:var(--ink-2)}
+.tops li::marker{color:var(--ink-3);font-weight:700}
+.panel.wide{grid-column:1/-1}
+.muted{color:var(--ink-3);font-size:13.5px}
+/* zasady */
+.rules{margin:16px 0 0;padding:0;list-style:none;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(300px,100%),1fr));gap:14px 34px}
+.rules li{border-top:1px solid var(--hairline);padding-top:14px}
+.rules h3{font-size:16.5px;letter-spacing:-.02em}
+.rules p{margin-top:6px;color:var(--ink-2);font-size:14.5px}
+.who2{margin-top:16px;border:1px solid var(--hairline);background:var(--surface);border-radius:var(--r);padding:20px 22px;color:var(--ink-2);max-width:900px}
+.who2 p+p{margin-top:10px}
+.who2 b{color:var(--ink-1)}
+footer{margin-top:46px;padding-top:18px;border-top:1px solid var(--hairline);color:var(--ink-3);font-size:13px;display:flex;gap:10px 22px;flex-wrap:wrap;justify-content:space-between}
+footer a{color:var(--ink-2)}
+
+/* tryb pokazu (adres z ?pokaz): sama hala na cały ekran, napisy zamiast paska wydania */
+.exit{display:none}
+.pokaz{overflow:hidden}
+.pokaz .wrap>*:not(.scene), .pokaz .scene>*:not(.hallwrap){display:none}
+.pokaz .wrap{max-width:none;padding:0}
+.pokaz .scene{border:0;padding:0;border-radius:0;background:none}
+.pokaz .hallwrap{position:fixed;inset:0;aspect-ratio:auto;border:0;border-radius:0}
+.pokaz .cap{padding:9vh 5vw 5vh}
+.pokaz .cap .cname{font-size:clamp(15px,1.5vw,24px);color:#22d3ee;letter-spacing:0}
+.pokaz .cap .cwho{display:none}
+.pokaz .cap .cline{margin-top:.5vh;font-size:clamp(18px,2.35vw,40px);font-weight:650;line-height:1.25;color:#f2f5ff;white-space:normal;max-width:30em;letter-spacing:-.015em}
+.pokaz .exit{display:block;position:absolute;top:14px;right:16px;font-size:13px;font-weight:650;color:#c9d2e6;text-decoration:none;
+  background:rgba(4,6,11,.6);border:1px solid rgba(255,255,255,.18);border-radius:10px;padding:7px 12px}
+.pokaz.nagranie .exit{display:none}
+.pokaz.bez-napisow .cap{display:none}
+
+/* tablet i telefon */
+@media (max-width:1040px){
+  .detail{grid-template-columns:1fr}
+}
+@media (max-width:640px){
+  .wrap{padding:0 14px 60px}
+  .lead{padding-top:22px}
+  .scene{padding:14px 10px}
+  .hallwrap{aspect-ratio:4/5}
+  .cap{padding:34px 12px 12px}
+  .axis .hr.minor{display:none}
+  .day{padding:24px 12px 14px}
+}
+@media (prefers-reduced-motion:reduce){
+  .bars .fill{transition:none}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="top">
+    <a class="brand" href="./">NEWS ITSPACE</a>
+    <a class="back" href="./">Wróć do gazety</a>
+  </div>
+
+  <header class="lead">
+    <h1>Jak powstaje wydanie</h1>
+    <p>Dwa razy dziennie zespół agentów AI przeszukuje zaufane redakcje, sprawdza każdy wpis u źródła i składa wydanie. Poniżej cała droga wiadomości, od artykułu w agencji do tej gazety, razem z miejscami, w których wiadomość może odpaść.</p>
+    <div class="edition" id="edition" aria-live="polite">Wczytuję bieżące wydanie…</div>
+  </header>
+
+  <section class="film" aria-labelledby="film-h">
+    <h2 id="film-h">Film: cała droga w 53 sekundy</h2>
+    <video controls playsinline preload="none" poster="jak-powstaje-wydanie.jpg" src="jak-powstaje-wydanie.mp4" aria-label="Film: jak powstaje wydanie News ITSPACE"></video>
+    <p class="muted">Obraz i głos wygenerowane przez AI. Napisy są w obrazie. Pod filmem ta sama droga na żywo, z liczbami bieżącego wydania.</p>
+  </section>
+
+  <section class="scene" aria-labelledby="scene-h">
+    <div class="scenehead">
+      <h2 id="scene-h">Droga wiadomości przez redakcję</h2>
+      <div class="ctrl">
+        <button class="btn" id="prev" type="button">Poprzedni etap</button>
+        <button class="btn" id="next" type="button">Następny etap</button>
+        <button class="btn primary" id="play" type="button" aria-pressed="true">Zatrzymaj</button>
+        <a class="btn" href="?pokaz" style="text-decoration:none">Pokaz na cały ekran</a>
+      </div>
+    </div>
+    <div class="hallwrap" id="hallwrap">
+      <canvas id="hall" role="img" aria-label="Animowana hala redakcji: strumienie wiadomości płyną od ekranów źródeł przez kolejne stanowiska agentów do gotowego wydania. Opis każdego etapu jest pod animacją."></canvas>
+      <div class="cap" aria-hidden="true">
+        <div class="cstage"><span class="cname" id="cname"></span><span class="cwho" id="cwho"></span></div>
+        <div class="cline" id="cline"></div>
+      </div>
+      <a class="exit" href="redakcja.html">Zamknij pokaz</a>
+    </div>
+    <ol class="chips" id="chips"></ol>
+    <div class="legend" aria-hidden="true">
+      <span><i style="background:#22d3ee"></i>wiadomości w drodze przez redakcję</span>
+      <span><i style="background:#ffb340"></i>przykład wiadomości, która odpada na kontroli</span>
+      <span>Scena jest ilustracją. Liczby i tytuły na tablicach pochodzą z bieżącego wydania.</span>
+    </div>
+    <div class="detail" id="detail" aria-live="polite"></div>
+  </section>
+
+  <section class="block" aria-labelledby="watch-h">
+    <h2 id="watch-h">Kto pilnuje, żeby wydanie wyszło i było poprawne</h2>
+    <p class="intro">Redakcja pracuje według stałego rozkładu dnia. Osobne kontrole sprawdzają ją przed startem, po publikacji i co godzinę, niezależnie od agentów, którzy składają wydanie.</p>
+    <div class="status" id="status" aria-live="polite"></div>
+    <div class="day">
+      <div class="axis" id="axis" role="img" aria-label="Rozkład dnia redakcji od 6:00 do 22:00 czasu warszawskiego"></div>
+      <div class="legend" aria-hidden="true">
+        <span><i style="border:2px solid var(--accent-2)"></i>kontrola przed startem</span>
+        <span><i style="width:22px;border-radius:5px;background:color-mix(in srgb,var(--accent) 34%,transparent)"></i>praca nad wydaniem</span>
+        <span><i style="border:2px solid var(--good)"></i>kontrola dnia</span>
+      </div>
+    </div>
+    <ul class="watch">
+      <li><div class="when">9:00 i 15:00</div><h3>Kontrola przed startem</h3><p>Dwadzieścia minut przed pracą sprawdza, czy redakcja jest włączona i ma właściwy rozkład. Gdy coś się nie zgadza, wydawca dostaje powiadomienie na telefon.</p></li>
+      <li><div class="when">9:20 i 15:20</div><h3>Bramka na wejściu</h3><p>Zanim agenci zaczną szukać, redakcja próbuje zapisu na stronie i dostępu do źródeł. Gdy sieć zawodzi, korzysta z zapasowego zbioru: ponad 30 oficjalnych kanałów RSS redakcji z listy.</p></li>
+      <li><div class="when">17:30</div><h3>Kontrola dnia</h3><p>Sprawdza, czy wyszły oba wydania i czy strona jest cała, a potem otwiera dwa wpisy z Polski i porównuje ich tytuł i opis z artykułem źródłowym. Wynik trafia do wydawcy.</p></li>
+      <li><div class="when">co godzinę</div><h3>Czujnik świeżości</h3><p>Działa poza redakcją. Gdy do 11:15 albo 17:15 na stronie nie ma wydania, które powinno już być, sam zakłada zgłoszenie dla wydawcy i zamyka je, kiedy wydanie wróci.</p></li>
+    </ul>
+  </section>
+
+  <section class="block" aria-labelledby="nums-h">
+    <h2 id="nums-h">Bieżące wydanie w liczbach</h2>
+    <p class="intro" id="nums-intro">Liczby poniżej pochodzą wprost z wydania, które jest teraz na stronie głównej, i zmieniają się z każdym kolejnym.</p>
+    <div class="nums" id="nums"></div>
+  </section>
+
+  <section class="block" aria-labelledby="rules-h">
+    <h2 id="rules-h">Zasady, których agenci nie mogą obejść</h2>
+    <ul class="rules">
+      <li><h3>Tylko to, co jest w źródle</h3><p>Żadnych dopisanych liczb, dat ani nazwisk. Gdy źródło pisze „w ciągu 7 dni”, w gazecie nie pojawi się konkretna data.</p></li>
+      <li><h3>Prawdziwa data publikacji</h3><p>Datę bierze się z artykułu, nie z wyszukiwarki. Wiadomości ogólne mają najwyżej 48 godzin, technologiczne 7 dni, stomatologiczne 14 dni.</p></li>
+      <li><h3>Jawna lista redakcji</h3><p>Agencje prasowe i redakcje z własnym dziennikarstwem, wybrane według pięciu kryteriów opisanych na stronie głównej. Tabloidy, media skrajne i tuby propagandowe nie wchodzą do wydania.</p></li>
+      <li><h3>Drugie źródło dla polityki</h3><p>Wiadomość polityczna trafia do podsumowania dnia dopiero wtedy, gdy to samo wydarzenie potwierdza inna redakcja.</p></li>
+      <li><h3>Lepiej mniej niż zmyślone</h3><p>Wpis, którego nie udało się sprawdzić, wypada. Gdy zostaje mniej niż 20 wpisów, wydanie nie wychodzi.</p></li>
+    </ul>
+  </section>
+
+  <section class="block" aria-labelledby="who-h">
+    <h2 id="who-h">Kto za to odpowiada</h2>
+    <div class="who2">
+      <p><b>Wiadomości wybierają, streszczają i sprawdzają agenci AI.</b> Wydania publikują się automatycznie, bez ręcznego zatwierdzania każdego numeru.</p>
+      <p><b>Zasady ustala wydawca, ITSPACE.</b> To on decyduje o liście źródeł, limitach i regułach weryfikacji, dostaje raport z każdego przebiegu i wynik codziennej kontroli. Każdy wpis prowadzi do artykułu źródłowego, więc zawsze możesz sprawdzić go samodzielnie.</p>
+      <p>Widzisz błąd w wydaniu? Napisz: <a href="mailto:kontakt@itspace.com.pl">kontakt@itspace.com.pl</a>.</p>
+    </div>
+  </section>
+
+  <footer>
+    <span>© ITSPACE. Opis procesu odpowiada zasadom obowiązującym w redakcji od 15 listopada 2026.</span>
+    <a href="./">news.itspace.com.pl</a>
+  </footer>
+</div>
+
+<script>
+"use strict";
+/* ============================================================================================
+   Strona „Jak powstaje wydanie”. Dwie rzeczy są tu prawdziwe, jedna jest ilustracją:
+   • PRAWDZIWE: liczby i nagłówki — czytane na żywo z bieżącego wydania (index.html tej samej domeny);
+   • PRAWDZIWE: etapy, limity i rozkład dnia — odpowiadają zasadom rutyny publikującej;
+   • ILUSTRACJA: żółte znaczniki, które „odpadają” — pokazują powód z zasad, nie konkretny artykuł
+     (redakcja nie publikuje listy odrzuconych wpisów, więc jej tu nie udajemy).
+   ============================================================================================ */
+
+// ---- etapy (kolejność = rzeczywista kolejność pracy nad wydaniem) ----
+const STAGES = [
+  { name:"Źródła", who:"jawna lista redakcji", say:"Zespół agentów AI rozpoczyna pracę. Korzysta tylko z redakcji z jawnej listy zaufanych źródeł.",
+    title:"Źródła: jawna lista redakcji", role:"Skąd agenci w ogóle mogą brać wiadomości",
+    body:"Agenci czytają tylko redakcje z jawnej listy: agencje prasowe, nadawców i serwisy branżowe. Zasada przy powtórzeniach: gdy to samo wydarzenie opisuje kilka redakcji, pierwszeństwo ma agencja przed nadawcą, a nadawca przed portalem. Pełna lista i kryteria doboru są na stronie głównej, w części „Zaufane źródła”.",
+    points:["Świat, Europa, Polska i Warszawa mają osobne listy źródeł.","Technologia i stomatologia mają własne redakcje branżowe.","Dobre wiadomości mają źródła dodatkowe, ocenione według tych samych kryteriów."],
+    fact:d=>d?[d.sources.length,"redakcji w tym wydaniu"]:null },
+  { name:"Reporterzy", who:"agenci przeszukujący sieć", gate:"data starsza niż limit", say:"Reporterzy pobierają wiadomości i odrzucają nieaktualne. Przy każdej otwierają artykuł i sprawdzają prawdziwą datę publikacji.",
+    title:"Reporterzy: agenci przeszukujący sieć", role:"Szukają i ustalają, kiedy naprawdę coś opublikowano",
+    body:"Agenci researchowi przeszukują redakcje z listy, region po regionie i temat po temacie. Przy każdej wiadomości otwierają artykuł źródłowy i ustalają prawdziwą datę publikacji, bo wyszukiwarki potrafią pokazać stary tekst z dzisiejszą datą. Wiadomość starsza niż limit albo bez daty nie przechodzi dalej.",
+    points:["Wiadomości ogólne: najwyżej 48 godzin.","Technologia i AI: najwyżej 7 dni.","Stomatologia i dobre wiadomości: najwyżej 14 dni."],
+    stop:"Odpada: data starsza niż limit albo niemożliwa do ustalenia.",
+    fact:d=>d?[d.total,"wiadomości w tym wydaniu"]:null },
+  { name:"Redakcja", who:"wierność źródłu", gate:"szczegół bez pokrycia w źródle", say:"Wiadomości trafiają do redakcji. Tu niczego się nie dopisuje i niczego nie zmienia. Zostaje tylko to, co jest w źródle.",
+    title:"Redakcja: wierność źródłu", role:"Nic dopisanego, nic zmienionego: tytuł i streszczenie mówią tylko to, co jest w artykule",
+    body:"Po napisaniu wpisu agent zestawia go z artykułem i usuwa wszystko, czego źródło nie potwierdza wprost. Dokładność ma pierwszeństwo przed chwytliwym tytułem.",
+    points:["Bez dopisanych liczb, dat i nazwisk.","Bez zmiany tego, kto do kogo mówi i kto czego żąda.","Bez przymiotników typu „rekordowy”, jeśli źródło ich nie użyło."],
+    stop:"Odpada: szczegół, którego źródło nie potwierdza.",
+    fact:()=>["0","dopisanych faktów, to reguła, nie cel"] },
+  { name:"Drugi strażnik", who:"niezależny weryfikator", gate:"liczba niepotwierdzona wprost", say:"Drugi strażnik, niezależny agent, weryfikuje treść jeszcze raz, zaczynając od artykułu źródłowego.",
+    title:"Drugi strażnik: niezależny weryfikator", role:"Agent, który nie pisał wpisów, sprawdza je od strony źródła",
+    body:"Osobny agent zaczyna od artykułu, a nie od gotowego streszczenia. Sprawdza po kolei wyniki, liczby, daty, kierunek wypowiedzi i nazwiska. Niepotwierdzone poprawia albo usuwa. Bez tego etapu wydanie nie może wyjść.",
+    points:["Ma na to 35 minut i zaczyna od twierdzeń najwyższego ryzyka.","Wpis, którego nie zdążył sprawdzić, a który zawiera wynik, liczbę, datę lub nazwisko, wypada.","Gdy zostaje mniej niż 20 wpisów, wydanie nie wychodzi."],
+    stop:"Odpada: wpis, którego kluczowego faktu nie da się potwierdzić.",
+    fact:()=>["35 min","twardy limit na weryfikację"] },
+  { name:"Podsumowanie dnia", who:"i wstępne wydanie", gate:"brak drugiego źródła", say:"Z wpisów po kontroli powstaje podsumowanie dnia i wstępne wydanie gazety.",
+    title:"Podsumowanie dnia i wstępne wydanie", role:"Dziesięć pozycji z wpisów, które przeszły kontrolę, i wydanie gotowe do oceny",
+    body:"Czołówka powstaje na końcu i wyłącznie z wpisów po weryfikacji. Razem z nią składa się wstępne wydanie, które trafia do oceny redaktora naczelnego. Każda pozycja to jeden wpis w skrócie, bez nowych faktów. Wiadomość polityczna wchodzi tu tylko wtedy, gdy to samo wydarzenie potwierdza druga redakcja.",
+    points:["Siedem najważniejszych wiadomości niezależnie od tematu.","Po jednym miejscu dla AI, technologii i stomatologii.","Program sprawdza, czy pozycji jest 10 i czy każda liczba pochodzi z wpisu."],
+    stop:"Nie wchodzi do czołówki: polityka bez potwierdzenia w drugiej redakcji.",
+    fact:d=>d?[d.summary.length,"pozycji w podsumowaniu dnia"]:["10","pozycji w podsumowaniu dnia"] },
+  { name:"Redaktor naczelny", who:"agent prowadzący wydanie", say:"Redaktor naczelny, agent prowadzący wydanie, ocenia całość i dopiero wtedy dopuszcza gazetę do publikacji.",
+    title:"Redaktor naczelny: agent prowadzący wydanie", role:"Rozdziela pracę, pilnuje czasu, ocenia całość i dopuszcza wydanie do publikacji",
+    body:"Prowadzi całe wydanie: uruchamia reporterów i weryfikatora, zbiera wyniki i pilnuje budżetu czasu. Na końcu ocenia wstępne wydanie w całości: czy strona działa i czy wszystkie kontrole przeszły. Dopiero wtedy dopuszcza je do publikacji. Gdy coś zawodzi, wybiera wydanie mniejsze albo żadne, nigdy uzupełnione z pamięci.",
+    points:["Kontrola techniczna strony przed publikacją.","Po około 75 minutach kończy dopracowywanie i publikuje to, co sprawdzone.","Gdy publikacja się nie uda, zachowuje gotowe wydanie i zgłasza powód."],
+    fact:()=>["75 min","po tym czasie publikuje to, co sprawdzone"] },
+  { name:"Publikacja", who:"wydanie na stronie", say:"Wydanie gotowe. News ITSPACE.",
+    title:"Publikacja: wydanie na stronie", role:"Gotowe wydanie trafia na stronę główną",
+    body:"Wydanie dostaje numer i godzinę odczytaną z zegara, a strona główna odświeża się u czytelników sama. Od tej chwili pilnują go kontrole opisane niżej.",
+    points:["Numer wydania to kolejny dzień gazety, liczony od 11 lipca 2026.","Rano zwykle około 10:00, po południu około 16:00.","Każdy wpis prowadzi do artykułu źródłowego."],
+    fact:d=>d&&d.pubTime?[d.pubTime,"godzina tego wydania"]:null }
+];
+const GATES = STAGES.map((s,i)=>s.gate?i:-1).filter(i=>i>=0);
+
+// ---- narzędzia ----
+const $ = id => document.getElementById(id);
+const el = (tag, cls, text) => { const e=document.createElement(tag); if(cls) e.className=cls; if(text!=null) e.textContent=text; return e; };
+const reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+// czas warszawski niezależnie od strefy czytelnika
+function warsawNow(){ const p=new Intl.DateTimeFormat("en-GB",{timeZone:"Europe/Warsaw",hour:"2-digit",minute:"2-digit",hour12:false}).formatToParts(new Date());
+  const g=t=>+p.find(x=>x.type===t).value; return g("hour")*60+g("minute"); }
+// „2026-11-15T18:58” (czas warszawski bez strefy) -> Date; przesunięcie CET/CEST liczone dla tej daty
+function warsawStampToDate(stamp){ const asUtc=new Date(stamp+":00Z"); if(isNaN(asUtc)) return null;
+  const wall=t=>new Date(asUtc.toLocaleString("en-US",{timeZone:t})).getTime(); return new Date(asUtc.getTime()-(wall("Europe/Warsaw")-wall("UTC"))); }
+const plural=(n,one,few,many)=>{ const d=n%10,s=n%100; return n===1?one:(d>=2&&d<=4&&!(s>=12&&s<=14))?few:many; };
+
+// ---- bieżące wydanie: czytane z index.html (ta sama domena, bez zewnętrznych usług) ----
+async function loadEdition(){
+  const r = await fetch("index.html?_="+Date.now(), {cache:"no-store"});
+  if(!r.ok) throw new Error("HTTP "+r.status);
+  const html = await r.text();
+  const doc = new DOMParser().parseFromString(html,"text/html");
+  const ed = doc.getElementById("dl-edition");
+  const stamp = ed ? ed.getAttribute("data-pub") : null;
+  const nr = ed ? (ed.textContent.match(/nr\s*(\d+)/)||[])[1] : null;
+  const summary = [...doc.querySelectorAll("#day-summary li strong")].map(x=>x.textContent.trim()).filter(Boolean);
+  // tablica NEWS jest w skrypcie strony; nie wykonujemy go, tylko czytamy pola wierszy
+  const block = (html.split("const NEWS = [")[1]||"").split("\n];")[0];
+  const field = (row,k) => { const m=row.match(new RegExp("\\b"+k+':\\s*"((?:[^"\\\\]|\\\\.)*)"')); return m?m[1]:""; };
+  const news = block.split("\n").filter(l=>l.trim().startsWith("{")).map(row=>({
+    title:field(row,"title"), src:field(row,"src").replace(/ English$/,""), cat:field(row,"cat"), reg:field(row,"reg"), pri:field(row,"pri"), good:/\bgood:\s*true/.test(row) }));
+  if(!news.length) throw new Error("brak wiadomości w wydaniu");
+  const count = key => { const m=new Map(); news.forEach(n=>m.set(n[key],(m.get(n[key])||0)+1)); return [...m.entries()].sort((a,b)=>b[1]-a[1]); };
+  return { nr, stamp, pubTime: stamp?stamp.slice(11,16):null, pubDate: stamp?warsawStampToDate(stamp):null,
+    total:news.length, titles:news.map(n=>n.title), summary, good:news.filter(n=>n.good).length,
+    regions:count("reg"), cats:count("cat"), pris:count("pri"), sources:count("src") };
+}
+
+// ---- scena: hala redakcji --------------------------------------------------------------------
+// Pseudo-3D rysowane na zwykłym canvasie 2D, bez bibliotek: rzutowanie perspektywiczne punktów,
+// świecące elementy w trybie addytywnym ("lighter"), kamera płynnie dolatuje do wybranego etapu.
+// Kolejność stanowisk = kolejność etapów w STAGES. Liczby na tablicach pochodzą z bieżącego wydania.
+const FILM=new URLSearchParams(location.search).has("pokaz");   // tryb pokazu: sama hala na cały ekran, z napisami
+let data=null, selected=0, playing=!reduced||FILM;
+const N=STAGES.length, TAU=Math.PI*2, NEAR=.35, FONT='ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif';
+const cv=$("hall"), g=cv.getContext("2d");
+let W=0,H=0,W2=0,H2=0,F=600,DPR=1,dirty=true,visible=true,bgCv=null,vigCv=null,bloomCv=null;
+const LITE=matchMedia("(max-width:640px)").matches||(navigator.hardwareConcurrency||8)<=4;   // słabszy sprzęt: mniej cząstek
+const clamp=(v,a,b)=>v<a?a:v>b?b:v, ease=t=>t*t*(3-2*t);
+// deterministyczny generator liczb: hala wygląda tak samo przy każdym wejściu
+function rng(seed){ return ()=>{ seed=seed+0x6D2B79F5|0; let t=Math.imul(seed^seed>>>15,1|seed); t=t+Math.imul(t^t>>>7,61|t)^t; return ((t^t>>>14)>>>0)/4294967296; }; }
+const R=rng(20261115);
+
+// --- geometria hali (jednostka ≈ metr; x w prawo, y w górę, z w głąb hali)
+const SP=19, ZMIN0=-34, ZMAX0=6*19+26;
+const ST=STAGES.map((s,i)=>({x:[0,-4.5,4,-3.5,4,0,0][i], z:i*SP}));
+const PAGE={x:0, z:ST[N-1].z, w:6.4, h:8.2, y0:1.5, cols:5, rows:6};
+const HUE=["#8b93ff","#22d3ee","#22d3ee","#ffb340","#8b93ff","#ffd27a","#dfe8ff"];
+const CAMS=ST.map(P=>{ const s=P.x>0?-1:1; return {p:[P.x+s*6,3.8,P.z-11.5], t:[P.x,3.2,P.z+1]}; });
+CAMS[0]={p:[5.5,5,-17.5], t:[-.5,3.3,1]};
+CAMS[5]={p:[-5.2,2.5,ST[5].z-11], t:[0,3.9,ST[5].z]};
+CAMS[6]={p:[0,5.1,PAGE.z-12.4], t:[0,4.55,PAGE.z]};
+const cp=[CAMS[0].p[0]+3,CAMS[0].p[1]+2.5,CAMS[0].p[2]-10], ct=CAMS[0].t.slice();   // start: kamera wjeżdża do hali
+let fx,fy,fz,rx,ry,rz,ux,uy,uz, CX,CY,CZ, PX,PY,PZ, AX,AY,AZ;
+function setBasis(){ let dx=ct[0]-cp[0],dy=ct[1]-cp[1],dz=ct[2]-cp[2]; const l=Math.hypot(dx,dy,dz)||1; fx=dx/l; fy=dy/l; fz=dz/l;
+  const rl=Math.hypot(fz,fx)||1; rx=fz/rl; ry=0; rz=-fx/rl; ux=fy*rz-fz*ry; uy=fz*rx-fx*rz; uz=fx*ry-fy*rx; }
+function cam(x,y,z){ const dx=x-cp[0],dy=y-cp[1],dz=z-cp[2]; CX=dx*rx+dy*ry+dz*rz; CY=dx*ux+dy*uy+dz*uz; CZ=dx*fx+dy*fy+dz*fz; }
+function proj(x,y,z){ cam(x,y,z); if(CZ<NEAR) return false; PX=W2+F*CX/CZ; PY=H2-F*CY/CZ; PZ=CZ; return true; }
+// odcinek 3D dopisany do bieżącej ścieżki, przycięty do płaszczyzny tuż przed kamerą
+function seg(x1,y1,z1,x2,y2,z2){ cam(x1,y1,z1); let ax=CX,ay=CY,az=CZ; cam(x2,y2,z2); let bx=CX,by=CY,bz=CZ;
+  if(az<NEAR&&bz<NEAR) return;
+  if(az<NEAR){ const t=(NEAR-az)/(bz-az); ax+=(bx-ax)*t; ay+=(by-ay)*t; az=NEAR; } else if(bz<NEAR){ const t=(NEAR-bz)/(az-bz); bx+=(ax-bx)*t; by+=(ay-by)*t; bz=NEAR; }
+  g.moveTo(W2+F*ax/az,H2-F*ay/az); g.lineTo(W2+F*bx/bz,H2-F*by/bz); }
+function ring(x,y,z,r,n=28,rot=0){ for(let i=0;i<n;i++){ const a=rot+i/n*TAU,b=rot+(i+1)/n*TAU; seg(x+Math.cos(a)*r,y,z+Math.sin(a)*r,x+Math.cos(b)*r,y,z+Math.sin(b)*r); } }
+let Q=2;   // jakość: 2 pełna, 1 bez szerokich poświat, 0 oszczędna (ustawiana automatycznie z czasu klatki)
+function stroke(col,a,lw){ if(a<=0||(lw>=4&&Q<2)) return; g.strokeStyle=col; g.globalAlpha=Math.min(1,a); g.lineWidth=lw; g.stroke(); }
+function mkSprite(col){ const c=document.createElement("canvas"); c.width=c.height=64; const x=c.getContext("2d"), gr=x.createRadialGradient(32,32,0,32,32,32);
+  gr.addColorStop(0,"#ffffff"); gr.addColorStop(.2,col); gr.addColorStop(.5,col+"55"); gr.addColorStop(1,col+"00"); x.fillStyle=gr; x.fillRect(0,0,64,64); return c; }
+const SPRH=HUE.map(mkSprite);
+const SPR={c:mkSprite("#22d3ee"),v:mkSprite("#8b93ff"),a:mkSprite("#ffb340"),r:mkSprite("#ff4d6d"),g:mkSprite("#ffd27a"),w:mkSprite("#dfe8ff")};
+function dot(x,y,z,wr,spr,a){ if(a<=.01||!proj(x,y,z)) return; const r=clamp(wr*F/PZ,1.1,16); g.globalAlpha=Math.min(1,a)*clamp((PZ-1.2)/2.5,0,1); g.drawImage(spr,PX-r,PY-r,r*2,r*2); }
+const fogAt=(z,far)=>clamp(1.3-z/far,0,1);
+
+// --- strumienie wiadomości: wiązki krzywych między stanowiskami
+function bez(a,b,c,d,n){ const o=new Float32Array((n+1)*3); for(let i=0;i<=n;i++){ const t=i/n,m=1-t,w0=m*m*m,w1=3*m*m*t,w2=3*m*t*t,w3=t*t*t; for(let k=0;k<3;k++) o[i*3+k]=w0*a[k]+w1*b[k]+w2*c[k]+w3*d[k]; } return o; }
+function curve(a,d,spread){ const lift=()=>(R()-.3)*3.2;
+  return bez(a,[a[0]+(d[0]-a[0])*.33+(R()-.5)*spread,Math.max(.6,a[1]+lift()),a[2]+(d[2]-a[2])*.33],[a[0]+(d[0]-a[0])*.66+(R()-.5)*spread,Math.max(.6,d[1]+lift()),a[2]+(d[2]-a[2])*.66],d,26); }
+function at(c,t){ const n=c.length/3-1, f=clamp(t,0,.9999)*n, i=f|0, u=f-i, o=i*3; AX=c[o]+(c[o+3]-c[o])*u; AY=c[o+1]+(c[o+4]-c[o+1])*u; AZ=c[o+2]+(c[o+5]-c[o+2])*u; }
+const SRC=[]; for(let k=0;k<8;k++){ const side=k%2?1:-1, row=(k>>1)%2; SRC.push({x:side*(10.5+row*2.6), y:3.1+row*2.3, z:-10+(k>>1)*4.6, name:"", n:0, ph:R()*9}); }
+const SEG=[], SEGC=[];
+SEG.push(SRC.flatMap(s=>[0,1].map(()=>curve([s.x,s.y,s.z],[ST[0].x+(R()-.5),2.2+(R()-.5),ST[0].z],3))));
+for(let i=0;i<5;i++) SEG.push(Array.from({length:LITE?7:13},()=>curve([ST[i].x+(R()-.5)*.8,2.3+(R()-.5)*.9,ST[i].z],[ST[i+1].x+(R()-.5)*.8,2.3+(R()-.5)*.9,ST[i+1].z],7)));
+SEG.push(Array.from({length:LITE?8:14},()=>curve([ST[5].x+(R()-.5),2.8+(R()-.5),ST[5].z],[PAGE.x+(R()-.5)*PAGE.w*.9,PAGE.y0+R()*PAGE.h,PAGE.z],8)));
+SEG.forEach((s,j)=>SEGC.push(s.map(()=>j===SEG.length-1?(R()<.55?"g":"c"):(R()<.38?"v":"c"))));
+const GATE_ST=GATES;   // numery stanowisk, na których wiadomość może odpaść
+const PT=Array.from({length:LITE?260:720},()=>({}));
+const DUST=Array.from({length:LITE?70:170},()=>[(R()-.5)*44,.4+R()*9,ZMIN0+R()*(ZMAX0-ZMIN0),R()*9]);   // pyłki w powietrzu: dają głębię przy ruchu kamery
+function spawn(p,fresh){ p.seg=fresh?0:(R()*SEG.length|0); p.cv=R()*SEG[p.seg].length|0; p.t=fresh?0:R(); p.v=.17+R()*.17; p.state=0;
+  p.gate=R()<.17?GATE_ST[R()*GATE_ST.length|0]:-1; if(p.gate<p.seg) p.gate=-1; }
+PT.forEach(p=>spawn(p,false));
+function update(dt){ for(const p of PT){
+  if(p.state===1){ p.life-=dt; p.x+=p.vx*dt; p.y+=p.vy*dt; p.z+=p.vz*dt; p.vy-=1.1*dt; if(p.life<=0) spawn(p,true); continue; }
+  p.t+=p.v*dt; if(p.t<1) continue;
+  if(p.gate===p.seg){ const S=ST[p.gate]; p.state=1; p.life=1.5; p.x=S.x; p.y=2.4; p.z=S.z; p.vx=(R()-.5)*5; p.vy=1.4+R()*2.6; p.vz=(R()-.5)*4-1.2; }   // odpada na kontroli
+  else if(p.seg>=SEG.length-1) spawn(p,true); else { p.seg++; p.cv=R()*SEG[p.seg].length|0; p.t-=1; } } }
+
+// --- stałe elementy hali
+const ZMIN=ZMIN0, ZMAX=ZMAX0, FL=[];
+for(let z=ZMIN;z<=ZMAX;z+=6) FL.push([-24,z,24,z]);
+for(let x=-24;x<=24;x+=6) for(let z=ZMIN;z<ZMAX;z+=12) FL.push([x,z,x,z+12]);
+const ARCH=[]; for(let z=ZMIN+2;z<ZMAX;z+=15.2){ ARCH.push([-24.5,0,z,-24.5,10.2,z],[24.5,0,z,24.5,10.2,z],[-24.5,10.2,z,24.5,10.2,z]); }
+for(const x of [-24.5,24.5]) for(let z=ZMIN;z<ZMAX;z+=12) ARCH.push([x,9.1,z,x,9.1,z+12],[x,.25,z,x,.25,z+12]);
+const WALL=[]; for(const side of [-1,1]) for(let z=ZMIN+3;z<ZMAX;z+=5.4) for(const y of [2.2,4.7,7.2]) if(R()<.82) WALL.push({x:side*24.5,y,z,ph:R()*20,b:.5+R()*.5});
+// postać agenta: punkty i odcinki w układzie lokalnym (wysokość 1,7)
+const FIG=(()=>{ const pts=[],lines=[], add=(x,y,z=0)=>pts.push([x,y,z])-1, head=[];
+  for(let k=0;k<8;k++){ const a=k/8*TAU; head.push(add(Math.cos(a)*.105,1.6+Math.sin(a)*.125)); } head.forEach((p,k)=>lines.push([p,head[(k+1)%8]]));
+  const neck=add(0,1.46), chest=add(0,1.28), belly=add(0,1.06), hip=add(0,.9), sl=add(-.22,1.4), sr=add(.22,1.4);
+  const el2=add(-.3,1.12,.05), er=add(.3,1.12,.05), hl=add(-.31,.92,.2), hr=add(.31,.92,.2), pl=add(-.12,.9), pr=add(.12,.9);
+  const kl=add(-.14,.47,.03), kr=add(.14,.47,.03), fl=add(-.15,.02), fr=add(.15,.02);
+  lines.push([neck,chest],[chest,belly],[belly,hip],[sl,neck],[neck,sr],[sl,el2],[el2,hl],[sr,er],[er,hr],[pl,hip],[hip,pr],[sl,pl],[sr,pr],[pl,kl],[kl,fl],[pr,kr],[kr,fr]);
+  return {pts,lines,hl,hr,buf:pts.map(()=>[0,0,0])}; })();
+const AGENTS=[];
+function crew(st,count,rad,a0,a1,sc,col,spr,desk){ for(let k=0;k<count;k++){ const a=(a0+(a1-a0)*(count===1?.5:k/(count-1)))*Math.PI/180, S=ST[st], x=S.x+Math.cos(a)*rad, z=S.z+Math.sin(a)*rad;
+  AGENTS.push({x,z,y:0,sc,rot:Math.atan2(S.x-x,S.z-z),col,spr,ph:R()*9,desk}); } }
+crew(1,5,4.4,-165,-15,1,"#22d3ee",SPR.c,true);      // reporterzy przy pulpitach
+crew(2,2,3.2,-150,-30,1,"#22d3ee",SPR.c,false);     // redakcja wpisu
+crew(3,1,2.9,-90,-90,1.15,"#ffb340",SPR.a,false);   // drugi strażnik
+crew(4,2,3.2,-140,-40,1,"#8b93ff",SPR.v,false);     // skład podsumowania
+crew(5,4,5.2,-160,-20,1,"#22d3ee",SPR.c,false);     // zespół przy redaktorze naczelnym
+AGENTS.push({x:ST[5].x,z:ST[5].z,y:.42,sc:2.35,rot:Math.PI,col:"#ffd27a",spr:SPR.g,ph:1.3,chief:true});
+function figure(A,time){ cam(A.x,A.y+.9*A.sc,A.z); if(CZ<.4||CZ>64) return; const fog=fogAt(CZ,52)*(.82+.18*Math.sin(time*6+A.ph)), c=Math.cos(A.rot), s=Math.sin(A.rot), B=FIG.buf;
+  FIG.pts.forEach((p,k)=>{ let px=p[0],py=p[1],pz=p[2]; if(k===FIG.hl||k===FIG.hr){ py+=Math.sin(time*2.1+A.ph+(k===FIG.hl?0:1.9))*.07; pz+=.06*Math.sin(time*1.5+A.ph); }
+    B[k][0]=A.x+(px*c+pz*s)*A.sc; B[k][1]=A.y+py*A.sc; B[k][2]=A.z+(-px*s+pz*c)*A.sc; });
+  g.beginPath(); for(const [a,b] of FIG.lines) seg(B[a][0],B[a][1],B[a][2],B[b][0],B[b][1],B[b][2]); stroke(A.col,.2*fog,A.chief?7:4.5); stroke(A.col,.8*fog,A.chief?1.8:1.3);
+  for(let k=8;k<B.length;k++) dot(B[k][0],B[k][1],B[k][2],.055*A.sc,A.spr,.9*fog);
+  if(CZ<30) for(const [a,b] of FIG.lines) for(const u of [.33,.66]) dot(B[a][0]+(B[b][0]-B[a][0])*u,B[a][1]+(B[b][1]-B[a][1])*u,B[a][2]+(B[b][2]-B[a][2])*u,.034*A.sc,A.spr,.6*fog);
+  if(A.desk){ const dx=A.x+s*.75, dz=A.z+c*.75, w=.62, d=.3, y=.95; g.beginPath();   // pulpit: blat i dwie nogi
+    const q=[[-w,-d],[w,-d],[w,d],[-w,d]].map(([lx,lz])=>[dx+lx*c+lz*s,dz-lx*s+lz*c]); q.forEach((p,k)=>{ const n=q[(k+1)%4]; seg(p[0],y,p[1],n[0],y,n[1]); });
+    seg(q[0][0],y,q[0][1],q[0][0],0,q[0][1]); seg(q[1][0],y,q[1][1],q[1][0],0,q[1][1]); stroke("#8b93ff",.4*fog,1); } }
+
+// --- stanowiska
+function box(x,z,hw,y0,y1,col,fog){ const c=[[-hw,-hw],[hw,-hw],[hw,hw],[-hw,hw]];
+  for(let k=0;k<4;k++){ const a=c[k],b=c[(k+1)%4], P=[[x+a[0],y0,z+a[1]],[x+b[0],y0,z+b[1]],[x+b[0],y1,z+b[1]],[x+a[0],y1,z+a[1]]]; let ok=true; g.beginPath();
+    P.forEach((p,i)=>{ if(!proj(p[0],p[1],p[2])) ok=false; else if(i) g.lineTo(PX,PY); else g.moveTo(PX,PY); }); if(ok){ g.closePath(); g.fillStyle=col; g.globalAlpha=.085*fog; g.fill(); } }
+  g.beginPath(); for(let k=0;k<4;k++){ const a=c[k],b=c[(k+1)%4]; seg(x+a[0],y0,z+a[1],x+b[0],y0,z+b[1]); seg(x+a[0],y1,z+a[1],x+b[0],y1,z+b[1]); seg(x+a[0],y0,z+a[1],x+a[0],y1,z+a[1]); } stroke(col,.18*fog,5); stroke(col,.8*fog,1.3); }
+const GLOBE=Array.from({length:34},(_,k)=>{ const y=1-(k+.5)/34*2, r=Math.sqrt(1-y*y), a=k*2.399963; return [Math.cos(a)*r,y,Math.sin(a)*r]; });
+function station(i,time){ const S=ST[i], col=HUE[i]; cam(S.x,2,S.z); if(CZ<-5||CZ>92) return; const fog=fogAt(CZ,70), pulse=.75+.25*Math.sin(time*1.7+i);
+  if(proj(S.x,.02,S.z)){ const r=3.6*F/PZ; g.globalAlpha=.5*fog; g.drawImage(SPRH[i],PX-r,PY-r*.27,r*2,r*.54); }   // poświata na podłodze
+  { const tl=[S.x-rx*3.1,9.6,S.z-rz*3.1], tr=[S.x+rx*3.1,9.6,S.z+rz*3.1], bl=[S.x-rx*2.3,.1,S.z-rz*2.3], br=[S.x+rx*2.3,.1,S.z+rz*2.3]; let ok=true; const q=[tl,tr,br,bl].map(p=>{ if(!proj(p[0],p[1],p[2])) ok=false; return [PX,PY]; });
+    if(ok&&Q>0){ const gr=g.createLinearGradient(0,q[0][1],0,q[3][1]); gr.addColorStop(0,'rgba(223,232,255,.085)'); gr.addColorStop(1,'rgba(223,232,255,0)'); g.beginPath(); q.forEach((p,k)=>k?g.lineTo(p[0],p[1]):g.moveTo(p[0],p[1])); g.closePath(); g.globalAlpha=fog; g.fillStyle=gr; g.fill(); } }   // stożek światła z lampy
+  g.beginPath(); ring(S.x,.03,S.z,2.75); ring(S.x,.03,S.z,2.2); stroke(col,.2*fog,5); stroke(col,.7*fog*pulse,1.4);
+  g.beginPath(); ring(S.x,.03,S.z,3.9,6,time*.12+i); stroke(col,.3*fog,1);
+  g.beginPath(); ring(S.x,.03,S.z,1.6); ring(S.x,.42,S.z,1.6); stroke("#dfe8ff",.34*fog,1);
+  g.beginPath(); ring(S.x,9.6,S.z,3.1,32); stroke("#ffffff",.16*fog,9); g.beginPath(); ring(S.x,9.6,S.z,3.1,32); stroke("#ffffff",.7*fog,2);   // lampa pierścieniowa
+  if(i===5){ g.beginPath(); ring(S.x,4.6,S.z,2.1,30,time*.5); ring(S.x,.9,S.z,2.4,30,-time*.4); stroke(col,.5*fog,1.2); return; }
+  box(S.x,S.z,1.12,.42,4.05,col,fog);
+  const y=2.2, cs=Math.cos(time*.55), sn=Math.sin(time*.55);
+  if(i<=1){ for(const p of GLOBE) dot(S.x+(p[0]*cs+p[2]*sn)*.86,y+p[1]*.86,S.z+(-p[0]*sn+p[2]*cs)*.86,.085,i?SPR.c:SPR.v,.9*fog); g.beginPath(); ring(S.x,y,S.z,.95,24,time*.3); stroke(col,.5*fog,1); }
+  else if(i===2){ g.beginPath(); const w=.46,h=.62; const X=(lx)=>S.x+lx*cs, Z=(lx)=>S.z-lx*sn;   // karta wpisu obracająca się w kolumnie
+    seg(X(-w),y-h,Z(-w),X(w),y-h,Z(w)); seg(X(w),y-h,Z(w),X(w),y+h,Z(w)); seg(X(w),y+h,Z(w),X(-w),y+h,Z(-w)); seg(X(-w),y+h,Z(-w),X(-w),y-h,Z(-w));
+    for(let k=0;k<5;k++){ const ly=y+h-.2-k*.22; seg(X(-w+.1),ly,Z(-w+.1),X(k===4?0:w-.1),ly,Z(k===4?0:w-.1)); } stroke("#dfe8ff",.75*fog,1.2); }
+  else if(i===3){ g.beginPath(); for(let k=0;k<22;k++){ const a=k/22*TAU+time*.45, r0=.22, r1=k%2?.88:.6;   // tarcza kontroli
+      seg(S.x+Math.cos(a)*r0,y+Math.sin(a)*r0,S.z,S.x+Math.cos(a)*r1,y+Math.sin(a)*r1,S.z); } stroke(col,.8*fog,1.2);
+    for(let k=0;k<22;k+=2){ const a=k/22*TAU+time*.45; dot(S.x+Math.cos(a)*.6,y+Math.sin(a)*.6,S.z,.07,SPR.a,.9*fog); } }
+  else { g.beginPath(); for(let k=0;k<10;k++){ const ly=.8+k*.3, a=time*.4+k*.22, c2=Math.cos(a), s2=Math.sin(a), w=.5, d=.34;   // dziesięć kart podsumowania
+      const q=[[-w,-d],[w,-d],[w,d],[-w,d]].map(([lx,lz])=>[S.x+lx*c2+lz*s2,S.z-lx*s2+lz*c2]); q.forEach((p,n)=>{ const m=q[(n+1)%4]; seg(p[0],ly,p[1],m[0],ly,m[1]); }); } stroke(col,.75*fog,1.1); } }
+
+// --- tablice z nazwą etapu i liczbą
+function rrect(x,y,w,h,r){ g.beginPath(); g.moveTo(x+r,y); g.arcTo(x+w,y,x+w,y+h,r); g.arcTo(x+w,y+h,x,y+h,r); g.arcTo(x,y+h,x,y,r); g.arcTo(x,y,x+w,y,r); g.closePath(); }
+function split2(t){ if(t.length<24) return [t]; const m=t.length/2; let best=-1; for(let i=0;i<t.length;i++) if(t[i]===" "&&(best<0||Math.abs(i-m)<Math.abs(best-m))) best=i; return best<0?[t]:[t.slice(0,best),t.slice(best+1)]; }
+function plate(i){ const S=ST[i], y=i===N-1?PAGE.y0+PAGE.h+1.7:i===5?6.9:5.45; if(!proj(S.x,y,S.z)||PZ>66||(i===N-1&&PZ<17)) return; const k=F/PZ, a=fogAt(PZ,46)*(i===N-1?clamp((PZ-17)/6,0,1):1)*clamp((PZ-6)/4,0,1); if(a<=0) return;   // tablica gaśnie, gdy kamera przelatuje tuż obok
+  const nameF=.47*k; if(nameF<6.5) return; const s=STAGES[i], v=s.fact(data), numF=.8*k, capF=Math.max(.27*k,0), pad=.24*k, title=(i+1)+". "+s.name, showFact=v&&capF>=7.5;
+  g.font=`780 ${nameF}px ${FONT}`; let w=g.measureText(title).width, cap=[], numW=0;
+  if(showFact){ cap=split2(v[1]); g.font=`800 ${numF}px ${FONT}`; numW=g.measureText(String(v[0])).width; g.font=`500 ${capF}px ${FONT}`; w=Math.max(w,numW+.2*k+Math.max(...cap.map(c=>g.measureText(c).width))); }
+  const bw=w+pad*2, bh=pad*2+nameF+(showFact?numF*1.02+.1*k:0), x=PX-bw/2, y0=PY-bh/2;
+  g.globalAlpha=a; rrect(x,y0,bw,bh,.16*k); g.fillStyle="rgba(5,9,18,.8)"; g.fill(); g.strokeStyle=HUE[i]; g.lineWidth=Math.max(1,.03*k); g.stroke();
+  g.textBaseline="alphabetic"; g.textAlign="left"; g.fillStyle="#f0f4ff"; g.font=`780 ${nameF}px ${FONT}`; g.fillText(title,x+pad,y0+pad+nameF*.82);
+  if(showFact){ const by=y0+pad+nameF+.1*k+numF*.84; g.fillStyle=HUE[i]; g.font=`800 ${numF}px ${FONT}`; g.fillText(String(v[0]),x+pad,by);
+    g.fillStyle="#b9c3d8"; g.font=`500 ${capF}px ${FONT}`; cap.forEach((c,n)=>g.fillText(c,x+pad+numW+.2*k,by-(cap.length-1-n)*capF*1.18-(cap.length===1?numF*.2:0))); } }
+function srcScreen(s,time){ if(!proj(s.x,s.y,s.z)||PZ>58) return; const k=F/PZ, a=fogAt(PZ,44)*clamp((PZ-5)/4,0,1), w=3.5*k, h=1.3*k; if(a<=0||w<16) return;
+  g.globalAlpha=a; rrect(PX-w/2,PY-h/2,w,h,.1*k); g.fillStyle=`rgba(22,34,78,${.5+.12*Math.sin(time*1.3+s.ph)})`; g.fill(); g.strokeStyle="#8b93ff"; g.lineWidth=1; g.stroke();
+  const f=.36*k; if(!s.name||f<7) return; g.textAlign="center"; g.textBaseline="alphabetic"; g.fillStyle="#f0f4ff"; g.font=`720 ${f}px ${FONT}`; g.fillText(s.name,PX,PY-.02*k,w*.9);
+  if(.24*k>=7){ g.fillStyle="#9fb0d8"; g.font=`500 ${.24*k}px ${FONT}`; g.fillText(`${s.n} ${plural(s.n,"wiadomość","wiadomości","wiadomości")}`,PX,PY+.38*k,w*.9); } g.textAlign="left"; }
+
+// --- strona gazety: rysowana raz poza ekranem (prawdziwe tytuły z podsumowania dnia), w hali składa się z kafli
+const pageCv=document.createElement("canvas"); pageCv.width=640; pageCv.height=820;
+function wrapLines(c,text,maxW,maxLines){ const words=text.split(/\s+/), out=[]; let line="";
+  for(const w of words){ const t=line?line+" "+w:w; if(c.measureText(t).width<=maxW) line=t; else { out.push(line); line=w; if(out.length===maxLines) break; } }
+  if(out.length<maxLines&&line) out.push(line); else if(out.length===maxLines){ let l=out[maxLines-1]; while(l&&c.measureText(l+"…").width>maxW) l=l.slice(0,-1); out[maxLines-1]=l.replace(/[\s,.;:]+$/,"")+"…"; } return out; }
+function drawPage(){ const c=pageCv.getContext("2d"), bars=(x,y,w,n)=>{ c.fillStyle="#c9cfdb"; for(let k=0;k<n;k++) c.fillRect(x,y+k*13,k===n-1?w*.62:w,6); };
+  c.fillStyle="#f4f5f8"; c.fillRect(0,0,640,820); c.textBaseline="alphabetic"; c.textAlign="left";
+  c.fillStyle="#0d1020"; c.font=`850 50px ${FONT}`; c.fillText("NEWS ITSPACE",28,72);
+  c.fillStyle="#4338ca"; c.font=`650 16px ${FONT}`; c.textAlign="right"; c.fillText("news.itspace.com.pl",612,68); c.textAlign="left";
+  c.fillStyle="#0d1020"; c.fillRect(28,88,584,3); c.fillStyle="#525b70"; c.font=`550 14px ${FONT}`;
+  if(data){ c.fillText("Wydanie nr "+(data.nr||""),28,112); if(data.pubDate){ c.textAlign="right"; c.fillText(new Intl.DateTimeFormat("pl-PL",{timeZone:"Europe/Warsaw",day:"numeric",month:"long",year:"numeric",hour:"2-digit",minute:"2-digit"}).format(data.pubDate),612,112); c.textAlign="left"; } }
+  c.fillStyle="#c9cfdb"; c.fillRect(28,124,584,1);
+  const heads=data?(data.summary.length?data.summary:data.titles).slice(0,7):[];
+  let y=166; c.fillStyle="#0d1020"; c.font=`820 31px ${FONT}`;
+  if(heads[0]){ for(const l of wrapLines(c,heads[0],584,3)){ c.fillText(l,28,y); y+=37; } } else { c.fillStyle="#aab1c0"; c.fillRect(28,y-24,520,22); c.fillRect(28,y+12,380,22); y+=74; }
+  bars(28,y-8,584,4); y+=64; c.fillStyle="#c9cfdb"; c.fillRect(28,y-14,584,1);
+  for(let k=0;k<6;k++){ const col=k%2, x=28+col*304, top=y+10+(k>>1)*168; c.fillStyle="#0d1020"; c.font=`760 18px ${FONT}`; let yy=top+18;
+    if(heads[k+1]){ for(const l of wrapLines(c,heads[k+1],280,3)){ c.fillText(l,x,yy); yy+=23; } } else { c.fillStyle="#aab1c0"; c.fillRect(x,top+4,250,14); c.fillRect(x,top+26,190,14); yy=top+62; }
+    bars(x,yy-6,280,3); } }
+const TILE=Array.from({length:PAGE.cols*PAGE.rows},()=>({th:R()*.68, o:[(R()-.5)*16,(R()-.3)*9,-3-R()*10]}));
+let asm=0;
+function drawPaper(time){ const cy=PAGE.y0+PAGE.h/2; cam(PAGE.x,cy,PAGE.z); if(CZ<1||CZ>95) return; const fog=fogAt(CZ,74);
+  g.globalCompositeOperation="lighter"; g.beginPath(); ring(PAGE.x,.03,PAGE.z,3.6,36); ring(PAGE.x,.03,PAGE.z,2.7,36); stroke("#22d3ee",.5*fog,1.3); g.beginPath(); ring(PAGE.x,.03,PAGE.z,4.7,6,time*.1); stroke("#dfe8ff",.25*fog,1);
+  const hw=PAGE.w/2, hh=PAGE.h/2, cor=[[-hw,-hh],[hw,-hh],[hw,hh],[-hw,hh]].map(([lx,ly])=>[PAGE.x+rx*lx+ux*ly,cy+ry*lx+uy*ly,PAGE.z+rz*lx+uz*ly]);
+  g.beginPath(); cor.forEach((p,k)=>{ const n=cor[(k+1)%4]; seg(p[0],p[1],p[2],n[0],n[1],n[2]); }); stroke("#22d3ee",.16*asm*fog,9); stroke("#22d3ee",(.22+.6*asm)*fog,asm>.97?2:1);
+  g.globalCompositeOperation="source-over"; }
+function drawTiles(){ const cy=PAGE.y0+PAGE.h/2; cam(PAGE.x,cy,PAGE.z); if(asm<=.002||CZ<1||CZ>95) return; const fog=fogAt(CZ,74);
+  const tw=pageCv.width/PAGE.cols, th=pageCv.height/PAGE.rows;
+  for(let r=0;r<PAGE.rows;r++) for(let c=0;c<PAGE.cols;c++){ const T=TILE[r*PAGE.cols+c], a=ease(clamp((asm-T.th)/.3,0,1)); if(a<=0) continue;
+    const lx=((c+.5)/PAGE.cols-.5)*PAGE.w, ly=(.5-(r+.5)/PAGE.rows)*PAGE.h, o=1-a;
+    if(!proj(PAGE.x+rx*lx+ux*ly+T.o[0]*o,cy+ry*lx+uy*ly+T.o[1]*o,PAGE.z+rz*lx+uz*ly+T.o[2]*o)) continue;
+    const k=F/PZ, dw=PAGE.w/PAGE.cols*k+.7, dh=PAGE.h/PAGE.rows*k+.7; g.globalAlpha=a*fog*(.5+.5*ease(clamp((asm-.86)/.12,0,1))); g.drawImage(pageCv,c*tw,r*th,tw,th,PX-dw/2,PY-dh/2,dw,dh); } }
+
+// --- rysowanie klatki
+function resize(){ const b=$("hallwrap").getBoundingClientRect(); if(!b.width) return; W=b.width; H=b.height; W2=W/2; H2=H*.52; DPR=Math.min(window.devicePixelRatio||1,Q<2?1:LITE?1.5:2);
+  cv.width=Math.round(W*DPR); cv.height=Math.round(H*DPR); F=Math.min(H*1.05,W*1.02);
+  bgCv=document.createElement("canvas"); bgCv.width=8; bgCv.height=256; let x=bgCv.getContext("2d"), gr=x.createLinearGradient(0,0,0,256);
+  gr.addColorStop(0,"#03050a"); gr.addColorStop(.5,"#080c18"); gr.addColorStop(.56,"#0a1020"); gr.addColorStop(1,"#04060b"); x.fillStyle=gr; x.fillRect(0,0,8,256);
+  vigCv=document.createElement("canvas"); vigCv.width=256; vigCv.height=256; x=vigCv.getContext("2d"); gr=x.createRadialGradient(128,128,60,128,128,182);
+  gr.addColorStop(0,"rgba(2,3,7,0)"); gr.addColorStop(1,"rgba(2,3,7,.82)"); x.fillStyle=gr; x.fillRect(0,0,256,256);
+  bloomCv=document.createElement("canvas"); bloomCv.width=Math.max(8,Math.round(W/7)); bloomCv.height=Math.max(8,Math.round(H/7)); dirty=true; }
+let fade=0;
+function draw(time){ g.setTransform(DPR,0,0,DPR,0,0); g.globalCompositeOperation="source-over"; g.globalAlpha=1; g.drawImage(bgCv,0,0,W,H); setBasis();
+  // podłoga: siatka gasnąca z odległością
+  for(let b=0;b<4;b++){ g.beginPath(); for(const l of FL){ const d=Math.hypot((l[0]+l[2])/2-cp[0],(l[1]+l[3])/2-cp[2]); if((d/20|0)===b||(b===3&&d>=80&&d<110)) seg(l[0],0,l[1],l[2],0,l[3]); } stroke("#7f8cff",[.3,.2,.12,.06][b],1); }
+  g.beginPath(); for(const l of ARCH){ cam((l[0]+l[3])/2,5,(l[2]+l[5])/2); if(CZ>-12&&CZ<84) seg(l[0],l[1],l[2],l[3],l[4],l[5]); } stroke("#8fa0ff",.2,1.2);
+  // ekrany na ścianach
+  for(const s of WALL){ cam(s.x,s.y,s.z); if(CZ<1||CZ>78) continue; const a=fogAt(CZ,64)*s.b*(.24+.1*Math.sin(time*.9+s.ph)); g.beginPath(); let ok=true;
+    [[-2.1,-.95],[2.1,-.95],[2.1,.95],[-2.1,.95]].forEach(([dz,dy],k)=>{ if(!proj(s.x,s.y+dy,s.z+dz)) ok=false; else if(k) g.lineTo(PX,PY); else g.moveTo(PX,PY); }); if(ok){ g.closePath(); g.globalAlpha=a; g.fillStyle="#4f74e0"; g.fill(); } }
+  g.globalCompositeOperation="lighter";
+  g.beginPath(); for(const x of [-9,9]) for(let z=ZMIN;z<ZMAX;z+=12) seg(x,10.2,z+1,x,10.2,z+10); stroke("#dfe8ff",.12,8); stroke("#dfe8ff",.5,2);   // świetlówki pod sufitem
+  g.beginPath(); seg(ST[0].x,.03,ZMIN,ST[0].x,.03,ST[0].z); for(let i=0;i<N-1;i++) seg(ST[i].x,.03,ST[i].z,ST[i+1].x,.03,ST[i+1].z); stroke("#22d3ee",.12,8); stroke("#22d3ee",.45,2);   // tor na podłodze
+  if(Q>0) for(const d of DUST) dot(d[0]+Math.sin(time*.2+d[3])*.6,d[1]+Math.sin(time*.3+d[3]*2)*.3,d[2],.035,SPR.w,.35);
+  drawPaper(time); g.globalCompositeOperation="lighter";
+  for(let i=0;i<N-1;i++) station(i,time);
+  for(const A of AGENTS) figure(A,time);
+  // strumienie: cienkie linie krzywych i jadące po nich cząstki ze smugą
+  SEG.forEach((S,j)=>{ for(const col of ["c","v","g"]){ g.beginPath(); let any=false; S.forEach((c,k)=>{ if(SEGC[j][k]!==col) return; any=true; for(let n=0;n<c.length/3-1;n+=1){ const o=n*3; seg(c[o],c[o+1],c[o+2],c[o+3],c[o+4],c[o+5]); } }); if(any){ const cc=col==="c"?"#22d3ee":col==="v"?"#8b93ff":"#ffd27a"; stroke(cc,.07,5); stroke(cc,.34,1.1); } } });
+  for(let pi=0;pi<PT.length;pi+=(Q?1:2)){ const p=PT[pi]; if(p.state===1){ const a=clamp(p.life/1.5,0,1); dot(p.x,p.y,p.z,.13,a>.55?SPR.a:SPR.r,a); continue; }
+    const c=SEG[p.seg][p.cv], spr=p.gate>=0?SPR.a:SPR[SEGC[p.seg][p.cv]];
+    const end=p.seg===SEG.length-1?1-ease(clamp((p.t-.72)/.28,0,1)):1;   // przy gazecie cząstki wtapiają się w stronę
+    for(let n=0;n<(Q>1?4:2);n++){ at(c,p.t-n*.016); dot(AX,AY,AZ,.14-n*.026,spr,(.95-n*.22)*end); } }
+  if(bloomCv&&Q>0){ const bx=bloomCv.getContext("2d"); bx.globalCompositeOperation="copy"; bx.drawImage(cv,0,0,bloomCv.width,bloomCv.height);
+    g.globalAlpha=.62; g.imageSmoothingEnabled=true; g.imageSmoothingQuality="high"; g.drawImage(bloomCv,0,0,W,H); }   // poświata (bloom)
+  g.globalCompositeOperation="source-over"; drawTiles();
+  for(const s of SRC) srcScreen(s,time);
+  const order=STAGES.map((_,i)=>{ cam(ST[i].x,5,ST[i].z); return [CZ,i]; }).sort((a,b)=>b[0]-a[0]); for(const [,i] of order) plate(i);
+  g.globalAlpha=1; g.drawImage(vigCv,0,0,W,H); if(fade>.01){ g.globalAlpha=fade; g.fillStyle="#03050a"; g.fillRect(0,0,W,H); } g.globalAlpha=1; }
+
+// --- sterowanie: wybór etapu, odtwarzanie, pętla klatek
+const chipEls=[];
+STAGES.forEach((s,i)=>{ const li=el("li"), b=el("button","chip"); b.type="button"; b.setAttribute("aria-pressed","false"); b.append(el("span","n",String(i+1)),document.createTextNode(s.name));
+  b.addEventListener("click",()=>{ setPlaying(false); select(i); }); li.append(b); $("chips").append(li); chipEls.push(b); });
+let tickIdx=0;
+function renderCaption(){ const s=STAGES[selected]; $("cname").textContent=(selected+1)+". "+s.name; $("cwho").textContent=s.who;
+  const c=$("cline"); c.textContent=""; if(FILM){ c.textContent=s.say; } else if(data&&data.titles.length){ c.append(el("b",null,"W tym wydaniu: "),document.createTextNode(data.titles[tickIdx%data.titles.length])); } else c.textContent=s.role; }
+function select(i,fromTour){ const prev=selected; selected=(i+N)%N; const s=STAGES[selected];
+  if(fromTour&&prev===N-1&&selected===0){ fade=1; asm=0; cp[0]=CAMS[0].p[0]+3; cp[1]=CAMS[0].p[1]+2.5; cp[2]=CAMS[0].p[2]-10; ct[0]=CAMS[0].t[0]; ct[1]=CAMS[0].t[1]; ct[2]=CAMS[0].t[2]; }   // nowe okrążenie: wracamy na początek hali
+  chipEls.forEach((b,k)=>b.setAttribute("aria-pressed",String(k===selected)));
+  const d=$("detail"); d.textContent=""; const left=el("div"); left.append(el("h3",null,s.title),el("p","role",s.role));
+  const v=s.fact(data); if(v){ const f=el("p","dfact"); f.append(el("b",null,String(v[0])),document.createTextNode(v[1])); left.append(f); }
+  left.append(el("p","body",s.body)); const ul=el("ul"); s.points.forEach(p=>ul.append(el("li",null,p))); if(s.stop) ul.append(el("li","stopper",s.stop)); d.append(left,ul);
+  renderCaption(); tourClock=0; dirty=true; }
+function setPlaying(on){ playing=on; const b=$("play"); b.textContent=on?"Zatrzymaj":"Odtwórz"; b.setAttribute("aria-pressed",String(on)); dirty=true; }
+$("play").addEventListener("click",()=>setPlaying(!playing));
+$("prev").addEventListener("click",()=>{ setPlaying(false); select(selected-1); });
+$("next").addEventListener("click",()=>{ setPlaying(false); select(selected+1); });
+const DWELL=7; let tourClock=0, tickClock=0, last=0, T=0, slow=0;
+const FILM_DWELL=[8,10,9.5,8.5,6.5,8.5,6];   // sekundy na etap w trybie pokazu, dobrane do długości zdań lektora
+{ const c=(new URLSearchParams(location.search).get("czasy")||"").split(",").map(Number); if(c.length===FILM_DWELL.length&&c.every(v=>v>=2&&v<=30)) c.forEach((v,i)=>FILM_DWELL[i]=v); }   // albo podane w adresie (?czasy=…)
+function advance(raw){ const dt=Math.min(.05,raw), adt=playing?dt:0; T+=adt;
+  if(!FILM&&playing&&raw<.5){ if(raw>.03){ if(++slow>45&&Q>0){ Q--; slow=0; resize(); } } else if(raw<.02) slow=0; }   // za wolno: schodzimy z jakości
+  if(playing){ tourClock+=dt; if(tourClock>=(FILM?FILM_DWELL[selected]:DWELL)) select(selected+1,true); tickClock+=dt; if(tickClock>=3.6){ tickClock=0; tickIdx++; if(!FILM) renderCaption(); } }
+  const C=CAMS[selected], k=reduced&&!FILM?1:1-Math.exp(-dt*2.1), sway=reduced&&!FILM?0:1; let moved=0;
+  const tp=[C.p[0]+Math.sin(T*.23)*.9*sway,C.p[1]+Math.sin(T*.17)*.3*sway,C.p[2]+Math.cos(T*.2)*.6*sway];
+  for(let n=0;n<3;n++){ const a=(tp[n]-cp[n])*k, b=(C.t[n]-ct[n])*k; cp[n]+=a; ct[n]+=b; moved+=Math.abs(a)+Math.abs(b); }
+  const want=selected>=N-1?1:selected===N-2?.84:selected===N-3?.34:0, da=(want-asm)*(reduced&&!FILM?1:1-Math.exp(-dt*(want>asm?.7:2.5))); asm+=da;   // wstępne wydanie rośnie od etapu podsumowania
+  if(fade>0){ fade=Math.max(0,fade-dt*1.4); moved=1; }
+  if(!playing&&moved<.0005&&Math.abs(da)<.0005&&!dirty) return;   // pauza i nic się nie zmienia: nie rysujemy
+  update(adt); draw(T); dirty=false; }
+const REC=FILM&&new URLSearchParams(location.search).get("pokaz")==="nagranie";   // nagrywanie: czas przesuwa skrypt, nie zegar
+function frame(now){ requestAnimationFrame(frame); if(!W||!visible||document.hidden){ last=now; return; } const raw=(now-last)/1000||0; last=now; advance(raw); }
+if(FILM){ document.documentElement.classList.add("pokaz"); if(REC){ document.documentElement.classList.add("nagranie"); window.__pokaz={ step:dt=>advance(dt), stage:()=>selected, go:i=>select(i) };
+  if(new URLSearchParams(location.search).get("napisy")==="0") document.documentElement.classList.add("bez-napisow"); } }   // nagranie bez napisów: do montażu z innym obrazem
+new ResizeObserver(resize).observe($("hallwrap")); resize();
+if("IntersectionObserver" in window) new IntersectionObserver(e=>{ visible=e[0].isIntersecting; },{rootMargin:"120px"}).observe($("hallwrap"));
+// po wczytaniu wydania: prawdziwe nazwy redakcji na ekranach źródeł, liczby na tablicach, tytuły na stronie gazety
+function sceneData(){ if(data) data.sources.slice(0,SRC.length).forEach(([name,n],k)=>{ SRC[k].name=name; SRC[k].n=n; }); drawPage(); select(selected); }
+drawPage(); if(!REC) requestAnimationFrame(frame);
+
+// ---- rozkład dnia (czas warszawski) ----
+const DAY0=6*60, DAY1=22*60, pct=m=>((Math.min(Math.max(m,DAY0),DAY1)-DAY0)/(DAY1-DAY0)*100)+"%";
+function buildAxis(){
+  const a=$("axis"); a.textContent=""; a.append(el("div","line"));
+  [[9*60+20,10*60+30],[15*60+20,16*60+30]].forEach(([s,e])=>{ const w=el("div","win"); w.style.left=pct(s); w.style.width=`calc(${pct(e)} - ${pct(s)})`; w.title="Praca nad wydaniem"; a.append(w); });
+  for(let h=6;h<=22;h+=2){ const t=el("div","hr"+(h%4===2?"":" minor"),h+":00"); t.style.left=pct(h*60); a.append(t); }
+  [[9*60,"Kontrola przed startem",""],[15*60,"Kontrola przed startem",""],[17*60+30,"Kontrola dnia","audit"]].forEach(([m,label,c])=>{ const e=el("div","ev "+c); e.style.left=pct(m); e.title=label; a.append(e); });
+  const n=el("div","nowm"); n.id="nowm"; a.append(n);
+}
+function renderStatus(){
+  const m=warsawNow(), nm=$("nowm"); nm.classList.toggle("off", m<DAY0||m>DAY1); nm.style.left=pct(m);
+  const hhmm=x=>Math.floor(x/60)+":"+String(x%60).padStart(2,"0");
+  // dzisiejsza data w Warszawie (RRRR-MM-DD) i datownik bieżącego wydania — status mówi, co naprawdę jest na stronie
+  const today=new Intl.DateTimeFormat("en-CA",{timeZone:"Europe/Warsaw"}).format(new Date());
+  const st=data&&data.stamp?{day:data.stamp.slice(0,10),time:data.stamp.slice(11,16)}:null;
+  const outToday=from=>st&&st.day===today&&st.time>=from;
+  let line;
+  if(m<9*60+20) line="Redakcja zaczyna pracę nad wydaniem porannym o 9:20.";
+  else if(m<10*60+30) line=outToday("09:00")?`Najnowsze wydanie wyszło dziś o ${st.time}.`:"Trwa praca nad wydaniem porannym. Zwykle jest gotowe około 10:00.";
+  else if(m<15*60+20) line=!st?"Praca nad wydaniem popołudniowym zaczyna się o 15:20.":outToday("09:00")?`Najnowsze wydanie wyszło dziś o ${st.time}. Praca nad popołudniowym zaczyna się o 15:20.`:"Dzisiejszego wydania porannego nie ma jeszcze na stronie. Po 11:15 czujnik świeżości zgłasza to wydawcy.";
+  else if(m<16*60+30) line=outToday("15:00")?`Najnowsze wydanie wyszło dziś o ${st.time}.`:"Trwa praca nad wydaniem popołudniowym. Zwykle jest gotowe około 16:00.";
+  else line=!st?"Dzisiejsza praca redakcji jest zakończona. Następne wydanie powstanie jutro od 9:20.":outToday("15:00")?`Najnowsze wydanie wyszło dziś o ${st.time}. Następne powstanie jutro od 9:20.`:"Dzisiejszego wydania popołudniowego nie ma jeszcze na stronie. Po 17:15 czujnik świeżości zgłasza to wydawcy.";
+  const s=$("status"); s.textContent=""; s.append(el("b",null,"Teraz w Warszawie "+hhmm(m)+". "), document.createTextNode(line));
+}
+
+// ---- liczby wydania ----
+const REG={world:"Świat",europe:"Europa",poland:"Polska",warsaw:"Warszawa"}, CAT={NEWS:"Wiadomości",AI:"AI",Tech:"Technologie",Stomatologia:"Stomatologia"}, PRI={red:"Wysoka",yellow:"Średnia",green:"Informacyjna"};
+function barPanel(title,rows,names){
+  const p=el("div","panel"); p.append(el("h3",null,title)); const ul=el("ul","bars"); const max=Math.max(...rows.map(r=>r[1]),1);
+  rows.forEach(([k,v])=>{ const li=el("li"); const trk=el("span","trk"), fill=el("span","fill"); trk.append(fill);
+    li.append(el("span","lbl",(names&&names[k])||k), trk, el("span","val",String(v))); ul.append(li); requestAnimationFrame(()=>requestAnimationFrame(()=>{ fill.style.width=(v/max*100)+"%"; })); });
+  p.append(ul); return p;
+}
+function renderNums(){
+  const n=$("nums"); n.textContent="";
+  n.append(barPanel("Regiony",data.regions,REG), barPanel("Tematy",data.cats,CAT), barPanel("Ważność",data.pris,PRI), barPanel("Najczęstsze redakcje",data.sources.slice(0,8)));
+  if(data.summary.length){ const p=el("div","panel wide"); p.append(el("h3",null,"Co trafiło do podsumowania dnia")); const ol=el("ol","tops"); data.summary.forEach(t=>ol.append(el("li",null,t))); p.append(ol); n.append(p); }
+  const g=el("p","muted"); g.style.gridColumn="1/-1";
+  g.textContent=`W tym wydaniu ${data.good} ${plural(data.good,"wiadomość jest oznaczona","wiadomości są oznaczone","wiadomości jest oznaczonych")} jako dobre. Liczby wiadomości odrzuconych po drodze redakcja nie publikuje, dlatego nie ma ich na tej stronie.`;
+  n.append(g);
+}
+function renderEdition(){
+  const e=$("edition"); e.textContent="";
+  e.append(el("b",null,"Wydanie nr "+(data.nr||"—")));
+  if(data.pubDate){ e.append(document.createTextNode("opublikowano "+new Intl.DateTimeFormat("pl-PL",{timeZone:"Europe/Warsaw",day:"numeric",month:"long",year:"numeric",hour:"2-digit",minute:"2-digit"}).format(data.pubDate)));
+    const h=Math.round((Date.now()-data.pubDate.getTime())/36e5); const dni=Math.floor(h/24); if(h>=0) e.append(el("span","age", h<1?"mniej niż godzinę temu":h<48?`${h} ${plural(h,"godzinę","godziny","godzin")} temu`:`${dni} dni temu`)); }
+  e.append(document.createTextNode(`${data.total} ${plural(data.total,"wiadomość","wiadomości","wiadomości")} z ${data.sources.length} redakcji`));
+}
+
+// ---- start ----
+buildAxis(); renderStatus(); setInterval(renderStatus,30000);
+select(0); setPlaying(playing);
+loadEdition().then(d=>{ data=d; renderEdition(); sceneData(); renderNums(); renderStatus(); })
+  .catch(()=>{ $("edition").textContent="Nie udało się wczytać bieżącego wydania. Opis procesu poniżej jest aktualny, a liczby zobaczysz po odświeżeniu strony.";
+               $("nums-intro").textContent="Liczby pojawią się tutaj, gdy uda się wczytać bieżące wydanie ze strony głównej. Odśwież stronę za chwilę."; });
+</script>
+<!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "9fe320efc6424ca382dcd5f9bd87bc0c"}'></script><!-- End Cloudflare Web Analytics -->
+</body>
+</html>

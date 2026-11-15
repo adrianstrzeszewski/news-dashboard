@@ -328,6 +328,48 @@ footer{margin-top:40px;padding:24px 0 70px;border-top:1px solid var(--hairline);
   font-size:11.5px;line-height:1.65;color:var(--ink-3)}
 footer b{color:var(--ink-2)}
 .fref{color:var(--ink-2)} .fref:hover{color:var(--accent-2)}
+/* ---- karta z filmem „Jak powstaje wydanie” (prefiks fk-, żeby nie kolidować z innymi klasami) ----
+   Trzy stany w data-state: karta (miniatura + opis), odtwarzanie (sam odtwarzacz), obejrzany (wąski pasek).
+   Stan „ukryty” to atrybut hidden. Stan zapisuje skrypt na końcu strony. */
+.filmcard{position:relative;margin-top:16px;padding:18px;border-radius:var(--r);border:1px solid var(--hairline);background:var(--surface);
+  display:grid;grid-template-columns:minmax(0,300px) minmax(0,1fr);gap:16px 24px;align-items:center}
+.filmcard[hidden]{display:none}
+.fk-poster{position:relative;display:block;width:100%;aspect-ratio:16/9;padding:0;border:0;border-radius:14px;overflow:hidden;cursor:pointer;background:#05070c}
+.fk-poster img{display:block;width:100%;height:100%;object-fit:cover}
+.fk-poster::before{content:"";position:absolute;left:50%;top:50%;width:58px;height:58px;margin:-29px 0 0 -29px;border-radius:50%;background:rgba(5,7,12,.72);border:1.5px solid rgba(255,255,255,.75)}
+.fk-poster::after{content:"";position:absolute;left:50%;top:50%;margin:-11px 0 0 -6px;border-style:solid;border-width:11px 0 11px 18px;border-color:transparent transparent transparent #fff}
+.fk-poster:hover::before{background:rgba(72,64,216,.9)}
+.fk-body h2{font-size:18px;margin-right:64px}
+.fk-body p{margin:7px 0 0;color:var(--ink-2);font-size:15px;line-height:1.55;max-width:60ch}
+.fk-actions{margin-top:13px;display:flex;flex-wrap:wrap;gap:8px 16px;align-items:center}
+.fk-btn{border:0;border-radius:12px;padding:9px 16px;font:inherit;font-size:14px;font-weight:680;color:#fff;background:var(--a-btn);cursor:pointer}
+.fk-link{font-size:14px;color:var(--ink-2)} .fk-link:hover{color:var(--accent-2)}
+.fk-ai{margin-top:10px;font-size:12.5px;color:var(--ink-3)}
+.fk-hide{position:absolute;top:10px;right:10px;border:0;background:none;font:inherit;font-size:13px;color:var(--ink-3);cursor:pointer;padding:6px 9px;border-radius:9px}
+.fk-hide:hover{color:var(--ink-1);background:var(--chip-bg)}
+.fk-player,.fk-strip{display:none}
+.fk-player video{display:block;width:100%;max-height:74vh;border-radius:14px;background:#000}
+.filmcard[data-state="odtwarzanie"]{grid-template-columns:1fr;padding-top:42px}
+.filmcard[data-state="odtwarzanie"] .fk-poster,.filmcard[data-state="odtwarzanie"] .fk-body{display:none}
+.filmcard[data-state="odtwarzanie"] .fk-player{display:block}
+.filmcard[data-state="obejrzany"]{display:flex;align-items:center;gap:8px 16px;flex-wrap:wrap;padding:9px 12px 9px 18px}
+.filmcard[data-state="obejrzany"] .fk-poster,.filmcard[data-state="obejrzany"] .fk-body,.filmcard[data-state="obejrzany"] .fk-player{display:none}
+.filmcard[data-state="obejrzany"] .fk-strip{display:flex;flex:1 1 auto;flex-wrap:wrap;gap:6px 16px;align-items:center;font-size:14px;color:var(--ink-2)}
+.filmcard[data-state="obejrzany"] .fk-strip button{border:0;background:none;padding:0;font:inherit;color:var(--accent);cursor:pointer;text-decoration:underline}
+.filmcard[data-state="obejrzany"] .fk-hide{position:static}
+@media (max-width:640px){
+  /* telefon: karta ma być niska — mała miniatura obok tytułu, bez akapitu opisu */
+  .filmcard{grid-template-columns:116px minmax(0,1fr);gap:10px 14px;padding:12px}
+  .fk-poster{border-radius:10px;align-self:start}
+  .fk-poster::before{width:34px;height:34px;margin:-17px 0 0 -17px}
+  .fk-poster::after{margin:-7px 0 0 -4px;border-width:7px 0 7px 11px}
+  .fk-body h2{font-size:16px;margin-right:52px}
+  .fk-body p{display:none}
+  .fk-actions{margin-top:9px}
+  .fk-btn{padding:8px 13px}
+  .fk-ai{margin-top:8px}
+  .fk-hide{top:6px;right:6px}
+}
 
 /* ---------- widok regionu ---------- */
 .backbtn{margin:26px 0 0;border:1px solid var(--hairline);background:var(--surface);color:var(--ink-2);
@@ -652,6 +694,20 @@ footer b{color:var(--ink-2)}
         </ol>
     </section>
 
+    <!-- Karta z filmem „Jak powstaje wydanie”: stały element strony, NIE część wydania. Zachowaj bez zmian przy aktualizacji treści. -->
+    <section class="filmcard" id="film-card" aria-labelledby="film-card-h" data-state="karta" hidden>
+      <button class="fk-poster" type="button" data-fk="play" aria-label="Odtwórz film: jak powstaje wydanie (53 sekundy)"><img src="jak-powstaje-wydanie.jpg" alt="" width="1280" height="720" loading="lazy" decoding="async"></button>
+      <div class="fk-body">
+        <h2 id="film-card-h">Zobacz, jak powstaje wydanie</h2>
+        <p>53 sekundy o tym, kto szuka wiadomości, kto je sprawdza i kto dopuszcza gazetę do publikacji.</p>
+        <div class="fk-actions"><button class="fk-btn" type="button" data-fk="play">Odtwórz film</button><a class="fk-link" href="redakcja.html">Jak działa redakcja, krok po kroku</a></div>
+        <div class="fk-ai">Obraz i głos wygenerowane przez AI.</div>
+      </div>
+      <div class="fk-player"></div>
+      <div class="fk-strip"><span>Film: jak powstaje wydanie (53 s)</span><button type="button" data-fk="play">Obejrzyj ponownie</button><a class="fk-link" href="redakcja.html">Jak działa redakcja</a></div>
+      <button class="fk-hide" type="button" data-fk="hide">Ukryj</button>
+    </section>
+
     <div class="pills" id="home-pills"><button class="pl" data-hf="all" aria-pressed="true">Wszystko</button><button class="pl" data-hf="world">Świat</button><button class="pl" data-hf="europe">Europa</button><button class="pl" data-hf="poland">Polska</button><button class="pl" data-hf="warsaw">Warszawa</button><button class="pl" data-hf="AI">AI</button><button class="pl" data-hf="Tech">Tech</button><button class="pl" data-hf="Stomatologia">Stomatologia</button></div>
     <div class="cards" id="home-cards"></div>
 
@@ -788,6 +844,8 @@ footer b{color:var(--ink-2)}
       Wiadomości pochodzą wyłącznie ze źródeł spełniających pięć jawnych kryteriów wiarygodności (lista i kryteria powyżej). Priorytety (🔴/🟡/🟢) nadawane redakcyjnie wg wpływu na branżę/region. Newsy o tym samym wydarzeniu z wielu źródeł są deduplikowane — pokazywane raz, z najbardziej wiarygodnego źródła. * media finansowane publicznie oznaczone; przy tematach dot. fundatora wymagane drugie źródło.
       <br><br>
       © 2026 <a class="fref" href="https://itspace.com.pl/?utm_source=news-dashboard&utm_medium=referral&utm_campaign=footer" target="_blank" rel="noopener">ITSPACE · itspace.com.pl</a> — serwis, jego układ, projekt graficzny oraz dobór i redakcja treści stanowią własność ITSPACE. <b>Wszelkie prawa zastrzeżone.</b> Tytuły i streszczenia materiałów prasowych przywoływane są w ramach <b>prawa cytatu</b> (art. 29 ustawy o prawie autorskim i prawach pokrewnych), każdorazowo ze wskazaniem źródła i odnośnikiem do oryginalnej publikacji; prawa do cytowanych materiałów pozostają przy ich wydawcach. Statystyki odwiedzin prowadzi Cloudflare Web Analytics — bez plików cookie i bez identyfikowania pojedynczych czytelników. Dashboard przygotowuje ITSPACE — IT dla stomatologii. Wersja 4.0 · 14.07.2026.
+      <br><br>
+      <a class="fref" href="redakcja.html">Jak powstaje wydanie: redakcja od środka</a> · <a class="fref" href="#film-card" id="film-show">Pokaż film (53 s)</a>
     </footer>
   </div>
 
@@ -1335,6 +1393,45 @@ applyGoodUI();
 renderHome();
 tickClocks();
 setInterval(tickClocks, 1000);
+
+/* ---- karta z filmem „Jak powstaje wydanie” ----
+   Wybór czytelnika zostaje w localStorage tej przeglądarki (bez cookies, nic nie jest wysyłane):
+   brak wpisu = karta, "obejrzany" = wąski pasek, "ukryty" = karta schowana. Link w stopce przywraca kartę.
+   Plik filmu wczytuje się dopiero po kliknięciu „Odtwórz”. */
+(function () {
+  const KEY = "itspace-news-film", card = document.getElementById("film-card");
+  if (!card) return;
+  let mem = "";
+  const read = () => { try { return localStorage.getItem(KEY) || ""; } catch (e) { return mem; } };
+  const write = v => { mem = v; try { v ? localStorage.setItem(KEY, v) : localStorage.removeItem(KEY); } catch (e) {} apply(); };
+  function apply() { const s = read(); card.dataset.state = s === "obejrzany" ? "obejrzany" : "karta"; card.hidden = s === "ukryty"; }
+  function play() {
+    let v = card.querySelector("video");
+    if (!v) {
+      v = document.createElement("video");
+      v.controls = true; v.playsInline = true; v.preload = "metadata";
+      v.poster = "jak-powstaje-wydanie.jpg"; v.src = "jak-powstaje-wydanie.mp4";
+      v.setAttribute("aria-label", "Film: jak powstaje wydanie News ITSPACE");
+      v.addEventListener("ended", () => write("obejrzany"));
+      card.querySelector(".fk-player").append(v);
+    }
+    card.hidden = false; card.dataset.state = "odtwarzanie";
+    try { v.currentTime = 0; } catch (e) {}
+    const p = v.play(); if (p && p.catch) p.catch(() => {});
+  }
+  card.addEventListener("click", e => {
+    const b = e.target.closest("[data-fk]"); if (!b) return;
+    if (b.dataset.fk === "play") play();
+    else { const v = card.querySelector("video"); if (v) v.pause(); write("ukryty"); }
+  });
+  const show = document.getElementById("film-show");
+  if (show) show.addEventListener("click", e => {
+    e.preventDefault(); write("");
+    card.scrollIntoView({ behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block: "center" });
+    card.querySelector(".fk-btn").focus({ preventScroll: true });
+  });
+  apply();
+})();
 
 </script>
 <script>

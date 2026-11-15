@@ -240,6 +240,7 @@ button,input{font-family:inherit}
 .rtile h3{font-size:16.5px}
 .rt-counts{font-size:11.5px;color:var(--ink-3);display:flex;flex-direction:column;gap:2px;line-height:1.5}
 .rt-counts b{color:var(--ink-2)}
+.rt-counts .nw{white-space:nowrap}
 .rt-top{font-size:12px;color:var(--ink-2);line-height:1.42;
   display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 .rt-open{margin-top:auto;padding-top:8px;font-size:11.5px;font-weight:740;color:var(--accent-2)}
@@ -293,7 +294,7 @@ button,input{font-family:inherit}
 .events{display:flex;flex-direction:column}
 .ev{display:flex;gap:13px;padding:10px 0;border-bottom:1px solid var(--hairline)}
 .ev:last-child{border-bottom:0}
-.ed{font-size:11px;font-weight:740;color:var(--accent-2);min-width:74px;padding-top:2px}
+.ed{font-size:11px;font-weight:740;color:var(--accent-2);flex:0 0 124px;padding-top:2px}
 .en{font-size:14px;font-weight:670;line-height:1.32}
 .en a:hover{color:var(--accent-2)}
 .el{font-size:11.5px;color:var(--ink-3);margin-top:3px}
@@ -350,6 +351,9 @@ footer b{color:var(--ink-2)}
 
 /* zegary */
 .clocks{display:flex;gap:12px;flex-wrap:wrap;margin:0}
+.clocks:empty{display:none}
+/* zegar i kafelki pogody w nagłówku regionu mają tę samą wysokość */
+.rhead .clocks,.rhead .wxtiles{align-self:stretch}
 .clock{display:flex;align-items:center;gap:12px;border:1px solid var(--hairline);background:var(--surface);
   border-radius:16px;padding:10px 16px 10px 12px;min-width:172px}
 .clock svg{width:46px;height:46px;flex:none}
@@ -362,12 +366,14 @@ footer b{color:var(--ink-2)}
 .clock .pin{fill:var(--accent-2)}
 .clock .cz{font-size:10.5px;color:var(--ink-3);text-transform:uppercase;letter-spacing:.08em;font-weight:700}
 .clock .ct{font-size:20px;font-weight:790;font-variant-numeric:tabular-nums}
-.clock .ct .sec{font-size:12px;color:var(--ink-3);font-weight:650}
+/* .sec to także klasa nagłówka sekcji (display:flex, padding 40px) — tu sekundy zegara, więc zerujemy układ */
+.clock .ct .sec{display:inline;padding:0;font-size:12px;color:var(--ink-3);font-weight:650}
 .clock .cd{font-size:11px;color:var(--ink-2)}
 
 /* pogoda */
 .wxtiles{display:flex;gap:10px;flex-wrap:wrap}
-.wxtile{border:1px solid var(--hairline);background:var(--surface);border-radius:16px;padding:10px 15px;min-width:118px}
+.wxtile{border:1px solid var(--hairline);background:var(--surface);border-radius:16px;padding:10px 15px;min-width:118px;
+  display:flex;flex-direction:column;justify-content:center}
 .wxtile .wl{font-size:10px;text-transform:uppercase;letter-spacing:.1em;color:var(--ink-3);font-weight:740;margin-bottom:3px}
 .wxtile .wv{font-size:16px;font-weight:790;font-variant-numeric:tabular-nums}
 .wxtile .wd{font-size:11.5px;color:var(--ink-2);font-weight:500}
@@ -380,9 +386,8 @@ footer b{color:var(--ink-2)}
 .wxdays .wd{font-size:11px;color:var(--ink-3);font-weight:650}
 .wxdays .wl{font-size:12.5px;font-variant-numeric:tabular-nums;margin-top:4px}
 .wxlegend{display:flex;gap:14px;flex-wrap:wrap;margin-top:13px;font-size:11.5px;color:var(--ink-3)}
-.wxsw,.rainsw{border:1px solid var(--hairline);background:var(--chip-bg);color:var(--ink-2);border-radius:999px;
-  padding:6px 12px;font-size:12px;font-weight:650;cursor:pointer}
-.wxsw.on,.rainsw.on{background:var(--a-btn);border-color:transparent;color:#fff}
+.wxlegend>span{display:inline-flex;align-items:center;gap:6px}
+.wxsw{display:inline-block;width:10px;height:10px;border-radius:3px;flex:none}
 
 /* ---------- responsywność ---------- */
 @media(max-width:1080px){
@@ -465,6 +470,12 @@ footer b{color:var(--ink-2)}
   .brandmark{font-size:13px}
   .themesw button{padding:5px 8px;font-size:11.5px}
   .goodsw{padding:7px 11px;font-size:11.5px}
+  .rhead{gap:12px}
+  .rhead h2{flex:1 1 100%}
+  .rhead .clocks{flex:1 1 100%}
+  .rhead .clock{flex:1;justify-content:center}
+  .rhead .wxtiles{flex:1 1 100%}
+  .rhead .wxtile{flex:1}
 }
 
 /* 5. Poświaty priorytetu ZOSTAJĄ. Podejrzewałem je pierwsze, ale pomiar je oczyścił:
@@ -1051,9 +1062,9 @@ function renderHomeNews(){
   }
   const zapamietany = curRegion;
   curRegion = "all";                                   // karty pokazują chip regionu
-  // pierwsze dwie karty niosą wydanie: szeroka + wysoka, dalej rytm 6/4/4
+  // pierwsze dwie karty niosą wydanie: szeroka + wysoka (7+5), dalej pełne wiersze 6+6 i 4+4+4
   el.innerHTML = L.map((n,i) => {
-    const kl = i === 0 ? " big" : i === 1 ? " tall" : (i-2) % 5 === 0 ? " half" : "";
+    const kl = i === 0 ? " big" : i === 1 ? " tall" : (i-2) % 5 < 2 ? " half" : "";
     return card(n).replace('class="card p-', 'class="card' + kl + ' p-');
   }).join("");
   curRegion = zapamietany;
@@ -1079,7 +1090,7 @@ function renderHome(){
     const cc = {NEWS:0,AI:0,Tech:0,Stomatologia:0,red:0};
     items.forEach(n=>{cc[n.cat]++; if(n.pri==="red")cc.red++;});
     document.getElementById("rc-home-"+reg).innerHTML =
-      `<span>📰 NEWS: <b>${cc.NEWS}</b> · 🤖 AI: <b>${cc.AI}</b> · 💻 Tech: <b>${cc.Tech}</b> · 🦷 Stomat.: <b>${cc.Stomatologia}</b></span><span>🔴 pilne: <b>${cc.red}</b> · razem: <b>${items.length}</b></span>`;
+      `<span><span class="nw">📰 NEWS: <b>${cc.NEWS}</b></span> · <span class="nw">🤖 AI: <b>${cc.AI}</b></span> · <span class="nw">💻 Tech: <b>${cc.Tech}</b></span> · <span class="nw">🦷 Stomat.: <b>${cc.Stomatologia}</b></span></span><span><span class="nw">🔴 pilne: <b>${cc.red}</b></span> · <span class="nw">razem: <b>${items.length}</b></span></span>`;
     const top = items.filter(n=>n.pri==="red").sort((a,b)=>b.date.localeCompare(a.date))[0];
     document.getElementById("rt-top-"+reg).innerHTML = top ? `<b>🔴 Najważniejsze:</b> ${esc(top.title)}` : "";
   }

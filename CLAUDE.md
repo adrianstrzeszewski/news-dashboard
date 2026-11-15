@@ -27,3 +27,7 @@ W `<head>` są meta (description, canonical, Open Graph, Twitter Card) oraz blok
 ## Poradniki
 
 Katalog `poradniki/` (spis `poradniki/index.html` + artykuły `poradniki/<slug>/index.html`) serwowany pod /poradniki/. Aktualizacja wydania NIE zmienia jego zawartości — nowe artykuły lub modyfikacje powstają wyłącznie na wyraźne zlecenie właściciela. Wpisy poradników w `sitemap.xml` zostają bez zmian.
+
+## Statystyki odwiedzin
+
+Tuż przed `</body>` w `index.html` i na każdej stronie w `poradniki/` jest fragment „Cloudflare Web Analytics" (skrypt `beacon.min.js` z tokenem witryny news.itspace.com.pl). Zachowuj go bez zmian przy każdej aktualizacji wydania — bez niego statystyki przestają się liczyć. Token jest jawny (identyfikuje witrynę, nie daje dostępu do konta). Stopka gazety informuje czytelników o tych statystykach; nie usuwaj tego zdania.

@@ -35,3 +35,11 @@ Katalog `poradniki/` (spis `poradniki/index.html` + artykuły `poradniki/<slug>/
 ## Statystyki odwiedzin
 
 Tuż przed `</body>` w `index.html` i na każdej stronie w `poradniki/` jest fragment „Cloudflare Web Analytics" (skrypt `beacon.min.js` z tokenem witryny news.itspace.com.pl). Zachowuj go bez zmian przy każdej aktualizacji wydania — bez niego statystyki przestają się liczyć. Token jest jawny (identyfikuje witrynę, nie daje dostępu do konta). Stopka gazety informuje czytelników o tych statystykach; nie usuwaj tego zdania.
+
+## Film i strona „Jak powstaje wydanie”
+
+- `redakcja.html` (adres /redakcja) to osobna, stała strona o procesie redakcyjnym: film, animowana hala i opis etapów. Liczby czyta sama z bieżącego `index.html`. Aktualizacja wydania jej NIE zmienia.
+- `jak-powstaje-wydanie.mp4` i `jak-powstaje-wydanie.jpg` (katalog główny) to film i jego miniatura. Nie usuwaj i nie podmieniaj ich przy wydaniu.
+- W `index.html`, zaraz pod sekcją `#day-summary`, jest karta `<section id="film-card">` oraz jej skrypt na końcu głównego `<script>` (blok „karta z filmem”). To stały element strony, nie część wydania: zachowuj go bez zmian, razem z linkami w stopce (`#film-show` i link do `redakcja.html`). Czytelnik może kartę ukryć; wybór zapisuje jego przeglądarka (localStorage, bez cookies).
+- Wpis `/redakcja` w `sitemap.xml` zostaje bez zmian przy publikacji wydania.
+

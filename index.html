@@ -267,7 +267,7 @@ button,input{font-family:inherit}
 .adtel a{color:var(--ink-1)}
 
 /* ---------- moduły ---------- */
-.modules{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:14px;margin-top:14px}
+.modules{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(320px,100%),1fr));gap:14px;margin-top:14px}
 .module{border:1px solid var(--hairline);background:var(--surface);border-radius:var(--r);padding:21px 23px}
 .module h2{font-size:12px;letter-spacing:.14em;text-transform:uppercase;font-weight:790;color:var(--ink-3)}
 .module > h2{margin-bottom:13px}
@@ -471,6 +471,8 @@ footer b{color:var(--ink-2)}
   .themesw button{padding:5px 8px;font-size:11.5px}
   .goodsw{padding:7px 11px;font-size:11.5px}
   .rhead{gap:12px}
+  .ed{flex-basis:92px}
+  .witem{text-align:left}
   .rhead h2{flex:1 1 100%}
   .rhead .clocks{flex:1 1 100%}
   .rhead .clock{flex:1;justify-content:center}
@@ -975,6 +977,8 @@ let goodMode = new URLSearchParams(location.search).get("dobre") === "1";
 const BASE = () => goodMode ? NEWS.filter(n => n.good === true) : NEWS;
 
 function fmtDate(d){ const m=["sty","lut","mar","kwi","maj","cze","lip","sie","wrz","paź","lis","gru"]; const [y,mo,da]=d.split("-"); return `${parseInt(da)} ${m[parseInt(mo)-1]} ${y}`; }
+// polska odmiana: 1 doniesienie, 2–4 doniesienia, 5+ (oraz 12–14) doniesień
+function odmDoniesien(n){ const d=n%10, s=n%100; return n===1 ? "doniesienie" : (d>=2 && d<=4 && !(s>=12 && s<=14)) ? "doniesienia" : "doniesień"; }
 function esc(s){ return s.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;"); }
 
 function matches(n){
@@ -1097,7 +1101,7 @@ function renderHome(){
   document.getElementById("watch").innerHTML = WATCHLIST.map((w,i) => {
     const hits = BASE().filter(n => w.kw.some(k => (n.title+" "+n.sum).toLowerCase().includes(k)));
     const reds = hits.filter(n => n.pri === "red").length;
-    return `<button class="witem" data-wi="${i}"><span class="wname">${w.name}</span><span class="wcount ${reds?"hot":""}">${hits.length} doniesień${reds?" · "+reds+"×🔴":""}</span></button>`;
+    return `<button class="witem" data-wi="${i}"><span class="wname">${w.name}</span><span class="wcount ${reds?"hot":""}">${hits.length} ${odmDoniesien(hits.length)}${reds?" · "+reds+"×🔴":""}</span></button>`;
   }).join("");
   document.querySelectorAll(".witem").forEach(el => el.addEventListener("click", () => openRegion("all", WATCHLIST[+el.dataset.wi].kw.join(" | "))));
   document.getElementById("events").innerHTML = EVENTS.slice().sort((a,b)=>a.ds.localeCompare(b.ds)).map(e =>
@@ -1183,9 +1187,10 @@ function renderWeather(cur, daily){
   const dayName = (iso,i) => i===0 ? "Dziś" : i===1 ? "Jutro" : new Intl.DateTimeFormat("pl-PL",{weekday:"short"}).format(new Date(iso+"T12:00:00"));
   const n = daily.time.length;
   document.getElementById("wx-days").innerHTML = [0,1].map(i =>
-    `<span>${wmo(daily.weathercode ? daily.weathercode[i] : daily.weather_code[i])[0]} <b>${dayName(daily.time[i],i)}:</b> ${Math.round(daily.temperature_2m_min[i])}° / <b>${Math.round(daily.temperature_2m_max[i])}°</b>${daily.precipitation_sum[i] >= 0.1 ? " · ☔ " + daily.precipitation_sum[i].toFixed(1) + " mm" : ""}</span>`).join("");
+    `<span>${wmo(daily.weathercode ? daily.weathercode[i] : daily.weather_code[i])[0]} <b>${dayName(daily.time[i],i)}:</b> <b>${Math.round(daily.temperature_2m_max[i])}°</b> / ${Math.round(daily.temperature_2m_min[i])}°${daily.precipitation_sum[i] >= 0.1 ? " · ☔ " + daily.precipitation_sum[i].toFixed(1) + " mm" : ""}</span>`).join("");
   // wykres SVG: linie temp max/min + słupki opadów
-  const W=640, H=232, padL=30, padR=14, padT=18, padB=62;
+  // szerokość układu = szerokość panelu (330–640): na telefonie napisy osi zachowują czytelny rozmiar zamiast skalować się w dół
+  const W=Math.max(330, Math.min(640, Math.round(document.getElementById("wx-chart").clientWidth || 640))), H=232, padL=30, padR=14, padT=18, padB=62;
   const xs = i => padL + i * (W-padL-padR) / (n-1);
   const tmax = daily.temperature_2m_max, tmin = daily.temperature_2m_min, rain = daily.precipitation_sum;
   const tHi = Math.ceil(Math.max(...tmax)+1), tLo = Math.floor(Math.min(...tmin)-1);

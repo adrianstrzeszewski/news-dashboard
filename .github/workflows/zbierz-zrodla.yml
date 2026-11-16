@@ -112,9 +112,22 @@ jobs:
 
           # Biała lista — te same redakcje, które rutyna ma w KROKU 2 promptu.
           # (żródło, kategoria, region, adres kanału)
+          #
+          # CZEGO W ZRZUCIE NIE MA (sprawdzone 16.11.2026) — te redakcje NIE mają
+          # działającego, oficjalnego kanału RSS, więc rutyna sięga po nie osobno
+          # (Firecrawl), a nie przez ten zrzut:
+          #   • Reuters  — feeds.reuters.com wyłączone w czerwcu 2020, brak następcy;
+          #   • AP       — apnews.com/index.rss i pokrewne wyłączone, brak następcy;
+          #   • PAP      — pap.pl/rss.xml oddaje HTML, ostatnia treść z 12.08.2022 (usunięte);
+          #   • infoDENT24 — /rss i /feed/ zwracają 4xx (usunięte);
+          #   • ADA News, WTP, um.warszawa.pl — brak kanału albo 4xx.
+          # Pośredniki (Google News search RSS, Flipboard, RSSHub) są ŚWIADOMIE odrzucone:
+          # to nie są kanały wydawcy, a zrzut ma zawierać wyłącznie materiał publikowany
+          # przez samą redakcję do odbioru maszynowego.
           KANALY = [
               ('BBC News',            'NEWS', 'world',  'https://feeds.bbci.co.uk/news/world/rss.xml'),
               ('BBC Europe',          'NEWS', 'europe', 'https://feeds.bbci.co.uk/news/world/europe/rss.xml'),
+              ('Guardian Europe',     'NEWS', 'europe', 'https://www.theguardian.com/world/europe-news/rss'),
               ('The Guardian',        'NEWS', 'world',  'https://www.theguardian.com/world/rss'),
               ('Al Jazeera',          'NEWS', 'world',  'https://www.aljazeera.com/xml/rss/all.xml'),
               ('NPR',                 'NEWS', 'world',  'https://feeds.npr.org/1001/rss.xml'),
@@ -129,11 +142,12 @@ jobs:
               ('Onet Wiadomości',     'NEWS', 'poland', 'https://wiadomosci.onet.pl/.feed'),
               ('Interia Fakty',       'NEWS', 'poland', 'https://fakty.interia.pl/feed'),
               ('Rzeczpospolita',      'NEWS', 'poland', 'https://www.rp.pl/rss/1019'),
-              ('PAP',                 'NEWS', 'poland', 'https://www.pap.pl/rss.xml'),
               ('TVN Warszawa',        'NEWS', 'warsaw', 'https://tvn24.pl/tvnwarszawa/najnowsze.xml'),
+              ('RMF24 Warszawa',      'NEWS', 'warsaw', 'https://www.rmf24.pl/regiony/warszawa/feed'),
               ('Gazeta Stołeczna',    'NEWS', 'warsaw', 'https://rss.gazeta.pl/pub/rss/warszawa.xml'),
               ('TechCrunch',          'AI',   'world',  'https://techcrunch.com/feed/'),
               ('The Verge',           'Tech', 'world',  'https://www.theverge.com/rss/index.xml'),
+              ('BBC Technology',      'Tech', 'world',  'https://feeds.bbci.co.uk/news/technology/rss.xml'),
               ('MIT Technology Review','AI',  'world',  'https://www.technologyreview.com/feed/'),
               ('Sifted',              'Tech', 'europe', 'https://sifted.eu/feed'),
               ('Spider’s Web',   'Tech', 'poland', 'https://spidersweb.pl/feed'),
@@ -142,7 +156,6 @@ jobs:
               ('Dental Tribune',      'Stomatologia', 'world',  'https://www.dental-tribune.com/feed/'),
               ('Dentistry.co.uk',     'Stomatologia', 'europe', 'https://dentistry.co.uk/feed/'),
               ('Dentonet',            'Stomatologia', 'poland', 'https://dentonet.pl/feed/'),
-              ('infoDENT24',          'Stomatologia', 'poland', 'https://infodent24.pl/rss'),
               ('Positive News',       'Dobre',        'world',  'https://www.positive.news/feed/'),
               ('Reasons to be Cheerful','Dobre',      'world',  'https://reasonstobecheerful.world/feed/'),
               ('Nauka w Polsce',      'Dobre',        'poland', 'https://naukawpolsce.pl/rss.xml'),

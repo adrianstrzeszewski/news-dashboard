@@ -1,5 +1,5 @@
 {
- "zebrano": "2026-11-17T14:15:55Z",
+ "zebrano": "2026-11-17T14:23:05Z",
  "kanalow_ok": 33,
  "kanalow_bledy": 1,
  "niepelny": false,
@@ -970,7 +970,7 @@
    "zrodlo": "Al Jazeera",
    "kategoria": "NEWS",
    "region": "world",
-   "tytul": "India vs Pakistan LIVE: SAFF Championship final",
+   "tytul": "India vs Pakistan live: SAFF Championship final",
    "url": "https://www.aljazeera.com/sports/liveblog/2026/11/17/india-vs-pakistan-live-saff-championship-final?traffic_source=rss",
    "opublikowano": "2026-11-17T12:00:00Z",
    "opublikowano_surowe": "Tue, 17 Nov 2026 12:00:00 +0000",
@@ -1110,8 +1110,8 @@
    "zrodlo": "Deutsche Welle",
    "kategoria": "NEWS",
    "region": "europe",
-   "tytul": "US flexes its climate action muscle despite Trump no-show at COP31",
-   "url": "https://www.dw.com/en/us-flexes-its-climate-action-muscle-despite-trump-no-show-at-cop31/a-79968666?maca=en-rss-en-all-1573-rdf",
+   "tytul": "US flexes climate action muscle at COP31 despite Trump no-show",
+   "url": "https://www.dw.com/en/us-flexes-climate-action-muscle-at-cop31-despite-trump-no-show/a-79968666?maca=en-rss-en-all-1573-rdf",
    "opublikowano": "2026-11-17T12:16:00Z",
    "opublikowano_surowe": "2026-11-17T12:16:00Z",
    "streszczenie": "The US government is snubbing UN climate talks in Turkey. That's prompted a delegation of American lawmakers, mayors and governors to make the trip instead, aiming to show climate action in the US is alive and well."
@@ -1650,6 +1650,46 @@
    "zrodlo": "Euractiv",
    "kategoria": "NEWS",
    "region": "europe",
+   "tytul": "Poland, Denmark push for EU under-15 social media ban",
+   "url": "https://www.rapporteur.com/news/poland-denmark-push-for-eu-under-15-social-media-ban/",
+   "opublikowano": "2026-11-17T14:00:22Z",
+   "opublikowano_surowe": "Tue, 17 Nov 2026 14:00:22 +0000",
+   "streszczenie": "The two countries also want to allow temporary national bans"
+  },
+  {
+   "zrodlo": "Euractiv",
+   "kategoria": "NEWS",
+   "region": "europe",
+   "tytul": "Finnish satellite manufacturer bids €2bn for Italy’s rocket maker",
+   "url": "https://www.rapporteur.com/news/finnish-satellite-manufacturer-bids-e2bn-for-italys-rocket-maker/",
+   "opublikowano": "2026-11-17T13:38:16Z",
+   "opublikowano_surowe": "Tue, 17 Nov 2026 13:38:16 +0000",
+   "streszczenie": "ICEYE received €1 billion in equity funding from EU's scaleup fund in August"
+  },
+  {
+   "zrodlo": "Euractiv",
+   "kategoria": "NEWS",
+   "region": "europe",
+   "tytul": "Data centre sabotage risks land in EU’s sovereign cloud law",
+   "url": "https://www.rapporteur.com/news/data-centre-sabotage-risks-land-in-eus-sovereign-cloud-law/",
+   "opublikowano": "2026-11-17T13:35:15Z",
+   "opublikowano_surowe": "Tue, 17 Nov 2026 13:35:15 +0000",
+   "streszczenie": "Capitals also want nature conservation to be non-binding priority when deciding build locations"
+  },
+  {
+   "zrodlo": "Euractiv",
+   "kategoria": "NEWS",
+   "region": "europe",
+   "tytul": "Crosetto skips China talks in Brussels as Italy hosts Beijing defence chief",
+   "url": "https://www.rapporteur.com/news/crosetto-skips-china-talks-in-brussels-as-italy-host-beijing-defence-chief/",
+   "opublikowano": "2026-11-17T13:25:55Z",
+   "opublikowano_surowe": "Tue, 17 Nov 2026 13:25:55 +0000",
+   "streszczenie": "Admiral Dong Jun arrived in Italy on Monday for what could be a first step of a European tour."
+  },
+  {
+   "zrodlo": "Euractiv",
+   "kategoria": "NEWS",
+   "region": "europe",
    "tytul": "Ireland drops cross-border trials language from Biotech Act draft",
    "url": "https://www.rapporteur.com/news/ireland-drops-cross-border-trials-language-from-biotech-act-draft/",
    "opublikowano": "2026-11-17T12:46:28Z",
@@ -1755,46 +1795,6 @@
    "opublikowano": "2026-11-17T09:00:09Z",
    "opublikowano_surowe": "Tue, 17 Nov 2026 09:00:09 +0000",
    "streszczenie": "Intermediate crops and crops grown on severely degraded land can widen Europe’s renewable fuel supply without using more land. The Advanced Feedstocks Alliance (AFA), which brings together companies across the renewable fuels value chain, is calling for certification rules that let them scale."
-  },
-  {
-   "zrodlo": "Euractiv",
-   "kategoria": "NEWS",
-   "region": "europe",
-   "tytul": "FIREPOWER: Mark your calendar for 9 December",
-   "url": "https://www.rapporteur.com/news/firepower-mark-your-calendar-for-9-december/",
-   "opublikowano": "2026-11-17T08:55:13Z",
-   "opublikowano_surowe": "Tue, 17 Nov 2026 08:55:13 +0000",
-   "streszczenie": "In today's edition: strategic enablers, PURL, Ukraine loan"
-  },
-  {
-   "zrodlo": "Euractiv",
-   "kategoria": "NEWS",
-   "region": "europe",
-   "tytul": "THE HACK: Kids Act rapporteur eyes AI",
-   "url": "https://www.rapporteur.com/news/the-hack-kids-act-rapporteur-eyes-ai/",
-   "opublikowano": "2026-11-17T08:52:14Z",
-   "opublikowano_surowe": "Tue, 17 Nov 2026 08:52:14 +0000",
-   "streszczenie": "In today's edition: Chips Act 2, DMA, Finnish gigafactory"
-  },
-  {
-   "zrodlo": "Euractiv",
-   "kategoria": "NEWS",
-   "region": "europe",
-   "tytul": "VOLTAGE: EU makes COP31 first draft",
-   "url": "https://www.rapporteur.com/news/voltage-eu-makes-cop31-first-draft/",
-   "opublikowano": "2026-11-17T08:48:34Z",
-   "opublikowano_surowe": "Tue, 17 Nov 2026 08:48:34 +0000",
-   "streszczenie": "In today's edition: grid permitting, fusion strategy, PFAS"
-  },
-  {
-   "zrodlo": "Euractiv",
-   "kategoria": "NEWS",
-   "region": "europe",
-   "tytul": "FIRST AID: Pharma Package vs bureaucracy",
-   "url": "https://www.rapporteur.com/news/first-aid-pharma-package-vs-bureaucracy/",
-   "opublikowano": "2026-11-17T08:45:01Z",
-   "opublikowano_surowe": "Tue, 17 Nov 2026 08:45:01 +0000",
-   "streszczenie": "In today's edition: tobacco tax, Alzheimer’s, weight-loss drugs"
   },
   {
    "zrodlo": "RMF24",
@@ -1950,6 +1950,26 @@
    "zrodlo": "TVN24",
    "kategoria": "NEWS",
    "region": "poland",
+   "tytul": "Polska coraz bliżej Nuclear Sharing? Szef MON Władysław Kosiniak-Kamysz o szczegółach",
+   "url": "https://tvn24.pl/polska/polska-coraz-blizej-nuclear-sharing-szef-mon-wladyslaw-kosiniak-kamysz-o-szczegolach-st9343454?source=rss",
+   "opublikowano": "2026-11-17T14:19:03Z",
+   "opublikowano_surowe": "Tue, 17 Nov 2026 14:19:03 GMT",
+   "streszczenie": "Efekty są bardzo dobre akurat dla Polski, ale to wymaga już największej dyskrecji - powiedział szef MON Władysław Kosiniak-Kamysz, pytany o zaangażowanie Polski w program Nuclear Sharing. Przekazał, że ustalenia w tej sprawie zostały podjęte na szczycie NATO w lipcu w Ankarze."
+  },
+  {
+   "zrodlo": "TVN24",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Zwrot w sprawie pochówku zamachowca z Krakowa. Zgłosiła się \"osoba najbliższa\"",
+   "url": "https://tvn24.pl/krakow/krakow-zwrot-w-sprawie-pochowku-zamachowca-zglosila-sie-osoba-najblizsza-st9343635?source=rss",
+   "opublikowano": "2026-11-17T14:16:23Z",
+   "opublikowano_surowe": "Tue, 17 Nov 2026 14:16:23 GMT",
+   "streszczenie": "Ciało 24-letniego sprawcy zamachu w Krakowie zostanie wydane jego bliskim, by dokonali pochówku. Prokuratura potwierdza, że ciało zostanie przekazane rodzinie po zakończeniu badań."
+  },
+  {
+   "zrodlo": "TVN24",
+   "kategoria": "NEWS",
+   "region": "poland",
    "tytul": "Oszukiwała seniorów i wyłudzała pieniądze. Zatrzymali ją \"łowcy głów\"",
    "url": "https://tvn24.pl/lublin/chelm-oszukiwala-i-okradala-seniorow-zatrzymali-ja-lowcy-glow-st9343461?source=rss",
    "opublikowano": "2026-11-17T14:11:21Z",
@@ -2077,24 +2097,14 @@
    "streszczenie": "W prognozie na kolejne dni widać sporo opadów i silny wiatr. Początkowo do Polski będą płynąć łagodne masy znad Atlantyku, dzięki czemu w wielu rejonach temperatura osiągnie dwucyfrowe wartości. Już pod koniec tygodnia mocno się jednak ochłodzi."
   },
   {
-   "zrodlo": "TVN24",
+   "zrodlo": "Polsat News",
    "kategoria": "NEWS",
    "region": "poland",
-   "tytul": "Co zrobić w razie ataku Rosji? Większość Polaków wskazała jedną odpowiedź",
-   "url": "https://tvn24.pl/polska/sondaz-cbos-co-zrobic-w-razie-ataku-rosji-na-nato-st9343036?source=rss",
-   "opublikowano": "2026-11-17T13:15:39Z",
-   "opublikowano_surowe": "Tue, 17 Nov 2026 13:15:39 GMT",
-   "streszczenie": "Jak należy reagować na potencjalne rosyjskie ataki? Czy mamy pewność, że sojusznicy nam pomogą? Co sami byśmy zrobili w razie zbrojnego ataku? Najnowsze badanie CBOS pokazuje, że pierwszy raz od 2024 roku najwięcej ankietowanych Polaków uważa atak Rosji na państwa NATO za raczej nieprawdopodobny."
-  },
-  {
-   "zrodlo": "TVN24",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Zderzenie z tirem. Jedna osoba nie żyje, druga w szpitalu",
-   "url": "https://tvn24.pl/tvnwarszawa/okolice/sielc-zderzenie-na-dk50-jedna-osoba-nie-zyje-st9343119?source=rss",
-   "opublikowano": "2026-11-17T13:13:50Z",
-   "opublikowano_surowe": "Tue, 17 Nov 2026 13:13:50 GMT",
-   "streszczenie": "Tragedia pod Ostrowią Mazowiecką. Na krajowej \"60\" samochód osobowy zderzył się z samochodem ciężarowym. Jedna osoba nie żyje, druga trafiła do szpitala."
+   "tytul": "Kolejna dymisja w Ministerstwie Rolnictwa. Odchodzi dyrektor generalny",
+   "url": "https://www.polsatnews.pl/wiadomosc/2026-11-17/kolejna-dymisja-w-ministerstwie-rolnictwa-odchodzi-dyrektor-generalny/",
+   "opublikowano": "2026-11-17T14:15:00Z",
+   "opublikowano_surowe": "Tue, 17 Nov 2026 15:15:00 +0100",
+   "streszczenie": "Kolejna dymisja w Ministerstwie Rolnictwa po publikacji Wirtualnej Polski. Jak ustalił portal, rezygnację złożył dyrektor generalny resortu Marek Cieśliński. Wcześniej ze stanowiska odszedł szef gabinetu politycznego ministra Stefana Krajewskiego, Michał Zarzecki. Sprawa ma związek z ustaleniami dotyczącymi spłaty ponad 2,2 mln zł zobowiązań tego drugiego przez państwową instytucję."
   },
   {
    "zrodlo": "Polsat News",
@@ -2237,20 +2247,20 @@
    "streszczenie": "Przed wjazdem na główną stację kolejową w Pradze doszło do czołowego zderzenia pociągów. Według informacji podawanych przez czeskie służby i media rannych zostało 46 osób. Ustalane są przyczyny wypadku. Jak ustalił Polsat News, wśród poszkodowanych nie ma obywateli Polski."
   },
   {
-   "zrodlo": "Polsat News",
+   "zrodlo": "Onet Wiadomości",
    "kategoria": "NEWS",
    "region": "poland",
-   "tytul": "Będzie zgoda na areszt dla Święczkowskiego? \"Jestem spakowany\"",
-   "url": "https://www.polsatnews.pl/wiadomosc/2026-11-17/bedzie-zgoda-na-areszt-dla-swieczkowskiego-jestem-spakowany/",
-   "opublikowano": "2026-11-17T09:10:00Z",
-   "opublikowano_surowe": "Tue, 17 Nov 2026 10:10:00 +0100",
-   "streszczenie": "W poniedziałek w Trybunale Konstytucyjnym rozpoczęło się posiedzenie w sprawie immunitetu jego prezesa Bogdana Święczkowskiego oraz wiceprezesa Bartłomieja Sochańskiego. Zostało ono zwołane przez sędzię Annę Korwin-Piotrowską. - Wzywam uzurpatorów do przywrócenia stanu zgodnego z konstytucją i prawem - mówił Święczkowski przed gmachem TK."
+   "tytul": "Koniec pierwszej części zgromadzenia. Kluczowe spotkanie w sprawie TK [RELACJA NA ŻYWO]",
+   "url": "https://wiadomosci.onet.pl/kraj/kluczowe-rozstrzygniecie-w-tk-waza-sie-losy-immunitetu-swieczkowskiego-relacja-na/bnsqxbh",
+   "opublikowano": "2026-11-17T14:15:36Z",
+   "opublikowano_surowe": "Tue, 17 Nov 2026 14:15:36 GMT",
+   "streszczenie": "Przed nami kluczowe chwile w Trybunale Konstytucyjnym. Zgromadzenie Ogólne sędziów TK będzie decydować w sprawie immunitetów prezesa TK Bogdana Święczkowskiego i wiceprezesa TK Bartłomieja Sochańskiego. Po godz. 14 w Sądzie Okręgowym w Warszawie zakończyło się wysłuchanie dotyczące wniosków. Dalsza część obrad zaplanowana jest w siedzibie Trybunału Konstytucyjnego. Jednocześnie w Sejmie trwa debata nad wnioskiem klubu Rozwój Plus o wyrażenie wotum nieufności wobec rządu i wybór Marka Jurka na premiera. Zapraszamy do relacji na żywo!"
   },
   {
    "zrodlo": "Onet Wiadomości",
    "kategoria": "NEWS",
    "region": "poland",
-   "tytul": "Prezydent Karol Nawrocki dokona zmian w składzie Rady Ministrów. Jest data",
+   "tytul": "Zmiany w składzie rządu. Jest data powołania przez prezydenta",
    "url": "https://wiadomosci.onet.pl/kraj/prezydent-karol-nawrocki-dokona-zmian-w-skladzie-rady-ministrow-jest-data/tpe15tj",
    "opublikowano": "2026-11-17T14:05:18Z",
    "opublikowano_surowe": "Tue, 17 Nov 2026 14:05:18 GMT",
@@ -2314,7 +2324,7 @@
    "url": "https://wiadomosci.onet.pl/krakow/nagla-zmiana-w-sprawie-ciala-zamachowca-z-krakowa/vbq1vgj",
    "opublikowano": "2026-11-17T13:23:03Z",
    "opublikowano_surowe": "Tue, 17 Nov 2026 13:23:03 GMT",
-   "streszczenie": "Babcia sprawcy ataku z Krakowa chce zgłosić się po ciało mężczyzny — informuje Polsat News oraz Radio Eska. Wcześniej władze miasta informowały, że jeśli nikt z rodziny nie wyrazi takiej woli, to ciało zamachowca posłuży celom naukowym."
+   "streszczenie": "Osoba najbliższa sprawcy ataku w Krakowie zgłosiła się z chęcią odebrania jego ciała — przekazała Prokuratura Krajowa. Radio Eska oraz Polsat News informowały, że chodzi o jego babcie. Wcześniej władze miasta przekazały, że jeśli nikt z rodziny nie wyrazi takiej woli, to ciało zamachowca posłuży celom naukowym."
   },
   {
    "zrodlo": "Onet Wiadomości",
@@ -2345,16 +2355,6 @@
    "opublikowano": "2026-11-17T12:51:58Z",
    "opublikowano_surowe": "Tue, 17 Nov 2026 12:51:58 GMT",
    "streszczenie": "Ważą się losy immunitetów prezesa Trybunału Konstytucyjnego Bogdana Święczkowskiego i wiceprezesa Bartłomieja Sochańskiego. — Jestem spakowany na wszelki wypadek, gdyby mnie chcieli zatrzymywać i tymczasowo aresztować — powiedział we wtorek Święczkowski."
-  },
-  {
-   "zrodlo": "Onet Wiadomości",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Koniec pierwszej części zgromadzenia. Kluczowe spotkanie w sprawie TK [RELACJA NA ŻYWO]",
-   "url": "https://wiadomosci.onet.pl/kraj/kluczowe-rozstrzygniecie-w-tk-waza-sie-losy-immunitetu-swieczkowskiego-relacja-na/bnsqxbh",
-   "opublikowano": "2026-11-17T12:42:36Z",
-   "opublikowano_surowe": "Tue, 17 Nov 2026 12:42:36 GMT",
-   "streszczenie": "Przed nami kluczowe chwile w Trybunale Konstytucyjnym. Zgromadzenie Ogólne sędziów TK będzie decydować w sprawie immunitetów prezesa TK Bogdana Święczkowskiego i wiceprezesa TK Bartłomieja Sochańskiego. Po godz. 14 w Sądzie Okręgowym w Warszawie zakończyło się wysłuchanie dotyczące wniosków. Dalsza część obrad zaplanowana jest w siedzibie Trybunału Konstytucyjnego. Zapraszamy do relacji na żywo!"
   },
   {
    "zrodlo": "Onet Wiadomości",
@@ -2395,6 +2395,26 @@
    "opublikowano": "2026-11-17T11:58:41Z",
    "opublikowano_surowe": "Tue, 17 Nov 2026 11:58:41 GMT",
    "streszczenie": "W końcu wiadomo, kto ma reprezentować Europę w rozmowach pokojowych dotyczących Ukrainy. Będzie to dość liczny zespół, w którym zabrakło miejsca dla szefowej unijnej dyplomacji. Kaja Kallas nie zamierza pogodzić się z tą decyzją."
+  },
+  {
+   "zrodlo": "Interia Fakty",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Media: Francuscy żołnierze wysłani do Ukrainy. Tajna misja, piszą o Polsce",
+   "url": "https://wydarzenia.interia.pl/ukraina-rosja/news-media-francuscy-zolnierze-wyslani-do-ukrainy-pisza-o-tajnej,nId,23574944",
+   "opublikowano": "2026-11-17T14:16:55Z",
+   "opublikowano_surowe": "Tue, 17 Nov 2026 14:16:55 GMT",
+   "streszczenie": "Francja wysłała na Ukrainę oddział żołnierzy, którzy szkolą ukraińską armię i nadzorują wykorzystywanie przez nią francuskiego sprzętu - informuje Radio France Internationale (RFI). Według rozgłośni przykrywką misji jest operacja \"Gerfaut\", w ramach której żołnierze francuscy stacjonują w Polsce. Warszawa i Paryż nie komentują sprawy, zareagowała natomiast Moskwa."
+  },
+  {
+   "zrodlo": "Interia Fakty",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Głos z Pałacu, Nawrocki \"dokona zmian\" w rządzie. Padła data",
+   "url": "https://wydarzenia.interia.pl/kraj/news-glos-z-palacu-nawrocki-dokona-zmian-w-rzadzie-padla-data,nId,23574974",
+   "opublikowano": "2026-11-17T14:11:38Z",
+   "opublikowano_surowe": "Tue, 17 Nov 2026 14:11:38 GMT",
+   "streszczenie": "W piątek o godzinie 11 Prezydent RP Karol Nawrocki dokona zmian w składzie Rady Ministrów - przekazał Rafał Leśkiewicz. Rzecznik głowy państwa wbił przy tej okazji szpilę rządowi, podkreślając, że \"o ich skali zdecyduje parlament podczas dzisiejszego głosowania\". Sejm pochyla się we wtorek nad wnioskiem o konstruktywne wotum nieufności dla gabinetu Tuska."
   },
   {
    "zrodlo": "Interia Fakty",
@@ -2525,26 +2545,6 @@
    "opublikowano": "2026-11-17T11:42:01Z",
    "opublikowano_surowe": "Tue, 17 Nov 2026 11:42:01 GMT",
    "streszczenie": "Prokurator Prokuratury Okręgowej we Wrocławiu skierował do Sądu Rejonowego w Oleśnicy akt oskarżenia przeciwko europosłowi Grzegorzowi B. Chodzi o działania podjęte przez polityka wobec lekarki w tamtejszym Powiatowym Zespole Szpitali w kwietniu 2025 r. W akcie oskarżenia zawarto także zarzuty zniszczenia mienia i nawoływania do nienawiści na tle różnic narodowościowych."
-  },
-  {
-   "zrodlo": "Interia Fakty",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Watykan opublikował zdjęcia z wizyty w Peru. Jeden szczegół zwraca uwagę",
-   "url": "https://wydarzenia.interia.pl/zagranica/news-watykan-opublikowal-zdjecia-z-wizyty-w-peru-jeden-szczegol-z,nId,23574704",
-   "opublikowano": "2026-11-17T11:21:32Z",
-   "opublikowano_surowe": "Tue, 17 Nov 2026 11:21:32 GMT",
-   "streszczenie": "Pielgrzymka papieża Leona XIV do Ameryki Łacińskiej skupiła na sobie uwagę milionów wiernych na całym świecie. Szczególnym zainteresowaniem cieszą się materiały z wizyty Ojca Świętego w Peru. Na nagraniach i zdjęciach, które pojawiły się w sieci, internauci zwrócili uwagę na jeden istotny szczegół. Chodzi o śmigłowiec przewożący papieża i hełm pilota."
-  },
-  {
-   "zrodlo": "Interia Fakty",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Blisko 1,5 tys. dronów w kilkanaście godzin. Rekordowy atak Ukrainy",
-   "url": "https://wydarzenia.interia.pl/ukraina-rosja/news-blisko-1-5-tys-dronow-w-kilkanascie-godzin-rekordowy-atak-uk,nId,23574693",
-   "opublikowano": "2026-11-17T10:58:51Z",
-   "opublikowano_surowe": "Tue, 17 Nov 2026 10:58:51 GMT",
-   "streszczenie": "Minionej nocy rosyjska obrona przeciwlotnicza zniszczyła 1441 ukraińskich dronów - przekazało tamtejsze Ministerstwo Obrony. Jak podał Reuters, jest to nowy rekord, a o rozmiarach eskalacji świadczy fakt, że poprzedni został pobity zaledwie dzień wcześniej. W sumie w ciągu 12 godzin Ukraina zaatakowała w 22 z 89 jednostek administracyjnych Rosji oraz na dwóch morzach."
   },
   {
    "zrodlo": "Rzeczpospolita",
@@ -3300,6 +3300,16 @@
    "zrodlo": "The Verge",
    "kategoria": "Tech",
    "region": "world",
+   "tytul": "The Verge Best of 2026",
+   "url": "https://www.theverge.com/gadgets/1034881/the-verge-best-of-2026",
+   "opublikowano": "2026-11-17T14:15:37Z",
+   "opublikowano_surowe": "2026-11-17T09:15:37-05:00",
+   "streszczenie": "Hundreds of gadgets pass across our desks each year. Some leave their mark and get a full review or make it to the top of a buying guide. It's harder than it sounds to narrow down our favorites. Instead of simply picking products that scored highly, or only those that made it into our buying […]"
+  },
+  {
+   "zrodlo": "The Verge",
+   "kategoria": "Tech",
+   "region": "world",
    "tytul": "Windows 11 actually runs better on 8GB of RAM now",
    "url": "https://www.theverge.com/tech/1035159/windows-11-8gb-ram-updates-performance-improvements-surface-laptop-testing",
    "opublikowano": "2026-11-17T13:58:04Z",
@@ -3365,16 +3375,6 @@
    "opublikowano": "2026-11-16T22:47:14Z",
    "opublikowano_surowe": "2026-11-16T17:47:14-05:00",
    "streszczenie": "OpenAI CEO Sam Altman is once again addressing his controversial comments on PC RAM purchases. \"I want to be clear, I want people to have a lot of RAM, I think everybody should be able to buy a lot of RAM for their own computer,\" Altman said today. \"I think the home tinkering is great.\" […]"
-  },
-  {
-   "zrodlo": "The Verge",
-   "kategoria": "Tech",
-   "region": "world",
-   "tytul": "The Verge Best of 2026",
-   "url": "https://www.theverge.com/gadgets/1034881/the-verge-best-of-2026",
-   "opublikowano": "2026-11-16T22:16:11Z",
-   "opublikowano_surowe": "2026-11-16T17:16:11-05:00",
-   "streszczenie": "Hundreds of gadgets pass across our desks each year. Some leave their mark and get a full review or make it to the top of a buying guide. It's harder than it sounds to narrow down our favorites. Instead of simply picking products that scored highly, or only those that made it into our buying […]"
   },
   {
    "zrodlo": "The Verge",

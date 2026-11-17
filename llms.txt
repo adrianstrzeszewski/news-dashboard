@@ -13,6 +13,7 @@
 - Priorytety redakcyjne (wysoki / średni / informacyjny), podsumowanie dnia, kalendarz wydarzeń branżowych
 - Tryb „Dobre wiadomości" — wyłącznie pozytywne, konstruktywne informacje (parametr ?dobre=1)
 - Dane na żywo w przeglądarce: pogoda (Open-Meteo), zegary stref czasowych, radar sygnałów technologicznych
+- [Jak powstaje wydanie: redakcja od środka](https://news.itspace.com.pl/redakcja) — proces redakcyjny, kryteria źródeł i weryfikacja, film (53 s)
 
 ## Źródła i rzetelność
 
@@ -44,3 +45,10 @@ Poradniki IT dla gabinetów stomatologicznych i klinik medycyny estetycznej: [sp
 
 - [ITSPACE — obsługa IT gabinetów stomatologicznych i klinik medycyny estetycznej, Warszawa](https://itspace.com.pl/)
 - Kontakt: kontakt@itspace.com.pl, +48 531 330 080
+
+## Informacje prawne
+
+- Wydawca: IT Space Adrian Strzeszewski (marka ITSPACE), ul. Strzelecka 40A/15, 03-433 Warszawa, NIP 5291581687, REGON 543509329
+- Regulamin serwisów itspace.com.pl i news.itspace.com.pl: https://itspace.com.pl/regulamin/
+- Polityka prywatności i cookies: https://itspace.com.pl/polityka-prywatnosci/
+- Statystyki odwiedzin: Cloudflare Web Analytics, bez plików cookie

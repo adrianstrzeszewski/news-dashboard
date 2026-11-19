@@ -1,9 +1,9 @@
 {
- "zebrano": "2026-11-19T14:18:10Z",
- "kanalow_ok": 31,
- "kanalow_bledy": 3,
+ "zebrano": "2026-11-19T14:22:01Z",
+ "kanalow_ok": 32,
+ "kanalow_bledy": 2,
  "niepelny": false,
- "wpisow": 415,
+ "wpisow": 430,
  "kanaly": [
   {
    "zrodlo": "BBC News",
@@ -58,8 +58,9 @@
    "zrodlo": "France 24",
    "kategoria": "NEWS",
    "url": "https://www.france24.com/en/rss",
-   "status": "ok",
-   "wpisow": 15
+   "status": "blad",
+   "wpisow": 0,
+   "komunikat": "HTTPError: HTTP Error 403: Forbidden"
   },
   {
    "zrodlo": "Politico Europe",
@@ -93,9 +94,8 @@
    "zrodlo": "TVN24",
    "kategoria": "NEWS",
    "url": "https://tvn24.pl/najnowsze.xml",
-   "status": "blad",
-   "wpisow": 0,
-   "komunikat": "HTTPError: HTTP Error 403: Forbidden"
+   "status": "ok",
+   "wpisow": 15
   },
   {
    "zrodlo": "Polsat News",
@@ -129,9 +129,8 @@
    "zrodlo": "TVN Warszawa",
    "kategoria": "NEWS",
    "url": "https://tvn24.pl/tvnwarszawa/najnowsze.xml",
-   "status": "blad",
-   "wpisow": 0,
-   "komunikat": "HTTPError: HTTP Error 403: Forbidden"
+   "status": "ok",
+   "wpisow": 15
   },
   {
    "zrodlo": "RMF24 Warszawa",
@@ -704,8 +703,8 @@
    "region": "world",
    "tytul": "Ukraine’s allies meet in Berlin with air defence, energy and financial support on the agenda – Europe live",
    "url": "https://www.theguardian.com/world/live/2026/nov/19/russia-ukraine-war-coalition-of-the-willing-europe-latest-news-updates",
-   "opublikowano": "2026-11-19T14:08:56Z",
-   "opublikowano_surowe": "Thu, 19 Nov 2026 14:08:56 GMT",
+   "opublikowano": "2026-11-19T14:04:17Z",
+   "opublikowano_surowe": "Thu, 19 Nov 2026 14:04:17 GMT",
    "streszczenie": "Meeting comes after Trump declared Putin a ‘friend’ during trilateral meeting in China For what it’s worth, the China-US-Russia ‘peace declaration’ issued after their meeting, and published by Chinese state media , includes absolutely no mention of Ukraine or Europe whatsoever. There is only one, rather generic, line that could be seen as close to these issues: “The three heads of state exchanged in-depth views on the current international situation and pledged to maintain strategic stability and international security.” Continue reading..."
   },
   {
@@ -852,16 +851,6 @@
    "zrodlo": "Al Jazeera",
    "kategoria": "NEWS",
    "region": "world",
-   "tytul": "‘Gaza Syndrome’: Israel’s Soldiers Haunted by Genocide – Cost of War",
-   "url": "https://www.aljazeera.com/video/al-jazeera-originals/2026/11/19/gaza-syndrome-israels-soldiers-haunted-by-genocide-cost-of-war?traffic_source=rss",
-   "opublikowano": "2026-11-19T13:54:10Z",
-   "opublikowano_surowe": "Thu, 19 Nov 2026 13:54:10 +0000",
-   "streszczenie": "The trauma Israeli soldiers bring home — and the consequences of Israel’s genocide in Gaza."
-  },
-  {
-   "zrodlo": "Al Jazeera",
-   "kategoria": "NEWS",
-   "region": "world",
    "tytul": "Canada’s beloved Tim Hortons brews ire over ‘excessive’ Israeli data deal",
    "url": "https://www.aljazeera.com/features/2026/11/19/canadas-beloved-tim-hortons-brews-ire-over-excessive-israeli-data-deal?traffic_source=rss",
    "opublikowano": "2026-11-19T13:49:49Z",
@@ -997,6 +986,16 @@
    "opublikowano": "2026-11-19T11:38:39Z",
    "opublikowano_surowe": "Thu, 19 Nov 2026 11:38:39 +0000",
    "streszczenie": "Trump threatens to 'wipe out' Iran in case of attack as Tehran's capabilities remain unclear."
+  },
+  {
+   "zrodlo": "Al Jazeera",
+   "kategoria": "NEWS",
+   "region": "world",
+   "tytul": "Putin says US-China-Russia can strengthen global stability",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/19/putin-says-us-china-russia-can-strengthen-global-stability?traffic_source=rss",
+   "opublikowano": "2026-11-19T11:22:43Z",
+   "opublikowano_surowe": "Thu, 19 Nov 2026 11:22:43 +0000",
+   "streszczenie": "Putin says US-China-Russia can strengthen global stability"
   },
   {
    "zrodlo": "NPR",
@@ -1247,156 +1246,6 @@
    "opublikowano": "2026-11-19T00:34:00Z",
    "opublikowano_surowe": "2026-11-19T00:34:00Z",
    "streszczenie": "Denial of humanitarian access, abductions and sexual violence are among several violations against children that have increased dramtically over the past year, according to a new report by Save the Children."
-  },
-  {
-   "zrodlo": "France 24",
-   "kategoria": "NEWS",
-   "region": "europe",
-   "tytul": "In South Korea, women forced into prostitution on US military bases seek justice",
-   "url": "https://www.france24.com/en/tv-shows/focus/20261119-in-south-korea-women-forced-into-prostitution-on-us-military-bases-seek-justice",
-   "opublikowano": "2026-11-19T13:21:41Z",
-   "opublikowano_surowe": "Thu, 19 Nov 2026 13:21:41 GMT",
-   "streszczenie": "Tens of thousands of women were forced to work in South Korean state-sanctioned brothels used by American soldiers based in the country after the Korean War. They were raped, physically abused and forcibly confined. Now, after decades of silence, some of these women are speaking out."
-  },
-  {
-   "zrodlo": "France 24",
-   "kategoria": "NEWS",
-   "region": "europe",
-   "tytul": "'Their lives, their rights, their history': Not the end of accountability for the Rohingya people'",
-   "url": "https://www.france24.com/en/their-lives-their-rights-their-history-not-the-end-of-accountability-for-the-rohingya-people",
-   "opublikowano": "2026-11-19T13:19:21Z",
-   "opublikowano_surowe": "Thu, 19 Nov 2026 13:19:21 GMT",
-   "streszczenie": "Oliver Farry welcomes Sonya Sceats, Director and CEO of the British Institute of International and Comparative Law. The case brought by The Gambia against Myanmar before the ICJ, and the court ruling, both have great significance for the Rohingya people, the interpretation of the Genocide Convention and the possibility of future criminal proceedings. The case could also have important implications for South Africa's proceedings against Israel, where there are “many similarities between the two cases.”"
-  },
-  {
-   "zrodlo": "France 24",
-   "kategoria": "NEWS",
-   "region": "europe",
-   "tytul": "What to know about Xi, Putin and Trump's historic trilateral summit",
-   "url": "https://www.france24.com/en/asia-pacific/20261119-what-to-know-about-xi-putin-and-trump-s-historic-trilateral-summit",
-   "opublikowano": "2026-11-19T13:11:27Z",
-   "opublikowano_surowe": "Thu, 19 Nov 2026 13:11:27 GMT",
-   "streszczenie": "China's Xi Jinping, Russian President Vladimir Putin and his US counterpart Donald Trump met for a historic summit in Shenzhen, China, on Thursday, where they agreed on a \"peace declaration\". The three leaders pledged to reform the UN, increase supplies of refined petroleum products and uphold the immunity enjoyed by officials in international courts."
-  },
-  {
-   "zrodlo": "France 24",
-   "kategoria": "NEWS",
-   "region": "europe",
-   "tytul": "'Grand Theft Auto VI', a 'masterpiece' 13 years in the making",
-   "url": "https://www.france24.com/en/tv-shows/press-review/20261119-grand-theft-auto-vi-a-masterpiece-13-years-in-the-making",
-   "opublikowano": "2026-11-19T12:22:53Z",
-   "opublikowano_surowe": "Thu, 19 Nov 2026 12:22:53 GMT",
-   "streszczenie": "PRESS REVIEW – Thursday, November 19: An historic trilateral summit takes place in Shenzhen between Xi Jinping, Donald Trump and Vladimir Putin. But is it more optics than substance? Also, a highly awaited decision from the International Court of Justice could redefine genocide. Finally, a huge cultural moment: \"Grand Theft Auto VI\" is out and the reviews are ecstatic."
-  },
-  {
-   "zrodlo": "France 24",
-   "kategoria": "NEWS",
-   "region": "europe",
-   "tytul": "Nigeria: States set to get their own police forces",
-   "url": "https://www.france24.com/en/nigeria-states-set-to-get-their-own-police-forces",
-   "opublikowano": "2026-11-19T12:20:35Z",
-   "opublikowano_surowe": "Thu, 19 Nov 2026 12:20:35 GMT",
-   "streszczenie": "Nigeria has moved a step closer to letting its 36 states set up their own police forces. The National Assembly has sent a constitutional amendment bill to the president, as authorities seek state-run police to complement the federal force amid growing insecurity. Many states currently fund vigilante groups to fight armed groups like Boko Haram, but these groups are poorly trained and ill-equipped for the task. FRANCE 24's correspondent has the latest."
-  },
-  {
-   "zrodlo": "France 24",
-   "kategoria": "NEWS",
-   "region": "europe",
-   "tytul": "French 2027 presidential race: Green leader Tondelier draws closer to hard-left Mélenchon",
-   "url": "https://www.france24.com/en/french-2027-presidential-race-green-leader-tondelier-draws-closer-to-hard-left-melenchon",
-   "opublikowano": "2026-11-19T12:09:45Z",
-   "opublikowano_surowe": "Thu, 19 Nov 2026 12:09:45 GMT",
-   "streszczenie": "Six months before the first round of France’s presidential election, Green party leader Marine Tondelier is moving closer to Jean-Luc Mélenchon, the leader of the radical left. The move has caught the other candidates on the left and in the centre off guard, notably Raphaël Glucksmann. FRANCE 24's Clovis Casali explains."
-  },
-  {
-   "zrodlo": "France 24",
-   "kategoria": "NEWS",
-   "region": "europe",
-   "tytul": "Senegal: Pastef removes President Faye from its ranks",
-   "url": "https://www.france24.com/en/senegal-pastef-removes-president-faye-from-its-ranks",
-   "opublikowano": "2026-11-19T12:05:40Z",
-   "opublikowano_surowe": "Thu, 19 Nov 2026 12:05:40 GMT",
-   "streszczenie": "In Senegal, Pastef, the majority party led by National Assembly president Ousmane Sonko, has made official the departure of President Bassirou Diomaye Faye. It is the latest episode in a split with his former Prime minister that was already largely complete, and it comes in the middle of an economic crisis."
-  },
-  {
-   "zrodlo": "France 24",
-   "kategoria": "NEWS",
-   "region": "europe",
-   "tytul": "🔴 Myanmar committed genocide against Muslim Rohingya minority, UN court finds",
-   "url": "https://www.france24.com/en/asia-pacific/20261119-top-un-court-to-rule-if-myanmar-s-rohingya-crackdown-was-genocide",
-   "opublikowano": "2026-11-19T11:41:40Z",
-   "opublikowano_surowe": "Thu, 19 Nov 2026 11:41:40 GMT",
-   "streszczenie": ""
-  },
-  {
-   "zrodlo": "France 24",
-   "kategoria": "NEWS",
-   "region": "europe",
-   "tytul": "Myanmar's Rohingya case: how does the ICJ define genocide?",
-   "url": "https://www.france24.com/en/myanmar-s-rohingya-case-how-does-the-icj-define-genocide",
-   "opublikowano": "2026-11-19T11:22:31Z",
-   "opublikowano_surowe": "Thu, 19 Nov 2026 11:22:31 GMT",
-   "streszczenie": "The ICJ is preparing to rule on whether Myanmar committed genocide against the Rohingya, in a case brought by The Gambia after the 2017 crackdown. The key legal test is proving intent to destroy a group, which is notoriously hard, and the court’s reading of it could also weigh on South Africa’s case against Israel."
-  },
-  {
-   "zrodlo": "France 24",
-   "kategoria": "NEWS",
-   "region": "europe",
-   "tytul": "🔴 Historic trilateral summit live: Trump, Xi and Putin agree that a nuclear war must never be fought",
-   "url": "https://www.france24.com/en/asia-pacific/20261119-xi-trump-putin-talks-live-china-us-russia-leaders-hold-landmark-three-way-meeting",
-   "opublikowano": "2026-11-19T11:11:03Z",
-   "opublikowano_surowe": "Thu, 19 Nov 2026 11:11:03 GMT",
-   "streszczenie": ""
-  },
-  {
-   "zrodlo": "France 24",
-   "kategoria": "NEWS",
-   "region": "europe",
-   "tytul": "AI lab Anthropic sets stock market record with $81 billion IPO",
-   "url": "https://www.france24.com/en/tv-shows/business/20261119-ai-lab-anthropic-sets-stock-market-record-with-81-billion-ipo",
-   "opublikowano": "2026-11-19T11:02:54Z",
-   "opublikowano_surowe": "Thu, 19 Nov 2026 11:02:54 GMT",
-   "streszczenie": "Anthropic becomes the first \"pure play\" AI lab to go public, with an eye-watering $1.5 trillion valuation, a bellwether moment amid growing concerns of a financial bubble in the sector. Meanwhile, a scientific study shows US data centres are emitting as much greenhouse gas as entire nations."
-  },
-  {
-   "zrodlo": "France 24",
-   "kategoria": "NEWS",
-   "region": "europe",
-   "tytul": "'We are making history,' says Trump at historic trilateral with Xi and Putin",
-   "url": "https://www.france24.com/en/video/20261119-we-are-making-history-says-trump-at-historic-trilateral-with-xi-and-putin",
-   "opublikowano": "2026-11-19T11:02:02Z",
-   "opublikowano_surowe": "Thu, 19 Nov 2026 11:02:02 GMT",
-   "streszczenie": "The first meeting in history between US, Chinese and Russian leaders has kicked off in Shenzhen, China. \"We are really making history,\" said the US president to his counterparts."
-  },
-  {
-   "zrodlo": "France 24",
-   "kategoria": "NEWS",
-   "region": "europe",
-   "tytul": "APEC Summit: Lots of gloss, little real progress?",
-   "url": "https://www.france24.com/en/apec-summit-lots-of-gloss-little-real-progress",
-   "opublikowano": "2026-11-19T10:47:03Z",
-   "opublikowano_surowe": "Thu, 19 Nov 2026 10:47:03 GMT",
-   "streszczenie": "Xi Jinping, Donald Trump and Vladimir Putin are holding their first-ever trilateral meeting in Shenzhen, on the sidelines of the APEC forum. It is a historic moment in more ways than one, with the leaders of the world’s three most powerful countries around the same table. Ukraine, the war in Iran, nuclear disarmament and artificial intelligence are all expected to be discussed, and the summit has stoked fears of a carve-up of the world into spheres of influence. But despite the buzz, analysts expect more symbolism than substance, with few concrete breakthroughs likely. Our correspondent in the"
-  },
-  {
-   "zrodlo": "France 24",
-   "kategoria": "NEWS",
-   "region": "europe",
-   "tytul": "Ukraine's European allies meet in Berlin in show of support",
-   "url": "https://www.france24.com/en/ukraine-s-european-allies-meet-in-berlin-in-show-of-support",
-   "opublikowano": "2026-11-19T10:43:58Z",
-   "opublikowano_surowe": "Thu, 19 Nov 2026 10:43:58 GMT",
-   "streszczenie": "Ukraine’s main European allies are meeting in Berlin on Thursday as a show of support for Kyiv, with US envoys Steve Witkoff and Jared Kushner also attending. The gathering, which brings together the leaders of Germany, France, Britain, Poland and Italy as well as NATO chief Mark Rutte, takes place as Trump and Putin meet in China, fuelling fears in Europe that decisions on the war could be made without its input. FRANCE 24's correspondent in Germany has the latest."
-  },
-  {
-   "zrodlo": "France 24",
-   "kategoria": "NEWS",
-   "region": "europe",
-   "tytul": "Xi, Trump, Putin: historic summit ends, outcome unclear",
-   "url": "https://www.france24.com/en/xi-trump-putin-historic-summit-ends-outcome-unclear",
-   "opublikowano": "2026-11-19T10:42:44Z",
-   "opublikowano_surowe": "Thu, 19 Nov 2026 10:42:44 GMT",
-   "streszczenie": "The unprecedented trilateral summit between Xi Jinping, Donald Trump and Vladimir Putin ended on Thursday in Shenzhen after about an hour and 20 minutes. No details have emerged yet, but the three leaders talking face to face is already an event. Each has their own agenda: Putin wants to be back on the world stage, Trump needs a win at home, and Xi is asserting China’s status as an economic superpower. What comes out of it remains unclear, as FRANCE 24's journalists explain."
   },
   {
    "zrodlo": "Politico Europe",
@@ -1802,6 +1651,16 @@
    "zrodlo": "RMF24",
    "kategoria": "NEWS",
    "region": "poland",
+   "tytul": "„SLAWA UPA” na poznańskich pomnikach. Prokuratura o rosyjskim tropie",
+   "url": "https://www.rmf24.pl/regiony/poznan/news-slawa-upa-na-poznanskich-pomnikach-prokuratura-o-rosyjskim-t,nIdn,1026846",
+   "opublikowano": "2026-11-19T14:17:00Z",
+   "opublikowano_surowe": "Thu, 19 Nov 2026 15:17:00 +0100",
+   "streszczenie": "„SLAWA UPA” na poznańskich pomnikach. Prokuratura o rosyjskim tropie"
+  },
+  {
+   "zrodlo": "RMF24",
+   "kategoria": "NEWS",
+   "region": "poland",
    "tytul": "Wspólny trening zamiast kłótni. Naukowcy odkryli, jak ruch poprawia nasze relacje",
    "url": "https://www.rmf24.pl/fakty/nauka/news-wspolny-trening-zamiast-klotni-naukowcy-odkryli-jak-ruch-pop,nIdn,1026847",
    "opublikowano": "2026-11-19T14:11:00Z",
@@ -1939,14 +1798,154 @@
    "streszczenie": "„Ustal z babcią hasło”. Rusza akcja, która ma chronić seniorów przed oszustami"
   },
   {
-   "zrodlo": "RMF24",
+   "zrodlo": "TVN24",
    "kategoria": "NEWS",
    "region": "poland",
-   "tytul": "Nietypowe zachowanie wiceszefa Pentagonu. Wzbudziło niepokój europejskich sojuszników",
-   "url": "https://www.rmf24.pl/fakty/swiat/news-nietypowe-zachowanie-wiceszefa-pentagonu-wzbudzilo-niepokoj-,nIdn,1026818",
-   "opublikowano": "2026-11-19T12:16:00Z",
-   "opublikowano_surowe": "Thu, 19 Nov 2026 13:16:00 +0100",
-   "streszczenie": "Nietypowe zachowanie wiceszefa Pentagonu. Wzbudziło niepokój europejskich sojuszników"
+   "tytul": "Ptasia grypa. Najwyższy poziom alertu we Francji",
+   "url": "https://tvn24.pl/tvnmeteo/swiat/ptasia-grypa-najwyzszy-poziom-alertu-we-francji-st9347631?source=rss",
+   "opublikowano": "2026-11-19T14:16:27Z",
+   "opublikowano_surowe": "Thu, 19 Nov 2026 14:16:27 GMT",
+   "streszczenie": "Francja wprowadza obostrzenia związane z ptasią grypą. Od początku listopada w kraju zgłoszono kilka ognisk zakażenia. W piątek zacznie obowiązywać maksymalny poziom ostrzeżenia w związku z tą chorobą."
+  },
+  {
+   "zrodlo": "TVN24",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "A2 coraz droższa. Rząd rozważa wypowiedzenie umowy",
+   "url": "https://tvn24.pl/biznes/pieniadze/autostrada-a2-coraz-drozsza-ministerstwo-infrastruktury-rozwaza-wypowiedzenie-umowy-st9347753?source=rss",
+   "opublikowano": "2026-11-19T14:14:44Z",
+   "opublikowano_surowe": "Thu, 19 Nov 2026 14:14:44 GMT",
+   "streszczenie": "Zwróciliśmy się do GDDKiA o przeanalizowanie możliwości wypowiedzenia umowy koncesyjnej na odcinku autostrady A2 między Nowym Tomyślem a Koninem - poinformowało redakcję tvn24.pl Ministerstwo Infrastruktury. Powodem są częste i znaczące podwyżki opłat. Zakończenie umowy nie będzie jednak proste, ponieważ przyznaje ona koncesjonariuszowi swobodę w ustalaniu stawek."
+  },
+  {
+   "zrodlo": "TVN24",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "11 miesięcy od śmierci Danusi. I pytanie, które wciąż pozostaje aktualne",
+   "url": "https://tvn24.pl/polska/czy-dziecko-wysyla-sygnaly-ze-moze-wyrzadzic-komus-krzywde-st9347017?source=rss",
+   "opublikowano": "2026-11-19T14:13:25Z",
+   "opublikowano_surowe": "Thu, 19 Nov 2026 14:13:25 GMT",
+   "streszczenie": "Od tragicznej śmierci Danusi minęło 11 miesięcy. Przez ostatnie miesiące wielokrotnie powracało pytanie, czy dziecko, które podejmuje radykalne kroki, wysyła wcześniej sygnały, że dzieje się coś złego. Eksperci wskazują, co jest kluczowe."
+  },
+  {
+   "zrodlo": "TVN24",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Dwie osoby z zarzutami działania na rzecz rosyjskiego wywiadu",
+   "url": "https://tvn24.pl/poznan/hasla-slawa-upa-na-trzech-poznanskich-pomnikach-dwie-osoby-z-zarzutami-dzialania-na-rzecz-rosyjskiego-wywiadu-st9347621?source=rss",
+   "opublikowano": "2026-11-19T14:00:07Z",
+   "opublikowano_surowe": "Thu, 19 Nov 2026 14:00:07 GMT",
+   "streszczenie": "Dwóch obywateli Ukrainy usłyszało zarzuty działania na rzecz rosyjskiego wywiadu. Według śledczych to oni odpowiadają za umieszczenie napisów \"Slawa UPA\" na trzech poznańskich pomnikach. Jak wskazuje prokuratura, mieli to zrobić w celu uzyskania korzyści majątkowej."
+  },
+  {
+   "zrodlo": "TVN24",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "\"Niemal grzech śmiertelny\". Kto zapłaci za klęskę republikanów?",
+   "url": "https://tvn24.pl/swiat/donald-trump-po-klesce-republikanow-kto-moze-stracic-stanowisko-st9343925?source=rss",
+   "opublikowano": "2026-11-19T13:59:29Z",
+   "opublikowano_surowe": "Thu, 19 Nov 2026 13:59:29 GMT",
+   "streszczenie": "Sekretarz wojny Pete Hegseth jeszcze niedawno należał do najbardziej zaufanych ludzi prezydenta USA. Teraz jego nazwisko pojawia się wśród potencjalnych kandydatów do dymisji. Pierwsze przetasowania po wyborczej klęsce republikanów sugerują jednak, że Donald Trump zamiast rozliczeń może wybrać konfrontację."
+  },
+  {
+   "zrodlo": "TVN24",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Nie żyje Larry Poindexter. Miał 66 lat",
+   "url": "https://tvn24.pl/kultura-i-styl/larry-poindexter-nie-zyje-aktor-mial-na-koncie-ponad-200-rol-st9347662?source=rss",
+   "opublikowano": "2026-11-19T13:58:45Z",
+   "opublikowano_surowe": "Thu, 19 Nov 2026 13:58:45 GMT",
+   "streszczenie": "Zmarł Larry Poindexter. Aktor miał na koncie ponad 200 ról filmach i serialach. Kilka dni wcześniej uległ wypadkowi."
+  },
+  {
+   "zrodlo": "TVN24",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Paris Hilton zabrała głos w sprawie deepfake'ów o charakterze seksualnym",
+   "url": "https://tvn24.pl/swiat/usa-paris-hilton-zabrala-glos-w-sprawie-deepfake-ow-o-charakterze-seksualnym-st9347715?source=rss",
+   "opublikowano": "2026-11-19T13:57:56Z",
+   "opublikowano_surowe": "Thu, 19 Nov 2026 13:57:56 GMT",
+   "streszczenie": "Każdego dnia powstają kolejne materiały typu deepfake, a kobiety i dziewczyny niosą ciężar tej przemocy - powiedziała we wtorek Paris Hilton. Celebrytka wezwała Kongres do przyjęcia ustawy, która umożliwiłaby ofiarom deepfake'ów o charakterze jednoznacznie seksualnym dochodzenie swoich praw na drodze sądowej."
+  },
+  {
+   "zrodlo": "TVN24",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Gigantyczna operacja \"INFERNO\". Policja zabezpieczyła miliony plików i zatrzymała 123 osoby",
+   "url": "https://tvn24.pl/trojmiasto/miliony-zabezpieczonych-plikow-i-123-zatrzymane-osoby-ogolnopolska-akcja-policji-inferno-st9347668?source=rss",
+   "opublikowano": "2026-11-19T13:50:41Z",
+   "opublikowano_surowe": "Thu, 19 Nov 2026 13:50:41 GMT",
+   "streszczenie": "Policjanci z Centralnego Biura Zwalczania Cyberprzestępczości zatrzymali 123 osoby i zabezpieczyli ponad 2,8 miliona plików z materiałami przedstawiającymi seksualne wykorzystanie małoletnich. Działania pod kryptonimem \"INFERNO\" były dziewiątą już operacją przeciwko przestępczości o charakterze pedofilskim."
+  },
+  {
+   "zrodlo": "TVN24",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Mieszkańcy Częstochowy wybiorą prezydenta. Kto będzie kandydował?",
+   "url": "https://tvn24.pl/katowice/mieszkancy-czestochowy-wybiora-prezydenta-kto-bedzie-kandydowal-st9347655?source=rss",
+   "opublikowano": "2026-11-19T13:49:37Z",
+   "opublikowano_surowe": "Thu, 19 Nov 2026 13:49:37 GMT",
+   "streszczenie": "Po odwołaniu prezydenta Krzysztofa Matyjaszczyka w Częstochowie oraz rady miasta, ruszają przygotowania do wyborów samorządowych. Kilka osób już zgłosiło gotowość do kandydowania."
+  },
+  {
+   "zrodlo": "TVN24",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Namalował go tuż przed śmiercią. Obraz Van Gogha pobił rekord",
+   "url": "https://tvn24.pl/biznes/pieniadze/kwitnace-kasztanowce-van-gogha-pobily-aukcyjny-rekord-w-sotheby-s-obraz-przez-lata-pozostawal-poza-zasiegiem-publicznosci-st9347585?source=rss",
+   "opublikowano": "2026-11-19T13:34:45Z",
+   "opublikowano_surowe": "Thu, 19 Nov 2026 13:34:45 GMT",
+   "streszczenie": "Obraz Vincenta van Gogha \"Kwitnące kasztanowce\" został sprzedany przez dom aukcyjny Sotheby's za 190,4 miliona dolarów. To najwyższa cena, jaką kiedykolwiek zapłacono na aukcji za dzieło holenderskiego artysty."
+  },
+  {
+   "zrodlo": "TVN24",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Czekali tygodnie na otwarcie drogi. Po trzech godzinach znowu ją zamknięto",
+   "url": "https://tvn24.pl/tvnmeteo/swiat/czekali-tygodnie-na-otwarcie-drogi-po-trzech-godzinach-znowu-ja-zamknieto-st9347344?source=rss",
+   "opublikowano": "2026-11-19T13:30:30Z",
+   "opublikowano_surowe": "Thu, 19 Nov 2026 13:30:30 GMT",
+   "streszczenie": "Po 15 dniach zamknięcia częściowo przywrócono ruch na trasie Aloag-Santo Domingo w Ekwadorze. Kierowcy nie mogli jednak długo korzystać z drogi. Opady deszczu zwiększyły ryzyko osunięcia się ziemi, przez co ruch wstrzymano po raptem trzech godzinach."
+  },
+  {
+   "zrodlo": "TVN24",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Pijany wjechał w ogrodzenie. Bardzo szybko został skazany",
+   "url": "https://tvn24.pl/tvnwarszawa/okolice/slomczyn-piaseczno-pijany-kierowca-uderzyl-w-ogrodzenie-szybki-wyrok-st9347233?source=rss",
+   "opublikowano": "2026-11-19T13:29:59Z",
+   "opublikowano_surowe": "Thu, 19 Nov 2026 13:29:59 GMT",
+   "streszczenie": "Procenty we krwi nie powstrzymały go przed kierowaniem. Jazdę zakończył uderzając w ogrodzenie. \"Wydmuchał\" ponad 2,5 promila. Wyrok zapadł w kilkanaście godzin od zatrzymania."
+  },
+  {
+   "zrodlo": "TVN24",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Zakładała konta, robiła przelewy. Okazało się, że pomaga oszustom",
+   "url": "https://tvn24.pl/poznan/pila-szukala-dorywczej-pracy-skusila-sie-na-ogloszenie-oszustow-uslyszala-150-zarzutow-st9347010?source=rss",
+   "opublikowano": "2026-11-19T13:27:35Z",
+   "opublikowano_surowe": "Thu, 19 Nov 2026 13:27:35 GMT",
+   "streszczenie": "33-latka z Piły chciała tylko dorobić, a pomogła oszustom. Kobieta znalazła pracę dorywczą, w której głównym zadaniem było zakładanie kont bankowych i wykonywanie przelewów. Miał być szybki i łatwy zarobek, skończyło się na 150 zarzutach."
+  },
+  {
+   "zrodlo": "TVN24",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Lidia Grychtołówna nie żyje",
+   "url": "https://tvn24.pl/polska/lidia-grychtolowna-nie-zyje-nestorka-polskiej-pianistyki-miala-98-lat-st9347321?source=rss",
+   "opublikowano": "2026-11-19T13:20:40Z",
+   "opublikowano_surowe": "Thu, 19 Nov 2026 13:20:40 GMT",
+   "streszczenie": "Lidia Grychtołówna - nestorka polskiej pianistyki, pedagożka i laureatka Konkursu Chopinowskiego - zmarła w wieku 98 lat. Występowała w największych salach koncertowych świata, a ostatni koncert dała w tym roku."
+  },
+  {
+   "zrodlo": "TVN24",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Włamał się na plebanię, okradł kościół. A potem groził ojcu i strzelał z wiatrówki do policjantów",
+   "url": "https://tvn24.pl/bialystok/grajewo-wlamal-sie-na-plebanie-okradl-kosciol-a-potem-grozil-ojcu-i-strzelal-z-wiatrowki-do-policjantow-st9347403?source=rss",
+   "opublikowano": "2026-11-19T13:11:42Z",
+   "opublikowano_surowe": "Thu, 19 Nov 2026 13:11:42 GMT",
+   "streszczenie": "39-latek został zatrzymany po raz pierwszy po tym jak razem z innym mężczyzną włamał się na plebanię w Grajewie i ukradł z kościoła sprzęt muzyczny. Dwa dni później znów wpadł w ręce policji. Tym razem groził swojemu ojcu oraz strzelał do funkcjonariuszy z wiatrówki."
   },
   {
    "zrodlo": "Polsat News",
@@ -2252,6 +2251,16 @@
    "zrodlo": "Interia Fakty",
    "kategoria": "NEWS",
    "region": "poland",
+   "tytul": "Putin nie gryzł się w język po spotkaniu w Chinach. \"Odpowiemy na ataki\"",
+   "url": "https://wydarzenia.interia.pl/ukraina-rosja/news-putin-nie-gryzl-sie-w-jezyk-po-spotkaniu-z-trumpem-i-xi-odpo,nId,23576165",
+   "opublikowano": "2026-11-19T14:20:38Z",
+   "opublikowano_surowe": "Thu, 19 Nov 2026 14:20:38 GMT",
+   "streszczenie": "To, w jaki sposób Rosja odpowie na uderzenie Ukraińców na Most Krymski będzie znacznie bardziej bolesne niż sam atak - zapowiedział Władimir Putin podczas konferencji po trójstronnym spotkaniu z Donaldem Trumpem i Xi Jinpingiem w Shenzhen. Przywódca stwierdził też, że do naprawienia relacji Moskwy z krajami europejskimi potrzebne jest, by na Starym Kontynencie musi dojść do \"zmiany politycznych elit\"."
+  },
+  {
+   "zrodlo": "Interia Fakty",
+   "kategoria": "NEWS",
+   "region": "poland",
    "tytul": "Episkopat z apelem do wiernych. 21 listopada startuje niecodzienna akcja",
    "url": "https://wydarzenia.interia.pl/religia/news-21-listopada-rozpocznie-sie-ogolnopolska-nowenna-episkopat-a,nId,23576088",
    "opublikowano": "2026-11-19T13:42:03Z",
@@ -2389,16 +2398,6 @@
    "streszczenie": "Donald Trump, Xi Jinping i Władimir Putin ogłosili po spotkaniu w Shenzhen \"deklarację pokoju\". Ustalenia obejmują rozwój broni jądrowej, reformę ONZ, stosunek do Międzynarodowego Trybunału Karnego czy kwestię produkcji paliw. Chińska agencja Xinhua podała, że Xi Jinping określił wcześniej zasady \"pokojowej koegzystencji\" pomiędzy mocarstwami."
   },
   {
-   "zrodlo": "Interia Fakty",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "\"Makao i po makale\". Żurek skomentował rozstrzygnięcie w sprawie AWS",
-   "url": "https://wydarzenia.interia.pl/kraj/news-makao-i-po-makale-zurek-skomentowal-rozstrzygniecie-w-sprawi,nId,23575986",
-   "opublikowano": "2026-11-19T10:39:38Z",
-   "opublikowano_surowe": "Thu, 19 Nov 2026 10:39:38 GMT",
-   "streszczenie": "Naczelny Sąd Administracyjny odrzucił wniosek Michała Sopińskiego w sprawie ustalenia, czy organem decydującym o odwołaniu rektora Akademii Wymiaru Sprawiedliwości jest Minister Sprawiedliwości, czy senat uczelni. W sumie to czwarte rozstrzygnięcie sądu na niekorzyść Sopińskiego. \"Nikt nie zamieni państwowej uczelni w prywatny folwark\" - przekazał minister sprawiedliwości Waldemar Żurek."
-  },
-  {
    "zrodlo": "Rzeczpospolita",
    "kategoria": "NEWS",
    "region": "poland",
@@ -2416,7 +2415,7 @@
    "url": "https://www.rp.pl/sady-i-trybunaly/art45514871-swieczkowski-napisal-do-glapinskiego-chce-dostepu-do-rachunkow-bankowych-tk",
    "opublikowano": "2026-11-19T14:10:24Z",
    "opublikowano_surowe": "Thu, 19 Nov 2026 15:10:24 +0100",
-   "streszczenie": "Zawieszony prezes Trybunału Konstytucyjnego Bogdan Święczkowski napisał list do szefa Narodowego Banku Polskiego Adama Glapińskiego ws. odblokowania wypłat dla pracowników instytucji. „Jako legalny prezes TK winienem mieć dostęp do rachunków bankowych” — napisał."
+   "streszczenie": "Zawieszony prezes Trybunału Konstytucyjnego Bogdan Święczkowski napisał list do szefa Narodowego Banku Polskiego Adama Glapińskiego ws. odblokowania wypłat dla pracowników instytucji. „Jako legalny prezes TK winienem mieć dostęp do rachunków bankowych” – napisał."
   },
   {
    "zrodlo": "Rzeczpospolita",
@@ -2547,6 +2546,156 @@
    "opublikowano": "2026-11-19T13:00:00Z",
    "opublikowano_surowe": "Thu, 19 Nov 2026 14:00:00 +0100",
    "streszczenie": "Gospodarcze relacje Polski i Ukrainy kwitną, polskie firmy zebrały ok. 2 mln zł na generatory na zimę dla Ukrainy. A Warszawa, w grupie E5 z Berlinem, Paryżem, Rzymem i Londynem będzie negocjować w sprawie Ukrainy. Ale czy biznes na Ukrainie jest teraz bezpieczny?"
+  },
+  {
+   "zrodlo": "TVN Warszawa",
+   "kategoria": "NEWS",
+   "region": "warsaw",
+   "tytul": "Pijany wjechał w ogrodzenie. Bardzo szybko został skazany",
+   "url": "https://tvn24.pl/tvnwarszawa/okolice/slomczyn-piaseczno-pijany-kierowca-uderzyl-w-ogrodzenie-szybki-wyrok-st9347233?source=rss",
+   "opublikowano": "2026-11-19T13:29:59Z",
+   "opublikowano_surowe": "Thu, 19 Nov 2026 13:29:59 GMT",
+   "streszczenie": "Procenty we krwi nie powstrzymały go przed kierowaniem. Jazdę zakończył uderzając w ogrodzenie. \"Wydmuchał\" ponad 2,5 promila. Wyrok zapadł w kilkanaście godzin od zatrzymania."
+  },
+  {
+   "zrodlo": "TVN Warszawa",
+   "kategoria": "NEWS",
+   "region": "warsaw",
+   "tytul": "\"Wyglądali jak automobile spłoszone\". 115 lat temu Polonia Warszawa rozegrała pierwszy mecz",
+   "url": "https://tvn24.pl/tvnwarszawa/srodmiescie/115-lat-temu-polonia-warszawa-rozegrala-pierwszy-mecz-st9346802?source=rss",
+   "opublikowano": "2026-11-19T12:45:46Z",
+   "opublikowano_surowe": "Thu, 19 Nov 2026 12:45:46 GMT",
+   "streszczenie": "19 listopada 1911 roku na Agrykoli drużyna piłkarska Polonii Warszawa zagrała swój pierwszy mecz. W derbowym pojedynku z Koroną Warszawa przegrała 3:4."
+  },
+  {
+   "zrodlo": "TVN Warszawa",
+   "kategoria": "NEWS",
+   "region": "warsaw",
+   "tytul": "Co wydarzyło się podczas rozbiórki biurowca. Wyjaśnienia firmy",
+   "url": "https://tvn24.pl/tvnwarszawa/srodmiescie/warszawa-co-wydarzylo-sie-podczas-rozbiorki-biurowca-sa-wyjasnienia-firmy-st9346646?source=rss",
+   "opublikowano": "2026-11-19T12:05:01Z",
+   "opublikowano_surowe": "Thu, 19 Nov 2026 12:05:01 GMT",
+   "streszczenie": "Żelbetowa belka wypadła poza strefę zrzutu gruzu i uszkodziła tunel zabezpieczający chodnik przy Marszałkowskiej. Tak wtorkowe zdarzenie podczas rozbiórki biurowca Saski Point opisuje firma reprezentująca inwestora. Zapewnia, że ruch pieszych i rowerzystów był wówczas wstrzymany."
+  },
+  {
+   "zrodlo": "TVN Warszawa",
+   "kategoria": "NEWS",
+   "region": "warsaw",
+   "tytul": "Spór o Akademię Wymiaru Sprawiedliwości. Sąd odrzucił wniosek byłego rektora",
+   "url": "https://tvn24.pl/tvnwarszawa/mokotow/warszawa-spor-o-akademie-wymiaru-sprawiedliwosci-sad-odrzucil-wniosek-bylego-rektora-michala-sopinskiego-st9346847?source=rss",
+   "opublikowano": "2026-11-19T11:47:48Z",
+   "opublikowano_surowe": "Thu, 19 Nov 2026 11:47:48 GMT",
+   "streszczenie": "Naczelny Sąd Administracyjny odrzucił wniosek Michała Sopińskiego o rozstrzygnięcie sporu dotyczącego ustalenia, czy organem właściwym do odwołania rektora-komendanta Akademii Wymiaru Sprawiedliwości był minister sprawiedliwości, czy senat uczelni - podało Ministerstwo Sprawiedliwości."
+  },
+  {
+   "zrodlo": "TVN Warszawa",
+   "kategoria": "NEWS",
+   "region": "warsaw",
+   "tytul": "Był poszukiwany od kilku dni. Nie żyje wokalista z popularnego talent show",
+   "url": "https://tvn24.pl/tvnwarszawa/srodmiescie/warszawa-nie-zyje-wokalista-jerzy-gmurzynski-st9346833?source=rss",
+   "opublikowano": "2026-11-19T11:24:06Z",
+   "opublikowano_surowe": "Thu, 19 Nov 2026 11:24:06 GMT",
+   "streszczenie": "Nie żyje Jerzy Gmurzyński, wokalista i uczestnik dziesiątej edycji \"The Voice of Poland\". Miał 33 lata. Wcześniej bliscy prosili w mediach społecznościowych o pomoc w jego poszukiwaniach."
+  },
+  {
+   "zrodlo": "TVN Warszawa",
+   "kategoria": "NEWS",
+   "region": "warsaw",
+   "tytul": "Jeździł hulajnogą po parkingu, włączył alarm. Ewakuowano galerię",
+   "url": "https://tvn24.pl/tvnwarszawa/targowek/warszawa-nastolatek-jezdzil-hulajnoga-po-parkingu-wlaczyl-alarm-ewakuowano-galerie-handlowa-st9346335?source=rss",
+   "opublikowano": "2026-11-19T11:06:29Z",
+   "opublikowano_surowe": "Thu, 19 Nov 2026 11:06:29 GMT",
+   "streszczenie": "Ponad 50 osób ewakuowano z centrum handlowego na warszawskim Targówku. Według policji, alarm pożarowy dwukrotnie uruchomił 13-latek, który jeździł elektryczną hulajnogą po podziemnym parkingu."
+  },
+  {
+   "zrodlo": "TVN Warszawa",
+   "kategoria": "NEWS",
+   "region": "warsaw",
+   "tytul": "Więcej patroli i betonowe zapory na jarmarku bożonarodzeniowym",
+   "url": "https://tvn24.pl/tvnwarszawa/srodmiescie/warszawa-zwiekszona-liczba-partoli-i-betonowe-zapory-podczas-jarmarku-bozonarodzeniowego-st9346003?source=rss",
+   "opublikowano": "2026-11-19T08:52:29Z",
+   "opublikowano_surowe": "Thu, 19 Nov 2026 08:52:29 GMT",
+   "streszczenie": "Już w piątek przed Pałacem Kultury i Nauki rozpocznie się jarmark bożonarodzeniowy. W tym roku ma być więcej ochroniarzy, zapewnionych przez organizatora. Ratusza zapowiedział też większą obecność patroli policji."
+  },
+  {
+   "zrodlo": "TVN Warszawa",
+   "kategoria": "NEWS",
+   "region": "warsaw",
+   "tytul": "Zderzenie dwóch aut i ciężarówki na S8",
+   "url": "https://tvn24.pl/tvnwarszawa/okolice/rusiec-zderzenie-dwoch-aut-i-ciezarowki-na-s8-st9346472?source=rss",
+   "opublikowano": "2026-11-19T08:44:00Z",
+   "opublikowano_surowe": "Thu, 19 Nov 2026 08:44:00 GMT",
+   "streszczenie": "W miejscowości Rusiec (Mazowieckie) na trasie S8 doszło do zderzenia trzech pojazdów: dwóch osobowych i jednego ciężarowego. Nikt nie został ranny, ale są utrudnienia w ruchu."
+  },
+  {
+   "zrodlo": "TVN Warszawa",
+   "kategoria": "NEWS",
+   "region": "warsaw",
+   "tytul": "Pracownik stacji paliw powiadomił policję, a klient zabrał kierowcy kluczyki",
+   "url": "https://tvn24.pl/tvnwarszawa/wola/warszawa-pracownik-stacji-paliw-powiadomil-policje-a-klient-zabral-kierowcy-kluczyki-st9346167?source=rss",
+   "opublikowano": "2026-11-19T08:26:46Z",
+   "opublikowano_surowe": "Thu, 19 Nov 2026 08:26:46 GMT",
+   "streszczenie": "Chwiejny krok zdradził, że nie powinien prowadzić. Dzięki czujności pracownika stacji paliw i reakcji innego z klientów, policjanci zatrzymali nietrzeźwego kierowcę. 59-latek miał ponad dwa promile."
+  },
+  {
+   "zrodlo": "TVN Warszawa",
+   "kategoria": "NEWS",
+   "region": "warsaw",
+   "tytul": "Ponad 28 tysięcy złotych i cudze karty. 20-latek wpadł przy bankomacie",
+   "url": "https://tvn24.pl/tvnwarszawa/bemowo/warszawa-ponad-28-tysiecy-zlotych-i-cudze-karty-20-latek-wpadl-przy-bankomacie-st9345812?source=rss",
+   "opublikowano": "2026-11-19T06:54:48Z",
+   "opublikowano_surowe": "Thu, 19 Nov 2026 06:54:48 GMT",
+   "streszczenie": "Policjanci zatrzymali na warszawskim Bemowie 20-latka podejrzanego o oszustwo metodą \"na podszywacza\". Interweniowali, gdy wypłacał pieniądze z bankomatu. Miał przy sobie ponad 28 tysięcy złotych i karty debetowe należące do innych osób."
+  },
+  {
+   "zrodlo": "TVN Warszawa",
+   "kategoria": "NEWS",
+   "region": "warsaw",
+   "tytul": "Jeden z dziesięciu. Szukają gospodarza pawilonu nad Wisłą",
+   "url": "https://tvn24.pl/tvnwarszawa/srodmiescie/warszawa-przetarg-na-pawilon-na-bulwarach-st9339808?source=rss",
+   "opublikowano": "2026-11-19T06:18:20Z",
+   "opublikowano_surowe": "Thu, 19 Nov 2026 06:18:20 GMT",
+   "streszczenie": "Warszawski Zarząd Zieleni szuka gospodarza dla jednego z 10 pawilonów na bulwarach. Idąc na rękę przedsiębiorcom, okres dzierżawy będzie wydłużony do siedmiu lat, a czynsz poza sezonem letnim mocno obniżony. Jeszcze tej jesieni planowane są przetargi na dwa kolejne pawilony."
+  },
+  {
+   "zrodlo": "TVN Warszawa",
+   "kategoria": "NEWS",
+   "region": "warsaw",
+   "tytul": "Plac Pięciu Rogów bez poparcia. Śródmiejscy radni przeciwko nowej nazwie",
+   "url": "https://tvn24.pl/tvnwarszawa/srodmiescie/warszawa-pola-negri-zamiast-placu-pieciu-rogow-radni-srodmiescia-odrzucili-projekt-st9346120?source=rss",
+   "opublikowano": "2026-11-18T21:04:07Z",
+   "opublikowano_surowe": "Wed, 18 Nov 2026 21:04:07 GMT",
+   "streszczenie": "Zwyczajowa nazwa Plac Pięciu Rogów nie zyskała aprobaty śródmiejskich radnych. Podczas środowej sesji większość z nich opowiedziała się przeciwko projektowi przygotowanemu przez zespół nazewnictwa miejskiego. Radni PiS i KO zgodnie argumentowali, że prestiżowy punkt w centrum stolicy powinien nosić imię Poli Negri, a nie utrwalać nazwę narzuconą wcześniej przy okazji miejskiej rewitalizacji."
+  },
+  {
+   "zrodlo": "TVN Warszawa",
+   "kategoria": "NEWS",
+   "region": "warsaw",
+   "tytul": "Zmarł Tadeusz Wojciechowski. Powstaniec warszawski i naukowiec",
+   "url": "https://tvn24.pl/tvnwarszawa/srodmiescie/warszawa-zmarl-tadeusz-wojciechowski-powstaniec-warszawski-i-naukowiec-st9346109?source=rss",
+   "opublikowano": "2026-11-18T20:06:37Z",
+   "opublikowano_surowe": "Wed, 18 Nov 2026 20:06:37 GMT",
+   "streszczenie": "Zmarł profesor Tadeusz Wojciechowski, były uczestnik Powstania Warszawskiego. Po wojnie poświęcił się karierze naukowej, uzyskując tytuł profesora. Miał 101 lat."
+  },
+  {
+   "zrodlo": "TVN Warszawa",
+   "kategoria": "NEWS",
+   "region": "warsaw",
+   "tytul": "Ruszył ponowny proces w sprawie zabójstwa na Nowym Świecie",
+   "url": "https://tvn24.pl/tvnwarszawa/srodmiescie/warszawa-stanal-w-obronie-kolezanek-nie-zyje-ruszyl-ponowny-proces-w-sprawie-zabojstwa-na-nowym-swiecie-st9346004?source=rss",
+   "opublikowano": "2026-11-18T17:39:40Z",
+   "opublikowano_surowe": "Wed, 18 Nov 2026 17:39:40 GMT",
+   "streszczenie": "W środę w Sądzie Okręgowym w Warszawie ruszył ponowny proces Łukasza G. i Sebastiana W. Mężczyźni są oskarżeni o udział w bójce i pobiciu na Nowym Świecie, w wyniku którego zmarł 29-letni Maciej."
+  },
+  {
+   "zrodlo": "TVN Warszawa",
+   "kategoria": "NEWS",
+   "region": "warsaw",
+   "tytul": "Kontrole przewozu osób. W co siódmej nieprawidłowości",
+   "url": "https://tvn24.pl/tvnwarszawa/srodmiescie/warszawa-kontrole-przewozu-osob-w-ponad-100-przypadkach-wykryto-nieprawidlowosci-st9345864?source=rss",
+   "opublikowano": "2026-11-18T17:04:09Z",
+   "opublikowano_surowe": "Wed, 18 Nov 2026 17:04:09 GMT",
+   "streszczenie": "Od początku października do połowy listopada służby skontrolowały 714 kierowców świadczących usługi przewozu osób. W 105 przypadkach wykryto nieprawidłowości."
   },
   {
    "zrodlo": "RMF24 Warszawa",

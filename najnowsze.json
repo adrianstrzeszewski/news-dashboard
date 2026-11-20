@@ -1,9 +1,9 @@
 {
- "zebrano": "2026-11-20T13:56:28Z",
- "kanalow_ok": 33,
- "kanalow_bledy": 1,
+ "zebrano": "2026-11-20T14:22:55Z",
+ "kanalow_ok": 32,
+ "kanalow_bledy": 2,
  "niepelny": false,
- "wpisow": 445,
+ "wpisow": 430,
  "kanaly": [
   {
    "zrodlo": "BBC News",
@@ -100,8 +100,9 @@
    "zrodlo": "Polsat News",
    "kategoria": "NEWS",
    "url": "https://www.polsatnews.pl/rss/wszystkie.xml",
-   "status": "ok",
-   "wpisow": 15
+   "status": "blad",
+   "wpisow": 0,
+   "komunikat": "URLError: <urlopen error timed out>"
   },
   {
    "zrodlo": "Onet Wiadomości",
@@ -552,8 +553,8 @@
    "region": "europe",
    "tytul": "EU wants ‘closest possible relationship’ with UK after agreeing Brexit reset deal – live",
    "url": "https://www.theguardian.com/world/live/2026/nov/20/uk-eu-european-union-brexit-deal-andy-burnham-latest-news-updates",
-   "opublikowano": "2026-11-20T13:42:04Z",
-   "opublikowano_surowe": "Fri, 20 Nov 2026 13:42:04 GMT",
+   "opublikowano": "2026-11-20T14:00:55Z",
+   "opublikowano_surowe": "Fri, 20 Nov 2026 14:00:55 GMT",
    "streszczenie": "President of European Council says EU ‘remains open to have the closest possible relationship’ with the UK Senior correspondent Making today’s reset deal contingent on a further agreement on the level of tuition fees for EU citizens is designed to neutralise the leverage London gets in the next six months, EU sources have said. Senior diplomats had already confirmed this week that the EU would defer the deal on the level of tuition fees for another six months , a move designed to give the UK leverage in parallel negotiations to have the UK included in Made in Europe legislation designed to pro"
   },
   {
@@ -564,7 +565,7 @@
    "url": "https://www.theguardian.com/politics/2026/nov/20/fallout-over-tuition-fees-may-snag-burnhams-eu-deal-say-insiders",
    "opublikowano": "2026-11-20T12:42:08Z",
    "opublikowano_surowe": "Fri, 20 Nov 2026 12:42:08 GMT",
-   "streszczenie": "Discord between EU and UK on whether arrangements for food and drink, emissions trading and youth mobility scheme depend on settlement for students The UK and EU have agreed a reset deal, Downing Street has said, although the level of tuition fees EU students will pay to study at UK universities remains unresolved. “The deal is done – negotiations have concluded,” a No 10 statement said, less than an hour after the prime minister, Andy Burnham, arrived at the summit venue in Brussels, where he was greeted by Ursula von der Leyen, the European Commission president, and António Costa, the Europe"
+   "streszczenie": "Discord between EU and UK on whether arrangements for food and drink, emissions trading and youth mobility scheme depend on settlement for students UK-EU summit live – latest news updates The UK and EU have agreed a reset deal, Downing Street has said, although the level of tuition fees EU students will pay to study at UK universities remains unresolved. “The deal is done – negotiations have concluded,” a No 10 statement said, less than an hour after the prime minister, Andy Burnham, arrived at the summit venue in Brussels, where he was greeted by Ursula von der Leyen, the European Commission "
   },
   {
    "zrodlo": "Guardian Europe",
@@ -700,11 +701,51 @@
    "zrodlo": "The Guardian",
    "kategoria": "NEWS",
    "region": "world",
+   "tytul": "Pontins owner fined £1m over death of woman at Somerset holiday park",
+   "url": "https://www.theguardian.com/uk-news/2026/nov/20/pontins-owner-fined-death-somerset-brean-sands-holiday-park-wendy-jones",
+   "opublikowano": "2026-11-20T14:07:46Z",
+   "opublikowano_surowe": "Fri, 20 Nov 2026 14:07:46 GMT",
+   "streszczenie": "Wendy Jones, 68, was fatally injured when part of a ceiling collapsed during a bingo game at Pontins Brean Sands The owner of Pontins holiday parks has been fined £1m over the death of a woman who was fatally injured when part of a ceiling collapsed during a bingo game at a fun park in Somerset. Eighteen people were injured at the Brean Sands site, near Weston-super-Mare, in February 2019 after ventilation ducting and a 40-metre section of ceiling fell inside an entertainment area known as the Fun Factory. Continue reading..."
+  },
+  {
+   "zrodlo": "The Guardian",
+   "kategoria": "NEWS",
+   "region": "world",
    "tytul": "EU wants ‘closest possible relationship’ with UK after agreeing Brexit reset deal – live",
    "url": "https://www.theguardian.com/world/live/2026/nov/20/uk-eu-european-union-brexit-deal-andy-burnham-latest-news-updates",
-   "opublikowano": "2026-11-20T13:38:07Z",
-   "opublikowano_surowe": "Fri, 20 Nov 2026 13:38:07 GMT",
+   "opublikowano": "2026-11-20T14:00:55Z",
+   "opublikowano_surowe": "Fri, 20 Nov 2026 14:00:55 GMT",
    "streszczenie": "President of European Council says EU ‘remains open to have the closest possible relationship’ with the UK Senior correspondent Making today’s reset deal contingent on a further agreement on the level of tuition fees for EU citizens is designed to neutralise the leverage London gets in the next six months, EU sources have said. Senior diplomats had already confirmed this week that the EU would defer the deal on the level of tuition fees for another six months , a move designed to give the UK leverage in parallel negotiations to have the UK included in Made in Europe legislation designed to pro"
+  },
+  {
+   "zrodlo": "The Guardian",
+   "kategoria": "NEWS",
+   "region": "world",
+   "tytul": "As the Coalition stares down One Nation in NSW, a new threat is rising: the teals",
+   "url": "https://www.theguardian.com/australia-news/2026/nov/21/coalition-one-nation-teals-new-threat-sydney",
+   "opublikowano": "2026-11-20T14:00:32Z",
+   "opublikowano_surowe": "Fri, 20 Nov 2026 14:00:32 GMT",
+   "streszczenie": "The opposition’s struggle is creating an opportunity for progressive independents who are boosted by shrewd political operator Chris Minns Get our daily political email , free app or daily news podcast The New South Wales Coalition is facing a renewed threat to its heartland seats on Sydney’s north shore. This time, the threat is from independent candidates – and they’re backed by the same community activists who put a swathe of teal independents into federal parliament. Continue reading..."
+  },
+  {
+   "zrodlo": "The Guardian",
+   "kategoria": "NEWS",
+   "region": "world",
+   "tytul": "Global stock markets slump as Anthropic’s record IPO fails to stem AI sell-off",
+   "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
+   "opublikowano": "2026-11-20T13:53:13Z",
+   "opublikowano_surowe": "Fri, 20 Nov 2026 13:53:13 GMT",
+   "streszczenie": "Asian markets record their worst week since 2020, with European and US stocks also way down Business live – latest updates Global stock markets have slumped as Anthropic’s record-breaking IPO failed to stem a sell-off in AI-linked companies. Asian stock markets recorded their worst week since 2020, as shares in big chip companies fell on Friday. In Taiwan, stocks dropped 6.7% to hit their lowest point since mid-April, with the chip maker TSMC down about 6%. Continue reading..."
+  },
+  {
+   "zrodlo": "The Guardian",
+   "kategoria": "NEWS",
+   "region": "world",
+   "tytul": "Mahmood ‘smells a rat’ over housing provision for vulnerable people in Birmingham",
+   "url": "https://www.theguardian.com/society/2026/nov/20/ahabana-mahmood-housing-provision-vulnerable-people-birmingham-supported-exempt-accommodation",
+   "opublikowano": "2026-11-20T13:43:46Z",
+   "opublikowano_surowe": "Fri, 20 Nov 2026 13:43:46 GMT",
+   "streszczenie": "Warnings over exploitation risks come amid push for investigation into supported exempt accommodation sector The home secretary has launched an attack on providers of housing for vulnerable residents in her Birmingham constituency, saying she “smells a rat” after warnings over spiralling costs and risks of exploitation. A push for an independent investigation into the supported exempt accommodation (SEA) sector in Birmingham, one of the largest in the country, is under way. Continue reading..."
   },
   {
    "zrodlo": "The Guardian",
@@ -740,21 +781,11 @@
    "zrodlo": "The Guardian",
    "kategoria": "NEWS",
    "region": "world",
-   "tytul": "Mahmood ‘smells a rat’ over housing provision for vulnerable people in Birmingham",
-   "url": "https://www.theguardian.com/society/2026/nov/20/ahabana-mahmood-housing-provision-vulnerable-people-birmingham-supported-exempt-accommodation",
-   "opublikowano": "2026-11-20T13:15:27Z",
-   "opublikowano_surowe": "Fri, 20 Nov 2026 13:15:27 GMT",
-   "streszczenie": "Warnings over exploitation risks come amid push for investigation into supported exempt accommodation sector The home secretary has launched an attack on providers of housing for vulnerable residents in her Birmingham constituency, saying she “smells a rat” after warnings over spiralling costs and risks of exploitation. A push for an independent investigation into the supported exempt accommodation (SEA) sector in Birmingham, one of the largest in the country, is under way. Continue reading..."
-  },
-  {
-   "zrodlo": "The Guardian",
-   "kategoria": "NEWS",
-   "region": "world",
    "tytul": "Burnham has agreed EU reset deal with tuition fees issue unresolved, says No 10",
    "url": "https://www.theguardian.com/politics/2026/nov/20/fallout-over-tuition-fees-may-snag-burnhams-eu-deal-say-insiders",
    "opublikowano": "2026-11-20T12:42:08Z",
    "opublikowano_surowe": "Fri, 20 Nov 2026 12:42:08 GMT",
-   "streszczenie": "Discord between EU and UK on whether arrangements for food and drink, emissions trading and youth mobility scheme depend on settlement for students The UK and EU have agreed a reset deal, Downing Street has said, although the level of tuition fees EU students will pay to study at UK universities remains unresolved. “The deal is done – negotiations have concluded,” a No 10 statement said, less than an hour after the prime minister, Andy Burnham, arrived at the summit venue in Brussels, where he was greeted by Ursula von der Leyen, the European Commission president, and António Costa, the Europe"
+   "streszczenie": "Discord between EU and UK on whether arrangements for food and drink, emissions trading and youth mobility scheme depend on settlement for students UK-EU summit live – latest news updates The UK and EU have agreed a reset deal, Downing Street has said, although the level of tuition fees EU students will pay to study at UK universities remains unresolved. “The deal is done – negotiations have concluded,” a No 10 statement said, less than an hour after the prime minister, Andy Burnham, arrived at the summit venue in Brussels, where he was greeted by Ursula von der Leyen, the European Commission "
   },
   {
    "zrodlo": "The Guardian",
@@ -810,16 +841,6 @@
    "zrodlo": "The Guardian",
    "kategoria": "NEWS",
    "region": "world",
-   "tytul": "‘You’ve got me for life’: first ceremonies in England cement care leavers’ relationships",
-   "url": "https://www.theguardian.com/society/2026/nov/20/lifelong-guardianship-ceremonies-england-care-leavers-relationships",
-   "opublikowano": "2026-11-20T11:23:17Z",
-   "opublikowano_surowe": "Fri, 20 Nov 2026 11:23:17 GMT",
-   "streszczenie": "Lifelong guardianship ceremonies were announced in July as way to publicly affirm chosen connections Allan was 14 years old and had been through eight foster families and a stint in a children’s home when he began living with foster carer Russ in Kettering – a move that would change the course of his life. Russ, 63, fought for Allan to get the school placements he needed and took him to kickboxing every week, eventually joining in himself. When Allan turned 18, he moved out into his own flat, but the pair have stayed close. Continue reading..."
-  },
-  {
-   "zrodlo": "The Guardian",
-   "kategoria": "NEWS",
-   "region": "world",
    "tytul": "‘Weak and dizzy’: hunger striker in ICE detention tells of force-feeding ordeal – and what made him crack",
    "url": "https://www.theguardian.com/us-news/2026/nov/20/ice-cuba-hunger-strike-force-feeding",
    "opublikowano": "2026-11-20T11:00:31Z",
@@ -827,24 +848,34 @@
    "streszczenie": "Exclusive: Luis Alejandro Cora Pérez says in messages to Guardian from inside Texas facility pain of force-feeding caused him to break strike The text message that came from inside the Immigration and Customs Enforcement (ICE) detention center was stark: “I have spent five days eating regular food. If I don’t eat it, they put the tube in me to feed me.” A Cuban asylum seeker, Luis Alejandro Cora Pérez, 32, said in messages to the Guardian this month that he was still weak and dizzy after three months without eating, but that he had broken his hunger strike because being force-fed was just too "
   },
   {
-   "zrodlo": "The Guardian",
+   "zrodlo": "Al Jazeera",
    "kategoria": "NEWS",
    "region": "world",
-   "tytul": "Emails reveal how Trump allies pushed pardons for election deniers",
-   "url": "https://www.theguardian.com/us-news/2026/nov/20/allies-email-trump-pardon-election-deniers",
-   "opublikowano": "2026-11-20T11:00:31Z",
-   "opublikowano_surowe": "Fri, 20 Nov 2026 11:00:31 GMT",
-   "streszczenie": "Former Trump lawyer urged justice department officials to seek pardons for those falsely claiming he won the 2020 presidential election in their states In the fall of 2025, Cleta Mitchell, a key lawyer in Donald Trump’s efforts to overturn the 2020 presidential election, contacted a justice department official with an urgent request. Criminal cases against people who signed certificates falsely claiming that Trump won the presidential election in their state – known widely as fake electors – were pending in Georgia, Michigan, Arizona, Nevada and Wisconsin. She knew the official, pardon attorne"
+   "tytul": "‘Rebuild bridges’ and reset after Brexit: What we know about EU-UK deal",
+   "url": "https://www.aljazeera.com/news/2026/11/20/uk-eu-deal-what-we-know-so-far?traffic_source=rss",
+   "opublikowano": "2026-11-20T13:59:17Z",
+   "opublikowano_surowe": "Fri, 20 Nov 2026 13:59:17 +0000",
+   "streszczenie": "Agreements aim to simplify trade checks, link emissions systems and launch a youth mobility programme."
   },
   {
-   "zrodlo": "The Guardian",
+   "zrodlo": "Al Jazeera",
    "kategoria": "NEWS",
    "region": "world",
-   "tytul": "‘I agree with the president’: incoming senator Abdul El-Sayed seeks to help Trump end military aid to Israel",
-   "url": "https://www.theguardian.com/us-news/2026/nov/20/el-sayed-trump-israel-aid",
-   "opublikowano": "2026-11-20T11:00:29Z",
-   "opublikowano_surowe": "Fri, 20 Nov 2026 11:00:29 GMT",
-   "streszczenie": "Michigan senator-elect also secured a meeting with JD Vance, who called him a ‘terrible evil’ in lead-up to election The incoming US senator Abdul El-Sayed of Michigan said that he and Donald Trump were in agreement about ending foreign military aid to Israel – and he hopes to find more common ground with the US president when he takes office. “I agree with the president – I can’t believe I’m saying that – that we need to end foreign military aid that is unconditional to Israel, as well as Egypt and Saudi Arabia and Pakistan,” the senator-elect said. Continue reading..."
+   "tytul": "Spain court grants bail to pro-Palestinian activist James ‘Fergie’ Chambers",
+   "url": "https://www.aljazeera.com/news/2026/11/20/spain-court-grants-bail-to-pro-palestinian-activist-james-fergie-chambers?traffic_source=rss",
+   "opublikowano": "2026-11-20T13:45:14Z",
+   "opublikowano_surowe": "Fri, 20 Nov 2026 13:45:14 +0000",
+   "streszczenie": "This is a breaking news story."
+  },
+  {
+   "zrodlo": "Al Jazeera",
+   "kategoria": "NEWS",
+   "region": "world",
+   "tytul": "Trump, Putin, Xi pledge to increase global petrol supplies – but how?",
+   "url": "https://www.aljazeera.com/news/2026/11/20/trump-putin-xi-pledge-to-increase-global-petrol-supplies-but-how?traffic_source=rss",
+   "opublikowano": "2026-11-20T13:42:56Z",
+   "opublikowano_surowe": "Fri, 20 Nov 2026 13:42:56 +0000",
+   "streszczenie": "Analysts are sceptical about how this will be achieved amid the ongoing wars in Ukraine and Iran."
   },
   {
    "zrodlo": "Al Jazeera",
@@ -967,36 +998,6 @@
    "streszczenie": "Appointee Kirsten Davies says US has the chance to 'dominate the cyber landscape for generations to come'."
   },
   {
-   "zrodlo": "Al Jazeera",
-   "kategoria": "NEWS",
-   "region": "world",
-   "tytul": "‘The deal is done’: EU, UK agree to reset relations 10 years after Brexit",
-   "url": "https://www.aljazeera.com/news/2026/11/20/eu-and-uk-seal-reset-deal?traffic_source=rss",
-   "opublikowano": "2026-11-20T11:20:19Z",
-   "opublikowano_surowe": "Fri, 20 Nov 2026 11:20:19 +0000",
-   "streszczenie": "Deals on food and animal goods, mobility and student fees have been agreed, but months of negotiations lay ahead."
-  },
-  {
-   "zrodlo": "Al Jazeera",
-   "kategoria": "NEWS",
-   "region": "world",
-   "tytul": "Kataib Hezbollah faces deadline to leave Iraqi stronghold",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/20/kataib-hezbollah-faces-deadline-to-leave-iraqi-stronghold?traffic_source=rss",
-   "opublikowano": "2026-11-20T11:10:06Z",
-   "opublikowano_surowe": "Fri, 20 Nov 2026 11:10:06 +0000",
-   "streszczenie": "Kataib Hezbollah faces deadline to leave Iraqi stronghold"
-  },
-  {
-   "zrodlo": "Al Jazeera",
-   "kategoria": "NEWS",
-   "region": "world",
-   "tytul": "Kushner says Russia OK with ‘NATO-like’ security pact for Ukraine: Is it?",
-   "url": "https://www.aljazeera.com/news/2026/11/20/kushner-says-russia-ok-with-nato-like-security-pact-for-ukraine-is-it?traffic_source=rss",
-   "opublikowano": "2026-11-20T11:01:51Z",
-   "opublikowano_surowe": "Fri, 20 Nov 2026 11:01:51 +0000",
-   "streszczenie": "NATO Article 5 says attack on one member is an attack on all. Analysts say inclusion of Ukraine 'stretches credulity'."
-  },
-  {
    "zrodlo": "NPR",
    "kategoria": "NEWS",
    "region": "world",
@@ -1040,21 +1041,21 @@
    "zrodlo": "NPR",
    "kategoria": "NEWS",
    "region": "world",
-   "tytul": "New York City unveils a bold plan to move its jails off Rikers Island",
-   "url": "https://www.npr.org/2026/11/20/nx-s1-5981356/new-york-city-rikers-jail-plans-germany-prison-model",
-   "opublikowano": "2026-11-20T10:00:00Z",
-   "opublikowano_surowe": "Fri, 20 Nov 2026 05:00:00 -0500",
-   "streszczenie": "New York City officials are moving forward with plans to close Rikers, the city's main jail complex, after years of discussion. The jail has been plagued by assaults and inmate deaths."
-  },
-  {
-   "zrodlo": "NPR",
-   "kategoria": "NEWS",
-   "region": "world",
    "tytul": "How exactly did Trump get so rich on crypto? We explain",
    "url": "https://www.npr.org/2026/11/20/nx-s1-6038969/trump-crypto-profits-corruption-meme-coin-world-liberty-explainer",
    "opublikowano": "2026-11-20T10:00:00Z",
    "opublikowano_surowe": "Fri, 20 Nov 2026 05:00:00 -0500",
    "streszczenie": "President Trump has made billions of dollars in his second term — most of it in cryptocurrencies. Democrats are vowing to probe his businesses as they gear up to take over Congress next year."
+  },
+  {
+   "zrodlo": "NPR",
+   "kategoria": "NEWS",
+   "region": "world",
+   "tytul": "New York City unveils a bold plan to move its jails off Rikers Island",
+   "url": "https://www.npr.org/2026/11/20/nx-s1-5981356/new-york-city-rikers-jail-plans-germany-prison-model",
+   "opublikowano": "2026-11-20T10:00:00Z",
+   "opublikowano_surowe": "Fri, 20 Nov 2026 05:00:00 -0500",
+   "streszczenie": "New York City officials are moving forward with plans to close Rikers, the city's main jail complex, after years of discussion. The jail has been plagued by assaults and inmate deaths."
   },
   {
    "zrodlo": "NPR",
@@ -1100,11 +1101,21 @@
    "zrodlo": "Deutsche Welle",
    "kategoria": "NEWS",
    "region": "europe",
+   "tytul": "Africa at COP31: Will climate cash finally flow?",
+   "url": "https://www.dw.com/en/africa-at-cop31-will-climate-cash-finally-flow/a-80002269?maca=en-rss-en-all-1573-rdf",
+   "opublikowano": "2026-11-20T14:18:00Z",
+   "opublikowano_surowe": "2026-11-20T14:18:00Z",
+   "streszczenie": "As the curtains draw to a close on COP31 in Antalya, one question looms large for African countries: will climate promises finally translate into the funding African communities need to cope with a warming world?"
+  },
+  {
+   "zrodlo": "Deutsche Welle",
+   "kategoria": "NEWS",
+   "region": "europe",
    "tytul": "Myanmar genocide ruling: Rohingya say struggle for justice not over",
    "url": "https://www.dw.com/en/myanmar-genocide-ruling-rohingya-say-struggle-for-justice-not-over/a-80003365?maca=en-rss-en-all-1573-rdf",
    "opublikowano": "2026-11-20T13:38:00Z",
    "opublikowano_surowe": "2026-11-20T13:38:00Z",
-   "streszczenie": "The ICJ held Myanmar responsible for genocide against the Rohingya and ordered restitution and reparations. Members of the community hailed the ruling but cautioned that achieving real change would be long and difficult."
+   "streszczenie": "The ICJ has held Myanmar responsible for genocide against the Rohingya and ordered restitution and reparations. Community members have hailed the ruling, but caution that achieving real change will be long and hard."
   },
   {
    "zrodlo": "Deutsche Welle",
@@ -1237,14 +1248,14 @@
    "streszczenie": "Fiona was a global sensation at the Cincinnati Zoo in the US. The hippo, who was born prematurely, was named after the \"Shrek\" film character."
   },
   {
-   "zrodlo": "Deutsche Welle",
+   "zrodlo": "France 24",
    "kategoria": "NEWS",
    "region": "europe",
-   "tytul": "Price tag for US war in Iran barrels past $48 billion",
-   "url": "https://www.dw.com/en/price-tag-for-us-war-in-iran-barrels-past-48-billion/a-79998255?maca=en-rss-en-all-1573-rdf",
-   "opublikowano": "2026-11-19T23:22:00Z",
-   "opublikowano_surowe": "2026-11-19T23:22:00Z",
-   "streszczenie": "A Pentagon budget officer has said the price of the Iran war surpassed $48.3 billion last week. That does not include costs sustained in Iranian attacks on US bases — lawmakers want details the Pentagon is loath to give."
+   "tytul": "Does staggered consent actually protect young people?",
+   "url": "https://www.france24.com/en/tv-shows/the-51/20261120-does-staggered-consent-actually-protect-young-people",
+   "opublikowano": "2026-11-20T14:14:00Z",
+   "opublikowano_surowe": "Fri, 20 Nov 2026 14:14:00 GMT",
+   "streszczenie": "Following recent scandals involving two iconic British comedians, the UK government is considering the introduction of staggered age consent. Annette Young talks to Katherine Allen from the Institute of Social Justice and Crime in the UK about whether such laws work. Also the social costs of femicide; how do loved ones cope with such a loss, and what support is available to families in the wake of such a tragedy? Plus we meet the women who are challenging the traditions of Mexican mariachi music, a world that remains largely male dominated."
   },
   {
    "zrodlo": "France 24",
@@ -1385,16 +1396,6 @@
    "opublikowano": "2026-11-20T10:38:51Z",
    "opublikowano_surowe": "Fri, 20 Nov 2026 10:38:51 GMT",
    "streszczenie": "Poland on Friday said that no one was hurt after what Warsaw alleged was a Russian missile hit southeast Poland during an attack on Ukraine. Polish authorities earlier said they were investigating reports that at ​least two unknown objects had fallen near the border with Ukraine."
-  },
-  {
-   "zrodlo": "France 24",
-   "kategoria": "NEWS",
-   "region": "europe",
-   "tytul": "Iraqi forces strike compromise with powerful pro-Iran militia",
-   "url": "https://www.france24.com/en/video/20261120-iraqi-forces-strike-compromise-with-powerful-pro-iran-militia",
-   "opublikowano": "2026-11-20T10:36:47Z",
-   "opublikowano_surowe": "Fri, 20 Nov 2026 10:36:47 GMT",
-   "streszczenie": "Iraq has reached ​a compromise with the powerful Iran-backed militia Kataib Hezbollah, three senior security officials said, after Prime Minister Ali al-Zaidi readied security forces to move against the group. Iraqi officials had accused the group of running a smuggling ring that siphoned off hundreds of millions ​of dollars' worth of ‌state-owned oil. Under the deal brokered by senior Shi'ite political leaders to avert a confrontation, government ⁠forces were expected to move into the group's stronghold of Jurf al-Sakhar on Friday."
   },
   {
    "zrodlo": "Politico Europe",
@@ -1800,6 +1801,26 @@
    "zrodlo": "RMF24",
    "kategoria": "NEWS",
    "region": "poland",
+   "tytul": "Prokuratura rozpoczęła oględziny w Nowym Lipowcu. Szczegóły działań służb",
+   "url": "https://www.rmf24.pl/regiony/lublin/news-prokuratura-rozpoczela-ogledziny-w-nowym-lipowcu-szczegoly-d,nIdn,1027023",
+   "opublikowano": "2026-11-20T14:11:00Z",
+   "opublikowano_surowe": "Fri, 20 Nov 2026 15:11:00 +0100",
+   "streszczenie": "Prokuratura rozpoczęła oględziny w Nowym Lipowcu. Szczegóły działań służb"
+  },
+  {
+   "zrodlo": "RMF24",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Nowe informacje ws. obiektów które spadły na Polskę. Pierwsze uderzenie o godz. 6:36",
+   "url": "https://www.rmf24.pl/fakty/polska/news-nowe-informacje-ws-obiektow-ktore-spadly-na-polske-pierwsze-,nIdn,1027019",
+   "opublikowano": "2026-11-20T14:04:00Z",
+   "opublikowano_surowe": "Fri, 20 Nov 2026 15:04:00 +0100",
+   "streszczenie": "Nowe informacje ws. obiektów które spadły na Polskę. Pierwsze uderzenie o godz. 6:36"
+  },
+  {
+   "zrodlo": "RMF24",
+   "kategoria": "NEWS",
+   "region": "poland",
    "tytul": "Bunt przeciwko drożyźnie i wydatkom na wojsko. Wielki strajk we Włoszech",
    "url": "https://www.rmf24.pl/fakty/swiat/news-bunt-przeciwko-drozyznie-i-wydatkom-na-wojsko-wielki-strajk-,nIdn,1027017",
    "opublikowano": "2026-11-20T13:41:00Z",
@@ -1927,24 +1948,54 @@
    "streszczenie": "Premier Tusk ujawnił, co usłyszał od prezydenta Nawrockiego. „Powiedział mi...”"
   },
   {
-   "zrodlo": "RMF24",
+   "zrodlo": "TVN24",
    "kategoria": "NEWS",
    "region": "poland",
-   "tytul": "Tusk o rosyjskich rakietach, które spadły w Polsce: Wiemy na pewno. To nie przypadek",
-   "url": "https://www.rmf24.pl/fakty/polska/news-tusk-o-rosyjskich-rakietach-ktore-spadly-w-polsce-wiemy-na-p,nIdn,1026991",
-   "opublikowano": "2026-11-20T11:56:00Z",
-   "opublikowano_surowe": "Fri, 20 Nov 2026 12:56:00 +0100",
-   "streszczenie": "Tusk o rosyjskich rakietach, które spadły w Polsce: Wiemy na pewno. To nie przypadek"
+   "tytul": "Potrącił psa na przejściu dla pieszych. Był pijany",
+   "url": "https://tvn24.pl/tvnwarszawa/okolice/zyrardow-potracil-psa-na-przejsciu-dla-pieszych-byl-pijany-zostal-zatrzymany-st9349562?source=rss",
+   "opublikowano": "2026-11-20T14:13:11Z",
+   "opublikowano_surowe": "Fri, 20 Nov 2026 14:13:11 GMT",
+   "streszczenie": "Prawie promil alkoholu w organizmie miał 65-letni kierowca Renault. Jak ustaliła policja, na oznakowanym przejściu dla pieszych potrącił psa prowadzonego przez właściciela. Mężczyzna został zatrzymany i stracił prawo jazdy."
   },
   {
-   "zrodlo": "RMF24",
+   "zrodlo": "TVN24",
    "kategoria": "NEWS",
    "region": "poland",
-   "tytul": "NASK dementuje: Zdjęcie ścigających F-16 to deepfake",
-   "url": "https://www.rmf24.pl/fakty/polska/news-nask-dementuje-zdjecie-scigajacych-f-16-to-deepfake,nIdn,1026986",
-   "opublikowano": "2026-11-20T11:55:00Z",
-   "opublikowano_surowe": "Fri, 20 Nov 2026 12:55:00 +0100",
-   "streszczenie": "NASK dementuje: Zdjęcie ścigających F-16 to deepfake"
+   "tytul": "Szczytu Wysokiego Szczebla w sprawie AI. Domański: Europa nie może pozostać w tyle",
+   "url": "https://tvn24.pl/biznes/tech/szczyt-ai-w-warszawie-w-2027-roku-andrzej-domanski-i-donald-tusk-zapowiadaja-spotkanie-st9349577?source=rss",
+   "opublikowano": "2026-11-20T14:10:58Z",
+   "opublikowano_surowe": "Fri, 20 Nov 2026 14:10:58 GMT",
+   "streszczenie": "Na początku przyszłego roku Warszawa będzie gospodarzem szczytu dotyczącego AI. - Europa nie może sobie pozwolić, aby w tej rywalizacji pozostać w tyle - skomentował wicepremier i szef resortu finansów i gospodarki Andrzej Domański."
+  },
+  {
+   "zrodlo": "TVN24",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Ukraina \"szykuje 14-letnie dzieci na front\"? Co widać na nagraniu",
+   "url": "https://konkret24.tvn24.pl/swiat/ukraina-szykuje-14-letnie-dzieci-na-front-co-widac-na-nagraniu-st9342342?source=rss",
+   "opublikowano": "2026-11-20T14:03:57Z",
+   "opublikowano_surowe": "Fri, 20 Nov 2026 14:03:57 GMT",
+   "streszczenie": "Setki tysięcy wyświetleń zdobywa nagranie, które rzekomo przedstawia ukraińskich nastolatków szkolonych do walki na froncie. Oburzają się polscy internauci, którzy stwierdzili, że tak \"wygląda dzieciństwo na Ukrainie\". Co naprawdę pokazuje to wideo."
+  },
+  {
+   "zrodlo": "TVN24",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Opóźnienia pociągów i samolotów. Minister podsumował skutki naruszenia przestrzeni powietrznej",
+   "url": "https://tvn24.pl/biznes/z-kraju/skutki-naruszenia-przestrzeni-powietrznej-minister-infrastruktury-34-pociagi-i-4-samoloty-zostaly-opoznione-st9349616?source=rss",
+   "opublikowano": "2026-11-20T14:00:59Z",
+   "opublikowano_surowe": "Fri, 20 Nov 2026 14:00:59 GMT",
+   "streszczenie": "34 pociągi i cztery samoloty były opóźnione w piątek w związku z naruszeniem polskiej przestrzeni powietrznej i obiektami, które spadły na terytorium Polski - poinformował podczas konferencji prasowej w Przemyślu minister infrastruktury Dariusz Klimczak."
+  },
+  {
+   "zrodlo": "TVN24",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Waldemar Żurek zawiesił prokurator Beatę Marczak",
+   "url": "https://tvn24.pl/polska/waldemar-zurek-zawiesil-prokurator-beate-marczak-swoja-zastepczynie-do-spraw-przestepczosci-zorganizowanej-i-korupcji-st9349721?source=rss",
+   "opublikowano": "2026-11-20T13:57:33Z",
+   "opublikowano_surowe": "Fri, 20 Nov 2026 13:57:33 GMT",
+   "streszczenie": "Odsunąłem prokurator Beatę Marczak od obowiązków służbowych w pionie przestępczości zorganizowanej i korupcji na pół roku - poinformował minister sprawiedliwości, prokurator generalny Waldemar Żurek. \"Nikt w prokuraturze nie stoi ponad prawem ani poza kontrolą\" - napisał."
   },
   {
    "zrodlo": "TVN24",
@@ -2047,204 +2098,34 @@
    "streszczenie": "Niebezpieczna sytuacja na Białołęce. Agresywny kierowca Toyoty najpierw doprowadził do kolizji z BMW, a potem zastraszył maczetą rodzinę podróżującą tym samochodem i osoby, które stanęły w jej obronie. Uciekł. Gdy został zatrzymany, miał przy sobie narkotyki."
   },
   {
-   "zrodlo": "TVN24",
+   "zrodlo": "Onet Wiadomości",
    "kategoria": "NEWS",
    "region": "poland",
-   "tytul": "Chwalił się bombą, ewakukowano mieszkańców",
-   "url": "https://tvn24.pl/trojmiasto/gmina-liniewo-pijany-56-latek-chwalil-sie-ze-zrobil-bombe-ewakuowano-mieszkancow-st9349266?source=rss",
-   "opublikowano": "2026-11-20T12:50:17Z",
-   "opublikowano_surowe": "Fri, 20 Nov 2026 12:50:17 GMT",
-   "streszczenie": "W związku z informacją o podłożeniu bomby w jednym z budynków wielorodzinnych na terenie gminy Liniewo ewakuowano 17 osób. Policjanci ładunku wybuchowego nie znaleźli, ale zatrzymali 56-latka, który przechwalał się skonstruowaniem bomby. Był pijany."
+   "tytul": "MSWiA o rosyjskich obiektach nad Polską. \"Zakrawa na dezinformację\" [RELACJA NA ŻYWO]",
+   "url": "https://wiadomosci.onet.pl/kraj/obiekty-naruszyly-polska-przestrzen-jest-reakcja-msz-ukrainy-relacja-na-zywo/snk07c8",
+   "opublikowano": "2026-11-20T14:18:43Z",
+   "opublikowano_surowe": "Fri, 20 Nov 2026 14:18:43 GMT",
+   "streszczenie": "Wciąż spływają nowe informacje na temat piątkowego naruszenia polskiej przestrzeni powietrznej. Obiekty spadły w Mołodyczu i Rudniku nad Sanem na Podkarpaciu oraz w Nowym Lipowcu na Lubelszczyźnie. Chodzi o dwie rakiety i drona. — Jestem ostrożny, bo to jest poważna sprawa. Wydaje się, że mamy do czynienia z intencjonalną prowokacją. Nieprzypadkowo te obiekty spadły blisko miejsca, gdzie odbywają się manewry wojsk koalicji chętnych — ocenił premier Donald Tusk. Rzeczniczka MSWiA przedstawiła z kolei godzinową rozpiskę działań podjętych w nocy i o poranku przez RCB. Zapraszamy do śledzenia rela"
   },
   {
-   "zrodlo": "TVN24",
+   "zrodlo": "Onet Wiadomości",
    "kategoria": "NEWS",
    "region": "poland",
-   "tytul": "Zaatakował konduktorkę w pociągu. Szarpał ją i groził śmiercią",
-   "url": "https://tvn24.pl/rzeszow/stalowa-wola-zaatakowal-konduktorke-w-pociagu-szarpal-ja-i-grozil-smiercia-st9349257?source=rss",
-   "opublikowano": "2026-11-20T12:43:38Z",
-   "opublikowano_surowe": "Fri, 20 Nov 2026 12:43:38 GMT",
-   "streszczenie": "37-latek zaatakował w pociągu konduktorkę, szarpał ją i groził śmiercią. Mężczyzna został zatrzymany. Usłyszał zarzuty. Decyzją sądu trafił na trzy miesiące do aresztu."
+   "tytul": "Raport: co naprawdę pijemy? Polacy mylą wodę z napojami smakowymi, opakowanie często wygrywa ze składem",
+   "url": "https://wiadomosci.onet.pl/kraj/wyniki-badania-euroconsumers-polska-polacy-myla-wode-z-napojami-smakowymi/wyv8rvn",
+   "opublikowano": "2026-11-20T14:14:00Z",
+   "opublikowano_surowe": "Fri, 20 Nov 2026 14:14:00 GMT",
+   "streszczenie": "Czy wiemy, co naprawdę kupujemy? Z badania Euroconsumers Polska wynika, że niekoniecznie. 63,7% respondentów przynajmniej raz kupiło napój, który po sprawdzeniu składu okazał się mniej korzystny, niż sugerowało pierwsze wrażenie. Co więcej, konsumenci często mylą naturalną wodę mineralną z innymi napojami na bazie wody, zawierającymi cukier w różnych postaciach, a informacje na etykietach nie zawsze są dla nich zrozumiałe."
   },
   {
-   "zrodlo": "TVN24",
+   "zrodlo": "Onet Wiadomości",
    "kategoria": "NEWS",
    "region": "poland",
-   "tytul": "Kurier kradł paczki. Zatrzymane trzy osoby",
-   "url": "https://tvn24.pl/wroclaw/wroclaw-kurier-kradl-paczki-zniknely-towary-za-ponad-50-tysiecy-zlotych-st9348045?source=rss",
-   "opublikowano": "2026-11-20T12:38:27Z",
-   "opublikowano_surowe": "Fri, 20 Nov 2026 12:38:27 GMT",
-   "streszczenie": "Wrocławscy policjanci zatrzymali trzy osoby podejrzane o udział w kradzieży i paserstwie przesyłek kurierskich. Według śledczych 30-letni kurier miał regularnie przywłaszczać paczki, a następnie przekazywać je 23-letniej kobiecie. Funkcjonariusze odzyskali mienie warte około 40 tys. zł."
-  },
-  {
-   "zrodlo": "TVN24",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Prokuratura zdecydowała, co z ciałem zamachowca z Krakowa",
-   "url": "https://tvn24.pl/krakow/zamach-w-krakowie-prokuratura-zdecydowala-co-z-cialem-sprawcy-ataku-st9349096?source=rss",
-   "opublikowano": "2026-11-20T12:36:17Z",
-   "opublikowano_surowe": "Fri, 20 Nov 2026 12:36:17 GMT",
-   "streszczenie": "Prokuratura w najbliższych dniach wyda rodzinie ciało zamachowca z Krakowa. Dodatkowe badania zwłok sprawcy strzelaniny na Rynku Głównym zostały zakończone. Śledczy ustalili, że podczas ataku oddał w centrum miasta ponad 100 strzałów."
-  },
-  {
-   "zrodlo": "TVN24",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "\"Solidaryzujemy się z Polską\". Jest zapowiedź sekretarza generalnego NATO",
-   "url": "https://tvn24.pl/swiat/naruszenie-polskiej-przestrzeni-powietrznej-sekretarz-generalny-nato-mark-rutte-solidaryzujemy-sie-z-polska-st9349272?source=rss",
-   "opublikowano": "2026-11-20T12:31:14Z",
-   "opublikowano_surowe": "Fri, 20 Nov 2026 12:31:14 GMT",
-   "streszczenie": "Solidaryzujemy się z Polską oraz będziemy dalej wzmacniać naszą zdolność do odstraszania i obrony - oświadczył sekretarz generalny NATO Mark Rutte. Ocenił, że naruszenie polskiej przestrzeni powietrznej jest \"konsekwencją trwającej wojny Rosji przeciwko Ukrainie\"."
-  },
-  {
-   "zrodlo": "Polsat News",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "\"Uderzali co 20-30 minut\". Zełenski o zmasowanym ataku Rosjan",
-   "url": "https://www.polsatnews.pl/wiadomosc/2026-11-20/uderzali-co-20-30-minut-zelenski-o-zmasowanym-ataku-rosjan/",
-   "opublikowano": "2026-11-20T13:01:00Z",
-   "opublikowano_surowe": "Fri, 20 Nov 2026 14:01:00 +0100",
-   "streszczenie": "Był to jeden z najbardziej zmasowanych ataków - pisał o nocnych uderzeniach ze strony Rosji prezydent Ukrainy Wołodymyr Zelenski. Jak wyjaśnił, Moskwa użyła pocisków z głowicami kasetowymi. Rosjanie uderzali co 20-30 minut, by utrudnić akcje ratunkowe i gaszenie pożarów."
-  },
-  {
-   "zrodlo": "Polsat News",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Ceny paliw na weekend. Jest decyzja ministra energii",
-   "url": "https://www.polsatnews.pl/wiadomosc/2026-11-20/ceny-paliw-na-weekend-jest-decyzja-ministra-energii/",
-   "opublikowano": "2026-11-20T12:14:00Z",
-   "opublikowano_surowe": "Fri, 20 Nov 2026 13:14:00 +0100",
-   "streszczenie": "Od soboty do poniedziałku litr benzyny 95 ma kosztować nie więcej niż 5,90 zł, benzyny 98 - 6,55 zł, a diesla - 7,39 zł - przekazał minister energii Miłosz Motyka. Oznacza to, że ceny maksymalne wszystkich tych paliw będą niższe niż w piątek."
-  },
-  {
-   "zrodlo": "Polsat News",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Rosyjskie rakiety i dron na terytorium Polski. Mamy nagrania widzów",
-   "url": "https://www.polsatnews.pl/wiadomosc/2026-11-20/obiekty-na-terytorium-polski-mamy-nagrania-widzow/",
-   "opublikowano": "2026-11-20T12:13:00Z",
-   "opublikowano_surowe": "Fri, 20 Nov 2026 13:13:00 +0100",
-   "streszczenie": "Widzowie Polsat News przesłali na Wrzutnię nagrania z piątkowych incydentów naruszenia polskiej przestrzeni powietrznej. Szef MON poinformował, że na terytorium Polski spadły dwie rakiety i dron. Na nadesłanych materiałach widać, jak obiekty lądują i eksplodują na terenie woj. lubelskiego i podkarpackiego."
-  },
-  {
-   "zrodlo": "Polsat News",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Nie będzie opłatka Nawrockiego i Tuska. \"Nie zobaczymy się przed świętami\"",
-   "url": "https://www.polsatnews.pl/wiadomosc/2026-11-20/nie-bedzie-oplatka-nawrockiego-i-tuska-nie-zobaczymy-sie-przed-swietami/",
-   "opublikowano": "2026-11-20T11:42:00Z",
-   "opublikowano_surowe": "Fri, 20 Nov 2026 12:42:00 +0100",
-   "streszczenie": "- Prezydent powiedział, że pewnie nie zobaczymy się przed świętami na tym opłatku - zapowiedział na piątkowej konferencji prasowej Donald Tusk. Premier odniósł się w ten sposób do swojego zaproszenia skierowanego do Karola Nawrockiego 11 listopada. Szef rządu ogłosił, że chce przyjąć prezydenta z rodziną w swoim prywatnym mieszkaniu w Sopocie."
-  },
-  {
-   "zrodlo": "Polsat News",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Zmiany w rządzie. Donald Tusk o \"intencjonalnej prowokacji\" ze strony Rosji",
-   "url": "https://www.polsatnews.pl/wiadomosc/2026-11-20/kolejna-odslona-rosyjskiej-eskalacji-tusk-ostrzega/",
-   "opublikowano": "2026-11-20T11:29:00Z",
-   "opublikowano_surowe": "Fri, 20 Nov 2026 12:29:00 +0100",
-   "streszczenie": "Donald Tusk podczas piątkowej konferencji ogłosił zmiany w rządzie. Jego wystąpienie zdominowało jednak naruszenie polskiej przestrzeni powietrznej. - Dzisiaj mamy kolejną odsłonę rosyjskiej eskalacji - powiedział premier, wskazując, że dron i rakiety trafiły do Polski najprawdopodobniej w ramach intencjonalnej prowokacji."
-  },
-  {
-   "zrodlo": "Polsat News",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Zamachowiec z Krakowa miał pozwolenie na broń. Prokuratura chce przesłuchać lekarzy",
-   "url": "https://www.polsatnews.pl/wiadomosc/2026-11-20/zamachowiec-z-krakowa-mial-pozwolenie-na-bron-prokuratura-chce-przesluchac-lekarzy/",
-   "opublikowano": "2026-11-20T11:03:00Z",
-   "opublikowano_surowe": "Fri, 20 Nov 2026 12:03:00 +0100",
-   "streszczenie": "Prokuratura chce przesłuchać psychologa oraz lekarzy, którzy badali sprawcę zamachu w Krakowie, kiedy ten ubiegał się o pozwolenie na broń - podała Rzeczpospolita. Napastnik dysponował dwiema sztukami broni, choć w ramach przyznanego mu pozwolenia mógł zakupić maksymalnie 10 sztuk."
-  },
-  {
-   "zrodlo": "Polsat News",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Weekend z przełomem w pogodzie. \"Pierwsze akcenty zimy\"",
-   "url": "https://www.polsatnews.pl/wiadomosc/2026-11-20/weekend-z-przelomem-w-pogodzie-pierwsze-akcenty-zimy/",
-   "opublikowano": "2026-11-20T10:40:00Z",
-   "opublikowano_surowe": "Fri, 20 Nov 2026 11:40:00 +0100",
-   "streszczenie": "Pogoda ześlizguje się w stronę zimy i w weekend na pewno to odczujemy. Z dnia na dzień będzie coraz zimniej i z czasem termometry nie pokażą więcej niż 5 st. C. Możliwe, że w niektórych miejscach nawet w najcieplejszych godzinach dnia będzie niewiele powyżej zera. Czekają nas opady deszczu ze śniegiem i śniegu na północy kraju."
-  },
-  {
-   "zrodlo": "Polsat News",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "\"Trudno uznać za przypadek\". Szef MON o drugim dnie incydentów na wschodzie Polski",
-   "url": "https://www.polsatnews.pl/wiadomosc/2026-11-20/trudno-uznac-za-przypadek-szef-mon-o-drugim-dnie-incydentow-na-wschodzie-polski/",
-   "opublikowano": "2026-11-20T10:38:00Z",
-   "opublikowano_surowe": "Fri, 20 Nov 2026 11:38:00 +0100",
-   "streszczenie": "Trudno uznać za przypadek, że czas i miejsce naruszenia polskiej przestrzeni powietrznej zbiega się z ćwiczeniami Koalicji Chętnych w Nowej Dębie - napisał w mediach społecznościowych Władysław Kosiniak-Kamysz. Wcześniej wicepremier mówił o nieprzypadkowym zbiegu dwóch okoliczności, zaś Donald Tusk stwierdził, że mogło dojść do intencjonalnej prowokacji ze strony Rosjan."
-  },
-  {
-   "zrodlo": "Polsat News",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Zmiany w radzie ministrów. Andrzej Domański wicepremierem",
-   "url": "https://www.polsatnews.pl/wiadomosc/2026-11-20/zmiany-w-radzie-ministrow-andrzej-domanski-wicepremierem/",
-   "opublikowano": "2026-11-20T10:13:00Z",
-   "opublikowano_surowe": "Fri, 20 Nov 2026 11:13:00 +0100",
-   "streszczenie": "Karol Nawrocki powołał na stanowisko wicepremiera Andrzeja Domańskiego. Wniosek o tę zmianę złożył Donald Tusk po głosowaniu nad wotum zaufania dla ministra finansów. Szef rządu mówił wówczas, że, wyniki polskiej gospodarki przemawiają na korzyść Domańskiego. Z kolei ministra skrytykował prezydent. Określił on działania polityka jako niechlubne, a sytuację finansową kraju określił jako fatalną"
-  },
-  {
-   "zrodlo": "Polsat News",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Agnieszka Bartol nową minister funduszy i polityki regionalnej. Nawrocki wręczył nominację",
-   "url": "https://www.polsatnews.pl/wiadomosc/2026-11-20/blaszkanowa-minister-funduszy-i-polityki-regionalnej-nawrocki-wreczyl-nominacje/",
-   "opublikowano": "2026-11-20T10:09:00Z",
-   "opublikowano_surowe": "Fri, 20 Nov 2026 11:09:00 +0100",
-   "streszczenie": "Agnieszka Bartol została nową minister funduszy i polityki regionalnej. Bartol zastąpiła na tym stanowisku Katarzynę Pełczyńską-Nałęcz, która niespodziewanie zrezygnowała ze stanowiska pod koniec października. Nowa minister pełniła wcześniej funkcje stałej przedstawicielki RP przy Unii Europejskiej."
-  },
-  {
-   "zrodlo": "Polsat News",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Dwie rakiety, jeden dron. Szef MON wskazuje na Rosję",
-   "url": "https://www.polsatnews.pl/wiadomosc/2026-11-20/obiekty-szef-mon-przekazal-nowe-informacje-o-naruszeniu-przestrzeni/",
-   "opublikowano": "2026-11-20T10:00:00Z",
-   "opublikowano_surowe": "Fri, 20 Nov 2026 11:00:00 +0100",
-   "streszczenie": "- To rakieta Ch101 naruszyła polską przestrzeń powietrzną (...). W drugim przypadku też można mówić o rakiecie, w trzecim najprawdopodobniej to dron odrzutowy - przekazał szef MON Władysław Kosiniak-Kamysz ws. incydentów na Lubelszczyźnie i Podkarpaciu. Wicepremier ocenił, że dzień tych wydarzeń nie jest przypadkowy. - Dzisiaj odbywają się ćwiczenia koalicji chętnych - dodał."
-  },
-  {
-   "zrodlo": "Polsat News",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "W Hiszpanii sprzedają opuszczone osady. Najtańsza kosztuje tyle co kawalerka w Warszawie",
-   "url": "https://www.polsatnews.pl/ciekawostki/2026-11-20/w-hiszpanii-sprzedaja-opuszczone-osady-najtansza-kosztuje-tyle-co-kawalerka-w-warszawie/",
-   "opublikowano": "2026-11-20T09:53:00Z",
-   "opublikowano_surowe": "Fri, 20 Nov 2026 10:53:00 +0100",
-   "streszczenie": "W Asturii, górzystym regionie na północy Hiszpanii, wystawiono na sprzedaż sześć wyludnionych wsi. W cenie są hektary ziemi, domy, budynki gospodarcze, a nawet kościół z cmentarzem."
-  },
-  {
-   "zrodlo": "Polsat News",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Huk na Podkarpaciu. Świadek o \"dźwięku przelatującej rakiety\" w Rudniku nad Sanem",
-   "url": "https://www.polsatnews.pl/wiadomosc/2026-11-20/incydent-na-podkarpaciu-alerty-rcb-pojawily-sie-zbyt-pozno-nie-bylo-informacji/",
-   "opublikowano": "2026-11-20T09:37:00Z",
-   "opublikowano_surowe": "Fri, 20 Nov 2026 10:37:00 +0100",
-   "streszczenie": "- Usłyszeliśmy z żoną dźwięk typowy dla rakiety przelatującej i w ciągu sekundy, może dwóch, nastąpił wybuch - mówił Polsat News pan Piotr, który zawiadomił służby o huku słyszalnym w Rudniku nad Sanem na Podkarpaciu. - Syreny, w ciągu kilku minut po moim zgłoszeniu, zawyły. No i w ciągu kilku minut otrzymaliśmy alert RCB - opisywał."
-  },
-  {
-   "zrodlo": "Polsat News",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Rakieta Ch-101 albo dron odrzutowy. Nowe informacje o obiektach w Lubelskiem",
-   "url": "https://www.polsatnews.pl/wiadomosc/2026-11-20/rakieta-ch-101-albo-dron-odrzutowy-nowe-informacje-o-obiektach-w-lubelskiem/",
-   "opublikowano": "2026-11-20T09:32:00Z",
-   "opublikowano_surowe": "Fri, 20 Nov 2026 10:32:00 +0100",
-   "streszczenie": "Obiekt, który spadł w Nowym Lipowcu, to może być rakieta manewrująca Ch-101 albo dron odrzutowy - przekazał w rozmowie z Polsat News rzecznik Dowództwa Operacyjnego Rodzajów Sił Zbrojnych. Informacje te na konferencji prasowej potwierdził następnie minister obrony narodowej Władysław Kosiniak-Kamysz."
-  },
-  {
-   "zrodlo": "Polsat News",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Szczątki obiektów w kolejnych miejscach. Policja potwierdza",
-   "url": "https://www.polsatnews.pl/wiadomosc/2026-11-20/niezidentyfikowane-obiekty-na-podkarpaciu-akcja-w-dwoch-powiatach/",
-   "opublikowano": "2026-11-20T09:22:00Z",
-   "opublikowano_surowe": "Fri, 20 Nov 2026 10:22:00 +0100",
-   "streszczenie": "Policjanci zabezpieczają miejsca ujawnienia niezidentyfikowanych obiektów w powiatach niżańskim i jarosławskim, współpracując z odpowiednimi służbami i instytucjami - przekazała rzeczniczka MSWiA Karolina Gałecka. Jeden z obiektów spadł w terenie zalesionym, w rejonie miejscowości Rudnik nad Sanem - podała policja. Niepokojące elementy znaleziono też w Mołodyczu."
+   "tytul": "Waldemar Żurek podjął decyzję. Prokurator Beata Marczak odsunięta od obowiązków",
+   "url": "https://wiadomosci.onet.pl/kraj/waldemar-zurek-podjal-decyzje-beata-marczak-odsunieta-od-obowiazkow/k9y5wrb",
+   "opublikowano": "2026-11-20T14:07:41Z",
+   "opublikowano_surowe": "Fri, 20 Nov 2026 14:07:41 GMT",
+   "streszczenie": "Waldemar Żurek podjął decyzję o odsunięciu Beaty Marczak od obowiązków zastępczyni Prokuratora Generalnego do Spraw Przestępczości Zorganizowanej i Korupcji. Minister Sprawiedliwości dodał we wpisie na platformie X, że okres zawieszenia wyniesie sześć miesięcy, a sprawa zostanie przekazana do Rzecznika Dyscyplinarnego."
   },
   {
    "zrodlo": "Onet Wiadomości",
@@ -2254,7 +2135,7 @@
    "url": "https://wiadomosci.onet.pl/swiat/23-letnia-rosjanka-skazana-za-pomoc-ukrainie-ponad-20-lat-kolonii-karnej/7w6y94y",
    "opublikowano": "2026-11-20T13:45:44Z",
    "opublikowano_surowe": "Fri, 20 Nov 2026 13:45:44 GMT",
-   "streszczenie": "Zachodni Okręgowy Sąd Wojskowy skazał 23-letnią mieszkankę Petersburga Julię Moskowską na 23 lata kolonii karnej o zwykłym rygorze oraz grzywnę w wysokości miliona rubli. Sąd uznał ją za winną usiłowania przeprowadzenia aktu terrorystycznego, udziału w działalności organizacji terrorystycznej, nielegalnego posiadania materiałów wybuchowych oraz zdrady stanu. O wyroku poinformowała petersburska prokuratura."
+   "streszczenie": "Zachodni Okręgowy Sąd Wojskowy skazał 23-letnią mieszkankę Petersburga Julię Moskowską na 23 lata kolonii karnej o zwykłym rygorze oraz grzywnę w wysokości miliona rubli (ok. 49,5 tysiąca złotych). Sąd uznał ją za winną usiłowania przeprowadzenia aktu terrorystycznego, udziału w działalności organizacji terrorystycznej, nielegalnego posiadania materiałów wybuchowych oraz zdrady stanu. O wyroku poinformowała petersburska prokuratura."
   },
   {
    "zrodlo": "Onet Wiadomości",
@@ -2310,21 +2191,11 @@
    "zrodlo": "Onet Wiadomości",
    "kategoria": "NEWS",
    "region": "poland",
-   "tytul": "Wojewoda podkarpacka z wnioskiem o uruchomienie wojsk chemicznych [RELACJA NA ŻYWO]",
-   "url": "https://wiadomosci.onet.pl/kraj/obiekty-naruszyly-polska-przestrzen-jest-reakcja-msz-ukrainy-relacja-na-zywo/snk07c8",
-   "opublikowano": "2026-11-20T13:05:43Z",
-   "opublikowano_surowe": "Fri, 20 Nov 2026 13:05:43 GMT",
-   "streszczenie": "Wciąż spływają nowe informacje z rządu na temat naruszenia polskiej przestrzeni powietrznej. Obiekty spadły w Mołodyczu i Rudniku nad Sanem na Podkarpaciu oraz w Nowym Lipowcu na Lubelszczyźnie. Chodzi o dwie rakiety i drona. — Jestem ostrożny, bo to jest poważna sprawa. Wydaje się, że mamy do czynienia z intencjonalną prowokacją. Nieprzypadkowo te obiekty spadły blisko miejsca, gdzie odbywają się manewry wojsk koalicji chętnych — ocenił premier Donald Tusk. Wojewoda podkarpacka wystąpiła z wnioskiem do resortu obrony, aby uruchomić wojska chemiczne z 21. Brygady Strzelców Podhalańskich. Zapra"
-  },
-  {
-   "zrodlo": "Onet Wiadomości",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Nowe informacje po zamachu w Krakowie. Ciało sprawcy ataku gotowe do wydania",
+   "tytul": "Nowe informacje po zamachu w Krakowie. Rodzina odebrała ciało zamachowca",
    "url": "https://wiadomosci.onet.pl/kraj/zamach-w-krakowie-prokuratura-przekazala-nowe-informacje/8swc3gw",
    "opublikowano": "2026-11-20T13:05:09Z",
    "opublikowano_surowe": "Fri, 20 Nov 2026 13:05:09 GMT",
-   "streszczenie": "Po dodatkowych badaniach ciała Michała Oksińskiego, sprawcy ataku na Rynku Głównym w Krakowie, prokuratura przygotowuje się do wydania ciała. Ma do tego dojść w najbliższych dniach."
+   "streszczenie": "Po dodatkowych badaniach ciała Michała Oksińskiego, sprawcy ataku na Rynku Głównym w Krakowie, prokuratura wydała w piątek jego ciało rodzinie."
   },
   {
    "zrodlo": "Onet Wiadomości",
@@ -2377,24 +2248,34 @@
    "streszczenie": "\"Ten incydent jest wyraźnie niebezpieczny — to konsekwencja trwającej wojny Rosji przeciwko Ukrainie\" — napisał na platformie X sekretarz generalny NATO Mark Rutte. Tak odniósł się do piątkowych wydarzeń na Lubelszczyźnie i Podkarpaciu."
   },
   {
-   "zrodlo": "Onet Wiadomości",
+   "zrodlo": "Interia Fakty",
    "kategoria": "NEWS",
    "region": "poland",
-   "tytul": "Zwrot w sprawie strzałów żołnierza na granicy. Nowa decyzja sądu",
-   "url": "https://wiadomosci.onet.pl/kraj/zwrot-w-sprawie-strzalow-zolnierza-na-granicy-nowa-decyzja-sadu/h5gd152",
-   "opublikowano": "2026-11-20T12:17:53Z",
-   "opublikowano_surowe": "Fri, 20 Nov 2026 12:17:53 GMT",
-   "streszczenie": "Sąd II instancji uchylił wyrok uniewinniający wobec żołnierza Karola S., oskarżonego o przekroczenie uprawnień. Chodzi o strzały przy granicy z Białorusią, gdzie znajdowali się migranci, a także inni funkcjonariusze. Sprawa została przekazana sądowi I instancji do ponownego rozpoznania."
+   "tytul": "\"Bezpodstawne oskarżenia\", \"nie przedstawili dowodów\". Moskwa z zarzutami",
+   "url": "https://wydarzenia.interia.pl/zagranica/news-bezpodstawne-oskarzenia-nie-przedstawili-dowodow-pierwsze-gl,nId,23576762",
+   "opublikowano": "2026-11-20T14:13:26Z",
+   "opublikowano_surowe": "Fri, 20 Nov 2026 14:13:26 GMT",
+   "streszczenie": "\"W piątek Kosiniak-Kamysz wysunął bezpodstawne oskarżenia o naruszenie przez Rosję przestrzeni powietrznej Polski\" - ocenia prorosyjska agencja RIA Nowosti, odnosząc się do piątkowych incydentów. Jak czytamy, były ambasador Rosji w Warszawie Siergiej Andriejew, twierdzi, że \"Polska nigdy nie przedstawiła dowodów\" na tego rodzaju działania ze strony Moskwy."
   },
   {
-   "zrodlo": "Onet Wiadomości",
+   "zrodlo": "Interia Fakty",
    "kategoria": "NEWS",
    "region": "poland",
-   "tytul": "NBP blokuje środki Trybunału Konstytucyjnego. Jest ruch Adama Glapińskiego",
-   "url": "https://wiadomosci.onet.pl/kraj/jest-ruch-nbp-w-sprawie-tk-korwin-piotrowska-i-swieczkowski-dostali-pisma/c7l7bez",
-   "opublikowano": "2026-11-20T12:05:13Z",
-   "opublikowano_surowe": "Fri, 20 Nov 2026 12:05:13 GMT",
-   "streszczenie": "Narodowy Bank Polski zwrócił się do Bogdana Świeczkowskiego i Anny Korwin-Piotrowskiej, by skierowali do sądu powództwa w celu rozstrzygnięcia sporu o zarządzanie rachunkami Trybunału Konstytucyjnego."
+   "tytul": "Tajemniczy obiekt nad Rzeszowem. ABW powiadomiona",
+   "url": "https://wydarzenia.interia.pl/podkarpackie/news-tajemniczy-obiekt-nad-rzeszowem-godzine-pozniej-u-swiadkow-p,nId,23576697",
+   "opublikowano": "2026-11-20T14:06:42Z",
+   "opublikowano_surowe": "Fri, 20 Nov 2026 14:06:42 GMT",
+   "streszczenie": "- Miał niewielkie skrzydła i wydawał charakterystyczny, buczący dźwięk - relacjonuje w rozmowie z Interią mieszkanka Rzeszowa, która w piątek przed południem, już po odwołaniu porannych alarmów, zauważyła tajemniczy obiekt nad miastem. Choć nigdzie nie zgłaszała zdarzenia, godzinę później odwiedzili ją policjanci. Służby potwierdzają interwencję. O sprawie powiadomiono ABW i SKW. Wszystko to działo się kilka godzin po zidentyfikowaniu trzech rosyjskich obiektów, które spadły w Polsce nad ranem."
+  },
+  {
+   "zrodlo": "Interia Fakty",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Rzeczniczka MSWiA podała szczegóły, chodzi o alerty RCB. \"Punkt po punkcie\"",
+   "url": "https://wydarzenia.interia.pl/kraj/news-rzeczniczka-mswia-podala-szczegoly-chodzi-o-alerty-rcb-punkt,nId,23576747",
+   "opublikowano": "2026-11-20T13:54:14Z",
+   "opublikowano_surowe": "Fri, 20 Nov 2026 13:54:14 GMT",
+   "streszczenie": "Rzeczniczka MSWiA Karolina Gałecka przekazała szczegółowe informacje na temat wysłanych alertów RCB i uruchomienia syren alarmowych. W ten sposób odniosła się do dezinformacji, jaka miała pojawić się po porannych zdarzeniach, kiedy naruszona została polska przestrzeń powietrzna."
   },
   {
    "zrodlo": "Interia Fakty",
@@ -2517,34 +2398,84 @@
    "streszczenie": "- Kawałki poleciały na dach i w okno. Od tego uderzenia takie było ciśnienie, że ramy w oknach popękały. Jest to widać, można zobaczyć, to nie jest wymyślone - mówi Interii sołtys Starego Lipowca. - Myślałam, że coś się w domu stało - dodaje sołtys Nowego Lipowca. To tam spadł obiekt ze wschodu."
   },
   {
-   "zrodlo": "Interia Fakty",
+   "zrodlo": "Rzeczpospolita",
    "kategoria": "NEWS",
    "region": "poland",
-   "tytul": "Zamiany w rządzie. Nawrocki powołał Domańskiego na wicepremiera",
-   "url": "https://wydarzenia.interia.pl/kraj/news-zamiany-w-rzadzie-nawrocki-powolal-domanskiego-na-wicepremie,nId,23576554",
-   "opublikowano": "2026-11-20T10:27:21Z",
-   "opublikowano_surowe": "Fri, 20 Nov 2026 10:27:21 GMT",
-   "streszczenie": "Prezydent Karol Nawrocki powołał ministra finansów i gospodarki Andrzeja Domańskiego na funkcję wicepremiera. Polityk został tym samym czwartym wicepremierem w rządzie Donalda Tuska. Jednocześnie głowa państwa powołała Agnieszkę Bartol na funkcję ministra funduszy i polityki regionalnej."
+   "tytul": "Tak ma się zmienić nauka języków obcych w szkołach. Nauczyciele mają dużo pytań",
+   "url": "https://www.rp.pl/edukacja/art45518861-tak-ma-sie-zmienic-nauka-jezykow-obcych-w-szkolach-nauczyciele-maja-duzo-pytan",
+   "opublikowano": "2026-11-20T14:19:57Z",
+   "opublikowano_surowe": "Fri, 20 Nov 2026 15:19:57 +0100",
+   "streszczenie": "Od 1 września 2027 r. uczniowie pierwszych klas szkół ponadpodstawowych będą uczyć się języków obcych na nowych zasadach, częściej ćwicząc mówienie w codziennych sytuacjach. Jak informuje Strefa Edukacji, projekt nowej podstawy programowej przewiduje obniżenie części wymagań oraz więcej praktycznych aktywności."
   },
   {
-   "zrodlo": "Interia Fakty",
+   "zrodlo": "Rzeczpospolita",
    "kategoria": "NEWS",
    "region": "poland",
-   "tytul": "\"Pod Biłgorajem spadła rakieta Ch-101\". Wicepremier podał szczegóły",
-   "url": "https://wydarzenia.interia.pl/kraj/news-pod-bilgorajem-spadla-rakieta-ch-101-wicepremier-podal-szcze,nId,23576525",
-   "opublikowano": "2026-11-20T10:01:02Z",
-   "opublikowano_surowe": "Fri, 20 Nov 2026 10:01:02 GMT",
-   "streszczenie": "- Możemy powiedzieć , że pod Biłgorajem była to rakieta Ch-101, w drugim przypadku też możemy mówić najpewniej o rakiecie, w trzecim o dronie odrzutowym - przekazał na konferencji prasowej wicepremier Władysław Kosiniak-Kamysz. Dodał, że w czasie akcji aktywowano systemy Patriot, zlokalizowane wokół lotniska Jasionka w Rzeszowie. Z kolei premier Donald Tusk podkreślił, że \"to, co spadło na polskiej ziemi, było rosyjskie\"."
+   "tytul": "Putin twierdzi, że Most Krymski to obiekt cywilny. Nagranie rosyjskiej armii udowadnia co innego",
+   "url": "https://www.rp.pl/konflikty-zbrojne/art45520981-putin-twierdzi-ze-most-krymski-to-obiekt-cywilny-nagranie-rosyjskiej-armii-udowadnia-co-innego",
+   "opublikowano": "2026-11-20T14:16:48Z",
+   "opublikowano_surowe": "Fri, 20 Nov 2026 15:16:48 +0100",
+   "streszczenie": "Władimir Putin w swoim propagandowym stylu utrzymuje, że Most Krymski nie jest wykorzystywany do transportu sprzętu wojskowego ani amunicji. Deklarację rosyjskiego prezydenta wyrażoną ostatnio w Chinach podważa nagranie opublikowane przez samo rosyjskie ministerstwo obrony. Widać na nim transport czołgów przez przeprawę."
   },
   {
-   "zrodlo": "Interia Fakty",
+   "zrodlo": "Rzeczpospolita",
    "kategoria": "NEWS",
    "region": "poland",
-   "tytul": "Przekroczenie polskiej przestrzeni powietrznej. Nowe informacje z BBN",
-   "url": "https://wydarzenia.interia.pl/kraj/news-przekroczenie-polskiej-przestrzeni-powietrznej-nowe-informac,nId,23576519",
-   "opublikowano": "2026-11-20T09:57:20Z",
-   "opublikowano_surowe": "Fri, 20 Nov 2026 09:57:20 GMT",
-   "streszczenie": "- O godzinie 6.29 i 6.34 - według informacji, które posiadamy - doszło do naruszenia polskiej przestrzeni powietrznej przez dwa obiekty - przekazał szef BBN Bartosz Grodecki. Z kolei minister obrony narodowej Władysław Kosiniak-Kamysz oznajmił, że w trzech miejscowościach zabezpieczono szczątki obiektów, w tym co najmniej jednej rakiety manewrującej Ch-101. Z kolei Donald Tusk ocenił, że wydarzena te \"nie są przypadkowe\"."
+   "tytul": "Gdynia rozdaje 31 mieszkań za remont. Rusza kolejna edycja nietypowej akcji",
+   "url": "https://www.rp.pl/budownictwo/art45520891-gdynia-rozdaje-31-mieszkan-za-remont-rusza-kolejna-edycja-nietypowej-akcji",
+   "opublikowano": "2026-11-20T14:16:01Z",
+   "opublikowano_surowe": "Fri, 20 Nov 2026 15:16:01 +0100",
+   "streszczenie": "„Mieszkanie za remont” – druga edycja programu pod takim hasłem już 1 grudnia ruszy w Gdyni. Mieszkańcy będą mogli ubiegać się o jedno z 31 mieszkań komunalnych. Warunkiem najmu lokalu będzie przeprowadzenie w nim remontu."
+  },
+  {
+   "zrodlo": "Rzeczpospolita",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Rosja przekracza kolejne czerwone linie. Generał wskazuje, co powinna zrobić Polska",
+   "url": "https://www.rp.pl/konflikty-zbrojne/art45520241-rosja-przekracza-kolejne-czerwone-linie-general-wskazuje-co-powinna-zrobic-polska",
+   "opublikowano": "2026-11-20T14:05:00Z",
+   "opublikowano_surowe": "Fri, 20 Nov 2026 15:05:00 +0100",
+   "streszczenie": "– Rosji chodzi o to, żeby testować naszą cierpliwość i nie ponosi z tego powodu żadnych konsekwencji. Nasz brak reakcji świadczy o słabości – mówi gen. dr Jarosław Gromadziński, były dowódca Eurokorpusu, twórca 18 Dywizji Zmechanizowanej."
+  },
+  {
+   "zrodlo": "Rzeczpospolita",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Rafał Kula: W NOHO nie projektujemy pomieszczeń tylko możliwości",
+   "url": "https://sukces.rp.pl/apartamenty-domy/art45493831-rafal-kula-w-noho-nie-projektujemy-pomieszczen-tylko-mozliwosci",
+   "opublikowano": "2026-11-20T14:04:03Z",
+   "opublikowano_surowe": "Fri, 20 Nov 2026 15:04:03 +0100",
+   "streszczenie": "Luksusu nie można zbudować z gotowej listy rozwiązań. Wystarczy spojrzeć na to, jak wygląda dzisiaj komunikacja rynku premium. Wszyscy mówią o świetnej lokalizacji, architekturze, jakości materiałów i wyjątkowych udogodnieniach. Problem polega na tym, że te określenia przestają cokolwiek znaczyć, jeśli nie stoi za nimi rzeczywista jakość. W NOHO nie interesują nas kompromisy, które prowadzą do przeciętności – mówi Rafał Kula, prezes i współzałożyciel NOHO Investment."
+  },
+  {
+   "zrodlo": "Rzeczpospolita",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "CEO i HR. Kto dziś odpowiada za produktywność organizacji?",
+   "url": "https://www.rp.pl/hr-insights/art45520991-ceo-i-hr-kto-dzis-odpowiada-za-produktywnosc-organizacji",
+   "opublikowano": "2026-11-20T14:00:00Z",
+   "opublikowano_surowe": "Fri, 20 Nov 2026 15:00:00 +0100",
+   "streszczenie": "Firmy inwestują w technologie, rozwój kompetencji i rekrutację, ale nie zawsze przekłada się to na lepsze wyniki. Uczestnicy konferencji HR Insights przekonywali, że kluczowe znaczenie mają sposób zarządzania, organizacja pracy i zdolność firm do wprowadzania zmian."
+  },
+  {
+   "zrodlo": "Rzeczpospolita",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Młodzi chcą mieć jak starzy. Ale w Polsce na razie na ulice nie wychodzą",
+   "url": "https://www.rp.pl/plus-minus/art45517661-mlodzi-chca-miec-jak-starzy-ale-w-polsce-na-razie-na-ulice-nie-wychodza",
+   "opublikowano": "2026-11-20T13:59:00Z",
+   "opublikowano_surowe": "Fri, 20 Nov 2026 14:59:00 +0100",
+   "streszczenie": "Rozbite witryny i spalone samochody na ulicach Paryża, Madrytu, Berlina czy Mediolanu natychmiast przywołały porównanie do francuskiej rewolty w maju 1968 r. Ale protestujący nie chcą dziś rewolucji tylko takiego samego poziomu życia, jaki mieli ich rodzice."
+  },
+  {
+   "zrodlo": "Rzeczpospolita",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Dłuższe procesy i ryzyko błędnych wyroków. Reforma sędziów społecznych do poprawy",
+   "url": "https://www.rp.pl/sady-i-trybunaly/art45513611-dluzsze-procesy-i-ryzyko-blednych-wyrokow-reforma-sedziow-spolecznych-do-poprawy",
+   "opublikowano": "2026-11-20T13:56:00Z",
+   "opublikowano_surowe": "Fri, 20 Nov 2026 14:56:00 +0100",
+   "streszczenie": "Reforma zastępująca ławników sędziami społecznymi może wydłużyć czas trwania procesów sądowych i zwiększyć ryzyko błędnych orzeczeń. Komisja kodyfikacyjna ostrzega przed negatywnymi skutkami zmian forsowanych przez resort sprawiedliwości."
   },
   {
    "zrodlo": "Rzeczpospolita",
@@ -2617,84 +2548,14 @@
    "streszczenie": "Brak kwiatów, muzyki i uroczystego powitania, a do tego z niefortunnie podstawionymi schodami do samolotu. Wizyta premier Japonii Sanae Takaichi na szczycie APEC w chińskim Shenzhen przebiegała w atmosferze wyraźnego dystansu ze strony gospodarzy, na co zwróciły uwagę m.in. japońskie media."
   },
   {
-   "zrodlo": "Rzeczpospolita",
+   "zrodlo": "TVN Warszawa",
    "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Europa chce przejąć dowodzenie. Trump się wściekł. Unia stawia warunki",
-   "url": "https://www.rp.pl/dyplomacja/art45519651-europa-chce-przejac-dowodzenie-trump-sie-wsciekl-unia-stawia-warunki",
-   "opublikowano": "2026-11-20T12:54:00Z",
-   "opublikowano_surowe": "Fri, 20 Nov 2026 13:54:00 +0100",
-   "streszczenie": "Donald Trump nie zdołał uzgodnić z dyktatorami Rosji i Chin wspólnego stanowiska w sprawie zakończenia wojny w Ukrainie. W tym samym czasie Europejczycy przedstawili spójny plan pomocy dla Kijowa."
-  },
-  {
-   "zrodlo": "Rzeczpospolita",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "InPost przejęty i znika z giełdy. Co dalej z Rafałem Brzoską",
-   "url": "https://www.rp.pl/biznes/art45520401-inpost-przejety-i-znika-z-gieldy-co-dalej-z-rafalem-brzoska",
-   "opublikowano": "2026-11-20T12:46:29Z",
-   "opublikowano_surowe": "Fri, 20 Nov 2026 13:46:29 +0100",
-   "streszczenie": "Konsorcjum funduszu Advent, amerykańskiego giganta FedEx, wehikułu inwestycyjnego Rafała Brzoski i czeskiej grupy PPF sfinalizowało przejęcie InPostu za około 7,8 mld euro. Teraz czas na rynkową ofensywę."
-  },
-  {
-   "zrodlo": "Rzeczpospolita",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Grzegorz Lindenberg nie żyje. Współzałożyciel „Gazety Wyborczej” miał 71 lat",
-   "url": "https://www.rp.pl/spoleczenstwo/art45520451-grzegorz-lindenberg-nie-zyje-wspolzalozyciel-gazety-wyborczej-mial-71-lat",
-   "opublikowano": "2026-11-20T12:43:23Z",
-   "opublikowano_surowe": "Fri, 20 Nov 2026 13:43:23 +0100",
-   "streszczenie": "W wieku 71 lat zmarł dziennikarz Grzegorz Lindenberg, jeden z założycieli „Gazety Wyborczej”, pierwszy dyrektor Agory oraz twórca i pierwszy redaktor naczelny „Super Expressu”. O jego śmierci poinformowała w mediach społecznościowych siostra Małgorzata Rurawska."
-  },
-  {
-   "zrodlo": "Rzeczpospolita",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Niemieckie media o rosyjskich rakietach w Polsce. „Bild” pisze wprost o uderzeniu pocisków",
-   "url": "https://www.rp.pl/sluzby/art45520301-niemieckie-media-o-rosyjskich-rakietach-w-polsce-bild-pisze-wprost-o-uderzeniu-pociskow",
-   "opublikowano": "2026-11-20T12:40:58Z",
-   "opublikowano_surowe": "Fri, 20 Nov 2026 13:40:58 +0100",
-   "streszczenie": "Niemieckie media szeroko komentują incydent z rosyjskimi rakietami i dronem, które spadły na terytorium Polski. „Bild” pisze o rosyjskich pociskach manewrujących, a „Die Welt” i „Der Spiegel” podkreślają znaczenie Polski dla NATO i pomocy Ukrainie."
-  },
-  {
-   "zrodlo": "Rzeczpospolita",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Po alarmie w Polsce wojskowy ostrzega przed Rosją. „Przestała się przejmować”",
-   "url": "https://www.rp.pl/wojsko/art45520321-po-alarmie-w-polsce-wojskowy-ostrzega-przed-rosja-przestala-sie-przejmowac",
-   "opublikowano": "2026-11-20T12:30:13Z",
-   "opublikowano_surowe": "Fri, 20 Nov 2026 13:30:13 +0100",
-   "streszczenie": "Po naruszeniu polskiej przestrzeni powietrznej przez trzy obiekty płk rez. Piotr Lewandowski ocenił, że alerty RCB i syreny alarmowe zadziałały, ale mieszkańcy terenów przygranicznych potrzebują szybszych i bardziej precyzyjnych ostrzeżeń. – Z tymi aplikacjami spóźniliśmy się fatalnie – powiedział w rozmowie z Wirtualną Polską."
-  },
-  {
-   "zrodlo": "Rzeczpospolita",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "AI już zmienia działy HR",
-   "url": "https://www.rp.pl/hr-insights/art45520441-ai-juz-zmienia-dzialy-hr",
-   "opublikowano": "2026-11-20T12:26:00Z",
-   "opublikowano_surowe": "Fri, 20 Nov 2026 13:26:00 +0100",
-   "streszczenie": "Sztuczna inteligencja pomaga już w rekrutacji, analizie danych i codziennej pracy działów HR. Firmy liczą na oszczędność czasu, ale ryzykują wyciekiem danych i dyskryminacją kandydatów. Jak korzystać z AI bezpiecznie i z korzyścią dla biznesu? O tym dyskutowali eksperci podczas HR Insights."
-  },
-  {
-   "zrodlo": "Rzeczpospolita",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Paliwo będzie tańsze. Są nowe ceny maksymalne",
-   "url": "https://energia.rp.pl/paliwa/art45520271-paliwo-bedzie-tansze-sa-nowe-ceny-maksymalne",
-   "opublikowano": "2026-11-20T12:14:46Z",
-   "opublikowano_surowe": "Fri, 20 Nov 2026 13:14:46 +0100",
-   "streszczenie": "Cena benzyny 95 nie będzie wyższa niż 5,90 zł za litr - wynika z obwieszczenia ministra energii. Tańsze będą tańsze Pb98 oraz diesel."
-  },
-  {
-   "zrodlo": "Rzeczpospolita",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Powrót Europy do paliw z Rosji? Amerykanie zaprzeczają",
-   "url": "https://energia.rp.pl/surowce-i-paliwa/art45517291-powrot-europy-do-paliw-z-rosji-amerykanie-zaprzeczaja",
-   "opublikowano": "2026-11-20T11:46:21Z",
-   "opublikowano_surowe": "Fri, 20 Nov 2026 12:46:21 +0100",
-   "streszczenie": "Żadne europejskie państwo nie chce powrotu do importu paliw z Rosji. Nie ma takiej dyskusji – tak amerykański sekretarz ds. energii Chris Wright skwitował doniesienia o ew. wznowieniu sprzedaży rosyjskich surowców do Europy za pośrednictwem USA."
+   "region": "warsaw",
+   "tytul": "Potrącił psa na przejściu dla pieszych. Był pijany",
+   "url": "https://tvn24.pl/tvnwarszawa/okolice/zyrardow-potracil-psa-na-przejsciu-dla-pieszych-byl-pijany-zostal-zatrzymany-st9349562?source=rss",
+   "opublikowano": "2026-11-20T14:13:11Z",
+   "opublikowano_surowe": "Fri, 20 Nov 2026 14:13:11 GMT",
+   "streszczenie": "Prawie promil alkoholu w organizmie miał 65-letni kierowca Renault. Jak ustaliła policja, na oznakowanym przejściu dla pieszych potrącił psa prowadzonego przez właściciela. Mężczyzna został zatrzymany i stracił prawo jazdy."
   },
   {
    "zrodlo": "TVN Warszawa",
@@ -2835,16 +2696,6 @@
    "opublikowano": "2026-11-19T12:45:46Z",
    "opublikowano_surowe": "Thu, 19 Nov 2026 12:45:46 GMT",
    "streszczenie": "19 listopada 1911 roku na Agrykoli drużyna piłkarska Polonii Warszawa zagrała swój pierwszy mecz. W derbowym pojedynku z Koroną Warszawa przegrała 3:4."
-  },
-  {
-   "zrodlo": "TVN Warszawa",
-   "kategoria": "NEWS",
-   "region": "warsaw",
-   "tytul": "Co wydarzyło się podczas rozbiórki biurowca. Wyjaśnienia firmy",
-   "url": "https://tvn24.pl/tvnwarszawa/srodmiescie/warszawa-co-wydarzylo-sie-podczas-rozbiorki-biurowca-sa-wyjasnienia-firmy-st9346646?source=rss",
-   "opublikowano": "2026-11-19T12:05:01Z",
-   "opublikowano_surowe": "Thu, 19 Nov 2026 12:05:01 GMT",
-   "streszczenie": "Żelbetowa belka wypadła poza strefę zrzutu gruzu i uszkodziła tunel zabezpieczający chodnik przy Marszałkowskiej. Tak wtorkowe zdarzenie podczas rozbiórki biurowca Saski Point opisuje firma reprezentująca inwestora. Zapewnia, że ruch pieszych i rowerzystów był wówczas wstrzymany."
   },
   {
    "zrodlo": "RMF24 Warszawa",
@@ -3000,6 +2851,16 @@
    "zrodlo": "Gazeta Stołeczna",
    "kategoria": "NEWS",
    "region": "warsaw",
+   "tytul": "Zajrzałem na otwarcie Jarmarku Warszawskiego. Ile kosztuje kanapka z homarem, czyli ceny i oferta",
+   "url": "https://warszawa.wyborcza.pl/warszawa/7,54420,33141947,zajrzalem-na-otwarcie-jarmarku-warszawskiego-ile-kosztuje-kanapka.html",
+   "opublikowano": "2026-11-20T14:12:00Z",
+   "opublikowano_surowe": "Fri, 20 Nov 2026 14:12:00 GMT",
+   "streszczenie": "Jarmark Warszawski znów działa pod Pałacem Kultury, tym razem o 13 dni dłużej niż przed rokiem. Przeszedłem między stoiskami i sprawdziłem, ile kosztują świąteczne klasyki oraz dania, których na jarmarku się nie spodziewałem."
+  },
+  {
+   "zrodlo": "Gazeta Stołeczna",
+   "kategoria": "NEWS",
+   "region": "warsaw",
    "tytul": "Metro z YouTube'a. Trzaskowski zaskoczył planami inwestycji na Żeraniu i co z tego wynika",
    "url": "https://warszawa.wyborcza.pl/warszawa/7,54420,33142323,metro-z-youtube-a-trzaskowski-zaskoczyl-planami-inwestycji.html",
    "opublikowano": "2026-11-20T12:17:00Z",
@@ -3137,14 +2998,14 @@
    "streszczenie": "- Zabytkowy Ogród Saski zmienił się w imprezową melinę - alarmują mieszkańcy. I dziwią się, że urzędnicy wydali na to pozwolenie i koncesję na sprzedaż alkoholu."
   },
   {
-   "zrodlo": "Gazeta Stołeczna",
-   "kategoria": "NEWS",
-   "region": "warsaw",
-   "tytul": "Tajemnicze światła na niebie nad Warszawą. Wojsko wyjaśnia, co zobaczą mieszkańcy",
-   "url": "https://warszawa.wyborcza.pl/warszawa/7,54420,33139278,tajemnicze-swiatla-na-niebie-nad-warszawa-wojsko-zapowiada.html",
-   "opublikowano": "2026-11-18T14:59:00Z",
-   "opublikowano_surowe": "Wed, 18 Nov 2026 14:59:00 GMT",
-   "streszczenie": "We wtorkowe popołudnie (18 listopada) mieszkańcy Warszawy i okolic mogą zobaczyć na niebie nietypowe świetlne zjawiska. Wojsko uspokaja: to zaplanowane wcześniej testy, nie ma zagrożenia dla mieszkańców."
+   "zrodlo": "TechCrunch",
+   "kategoria": "AI",
+   "region": "world",
+   "tytul": "Six AI-powered gadgets that could make your home office smarter",
+   "url": "https://techcrunch.com/2026/11/20/6-ai-powered-gadgets-that-could-make-your-home-office-smarter/",
+   "opublikowano": "2026-11-20T14:00:00Z",
+   "opublikowano_surowe": "Fri, 20 Nov 2026 14:00:00 +0000",
+   "streszczenie": "From notetakers to webcams, here are six AI-powered gadgets to upgrade your workspace."
   },
   {
    "zrodlo": "TechCrunch",
@@ -3287,14 +3148,24 @@
    "streszczenie": "Google's latest update to Gemini brings an AI agent to the Mac that can organize files, fill out forms, and tackle multistep workflows."
   },
   {
-   "zrodlo": "TechCrunch",
-   "kategoria": "AI",
+   "zrodlo": "The Verge",
+   "kategoria": "Tech",
    "region": "world",
-   "tytul": "Meta’s AI agent Muse is mixing up conversations and could be exposing private data, report says",
-   "url": "https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says/",
-   "opublikowano": "2026-11-19T17:38:40Z",
-   "opublikowano_surowe": "Thu, 19 Nov 2026 17:38:40 +0000",
-   "streszczenie": "In some of these instances, employees said Muse surfaced messages about childcare requests they never made, career advice they never asked for, product orders they never placed, and bank account balances that didn't belong to them."
+   "tytul": "A brief history of Nvidia’s recent stock fluctuations",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1038063/nvidia-stock-market-price-earnings",
+   "opublikowano": "2026-11-20T14:20:13Z",
+   "opublikowano_surowe": "2026-11-20T09:20:13-05:00",
+   "streszczenie": "\"We've got this,\" Colette Kress, interim CEO of Nvidia, said Tuesday night as she closed out the embattled chip company's third quarter earnings call. By Thursday, the company's stock price was hovering at around $150 per share, a nearly 40 percent drop from its all-time high on October 6th, and wiping out a brief post-earnings […]"
+  },
+  {
+   "zrodlo": "The Verge",
+   "kategoria": "Tech",
+   "region": "world",
+   "tytul": "The week everything fell apart",
+   "url": "https://www.theverge.com/podcast/1038419/outage-outlook-ground-stop-tech-failure-vergecast",
+   "opublikowano": "2026-11-20T14:06:59Z",
+   "opublikowano_surowe": "2026-11-20T09:06:59-05:00",
+   "streszczenie": "There was a dayslong Outlook outage. A nationwide ground stop for only the second time in 25 years. Banks seemed to suddenly stop working. Even iCloud couldn't stay up and running. This week, it felt like the technological world simply collapsed. And it felt like this might be the beginning of something even bigger. On […]"
   },
   {
    "zrodlo": "The Verge",
@@ -3330,31 +3201,11 @@
    "zrodlo": "The Verge",
    "kategoria": "Tech",
    "region": "world",
-   "tytul": "A brief history of Nvidia’s recent stock fluctuations",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/1038063/nvidia-stock-market-price-earnings",
-   "opublikowano": "2026-11-19T21:59:35Z",
-   "opublikowano_surowe": "2026-11-19T16:59:35-05:00",
-   "streszczenie": "\"We've got this,\" Colette Kress, interim CEO of Nvidia, said Tuesday night as she closed out the embattled chip company's third quarter earnings call. By Thursday, the company's stock price was hovering at around $150 per share, a nearly 40 percent drop from its all-time high on October 6th, and wiping out a brief post-earnings […]"
-  },
-  {
-   "zrodlo": "The Verge",
-   "kategoria": "Tech",
-   "region": "world",
    "tytul": "Meta now sells 3D movies on Quest VR headsets",
    "url": "https://www.theverge.com/tech/1038157/meta-quest-vr-3d-movies-tv-app",
    "opublikowano": "2026-11-19T21:14:33Z",
    "opublikowano_surowe": "2026-11-19T16:14:33-05:00",
    "streszczenie": "Meta now offers more than 150 3D movies that you can buy or rent to watch in VR on its Quest 3 and 3S headsets, the company announced today. The movies are available in Meta's TV app and include titles like Avatar, Spider-Man: Far From Home, Jurassic World Rebirth, Wicked: For Good, and a Billie […]"
-  },
-  {
-   "zrodlo": "The Verge",
-   "kategoria": "Tech",
-   "region": "world",
-   "tytul": "You can now buy a Steam Machine without getting on a waitlist",
-   "url": "https://www.theverge.com/games/1038010/valve-steam-machine-waitlist-supply",
-   "opublikowano": "2026-11-19T21:11:23Z",
-   "opublikowano_surowe": "2026-11-19T16:11:23-05:00",
-   "streszczenie": "Valve announced some updates about Steam Machine availability today, including good news if you want to buy one right now and potential bad news about future supply due to RAMaggedon. The good news: You can now purchase a 512GB Steam Machine without getting on a waitlist. Initially, interested buyers had to get on Valve's waitlist […]"
   },
   {
    "zrodlo": "The Verge",

@@ -1,9 +1,9 @@
 {
- "zebrano": "2026-11-21T13:22:08Z",
- "kanalow_ok": 31,
- "kanalow_bledy": 3,
+ "zebrano": "2026-11-21T14:21:46Z",
+ "kanalow_ok": 33,
+ "kanalow_bledy": 1,
  "niepelny": false,
- "wpisow": 415,
+ "wpisow": 445,
  "kanaly": [
   {
    "zrodlo": "BBC News",
@@ -93,9 +93,8 @@
    "zrodlo": "TVN24",
    "kategoria": "NEWS",
    "url": "https://tvn24.pl/najnowsze.xml",
-   "status": "blad",
-   "wpisow": 0,
-   "komunikat": "HTTPError: HTTP Error 403: Forbidden"
+   "status": "ok",
+   "wpisow": 15
   },
   {
    "zrodlo": "Polsat News",
@@ -129,9 +128,8 @@
    "zrodlo": "TVN Warszawa",
    "kategoria": "NEWS",
    "url": "https://tvn24.pl/tvnwarszawa/najnowsze.xml",
-   "status": "blad",
-   "wpisow": 0,
-   "komunikat": "HTTPError: HTTP Error 403: Forbidden"
+   "status": "ok",
+   "wpisow": 15
   },
   {
    "zrodlo": "RMF24 Warszawa",
@@ -552,11 +550,11 @@
    "zrodlo": "Guardian Europe",
    "kategoria": "NEWS",
    "region": "europe",
-   "tytul": "Denmark to expel Russian diplomat over alleged Moscow link to attempted killing of rapper",
+   "tytul": "Denmark to expel Russian diplomat over alleged plot to kill US-Ukrainian rapper",
    "url": "https://www.theguardian.com/world/2026/nov/20/denmark-russian-diplomat-us-ukrainian-rapper-attempted-killing",
-   "opublikowano": "2026-11-21T12:49:05Z",
-   "opublikowano_surowe": "Sat, 21 Nov 2026 12:49:05 GMT",
-   "streszczenie": "Russian intelligence thought to be behind plan to kill US-Ukrainian musician Kyivstoner before concert in Denmark Denmark’s foreign minister has said Russia’s defence attache in Copenhagen would be expelled after Moscow was suspected of being behind an attempted killing of a US-Ukrainian rapper. “We have just summoned the Russian ambassador to the ministry of foreign affairs and notified him of the government’s decision to expel the Russian defence attache from Denmark,” Lars Løkke Rasmussen told a news conference. The expulsion will happen within seven days. Continue reading..."
+   "opublikowano": "2026-11-21T14:03:50Z",
+   "opublikowano_surowe": "Sat, 21 Nov 2026 14:03:50 GMT",
+   "streszczenie": "Moscow intelligence thought to be behind plan to kill musician Kyivstoner before concert in Denmark Denmark’s foreign minister has said Russia’s defence attache in Copenhagen would be expelled after Moscow was suspected of being behind an attempted killing of a US-Ukrainian rapper. “We have just summoned the Russian ambassador to the ministry of foreign affairs and notified him of the government’s decision to expel the Russian defence attache from Denmark,” Lars Løkke Rasmussen told a news conference. The expulsion will happen within seven days. Continue reading..."
   },
   {
    "zrodlo": "Guardian Europe",
@@ -702,21 +700,31 @@
    "zrodlo": "The Guardian",
    "kategoria": "NEWS",
    "region": "world",
-   "tytul": "US pursuit of ‘Trump-class’ warships has blown cost of new fleet by billions, report warns",
-   "url": "https://www.theguardian.com/us-news/2026/nov/21/trump-class-warships",
-   "opublikowano": "2026-11-21T13:00:00Z",
-   "opublikowano_surowe": "Sat, 21 Nov 2026 13:00:00 GMT",
-   "streszczenie": "Iran war stretching fleet’s capacity, navy chief admits, as CBO finds estimated cost of new ships ‘unrealistically low’ The US navy’s commitment to the new Trump-class battleships has blown out the cost of its new fleet by billions of dollars, a report to the US Congress has found, as the acting secretary of the navy conceded this week the Iran war was “stretching” the fleet’s capacity. The challenges facing the world’s biggest naval force were highlighted this week, when the return of the USS George Washington from the Middle East on Wednesday ended a rare three-month period when the US had n"
+   "tytul": "USDA, FBI breached by hackers amid spate of tech outages – reports",
+   "url": "https://www.theguardian.com/us-news/2026/nov/21/usda-fbi-outages-cyber-attack",
+   "opublikowano": "2026-11-21T14:09:02Z",
+   "opublikowano_surowe": "Sat, 21 Nov 2026 14:09:02 GMT",
+   "streszczenie": "Latest intrusions targeted farmer-payment system at the USDA and the FBI’s National Crime Information Center Hackers breached the US Department of Agriculture (USDA) and the FBI , national media reported on Friday, amid deepening concerns over a spate of tech outages at key American institutions. The breaches were first reported by NBC News and CNN respectively, and it remained unclear whether they were related and who was responsible. Continue reading..."
   },
   {
    "zrodlo": "The Guardian",
    "kategoria": "NEWS",
    "region": "world",
-   "tytul": "Denmark to expel Russian diplomat over alleged Moscow link to attempted killing of rapper",
+   "tytul": "Denmark to expel Russian diplomat over alleged plot to kill US-Ukrainian rapper",
    "url": "https://www.theguardian.com/world/2026/nov/20/denmark-russian-diplomat-us-ukrainian-rapper-attempted-killing",
-   "opublikowano": "2026-11-21T12:49:05Z",
-   "opublikowano_surowe": "Sat, 21 Nov 2026 12:49:05 GMT",
-   "streszczenie": "Russian intelligence thought to be behind plan to kill US-Ukrainian musician Kyivstoner before concert in Denmark Denmark’s foreign minister has said Russia’s defence attache in Copenhagen would be expelled after Moscow was suspected of being behind an attempted killing of a US-Ukrainian rapper. “We have just summoned the Russian ambassador to the ministry of foreign affairs and notified him of the government’s decision to expel the Russian defence attache from Denmark,” Lars Løkke Rasmussen told a news conference. The expulsion will happen within seven days. Continue reading..."
+   "opublikowano": "2026-11-21T14:03:50Z",
+   "opublikowano_surowe": "Sat, 21 Nov 2026 14:03:50 GMT",
+   "streszczenie": "Moscow intelligence thought to be behind plan to kill musician Kyivstoner before concert in Denmark Denmark’s foreign minister has said Russia’s defence attache in Copenhagen would be expelled after Moscow was suspected of being behind an attempted killing of a US-Ukrainian rapper. “We have just summoned the Russian ambassador to the ministry of foreign affairs and notified him of the government’s decision to expel the Russian defence attache from Denmark,” Lars Løkke Rasmussen told a news conference. The expulsion will happen within seven days. Continue reading..."
+  },
+  {
+   "zrodlo": "The Guardian",
+   "kategoria": "NEWS",
+   "region": "world",
+   "tytul": "US pursuit of ‘Trump-class’ warships has blown cost of new fleet by billions, report warns",
+   "url": "https://www.theguardian.com/us-news/2026/nov/21/trump-class-warships",
+   "opublikowano": "2026-11-21T13:00:00Z",
+   "opublikowano_surowe": "Sat, 21 Nov 2026 13:00:00 GMT",
+   "streszczenie": "Iran war stretching fleet’s capacity, navy chief admits, as CBO finds estimated cost of new ships ‘unrealistically low’ The US navy’s commitment to the new Trump-class battleships has blown out the cost of its new fleet by billions of dollars, a report to the US Congress has found, as the acting secretary of the navy conceded this week the Iran war was “stretching” the fleet’s capacity. The challenges facing the world’s biggest naval force were highlighted this week, when the return of the USS George Washington from the Middle East on Wednesday ended a rare three-month period when the US had n"
   },
   {
    "zrodlo": "The Guardian",
@@ -839,16 +847,6 @@
    "streszczenie": "Despite dodging tears in the tarmac, people are confident in city’s infrastructure – and will not worry about what has not happened yet Mykola expects to drive his battered beige passenger minibus 20 to 24 times a day past the holes in the road on Kyiv’s damaged Northern Bridge that were caused by a Russian ballistic missile attack on Tuesday. Buses are now the only motor transport allowed across the normally busy multi-lane crossing, though on their way into the city centre they have to skirt the tears in the tarmac, using the only functioning lane to get by. Continue reading..."
   },
   {
-   "zrodlo": "The Guardian",
-   "kategoria": "NEWS",
-   "region": "world",
-   "tytul": "Tourists are throwing fewer coins into Rome’s Trevi fountain – is €2 entry fee to blame?",
-   "url": "https://www.theguardian.com/world/2026/nov/21/charity-hit-coin-throwing-rome-trevi-fountain-caritas-italy",
-   "opublikowano": "2026-11-21T05:00:49Z",
-   "opublikowano_surowe": "Sat, 21 Nov 2026 05:00:49 GMT",
-   "streszczenie": "Charity that collects the coins says donations are down by £200,000 after a barrier was put in place to restrict access When Jeff Clinton, an American visiting Rome with his wife for the first time, found a US one-cent coin on a street close to Termini train station, he knew precisely what he was going to do with it. “I’ll throw it into the Trevi fountain,” said Clinton, holding the copper coin in the palm of his hand as the couple admired the landmark. He was well aware of the tradition among tourists of tossing a coin over their shoulder and into the waters of the baroque masterpiece, in a r"
-  },
-  {
    "zrodlo": "Al Jazeera",
    "kategoria": "NEWS",
    "region": "world",
@@ -896,7 +894,7 @@
    "url": "https://www.aljazeera.com/news/2026/11/21/at-least-four-palestinians-killed-in-israeli-attacks-on-gaza?traffic_source=rss",
    "opublikowano": "2026-11-21T12:29:49Z",
    "opublikowano_surowe": "Sat, 21 Nov 2026 12:29:49 +0000",
-   "streszczenie": "Israeli drone attack kills three people in Gaza City, another shot dead by Israeli forces in Jabalia."
+   "streszczenie": "Israeli drone attack kills three people in Gaza City; another is shot dead by Israeli forces in Jabalia."
   },
   {
    "zrodlo": "Al Jazeera",
@@ -1002,6 +1000,16 @@
    "zrodlo": "NPR",
    "kategoria": "NEWS",
    "region": "world",
+   "tytul": "Federal jury convicts man of starting the deadly 2025 Palisades Fire in Los Angeles",
+   "url": "https://www.npr.org/2026/11/21/nx-s1-6049625/palisades-fire-conviction",
+   "opublikowano": "2026-11-21T13:58:33Z",
+   "opublikowano_surowe": "Sat, 21 Nov 2026 08:58:33 -0500",
+   "streszczenie": "Prosecutors argued the defendant, 30-year-old Jonathan Rinderknecht, had been \"mad at everything\" in the days leading up to the January 2025 fire, which killed 12 people."
+  },
+  {
+   "zrodlo": "NPR",
+   "kategoria": "NEWS",
+   "region": "world",
    "tytul": "Perspective: Defining 'human'",
    "url": "https://www.npr.org/2026/11/21/nx-s1-6041585/perspective-defining-human",
    "opublikowano": "2026-11-21T13:00:00Z",
@@ -1042,21 +1050,21 @@
    "zrodlo": "NPR",
    "kategoria": "NEWS",
    "region": "world",
-   "tytul": "Anthropic says it will put humanity first. Will its IPO change that?",
-   "url": "https://www.npr.org/2026/11/21/nx-s1-6048678/anthropic-ipo-mission-ai-safety",
-   "opublikowano": "2026-11-21T10:00:00Z",
-   "opublikowano_surowe": "Sat, 21 Nov 2026 05:00:00 -0500",
-   "streszczenie": "Critics say now that the AI giant is a public company, its commitment to put safety ahead of commercial success will be tested."
-  },
-  {
-   "zrodlo": "NPR",
-   "kategoria": "NEWS",
-   "region": "world",
    "tytul": "An effort to circumvent the Electoral College may be within reach. But hurdles remain",
    "url": "https://www.npr.org/2026/11/21/nx-s1-6044237/electoral-college-national-popular-vote-interstate-compact",
    "opublikowano": "2026-11-21T10:00:00Z",
    "opublikowano_surowe": "Sat, 21 Nov 2026 05:00:00 -0500",
    "streszczenie": "A national effort to ensure that only winners of the popular vote become president could reach a critical milestone soon."
+  },
+  {
+   "zrodlo": "NPR",
+   "kategoria": "NEWS",
+   "region": "world",
+   "tytul": "Anthropic says it will put humanity first. Will its IPO change that?",
+   "url": "https://www.npr.org/2026/11/21/nx-s1-6048678/anthropic-ipo-mission-ai-safety",
+   "opublikowano": "2026-11-21T10:00:00Z",
+   "opublikowano_surowe": "Sat, 21 Nov 2026 05:00:00 -0500",
+   "streszczenie": "Critics say now that the AI giant is a public company, its commitment to put safety ahead of commercial success will be tested."
   },
   {
    "zrodlo": "NPR",
@@ -1087,16 +1095,6 @@
    "opublikowano": "2026-11-20T22:11:29Z",
    "opublikowano_surowe": "Fri, 20 Nov 2026 17:11:29 -0500",
    "streszczenie": "AI stocks have hefty market values and have a much bigger impact on the market's direction. They were responsible for Wall Street's big gains this year and are now behind the big slide for the market."
-  },
-  {
-   "zrodlo": "NPR",
-   "kategoria": "NEWS",
-   "region": "world",
-   "tytul": "The latest from Trump's press conference",
-   "url": "https://www.npr.org/2026/11/20/nx-s1-6047636/trump-presser",
-   "opublikowano": "2026-11-20T21:38:21Z",
-   "opublikowano_surowe": "Fri, 20 Nov 2026 16:38:21 -0500",
-   "streszczenie": "President Trump gave a wide-ranging press conference following his historic trip to Asia where he met with Chinese President Xi and Russian President Putin."
   },
   {
    "zrodlo": "Deutsche Welle",
@@ -1502,6 +1500,16 @@
    "zrodlo": "Euronews",
    "kategoria": "NEWS",
    "region": "europe",
+   "tytul": "Mexico captures FBI’s most-wanted cartel boss ‘El Chapo Isidro’, triggering violence",
+   "url": "https://www.euronews.com/2026/11/21/mexico-captures-fbis-most-wanted-cartel-boss-el-chapo-isidro-triggering-violence",
+   "opublikowano": "2026-11-21T14:20:35Z",
+   "opublikowano_surowe": "Sat, 21 Nov 2026 15:20:35 +0100",
+   "streszczenie": "Fausto Isidro Meza Flores, one of the FBI’s ten most-wanted fugitives, was arrested in a military operation involving US intelligence cooperation. Gunfire, burning vehicles and panic among civilians followed the raid in northern Mexico."
+  },
+  {
+   "zrodlo": "Euronews",
+   "kategoria": "NEWS",
+   "region": "europe",
    "tytul": "Strait of Hormuz: Athlete swims through war zone to expose war's environmental toll",
    "url": "https://www.euronews.com/video/2026/11/21/strait-of-hormuz-athlete-swims-through-war-zone-to-expose-wars-environmental-toll",
    "opublikowano": "2026-11-21T12:18:40Z",
@@ -1639,14 +1647,14 @@
    "streszczenie": "The royal cabinet said the plan aims to meet 40% of the armed forces’ and security services’ equipment needs through domestic production by 2035 and to generate more than 65% of industry revenues from exports, supported by a new strategic agency, a holding company, and two new industrial zones."
   },
   {
-   "zrodlo": "Euronews",
+   "zrodlo": "Euractiv",
    "kategoria": "NEWS",
    "region": "europe",
-   "tytul": "Deepening EU–Canada ties: From critical minerals and defence to erasmus+",
-   "url": "https://www.euronews.com/2026/11/20/deepening-eucanada-ties-from-critical-minerals-and-defence-to-erasmus",
-   "opublikowano": "2026-11-20T16:21:57Z",
-   "opublikowano_surowe": "Fri, 20 Nov 2026 17:21:57 +0100",
-   "streszczenie": "‘We are determined to drive the renewed political momentum between the EU and Canada forward,’ write four Members of the European People’s Party (EPP) Group in the European Parliament in an op-ed for Euronews, published on the occasion of a visit by an EPP delegation to Canada on 19–21 November."
+   "tytul": "EU and Indonesia officially sign ‘ambitious’ trade deal",
+   "url": "https://www.rapporteur.com/news/eu-and-indonesia-officially-sign-ambitious-trade-deal/",
+   "opublikowano": "2026-11-21T13:56:19Z",
+   "opublikowano_surowe": "Sat, 21 Nov 2026 13:56:19 +0000",
+   "streszczenie": "The agreement includes a dedicated protocol on palm oil"
   },
   {
    "zrodlo": "Euractiv",
@@ -1789,14 +1797,14 @@
    "streszczenie": "The medicines agency says Belgium is 'the fastest in Europe' for trials run only in Belgium, but a ten-year review of the public trials programme found that signing contracts can still take months"
   },
   {
-   "zrodlo": "Euractiv",
+   "zrodlo": "RMF24",
    "kategoria": "NEWS",
-   "region": "europe",
-   "tytul": "EU, UK carbon prices seesaw as market merger stalls",
-   "url": "https://www.rapporteur.com/news/eu-uk-carbon-prices-seesaw-as-market-merger-stalls/",
-   "opublikowano": "2026-11-20T14:31:20Z",
-   "opublikowano_surowe": "Fri, 20 Nov 2026 14:31:20 +0000",
-   "streszczenie": "Spat over UK university fees has caused jitters among carbon traders"
+   "region": "poland",
+   "tytul": "Na Bałtyku w rosyjski statek uderzył dron. Finowie potwierdzają incydent",
+   "url": "https://www.rmf24.pl/fakty/swiat/news-na-baltyku-w-rosyjski-statek-uderzyl-dron-finowie-potwierdza,nIdn,1027100",
+   "opublikowano": "2026-11-21T13:43:00Z",
+   "opublikowano_surowe": "Sat, 21 Nov 2026 14:43:00 +0100",
+   "streszczenie": "Na Bałtyku w rosyjski statek uderzył dron. Finowie potwierdzają incydent"
   },
   {
    "zrodlo": "RMF24",
@@ -1939,14 +1947,174 @@
    "streszczenie": "W aucie miał broń i amunicję, w kontenerze nielegalne papierosy. Obywatel Armenii zatrzymany"
   },
   {
-   "zrodlo": "RMF24",
+   "zrodlo": "TVN24",
    "kategoria": "NEWS",
    "region": "poland",
-   "tytul": "Sikorski reaguje na wtargnięcie rosyjskich obiektów do Polski. „Ekstremalne niezadowolenie”",
-   "url": "https://www.rmf24.pl/fakty/polska/news-sikorski-reaguje-na-wtargniecie-rosyjskich-obiektow-do-polsk,nIdn,1027082",
-   "opublikowano": "2026-11-21T09:03:00Z",
-   "opublikowano_surowe": "Sat, 21 Nov 2026 10:03:00 +0100",
-   "streszczenie": "Sikorski reaguje na wtargnięcie rosyjskich obiektów do Polski. „Ekstremalne niezadowolenie”"
+   "tytul": "Brodzili z rzeczami w plastikowych pojemnikach. Część Florydy znalazła się pod wodą",
+   "url": "https://tvn24.pl/tvnmeteo/swiat/brodzili-z-rzeczami-w-plastikowych-pojemnikach-czesc-florydy-znalazla-sie-pod-woda-st9351055?source=rss",
+   "opublikowano": "2026-11-21T14:11:23Z",
+   "opublikowano_surowe": "Sat, 21 Nov 2026 14:11:23 GMT",
+   "streszczenie": "Burza, która spowodowała powodzie na atlantyckim wybrzeżu Florydy, wędruje dalej. Choć miejscami sytuacja się poprawia, to kolejny niebezpieczny niż może dotrzeć nad wschodnie wybrzeże USA przed Świętem Dziękczynienia."
+  },
+  {
+   "zrodlo": "TVN24",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Apel policji. \"Grajcie ostro, żyjcie odpowiedzialnie\"",
+   "url": "https://tvn24.pl/biznes/ze-swiata/apel-policji-grajcie-ostro-zyjcie-odpowiedzialnie-st9350854?source=rss",
+   "opublikowano": "2026-11-21T14:00:56Z",
+   "opublikowano_surowe": "Sat, 21 Nov 2026 14:00:56 GMT",
+   "streszczenie": "Przeniesienie przestępstw z gry do świata realnego spowoduje równie realne, dotkliwe konsekwencje - ostrzegła fanów \"Grand Theft Auto VI\" amerykańska policja. Gra GTA 6 zadebiutowała 19 listopada 2026 roku."
+  },
+  {
+   "zrodlo": "TVN24",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Na A2 obowiązuje \"siedemdziesiątka\". Drogowcy przypominają o 35 metrach odstępu",
+   "url": "https://tvn24.pl/tvnwarszawa/okolice/na-a2-obowiazuje-siedemdziesiatka-drogowcy-przypominaja-o-35-metrach-odstepu-st9350820?source=rss",
+   "opublikowano": "2026-11-21T13:30:36Z",
+   "opublikowano_surowe": "Sat, 21 Nov 2026 13:30:36 GMT",
+   "streszczenie": "Na całym rozbudowywanym odcinku autostrady A2 między Łodzią a Warszawą obowiązuje ograniczenie prędkości do 70 km/h. Jezdnie są zwężone, a kierowcy ciężarówek mają zakaz wyprzedzania. Drogowcy apelują, by zachować szczególną ostrożność i pilnować odstępu od pojazdu jadącego z przodu."
+  },
+  {
+   "zrodlo": "TVN24",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Sprawca czy druga ofiara? Śmierć piłkarza po brutalnym faulu",
+   "url": "https://tvn24.pl/swiat/brutalne-faule-na-boiskach-jesus-de-miguel-nie-zyje-co-teraz-z-jesusem-owono-st9347137?source=rss",
+   "opublikowano": "2026-11-21T13:15:02Z",
+   "opublikowano_surowe": "Sat, 21 Nov 2026 13:15:02 GMT",
+   "streszczenie": "Wyjechał z domu, by robić to, co kochał: grać w piłkę. Z meczu już nie wrócił. Po brutalnym faulu 30-letni Jesus de Miguel zmarł, osierocając kilkunastomiesięczną córeczkę. Co się dzieje dziś z 25-letnim Jesusem Owono, którego faul doprowadził do tragedii? Czy największą karą może być dla niego świadomość tego, co zrobił?"
+  },
+  {
+   "zrodlo": "TVN24",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Rosyjski statek zaatakowany na Morzu Bałtyckim",
+   "url": "https://tvn24.pl/biznes/ze-swiata/rosyjski-statek-zaatakowany-na-morzu-baltyckim-st9350841?source=rss",
+   "opublikowano": "2026-11-21T13:01:26Z",
+   "opublikowano_surowe": "Sat, 21 Nov 2026 13:01:26 GMT",
+   "streszczenie": "Armia Finlandii wykryła w sobotę atak drona na rosyjski statek handlowy znajdujący się na wodach międzynarodowych we wschodniej części Zatoki Fińskiej - przekazał resort obrony kraju."
+  },
+  {
+   "zrodlo": "TVN24",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Mark Rutte w Polsce po naruszeniu naszej przestrzeni powietrznej. \"Mogę zagwarantować...\"",
+   "url": "https://tvn24.pl/swiat/szef-nato-mark-rutte-w-polsce-po-naruszeniu-naszej-przestrzeni-powietrznej-moge-zagwarantowac-st9350823?source=rss",
+   "opublikowano": "2026-11-21T12:55:54Z",
+   "opublikowano_surowe": "Sat, 21 Nov 2026 12:55:54 GMT",
+   "streszczenie": "NATO będzie bronić każdej piędzi polskiego terytorium - zapewnił w sobotę szef Sojuszu Mark Rutte. Podkreślił, że Rosja w wojnie z Ukrainą ponosi \"ogromne koszty\"."
+  },
+  {
+   "zrodlo": "TVN24",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Uwierzył, że pomaga zatrzymać oszustów. Stracił ponad 95 tysięcy złotych",
+   "url": "https://tvn24.pl/tvnwarszawa/praga-poludnie/warszawa-uwierzyl-ze-pomaga-zatrzymac-oszustow-stracil-ponad-95-tysiecy-zlotych-st9350604?source=rss",
+   "opublikowano": "2026-11-21T12:37:55Z",
+   "opublikowano_surowe": "Sat, 21 Nov 2026 12:37:55 GMT",
+   "streszczenie": "Senior przekazał ponad 95 tysięcy złotych mężczyźnie, którego wziął za policjanta. Uwierzył, że w ten sposób pomoże zatrzymać oszustów, a po kilku godzinach odzyska gotówkę. W sprawie policja zatrzymała 17-latka."
+  },
+  {
+   "zrodlo": "TVN24",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Nawet najbardziej kasowy film nie miał szans. Rekord dla całej branży",
+   "url": "https://tvn24.pl/biznes/tech/gta-6-nawet-najbardziej-kasowy-film-nie-mial-szans-rekord-dla-calej-branzy-st9350505?source=rss",
+   "opublikowano": "2026-11-21T12:18:33Z",
+   "opublikowano_surowe": "Sat, 21 Nov 2026 12:18:33 GMT",
+   "streszczenie": "\"Grand Theft Auto VI\" już w dniu premiery ustanowiła parę rekordów. I to nie tylko jeśli chodzi o gry, ale o całą branżę rozrywkową. GTA 6 pobiła nawet najbardziej dochodowe filmy wszech czasów."
+  },
+  {
+   "zrodlo": "TVN24",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Kurs pikuje. Tak źle nie było od lat",
+   "url": "https://tvn24.pl/biznes/tech/kurs-pikuje-tak-zle-nie-bylo-od-lat-st9350374?source=rss",
+   "opublikowano": "2026-11-21T12:03:43Z",
+   "opublikowano_surowe": "Sat, 21 Nov 2026 12:03:43 GMT",
+   "streszczenie": "Bitcoin spadł do najniższego poziomu od dwóch lat - przekazał Reuters. To efekt między innymi obaw o wygórowane wyceny spółek z sektora sztucznej inteligencji, które zaniepokoiły inwestorów i pociągnęły w dół również inne ryzykowne aktywa."
+  },
+  {
+   "zrodlo": "TVN24",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Donald Tusk zwrócił się do brytyjskiego premiera. \"Do dzieła\"",
+   "url": "https://tvn24.pl/polska/wielka-brytania-unia-europejska-donald-tusk-do-andy-ego-burnhama-do-dziela-st9350617?source=rss",
+   "opublikowano": "2026-11-21T11:55:43Z",
+   "opublikowano_surowe": "Sat, 21 Nov 2026 11:55:43 GMT",
+   "streszczenie": "Szef rządu Donald Tusk w sobotę zamieścił w mediach społecznościowych wpis, w którym odniósł się do działań premiera Wielkiej Brytanii Andy'ego Burnhama. Dzień wcześniej brytyjski rząd zawarł szereg porozumień z Unią Europejską."
+  },
+  {
+   "zrodlo": "TVN24",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Teraz silny wiatr, później lód. Gdzie pogoda będzie groźna? Ostrzeżenia i prognoza zagrożeń IMGW",
+   "url": "https://tvn24.pl/tvnmeteo/prognoza/teraz-silny-wiatr-pozniej-lod-gdzie-pogoda-bedzie-grozna-ostrzezenia-i-prognoza-zagrozen-imgw-st9350724?source=rss",
+   "opublikowano": "2026-11-21T11:30:40Z",
+   "opublikowano_surowe": "Sat, 21 Nov 2026 11:30:40 GMT",
+   "streszczenie": "W sobotę Instytut Meteorologii i Gospodarki Wodnej wydał ostrzeżenie pierwszego stopnia przed silnym wiatrem. W kolejnych dniach również można spodziewać się alarmów - prognoza IMGW wskazuje, że będziemy musieli uważać na oblodzenie dróg."
+  },
+  {
+   "zrodlo": "TVN24",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "\"Wielki front ciepła przeciwko temu, co Rosja robi dzieciom\". Akcja wsparcia Ukrainy",
+   "url": "https://tvn24.pl/polska/akcja-cieplo-z-polski-wraca-do-kijowa-michal-przedlacki-i-aldona-hartwinska-z-apelem-wsparcia-zbiorki-st9350467?source=rss",
+   "opublikowano": "2026-11-21T11:28:24Z",
+   "opublikowano_surowe": "Sat, 21 Nov 2026 11:28:24 GMT",
+   "streszczenie": "Trwa zbiórka na pomoc zagrożonej skutkami mrozu Ukrainy. - To nie jest tak, że dzięki temu dzieci będą miały pozapalane choinki w domach, ale dzięki temu wytrzymają chłód - stwierdził reporter \"Superwizjera\" Michał Przedlacki. Aldona Hartwińska mówiła o problemach, jakie sprawiają mieszkańcom ukraińskich miast braki prądu."
+  },
+  {
+   "zrodlo": "TVN24",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Utrata prawa jazdy i zakaz prowadzenia pojazdów. Weszły zmiany",
+   "url": "https://tvn24.pl/biznes/z-kraju/utrata-prawa-jazdy-i-zakaz-prowadzenia-pojazdow-weszly-zmiany-st9350543?source=rss",
+   "opublikowano": "2026-11-21T11:09:04Z",
+   "opublikowano_surowe": "Sat, 21 Nov 2026 11:09:04 GMT",
+   "streszczenie": "Weszły w życie nowe przepisy drogowe dotyczące przejazdów kolejowych. Regulacja przewiduje surowe kary - między innymi utratę prawa jazdy na trzy miesiące czy trzyletni obligatoryjny zakaz prowadzenia pojazdów."
+  },
+  {
+   "zrodlo": "TVN24",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Scorsese, Swinton, Holland. Branża protestuje w obronie irańskiego reżysera",
+   "url": "https://tvn24.pl/kultura-i-styl/scorsese-swinton-holland-branza-protestuje-w-obronie-iranskiego-rezysera-st9350010?source=rss",
+   "opublikowano": "2026-11-21T11:07:11Z",
+   "opublikowano_surowe": "Sat, 21 Nov 2026 11:07:11 GMT",
+   "streszczenie": "Filmowcy na całym świecie wspierają irańskiego reżysera-dysydenta Jafara Panahiego, skazanego przez sąd w Teheranie na kolejne 5 lat więzienia. Protest podpisało ponad tysiąc wybitnych twórców i dyrektorów festiwali, w tym Tilda Swilton, Martin Scorsese, Agnieszka Holland, a także Europejska Akademia Filmowa."
+  },
+  {
+   "zrodlo": "TVN24",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Ekrany reklamowe na Domach Centrum pod lupą nadzoru",
+   "url": "https://tvn24.pl/tvnwarszawa/srodmiescie/warszawa-ekrany-na-domach-centrum-pod-lupa-nadzoru-st9350412?source=rss",
+   "opublikowano": "2026-11-21T10:53:57Z",
+   "opublikowano_surowe": "Sat, 21 Nov 2026 10:53:57 GMT",
+   "streszczenie": "Nadzór budowlany prowadzi postępowanie w sprawie montażu ekranów reklamowych w Domach Towarowych Centrum przy Marszałkowskiej. Ratusz wskazuje, że zatwierdzony projekt przewidywał zdjęcie wielkoformatowych reklam i odtworzenie szklanej fasady. Przedstawicielka właściciela przekonuje, że ekran zamontowano wewnątrz budynku, za szybami, zgodnie z przepisami."
+  },
+  {
+   "zrodlo": "Polsat News",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "\"Będziemy bronić każdego centymetra\". Zapowiedź szefa NATO ws. Polski",
+   "url": "https://www.polsatnews.pl/wiadomosc/2026-11-21/bedziemy-bronic-kazdego-centymetra-zapowiedz-szefa-nato-ws-polski/",
+   "opublikowano": "2026-11-21T13:52:00Z",
+   "opublikowano_surowe": "Sat, 21 Nov 2026 14:52:00 +0100",
+   "streszczenie": "- Mogę zagwarantować, że NATO będzie bronić każdego centymetra polskiego terytorium - powiedział podczas sobotniej konferencji prasowej Mark Rutte. W poniedziałek w Kwaterze Głównej NATO w Brukseli dojdzie do spotkania Rady Północnoatlantyckiej. Tematem rozmów będą naruszenia przestrzeni powietrznej Polski przez rosyjskie rakiety."
+  },
+  {
+   "zrodlo": "Polsat News",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Rosyjski śmigłowiec nad Finlandią. Reakcja Ministerstwa Obrony",
+   "url": "https://www.polsatnews.pl/wiadomosc/2026-11-21/rosyjski-smiglowiec-nad-finlandia-reakcja-ministerstwa-obrony/",
+   "opublikowano": "2026-11-21T13:51:00Z",
+   "opublikowano_surowe": "Sat, 21 Nov 2026 14:51:00 +0100",
+   "streszczenie": "Rosyjski śmigłowiec prawdopodobnie naruszył przestrzeń powietrzną Finlandii - przekazało fińskie Ministerstwo Obrony. Według szefa resortu obrony Anttiego Häkkänena, sprawa może mieć związek z rosyjskim statkiem towarowym uszkodzonym w Zatoce Fińskiej."
   },
   {
    "zrodlo": "Polsat News",
@@ -2079,24 +2247,54 @@
    "streszczenie": "- W Helsinkach wydarzenia z Polski monitorowane są ze szczególną dokładnością - zadeklarował Antti Hakkanen. Fiński minister obrony narodowej odnosząc się do piątkowych zdarzeń ze wschodniej części Polski dodał, że rosyjskie ataki na Ukrainę są skrajnie nieodpowiedzialne i niebezpieczne dla NATO."
   },
   {
-   "zrodlo": "Polsat News",
+   "zrodlo": "Onet Wiadomości",
    "kategoria": "NEWS",
    "region": "poland",
-   "tytul": "Pod ziemią kryje się całe miasto. Archeolodzy znaleźli ulice, kaplice i kolejne tunele",
-   "url": "https://www.polsatnews.pl/ciekawostki/2026-11-21/pod-ziemia-kryje-sie-cale-miasto-archeolodzy-znalezli-ulice-kaplice-i-kolejne-tunele/",
-   "opublikowano": "2026-11-21T06:43:00Z",
-   "opublikowano_surowe": "Sat, 21 Nov 2026 07:43:00 +0100",
-   "streszczenie": "W prowincji Konya w Turcji archeolodzy odkryli rozległą podziemną osadę Sarayini, wykutą w skale ponad tysiąc lat temu. Badania georadarem ujawniły, że kilometr dalej istnieje druga, połączona z nią tunelami."
+   "tytul": "Jasna deklaracja szefa NATO. \"Będziemy bronić każdego centymetra polskiego terytorium\"",
+   "url": "https://wiadomosci.onet.pl/swiat/mark-rutte-zapewnia-w-warszawie-nato-obroni-kazdy-centymetr-terytorium/w7bdp5k",
+   "opublikowano": "2026-11-21T14:14:58Z",
+   "opublikowano_surowe": "Sat, 21 Nov 2026 14:14:58 GMT",
+   "streszczenie": "— Polska jest mocnym sojusznikiem, macie tutaj świetne wojska, a teraz musimy dokładnie ustalić, co się stało — powiedział w sobotę w Warszawie sekretarz generalny NATO Mark Rutte. Podkreślił, że sojusz będzie bronić każdego centymetra polskiego terytorium."
   },
   {
-   "zrodlo": "Polsat News",
+   "zrodlo": "Onet Wiadomości",
    "kategoria": "NEWS",
    "region": "poland",
-   "tytul": "Silne trzęsienie ziemi w Peru. Przerażeni ludzie wybiegali na ulice",
-   "url": "https://www.polsatnews.pl/wiadomosc/2026-11-21/trzesienie-ziemi-w-ameryce-poludniowej/",
-   "opublikowano": "2026-11-21T05:14:00Z",
-   "opublikowano_surowe": "Sat, 21 Nov 2026 06:14:00 +0100",
-   "streszczenie": "Trzęsienie ziemi o magnitudzie 6,7 nawiedziło środkowe Peru. Wstrząs był odczuwalny w kilku regionach kraju, w tym w Limie, gdzie mieszkańcy uciekali z domów, a parlamentarzyści opuścili Kongres. Eksperci przypominają, że Peru leży w obszarze wzmożonej aktywności sejsmicznej - w tzw. pacyficznym pierścieniu ognia. W 2007 r. w wyniku trzęsienia ziemi o magnitudzie 8,0 w kraju zginęło ok. 600 osób."
+   "tytul": "Gen. Polko ostro po wtargnięciu rakiet do Polski. \"To nie jest prowokacja. To pełzająca wojna\"",
+   "url": "https://wiadomosci.onet.pl/kraj/gen-roman-polko-ostrzega-przed-rosyjskimi-rakietami-to-pelzajaca-wojna/7dj4smb",
+   "opublikowano": "2026-11-21T14:10:57Z",
+   "opublikowano_surowe": "Sat, 21 Nov 2026 14:10:57 GMT",
+   "streszczenie": "— Rosjanie wręcz przyzwyczajają nas do tego, że to jest \"tylko\" prowokacja — ostrzega w rozmowie z Onetem gen. Roman Polko. Były dowódca GROM krytykuje stan polskiej obrony powietrznej, sposób ostrzegania obywateli i dotychczasową reakcję NATO. Przekonuje, że Polska powinna uzgodnić z Ukrainą jedną kluczową kwestię."
+  },
+  {
+   "zrodlo": "Onet Wiadomości",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Kreml śmieje się nam w twarz. Tak agenci Putina panoszą się w całej Europie [ŚLEDZTWO]",
+   "url": "https://wiadomosci.onet.pl/swiat/kreml-smieje-sie-nam-w-twarz-szemrani-ludzie-putina-juz-tu-sa-sledztwo/whvkfxy",
+   "opublikowano": "2026-11-21T14:06:42Z",
+   "opublikowano_surowe": "Sat, 21 Nov 2026 14:06:42 GMT",
+   "streszczenie": "Moskwa tworzy sieć agentów za pośrednictwem quasi-niezależnych organizacji społecznych, przede wszystkim sportowych. Jak ustalił serwis The Insider, jedna z takich struktur — Międzynarodowa Federacja Walki Ręcznej (MFRB) — jest ściśle powiązana z rosyjskimi służbami specjalnymi. Mimo to posiada przedstawicielstwa na całym świecie. W jej strukturach działają szemrani ludzie — m.in. były ochroniarz Putina, włosko-albański rekruter najemników, rosyjscy neonaziści, ochroniarz prezydenta Bułgarii oraz instruktorzy oddziałów specjalnych ze Szwajcarii i Tajlandii."
+  },
+  {
+   "zrodlo": "Onet Wiadomości",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Wołodymyr Zełenski mówi o Polsce. \"Bez niej nie może być negocjacji\"",
+   "url": "https://wiadomosci.onet.pl/swiat/wolodymyr-zelenski-o-rozmowach-pokojowych-bez-polski-nie-bedzie-negocjacji/5ff8ht5",
+   "opublikowano": "2026-11-21T13:37:49Z",
+   "opublikowano_surowe": "Sat, 21 Nov 2026 13:37:49 GMT",
+   "streszczenie": "— Bez Polski nie będzie negocjacji pokojowych w sprawie Ukrainy — podkreślił w sobotę prezydent Wołodymyr Zełenski. Wskazał, że Polskę, razem z Wielką Brytanią, Niemcami, Francją i Włochami, wybrano do reprezentowania Europy w rozmowach pokojowych jako tzw. grupę E5."
+  },
+  {
+   "zrodlo": "Onet Wiadomości",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "NATO reaguje na to, co stało się na wschodzie Polski. Ważne spotkanie w Kwaterze Głównej",
+   "url": "https://wiadomosci.onet.pl/kraj/nato-reaguje-na-to-co-stalo-sie-na-wschodzie-polski-jest-data-waznego-spotkania/8x5p1cx",
+   "opublikowano": "2026-11-21T13:21:43Z",
+   "opublikowano_surowe": "Sat, 21 Nov 2026 13:21:43 GMT",
+   "streszczenie": "W Kwaterze Głównej NATO w Brukseli zbierze się Rada Północnoatlantycka. Najważniejszy organ decyzyjny Sojuszu w poniedziałek zajmie się piątkowym naruszeniem polskiej przestrzeni powietrznej przez rosyjskie obiekty. Wiadomo, kto będzie reprezentował Polskę."
   },
   {
    "zrodlo": "Onet Wiadomości",
@@ -2199,54 +2397,24 @@
    "streszczenie": "— Różne prezenty w różnych przypadkach się przygotowuje, różne są także zwyczaje — tak szef Gabinetu Prezydenta RP Paweł Szefernaker odpowiedział na pytanie, dotyczące \"bursztynowego tronu\", prezentu sprawionego Donaldowi Trumpowi przez Karola Nawrockiego."
   },
   {
-   "zrodlo": "Onet Wiadomości",
+   "zrodlo": "Interia Fakty",
    "kategoria": "NEWS",
    "region": "poland",
-   "tytul": "Co dzieje się na terenach, gdzie spadły rakiety? \"Te miejsca są tak zwane czyste\"",
-   "url": "https://wiadomosci.onet.pl/lublin/co-dzieje-sie-na-terenach-gdzie-spadly-rakiety-te-miejsca-sa-tak-zwane-czyste/5stnjmy",
-   "opublikowano": "2026-11-21T10:07:39Z",
-   "opublikowano_surowe": "Sat, 21 Nov 2026 10:07:39 GMT",
-   "streszczenie": "Żandarmeria pod nadzorem prokuratury prowadzi oględziny i zabezpiecza dowody w miejscach upadków obiektów latających w Nowym Lipowcu i Rudniku nad Sanem; w Mołodyczu teren jest sprawdzany pod kątem potencjalnych zagrożeń — podała PAP w sobotę Żandarmeria Wojskowa."
+   "tytul": "Akcja Rosjan wokół trafionego statku. Finowie alarmują, nowe informacje",
+   "url": "https://wydarzenia.interia.pl/zagranica/news-finowie-alarmuja-o-naruszeniu-przestrzeni-powietrznej-wskazu,nId,23577013",
+   "opublikowano": "2026-11-21T13:59:43Z",
+   "opublikowano_surowe": "Sat, 21 Nov 2026 13:59:43 GMT",
+   "streszczenie": "Władze Finlandii informują o podejrzeniu naruszenia swojej przestrzeni powietrznej przez rosyjski śmigłowiec - podaje Reuters. Incydent może być związany z akcją Rosjan wokół trafionego statku w Zatoce Fińskiej."
   },
   {
-   "zrodlo": "Onet Wiadomości",
+   "zrodlo": "Interia Fakty",
    "kategoria": "NEWS",
    "region": "poland",
-   "tytul": "Polacy wskazali lidera prawicy. Nie jest nim Jarosław Kaczyński [SONDAŻ]",
-   "url": "https://wiadomosci.onet.pl/kraj/polacy-wskazali-lidera-prawicy-nie-jest-nim-jaroslaw-kaczynski-sondaz/zd3qlhk",
-   "opublikowano": "2026-11-21T09:51:06Z",
-   "opublikowano_surowe": "Sat, 21 Nov 2026 09:51:06 GMT",
-   "streszczenie": "Jarosław Kaczyński w sondażu dotyczącym tego, kto jest liderem prawicy, zajął drugie miejsce. Więcej głosów od niego zdobył Karol Nawrocki. Ciekawie wygląda również sytuacja między przedstawicielami Konfederacji."
-  },
-  {
-   "zrodlo": "Onet Wiadomości",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Eksperci o upadku rosyjskich obiektów w Polsce. Wskazują cel Kremla",
-   "url": "https://wiadomosci.onet.pl/kraj/rosja-celowo-wystrzelila-obiekty-w-strone-polski-isw-wyjasnia-dlaczego/se5tehq",
-   "opublikowano": "2026-11-21T09:47:38Z",
-   "opublikowano_surowe": "Sat, 21 Nov 2026 09:47:38 GMT",
-   "streszczenie": "Eksperci Instytutu Studiów nad Wojną uważają, że Rosjanie celowo wystrzelili rakiety i drony w stronę Polski w czasie odbywających się w Nowej Dębie ćwiczeń wojskowych Koalicji Chętnych. Celem takiego działania jest \"zniechęcenie Koalicji Chętnych do wspierania Ukrainy oraz przetestowanie reakcji NATO\"."
-  },
-  {
-   "zrodlo": "Onet Wiadomości",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Ostre słowa Antoniego Macierewicza. \"Twój sukces to żonka w parodii chrzestnej F-35\"",
-   "url": "https://wiadomosci.onet.pl/kraj/antoni-macierewicz-atakuje-szefa-mon-tygrysku-pamietasz/crgdl98",
-   "opublikowano": "2026-11-21T09:01:13Z",
-   "opublikowano_surowe": "Sat, 21 Nov 2026 09:01:13 GMT",
-   "streszczenie": "Wiceprezes PiS Antoni Macierewicz w ostrych słowach uderzył w ministra obrony narodowej Władysława Kosiniaka-Kamysza. Przywołał wpis lidera PSL sprzed trzech lat, zarzucił mu uległość wobec premiera Donalda Tuska i zaatakował słownie żonę wicepremiera."
-  },
-  {
-   "zrodlo": "Onet Wiadomości",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "\"Jesteś do odstrzału\". Mężczyzna groził posłance",
-   "url": "https://wiadomosci.onet.pl/wroclaw/jestes-do-odstrzalu-mezczyzna-grozil-poslance/7h0t7el",
-   "opublikowano": "2026-11-21T08:49:33Z",
-   "opublikowano_surowe": "Sat, 21 Nov 2026 08:49:33 GMT",
-   "streszczenie": "42-latek kierował groźby karalne wobec posłanki KO Anny Sobolak. Mężczyzna został zatrzymany, a teraz grozi mu kilka lat więzienia."
+   "tytul": "Ojciec Giertych przechodzi na emeryturę. Zmiany w Watykanie",
+   "url": "https://wydarzenia.interia.pl/zagranica/news-ojciec-giertych-przechodzi-na-emeryture-zmiany-w-watykanie,nId,23577006",
+   "opublikowano": "2026-11-21T13:31:21Z",
+   "opublikowano_surowe": "Sat, 21 Nov 2026 13:31:21 GMT",
+   "streszczenie": "Ojciec Wojciech Giertych - były już teolog Domu Papieskiego - przechodzi na emeryturę. Jego obowiązki przejmie ojciec Serge-Thomas Bonino OP, mianowany na to stanowisko przez papieża Leona XIV."
   },
   {
    "zrodlo": "Interia Fakty",
@@ -2266,7 +2434,7 @@
    "url": "https://wydarzenia.interia.pl/kraj/news-szef-nato-o-naruszeniu-polskiej-przestrzeni-padla-deklaracja,nId,23576995",
    "opublikowano": "2026-11-21T12:51:03Z",
    "opublikowano_surowe": "Sat, 21 Nov 2026 12:51:03 GMT",
-   "streszczenie": "- Mogę zagwarantować, że NATO będzie bronić każdego centymetra polskiego terytorium - powiedział w rozmowie z dziennikarzami sekretarz generalny NATO Mark Rutte, odnosząc się do piątkowego naruszenia polskiej przestrzeni powietrznej. Dodał także, że trwa analiza tej sytuacji i po poczynieniu nowych ustaleń, będą w tej sprawie publikowane nowe komunikaty."
+   "streszczenie": "- Mogę zagwarantować, że NATO będzie bronić każdego centymetra polskiego terytorium - powiedział w rozmowie z dziennikarzami sekretarz generalny Sojuszu Północnoatlantyckiego Mark Rutte, odnosząc się do piątkowego naruszenia polskiej przestrzeni powietrznej. Tymczasem służby prasowe Stałego Przedstawicielstwa RP przy NATO przekazały, że w poniedziałek w związku z piątkowymi wydarzeniami w Kwaterze Głównej NATO w Brukseli dojdzie do spotkania Rady Północnoatlantyckiej."
   },
   {
    "zrodlo": "Interia Fakty",
@@ -2379,24 +2547,54 @@
    "streszczenie": "Rosja celowo doprowadziła do naruszenia polskiej przestrzeni powietrznej przez dwie rakiety i drona - ocenia Instytut Studiów nad Wojną (ISW). Zdaniem analityków amerykańskiego think tanku działanie było związane z odbywającymi się w Nowej Dębie ćwiczeniami wojskowymi tzw. koalicji chętnych."
   },
   {
-   "zrodlo": "Interia Fakty",
+   "zrodlo": "Rzeczpospolita",
    "kategoria": "NEWS",
    "region": "poland",
-   "tytul": "Premier Estonii o \"domu stojącym w płomieniach\". Rosja porównana do podpalacza",
-   "url": "https://wydarzenia.interia.pl/zagranica/news-premier-estonii-o-domu-stojacym-w-plomieniach-rosja-porownan,nId,23576922",
-   "opublikowano": "2026-11-21T07:18:34Z",
-   "opublikowano_surowe": "Sat, 21 Nov 2026 07:18:34 GMT",
-   "streszczenie": "\"Dom stoi w płomieniach, a podpalacz nalega, by zanim ktokolwiek sięgnie po wąż strażacki, sąsiedzi omówili projekt budynku\" - stwierdził premier Estonii Kristen Michal. Odniósł się w ten sposób do żądań Rosji, która chce zmian w europejskiej architekturze bezpieczeństwa jako warunków wstępnych do rozmów o zakończeniu wojny z Ukrainą."
+   "tytul": "Gniewomir Wycichowski-Kuchta: Po wyroku TSUE cudzoziemcy mogą żądać odszkodowań od państwa",
+   "url": "https://www.rp.pl/cudzoziemcy/art45514041-gniewomir-wycichowski-kuchta-po-wyroku-tsue-cudzoziemcy-moga-zadac-odszkodowan-od-panstwa",
+   "opublikowano": "2026-11-21T14:00:00Z",
+   "opublikowano_surowe": "Sat, 21 Nov 2026 15:00:00 +0100",
+   "streszczenie": "Polska musi wykazać, że mimo wszelkich starań nie mogła na czas rozpatrzyć wniosków pobytowych cudzoziemców po masowym napływie osób z Ukrainy - mówi Gniewomir Wycichowski-Kuchta, ekspert ds. legislacji, współpracownik Instytutu Nauk Prawnych PAN."
   },
   {
-   "zrodlo": "Interia Fakty",
+   "zrodlo": "Rzeczpospolita",
    "kategoria": "NEWS",
    "region": "poland",
-   "tytul": "Silny wstrząs o świcie. Odczuli go mieszkańcy sześciu miast",
-   "url": "https://wydarzenia.interia.pl/wiadomosci-lokalne/news-silny-wstrzas-o-swicie-odczuli-go-mieszkancy-szesciu-miast,nId,23576921",
-   "opublikowano": "2026-11-21T07:04:43Z",
-   "opublikowano_surowe": "Sat, 21 Nov 2026 07:04:43 GMT",
-   "streszczenie": "Mieszkańcy centralnej części województwa śląskiego informują o silnym wstrząsie, który był odczuwalny w sobotni poranek na terenie co najmniej sześciu miast. Głos w sprawie zabrała Polska Grupa Górnicza - uspokojono, że zjawisko nie spowodowało zagrożenia dla górników."
+   "tytul": "Rada NATO zbierze się ws. rosyjskich rakiet. „Będziemy bronić każdego centymetra Polski”",
+   "url": "https://www.rp.pl/polityka/art45523411-rada-nato-zbierze-sie-ws-rosyjskich-rakiet-bedziemy-bronic-kazdego-centymetra-polski",
+   "opublikowano": "2026-11-21T13:53:00Z",
+   "opublikowano_surowe": "Sat, 21 Nov 2026 14:53:00 +0100",
+   "streszczenie": "W poniedziałek w Kwaterze Głównej NATO w Brukseli dojdzie do spotkania Rady Północnoatlantyckiej. Rozmowa będzie dotyczyła naruszenia przestrzeni powietrznej Polski przez rosyjskie rakiety - poinformowały w sobotę służby prasowe Stałego Przedstawicielstwa RP przy NATO."
+  },
+  {
+   "zrodlo": "Rzeczpospolita",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Wielka Brytania dogadała się z UE. Teraz Bruksela stawia twarde warunki",
+   "url": "https://www.rp.pl/dyplomacja/art45523391-wielka-brytania-dogadala-sie-z-ue-teraz-bruksela-stawia-twarde-warunki",
+   "opublikowano": "2026-11-21T13:46:42Z",
+   "opublikowano_surowe": "Sat, 21 Nov 2026 14:46:42 +0100",
+   "streszczenie": "Unia Europejska i Wielka Brytania zawarły trzy porozumienia, które mają zacieśnić współpracę gospodarczą i ułatwić młodym ludziom przemieszczanie się między krajami. Jednak Bruksela grozi zablokowaniem umów. Powodem jest spór o wysokość czesnego dla studentów z UE na brytyjskich uczelniach."
+  },
+  {
+   "zrodlo": "Rzeczpospolita",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Ograniczenie wszechobecnego składnika opóźnia starzenie. Naukowcy odkryli, komu szkodzi",
+   "url": "https://www.rp.pl/zdrowie/art45505881-ograniczenie-wszechobecnego-skladnika-opoznia-starzenie-naukowcy-odkryli-komu-szkodzi",
+   "opublikowano": "2026-11-21T13:42:00Z",
+   "opublikowano_surowe": "Sat, 21 Nov 2026 14:42:00 +0100",
+   "streszczenie": "Białko jest obecnie dodawane nawet do kawy i wody butelkowanej, przez co osoby, które prowadzą siedzący tryb życia, mogą spożywać go więcej, niż faktycznie potrzebują. Tymczasem analiza ponad 350 badań, która została opublikowana w czasopiśmie „Cell Press Blue”, pokazała, że ograniczenie tego składnika może w niektórych przypadkach potencjalnie spowolnić proces starzenia i poprawić zdrowie metaboliczne."
+  },
+  {
+   "zrodlo": "Rzeczpospolita",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Zełenski mówił o rozmowach pokojowych. Wspomniał o Polsce",
+   "url": "https://www.rp.pl/konflikty-zbrojne/art45523371-zelenski-mowil-o-rozmowach-pokojowych-wspomnial-o-polsce",
+   "opublikowano": "2026-11-21T13:23:57Z",
+   "opublikowano_surowe": "Sat, 21 Nov 2026 14:23:57 +0100",
+   "streszczenie": "Bez Polski nie może być negocjacji pokojowych, podobnie jak bez innych państw Europy, które będą reprezentowane przez pięć krajów: Wielką Brytanię, Niemcy, Francję, Włochy i Polskę, tworzących grupę E5 - oświadczył w sobotę prezydent Ukrainy Wołodymyr Zełenski."
   },
   {
    "zrodlo": "Rzeczpospolita",
@@ -2499,54 +2697,154 @@
    "streszczenie": "Po tym, jak trzy rosyjskie obiekty spadły w Polsce, gen. Roman Polko odniósł się do decyzji pilota, który miał zgodę na zestrzelenie jednego z nich, ale nie oddał strzału. Zdaniem byłego dowódcy GROM-u pilot mógł obawiać się, że przy ograniczonej widoczności rakieta trafi w cel cywilny."
   },
   {
-   "zrodlo": "Rzeczpospolita",
+   "zrodlo": "TVN Warszawa",
    "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Kto zostanie dziewczyną Bonda?",
-   "url": "https://www.rp.pl/film/art45522531-kto-zostanie-dziewczyna-bonda",
-   "opublikowano": "2026-11-21T10:48:31Z",
-   "opublikowano_surowe": "Sat, 21 Nov 2026 11:48:31 +0100",
-   "streszczenie": "Wiadomo już, że nowym Bondem będzie Robert Pattinson. Teraz przyszła więc kolej na znalezienie mu dziewczyny."
+   "region": "warsaw",
+   "tytul": "Na A2 obowiązuje \"siedemdziesiątka\". Drogowcy przypominają o 35 metrach odstępu",
+   "url": "https://tvn24.pl/tvnwarszawa/okolice/na-a2-obowiazuje-siedemdziesiatka-drogowcy-przypominaja-o-35-metrach-odstepu-st9350820?source=rss",
+   "opublikowano": "2026-11-21T13:30:36Z",
+   "opublikowano_surowe": "Sat, 21 Nov 2026 13:30:36 GMT",
+   "streszczenie": "Na całym rozbudowywanym odcinku autostrady A2 między Łodzią a Warszawą obowiązuje ograniczenie prędkości do 70 km/h. Jezdnie są zwężone, a kierowcy ciężarówek mają zakaz wyprzedzania. Drogowcy apelują, by zachować szczególną ostrożność i pilnować odstępu od pojazdu jadącego z przodu."
   },
   {
-   "zrodlo": "Rzeczpospolita",
+   "zrodlo": "TVN Warszawa",
    "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Zakaz mediów społecznościowych dla dzieci poniżej 15 lat. Jest projekt ustawy",
-   "url": "https://cyfrowa.rp.pl/globalne-interesy/art45523161-zakaz-mediow-spolecznosciowych-dla-dzieci-ponizej-15-lat-jest-projekt-ustawy",
-   "opublikowano": "2026-11-21T10:43:31Z",
-   "opublikowano_surowe": "Sat, 21 Nov 2026 11:43:31 +0100",
-   "streszczenie": "Koniec mediów społecznościowych dla dzieci poniżej 15. roku życia? Nowy projekt ustawy przewiduje obowiązkową weryfikację wieku użytkowników, m.in. przez aplikację mObywatel. Platformom, które nie zastosują się do przepisów, mają grozić gigantyczne kary finansowe."
+   "region": "warsaw",
+   "tytul": "Uwierzył, że pomaga zatrzymać oszustów. Stracił ponad 95 tysięcy złotych",
+   "url": "https://tvn24.pl/tvnwarszawa/praga-poludnie/warszawa-uwierzyl-ze-pomaga-zatrzymac-oszustow-stracil-ponad-95-tysiecy-zlotych-st9350604?source=rss",
+   "opublikowano": "2026-11-21T12:37:55Z",
+   "opublikowano_surowe": "Sat, 21 Nov 2026 12:37:55 GMT",
+   "streszczenie": "Senior przekazał ponad 95 tysięcy złotych mężczyźnie, którego wziął za policjanta. Uwierzył, że w ten sposób pomoże zatrzymać oszustów, a po kilku godzinach odzyska gotówkę. W sprawie policja zatrzymała 17-latka."
   },
   {
-   "zrodlo": "Rzeczpospolita",
+   "zrodlo": "TVN Warszawa",
    "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Rakiety nad Polską. Eksperci wojskowi ostrzegają i zaznaczają, że „NATO ryzykuje”",
-   "url": "https://www.rp.pl/konflikty-zbrojne/art45523171-rakiety-nad-polska-eksperci-wojskowi-ostrzegaja-i-zaznaczaja-ze-nato-ryzykuje",
-   "opublikowano": "2026-11-21T10:30:56Z",
-   "opublikowano_surowe": "Sat, 21 Nov 2026 11:30:56 +0100",
-   "streszczenie": "Instytut Studiów nad Wojną (ISW) – amerykański think tank zajmujący się analizą konfliktów zbrojnych, wojskowości i polityki bezpieczeństwa – ocenia, że Rosja celowo skierowała rakiety i drony w polską przestrzeń powietrzną podczas piątkowego ataku na Ukrainę. Zdaniem analityków Kreml chciał sprawdzić reakcję NATO i zniechęcić państwa Koalicji Chętnych do wspierania Ukrainy."
+   "region": "warsaw",
+   "tytul": "Ekrany reklamowe na Domach Centrum pod lupą nadzoru",
+   "url": "https://tvn24.pl/tvnwarszawa/srodmiescie/warszawa-ekrany-na-domach-centrum-pod-lupa-nadzoru-st9350412?source=rss",
+   "opublikowano": "2026-11-21T10:53:57Z",
+   "opublikowano_surowe": "Sat, 21 Nov 2026 10:53:57 GMT",
+   "streszczenie": "Nadzór budowlany prowadzi postępowanie w sprawie montażu ekranów reklamowych w Domach Towarowych Centrum przy Marszałkowskiej. Ratusz wskazuje, że zatwierdzony projekt przewidywał zdjęcie wielkoformatowych reklam i odtworzenie szklanej fasady. Przedstawicielka właściciela przekonuje, że ekran zamontowano wewnątrz budynku, za szybami, zgodnie z przepisami."
   },
   {
-   "zrodlo": "Rzeczpospolita",
+   "zrodlo": "TVN Warszawa",
    "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Leszek Kieliszewski: Dostęp do broni do rewizji",
-   "url": "https://www.rp.pl/rzecz-o-prawie/art45496391-leszek-kieliszewski-dostep-do-broni-do-rewizji",
-   "opublikowano": "2026-11-21T10:11:00Z",
-   "opublikowano_surowe": "Sat, 21 Nov 2026 11:11:00 +0100",
-   "streszczenie": "Łatwy dostęp do broni sportowej obnażył poważne luki w przepisach. Brak okresowych badań psychologicznych i niejasne zasady dziedziczenia broni wymagają pilnego uszczelnienia."
+   "region": "warsaw",
+   "tytul": "Po zderzeniu auto wylądowało na boku",
+   "url": "https://tvn24.pl/tvnwarszawa/ochota/warszawa-po-zderzeniu-auto-wyladowalo-na-boku-st9350539?source=rss",
+   "opublikowano": "2026-11-21T10:46:17Z",
+   "opublikowano_surowe": "Sat, 21 Nov 2026 10:46:17 GMT",
+   "streszczenie": "W sobotę rano na warszawskiej Ochocie zderzyły się dwa auta osobowe. Jedno z nich przewróciło się na bok. Jedna osoba trafiła do szpitala."
   },
   {
-   "zrodlo": "Rzeczpospolita",
+   "zrodlo": "TVN Warszawa",
    "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Seria cyberataków w USA. FBI bada włamanie do kluczowego systemu",
-   "url": "https://cyfrowa.rp.pl/bezpieczenstwo/art45523121-seria-cyberatakow-w-usa-fbi-bada-wlamanie-do-kluczowego-systemu",
-   "opublikowano": "2026-11-21T10:00:17Z",
-   "opublikowano_surowe": "Sat, 21 Nov 2026 11:00:17 +0100",
-   "streszczenie": "FBI prowadzi dochodzenie w sprawie prawdopodobnego włamania do Narodowego Centrum Informacji Kryminalnej (National Crime Information Center, NCIC) – poinformowała stacja NBC News, powołując się na swoich informatorów."
+   "region": "warsaw",
+   "tytul": "Auto w rowie, dwie osoby w szpitalu. Policja ustala, kto kierował",
+   "url": "https://tvn24.pl/tvnwarszawa/okolice/nieporet-auto-w-rowie-dwie-osoby-w-szpitalu-policja-ustala-kto-kierowal-st9350454?source=rss",
+   "opublikowano": "2026-11-21T09:46:56Z",
+   "opublikowano_surowe": "Sat, 21 Nov 2026 09:46:56 GMT",
+   "streszczenie": "Samochód osobowy wpadł do rowu w Nieporęcie pod Warszawą. Autem jechały cztery osoby, trzy były nietrzeźwe. Dwóch mężczyzn trafiło do szpitala. Nikt z podróżujących nie przyznał się do kierowania."
+  },
+  {
+   "zrodlo": "TVN Warszawa",
+   "kategoria": "NEWS",
+   "region": "warsaw",
+   "tytul": "Szukali papierosów bez akcyzy. W aucie znaleźli broń i amunicję",
+   "url": "https://tvn24.pl/tvnwarszawa/ochota/warszawa-szukali-papierosow-bez-akcyzy-w-aucie-znalezli-bron-i-amunicje-st9350354?source=rss",
+   "opublikowano": "2026-11-21T08:06:46Z",
+   "opublikowano_surowe": "Sat, 21 Nov 2026 08:06:46 GMT",
+   "streszczenie": "Ponad 17 tysięcy paczek papierosów bez polskiej akcyzy znaleźli stołeczni policjanci w kontenerze na jednej z warszawskich posesji. W samochodzie, który podjechał pod kontener, był pistolet i amunicja. Zatrzymany kierowca usłyszał zarzuty."
+  },
+  {
+   "zrodlo": "TVN Warszawa",
+   "kategoria": "NEWS",
+   "region": "warsaw",
+   "tytul": "Przebudowa przystanku WKD Warszawa Raków mocno opóźniona",
+   "url": "https://tvn24.pl/tvnwarszawa/wlochy/przebudowa-przystanku-wkd-warszawa-rakow-nowy-harmonogram-prac-st9347732?source=rss",
+   "opublikowano": "2026-11-21T08:05:48Z",
+   "opublikowano_surowe": "Sat, 21 Nov 2026 08:05:48 GMT",
+   "streszczenie": "Przebudowa przystanku WKD Warszawa Raków złapała poważny poślizg – jak ustaliliśmy, roboty rozpoczną się najwcześniej w 2028 roku. Tymczasem obecna infrastruktura zmusza pasażerów do ryzykownego przechodzenia przez tory i utrudnia dostęp do peronu osobom o ograniczonej mobilności. Zapytaliśmy WKD o realny harmonogram prac oraz dlaczego unieważniono dwa przetargi."
+  },
+  {
+   "zrodlo": "TVN Warszawa",
+   "kategoria": "NEWS",
+   "region": "warsaw",
+   "tytul": "Nowy odcinek drugiej linii metra. Ratusz podał harmonogram",
+   "url": "https://tvn24.pl/tvnwarszawa/zoliborz/warszawa-rozbudowa-drugiej-linii-metra-harmonogram-prac-projektowych-st9350022?source=rss",
+   "opublikowano": "2026-11-20T19:30:59Z",
+   "opublikowano_surowe": "Fri, 20 Nov 2026 19:30:59 GMT",
+   "streszczenie": "Druga linia metra zostanie przedłużona z Bródna na Marymont. W piątek stołeczny ratusz podał harmonogram projektowania nowego odcinka. Termin samej budowy pozostaje nieznany."
+  },
+  {
+   "zrodlo": "TVN Warszawa",
+   "kategoria": "NEWS",
+   "region": "warsaw",
+   "tytul": "Betonowe zapory wracają na Krakowskie Przedmieście. Będą zmiany w ruchu",
+   "url": "https://tvn24.pl/tvnwarszawa/srodmiescie/warszawa-betonowe-zapory-wracaja-na-krakowskie-przedmiescie-st9350086?source=rss",
+   "opublikowano": "2026-11-20T18:43:55Z",
+   "opublikowano_surowe": "Fri, 20 Nov 2026 18:43:55 GMT",
+   "streszczenie": "Ze względów bezpieczeństwa w kolejne weekendy na Trakcie Królewskim ponownie pojawią się betonowe zapory. Oznacza to zmiany w organizacji ruchu, utrudnienia dla kierowców oraz objazdy dla autobusów miejskich. Ograniczenia obejmą również ulice w rejonie Starówki."
+  },
+  {
+   "zrodlo": "TVN Warszawa",
+   "kategoria": "NEWS",
+   "region": "warsaw",
+   "tytul": "Konkurs na stanowisko dyrektora muzeum w Wilanowie, poprzedniego odwołano po imprezie techno",
+   "url": "https://tvn24.pl/tvnwarszawa/wilanow/warszawa-konkurs-na-stanowisko-dyrektora-muzeum-palacu-krola-jana-iii-w-wilanowie-st9349869?source=rss",
+   "opublikowano": "2026-11-20T16:01:40Z",
+   "opublikowano_surowe": "Fri, 20 Nov 2026 16:01:40 GMT",
+   "streszczenie": "Ministerstwo Kultury i Dziedzictwa Narodowego ogłosiło konkurs na dyrektora Muzeum Pałacu Króla Jana III w Wilanowie. Oferty należy składać do 10 grudnia."
+  },
+  {
+   "zrodlo": "TVN Warszawa",
+   "kategoria": "NEWS",
+   "region": "warsaw",
+   "tytul": "Kolczasty owoc na szkolnej stołówce. Dzieci pokłuły sobie dłonie i usta",
+   "url": "https://tvn24.pl/tvnwarszawa/okolice/piaseczno-na-stolowce-w-szkole-podano-opuncje-st9349596?source=rss",
+   "opublikowano": "2026-11-20T15:48:21Z",
+   "opublikowano_surowe": "Fri, 20 Nov 2026 15:48:21 GMT",
+   "streszczenie": "W jednej ze szkół w Piasecznie (Mazowieckie) dzieciom na stołówce podano opuncję. Kolce egzotycznego owocu powbijały się w dłonie i usta uczniów, przekazała przewodnicząca rady rodziców."
+  },
+  {
+   "zrodlo": "TVN Warszawa",
+   "kategoria": "NEWS",
+   "region": "warsaw",
+   "tytul": "\"Przez wiele lat współtworzył historię i życie artystyczne warszawskiego baletu\"",
+   "url": "https://tvn24.pl/tvnwarszawa/srodmiescie/warszawa-nie-zyje-zbigniew-czapski-kloda-tancerz-pedagog-i-wieloletni-pracownik-teatru-wielkiego-st9349681?source=rss",
+   "opublikowano": "2026-11-20T14:45:45Z",
+   "opublikowano_surowe": "Fri, 20 Nov 2026 14:45:45 GMT",
+   "streszczenie": "Nie żyje Zbigniew Czapski-Kłoda, tancerz, pedagog i wieloletni pracownik Teatru Wielkiego. Zmagał się z chorobą nowotworową. \"Przez wiele lat współtworzył historię i życie artystyczne warszawskiego baletu\" - podkreślił Teatr Wielki."
+  },
+  {
+   "zrodlo": "TVN Warszawa",
+   "kategoria": "NEWS",
+   "region": "warsaw",
+   "tytul": "Zwłoki mężczyzny na ulicy. Na miejscu policja i prokuratura",
+   "url": "https://tvn24.pl/tvnwarszawa/okolice/nasielsk-zwloki-mezczyzny-na-miejscu-policja-i-prokuratura-st9349824?source=rss",
+   "opublikowano": "2026-11-20T14:31:36Z",
+   "opublikowano_surowe": "Fri, 20 Nov 2026 14:31:36 GMT",
+   "streszczenie": "W piątek w Nasielsku (Mazowieckie) przy jednej z ulic znaleziono zwłoki mężczyzny."
+  },
+  {
+   "zrodlo": "TVN Warszawa",
+   "kategoria": "NEWS",
+   "region": "warsaw",
+   "tytul": "Potrącił psa na przejściu dla pieszych. Był pijany",
+   "url": "https://tvn24.pl/tvnwarszawa/okolice/zyrardow-potracil-psa-na-przejsciu-dla-pieszych-byl-pijany-zostal-zatrzymany-st9349562?source=rss",
+   "opublikowano": "2026-11-20T14:13:11Z",
+   "opublikowano_surowe": "Fri, 20 Nov 2026 14:13:11 GMT",
+   "streszczenie": "Prawie promil alkoholu w organizmie miał 65-letni kierowca Renault. Jak ustaliła policja, na oznakowanym przejściu dla pieszych potrącił psa prowadzonego przez właściciela. Mężczyzna został zatrzymany i stracił prawo jazdy."
+  },
+  {
+   "zrodlo": "TVN Warszawa",
+   "kategoria": "NEWS",
+   "region": "warsaw",
+   "tytul": "Groził maczetą podróżującej rodzinie. Ruszył na świadków zdarzenia",
+   "url": "https://tvn24.pl/tvnwarszawa/bialoleka/warszawa-doprowadzil-do-kolizji-grozil-maczeta-podrozujacej-rodzinie-i-swiadkom-zdarzenia-zostal-zatrzymany-st9349064?source=rss",
+   "opublikowano": "2026-11-20T12:53:08Z",
+   "opublikowano_surowe": "Fri, 20 Nov 2026 12:53:08 GMT",
+   "streszczenie": "Niebezpieczna sytuacja na Białołęce. Agresywny kierowca Toyoty najpierw doprowadził do kolizji z BMW, a potem zastraszył maczetą rodzinę podróżującą tym samochodem i osoby, które stanęły w jej obronie. Uciekł. Gdy został zatrzymany, miał przy sobie narkotyki."
   },
   {
    "zrodlo": "RMF24 Warszawa",
@@ -3092,11 +3390,11 @@
    "zrodlo": "The Verge",
    "kategoria": "Tech",
    "region": "world",
-   "tytul": "Here are the Apple deals actually worth picking up ahead of Black Friday",
-   "url": "https://www.theverge.com/gadgets/1035460/best-early-black-friday-apple-deals-2026",
-   "opublikowano": "2026-11-20T17:33:59Z",
-   "opublikowano_surowe": "2026-11-20T12:33:59-05:00",
-   "streszczenie": "A new pair of AirPods or the latest Apple Watch can make a great holiday gift, but they can also take a pretty big dent out of your budget. That’s especially true this year, as rising hardware prices have made MacBooks and other Apple devices even more expensive. Fortunately, Black Friday offers a chance to […]"
+   "tytul": "Chess.com’s next move is a new hub for classic games, from mahjong to sudoku",
+   "url": "https://www.theverge.com/games/1038099/chess-classic-games-expansion-ai",
+   "opublikowano": "2026-11-19T23:04:02Z",
+   "opublikowano_surowe": "2026-11-19T18:04:02-05:00",
+   "streszczenie": "Chess.com is ready to go a lot bigger than chess. After launching Gambit, a gambling-free poker site, earlier this year, the company is now adding 10 more games: backgammon, checkers, go, hearts, mahjong, shogi, sudoku, solitaire, xiangqi, and a Scrabble alternative called word. They're all part of Chess's new Classic Games platform, which is launching […]"
   },
   {
    "zrodlo": "BBC Technology",

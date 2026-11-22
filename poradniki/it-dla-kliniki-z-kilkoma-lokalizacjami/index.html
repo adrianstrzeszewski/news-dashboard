@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IT dla kliniki z kilkoma lokalizacjami – koszty, sieć i wspólne SLA | Poradniki ITSPACE</title>
+<meta name="description" content="Jak liczyć koszt obsługi IT kliniki z kilkoma lokalizacjami: jeden pakiet, 490 zł za kolejną lokalizację, VPN między oddziałami, wspólne SLA i typowe błędy.">
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+<link rel="canonical" href="https://news.itspace.com.pl/poradniki/it-dla-kliniki-z-kilkoma-lokalizacjami/">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="ITSPACE">
+<meta property="og:title" content="IT dla kliniki z kilkoma lokalizacjami – koszty, sieć i wspólne SLA">
+<meta property="og:description" content="Jak liczyć koszt obsługi IT kliniki z kilkoma lokalizacjami: jeden pakiet, 490 zł za kolejną lokalizację, VPN między oddziałami, wspólne SLA i typowe błędy.">
+<meta property="og:url" content="https://news.itspace.com.pl/poradniki/it-dla-kliniki-z-kilkoma-lokalizacjami/">
+<meta property="og:locale" content="pl_PL">
+<meta name="twitter:card" content="summary">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","headline":"IT dla kliniki z kilkoma lokalizacjami – koszty, sieć i wspólne SLA","description":"Jak liczyć koszt obsługi IT kliniki z kilkoma lokalizacjami: jeden pakiet, 490 zł za kolejną lokalizację, VPN między oddziałami, wspólne SLA i typowe błędy.","datePublished":"2026-11-22","dateModified":"2026-11-22","author":{"@type":"Person","name":"Adrian Strzeszewski","url":"https://itspace.com.pl/"},"publisher":{"@type":"Organization","name":"ITSPACE","url":"https://itspace.com.pl/"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://news.itspace.com.pl/poradniki/it-dla-kliniki-z-kilkoma-lokalizacjami/"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"ITSPACE","item":"https://itspace.com.pl/"},{"@type":"ListItem","position":2,"name":"Poradniki","item":"https://news.itspace.com.pl/poradniki/"},{"@type":"ListItem","position":3,"name":"IT dla kliniki z kilkoma lokalizacjami – koszty, sieć i wspólne SLA","item":"https://news.itspace.com.pl/poradniki/it-dla-kliniki-z-kilkoma-lokalizacjami/"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Czy każda lokalizacja potrzebuje osobnej umowy na obsługę IT?","acceptedAnswer":{"@type":"Answer","text":"Nie. W cenniku ITSPACE na 2027 rok komputery ze wszystkich lokalizacji sumuje się i dobiera jeden pakiet dla całej organizacji. Za każdą kolejną lokalizację dochodzi 490 zł netto miesięcznie, a czas reakcji jest wspólny dla wszystkich adresów."}},{"@type":"Question","name":"Ile kosztuje dołączenie drugiego gabinetu do obsługi IT?","acceptedAnswer":{"@type":"Answer","text":"Miesięcznie 490 zł netto ponad cenę pakietu. Jednorazowo: włączenie lokalizacji do obsługi od 1 500 zł oraz bezpieczne połączenie z centralą (VPN) od 1 500 zł plus sprzęt. Jeśli łączna liczba komputerów przekroczy próg pakietu, zmienia się też cena bazowa."}},{"@type":"Question","name":"Czy oddziały muszą być połączone VPN-em?","acceptedAnswer":{"@type":"Answer","text":"Jeśli pracują na wspólnej bazie pacjentów, która stoi na serwerze w jednej z lokalizacji – tak, to bezpieczny sposób połączenia. Gdy program gabinetowy działa w chmurze dostawcy, VPN bywa zbędny, ale nadal przydaje się do wspólnych plików i zdalnej administracji."}},{"@type":"Question","name":"Czy czas reakcji jest taki sam w każdej lokalizacji?","acceptedAnswer":{"@type":"Answer","text":"Tak. SLA wynika z pakietu i obowiązuje całą organizację: w PRO to do 4 godzin roboczych przy awarii krytycznej, w VIP do 2 godzin. Chodzi o czas rozpoczęcia obsługi zgłoszenia w godzinach 8–18 od poniedziałku do piątku, a nie o gwarantowany czas naprawy."}},{"@type":"Question","name":"Co, jeśli klinika ma łącznie ponad 20 komputerów?","acceptedAnswer":{"@type":"Answer","text":"Od 21 do 50 komputerów cena to stawka pakietu dla 13–20 komputerów plus opłata za każdy komputer ponad 20: 120 zł w START, 150 zł w BIZNES, 180 zł w PRO i 220 zł w VIP. Powyżej 50 komputerów ITSPACE przygotowuje wycenę indywidualną."}}]}]}</script>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: #0d0d0f; color: #cbd5e1; font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; line-height: 1.75; }
+  .topbar { display: flex; justify-content: space-between; align-items: center; padding: 20px 24px; border-bottom: 1px solid rgba(212,175,55,0.25); flex-wrap: wrap; gap: 10px; }
+  .logo { color: #fff; text-decoration: none; font-weight: 700; letter-spacing: 4px; font-size: 18px; }
+  .logo span { color: #d4af37; }
+  .topbar nav { display: flex; gap: 16px; flex-wrap: wrap; }
+  .topbar nav a { color: #cbd5e1; text-decoration: none; font-size: 14px; }
+  .topbar nav a:hover { color: #f3dc8a; }
+  .pill { border: 1px solid rgba(212,175,55,0.55); padding: 6px 14px; border-radius: 50px; color: #f3dc8a !important; font-weight: 600; }
+  main { max-width: 860px; margin: 0 auto; padding: 48px 24px 32px; }
+  .crumbs { font-size: 13px; color: #708090; margin-bottom: 22px; }
+  .crumbs a { color: #96a1aa; text-decoration: none; }
+  h1 { color: #fff; font-size: clamp(26px, 4vw, 38px); line-height: 1.25; margin-bottom: 14px; }
+  .meta-line { font-size: 13px; color: #708090; margin-bottom: 28px; }
+  .snippet { background: rgba(212,175,55,0.08); border-left: 3px solid #d4af37; padding: 18px 22px; border-radius: 0 10px 10px 0; margin-bottom: 34px; color: #e8e2d0; font-size: 17px; }
+  h2 { color: #f3dc8a; font-size: 22px; margin: 38px 0 14px; }
+  h3 { color: #e8e2d0; font-size: 17px; margin: 24px 0 10px; }
+  p { margin-bottom: 16px; }
+  ul, ol { margin: 0 0 18px 22px; }
+  li { margin-bottom: 8px; }
+  strong { color: #e8e2d0; }
+  a { color: #d4af37; }
+  .faq { margin-top: 44px; border-top: 1px solid rgba(212,175,55,0.25); padding-top: 8px; }
+  .faq h2 { margin-top: 26px; }
+  .faq h3 { color: #f3dc8a; }
+  .cta { margin: 48px 0 8px; background: linear-gradient(135deg, rgba(212,175,55,0.14), rgba(212,175,55,0.05)); border: 1px solid rgba(212,175,55,0.4); border-radius: 14px; padding: 26px; text-align: center; }
+  .cta p { color: #e8e2d0; margin-bottom: 14px; }
+  .cta a.btn { display: inline-block; background: linear-gradient(135deg, #d4af37, #b8962e); color: #14120a; font-weight: 700; padding: 12px 28px; border-radius: 50px; text-decoration: none; margin: 4px; }
+  .cta a.tel { display: inline-block; color: #f3dc8a; padding: 12px 10px; }
+  footer { border-top: 1px solid rgba(212,175,55,0.25); margin-top: 40px; padding: 26px 24px; text-align: center; font-size: 13px; color: #708090; }
+  footer a { color: #96a1aa; }
+</style>
+</head>
+<body>
+<header class="topbar">
+  <a class="logo" href="https://itspace.com.pl/">IT<span>SPACE</span></a>
+  <nav>
+    <a href="https://itspace.com.pl/">Strona główna</a>
+    <a href="https://news.itspace.com.pl/poradniki/">Poradniki</a>
+    <a class="pill" href="https://news.itspace.com.pl" target="_blank" rel="noopener">📰 News</a>
+  </nav>
+</header>
+<main>
+  <div class="crumbs"><a href="https://itspace.com.pl/">ITSPACE</a> › <a href="https://news.itspace.com.pl/poradniki/">Poradniki</a> › IT dla kliniki z kilkoma lokalizacjami – koszty, sieć i wspólne SLA</div>
+  <h1>IT dla kliniki z kilkoma lokalizacjami – koszty, sieć i wspólne SLA</h1>
+  <div class="meta-line">Adrian Strzeszewski · opublikowano 22 listopada 2026 · Aktualizacja: 22 listopada 2026</div>
+  <div class="snippet">Klinika z dwiema lub trzema lokalizacjami nie potrzebuje osobnej umowy IT na każdy adres. W cenniku ITSPACE na 2027 rok komputery ze wszystkich lokalizacji sumuje się i dobiera jeden pakiet, a każda kolejna lokalizacja to dopłata 490 zł netto miesięcznie. Do tego dochodzą koszty jednorazowe: włączenie lokalizacji do obsługi od 1 500 zł oraz bezpieczne połączenie oddziałów (VPN) od 1 500 zł plus sprzęt. Czas reakcji jest wspólny dla całej organizacji.</div>
+  <h2>Jak liczyć koszt obsługi IT przy kilku lokalizacjach?</h2>
+<p>Zasada jest prosta. Liczysz komputery we wszystkich lokalizacjach razem i na tej podstawie wybierasz <strong>jeden pakiet dla całej organizacji</strong> – w przedziale 1–5, 6–12 albo 13–20 komputerów. Nie płacisz dwóch abonamentów za dwa adresy. Płacisz jeden, powiększony o stałą dopłatę za każdą kolejną lokalizację.</p>
+<p>Dla placówek z dokumentacją elektroniczną, serwerem i radiografią przeznaczony jest pakiet PRO. Obejmuje administrację jednego serwera, kontrolę kopii zapasowych z kwartalnym testem odtworzenia oraz wsparcie infrastruktury programów gabinetowych, RTG i skanerów. Poniżej pozycje, z których składa się rachunek:</p>
+<table style="width:100%;border-collapse:collapse;margin:0 0 18px;font-size:15px">
+<tr><th style="padding:8px 10px;border-bottom:1px solid rgba(212,175,55,0.45);text-align:left;color:#f3dc8a">Pozycja</th><th style="padding:8px 10px;border-bottom:1px solid rgba(212,175,55,0.45);text-align:left;color:#f3dc8a">Cena netto</th></tr>
+<tr><td style="padding:8px 10px;border-bottom:1px solid rgba(212,175,55,0.2);vertical-align:top">Pakiet PRO dla 1–5 / 6–12 / 13–20 komputerów</td><td style="padding:8px 10px;border-bottom:1px solid rgba(212,175,55,0.2);vertical-align:top">2 490 / 3 290 / 4 990 zł miesięcznie</td></tr>
+<tr><td style="padding:8px 10px;border-bottom:1px solid rgba(212,175,55,0.2);vertical-align:top">Każda kolejna lokalizacja: administracja sieci i łącza, monitoring routera i połączenia z centralą, dokumentacja, dodatkowa godzina w puli</td><td style="padding:8px 10px;border-bottom:1px solid rgba(212,175,55,0.2);vertical-align:top">490 zł miesięcznie</td></tr>
+<tr><td style="padding:8px 10px;border-bottom:1px solid rgba(212,175,55,0.2);vertical-align:top">Włączenie nowej lokalizacji do obsługi: inwentaryzacja, dokumentacja sieci, konta i uprawnienia</td><td style="padding:8px 10px;border-bottom:1px solid rgba(212,175,55,0.2);vertical-align:top">od 1 500 zł jednorazowo</td></tr>
+<tr><td style="padding:8px 10px;border-bottom:1px solid rgba(212,175,55,0.2);vertical-align:top">Bezpieczne połączenie lokalizacji (VPN)</td><td style="padding:8px 10px;border-bottom:1px solid rgba(212,175,55,0.2);vertical-align:top">od 1 500 zł + sprzęt</td></tr>
+<tr><td style="padding:8px 10px;border-bottom:1px solid rgba(212,175,55,0.2);vertical-align:top">Administracja serwerem w kolejnej lokalizacji</td><td style="padding:8px 10px;border-bottom:1px solid rgba(212,175,55,0.2);vertical-align:top">450 zł miesięcznie</td></tr>
+<tr><td style="padding:8px 10px;border-bottom:1px solid rgba(212,175,55,0.2);vertical-align:top">Każdy komputer ponad 20 w pakiecie PRO</td><td style="padding:8px 10px;border-bottom:1px solid rgba(212,175,55,0.2);vertical-align:top">180 zł miesięcznie</td></tr>
+</table>
+<p>Ceny są cenami netto i obowiązują od 1 stycznia 2027 r. Pozostałe pakiety (START, BIZNES, VIP) i pełne warunki znajdziesz w <a href="https://itspace.com.pl/cennik/">cenniku ITSPACE</a>. O tym, co wchodzi w skład abonamentu, piszemy osobno w poradniku <a href="../ile-kosztuje-obsluga-it-gabinetu/">ile kosztuje obsługa informatyczna gabinetu</a>.</p>
+<h2>Ile to wyjdzie w praktyce? Dwa przykłady</h2>
+<p><strong>Dwa gabinety, razem 11 komputerów i jeden serwer.</strong> Pakiet PRO dla 6–12 komputerów kosztuje 3 290 zł, druga lokalizacja 490 zł. Razem <strong>3 780 zł netto miesięcznie</strong>. Jednorazowo dochodzi włączenie drugiej lokalizacji (od 1 500 zł) i VPN (od 1 500 zł plus sprzęt).</p>
+<p><strong>Trzy lokalizacje, razem 24 komputery.</strong> Tu liczba komputerów przekracza 20, więc do ceny bazowej PRO (4 990 zł) dochodzą cztery komputery po 180 zł, czyli 720 zł, oraz dwie dodatkowe lokalizacje po 490 zł, czyli 980 zł. Razem 6 690 zł netto miesięcznie. To wyliczenie według cennika – ostateczną kwotę i liczbę godzin w puli potwierdza oferta. Powyżej 50 komputerów wycena jest indywidualna.</p>
+<h2>Sieć i VPN: jak połączyć oddziały?</h2>
+<p>VPN to szyfrowany tunel między routerami w poszczególnych lokalizacjach. Dzięki niemu recepcja w oddziale pracuje na tej samej bazie pacjentów co centrala, a dane nie wędrują przez internet otwartym tekstem. Żeby to działało stabilnie, potrzebne są trzy rzeczy:</p>
+<ul>
+<li><strong>router klasy biznesowej w każdej lokalizacji</strong> – domowe urządzenie od operatora zwykle nie utrzyma stałego tunelu i nie pozwoli rozdzielić sieci;</li>
+<li><strong>stabilne łącze</strong>, a w centrali najlepiej także zapasowe – gdy internet w centrali padnie, oddziały tracą dostęp do serwera;</li>
+<li><strong>ten sam układ sieci wszędzie</strong>: osobno komputery gabinetowe, osobno urządzenia diagnostyczne, osobno Wi-Fi dla pacjentów. Jak to zrobić, opisujemy w poradniku <a href="../wifi-w-gabinecie/">Wi-Fi w gabinecie</a>.</li>
+</ul>
+<p>Jednej rzeczy nie rób nigdy: nie wystawiaj serwera ani pulpitu zdalnego bezpośrednio do internetu „na chwilę, żeby oddział mógł się połączyć”.</p>
+<h2>Serwer centralny czy chmura?</h2>
+<p>Są trzy układy. Pierwszy: jeden serwer w centrali, a oddziały łączą się z nim przez VPN. Masz jedną bazę i jedną kopię zapasową, ale wszystko zależy od łącza i zasilania w jednym miejscu. Drugi: program gabinetowy w chmurze dostawcy. Każda lokalizacja potrzebuje wtedy tylko internetu, a VPN bywa zbędny. Trzeci, mieszany: program w chmurze, a duże pliki z tomografu i RTG zostają lokalnie, bo ich przesyłanie między oddziałami trwa.</p>
+<p>Wybór zależy od programu, z którego korzystasz, i od tego, gdzie stoi sprzęt diagnostyczny. Argumenty za każdą opcją zebraliśmy w poradniku <a href="../chmura-czy-serwer-lokalny/">chmura czy serwer lokalny</a>. Niezależnie od wariantu kopia zapasowa powinna obejmować dane ze wszystkich lokalizacji i mieć egzemplarz poza budynkiem.</p>
+<h2>Co oznacza wspólne SLA?</h2>
+<p>SLA to zapisany w umowie czas reakcji. W pakiecie PRO przy awarii krytycznej wynosi do 4 godzin roboczych, w VIP do 2, w BIZNES do 6, w START do 8 – liczone od poniedziałku do piątku w godzinach 8–18. To czas rozpoczęcia obsługi zgłoszenia, a nie gwarancja naprawy.</p>
+<p>Wspólne SLA znaczy tyle, że awaria w najmniejszym oddziale ma ten sam priorytet co awaria w centrali. Jest jeden numer do zgłoszeń, jedna dokumentacja i jeden standard kont.</p>
+<h2>Dojazdy i wizyty technika</h2>
+<p>Większość zgłoszeń da się załatwić zdalnie. Przyjazd technika zawarty w pakietach BIZNES, PRO i VIP przysługuje raz w miesiącu <strong>na całą organizację</strong>, nie na każdy adres. Kolejne wizyty rozliczane są z puli godzin. Dojazd do 15 km od siedziby ITSPACE jest w cenie wizyty, dalej obowiązuje stawka 2,50 zł za kilometr.</p>
+<h2>Typowe błędy przy otwieraniu kolejnej lokalizacji</h2>
+<ul>
+<li><strong>IT na samym końcu.</strong> Internet zamówiony tydzień przed otwarciem, gniazda sieciowe w złych miejscach, brak miejsca na szafkę z routerem. Obsługa IT przy otwarciu placówki kosztuje od 2 500 zł plus sprzęt i najlepiej zacząć ją na etapie projektu wnętrz.</li>
+<li><strong>Dwie osobne bazy pacjentów.</strong> Po roku nikt nie wie, która karta jest aktualna.</li>
+<li><strong>Wspólne hasła.</strong> Jedno konto „recepcja” na trzy adresy oznacza, że nie ustalisz, kto i gdzie coś zmienił.</li>
+<li><strong>Kopia zapasowa tylko w centrali</strong> – i przekonanie, że oddział „jakoś się zabezpiecza sam”.</li>
+<li><strong>Brak dokumentacji.</strong> Hasło do routera w oddziale zna jedna osoba, która właśnie jest na urlopie.</li>
+</ul>
+  <section class="faq">
+    <h2>Najczęstsze pytania</h2>
+    <h3>Czy każda lokalizacja potrzebuje osobnej umowy na obsługę IT?</h3>
+    <p>Nie. W cenniku ITSPACE na 2027 rok komputery ze wszystkich lokalizacji sumuje się i dobiera jeden pakiet dla całej organizacji. Za każdą kolejną lokalizację dochodzi 490 zł netto miesięcznie, a czas reakcji jest wspólny dla wszystkich adresów.</p>
+    <h3>Ile kosztuje dołączenie drugiego gabinetu do obsługi IT?</h3>
+    <p>Miesięcznie 490 zł netto ponad cenę pakietu. Jednorazowo: włączenie lokalizacji do obsługi od 1 500 zł oraz bezpieczne połączenie z centralą (VPN) od 1 500 zł plus sprzęt. Jeśli łączna liczba komputerów przekroczy próg pakietu, zmienia się też cena bazowa.</p>
+    <h3>Czy oddziały muszą być połączone VPN-em?</h3>
+    <p>Jeśli pracują na wspólnej bazie pacjentów, która stoi na serwerze w jednej z lokalizacji – tak, to bezpieczny sposób połączenia. Gdy program gabinetowy działa w chmurze dostawcy, VPN bywa zbędny, ale nadal przydaje się do wspólnych plików i zdalnej administracji.</p>
+    <h3>Czy czas reakcji jest taki sam w każdej lokalizacji?</h3>
+    <p>Tak. SLA wynika z pakietu i obowiązuje całą organizację: w PRO to do 4 godzin roboczych przy awarii krytycznej, w VIP do 2 godzin. Chodzi o czas rozpoczęcia obsługi zgłoszenia w godzinach 8–18 od poniedziałku do piątku, a nie o gwarantowany czas naprawy.</p>
+    <h3>Co, jeśli klinika ma łącznie ponad 20 komputerów?</h3>
+    <p>Od 21 do 50 komputerów cena to stawka pakietu dla 13–20 komputerów plus opłata za każdy komputer ponad 20: 120 zł w START, 150 zł w BIZNES, 180 zł w PRO i 220 zł w VIP. Powyżej 50 komputerów ITSPACE przygotowuje wycenę indywidualną.</p>
+  </section>
+  <div class="cta">
+    <p><strong>Potrzebujesz wsparcia IT w swoim gabinecie lub klinice?</strong><br>Obsługujemy placówki stomatologiczne i medycyny estetycznej w Warszawie i okolicach.</p>
+    <a class="btn" href="tel:+48531330080">📞 531 330 080</a>
+    <a class="tel" href="mailto:kontakt@itspace.com.pl">kontakt@itspace.com.pl</a>
+  </div>
+</main>
+<footer>© ITSPACE — obsługa informatyczna gabinetów stomatologicznych i klinik medycyny estetycznej · <a href="https://itspace.com.pl/">itspace.com.pl</a> · <a href="https://news.itspace.com.pl">news.itspace.com.pl</a> · <a href="https://itspace.com.pl/regulamin/">Regulamin</a> · <a href="https://itspace.com.pl/polityka-prywatnosci/">Polityka prywatności</a></footer>
+<!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "9fe320efc6424ca382dcd5f9bd87bc0c"}'></script><!-- End Cloudflare Web Analytics -->
+</body>
+</html>

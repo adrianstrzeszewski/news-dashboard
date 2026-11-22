@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Czat AI na stronie kliniki – co potrafi, ile kosztuje i jak go zabezpieczyć | Poradniki ITSPACE</title>
+<meta name="description" content="Czat AI na stronie kliniki: na jakie pytania odpowiada, czego nie powinien robić, jakie zabezpieczenia są potrzebne i ile kosztuje wdrożenie oraz utrzymanie.">
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+<link rel="canonical" href="https://news.itspace.com.pl/poradniki/czat-ai-na-stronie-kliniki/">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="ITSPACE">
+<meta property="og:title" content="Czat AI na stronie kliniki – co potrafi, ile kosztuje i jak go zabezpieczyć">
+<meta property="og:description" content="Czat AI na stronie kliniki: na jakie pytania odpowiada, czego nie powinien robić, jakie zabezpieczenia są potrzebne i ile kosztuje wdrożenie oraz utrzymanie.">
+<meta property="og:url" content="https://news.itspace.com.pl/poradniki/czat-ai-na-stronie-kliniki/">
+<meta property="og:locale" content="pl_PL">
+<meta name="twitter:card" content="summary">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","headline":"Czat AI na stronie kliniki – co potrafi, ile kosztuje i jak go zabezpieczyć","description":"Czat AI na stronie kliniki: na jakie pytania odpowiada, czego nie powinien robić, jakie zabezpieczenia są potrzebne i ile kosztuje wdrożenie oraz utrzymanie.","datePublished":"2026-11-22","dateModified":"2026-11-22","author":{"@type":"Person","name":"Adrian Strzeszewski","url":"https://itspace.com.pl/"},"publisher":{"@type":"Organization","name":"ITSPACE","url":"https://itspace.com.pl/"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://news.itspace.com.pl/poradniki/czat-ai-na-stronie-kliniki/"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"ITSPACE","item":"https://itspace.com.pl/"},{"@type":"ListItem","position":2,"name":"Poradniki","item":"https://news.itspace.com.pl/poradniki/"},{"@type":"ListItem","position":3,"name":"Czat AI na stronie kliniki – co potrafi, ile kosztuje i jak go zabezpieczyć","item":"https://news.itspace.com.pl/poradniki/czat-ai-na-stronie-kliniki/"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Ile kosztuje czat AI na stronie kliniki?","acceptedAnswer":{"@type":"Answer","text":"W ITSPACE wdrożenie kosztuje od 4 900 zł netto i obejmuje bazę wiedzy, zabezpieczenia, oznaczenie AI oraz testy. Utrzymanie to od 390 zł netto miesięcznie: monitoring, aktualizacja wiedzy raz w miesiącu i koszty modelu AI do uzgodnionego limitu."}},{"@type":"Question","name":"Czy czat AI może umawiać wizyty?","acceptedAnswer":{"@type":"Answer","text":"W podstawowej wersji kieruje do rejestracji: podaje telefon, link do rezerwacji online lub formularz. Samodzielne zapisywanie wizyt wymaga integracji z programem gabinetowym i jest osobnym projektem, wycenianym indywidualnie."}},{"@type":"Question","name":"Czy czat AI może odpowiadać na pytania medyczne?","acceptedAnswer":{"@type":"Answer","text":"Nie powinien. Czat informuje o sprawach organizacyjnych i ofercie, a pytania o objawy, leczenie i powikłania odsyła do rejestracji lub lekarza. Nie stawia diagnoz i nie zbiera danych o zdrowiu."}},{"@type":"Question","name":"Co się dzieje, gdy pacjent wpisze do czatu PESEL?","acceptedAnswer":{"@type":"Answer","text":"W dobrze zabezpieczonym czacie wiadomość rozpoznana jako numer PESEL lub hasło jest blokowana i nie trafia do modelu AI. Dodatkowo treść rozmów nie jest zapisywana, a przy okienku widnieje prośba, by nie podawać danych o zdrowiu."}},{"@type":"Question","name":"Czy trzeba informować pacjenta, że rozmawia z AI?","acceptedAnswer":{"@type":"Answer","text":"Tak. Informacja powinna być widoczna od początku rozmowy, a czat nie powinien udawać pracownika rejestracji. Wynika to z obowiązków przejrzystości w AI Act i ze zwykłej uczciwości wobec pacjenta."}}]}]}</script>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: #0d0d0f; color: #cbd5e1; font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; line-height: 1.75; }
+  .topbar { display: flex; justify-content: space-between; align-items: center; padding: 20px 24px; border-bottom: 1px solid rgba(212,175,55,0.25); flex-wrap: wrap; gap: 10px; }
+  .logo { color: #fff; text-decoration: none; font-weight: 700; letter-spacing: 4px; font-size: 18px; }
+  .logo span { color: #d4af37; }
+  .topbar nav { display: flex; gap: 16px; flex-wrap: wrap; }
+  .topbar nav a { color: #cbd5e1; text-decoration: none; font-size: 14px; }
+  .topbar nav a:hover { color: #f3dc8a; }
+  .pill { border: 1px solid rgba(212,175,55,0.55); padding: 6px 14px; border-radius: 50px; color: #f3dc8a !important; font-weight: 600; }
+  main { max-width: 860px; margin: 0 auto; padding: 48px 24px 32px; }
+  .crumbs { font-size: 13px; color: #708090; margin-bottom: 22px; }
+  .crumbs a { color: #96a1aa; text-decoration: none; }
+  h1 { color: #fff; font-size: clamp(26px, 4vw, 38px); line-height: 1.25; margin-bottom: 14px; }
+  .meta-line { font-size: 13px; color: #708090; margin-bottom: 28px; }
+  .snippet { background: rgba(212,175,55,0.08); border-left: 3px solid #d4af37; padding: 18px 22px; border-radius: 0 10px 10px 0; margin-bottom: 34px; color: #e8e2d0; font-size: 17px; }
+  h2 { color: #f3dc8a; font-size: 22px; margin: 38px 0 14px; }
+  h3 { color: #e8e2d0; font-size: 17px; margin: 24px 0 10px; }
+  p { margin-bottom: 16px; }
+  ul, ol { margin: 0 0 18px 22px; }
+  li { margin-bottom: 8px; }
+  strong { color: #e8e2d0; }
+  a { color: #d4af37; }
+  .faq { margin-top: 44px; border-top: 1px solid rgba(212,175,55,0.25); padding-top: 8px; }
+  .faq h2 { margin-top: 26px; }
+  .faq h3 { color: #f3dc8a; }
+  .cta { margin: 48px 0 8px; background: linear-gradient(135deg, rgba(212,175,55,0.14), rgba(212,175,55,0.05)); border: 1px solid rgba(212,175,55,0.4); border-radius: 14px; padding: 26px; text-align: center; }
+  .cta p { color: #e8e2d0; margin-bottom: 14px; }
+  .cta a.btn { display: inline-block; background: linear-gradient(135deg, #d4af37, #b8962e); color: #14120a; font-weight: 700; padding: 12px 28px; border-radius: 50px; text-decoration: none; margin: 4px; }
+  .cta a.tel { display: inline-block; color: #f3dc8a; padding: 12px 10px; }
+  footer { border-top: 1px solid rgba(212,175,55,0.25); margin-top: 40px; padding: 26px 24px; text-align: center; font-size: 13px; color: #708090; }
+  footer a { color: #96a1aa; }
+</style>
+</head>
+<body>
+<header class="topbar">
+  <a class="logo" href="https://itspace.com.pl/">IT<span>SPACE</span></a>
+  <nav>
+    <a href="https://itspace.com.pl/">Strona główna</a>
+    <a href="https://news.itspace.com.pl/poradniki/">Poradniki</a>
+    <a class="pill" href="https://news.itspace.com.pl" target="_blank" rel="noopener">📰 News</a>
+  </nav>
+</header>
+<main>
+  <div class="crumbs"><a href="https://itspace.com.pl/">ITSPACE</a> › <a href="https://news.itspace.com.pl/poradniki/">Poradniki</a> › Czat AI na stronie kliniki – co potrafi, ile kosztuje i jak go zabezpieczyć</div>
+  <h1>Czat AI na stronie kliniki – co potrafi, ile kosztuje i jak go zabezpieczyć</h1>
+  <div class="meta-line">Adrian Strzeszewski · opublikowano 22 listopada 2026 · Aktualizacja: 22 listopada 2026</div>
+  <div class="snippet">Czat AI na stronie kliniki odpowiada o każdej porze na powtarzalne pytania: o godziny otwarcia, dojazd, przygotowanie do wizyty i sposób umówienia terminu. Nie stawia diagnoz i nie zbiera danych o zdrowiu. Dobrze wdrożony informuje, że jest AI, nie zapisuje rozmów, blokuje numery PESEL i hasła oraz ma limity użycia. W ITSPACE wdrożenie kosztuje od 4 900 zł netto, a utrzymanie od 390 zł netto miesięcznie.</div>
+  <h2>Co potrafi czat AI na stronie kliniki?</h2>
+<p>Najlepiej sprawdza się tam, gdzie rejestracja dziesiąty raz dziennie odpowiada na to samo. Pacjent pisze wieczorem, w niedzielę albo w chwili, gdy linia jest zajęta, i dostaje odpowiedź od razu. Typowe tematy:</p>
+<ul>
+<li><strong>godziny i dojazd</strong> – kiedy placówka jest otwarta, gdzie zaparkować, jak trafić z metra, czy jest winda;</li>
+<li><strong>przygotowanie do wizyty</strong> – co zabrać, ile wcześniej przyjść, jakie dokumenty są potrzebne przy pierwszej wizycie;</li>
+<li><strong>oferta</strong> – jakie zabiegi wykonuje placówka, którzy lekarze przyjmują, czy są konsultacje online;</li>
+<li><strong>sprawy organizacyjne</strong> – formy płatności, zasady odwoływania wizyt, raty;</li>
+<li><strong>kierowanie do rejestracji</strong> – numer telefonu, link do rezerwacji online, formularz kontaktowy.</li>
+</ul>
+<p>Czat nie zastępuje rejestracji. Zdejmuje z niej pytania, na które odpowiedź i tak jest na stronie, tylko trudno ją znaleźć.</p>
+<h2>Czego czat nie powinien robić?</h2>
+<p>Tu granice muszą być twarde i zapisane w konfiguracji, a nie w dobrych intencjach.</p>
+<ul>
+<li><strong>Żadnych diagnoz i porad medycznych.</strong> Na pytanie „boli mnie ząb po ekstrakcji, czy to normalne?” czat odpowiada jednym zdaniem: zadzwoń do rejestracji, a w nagłym przypadku skorzystaj z pomocy doraźnej.</li>
+<li><strong>Żadnego zbierania danych o zdrowiu.</strong> Czat nie pyta o objawy, choroby ani leki i nie prosi o zdjęcia.</li>
+<li><strong>Żadnych obietnic.</strong> Nie gwarantuje efektów zabiegu, nie potwierdza terminu, którego nie widzi w kalendarzu, nie negocjuje cen.</li>
+<li><strong>Żadnego zgadywania.</strong> Jeśli odpowiedzi nie ma w bazie wiedzy, mówi to wprost i podaje kontakt.</li>
+</ul>
+<h2>Jakie zabezpieczenia są potrzebne?</h2>
+<p>Czat na stronie placówki medycznej to nie zabawka marketingowa. Pacjenci wpisują w takie okienka wszystko, także to, czego nie powinni. Dlatego przed uruchomieniem sprawdź pięć rzeczy:</p>
+<ol>
+<li><strong>Informacja, że to AI.</strong> Widoczna od pierwszej wiadomości, bez udawania pracownika. Wynika to z dobrych obyczajów i z obowiązków przejrzystości, o których piszemy w poradniku <a href="../ai-act-w-gabinecie/">AI Act w gabinecie</a>.</li>
+<li><strong>Brak zapisu rozmów.</strong> Treść rozmów nie powinna trafiać do bazy na serwerze strony. Do oceny działania wystarczą liczniki: ile było rozmów i ile pytań zostało bez odpowiedzi.</li>
+<li><strong>Blokada numerów PESEL i haseł.</strong> Wiadomość, która wygląda na PESEL, numer karty czy hasło, jest zatrzymywana, zanim trafi do modelu AI. Obok okienka stoi prośba, by nie wpisywać danych o zdrowiu.</li>
+<li><strong>Limity.</strong> Długość wiadomości, liczba pytań z jednego adresu i miesięczny budżet na model AI. Bez nich jeden automat potrafi w nocy wygenerować rachunek, którego nikt nie planował.</li>
+<li><strong>Zamknięta baza wiedzy.</strong> Czat odpowiada wyłącznie na podstawie treści zatwierdzonych przez placówkę, a nie tego, co model „wie” z internetu.</li>
+</ol>
+<p>Dochodzi strona formalna: wzmianka o czacie w polityce prywatności i umowa z dostawcą modelu AI. To elementy tej samej układanki co reszta ochrony danych – patrz <a href="../rodo-w-gabinecie-checklista-it/">checklista RODO dla gabinetu</a>.</p>
+<h2>Skąd czat bierze wiedzę?</h2>
+<p>Z bazy wiedzy, czyli zestawu tekstów przygotowanych specjalnie dla niego: godziny, adresy, opis oferty, zasady wizyt, odpowiedzi na częste pytania. Im konkretniejsze teksty, tym lepsze odpowiedzi. Największym wrogiem czatu nie jest technologia, tylko nieaktualna treść. Stary cennik albo lekarz, który już nie przyjmuje, robią gorsze wrażenie niż brak czatu. Dlatego ustal, kto w placówce zgłasza zmiany i jak często baza jest przeglądana.</p>
+<h2>Ile kosztuje czat AI na stronie?</h2>
+<p>W <a href="https://itspace.com.pl/cennik/">cenniku ITSPACE</a> na 2027 rok ceny netto wyglądają tak:</p>
+<ul>
+<li><strong>wdrożenie – od 4 900 zł</strong>: baza wiedzy, zabezpieczenia (blokada numerów PESEL i haseł), oznaczenie AI, testy;</li>
+<li><strong>utrzymanie – od 390 zł miesięcznie</strong>: monitoring, aktualizacja wiedzy raz w miesiącu, koszty modelu AI do uzgodnionego limitu.</li>
+</ul>
+<p>Cena rośnie wraz z liczbą lokalizacji, języków i zakresem bazy wiedzy. Opłaty za użycie modelu ponad uzgodniony limit rozliczane są osobno. Zakres, termin i kwotę potwierdza oferta przed rozpoczęciem prac.</p>
+<h2>Jak wygląda wdrożenie krok po kroku?</h2>
+<ol>
+<li><strong>Lista pytań.</strong> Rejestracja przez tydzień zapisuje, o co pacjenci pytają najczęściej. To lepszy materiał niż burza mózgów.</li>
+<li><strong>Baza wiedzy.</strong> Odpowiedzi spisane prostym językiem i zatwierdzone przez właściciela lub menedżera.</li>
+<li><strong>Granice.</strong> Lista tematów zakazanych i gotowe formuły odsyłające do rejestracji.</li>
+<li><strong>Zabezpieczenia i oznaczenie.</strong> Blokady, limity, informacja o AI, wpis w polityce prywatności.</li>
+<li><strong>Testy.</strong> Zespół próbuje czat „zepsuć”: pyta o diagnozę, wkleja PESEL, prosi o rabat. Dopiero potem czat trafia na stronę.</li>
+<li><strong>Przegląd po miesiącu.</strong> Jakich odpowiedzi zabrakło i co dopisać do bazy.</li>
+</ol>
+<h2>Przykład: czat na stronie ITSPACE</h2>
+<p>Taki asystent działa na stronie <a href="https://itspace.com.pl/">itspace.com.pl</a> i odpowiada na pytania o usługi oraz cennik. Polityka prywatności serwisu opisuje jego zasady: treści rozmów nie są zapisywane na serwerze, wiadomości rozpoznane jako numer PESEL, numer karty, numer rachunku lub hasło są blokowane, a limity użycia chronią przed nadużyciami. Możesz go wypróbować i ocenić, czy podobne rozwiązanie pasuje do Twojej placówki.</p>
+<h2>Kiedy czat nie ma sensu?</h2>
+<p>Gdy strona jest nieaktualna i nikt nie ma czasu jej poprawiać. Gdy pacjenci prawie nie zadają pytań przez internet. Albo gdy oczekujesz, że czat sam umówi wizytę w programie gabinetowym – to osobny, większy projekt integracyjny. W takich sytuacjach lepiej najpierw uporządkować stronę i rezerwację online.</p>
+  <section class="faq">
+    <h2>Najczęstsze pytania</h2>
+    <h3>Ile kosztuje czat AI na stronie kliniki?</h3>
+    <p>W ITSPACE wdrożenie kosztuje od 4 900 zł netto i obejmuje bazę wiedzy, zabezpieczenia, oznaczenie AI oraz testy. Utrzymanie to od 390 zł netto miesięcznie: monitoring, aktualizacja wiedzy raz w miesiącu i koszty modelu AI do uzgodnionego limitu.</p>
+    <h3>Czy czat AI może umawiać wizyty?</h3>
+    <p>W podstawowej wersji kieruje do rejestracji: podaje telefon, link do rezerwacji online lub formularz. Samodzielne zapisywanie wizyt wymaga integracji z programem gabinetowym i jest osobnym projektem, wycenianym indywidualnie.</p>
+    <h3>Czy czat AI może odpowiadać na pytania medyczne?</h3>
+    <p>Nie powinien. Czat informuje o sprawach organizacyjnych i ofercie, a pytania o objawy, leczenie i powikłania odsyła do rejestracji lub lekarza. Nie stawia diagnoz i nie zbiera danych o zdrowiu.</p>
+    <h3>Co się dzieje, gdy pacjent wpisze do czatu PESEL?</h3>
+    <p>W dobrze zabezpieczonym czacie wiadomość rozpoznana jako numer PESEL lub hasło jest blokowana i nie trafia do modelu AI. Dodatkowo treść rozmów nie jest zapisywana, a przy okienku widnieje prośba, by nie podawać danych o zdrowiu.</p>
+    <h3>Czy trzeba informować pacjenta, że rozmawia z AI?</h3>
+    <p>Tak. Informacja powinna być widoczna od początku rozmowy, a czat nie powinien udawać pracownika rejestracji. Wynika to z obowiązków przejrzystości w AI Act i ze zwykłej uczciwości wobec pacjenta.</p>
+  </section>
+  <div class="cta">
+    <p><strong>Potrzebujesz wsparcia IT w swoim gabinecie lub klinice?</strong><br>Obsługujemy placówki stomatologiczne i medycyny estetycznej w Warszawie i okolicach.</p>
+    <a class="btn" href="tel:+48531330080">📞 531 330 080</a>
+    <a class="tel" href="mailto:kontakt@itspace.com.pl">kontakt@itspace.com.pl</a>
+  </div>
+</main>
+<footer>© ITSPACE — obsługa informatyczna gabinetów stomatologicznych i klinik medycyny estetycznej · <a href="https://itspace.com.pl/">itspace.com.pl</a> · <a href="https://news.itspace.com.pl">news.itspace.com.pl</a> · <a href="https://itspace.com.pl/regulamin/">Regulamin</a> · <a href="https://itspace.com.pl/polityka-prywatnosci/">Polityka prywatności</a></footer>
+<!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "9fe320efc6424ca382dcd5f9bd87bc0c"}'></script><!-- End Cloudflare Web Analytics -->
+</body>
+</html>

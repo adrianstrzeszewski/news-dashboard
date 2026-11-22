@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Czy można używać ChatGPT w gabinecie? Zasady dla danych pacjentów | Poradniki ITSPACE</title>
+<meta name="description" content="ChatGPT w gabinecie: czego nie wpisywać, czym różni się konto prywatne od planu firmowego z umową powierzenia i jak napisać prostą politykę AI.">
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+<link rel="canonical" href="https://news.itspace.com.pl/poradniki/chatgpt-w-gabinecie/">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="ITSPACE">
+<meta property="og:title" content="Czy można używać ChatGPT w gabinecie? Zasady dla danych pacjentów">
+<meta property="og:description" content="ChatGPT w gabinecie: czego nie wpisywać, czym różni się konto prywatne od planu firmowego z umową powierzenia i jak napisać prostą politykę AI.">
+<meta property="og:url" content="https://news.itspace.com.pl/poradniki/chatgpt-w-gabinecie/">
+<meta property="og:locale" content="pl_PL">
+<meta name="twitter:card" content="summary">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","headline":"Czy można używać ChatGPT w gabinecie? Zasady dla danych pacjentów","description":"ChatGPT w gabinecie: czego nie wpisywać, czym różni się konto prywatne od planu firmowego z umową powierzenia i jak napisać prostą politykę AI.","datePublished":"2026-11-22","dateModified":"2026-11-22","author":{"@type":"Person","name":"Adrian Strzeszewski","url":"https://itspace.com.pl/"},"publisher":{"@type":"Organization","name":"ITSPACE","url":"https://itspace.com.pl/"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://news.itspace.com.pl/poradniki/chatgpt-w-gabinecie/"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"ITSPACE","item":"https://itspace.com.pl/"},{"@type":"ListItem","position":2,"name":"Poradniki","item":"https://news.itspace.com.pl/poradniki/"},{"@type":"ListItem","position":3,"name":"Czy można używać ChatGPT w gabinecie? Zasady dla danych pacjentów","item":"https://news.itspace.com.pl/poradniki/chatgpt-w-gabinecie/"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Czy wolno wpisać dane pacjenta do ChatGPT?","acceptedAnswer":{"@type":"Answer","text":"Na prywatnym lub darmowym koncie – nie. Placówka nie ma wtedy z dostawcą umowy powierzenia przetwarzania danych i nie kontroluje, co dzieje się z treścią rozmów. Bezpieczna zasada domyślna brzmi: dane pacjentów, zdjęcia RTG i fragmenty dokumentacji nie trafiają do czatu wcale."}},{"@type":"Question","name":"Czy plan firmowy ChatGPT rozwiązuje problem z RODO?","acceptedAnswer":{"@type":"Answer","text":"Nie automatycznie. Plan firmowy daje umowę powierzenia, panel administratora i ustawienia prywatności dla organizacji, ale o tym, jakie dane wolno przetwarzać, decyduje administrator po ocenie umowy i zabezpieczeń. Warto zrobić to z inspektorem ochrony danych lub prawnikiem."}},{"@type":"Question","name":"Czy wystarczy usunąć nazwisko, żeby tekst był anonimowy?","acceptedAnswer":{"@type":"Answer","text":"Zwykle nie. Jeśli w opisie zostaje rzadki przypadek, data zabiegu, wiek i miejscowość, pacjenta nadal da się rozpoznać. Do czatu nadają się treści ogólne: szablony, procedury i teksty informacyjne, w których nie ma konkretnej osoby."}},{"@type":"Question","name":"Do czego recepcja może bezpiecznie używać AI?","acceptedAnswer":{"@type":"Answer","text":"Do szablonów wiadomości, tekstów na stronę, tłumaczeń cennika i regulaminu, list kontrolnych i instrukcji wewnętrznych. Warunek: w poleceniu nie ma danych osobowych, a gotowy tekst przed wysłaniem czyta człowiek. Treści medyczne zatwierdza lekarz."}},{"@type":"Question","name":"Co powinna zawierać polityka AI w gabinecie?","acceptedAnswer":{"@type":"Answer","text":"Listę dozwolonych narzędzi i kont, zakaz wpisywania danych pacjentów z przykładami, zadania, do których AI jest dozwolone i zakazane, zasadę sprawdzania treści przez człowieka oraz sposób zgłaszania pomyłek. Jedna strona wystarczy, o ile zespół został z niej przeszkolony."}}]}]}</script>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: #0d0d0f; color: #cbd5e1; font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; line-height: 1.75; }
+  .topbar { display: flex; justify-content: space-between; align-items: center; padding: 20px 24px; border-bottom: 1px solid rgba(212,175,55,0.25); flex-wrap: wrap; gap: 10px; }
+  .logo { color: #fff; text-decoration: none; font-weight: 700; letter-spacing: 4px; font-size: 18px; }
+  .logo span { color: #d4af37; }
+  .topbar nav { display: flex; gap: 16px; flex-wrap: wrap; }
+  .topbar nav a { color: #cbd5e1; text-decoration: none; font-size: 14px; }
+  .topbar nav a:hover { color: #f3dc8a; }
+  .pill { border: 1px solid rgba(212,175,55,0.55); padding: 6px 14px; border-radius: 50px; color: #f3dc8a !important; font-weight: 600; }
+  main { max-width: 860px; margin: 0 auto; padding: 48px 24px 32px; }
+  .crumbs { font-size: 13px; color: #708090; margin-bottom: 22px; }
+  .crumbs a { color: #96a1aa; text-decoration: none; }
+  h1 { color: #fff; font-size: clamp(26px, 4vw, 38px); line-height: 1.25; margin-bottom: 14px; }
+  .meta-line { font-size: 13px; color: #708090; margin-bottom: 28px; }
+  .snippet { background: rgba(212,175,55,0.08); border-left: 3px solid #d4af37; padding: 18px 22px; border-radius: 0 10px 10px 0; margin-bottom: 34px; color: #e8e2d0; font-size: 17px; }
+  h2 { color: #f3dc8a; font-size: 22px; margin: 38px 0 14px; }
+  h3 { color: #e8e2d0; font-size: 17px; margin: 24px 0 10px; }
+  p { margin-bottom: 16px; }
+  ul, ol { margin: 0 0 18px 22px; }
+  li { margin-bottom: 8px; }
+  strong { color: #e8e2d0; }
+  a { color: #d4af37; }
+  .faq { margin-top: 44px; border-top: 1px solid rgba(212,175,55,0.25); padding-top: 8px; }
+  .faq h2 { margin-top: 26px; }
+  .faq h3 { color: #f3dc8a; }
+  .cta { margin: 48px 0 8px; background: linear-gradient(135deg, rgba(212,175,55,0.14), rgba(212,175,55,0.05)); border: 1px solid rgba(212,175,55,0.4); border-radius: 14px; padding: 26px; text-align: center; }
+  .cta p { color: #e8e2d0; margin-bottom: 14px; }
+  .cta a.btn { display: inline-block; background: linear-gradient(135deg, #d4af37, #b8962e); color: #14120a; font-weight: 700; padding: 12px 28px; border-radius: 50px; text-decoration: none; margin: 4px; }
+  .cta a.tel { display: inline-block; color: #f3dc8a; padding: 12px 10px; }
+  footer { border-top: 1px solid rgba(212,175,55,0.25); margin-top: 40px; padding: 26px 24px; text-align: center; font-size: 13px; color: #708090; }
+  footer a { color: #96a1aa; }
+</style>
+</head>
+<body>
+<header class="topbar">
+  <a class="logo" href="https://itspace.com.pl/">IT<span>SPACE</span></a>
+  <nav>
+    <a href="https://itspace.com.pl/">Strona główna</a>
+    <a href="https://news.itspace.com.pl/poradniki/">Poradniki</a>
+    <a class="pill" href="https://news.itspace.com.pl" target="_blank" rel="noopener">📰 News</a>
+  </nav>
+</header>
+<main>
+  <div class="crumbs"><a href="https://itspace.com.pl/">ITSPACE</a> › <a href="https://news.itspace.com.pl/poradniki/">Poradniki</a> › Czy można używać ChatGPT w gabinecie? Zasady dla danych pacjentów</div>
+  <h1>Czy można używać ChatGPT w gabinecie? Zasady dla danych pacjentów</h1>
+  <div class="meta-line">Adrian Strzeszewski · opublikowano 22 listopada 2026 · Aktualizacja: 22 listopada 2026</div>
+  <div class="snippet">Tak, z ChatGPT i podobnych narzędzi AI można korzystać w gabinecie – pod warunkiem, że nie trafiają do nich dane pacjentów. Nie wpisuj imion i nazwisk, numerów PESEL, opisów leczenia, zdjęć RTG ani fragmentów dokumentacji. Do pracy służbowej wybierz plan firmowy z umową powierzenia przetwarzania danych, a nie prywatne konto pracownika. Zasady spisz w krótkiej polityce AI z listą dozwolonych narzędzi i przeszkol z niej zespół.</div>
+  <h2>Czego nie wpisywać do ChatGPT i innych narzędzi AI?</h2>
+<p>Granica jest jedna: wszystko, co pozwala rozpoznać pacjenta albo mówi coś o jego zdrowiu, zostaje w programie gabinetowym. Dotyczy to ChatGPT, Claude, Gemini, Copilota i każdej aplikacji „z AI w środku”, także tej w telefonie.</p>
+<ul>
+<li><strong>Dane identyfikujące:</strong> imię i nazwisko, PESEL, adres, telefon, e-mail, numer karty pacjenta.</li>
+<li><strong>Dane o zdrowiu:</strong> rozpoznania, plany leczenia, wywiad, listy leków, opisy powikłań.</li>
+<li><strong>Obrazy:</strong> zdjęcia RTG, tomografia, skany wewnątrzustne, fotografie twarzy „przed i po”. Zdjęcie też jest daną o zdrowiu, nawet bez podpisu.</li>
+<li><strong>Dokumenty:</strong> fragmenty dokumentacji medycznej, skany zgód, skierowania, korespondencja z pacjentem.</li>
+<li><strong>Dane zespołu i firmy:</strong> umowy, wynagrodzenia, hasła, konfiguracje sieci.</li>
+</ul>
+<p>Częsta pułapka to anonimizacja „na oko”. Usunięcie nazwiska nie wystarcza, gdy w opisie zostaje rzadki przypadek, data zabiegu i nazwa miejscowości. Jeśli z treści da się odgadnąć, o kogo chodzi, to nadal są dane osobowe.</p>
+<h2>Konto prywatne a plan firmowy – na czym polega różnica?</h2>
+<p>Technicznie to ten sam czat. Różni się wszystko wokół niego.</p>
+<p><strong>Konto prywatne</strong> (darmowe albo opłacane z karty pracownika) zakłada osoba, nie placówka. Gabinet nie ma z dostawcą żadnej umowy, nie wie, co do czatu trafia, i nie odzyska historii rozmów, gdy pracownik odejdzie. W planach dla osób prywatnych treść rozmów może – zależnie od ustawień i aktualnego regulaminu – służyć do ulepszania modeli.</p>
+<p><strong>Plan firmowy</strong> kupuje placówka. Dostawcy oferują w takich planach umowę powierzenia przetwarzania danych, panel administratora, zarządzanie kontami i ustawienia prywatności dla całej organizacji. Konto można odebrać w dniu, w którym kończy się współpraca. Warunki zmieniają się często, więc przed zakupem przeczytaj aktualną umowę wybranego dostawcy, zamiast polegać na porównaniach z internetu.</p>
+<p>Ważne zastrzeżenie: plan firmowy nie oznacza automatycznie, że wolno wpisywać dane pacjentów. O tym decyduje administrator danych po ocenie umowy, miejsca przetwarzania i zabezpieczeń – najlepiej z inspektorem ochrony danych. Rozsądna zasada domyślna brzmi: dane pacjentów nie trafiają do czatu wcale.</p>
+<h2>Do czego AI nadaje się w gabinecie bez ryzyka?</h2>
+<p>Zaskakująco dużo pracy biurowej nie wymaga żadnych danych osobowych:</p>
+<ul>
+<li><strong>teksty na stronę i do mediów społecznościowych</strong> – opis zabiegu, odpowiedzi na częste pytania, zaproszenie na dzień otwarty;</li>
+<li><strong>szablony wiadomości</strong> – przypomnienie o wizycie, zalecenia po zabiegu, odpowiedź na reklamację, zawsze z pustym miejscem na dane, które uzupełnia człowiek;</li>
+<li><strong>procedury wewnętrzne</strong> – instrukcja otwarcia i zamknięcia gabinetu, lista kontrolna dla nowej osoby w recepcji;</li>
+<li><strong>tłumaczenia</strong> – cennik, regulamin, informacja dla pacjenta zagranicznego, bez nazwisk i szczegółów leczenia;</li>
+<li><strong>porządkowanie</strong> – streszczenie długiej instrukcji urządzenia, plan szkolenia, szkic ogłoszenia o pracę;</li>
+<li><strong>arkusze</strong> – formuły w Excelu, pod warunkiem że do czatu trafia opis kolumn, a nie sam plik z danymi.</li>
+</ul>
+<p>Dwie uwagi praktyczne. Po pierwsze, AI potrafi pisać pewnym tonem rzeczy nieprawdziwe, więc treści medyczne zawsze czyta i zatwierdza lekarz. Po drugie, tekst z czatu to szkic. Odpowiada za niego ten, kto go wysyła.</p>
+<h2>Polityka AI: jedna strona, która porządkuje temat</h2>
+<p>Zakaz „nie używamy AI” zwykle nie działa. Ludzie i tak korzystają, tylko z prywatnych telefonów i po cichu. Lepiej sprawdza się krótki dokument, który mieści się na jednej stronie i odpowiada na pięć pytań:</p>
+<ol>
+<li>Z jakich narzędzi wolno korzystać i na jakich kontach?</li>
+<li>Jakich danych nie wolno wpisywać – z przykładami z recepcji i gabinetu?</li>
+<li>Do jakich zadań AI jest dozwolone, a do jakich nie (diagnozy, decyzje o leczeniu)?</li>
+<li>Kto sprawdza treść przed wysłaniem do pacjenta lub publikacją?</li>
+<li>Komu i jak zgłosić pomyłkę, czyli wklejenie danych, których nie powinno tam być?</li>
+</ol>
+<p>Polityka ma sens dopiero wtedy, gdy zespół ją zna. Krótkie szkolenie z przykładami robi więcej niż podpis pod regulaminem. Przy okazji realizujesz to, czego oczekują przepisy o kompetencjach AI personelu – opisujemy je w poradniku <a href="../ai-act-w-gabinecie/">AI Act w gabinecie</a>.</p>
+<h2>Lista dozwolonych narzędzi</h2>
+<p>To zwykła tabela: nazwa narzędzia, rodzaj konta, kto ma dostęp, do czego służy i jakich danych dotyczy. Wpisz do niej także funkcje AI ukryte w programach, których już używasz – w pakiecie biurowym, w poczcie, w aplikacji do grafiki. Wszystko, czego na liście nie ma, wymaga zgody osoby odpowiedzialnej. Listę przeglądaj co kwartał, bo narzędzia i ich regulaminy zmieniają się szybciej niż cokolwiek innego w IT. Pasuje do niej reszta porządków opisanych w <a href="../rodo-w-gabinecie-checklista-it/">checkliście RODO dla gabinetu</a>.</p>
+<h2>Co zrobić, gdy dane pacjenta już trafiły do czatu?</h2>
+<p>Bez paniki, ale od razu. Zapisz, co zostało wklejone, kiedy i na jakim koncie. Usuń rozmowę z historii. Zgłoś sprawę osobie odpowiedzialnej za ochronę danych w placówce. To ona, z inspektorem ochrony danych lub prawnikiem, ocenia, czy doszło do naruszenia i jakie kroki są potrzebne. Najgorszym wyjściem jest przemilczenie. Zadbaj, żeby pracownik, który się przyzna, nie został za to ukarany.</p>
+<h2>Ile kosztuje uporządkowanie AI w placówce?</h2>
+<p>W <a href="https://itspace.com.pl/cennik/">cenniku ITSPACE</a> na 2027 rok (ceny netto): konfiguracja firmowych kont AI – konta, uprawnienia, ustawienia prywatności, zasady i instruktaż – od 1 500 zł. Pakiet „Bezpieczne AI w placówce”, czyli polityka AI, lista dozwolonych narzędzi, zasady dla danych pacjentów i dwugodzinne szkolenie personelu, od 2 900 zł. Zamknięte szkolenie AI dla zespołu do 12 osób od 1 800 zł. Licencje dostawców narzędzi płacisz osobno.</p>
+  <section class="faq">
+    <h2>Najczęstsze pytania</h2>
+    <h3>Czy wolno wpisać dane pacjenta do ChatGPT?</h3>
+    <p>Na prywatnym lub darmowym koncie – nie. Placówka nie ma wtedy z dostawcą umowy powierzenia przetwarzania danych i nie kontroluje, co dzieje się z treścią rozmów. Bezpieczna zasada domyślna brzmi: dane pacjentów, zdjęcia RTG i fragmenty dokumentacji nie trafiają do czatu wcale.</p>
+    <h3>Czy plan firmowy ChatGPT rozwiązuje problem z RODO?</h3>
+    <p>Nie automatycznie. Plan firmowy daje umowę powierzenia, panel administratora i ustawienia prywatności dla organizacji, ale o tym, jakie dane wolno przetwarzać, decyduje administrator po ocenie umowy i zabezpieczeń. Warto zrobić to z inspektorem ochrony danych lub prawnikiem.</p>
+    <h3>Czy wystarczy usunąć nazwisko, żeby tekst był anonimowy?</h3>
+    <p>Zwykle nie. Jeśli w opisie zostaje rzadki przypadek, data zabiegu, wiek i miejscowość, pacjenta nadal da się rozpoznać. Do czatu nadają się treści ogólne: szablony, procedury i teksty informacyjne, w których nie ma konkretnej osoby.</p>
+    <h3>Do czego recepcja może bezpiecznie używać AI?</h3>
+    <p>Do szablonów wiadomości, tekstów na stronę, tłumaczeń cennika i regulaminu, list kontrolnych i instrukcji wewnętrznych. Warunek: w poleceniu nie ma danych osobowych, a gotowy tekst przed wysłaniem czyta człowiek. Treści medyczne zatwierdza lekarz.</p>
+    <h3>Co powinna zawierać polityka AI w gabinecie?</h3>
+    <p>Listę dozwolonych narzędzi i kont, zakaz wpisywania danych pacjentów z przykładami, zadania, do których AI jest dozwolone i zakazane, zasadę sprawdzania treści przez człowieka oraz sposób zgłaszania pomyłek. Jedna strona wystarczy, o ile zespół został z niej przeszkolony.</p>
+  </section>
+  <div class="cta">
+    <p><strong>Potrzebujesz wsparcia IT w swoim gabinecie lub klinice?</strong><br>Obsługujemy placówki stomatologiczne i medycyny estetycznej w Warszawie i okolicach.</p>
+    <a class="btn" href="tel:+48531330080">📞 531 330 080</a>
+    <a class="tel" href="mailto:kontakt@itspace.com.pl">kontakt@itspace.com.pl</a>
+  </div>
+</main>
+<footer>© ITSPACE — obsługa informatyczna gabinetów stomatologicznych i klinik medycyny estetycznej · <a href="https://itspace.com.pl/">itspace.com.pl</a> · <a href="https://news.itspace.com.pl">news.itspace.com.pl</a> · <a href="https://itspace.com.pl/regulamin/">Regulamin</a> · <a href="https://itspace.com.pl/polityka-prywatnosci/">Polityka prywatności</a></footer>
+<!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "9fe320efc6424ca382dcd5f9bd87bc0c"}'></script><!-- End Cloudflare Web Analytics -->
+</body>
+</html>

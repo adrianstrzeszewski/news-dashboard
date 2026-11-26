@@ -1,9 +1,9 @@
 {
- "zebrano": "2026-11-26T14:22:27Z",
- "kanalow_ok": 31,
- "kanalow_bledy": 3,
+ "zebrano": "2026-11-26T14:58:48Z",
+ "kanalow_ok": 32,
+ "kanalow_bledy": 2,
  "niepelny": false,
- "wpisow": 415,
+ "wpisow": 430,
  "kanaly": [
   {
    "zrodlo": "BBC News",
@@ -93,9 +93,8 @@
    "zrodlo": "TVN24",
    "kategoria": "NEWS",
    "url": "https://tvn24.pl/najnowsze.xml",
-   "status": "blad",
-   "wpisow": 0,
-   "komunikat": "HTTPError: HTTP Error 403: Forbidden"
+   "status": "ok",
+   "wpisow": 15
   },
   {
    "zrodlo": "Polsat News",
@@ -129,9 +128,8 @@
    "zrodlo": "TVN Warszawa",
    "kategoria": "NEWS",
    "url": "https://tvn24.pl/tvnwarszawa/najnowsze.xml",
-   "status": "blad",
-   "wpisow": 0,
-   "komunikat": "HTTPError: HTTP Error 403: Forbidden"
+   "status": "ok",
+   "wpisow": 15
   },
   {
    "zrodlo": "RMF24 Warszawa",
@@ -193,8 +191,9 @@
    "zrodlo": "MamStartup",
    "kategoria": "Tech",
    "url": "https://mamstartup.pl/feed/",
-   "status": "ok",
-   "wpisow": 15
+   "status": "blad",
+   "wpisow": 0,
+   "komunikat": "TimeoutError: The read operation timed out"
   },
   {
    "zrodlo": "CyberDefence24",
@@ -248,6 +247,26 @@
   }
  ],
  "wpisy": [
+  {
+   "zrodlo": "BBC News",
+   "kategoria": "NEWS",
+   "region": "world",
+   "tytul": "Gérard Depardieu to stand trial for alleged rape of actress in 2018, court rules",
+   "url": "https://www.bbc.co.uk/news/articles/cmlyd76kyx44o?at_medium=RSS&at_campaign=rss",
+   "opublikowano": "2026-11-26T14:44:26Z",
+   "opublikowano_surowe": "Thu, 26 Nov 2026 14:44:26 GMT",
+   "streszczenie": "A Paris appeals court rules Depardieu will go on trial for the alleged rape of Charlotte Arnould."
+  },
+  {
+   "zrodlo": "BBC News",
+   "kategoria": "NEWS",
+   "region": "world",
+   "tytul": "Pregnant US inmate escapes in prison vehicle after medical appointment",
+   "url": "https://www.bbc.co.uk/news/articles/c9m2jke85xzxo?at_medium=RSS&at_campaign=rss",
+   "opublikowano": "2026-11-26T14:35:22Z",
+   "opublikowano_surowe": "Thu, 26 Nov 2026 14:35:22 GMT",
+   "streszczenie": "Rebecca Taylor had been imprisoned in New Mexico for multiple theft and burglary charges."
+  },
   {
    "zrodlo": "BBC News",
    "kategoria": "NEWS",
@@ -377,26 +396,6 @@
    "opublikowano": "2026-11-26T08:30:12Z",
    "opublikowano_surowe": "Thu, 26 Nov 2026 08:30:12 GMT",
    "streszczenie": "The show, Dar-e-Nijaat, has become a sensation in India but is now embroiled in a political row."
-  },
-  {
-   "zrodlo": "BBC News",
-   "kategoria": "NEWS",
-   "region": "world",
-   "tytul": "Guinea orders residents to clean up the capital months after deadly rubbish dump collapse",
-   "url": "https://www.bbc.co.uk/news/articles/cqwy4377yxnlo?at_medium=RSS&at_campaign=rss",
-   "opublikowano": "2026-11-26T07:43:48Z",
-   "opublikowano_surowe": "Thu, 26 Nov 2026 07:43:48 GMT",
-   "streszczenie": "The capital's main rubbish dump has been closed since the disaster, leading to rubbish piling up in the streets."
-  },
-  {
-   "zrodlo": "BBC News",
-   "kategoria": "NEWS",
-   "region": "world",
-   "tytul": "Thirteen dead as mine disaster highlights illegal hunt for gold",
-   "url": "https://www.bbc.co.uk/news/articles/cmde1zr0nlyro?at_medium=RSS&at_campaign=rss",
-   "opublikowano": "2026-11-26T07:31:24Z",
-   "opublikowano_surowe": "Thu, 26 Nov 2026 07:31:24 GMT",
-   "streszczenie": "Indonesian authorities say another 13 are missing in the illegal gold mine, which flooded on Monday."
   },
   {
    "zrodlo": "BBC Europe",
@@ -552,11 +551,31 @@
    "zrodlo": "Guardian Europe",
    "kategoria": "NEWS",
    "region": "europe",
+   "tytul": "Mandelson tried to influence Starmer’s cabinet reshuffle, new documents reveal – UK politics live",
+   "url": "https://www.theguardian.com/politics/live/2026/nov/26/uk-eu-food-deal-farage-penalty-compensation-reform-net-migration-latest-news-updates",
+   "opublikowano": "2026-11-26T14:41:21Z",
+   "opublikowano_surowe": "Thu, 26 Nov 2026 14:41:21 GMT",
+   "streszczenie": "In a WhatsApp exchange Mandelson told Starmer’s chief of staff at the time, Morgan McSweeney, to ‘solve your Darren issue’ – referring to Darren Jones The Liberal Democrats are saying the UK needs a proper plan for immigration. This is from the party’s asylum and immigration spokesperson, Paul Kohler . Britain needs to regain control of its immigration system after the chaos of Brexit. Yet sixteen years after David Cameron’s ‘tens of thousands’ pledge, six prime ministers and ten home secretaries have overseen wild swings in immigration numbers with net migration now set to fall below zero. Br"
+  },
+  {
+   "zrodlo": "Guardian Europe",
+   "kategoria": "NEWS",
+   "region": "europe",
    "tytul": "EU leaders ‘light-years away’ on agreeing budget at summit, warns Giorgia Meloni – Europe live",
    "url": "https://www.theguardian.com/world/live/2026/nov/26/eu-budget-summit-ukraine-russia-spain-serbia-elections-latest-news-updates",
-   "opublikowano": "2026-11-26T14:06:58Z",
-   "opublikowano_surowe": "Thu, 26 Nov 2026 14:06:58 GMT",
+   "opublikowano": "2026-11-26T14:41:01Z",
+   "opublikowano_surowe": "Thu, 26 Nov 2026 14:41:01 GMT",
    "streszczenie": "A number of leaders hope to agree to a budget before consequential elections around the continent The Danish prime minister, Mette Frederiksen, has acknowledged that leaders remain “very far apart,” agreeing with Germany’s Merz that the current proposal is not going to work. “The budget is too large and not sufficiently future-oriented,” she said, calling for more work on competitiveness, defence and security. Continue reading..."
+  },
+  {
+   "zrodlo": "Guardian Europe",
+   "kategoria": "NEWS",
+   "region": "europe",
+   "tytul": "Spanish opposition criticised for AI video of Pedro Sánchez in Morocco shirt",
+   "url": "https://www.theguardian.com/world/2026/nov/26/spain-peoples-party-ai-video-pedro-sanchez-morocco-shirt",
+   "opublikowano": "2026-11-26T14:33:00Z",
+   "opublikowano_surowe": "Thu, 26 Nov 2026 14:33:00 GMT",
+   "streszczenie": "People’s party alters video of PM putting on Lamine Yamal’s Spain shirt in latest contentious use of AI in election race Spanning 17 seconds, the campaign video showed the Spanish prime minister, Pedro Sánchez, speaking to the camera as he put on a jersey of the national football team. “Because this is what Spain is: a pluralistic and diverse country,” he said as he turned to reveal the number 19 on his back – the shirt number of the star player Lamine Yamal. One day later, the opposition People’s party (PP) came under fire after it used AI to manipulate the same video, making it falsely appea"
   },
   {
    "zrodlo": "Guardian Europe",
@@ -577,16 +596,6 @@
    "opublikowano": "2026-11-26T13:43:36Z",
    "opublikowano_surowe": "Thu, 26 Nov 2026 13:43:36 GMT",
    "streszczenie": "Transport committee says policy papers show expanding airport would fall short of pledges on economy and climate Ministers have “failed to make the case” for a third runway at Heathrow , according to a damning report by MPs. The Commons transport committee said on Thursday that the detailed policy papers laid out by the government showed expansion of the London airport would fall short of pledges on the economy and climate. Continue reading..."
-  },
-  {
-   "zrodlo": "Guardian Europe",
-   "kategoria": "NEWS",
-   "region": "europe",
-   "tytul": "Mandelson tried to influence Starmer’s cabinet reshuffle, new documents reveal – UK politics live",
-   "url": "https://www.theguardian.com/politics/live/2026/nov/26/uk-eu-food-deal-farage-penalty-compensation-reform-net-migration-latest-news-updates",
-   "opublikowano": "2026-11-26T13:36:57Z",
-   "opublikowano_surowe": "Thu, 26 Nov 2026 13:36:57 GMT",
-   "streszczenie": "In a WhatsApp exchange Mandelson told Starmer’s chief of staff at the time, Morgan McSweeney, to ‘solve your Darren issue’ – referring to Darren Jones The Liberal Democrats are saying the UK needs a proper plan for immigration. This is from the party’s asylum and immigration spokesperson, Paul Kohler . Britain needs to regain control of its immigration system after the chaos of Brexit. Yet sixteen years after David Cameron’s ‘tens of thousands’ pledge, six prime ministers and ten home secretaries have overseen wild swings in immigration numbers with net migration now set to fall below zero. Br"
   },
   {
    "zrodlo": "Guardian Europe",
@@ -652,16 +661,6 @@
    "zrodlo": "Guardian Europe",
    "kategoria": "NEWS",
    "region": "europe",
-   "tytul": "UK to invest £9.5m in Ukraine windfarm to bolster war-hit energy system",
-   "url": "https://www.theguardian.com/business/2026/nov/26/uk-to-invest-95m-in-ukraine-windfarm-war-hit-energy-system",
-   "opublikowano": "2026-11-26T05:00:46Z",
-   "opublikowano_surowe": "Thu, 26 Nov 2026 05:00:46 GMT",
-   "streszczenie": "Project capable of powering 300,000 homes, with Britain having offered more than £770m to rebuild energy sector Britain will add to its multimillion pound investments in rebuilding Ukraine’s energy system by funding a windfarm project capable of powering 300,000 Ukrainian households. Ed Miliband, the UK foreign secretary, said Britain would invest £9.5m to build a 200 megawatt windfarm in an undisclosed location to bolster Ukraine’s energy reserves as its war with Russia approaches the five-year mark. Continue reading..."
-  },
-  {
-   "zrodlo": "Guardian Europe",
-   "kategoria": "NEWS",
-   "region": "europe",
    "tytul": "Veruschka, one of the world’s first supermodels – a life in pictures",
    "url": "https://www.theguardian.com/fashion/gallery/2026/nov/26/veruschka-death-worlds-first-supermodel-a-life-in-pictures",
    "opublikowano": "2026-11-26T04:29:46Z",
@@ -702,11 +701,41 @@
    "zrodlo": "The Guardian",
    "kategoria": "NEWS",
    "region": "world",
-   "tytul": "EU leaders ‘light-years away’ on agreeing budget at summit, warns Giorgia Meloni – Europe live",
+   "tytul": "Mandelson tried to influence Starmer’s cabinet reshuffle, new documents reveal – UK politics live",
+   "url": "https://www.theguardian.com/politics/live/2026/nov/26/uk-eu-food-deal-farage-penalty-compensation-reform-net-migration-latest-news-updates",
+   "opublikowano": "2026-11-26T14:48:20Z",
+   "opublikowano_surowe": "Thu, 26 Nov 2026 14:48:20 GMT",
+   "streszczenie": "In a WhatsApp exchange Mandelson told Starmer’s chief of staff at the time, Morgan McSweeney, to ‘solve your Darren issue’ – referring to Darren Jones The Liberal Democrats are saying the UK needs a proper plan for immigration. This is from the party’s asylum and immigration spokesperson, Paul Kohler . Britain needs to regain control of its immigration system after the chaos of Brexit. Yet sixteen years after David Cameron’s ‘tens of thousands’ pledge, six prime ministers and ten home secretaries have overseen wild swings in immigration numbers with net migration now set to fall below zero. Br"
+  },
+  {
+   "zrodlo": "The Guardian",
+   "kategoria": "NEWS",
+   "region": "world",
+   "tytul": "‘Virtually zero’ chance EU leaders will agree on budget deal today, warns Magyar – Europe live",
    "url": "https://www.theguardian.com/world/live/2026/nov/26/eu-budget-summit-ukraine-russia-spain-serbia-elections-latest-news-updates",
-   "opublikowano": "2026-11-26T14:06:58Z",
-   "opublikowano_surowe": "Thu, 26 Nov 2026 14:06:58 GMT",
-   "streszczenie": "A number of leaders hope to agree to a budget before consequential elections around the continent The Danish prime minister, Mette Frederiksen, has acknowledged that leaders remain “very far apart,” agreeing with Germany’s Merz that the current proposal is not going to work. “The budget is too large and not sufficiently future-oriented,” she said, calling for more work on competitiveness, defence and security. Continue reading..."
+   "opublikowano": "2026-11-26T14:41:01Z",
+   "opublikowano_surowe": "Thu, 26 Nov 2026 14:41:01 GMT",
+   "streszczenie": "The Hungarian prime minister says a deal by Christmas is also looking unlikely The Danish prime minister, Mette Frederiksen, has acknowledged that leaders remain “very far apart,” agreeing with Germany’s Merz that the current proposal is not going to work. “The budget is too large and not sufficiently future-oriented,” she said, calling for more work on competitiveness, defence and security. Continue reading..."
+  },
+  {
+   "zrodlo": "The Guardian",
+   "kategoria": "NEWS",
+   "region": "world",
+   "tytul": "Spanish opposition criticised for AI video of Pedro Sánchez in Morocco shirt",
+   "url": "https://www.theguardian.com/world/2026/nov/26/spain-peoples-party-ai-video-pedro-sanchez-morocco-shirt",
+   "opublikowano": "2026-11-26T14:33:00Z",
+   "opublikowano_surowe": "Thu, 26 Nov 2026 14:33:00 GMT",
+   "streszczenie": "People’s party alters video of PM putting on Lamine Yamal’s Spain shirt in latest contentious use of AI in election race Spanning 17 seconds, the campaign video showed the Spanish prime minister, Pedro Sánchez, speaking to the camera as he put on a jersey of the national football team. “Because this is what Spain is: a pluralistic and diverse country,” he said as he turned to reveal the number 19 on his back – the shirt number of the star player Lamine Yamal. One day later, the opposition People’s party (PP) came under fire after it used AI to manipulate the same video, making it falsely appea"
+  },
+  {
+   "zrodlo": "The Guardian",
+   "kategoria": "NEWS",
+   "region": "world",
+   "tytul": "Beau Lamarre-Condon used his service weapon to murder two men. Did NSW police recruiters miss any red flags?",
+   "url": "https://www.theguardian.com/australia-news/2026/nov/27/beau-lamarre-condon-service-weapon-murder-police-recruiters-ntwnfb",
+   "opublikowano": "2026-11-26T14:26:00Z",
+   "opublikowano_surowe": "Thu, 26 Nov 2026 14:26:00 GMT",
+   "streszczenie": "Video of convicted double murderer shows him in 2020 deploying a Taser at close range to an Indigenous man’s face, chest and neck Get our breaking news email , free app or daily news podcast Beau Lamarre-Condon, the double murderer who killed Jesse Baird and Luke Davies while he was a serving New South Wales police officer, had been under review by the force for repeatedly using his Taser on a man four years before the killings. On Wednesday, he was convicted after a 12-person jury found he had murdered both men with his police service weapon on 19 February 2024. Continue reading..."
   },
   {
    "zrodlo": "The Guardian",
@@ -717,16 +746,6 @@
    "opublikowano": "2026-11-26T14:00:40Z",
    "opublikowano_surowe": "Thu, 26 Nov 2026 14:00:40 GMT",
    "streszczenie": "Exclusive : Australian Electoral Commission to review $1m in donations to Pauline Hanson-led party from Adam Giles and Ian Plimer Get our daily political email , free app or daily news podcast Major donations from close associates of One Nation’s billionaire benefactor, Gina Rinehart, will be reviewed by the Australian Electoral Commission (AEC) amid concerns they were made on behalf of a third party. The special minister of state, Don Farrell, said on Thursday that information about two $500,000 donations made to the Pauline Hanson-led party could be subject to further regulatory action if th"
-  },
-  {
-   "zrodlo": "The Guardian",
-   "kategoria": "NEWS",
-   "region": "world",
-   "tytul": "Beau Lamarre-Condon used his service weapon to murder two men. Did NSW police recruiters miss any red flags?",
-   "url": "https://www.theguardian.com/australia-news/2026/nov/27/beau-lamarre-condon-service-weapon-murder-police-recruiters-ntwnfb",
-   "opublikowano": "2026-11-26T14:00:39Z",
-   "opublikowano_surowe": "Thu, 26 Nov 2026 14:00:39 GMT",
-   "streszczenie": "Video of convicted double murderer shows him in 2020 deploying a Taser at close range to an Indigenous man’s face, chest and neck Get our breaking news email , free app or daily news podcast Double murderer Beau Lamarre-Condon was a serving New South Wales police officer who had been under review for repeatedly using his Taser on a man, four years before he killed Jesse Baird and Luke Davies. On Wednesday, he was convicted after a 12-person jury found he had murdered both men with his police service weapon on 19 February 2024. Continue reading..."
   },
   {
    "zrodlo": "The Guardian",
@@ -756,7 +775,7 @@
    "url": "https://www.theguardian.com/society/2026/nov/26/neets-uk-young-people-education-employment-training-andy-burnham",
    "opublikowano": "2026-11-26T13:43:51Z",
    "opublikowano_surowe": "Thu, 26 Nov 2026 13:43:51 GMT",
-   "streszczenie": "Latest figure of young people not in education, employment or training remains close to highest level in a decade Business live – latest updates UK politics live – latest updates The number of young people across the UK not in education, employment or training (Neet) has decreased but remains close to a million as Andy Burnham’s government pushes to tackle Britain’s youth jobs crisis. As ministers prepare to make sweeping changes in response to Alan Milburn’s landmark report into young people and work, the Office for National Statistics (ONS) said the number of Neets fell by 22,000 in the thre"
+   "streszczenie": "Latest figure of young people not in education, employment or training remains close to highest level in a decade Business live – latest updates UK politics live – latest updates The number of young people across the UK not in education, employment or training (Neet) has decreased but remains close to a million as Andy Burnham’s government pushes to tackle Britain’s youth jobs crisis. As ministers prepare to make sweeping changes in response to Alan Milburn’s landmark report on young people and work, the Office for National Statistics said the number of Neets fell by 22,000 in the three months"
   },
   {
    "zrodlo": "The Guardian",
@@ -782,21 +801,11 @@
    "zrodlo": "The Guardian",
    "kategoria": "NEWS",
    "region": "world",
-   "tytul": "Mandelson tried to influence Starmer’s cabinet reshuffle, new documents reveal – UK politics live",
-   "url": "https://www.theguardian.com/politics/live/2026/nov/26/uk-eu-food-deal-farage-penalty-compensation-reform-net-migration-latest-news-updates",
-   "opublikowano": "2026-11-26T13:36:57Z",
-   "opublikowano_surowe": "Thu, 26 Nov 2026 13:36:57 GMT",
-   "streszczenie": "In a WhatsApp exchange Mandelson told Starmer’s chief of staff at the time, Morgan McSweeney, to ‘solve your Darren issue’ – referring to Darren Jones The Liberal Democrats are saying the UK needs a proper plan for immigration. This is from the party’s asylum and immigration spokesperson, Paul Kohler . Britain needs to regain control of its immigration system after the chaos of Brexit. Yet sixteen years after David Cameron’s ‘tens of thousands’ pledge, six prime ministers and ten home secretaries have overseen wild swings in immigration numbers with net migration now set to fall below zero. Br"
-  },
-  {
-   "zrodlo": "The Guardian",
-   "kategoria": "NEWS",
-   "region": "world",
    "tytul": "Mandelson tried to set up meeting between Trump adviser and lobbying firm he held shares in",
    "url": "https://www.theguardian.com/politics/2026/nov/26/peter-mandelson-trump-adviser-meeting-lobbying-firm",
    "opublikowano": "2026-11-26T13:11:39Z",
    "opublikowano_surowe": "Thu, 26 Nov 2026 13:11:39 GMT",
-   "streszczenie": "Then ambassador to US wanted to discuss alternatives to World Trade Organisation in ‘under the radar’ meeting, documents reveal UK politics live – latest updates Peter Mandelson sought to organise an “under the radar” meeting between an economic adviser to Donald Trump and a member of his former lobbying firm, Global Counsel, while he still held shares in the company, newly released documents reveal. In April 2025, while ambassador to Washington, Mandelson wanted to hold a lunch to discuss “alternative options” to the World Trade Organization and on how “like-minded partners come to terms with"
+   "streszczenie": "Then ambassador to US wanted to discuss alternatives to World Trade Organization in ‘under the radar’ meeting, documents reveal UK politics live – latest updates Peter Mandelson sought to organise an “under the radar” meeting between an economic adviser to Donald Trump and a member of his former lobbying firm, Global Counsel, while he still held shares in the company, newly released documents reveal. In April 2025, while ambassador to Washington, Mandelson wanted to hold a lunch to discuss “alternative options” to the World Trade Organization and on how “like-minded partners come to terms with"
   },
   {
    "zrodlo": "The Guardian",
@@ -839,14 +848,14 @@
    "streszczenie": "The US and Russia’s candidate for secretary general is on a charm offensive. Can she overcome London’s resistance to her bid? Lana Nusseibeh is in Britain this week, attempting to present herself as a potential future UN secretary general, and shift the focus from her past as a United Arab Emirates diplomat who denied the country’s role in arming a militia accused of war crimes and genocide in Sudan’s four-year civil war. It is a high-risk strategy that involves meeting ministers, MPs, academics and holding a public event with the UN Association. Continue reading..."
   },
   {
-   "zrodlo": "The Guardian",
+   "zrodlo": "Al Jazeera",
    "kategoria": "NEWS",
    "region": "world",
-   "tytul": "EU leaders braced for clashes over Ukraine aid at budget talks",
-   "url": "https://www.theguardian.com/world/2026/nov/26/eu-leaders-braced-for-clashes-over-ukraine-aid-at-budget-talks",
-   "opublikowano": "2026-11-26T12:07:14Z",
-   "opublikowano_surowe": "Thu, 26 Nov 2026 12:07:14 GMT",
-   "streszczenie": "Slovakia, Hungary and Czechia want to opt out of €45bn Ukraine loan to fill funding black hole caused by Russia’s relentless attacks Europe live – latest updates EU leaders are bracing for a clash over long-term financial aid for Ukraine, amid an effort to finalise high-stakes budget talks by the end of the year. Arriving in Brussels on Thursday, the German chancellor, Friedrich Merz, reiterated his view that all EU member states should support a €45bn (£38bn) loan for Ukraine for 2027. “When the European Union provides funding, it does so as the European Union – and that union consists of 27 "
+   "tytul": "Can Trump continue with Iran war despite funding restrictions?",
+   "url": "https://www.aljazeera.com/news/2026/11/26/can-trump-continue-with-iran-war-despite-funding-restrictions?traffic_source=rss",
+   "opublikowano": "2026-11-26T14:17:21Z",
+   "opublikowano_surowe": "Thu, 26 Nov 2026 14:17:21 +0000",
+   "streszczenie": "A Congress budget bill could serve as a pressure tactic on Trump to end the war but could also trigger a shutdown."
   },
   {
    "zrodlo": "Al Jazeera",
@@ -989,16 +998,6 @@
    "streszczenie": "Government says there is 'no truth' to media reports that Iraqi army units were moving towards the Kurdistan region."
   },
   {
-   "zrodlo": "Al Jazeera",
-   "kategoria": "NEWS",
-   "region": "world",
-   "tytul": "Highway explosion in Giza: How deadly are Egypt’s roads and railways?",
-   "url": "https://www.aljazeera.com/news/2026/11/26/highway-explosion-in-giza-how-deadly-are-egypts-roads-and-railways?traffic_source=rss",
-   "opublikowano": "2026-11-26T11:22:59Z",
-   "opublikowano_surowe": "Thu, 26 Nov 2026 11:22:59 +0000",
-   "streszczenie": "Egypt has suffered another tragedy as a deadly road explosion kills 31 and injures dozens."
-  },
-  {
    "zrodlo": "NPR",
    "kategoria": "NEWS",
    "region": "world",
@@ -1102,6 +1101,26 @@
    "zrodlo": "Deutsche Welle",
    "kategoria": "NEWS",
    "region": "europe",
+   "tytul": "Freigang banned — Germany star to miss 2027 World Cup",
+   "url": "https://www.dw.com/en/freigang-banned-germany-star-to-miss-2027-world-cup/a-80063930?maca=en-rss-en-all-1573-rdf",
+   "opublikowano": "2026-11-26T14:50:00Z",
+   "opublikowano_surowe": "2026-11-26T14:50:00Z",
+   "streszczenie": "Germany forward Laura Freigang has been suspended until October 2027 after missing three doping tests, ruling her out of next year's Women's World Cup in Brazil. Freigang denies any intention to evade controls."
+  },
+  {
+   "zrodlo": "Deutsche Welle",
+   "kategoria": "NEWS",
+   "region": "europe",
+   "tytul": "FIFA says a cyberattack against it targeted a 'limited set of personal and business information'",
+   "url": "https://www.dw.com/en/fifa-says-a-cyberattack-against-it-targeted-a-limited-set-of-personal-and-business-information/a-80062660?maca=en-rss-en-all-1573-rdf",
+   "opublikowano": "2026-11-26T14:45:00Z",
+   "opublikowano_surowe": "2026-11-26T14:45:00Z",
+   "streszczenie": "World football's governing body says the cyberattack targeted personal and business information. They struck at a sensitive time for the under-fire organization and its president, Gianni Infantino."
+  },
+  {
+   "zrodlo": "Deutsche Welle",
+   "kategoria": "NEWS",
+   "region": "europe",
    "tytul": "EU-Indonesia trade deal opens new markets, but challenges remain",
    "url": "https://www.dw.com/en/eu-indonesia-trade-deal-opens-new-markets-but-challenges-remain/a-80059568?maca=en-rss-en-all-1573-rdf",
    "opublikowano": "2026-11-26T13:41:00Z",
@@ -1152,11 +1171,11 @@
    "zrodlo": "Deutsche Welle",
    "kategoria": "NEWS",
    "region": "europe",
-   "tytul": "Germany news: Final budget debate continues in Bundestag",
-   "url": "https://www.dw.com/en/germany-news-final-budget-debate-continues-in-bundestag/live-80056746?maca=en-rss-en-all-1573-rdf",
+   "tytul": "Germany news: Cologne court awards record damages in Catholic sex abuse case",
+   "url": "https://www.dw.com/en/germany-news-cologne-court-awards-record-damages-in-catholic-sex-abuse-case/live-80056746?maca=en-rss-en-all-1573-rdf",
    "opublikowano": "2026-11-26T09:49:00Z",
    "opublikowano_surowe": "2026-11-26T09:49:00Z",
-   "streszczenie": "Spending for federal police and domestic intelligence are high on the agenda for parliamentary debate this Thursday. An alleged spy and suspected terrorists are also making headlines in Germany on Thursday. DW has more."
+   "streszczenie": "A court has awarded the highest damages ever in Germany to a victim of sexual abuse linked with the Catholic Church. An alleged spy and suspected terrorists are also making headlines in Germany on Thursday. DW has more."
   },
   {
    "zrodlo": "Deutsche Welle",
@@ -1229,24 +1248,44 @@
    "streszczenie": "SpaceX's US Starlink satellite system has played a key role in countering the Russian military in Ukraine, but now a Russian counterpart is under development. What could this mean for Ukraine in future?"
   },
   {
-   "zrodlo": "Deutsche Welle",
+   "zrodlo": "France 24",
    "kategoria": "NEWS",
    "region": "europe",
-   "tytul": "US court blocks regulator's early review of ABC's broadcast licenses",
-   "url": "https://www.dw.com/en/us-court-blocks-regulator-s-early-review-of-abc-s-broadcast-licenses/a-80056181?maca=en-rss-en-all-1573-rdf",
-   "opublikowano": "2026-11-26T04:36:00Z",
-   "opublikowano_surowe": "2026-11-26T04:36:00Z",
-   "streszczenie": "The FCC chairman had ordered an early review of ABC's licenses a day after President Donald Trump called for the broadcaster to fire Jimmy Kimmel earlier this year. The licenses were not set to expire until 2028."
+   "tytul": "French woman on trial for IS group propaganda tells court she’s ‘ashamed’",
+   "url": "https://www.france24.com/en/france/20261126-french-woman-trial-is-group-propaganda-tells-court-she-ashamed",
+   "opublikowano": "2026-11-26T14:48:32Z",
+   "opublikowano_surowe": "Thu, 26 Nov 2026 14:48:32 GMT",
+   "streszczenie": "The trial of Émilie König, one of France's most high-profile Islamic State (IS) group recruits, opened in a Paris court on Thursday with the 41-year-old mother of five apologising to her children, mother and the \"French nation\" for her actions. König travelled in 2012 to Syria, where she appeared in the jihadist group's propaganda videos. She was repatriated to France in 2022."
   },
   {
-   "zrodlo": "Deutsche Welle",
+   "zrodlo": "France 24",
    "kategoria": "NEWS",
    "region": "europe",
-   "tytul": "Kim Jong Un tours nuclear material sites, urges wider use of tactical nuclear weapons",
-   "url": "https://www.dw.com/en/kim-jong-un-tours-nuclear-material-sites-urges-wider-use-of-tactical-nuclear-weapons/a-80055887?maca=en-rss-en-all-1573-rdf",
-   "opublikowano": "2026-11-26T04:12:00Z",
-   "opublikowano_surowe": "2026-11-26T04:12:00Z",
-   "streszczenie": "North Korea's Kim Jong Un visited sites that produce nuclear material and told his military to focus on tactical weapons, saying his country's nuclear status is irreversible."
+   "tytul": "Season's eatings! Celebrating Thanksgiving in France",
+   "url": "https://www.france24.com/en/tv-shows/entre-nous/20261126-seasons-eatings-celebrating-thanksgiving-in-france",
+   "opublikowano": "2026-11-26T14:35:09Z",
+   "opublikowano_surowe": "Thu, 26 Nov 2026 14:35:09 GMT",
+   "streszczenie": "This Thursday marks Thanksgiving in the United States, the biggest travel holiday of the year there and arguably the most important on US calendars. But here in France, it's just another day. However, Americans living in Paris do try to capture the Thanksgiving spirit, though it can be tricky to track down the turkeys and pies required. Joining us to discuss how Americans do Thanksgiving in Paris is Cordon Bleu-trained chef and the owner of Boneshaker Donuts, Amanda Bankert."
+  },
+  {
+   "zrodlo": "France 24",
+   "kategoria": "NEWS",
+   "region": "europe",
+   "tytul": "Madagascar's near-total abortion ban puts women's lives at risk",
+   "url": "https://www.france24.com/en/video/20261126-madagascar-s-near-total-abortion-ban-puts-women-s-lives-at-risk",
+   "opublikowano": "2026-11-26T14:22:17Z",
+   "opublikowano_surowe": "Thu, 26 Nov 2026 14:22:17 GMT",
+   "streszczenie": "November 25 marked the International Day for the Elimination of Violence against Women. Activists argue that tackling gender-based violence also means addressing the wider inequalities that put women at risk, including restrictions on reproductive rights. In Madagascar, abortion is almost entirely banned, even in cases of rape, incest or when a woman's life is at risk. FRANCE 24’s Aurélie Kouman reports on the consequences of the country's strict laws, which force thousands of women to seek unsafe, clandestine procedures."
+  },
+  {
+   "zrodlo": "France 24",
+   "kategoria": "NEWS",
+   "region": "europe",
+   "tytul": "Fighting in eastern Congo forces Ebola workers to evacuate, disrupts outbreak response",
+   "url": "https://www.france24.com/en/video/20261126-fighting-in-eastern-congo-forces-ebola-workers-to-evacuate-disrupts-outbreak-response",
+   "opublikowano": "2026-11-26T14:20:13Z",
+   "opublikowano_surowe": "Thu, 26 Nov 2026 14:20:13 GMT",
+   "streszczenie": "Escalating fighting in eastern Congo has forced Ebola response workers to leave affected areas and disrupted efforts to contain the deadliest outbreak in the country, health officials and humanitarian workers said Wednesday. Congo’s Ebola outbreak has infected more than 11,700 people and killed more than 5,700 since it was declared in May, according to the latest government data. FRANCE 24's Emmet Livingstone reports from Kinshasa, DR Congo."
   },
   {
    "zrodlo": "France 24",
@@ -1359,46 +1398,6 @@
    "streszczenie": "A fire broke out on a busy highway in Egypt’s capital, Cairo, on Wednesday, killing at least 31 people after a fuel truck reportedly overturned. The suspected driver was arrested on Thursday, according to Egypt’s public prosecutor’s office."
   },
   {
-   "zrodlo": "France 24",
-   "kategoria": "NEWS",
-   "region": "europe",
-   "tytul": "Alleged Islamic State group propagandist Emily Konig on trial in France",
-   "url": "https://www.france24.com/en/video/20261126-alleged-islamic-state-group-propagandist-emily-konig-on-trial-in-france",
-   "opublikowano": "2026-11-26T11:27:35Z",
-   "opublikowano_surowe": "Thu, 26 Nov 2026 11:27:35 GMT",
-   "streszczenie": "Accused of being one of the Islamic State group's most active French propagandists, Emily Konig went on trial in Paris on Thursday. Originally from Brittany, Konig spent a decade in Syria before returning to France in 2022. She is charged with criminal association with a terrorist organisation and faces up to 30 years in prison if convicted. FRANCE 24's Luke Shrago is following the trial in Paris and joins us to explain the defence's strategy."
-  },
-  {
-   "zrodlo": "France 24",
-   "kategoria": "NEWS",
-   "region": "europe",
-   "tytul": "French media publish fresh claims of far-right leader Bardella's 'anti-Semitic torrent'",
-   "url": "https://www.france24.com/en/tv-shows/press-review/20261126-french-media-publish-fresh-claims-of-far-right-leader-bardella-s-anti-semitic-torrent",
-   "opublikowano": "2026-11-26T11:26:33Z",
-   "opublikowano_surowe": "Thu, 26 Nov 2026 11:26:33 GMT",
-   "streszczenie": "PRESS REVIEW – Thursday, November 26: French media outlets Mediapart and Le Monde publish an additional trove of messages purporting to show far-right leader Jordan Bardella's rampant anti-Semitic thoughts as a young member of the party in 2013. Also: France holds the first trial of a female jihadist, Émilie König. Kilmar Abrego Garcia, once the face of Donald Trump's brutal mass deportations, arrives in Spain. Plus: we find out why the rich world is in the midst of a \"sex recession.\""
-  },
-  {
-   "zrodlo": "France 24",
-   "kategoria": "NEWS",
-   "region": "europe",
-   "tytul": "France: Senior officials investigated over suspected leaks to far-right National Rally",
-   "url": "https://www.france24.com/en/video/20261126-france-senior-officials-investigated-over-suspected-leaks-to-far-right-national-rally",
-   "opublikowano": "2026-11-26T11:24:58Z",
-   "opublikowano_surowe": "Thu, 26 Nov 2026 11:24:58 GMT",
-   "streszczenie": "Two senior figures in France have been caught up in an investigation into suspected leaks to the far-right National Rally. The prefect of the Loiret and former top official at the Interior Ministry, Hugues Moutouh, has been removed from his post after being suspected of passing on confidential information about investigations. A deputy prosecutor in Paris, who was found at the party's headquarters during a police search, is now also under administrative inquiry"
-  },
-  {
-   "zrodlo": "France 24",
-   "kategoria": "NEWS",
-   "region": "europe",
-   "tytul": "EU Budget talks: France seeks to protect Common Agricultural Policy subsidies",
-   "url": "https://www.france24.com/en/video/20261126-eu-budget-talks-france-seeks-to-protect-common-agricultural-policy-subsidies",
-   "opublikowano": "2026-11-26T11:22:37Z",
-   "opublikowano_surowe": "Thu, 26 Nov 2026 11:22:37 GMT",
-   "streszczenie": "Leaders from EU countries are meeting in Brussels on Thursday and Friday for another round of talks on the EU's next multi-year budget. For France, the main aim of the negotiations is to prevent a reduction in the funding allocated to the Common Agricultural Policy, a subsidy vital for French agriculture – a position Macron made clear in a meeting with farmers unions in Paris on Wednesday."
-  },
-  {
    "zrodlo": "Politico Europe",
    "kategoria": "NEWS",
    "region": "europe",
@@ -1482,21 +1481,31 @@
    "zrodlo": "Politico Europe",
    "kategoria": "NEWS",
    "region": "europe",
-   "tytul": "Study shows stark differences in how much EU countries depend on US Big Tech",
-   "url": "https://www.politico.eu/article/stark-differences-in-how-much-eu-countries-depend-on-us-big-tech-survey-finds/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-   "opublikowano": "2026-11-26T05:00:00Z",
-   "opublikowano_surowe": "Thu, 26 Nov 2026 05:00:00 +0000",
-   "streszczenie": "More than 78% of Malta's national public service websites depend on U.S. tech, compared to less than 3% of Germany's."
-  },
-  {
-   "zrodlo": "Politico Europe",
-   "kategoria": "NEWS",
-   "region": "europe",
    "tytul": "Prostitution in Deutschland vor dem Aus?",
    "url": "https://www.politico.eu/podcast/berlin-playbook-podcast/prostitution-in-deutschland-vor-dem-aus/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
    "opublikowano": "2026-11-26T04:01:00Z",
    "opublikowano_surowe": "Thu, 26 Nov 2026 04:01:00 +0000",
    "streszczenie": "Präsentiert von YouTube."
+  },
+  {
+   "zrodlo": "Politico Europe",
+   "kategoria": "NEWS",
+   "region": "europe",
+   "tytul": "Why Jean-Luc Mélenchon has it in for Germany",
+   "url": "https://www.politico.eu/article/why-jean-luc-melenchon-has-it-in-for-germany/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+   "opublikowano": "2026-11-26T03:00:00Z",
+   "opublikowano_surowe": "Thu, 26 Nov 2026 03:00:00 +0000",
+   "streszczenie": "France's far-left leader is tapping into a growing unease with Berlin across the political spectrum."
+  },
+  {
+   "zrodlo": "Euronews",
+   "kategoria": "NEWS",
+   "region": "europe",
+   "tytul": "Aerial footage shows diesel tanker sinking off Ibiza",
+   "url": "https://www.euronews.com/2026/11/26/aerial-footage-shows-diesel-tanker-sinking-off-ibiza",
+   "opublikowano": "2026-11-26T14:40:10Z",
+   "opublikowano_surowe": "Thu, 26 Nov 2026 15:40:10 +0100",
+   "streszczenie": "A tanker carrying around 7,000 tonnes of diesel has capsized off Ibiza, prompting Spanish authorities to assess the risk of marine pollution. One crew member died after all 17 people on board were rescued."
   },
   {
    "zrodlo": "Euronews",
@@ -1517,6 +1526,16 @@
    "opublikowano": "2026-11-26T13:33:12Z",
    "opublikowano_surowe": "Thu, 26 Nov 2026 14:33:12 +0100",
    "streszczenie": "Tourists flock to Kyoto, Japan, to admire vibrant autumn foliage as red, orange and golden maple leaves transform the former imperial capital."
+  },
+  {
+   "zrodlo": "Euronews",
+   "kategoria": "NEWS",
+   "region": "europe",
+   "tytul": "Passenger flights diverted as Kuwait army intercepts Iranian drone attack",
+   "url": "https://www.euronews.com/2026/11/26/civilian-flights-diverted-as-kuwait-army-intercepts-iranian-drone-attack",
+   "opublikowano": "2026-11-26T13:19:28Z",
+   "opublikowano_surowe": "Thu, 26 Nov 2026 14:19:28 +0100",
+   "streszczenie": "Kuwait's military said four people were injured after \"a number of hostile\" Iranian drones were detected and intercepted in its airspace. Flights crossing Iraq toward the Gulf were given new headings ahead of Kuwait, shifting the international corridor."
   },
   {
    "zrodlo": "Euronews",
@@ -1627,26 +1646,6 @@
    "opublikowano": "2026-11-26T08:00:43Z",
    "opublikowano_surowe": "Thu, 26 Nov 2026 09:00:43 +0100",
    "streszczenie": "Amid Kabul’s busy streets, Shamsuddin and Omran sell up to 700 colourful balloons a day, turning memories of war and poverty into moments of joy."
-  },
-  {
-   "zrodlo": "Euronews",
-   "kategoria": "NEWS",
-   "region": "europe",
-   "tytul": "Europe’s €2 trillion punch-up: Welcome to the Brussels fight club",
-   "url": "https://www.euronews.com/2026/11/26/europes-2-trillion-punch-up-welcome-to-the-brussels-fight-club",
-   "opublikowano": "2026-11-26T07:24:16Z",
-   "opublikowano_surowe": "Thu, 26 Nov 2026 08:24:16 +0100",
-   "streszczenie": "Good morning. Leo Cendrowicz here with your Thursday newsletter. We have almighty punch-up on our agenda today, as EU leaders gather in Brussels to brawl over their seven-year budget – a slugfest that almost certainly won’t be resolved by the end of the summit."
-  },
-  {
-   "zrodlo": "Euronews",
-   "kategoria": "NEWS",
-   "region": "europe",
-   "tytul": "King tides and powerful waves destroy pier and flood homes in California",
-   "url": "https://www.euronews.com/video/2026/11/26/king-tides-and-powerful-waves-destroy-pier-and-flood-homes-in-california",
-   "opublikowano": "2026-11-26T07:13:50Z",
-   "opublikowano_surowe": "Thu, 26 Nov 2026 08:13:50 +0100",
-   "streszczenie": "King tides and powerful waves destroy part of Pacifica's pier and flood coastal homes in California, US, prompting warnings from authorities."
   },
   {
    "zrodlo": "Euractiv",
@@ -1802,6 +1801,26 @@
    "zrodlo": "RMF24",
    "kategoria": "NEWS",
    "region": "poland",
+   "tytul": "Przywileje dla funkcjonariuszy. Senat przyjął ustawę o Karcie Rodziny Mundurowej",
+   "url": "https://www.rmf24.pl/fakty/polska/news-przywileje-dla-funkcjonariuszy-senat-przyjal-ustawe-o-karcie,nIdn,1027850",
+   "opublikowano": "2026-11-26T14:41:00Z",
+   "opublikowano_surowe": "Thu, 26 Nov 2026 15:41:00 +0100",
+   "streszczenie": "Przywileje dla funkcjonariuszy. Senat przyjął ustawę o Karcie Rodziny Mundurowej"
+  },
+  {
+   "zrodlo": "RMF24",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Zakopane podnosi opłatę miejscową. Od 2027 roku turyści zapłacą więcej za nocleg",
+   "url": "https://www.rmf24.pl/regiony/zakopane/news-zakopane-podnosi-oplate-miejscowa-od-2027-roku-turysci-zapla,nIdn,1027846",
+   "opublikowano": "2026-11-26T14:24:00Z",
+   "opublikowano_surowe": "Thu, 26 Nov 2026 15:24:00 +0100",
+   "streszczenie": "Zakopane podnosi opłatę miejscową. Od 2027 roku turyści zapłacą więcej za nocleg"
+  },
+  {
+   "zrodlo": "RMF24",
+   "kategoria": "NEWS",
+   "region": "poland",
    "tytul": "Czołowy rosyjski generał został aresztowany. Czystki trwają",
    "url": "https://www.rmf24.pl/fakty/swiat/news-czolowy-rosyjski-general-zostal-aresztowany-czystki-trwaja,nIdn,1027841",
    "opublikowano": "2026-11-26T14:19:00Z",
@@ -1929,24 +1948,174 @@
    "streszczenie": "Kto przemówi w imieniu Przyjaciół Spójności, a więc także Polski? Zamieszanie przed szczytem UE"
   },
   {
-   "zrodlo": "RMF24",
+   "zrodlo": "TVN24",
    "kategoria": "NEWS",
    "region": "poland",
-   "tytul": "WOŚP pokazała logo i puszkę 35. Finału. W 2027 roku orkiestra zagra dla noworodków",
-   "url": "https://www.rmf24.pl/fakty/polska/news-logo-35-finalu-wosp-juz-zaprezentowane-w-2027-roku-orkiestra,nIdn,1027813",
-   "opublikowano": "2026-11-26T12:18:00Z",
-   "opublikowano_surowe": "Thu, 26 Nov 2026 13:18:00 +0100",
-   "streszczenie": "WOŚP pokazała logo i puszkę 35. Finału. W 2027 roku orkiestra zagra dla noworodków"
+   "tytul": "Zakaz hodowli klatkowej. Zapadł ważny wyrok TSUE",
+   "url": "https://tvn24.pl/biznes/ze-swiata/zakaz-chowu-klatkowego-w-unii-europejskiej-tsue-nakazal-komisji-europejskiej-przedstawic-harmonogram-dzialan-st9359439?source=rss",
+   "opublikowano": "2026-11-26T14:49:32Z",
+   "opublikowano_surowe": "Thu, 26 Nov 2026 14:49:32 GMT",
+   "streszczenie": "Komisja Europejska nie podjęła zapowiadanych działań zmierzających do zakończenia chowu klatkowego części zwierząt gospodarskich - orzekł w środę Sąd Unii Europejskiej. Unijny organ wykonawczy będzie musiał przedstawić harmonogram dalszych prac lub formalnie wycofać się ze swoich wcześniejszych deklaracji."
   },
   {
-   "zrodlo": "RMF24",
+   "zrodlo": "TVN24",
    "kategoria": "NEWS",
    "region": "poland",
-   "tytul": "Dobre wieści dla kierowców. Są nowe maksymalne ceny paliw",
-   "url": "https://www.rmf24.pl/fakty/ekonomia/news-dobre-wiesci-dla-kierowcow-sa-nowe-maksymalne-ceny-paliw,nIdn,1027820",
-   "opublikowano": "2026-11-26T12:16:00Z",
-   "opublikowano_surowe": "Thu, 26 Nov 2026 13:16:00 +0100",
-   "streszczenie": "Dobre wieści dla kierowców. Są nowe maksymalne ceny paliw"
+   "tytul": "Świnki morskie przy pojemniku na odpady",
+   "url": "https://tvn24.pl/trojmiasto/swinki-morskie-przy-pojemniku-na-odpady-st9358721?source=rss",
+   "opublikowano": "2026-11-26T14:43:30Z",
+   "opublikowano_surowe": "Thu, 26 Nov 2026 14:43:30 GMT",
+   "streszczenie": "Dwie świnki morskie zostały znalezione w klatce pozostawionej przy pojemniku na odpady. Mieszkaniec, który je zauważył, powiadomił straż miejską. Strażnicy zabezpieczyli zwierzęta i przewieźli je do swojej siedziby."
+  },
+  {
+   "zrodlo": "TVN24",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Wraca serial \"The Pitt\". Premiera trzeciego sezonu za kilka tygodni",
+   "url": "https://tvn24.pl/kultura-i-styl/the-pitt-wraca-z-3-sezonem-data-premiery-na-poczatku-2027-roku-gdzie-ogladac-st9358584?source=rss",
+   "opublikowano": "2026-11-26T14:41:22Z",
+   "opublikowano_surowe": "Thu, 26 Nov 2026 14:41:22 GMT",
+   "streszczenie": "Jeden dyżur na szpitalnym oddziale ratunkowym, który trwa przez pełen sezon serialu? Tylko w \"The Pitt\". Nagradzana produkcja z nowymi odcinkami wróci już w styczniu do HBO."
+  },
+  {
+   "zrodlo": "TVN24",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "\"Top Gear\" wróci do BBC z nowym prowadzącym. Hammond zabrał głos",
+   "url": "https://tvn24.pl/kultura-i-styl/gordon-ramsay-nowym-prowadzacym-top-gear-st9358937?source=rss",
+   "opublikowano": "2026-11-26T14:28:45Z",
+   "opublikowano_surowe": "Thu, 26 Nov 2026 14:28:45 GMT",
+   "streszczenie": "Jeden z najpopularniejszych programów motoryzacyjnych na świecie po kilku latach wróci na antenę BBC. Stacja zapowiedziała nową odsłonę show ze słynnym szefem kuchni w roli prowadzącego. Jak ocenia ten wybór Richard Hammond, który występował w roli współprowadzącego przez ponad dekadę?"
+  },
+  {
+   "zrodlo": "TVN24",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Dawid K. z kolejnymi zarzutami. Co mu grozi?",
+   "url": "https://tvn24.pl/zdrowie/dawid-k-z-kolejnymi-zarzutami-sprawa-warszawskiego-szpitala-poludniowego-st9358962?source=rss",
+   "opublikowano": "2026-11-26T14:23:40Z",
+   "opublikowano_surowe": "Thu, 26 Nov 2026 14:23:40 GMT",
+   "streszczenie": "Naczelny Rzecznik Odpowiedzialności Zawodowej postawił zarzuty byłemu koordynatorowi SOR w Warszawskim Szpitalu Południowym Dawidowi K. Dotyczą one rzetelności wykonywania zawodu lekarza, naruszenia etyki i podważania zaufania do zawodu."
+  },
+  {
+   "zrodlo": "TVN24",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Dziennikarz przerwał rozmowę z posłem Rozwoju Plus. Wcześniej polityk zarzucił mu kłamstwo",
+   "url": "https://tvn24.pl/polska/tomasz-terlikowski-przerwal-rozmowe-z-poslem-rozwoju-plus-nie-pozwala-pan-mi-prowadzic-tej-rozmowy-st9358759?source=rss",
+   "opublikowano": "2026-11-26T14:21:29Z",
+   "opublikowano_surowe": "Thu, 26 Nov 2026 14:21:29 GMT",
+   "streszczenie": "Dziennikarz Tomasz Terlikowski przerwał wywiad z posłem Rozwoju Plus Pawłem Jabłońskim na antenie radia RMF FM. Wcześniej polityk zarzucił prowadzącemu kłamstwo w sprawie kompetencji rządu i prezydenta dotyczących polityki zagranicznej. O wyjaśnienie przytoczonych w dyskusji zapisów konstytucji zwróciliśmy się do konstytucjonalistki Moniki Haczkowskiej."
+  },
+  {
+   "zrodlo": "TVN24",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Ważą kilka gramów, ale potrafią pokonywać tysiące kilometrów",
+   "url": "https://tvn24.pl/tvnmeteo/swiat/waza-kilka-gramow-ale-potrafia-pokonywac-tysiace-kilometrow-st9356437?source=rss",
+   "opublikowano": "2026-11-26T14:19:53Z",
+   "opublikowano_surowe": "Thu, 26 Nov 2026 14:19:53 GMT",
+   "streszczenie": "Maleńkie kolibry potrafią pokonywać zadziwiająco długie dystanse. Przy pomocy odpowiednio mikroskopijnych czujników naukowcy opisali, jakie odległości pokonują ptaki oraz jakimi trasami latają. Niektóre z podróży zdziwiły badaczy."
+  },
+  {
+   "zrodlo": "TVN24",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Dwaj mężczyźni zmarli w aucie pośrodku lasu",
+   "url": "https://tvn24.pl/tvnwarszawa/okolice/sluchocin-dwaj-mezczyzni-zmarli-w-aucie-posrod-lasu-nie-stwierdzono-zadnych-obrazen-st9359032?source=rss",
+   "opublikowano": "2026-11-26T14:03:49Z",
+   "opublikowano_surowe": "Thu, 26 Nov 2026 14:03:49 GMT",
+   "streszczenie": "Prokuratura wszczęła śledztwo w sprawie śmierci dwóch mężczyzn, odnalezionych w aucie na terenie leśnym koło Węgrowa (Mazowieckie). Wstępne ustalenia służb nie wskazują, aby do ich zgonu przyczyniły się osoby trzecie."
+  },
+  {
+   "zrodlo": "TVN24",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Miało być centrum handlowe, wybudują duże osiedle i dom kultury",
+   "url": "https://tvn24.pl/tvnwarszawa/wilanow/mialo-byc-centrum-handlowe-wybuduja-duze-osiedle-i-dom-kultury-st9357424?source=rss",
+   "opublikowano": "2026-11-26T14:03:13Z",
+   "opublikowano_surowe": "Thu, 26 Nov 2026 14:03:13 GMT",
+   "streszczenie": "Jeśli to osiedle powstanie, dzielnicy przybędzie ponad 1200 mieszkańców. Oprócz nowych bloków w Miasteczku Wilanów deweloper obiecuje \"oblany zielenią\" młodzieżowy dom kultury z kawiarnią, salą baletową czy studiem nagrań. Są już pierwsze szczegóły inwestycji."
+  },
+  {
+   "zrodlo": "TVN24",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Osiem lat więzienia dla byłego polityka PO. Wyrok za molestowanie nieletnich",
+   "url": "https://tvn24.pl/poznan/poznan-osiem-lat-wiezienia-dla-bylego-polityka-po-wyrok-za-molestowanie-nieletnich-st9358881?source=rss",
+   "opublikowano": "2026-11-26T13:54:34Z",
+   "opublikowano_surowe": "Thu, 26 Nov 2026 13:54:34 GMT",
+   "streszczenie": "Sąd złagodził wyrok dla byłego szefa struktur Platformy Obywatelskiej w wielkopolskim Złotowie. Prokuratura zarzucała Piotrowi P. molestowanie nieletnich. W drugim procesie apelacyjnym sąd skazał go łącznie na osiem lat więzienia - to o trzy lata mniej niż w pierwszej instancji."
+  },
+  {
+   "zrodlo": "TVN24",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "\"Zmienił jeden akord, od razu wiedział\". Wojciech Balczun wspomina Andy'ego Taylora",
+   "url": "https://tvn24.pl/kultura-i-styl/wojciech-balczun-wspomina-andy-ego-taylora-brytyjski-muzyk-byl-producentem-plyty-zespolu-chemia-st9358956?source=rss",
+   "opublikowano": "2026-11-26T13:49:24Z",
+   "opublikowano_surowe": "Thu, 26 Nov 2026 13:49:24 GMT",
+   "streszczenie": "Minister Wojciech Balczun podzielił się wspomnieniami na temat zmarłego niedawno Andy'ego Taylora. Okazuje się, że ceniony muzyk angażował się w proces twórczy polskiego zespołu rockowego."
+  },
+  {
+   "zrodlo": "TVN24",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Radioaktywne śmieci przy szpitalu. \"Normy przekroczone o 300 procent\"",
+   "url": "https://tvn24.pl/krakow/krakow-radioaktywne-smieci-w-szpitalnym-kontenerze-st9358953?source=rss",
+   "opublikowano": "2026-11-26T13:37:57Z",
+   "opublikowano_surowe": "Thu, 26 Nov 2026 13:37:57 GMT",
+   "streszczenie": "Czujniki śmieciarki odbierającej odpady ze szpitala imienia Rydygiera w Krakowie zarejestrowały przekroczone normy promieniowania radioaktywnego. Na miejscu działają straż pożarna i sanepid. Szpital zapewnia, że nie ma zagrożenia dla pacjentów."
+  },
+  {
+   "zrodlo": "TVN24",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Koniec batalii prawnej Angeliny Jolie i Brada Pitta. Jest oświadczenie",
+   "url": "https://tvn24.pl/kultura-i-styl/angelina-jolie-i-brad-pitt-zdecydowali-w-sprawie-sporu-o-winnice-st9358910?source=rss",
+   "opublikowano": "2026-11-26T13:37:14Z",
+   "opublikowano_surowe": "Thu, 26 Nov 2026 13:37:14 GMT",
+   "streszczenie": "Byli małżonkowie Angelina Jolie i Brad Pitt zakończyli batalię prawną, która dotyczyła winnicy na terenie posiadłości we Francji. Chateau Miraval kupili w 2008 roku. Po rozwodzie winnica stała się powodem długotrwałego konfliktu."
+  },
+  {
+   "zrodlo": "TVN24",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "\"Obwarzanek krakowski jest domknięty\". Jako drugi w Polsce",
+   "url": "https://tvn24.pl/krakow/krakow-otwarcie-wezla-mistrzejowice-kierowcy-moga-juz-w-pelni-korzystac-z-obwodnicy-st9358756?source=rss",
+   "opublikowano": "2026-11-26T13:33:20Z",
+   "opublikowano_surowe": "Thu, 26 Nov 2026 13:33:20 GMT",
+   "streszczenie": "Od czwartku kierowcy mogą już korzystać z węzła Mistrzejowice, który połączył północną obwodnicę Krakowa S52 i drogę ekspresową S7. Teraz miasto jest otoczone tak zwanym ringiem złożonym z dróg szybkiego ruchu. Ma to między innymi zmniejszyć korki w Krakowie."
+  },
+  {
+   "zrodlo": "TVN24",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Bali się, że ich skargi nic nie dadzą. \"Czujemy ulgę pomieszaną z euforią\"",
+   "url": "https://tvn24.pl/polska/warszawa-dyrektorka-domu-kombatanta-stracila-stanowisko-st9357525?source=rss",
+   "opublikowano": "2026-11-26T13:32:54Z",
+   "opublikowano_surowe": "Thu, 26 Nov 2026 13:32:54 GMT",
+   "streszczenie": "Dyrektorka Domu Kombatanta straciła stanowisko po publikacjach tvn24.pl i \"Gazety Wyborczej\". W tym domu pomocy społecznej na warszawskim Bemowie miało dochodzić do nadużyć, a placówka ma 170 podopiecznych. Pracownicy DPS mówili nam m.in. o przepracowaniu, mobbingu, krzykach. Rodziny seniorów - o pogardzie, nieopatrzonych ranach, odwodnieniu."
+  },
+  {
+   "zrodlo": "Polsat News",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Samospalenie pod Pałacem Prezydenckim. Nowe informacje o ofierze",
+   "url": "https://www.polsatnews.pl/wiadomosc/2026-11-26/samospalenie-pod-palacem-prezydenckim-nowe-informacje-o-ofierze/",
+   "opublikowano": "2026-11-26T14:52:00Z",
+   "opublikowano_surowe": "Thu, 26 Nov 2026 15:52:00 +0100",
+   "streszczenie": "Nowe fakty o człowieku, który podpalił się pod Pałacem Prezydenckim. - Ten mężczyzna przebywa obecnie w placówce medycznej - powiedział na antenie Polsat News asp. Jakub Pacyniak ze stołecznej policji. Funkcjonariusz potwierdził, że sprawcą zdarzenia jest 22-letni Ukrainiec."
+  },
+  {
+   "zrodlo": "Polsat News",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Wyspę trawią dziesięciometrowe płomienie. Strażacy nie mogą walczyć z ogniem",
+   "url": "https://www.polsatnews.pl/wiadomosc/2026-11-26/na-miejscu-10-metrowe-plomienie-pozary-dlawia-australijska-wyspe/",
+   "opublikowano": "2026-11-26T14:26:00Z",
+   "opublikowano_surowe": "Thu, 26 Nov 2026 15:26:00 +0100",
+   "streszczenie": "Gigantyczny pożar strawił już około 10 proc. powierzchni Wyspy Flindersa w Australii, niszcząc budynki i zmuszając mieszkańców i zwierzęta do ucieczki. Warunki pogodowe uniemożliwiają strażakom walkę z żywiołem. Rządowa agencja synoptyczna udostępniła nagranie satelitarne, na którym widać, jak kłęby dymu podążają na południe za pożarem."
   },
   {
    "zrodlo": "Polsat News",
@@ -2079,24 +2248,104 @@
    "streszczenie": "Krótkie zabiegi rozliczane jak złożone procedury i niebotyczne zarobki lekarzy - Wirtualna Polska donosi o kolejnym szpitalu, tym razem w Koszalinie, w którym według kontroli NFZ kilka minut pracy bezpodstawnie kończyło się wystawieniem rachunku na niemal 30 tys. zł. Jak czytamy, efektem takich praktyk mogło być nienależne wypłacenie przez fundusz kwoty oscylującej w granicach 100-120 mln zł."
   },
   {
-   "zrodlo": "Polsat News",
+   "zrodlo": "Onet Wiadomości",
    "kategoria": "NEWS",
    "region": "poland",
-   "tytul": "Zwrot w sprawie finansowania TK. \"Premier wydał dyspozycję\"",
-   "url": "https://www.polsatnews.pl/wiadomosc/2026-11-26/zwrot-w-sprawie-finansowania-tk-premier-wydal-dyspozycje/",
-   "opublikowano": "2026-11-26T09:17:00Z",
-   "opublikowano_surowe": "Thu, 26 Nov 2026 10:17:00 +0100",
-   "streszczenie": "Donald Tusk zdecydował, że Trybunał Konstytucyjny uzyska finansowanie z Banku Gospodarstwa Krajowego - potwierdził rzecznik rządu Adam Szłapka. Środki ma zabezpieczyć minister finansów Andrzej Domański. Państwo musi działać. Do sprawy odniósł się też szef kancelarii premiera Jan Grabiec."
+   "tytul": "Uzależnienie od technologii z USA. Polska w lepszej sytuacji niż większość bogatszych państw Europy [BADANIE]",
+   "url": "https://wiadomosci.onet.pl/politico/uzaleznienie-od-technologii-z-usa-polska-w-lepszej-sytuacji-niz-wiekszosc-krajow-ue/y738k4j",
+   "opublikowano": "2026-11-26T14:51:49Z",
+   "opublikowano_surowe": "Thu, 26 Nov 2026 14:51:49 GMT",
+   "streszczenie": "Nawet jeśli UE jest zjednoczona — i zmotywowana groźbami Waszyngtonu — w dążeniu do zmniejszenia swojej zależności od technologii oferowanych przez gigantów branży z USA, każde państwo będzie musiało usamodzielnić się we własnym zakresie. Nowe badania pokazują, że niektóre z nich czeka w związku z tym o wiele większe wyzwanie niż inne."
   },
   {
-   "zrodlo": "Polsat News",
+   "zrodlo": "Onet Wiadomości",
    "kategoria": "NEWS",
    "region": "poland",
-   "tytul": "Zięć Trumpa o zmianie granic w Europie. Ekspert: Traktujmy to jako marzenia",
-   "url": "https://www.polsatnews.pl/wiadomosc/2026-11-26/nie-chodzi-o-to-kto-ma-racje-kushner-uderzyl-w-ukraine-i-europe/",
-   "opublikowano": "2026-11-26T09:04:00Z",
-   "opublikowano_surowe": "Thu, 26 Nov 2026 10:04:00 +0100",
-   "streszczenie": "Specjalny wysłannik Białego Domu Jared Kushner stwierdził, że w ramach rozmów pokojowych konieczna może być rewizja granic w Europie. - Większość granic w Europie zmieniała się z czasem - stwierdził zięć Donalda Trumpa. - Traktujmy to jako marzenia pewnego kręgu politycznego lekko oderwanego od rzeczywistości - skomentował na antenie Polsat News prof. Piotr Mickiewicz z Uniwersytetu Gdańskiego."
+   "tytul": "Ciemne chmurny nad byłym ambasadorem Wielkiej Brytanii w USA",
+   "url": "https://wiadomosci.onet.pl/politico/ciemne-chmurny-nad-bylym-ambasadorem-wielkiej-brytanii-w-usa-nowe-dokumenty/hthj7f6",
+   "opublikowano": "2026-11-26T14:50:27Z",
+   "opublikowano_surowe": "Thu, 26 Nov 2026 14:50:27 GMT",
+   "streszczenie": "Peter Mandelson nie zdołał sprzedać swoich udziałów w firmie lobbingowej Global Counsel i próbował wpływać na decyzje podejmowane w siedzibie premiera przy Downing Street 10 po objęciu stanowiska ambasadora w USA — wynika z nowo opublikowanej partii dokumentów dotyczących jego nominacji."
+  },
+  {
+   "zrodlo": "Onet Wiadomości",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Karol Nawrocki pod presją. Rząd szykuje się na weto",
+   "url": "https://wiadomosci.onet.pl/tylko-w-onecie/karol-nawrocki-pod-presja-rzad-szykuje-sie-na-weto/0elf7k6",
+   "opublikowano": "2026-11-26T14:47:05Z",
+   "opublikowano_surowe": "Thu, 26 Nov 2026 14:47:05 GMT",
+   "streszczenie": "Nieoficjalne sygnały płynące z Pałacu Prezydenckiego wskazują, że w tym momencie weto wobec nowych progów PIT jest bardziej prawdopodobne niż podpis. Minister finansów Andrzej Domański mówi już o ewentualnym planie \"B\". Jeśli Karol Nawrocki odrzuci ustawę, rząd zamierza wykorzystać tę decyzję, by uderzyć w prezydenta, który zaczyna wpadać w sondażowy dołek."
+  },
+  {
+   "zrodlo": "Onet Wiadomości",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Niemiecki biznesmen miał wyposażać przemytników migrantów. Grozi mu 15 lat więzienia",
+   "url": "https://wiadomosci.onet.pl/swiat/niemiecki-przedsiebiorca-dostarczal-pontony-przemytnikom-z-kanalu-la-manche/136jz3s",
+   "opublikowano": "2026-11-26T14:42:36Z",
+   "opublikowano_surowe": "Thu, 26 Nov 2026 14:42:36 GMT",
+   "streszczenie": "Jego firma sprzedaje skutery wodne, mniejsze łodzie, ale przede wszystkim pontony, silniki i kamizelki ratunkowe. Do najlepszych klientów przedsiębiorstwa mieli należeć klany pochodzenia kurdyjskiego, które każdego roku przerzucają przez kanał La Manche dziesiątki tysięcy uchodźców do Wielkiej Brytanii."
+  },
+  {
+   "zrodlo": "Onet Wiadomości",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Ponad połowa asystentów z TK chce współpracować z nowymi sędziami. Nawet asystent Święczkowskiego",
+   "url": "https://wiadomosci.onet.pl/kraj/nowi-sedziowie-robia-porzadki-w-tk-pierwszy-sygnal-przyszedl-od-asystentow/4dr9s8y",
+   "opublikowano": "2026-11-26T14:35:23Z",
+   "opublikowano_surowe": "Thu, 26 Nov 2026 14:35:23 GMT",
+   "streszczenie": "Ponad połowa asystentów wzięła udział w czwartkowym spotkaniu z nowymi sędziami Trybunału Konstytucyjnego — ustalił Onet. Pojawili się nawet asystenci zawieszonych sędziów Bogdana Święczkowskiego i Bartłomieja Sochańskiego. — Wyrazili wolę \"przeszeregowania\" ich do innych sędziów, bo obaj panowie prezes i wiceprezes raczej pracować na razie nie będą, bo mogą usłyszeć zarzuty karne — mówi Onetowi jeden z nowych sędziów Trybunału."
+  },
+  {
+   "zrodlo": "Onet Wiadomości",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Pierwsza pomoc to nie teoria. Program Społecznik stawia na praktykę!",
+   "url": "https://wiadomosci.onet.pl/szczecin/pierwsza-pomoc-dla-kazdego-jak-program-spolecznik-zmienia-pomorze-zachodnie/78n3q8y",
+   "opublikowano": "2026-11-26T14:30:15Z",
+   "opublikowano_surowe": "Thu, 26 Nov 2026 14:30:15 GMT",
+   "streszczenie": "Prawie co czwarty Polak przyznaje, że nie potrafiłby udzielić pierwszej pomocy — wynika z badania CBOS z 2025 r. Tymczasem w sytuacji zagrożenia liczą się pierwsze minuty. Szybka reakcja świadków zdarzenia może mieć decydujące znaczenie. Dlatego tak ważna jest systematyczna edukacja. Na Pomorzu Zachodnim dzięki Programowi Społecznik mieszkańcy mają okazję regularnie ćwiczyć umiejętności, które mogą uratować życie."
+  },
+  {
+   "zrodlo": "Onet Wiadomości",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "\"Było blisko\". Szwedzki dowódca opisał, jak wyglądała akcja nad Polską",
+   "url": "https://wiadomosci.onet.pl/swiat/bylo-blisko-szwedzki-dowodca-opisal-jak-wygladala-akcja-nad-polska/0kqhx5r",
+   "opublikowano": "2026-11-26T14:30:06Z",
+   "opublikowano_surowe": "Thu, 26 Nov 2026 14:30:06 GMT",
+   "streszczenie": "Szwedzkie myśliwce miały zielone światło, aby zestrzelić pocisk, który w piątek, 20 listopada, wleciał w polską przestrzeń powietrzną. Szwedzki dowódca wyjaśnia, dlaczego nie zdecydowano się na oddanie strzału."
+  },
+  {
+   "zrodlo": "Onet Wiadomości",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Zignorowali zapory i weszli na tory w Rzeszowie. Pięć osób z mandatami",
+   "url": "https://wiadomosci.onet.pl/rzeszow/zignorowali-opuszczone-rogatki-w-rzeszowie-piesi-zaplaca-po-2-tys-zl/2t6slvh",
+   "opublikowano": "2026-11-26T14:29:04Z",
+   "opublikowano_surowe": "Thu, 26 Nov 2026 14:29:04 GMT",
+   "streszczenie": "Grupa pięciu pieszych, która mimo opuszczonych rogatek i czerwonych świateł weszła na tory w Rzeszowie, została ukarana mandatami. Każda z osób musi zapłacić 2 tys. zł."
+  },
+  {
+   "zrodlo": "Onet Wiadomości",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Cios dla Rosji. Armenia potwierdza, że chce do UE",
+   "url": "https://wiadomosci.onet.pl/swiat/mala-armenia-stawia-sie-rosji-zdecydowana-deklaracja-premiera/cwjrqsq",
+   "opublikowano": "2026-11-26T14:24:51Z",
+   "opublikowano_surowe": "Thu, 26 Nov 2026 14:24:51 GMT",
+   "streszczenie": "Premier Armenii Nikol Paszynian oświadczył w czwartek, że jego rząd jest zdecydowany dążyć do członkostwa w UE pomimo napięć z Moskwą w tej sprawie. Wypowiedź pojawiła się zaledwie kilka dni przed planowaną wizytą przywódcy w Rosji."
+  },
+  {
+   "zrodlo": "Onet Wiadomości",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Loty, premie i mieszkania. Tak brzmi nowy plan dla Syryjczyków w Niemczech",
+   "url": "https://wiadomosci.onet.pl/swiat/loty-premia-i-mieszkania-tak-brzmi-nowy-plan-dla-syryjczykow-w-niemczech/7q42sm7",
+   "opublikowano": "2026-11-26T14:23:17Z",
+   "opublikowano_surowe": "Thu, 26 Nov 2026 14:23:17 GMT",
+   "streszczenie": "Od stycznia do października 2026 r. 5468 obywateli Syrii opuściło Niemcy dzięki państwowemu wsparciu. Do tego dochodzi szacunkowo 3000 wyjazdów bez wsparcia finansowego. Rząd w Berlinie uważa, że to zdecydowanie za mało. W nowym roku liczba osób powracających ma drastycznie wzrosnąć. A część z nich nawet deportowana."
   },
   {
    "zrodlo": "Onet Wiadomości",
@@ -2147,106 +2396,6 @@
    "opublikowano": "2026-11-26T13:58:59Z",
    "opublikowano_surowe": "Thu, 26 Nov 2026 13:58:59 GMT",
    "streszczenie": "Ukraińscy dyplomaci skontaktowali się z matką 22-letniego mężczyzny, który pozostaje na oddziale intensywnej terapii po tym, jak w środę 25 listopada podpalił się w pobliżu Pałacu Prezydenckiego w Warszawie."
-  },
-  {
-   "zrodlo": "Onet Wiadomości",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Bezpowrotna strata sięgająca bilionów rubli. Ekonomiści obliczyli, ile kosztuje Rosję wojna Putina. Niewyobrażalne kwoty",
-   "url": "https://wiadomosci.onet.pl/swiat/bezpowrotna-strata-rzedu-bilionow-rubli-tyle-kosztuje-rosje-wojna-putina/q9bllx9",
-   "opublikowano": "2026-11-26T13:57:51Z",
-   "opublikowano_surowe": "Thu, 26 Nov 2026 13:57:51 GMT",
-   "streszczenie": "19 bln rubli (938 mld zł) — tyle Rosja przeznaczyła na pokrycie całości bieżących wydatków służby zdrowia przez trzy lata w okresie 2022-2024. Wystarczyłaby zaledwie jedna piąta tej kwoty na odnowę i modernizację transportu publicznego oraz na uporządkowanie dróg regionalnych, które są w opłakanym stanie. Tych pieniędzy jednak nie ma — Kreml stracił je bezpowrotnie, wydając je na broń i amunicję. Okazuje się, że Putin storpedował cel gospodarczy, który sam sobie wyznaczył."
-  },
-  {
-   "zrodlo": "Onet Wiadomości",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Ukraina chwali się futurystyczną bronią. Już strąca rosyjskie drony",
-   "url": "https://wiadomosci.onet.pl/swiat/ukraina-pokazala-w-akcji-bron-laserowa-historyczny-strzal-w-drona-rosji/0691jc1",
-   "opublikowano": "2026-11-26T13:56:45Z",
-   "opublikowano_surowe": "Thu, 26 Nov 2026 13:56:45 GMT",
-   "streszczenie": "Ukraińska armia pokazała nagranie z pierwszego w historii strącenia odrzutowego drona za pomocą broni laserowej."
-  },
-  {
-   "zrodlo": "Onet Wiadomości",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Pociąg przez kilkaset metrów ciągnął 18-latkę na Węgrzech. Dziewczyna walczy o życie",
-   "url": "https://wiadomosci.onet.pl/swiat/pociag-ciagnal-18-latke-przez-kilkaset-metrow-na-wegrzech-dziewczyna-walczy-o-zycie/f5lbvxr",
-   "opublikowano": "2026-11-26T13:52:53Z",
-   "opublikowano_surowe": "Thu, 26 Nov 2026 13:52:53 GMT",
-   "streszczenie": "Pasek od torebki 18-letniej Viviany Stosz zaklinował się w drzwiach pociągu. Maszyna ruszyła, ciągnąc za sobą dziewczynę, co spowodowało u niej poważne obrażenia. Nastolatka przeszła już operację, jej nogi musiały zostać amputowane — relacjonuje węgierski portal Origo."
-  },
-  {
-   "zrodlo": "Onet Wiadomości",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Mafia śmieciowa zarabia miliony. Jak naukowcy pomagają wykrywać nielegalny handel odpadami?",
-   "url": "https://wiadomosci.onet.pl/kraj/nielegalny-obrot-odpadami-w-polsce-skala-problemu-zagraza-srodowisku/9t7lptv",
-   "opublikowano": "2026-11-26T13:50:00Z",
-   "opublikowano_surowe": "Thu, 26 Nov 2026 13:50:00 GMT",
-   "streszczenie": "Tysiące beczek z chemikaliami, fikcyjne dokumenty, wynajęte hale i firmy, które znikają, pozostawiając po sobie niebezpieczne odpady. Tak wygląda mechanizm działania grup zajmujących się nielegalnym obrotem odpadami. Skala problemu jest ogromna: w jednym z największych śledztw w Polsce zarzuty przedstawiono już 140 osobom, a koszt unieszkodliwienia ujawnionych odpadów oszacowano na ponad miliard złotych."
-  },
-  {
-   "zrodlo": "Onet Wiadomości",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Walka o pokój dla Ukrainy. Prezydent Finlandii ostrzega sojuszników",
-   "url": "https://wiadomosci.onet.pl/swiat/kiedy-koniec-wojny-w-ukrainie-prezydent-finlandii-ostrzega-sojusznikow/6rtv5sg",
-   "opublikowano": "2026-11-26T13:41:37Z",
-   "opublikowano_surowe": "Thu, 26 Nov 2026 13:41:37 GMT",
-   "streszczenie": "Prezydent Finlandii Alexander Stubb powiedział 18 listopada, że nie jest optymistą co do perspektyw zakończenia wojny Rosji przeciwko Ukrainie do końca 2026 r. W rozmowie z agencją Bloomberg wezwał sojuszników do przygotowania się na kolejną trudną zimę."
-  },
-  {
-   "zrodlo": "Onet Wiadomości",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "O co dokładnie chodzi w aferze Zondacrypto [WYJAŚNIAMY]",
-   "url": "https://wiadomosci.onet.pl/kraj/afera-zondacrypto-o-co-chodzi-kim-jest-przemyslaw-kral-wyjasniamy/pxh2d46",
-   "opublikowano": "2026-11-26T13:35:00Z",
-   "opublikowano_surowe": "Thu, 26 Nov 2026 13:35:00 GMT",
-   "streszczenie": "Setki milionów złotych strat zgłoszonych przez klientów, upadłość estońskiego operatora giełdy, zaginięcie jej założyciela oraz podejrzane przepływy pieniędzy do osób i instytucji związanych z prawicą — śledztwo w sprawie Zondacrypto obejmuje coraz więcej wątków. Wyjaśniamy, o co chodzi w najgłośniejszej aferze ostatnich miesięcy."
-  },
-  {
-   "zrodlo": "Onet Wiadomości",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Bruksela chce opodatkować cyfrowych gigantów. Waszyngton stawia sprawę jasno",
-   "url": "https://wiadomosci.onet.pl/politico/bruksela-chce-opodatkowac-cyfrowych-gigantow-waszyngton-stawia-sprawe-jasno/4my6687",
-   "opublikowano": "2026-11-26T13:19:53Z",
-   "opublikowano_surowe": "Thu, 26 Nov 2026 13:19:53 GMT",
-   "streszczenie": "Administracja Donalda Trumpa ostrzega przywódców UE przed opodatkowaniem wielkich firm technologicznych w momencie, gdy zbierają się oni w Brukseli, aby przeanalizować nowe opcje finansowania kolejnego budżetu Unii. Kwestia ta dzieli również same państwa członkowskie."
-  },
-  {
-   "zrodlo": "Onet Wiadomości",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Miał molestować dziewczynki. Sąd obniżył karę byłego działacza PO",
-   "url": "https://wiadomosci.onet.pl/poznan/byly-dzialacz-po-skazany-za-molestowanie-poznanski-sad-obnizyl-wyrok/tpdld08",
-   "opublikowano": "2026-11-26T13:12:51Z",
-   "opublikowano_surowe": "Thu, 26 Nov 2026 13:12:51 GMT",
-   "streszczenie": "Sąd Okręgowy w Poznaniu obniżył karę dla Piotra P., byłego szefa struktur Platformy Obywatelskiej w Złotowie (woj. wielkopolskie). Mężczyzna został skazany na osiem, a nie 11 lat więzienia. P. odpowiada za molestowanie dziewczynek."
-  },
-  {
-   "zrodlo": "Onet Wiadomości",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Amerykanie wiążą duże nadzieje z nowym Kongresem. Za porażki obwinią Trumpa [SONDAŻ]",
-   "url": "https://wiadomosci.onet.pl/politico/amerykanie-wiaza-duze-nadzieje-z-nowym-kongresem-za-porazki-obwinia-trumpa-sondaz/jmklejg",
-   "opublikowano": "2026-11-26T13:03:44Z",
-   "opublikowano_surowe": "Thu, 26 Nov 2026 13:03:44 GMT",
-   "streszczenie": "Nanowszy sondaż POLITICO wskazuje, że 76 proc. wyborców Demokratów oczekuje, iż Kongres osiągnie \"bardzo wiele\". Ponadto wyborcy w USA są gotowi wykazać wyrozumiałość wobec Demokratów, nawet jeśli nie uda im się obniżyć niektórych cen."
-  },
-  {
-   "zrodlo": "Onet Wiadomości",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Problemy z internetem w Rosji. Obywatele znów się skarżą",
-   "url": "https://wiadomosci.onet.pl/swiat/problemy-z-siecia-w-rosji-obywatele-znow-sie-skarza/rsltpfl",
-   "opublikowano": "2026-11-26T13:01:30Z",
-   "opublikowano_surowe": "Thu, 26 Nov 2026 13:01:30 GMT",
-   "streszczenie": "Rosyjscy użytkownicy zaczęli zgłaszać problemy z pobieraniem i aktualizowaniem sklepu z aplikacjami w Google Play — pisze serwis Wierstka. Skargi napływają od połowy listopada od abonentów różnych operatorów."
   },
   {
    "zrodlo": "Interia Fakty",
@@ -2402,6 +2551,36 @@
    "zrodlo": "Rzeczpospolita",
    "kategoria": "NEWS",
    "region": "poland",
+   "tytul": "Bernard Arnault nie oddaje władzy. Miliarder chce pracować do 95. roku życia",
+   "url": "https://sukces.rp.pl/biznes/art45547841-bernard-arnault-nie-oddaje-wladzy-miliarder-chce-pracowac-do-95-roku-zycia",
+   "opublikowano": "2026-11-26T14:51:25Z",
+   "opublikowano_surowe": "Thu, 26 Nov 2026 15:51:25 +0100",
+   "streszczenie": "Jak informują media, Bernard Arnault, twórca potęgi koncernu LVMH działającego na rynku dóbr luksusowych, zapewnił sobie 18 kolejnych lat kontroli nad rodzinną firmą. 77-letni dzisiaj potentat branży luksusowej od lat rozważa sukcesję, ale woli zostawić sobie wyjście awaryjne."
+  },
+  {
+   "zrodlo": "Rzeczpospolita",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Londyn przygotowuje się na konflikt zbrojny. „Musimy być gotowi do walki i zwycięstwa”",
+   "url": "https://www.rp.pl/konflikty-zbrojne/art45547991-londyn-przygotowuje-sie-na-konflikt-zbrojny-musimy-byc-gotowi-do-walki-i-zwyciestwa",
+   "opublikowano": "2026-11-26T14:47:48Z",
+   "opublikowano_surowe": "Thu, 26 Nov 2026 15:47:48 +0100",
+   "streszczenie": "Po incydencie z rosyjskimi pociskami na terytorium Polski Wielka Brytania wzmacnia swoją gotowość obronną. Resort obrony wysłał listy do około 100 tys. rezerwistów. Brytyjska armia jest obecnie najmniej liczna od czasów wojen napoleońskich."
+  },
+  {
+   "zrodlo": "Rzeczpospolita",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Kolejne myśliwce F-35 w Polsce. Ruszyły szkolenia",
+   "url": "https://radar.rp.pl/modernizacja-sil-zbrojnych/art45547901-kolejne-mysliwce-f-35-w-polsce-ruszyly-szkolenia",
+   "opublikowano": "2026-11-26T14:43:44Z",
+   "opublikowano_surowe": "Thu, 26 Nov 2026 15:43:44 +0100",
+   "streszczenie": "Dwa kolejne polskie samoloty F-35 wylądowały w 32. Bazie Lotnictwa Taktycznego w Łasku – przekazał w czwartek wicepremier, szef MON Władysław Kosiniak-Kamysz. Oznacza to, że w Polsce jest już 12 z 32 zamówionych nowoczesnych samolotów wielozadaniowych."
+  },
+  {
+   "zrodlo": "Rzeczpospolita",
+   "kategoria": "NEWS",
+   "region": "poland",
    "tytul": "Co dalej ze zgromadzeniem przed TK? Waldemar Żurek: To nie jest miejse na odpusty",
    "url": "https://www.rp.pl/polityka/art45547711-co-dalej-ze-zgromadzeniem-przed-tk-waldemar-zurek-to-nie-jest-miejse-na-odpusty",
    "opublikowano": "2026-11-26T14:01:26Z",
@@ -2519,34 +2698,154 @@
    "streszczenie": "W kontenerze na odpady przy krakowskim szpitalu im. Ludwika Rydygiera wykryto w czwartek materiały radioaktywne. Na miejscu działają strażacy z grupy ratownictwa chemiczno-ekologicznego oraz sanepid, a teren został odgrodzony. Ewakuacja placówki nie była konieczna."
   },
   {
-   "zrodlo": "Rzeczpospolita",
+   "zrodlo": "TVN Warszawa",
    "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Grabiec broni Kierwińskiego: tak mamy zbudowany system w Polsce",
-   "url": "https://www.rp.pl/polityka/art45547461-grabiec-broni-kierwinskiego-tak-mamy-zbudowany-system-w-polsce",
-   "opublikowano": "2026-11-26T12:46:15Z",
-   "opublikowano_surowe": "Thu, 26 Nov 2026 13:46:15 +0100",
-   "streszczenie": "System wpłat na kampanie wyborcze jest legalny i w pełni uczciwy – tak o doniesieniach o Marcinie Kierwińskim mówił w TVN24 szef Kancelarii Prezesa Rady Ministrów Jan Grabiec. Przekonywał, że darczyńcy nie mogli liczyć na „żadne funkcje”."
+   "region": "warsaw",
+   "tytul": "Dwaj mężczyźni zmarli w aucie pośrodku lasu",
+   "url": "https://tvn24.pl/tvnwarszawa/okolice/sluchocin-dwaj-mezczyzni-zmarli-w-aucie-posrod-lasu-nie-stwierdzono-zadnych-obrazen-st9359032?source=rss",
+   "opublikowano": "2026-11-26T14:03:49Z",
+   "opublikowano_surowe": "Thu, 26 Nov 2026 14:03:49 GMT",
+   "streszczenie": "Prokuratura wszczęła śledztwo w sprawie śmierci dwóch mężczyzn, odnalezionych w aucie na terenie leśnym koło Węgrowa (Mazowieckie). Wstępne ustalenia służb nie wskazują, aby do ich zgonu przyczyniły się osoby trzecie."
   },
   {
-   "zrodlo": "Rzeczpospolita",
+   "zrodlo": "TVN Warszawa",
    "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Sunderland – Jagiellonia. „Każdy kibic Jagiellonii zostanie usunięty”",
-   "url": "https://sport.rp.pl/pilka-nozna/art45546511-sunderland-jagiellonia-kazdy-kibic-jagiellonii-zostanie-usuniety",
-   "opublikowano": "2026-11-26T12:43:16Z",
-   "opublikowano_surowe": "Thu, 26 Nov 2026 13:43:16 +0100",
-   "streszczenie": "Po porażce w Sofii Jagiellonia walczy o przetrwanie w Lidze Europy. Przed nią wyjazdowy mecz z grającym w Premier League Sunderlandem. Piłkarze z Białegostoku nie będą mogli w czasie tego spotkania liczyć na doping swoich kibiców."
+   "region": "warsaw",
+   "tytul": "Miało być centrum handlowe, wybudują duże osiedle i dom kultury",
+   "url": "https://tvn24.pl/tvnwarszawa/wilanow/mialo-byc-centrum-handlowe-wybuduja-duze-osiedle-i-dom-kultury-st9357424?source=rss",
+   "opublikowano": "2026-11-26T14:03:13Z",
+   "opublikowano_surowe": "Thu, 26 Nov 2026 14:03:13 GMT",
+   "streszczenie": "Jeśli to osiedle powstanie, dzielnicy przybędzie ponad 1200 mieszkańców. Oprócz nowych bloków w Miasteczku Wilanów deweloper obiecuje \"oblany zielenią\" młodzieżowy dom kultury z kawiarnią, salą baletową czy studiem nagrań. Są już pierwsze szczegóły inwestycji."
   },
   {
-   "zrodlo": "Rzeczpospolita",
+   "zrodlo": "TVN Warszawa",
    "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Ma 8850 km i dryfuje przez Atlantyk. NASA monitoruje ogromny brązowy dywan z glonów",
-   "url": "https://klimat.rp.pl/planeta/art45546281-ma-8850-km-i-dryfuje-przez-atlantyk-nasa-monitoruje-ogromny-brazowy-dywan-z-glonow",
-   "opublikowano": "2026-11-26T12:38:52Z",
-   "opublikowano_surowe": "Thu, 26 Nov 2026 13:38:52 +0100",
-   "streszczenie": "Wielki Atlantycki Pas Gronorostów uznawany jest za największy zakwit glonów morskich odnotowany na Ziemi. Osiąga rekordowe rozmiary – rozciąga się na powierzchni blisko 9 tysięcy kilometrów i waży nawet 37,5 miliona ton."
+   "region": "warsaw",
+   "tytul": "Zbadali cmentarzysko pod przyszłym lotniskiem. W grobach miecze, koraliki, zapinki",
+   "url": "https://tvn24.pl/tvnwarszawa/okolice/baranow-na-terenie-przyszlego-lotniska-chowano-zmarlych-przez-stulecia-archeolodzy-zbadali-nekropolie-st9358511?source=rss",
+   "opublikowano": "2026-11-26T13:11:10Z",
+   "opublikowano_surowe": "Thu, 26 Nov 2026 13:11:10 GMT",
+   "streszczenie": "Gliniane urny, rytualnie łamane miecze i zdobiony wisior w kształcie półksiężyca. To część z kilku tysięcy zabytków wydobytych na terenie przyszłego lotniska w gminie Baranów. Archeolodzy zakończyli badania cmentarzyska, na którym przez ponad dwa stulecia chowano zmarłych."
+  },
+  {
+   "zrodlo": "TVN Warszawa",
+   "kategoria": "NEWS",
+   "region": "warsaw",
+   "tytul": "Pożar mieszkania, zamknięta ulica",
+   "url": "https://tvn24.pl/tvnwarszawa/targowek/warszawa-pozar-mieszkania-zamknieta-ulica-st9358778?source=rss",
+   "opublikowano": "2026-11-26T11:45:51Z",
+   "opublikowano_surowe": "Thu, 26 Nov 2026 11:45:51 GMT",
+   "streszczenie": "W mieszkaniu na warszawskim Targówku wybuchł pożar. W związku z działaniami służb występują utrudnienia w ruchu."
+  },
+  {
+   "zrodlo": "TVN Warszawa",
+   "kategoria": "NEWS",
+   "region": "warsaw",
+   "tytul": "Lotnisko Chopina objęte systemem antydronowym",
+   "url": "https://tvn24.pl/polska/polska-agencja-zeglugi-powietrznej-ma-system-anydronowy-w-warszawie-lotnisko-chopina-korzysta-na-tym-rozwiazaniu-st9358158?source=rss",
+   "opublikowano": "2026-11-26T11:05:26Z",
+   "opublikowano_surowe": "Thu, 26 Nov 2026 11:05:26 GMT",
+   "streszczenie": "Polska Agencja Żeglugi Powietrznej ma system antydronowy chroniący jej siedzibę na Lotnisku Chopina w Warszawie. Korzysta na tym też sam port - ustalił reporter TVN24+. Zabezpieczenie lotnisk przed dronami sprawdza w tej chwili Najwyższa Izba Kontroli."
+  },
+  {
+   "zrodlo": "TVN Warszawa",
+   "kategoria": "NEWS",
+   "region": "warsaw",
+   "tytul": "Wjechał w witrynę sklepu na parterze wieżowca",
+   "url": "https://tvn24.pl/tvnwarszawa/srodmiescie/warszawa-wjechal-w-witryne-sklepu-na-parterze-wiezowca-cosmopolitan-st9358380?source=rss",
+   "opublikowano": "2026-11-26T10:59:49Z",
+   "opublikowano_surowe": "Thu, 26 Nov 2026 10:59:49 GMT",
+   "streszczenie": "64-letni kierowca auta osobowego stracił panowanie nad pojazdem i uderzył w witrynę na parterze wieżowca Cosmopolitan w Śródmieściu. Nikt nie został ranny, ale doszło do poważnych uszkodzeń."
+  },
+  {
+   "zrodlo": "TVN Warszawa",
+   "kategoria": "NEWS",
+   "region": "warsaw",
+   "tytul": "Brak zgody na przedłużenie manifestacji przed Trybunałem Konstytucyjnym. Jest odwołanie",
+   "url": "https://tvn24.pl/tvnwarszawa/srodmiescie/warszawa-ratusz-nie-zgodzil-sie-na-przedluzenie-manifestacji-przed-trybunalem-konstytucyjnym-jest-odwolanie-st9358293?source=rss",
+   "opublikowano": "2026-11-26T09:48:33Z",
+   "opublikowano_surowe": "Thu, 26 Nov 2026 09:48:33 GMT",
+   "streszczenie": "Organizatorzy protestu przed Trybunałem Konstytucyjnym odwołali się od decyzji ratusza w sprawie zakazu organizacji kolejnego zgromadzenia. Sąd Okręgowy w Warszawie ma dobę na rozpatrzenie odwołania. Jeśli podtrzyma stanowisko władz stolicy, protestujący będą musieli zakończyć manifestację w niedzielę, 29 listopada."
+  },
+  {
+   "zrodlo": "TVN Warszawa",
+   "kategoria": "NEWS",
+   "region": "warsaw",
+   "tytul": "Napadali na przechodniów, zrywali łańcuszki. Członkowie międzynarodowego gangu zatrzymani",
+   "url": "https://tvn24.pl/tvnwarszawa/srodmiescie/warszawa-napadali-na-przechodniow-zrywali-zlote-lancuszki-czlonkowie-miedzynarodowego-gangu-zatrzymani-st9358045?source=rss",
+   "opublikowano": "2026-11-26T09:07:44Z",
+   "opublikowano_surowe": "Thu, 26 Nov 2026 09:07:44 GMT",
+   "streszczenie": "Policja rozbiła międzynarodowy gang działający na Nowym Świecie. Jego członkowie napadali na przechodniów i osoby spędzające czas w ogródkach lokali gastronomicznych. Ich łupem padały złote łańcuszki i inne kosztowności. Do zatrzymań doszło, gdy grupa planowała kolejny skok."
+  },
+  {
+   "zrodlo": "TVN Warszawa",
+   "kategoria": "NEWS",
+   "region": "warsaw",
+   "tytul": "Samolot z Teneryfy awaryjnie lądował na Lotnisku Chopina. \"Zgłosił usterkę\"",
+   "url": "https://tvn24.pl/tvnwarszawa/wlochy/warszawa-awaryjne-ladowanie-na-lotnisku-chopina-zglosil-usterke-st9358093?source=rss",
+   "opublikowano": "2026-11-26T07:23:47Z",
+   "opublikowano_surowe": "Thu, 26 Nov 2026 07:23:47 GMT",
+   "streszczenie": "Lotnisko Chopina wstrzymało w środę wieczorem operacje lotnicze. Powodem było awaryjne lądowanie samolotu z Teneryfy. Na miejscu pracowały lotniskowe i miejskie służby."
+  },
+  {
+   "zrodlo": "TVN Warszawa",
+   "kategoria": "NEWS",
+   "region": "warsaw",
+   "tytul": "Awaria urządzeń sterowania ruchem. Opóźnione pociągi i odwołane kursy",
+   "url": "https://tvn24.pl/tvnwarszawa/rembertow/warszawa-awaria-urzadzen-sterowania-ruchem-pasazerow-czekaja-opoznienia-na-kolei-st9358031?source=rss",
+   "opublikowano": "2026-11-26T06:15:56Z",
+   "opublikowano_surowe": "Thu, 26 Nov 2026 06:15:56 GMT",
+   "streszczenie": "Pasażerów czekały utrudnienia na kolei. Na szlaku Warszawa Rembertów - Sulejówek Miłosna doszło do awarii urządzeń sterowania ruchem. Pociągi mogły być opóźnione, wybrane połączenia zostały skrócone, a kilkanaście odwołano."
+  },
+  {
+   "zrodlo": "TVN Warszawa",
+   "kategoria": "NEWS",
+   "region": "warsaw",
+   "tytul": "Policjanci weszli do hodowli psów. Zabrali zwierzęta",
+   "url": "https://tvn24.pl/tvnwarszawa/okolice/garwolin-policjanci-zabrali-psy-z-prywatnej-hodowli-czy-stad-pochodzily-porzucone-szpice-st9356236?source=rss",
+   "opublikowano": "2026-11-26T06:05:33Z",
+   "opublikowano_surowe": "Thu, 26 Nov 2026 06:05:33 GMT",
+   "streszczenie": "Policjanci zabrali prawie 30 psów z prywatnej hodowli pod Garwolinem. Trafił na nie Powiatowy Inspektorat Weterynarii podczas kontroli. Trwa wyjaśnianie, czy istnieje związek pomiędzy hodowlą a przypadkami odnajdywania porzuconych szpiców w lasach między Otwockiem a Garwolinem."
+  },
+  {
+   "zrodlo": "TVN Warszawa",
+   "kategoria": "NEWS",
+   "region": "warsaw",
+   "tytul": "Akcja służb na Krakowskim Przedmieściu. Mężczyzna trafił do szpitala",
+   "url": "https://tvn24.pl/tvnwarszawa/srodmiescie/warszawa-akcja-sluzb-na-krakowskim-przedmiesciu-mezczyzna-po-podpaleniu-trafil-do-szpitala-st9357622?source=rss",
+   "opublikowano": "2026-11-25T19:47:14Z",
+   "opublikowano_surowe": "Wed, 25 Nov 2026 19:47:14 GMT",
+   "streszczenie": "Przy Ministerstwie Kultury i Dziedzictwa Narodowego, naprzeciwko Pałacu Prezydenckiego, podpalił się mężczyzna. Na miejscu pojawiły się służby. Poszkodowany trafił do szpitala."
+  },
+  {
+   "zrodlo": "TVN Warszawa",
+   "kategoria": "NEWS",
+   "region": "warsaw",
+   "tytul": "Śmiertelne potrącenie pieszego na autostradzie A2",
+   "url": "https://tvn24.pl/tvnwarszawa/okolice/nowa-trzcianka-smiertelne-potracenie-pieszego-na-autostradzie-a2-st9357707?source=rss",
+   "opublikowano": "2026-11-25T18:41:17Z",
+   "opublikowano_surowe": "Wed, 25 Nov 2026 18:41:17 GMT",
+   "streszczenie": "Na autostradzie A2, na wysokości miejscowości Nowa Trzcianka (Mazowieckie), doszło do śmiertelnego potrącenia pieszego."
+  },
+  {
+   "zrodlo": "TVN Warszawa",
+   "kategoria": "NEWS",
+   "region": "warsaw",
+   "tytul": "Ciężarówka w rowie na trasie S7",
+   "url": "https://tvn24.pl/tvnwarszawa/okolice/unierzyz-ciezarowka-w-rowie-utrudnienia-na-s7-st9357596?source=rss",
+   "opublikowano": "2026-11-25T16:44:03Z",
+   "opublikowano_surowe": "Wed, 25 Nov 2026 16:44:03 GMT",
+   "streszczenie": "W miejscowości Unierzyż pod Mławą (Mazowieckie) kierujący ciężarówką wjechał do rowu. Policja informowała o utrudnieniach na trasie S7 w kierunku Warszawy."
+  },
+  {
+   "zrodlo": "TVN Warszawa",
+   "kategoria": "NEWS",
+   "region": "warsaw",
+   "tytul": "Pożar na kominie elektrociepłowni. Strażacy użyli dronów",
+   "url": "https://tvn24.pl/tvnwarszawa/mokotow/warszawa-pozar-na-kominie-elektrocieplowni-siekierki-st9357371?source=rss",
+   "opublikowano": "2026-11-25T15:53:06Z",
+   "opublikowano_surowe": "Wed, 25 Nov 2026 15:53:06 GMT",
+   "streszczenie": "Zapaliła się siatka zabezpieczająca na kominie Elektrociepłowni Siekierki. Został on nią pokryty ze względu na przygotowania do jego wyburzenia. Strażacy prowadzili akcję gaśniczą z wykorzystaniem dronów z kamerami termowizyjnymi oraz podnośnika."
   },
   {
    "zrodlo": "RMF24 Warszawa",
@@ -3052,6 +3351,16 @@
    "zrodlo": "The Verge",
    "kategoria": "Tech",
    "region": "world",
+   "tytul": "Samsung’s R95H TV shows what RGB LED is capable of",
+   "url": "https://www.theverge.com/tech/1042613/samsung-r95h-rgb-led-tv-review",
+   "opublikowano": "2026-11-25T22:05:18Z",
+   "opublikowano_surowe": "2026-11-25T17:05:18-05:00",
+   "streszczenie": "RGB LED TVs finally became affordable in 2026, and there's always a lot of promise when new TV technologies come out. More color, higher brightness, improved performance - RGB LED TVs have a lot to prove. The Samsung R95H does a lot to deliver some of those promises. It can display more colors than other […]"
+  },
+  {
+   "zrodlo": "The Verge",
+   "kategoria": "Tech",
+   "region": "world",
    "tytul": "Google’s patent for custom AI video feeds paints a bleak picture of entertainment’s future",
    "url": "https://www.theverge.com/entertainment/1042221/google-my-channel-ai-video-patent",
    "opublikowano": "2026-11-25T21:51:26Z",
@@ -3062,31 +3371,21 @@
    "zrodlo": "The Verge",
    "kategoria": "Tech",
    "region": "world",
+   "tytul": "Here’s where you can save (a little) on the Ocarina of Time remake",
+   "url": "https://www.theverge.com/gadgets/1040110/zelda-ocarina-of-time-switch-2-black-friday-2026-deal-sale",
+   "opublikowano": "2026-11-25T20:47:55Z",
+   "opublikowano_surowe": "2026-11-25T15:47:55-05:00",
+   "streszczenie": "A lot of people have The Legend of Zelda: Ocarina of Time for the Nintendo Switch 2 on their holiday wishlist. In case you haven’t bought it yet, I wanted to share some small but welcome deals happening on the physical and digital versions of the game. Costco members can currently grab the cartridge edition […]"
+  },
+  {
+   "zrodlo": "The Verge",
+   "kategoria": "Tech",
+   "region": "world",
    "tytul": "WhatsApp’s new scheduled messages let you choose the right time to send",
    "url": "https://www.theverge.com/tech/1042532/whatsapp-scheduled-messages",
    "opublikowano": "2026-11-25T20:31:48Z",
    "opublikowano_surowe": "2026-11-25T15:31:48-05:00",
    "streszczenie": "WhatsApp's 3 billion users are getting an option that Meta says is one of the most requested features, with the ability to schedule messages in advance for both private conversations and group chats. Most messaging platforms have had this for a very long time, but now it's on WhatsApp too. If you think of a […]"
-  },
-  {
-   "zrodlo": "The Verge",
-   "kategoria": "Tech",
-   "region": "world",
-   "tytul": "EPA reports ‘zero’ airborne lead following controlled Army detonation in Iowa",
-   "url": "https://www.theverge.com/science/1042109/us-army-detonation-lead-azide-explosives-iowa-ammunition-plant",
-   "opublikowano": "2026-11-25T19:47:46Z",
-   "opublikowano_surowe": "2026-11-25T14:47:46-05:00",
-   "streszczenie": "Saying it was necessary to prevent the possible spontaneous explosion of a stockpile of material used in igniters and blasting caps, the US Army conducted a controlled detonation of over 9,700 pounds of lead azide today at the Iowa Army Ammunition Plant (IAAAP) in Middletown, Iowa. Videos of the detonation showed plumes of smoke several […]"
-  },
-  {
-   "zrodlo": "The Verge",
-   "kategoria": "Tech",
-   "region": "world",
-   "tytul": "1Password breach leaked customer names and emails, but not passwords",
-   "url": "https://www.theverge.com/tech/1042409/1password-data-breach-leak",
-   "opublikowano": "2026-11-25T19:10:15Z",
-   "opublikowano_surowe": "2026-11-25T14:10:15-05:00",
-   "streszczenie": "1Password says a hacker stole customer names and email addresses after gaining access to its backend systems. The breach didn't expose passwords or other information stored in customer vaults, but could put users at risk of phishing attempts, according to a post disclosing the incident. It's unclear how many users are affected. The password manager […]"
   },
   {
    "zrodlo": "The Verge",
@@ -3502,6 +3801,16 @@
    "zrodlo": "Spider’s Web",
    "kategoria": "Tech",
    "region": "poland",
+   "tytul": "Rząd ostrzeże przed fejkami, zanim wywołają chaos. Uwierzę, jak zobaczę",
+   "url": "https://spidersweb.pl/2026/11/rzad-fake-newsy-kontrataki.html",
+   "opublikowano": "2026-11-26T14:38:00Z",
+   "opublikowano_surowe": "Thu, 26 Nov 2026 15:38:00 +0100",
+   "streszczenie": "Rząd ostrzeże przed fejkami, zanim wywołają chaos. Uwierzę, jak zobaczę"
+  },
+  {
+   "zrodlo": "Spider’s Web",
+   "kategoria": "Tech",
+   "region": "poland",
    "tytul": "Black Friday 2026. Smartwatche w dobrych cenach już czekają",
    "url": "https://spidersweb.pl/smartwatche-black-friday/",
    "opublikowano": "2026-11-26T13:33:00Z",
@@ -3639,164 +3948,14 @@
    "streszczenie": "Rockstar zrobił obłędne PS5 Pro pod GTA 6. Powstało tylko 100 sztuk"
   },
   {
-   "zrodlo": "Spider’s Web",
+   "zrodlo": "CyberDefence24",
    "kategoria": "Tech",
    "region": "poland",
-   "tytul": "Z ekspresem Philips LatteGo Pro 6000 będziesz chciał robić kawę całą dobę. Są cztery powody",
-   "url": "https://spidersweb.pl/2026/11/philips-lattego-pro-6000.html",
-   "opublikowano": "2026-11-26T07:00:00Z",
-   "opublikowano_surowe": "Thu, 26 Nov 2026 08:00:00 +0100",
-   "streszczenie": "Z ekspresem Philips LatteGo Pro 6000 będziesz chciał robić kawę całą dobę. Są cztery powody"
-  },
-  {
-   "zrodlo": "MamStartup",
-   "kategoria": "Tech",
-   "region": "poland",
-   "tytul": "Sztuczna inteligencja walczy z dezinformacją: rozmowa z chatbotem obniża wiarę w teorie spiskowe o 15 proc.",
-   "url": "https://mamstartup.pl/sztuczna-inteligencja-walczy-z-dezinformacja-rozmowa-z-chatbotem-obniza-wiare-w-teorie-spiskowe-o-15-proc/",
-   "opublikowano": "2026-11-26T12:34:06Z",
-   "opublikowano_surowe": "Thu, 26 Nov 2026 12:34:06 +0000",
-   "streszczenie": "Przeszkolony model językowy o nazwie DebunkBot okazał się nawet siedmiokrotnie skuteczniejszy w obalaniu fałszywych przekonań niż klasyczne zestawienia faktów. Najnowsze wyniki badań naukowców z trzech czołowych amerykańskich uczelni opublikowano w czasopiśmie „Proceedings of the National Academy of Sciences” (PNAS)."
-  },
-  {
-   "zrodlo": "MamStartup",
-   "kategoria": "Tech",
-   "region": "poland",
-   "tytul": "Komputronik i PragmaGO łączą siły: przedsiębiorcy odroczą płatność za sprzęt do 30 dni",
-   "url": "https://mamstartup.pl/komputronik-i-pragmago-lacza-sily-przedsiebiorcy-odrocza-platnosc-za-sprzet-do-30-dni/",
-   "opublikowano": "2026-11-26T12:18:50Z",
-   "opublikowano_surowe": "Thu, 26 Nov 2026 12:18:50 +0000",
-   "streszczenie": "Klienci biznesowi sklepu internetowego Komputronik mogą teraz skorzystać z nowej metody finansowania zakupów."
-  },
-  {
-   "zrodlo": "MamStartup",
-   "kategoria": "Tech",
-   "region": "poland",
-   "tytul": "Dzięki paymove, agent AI zaplanuje wycieczkę do zoo i kupi bilety dla całej rodziny",
-   "url": "https://mamstartup.pl/dzieki-paymove-agent-ai-zaplanuje-wycieczke-do-zoo-i-kupi-bilety-dla-calej-rodziny/",
-   "opublikowano": "2026-11-26T12:08:56Z",
-   "opublikowano_surowe": "Thu, 26 Nov 2026 12:08:56 +0000",
-   "streszczenie": "paymove wdrożyła autorską technologię, która pozwala agentom AI na kompletowanie zamówień i inicjowanie płatności BLIKIEM w imieniu użytkownika. Nowa technologia jest już dostępna w ponad 2000 lokalizacji."
-  },
-  {
-   "zrodlo": "MamStartup",
-   "kategoria": "Tech",
-   "region": "poland",
-   "tytul": "Pronto Ventures rusza w Turynie. Ma wspierać startupy z Europy Środkowo-Wschodniej",
-   "url": "https://mamstartup.pl/pronto-ventures-rusza-w-turynie-ma-wspierac-startupy-z-europy-srodkowo-wschodniej/",
-   "opublikowano": "2026-11-26T11:31:38Z",
-   "opublikowano_surowe": "Thu, 26 Nov 2026 11:31:38 +0000",
-   "streszczenie": "W Turynie oficjalnie wystartowała inicjatywa Pronto Ventures, założona przez byłego dyrektora zarządzającego Techstars – Martina Olczyka."
-  },
-  {
-   "zrodlo": "MamStartup",
-   "kategoria": "Tech",
-   "region": "poland",
-   "tytul": "Unia Europejska chce wydać 50 mld euro na technologie kwantowe i AI. Powstanie nowy fundusz inwestycyjny",
-   "url": "https://mamstartup.pl/unia-europejska-chce-wydac-50-mld-euro-na-technologie-kwantowe-i-ai-powstanie-nowy-fundusz-inwestycyjny/",
-   "opublikowano": "2026-11-26T10:30:45Z",
-   "opublikowano_surowe": "Thu, 26 Nov 2026 10:30:45 +0000",
-   "streszczenie": "Komisja Europejska zaprezentowała projekt aktu w sprawie technologii kwantowych (Quantum Act) oraz plan powołania nowego funduszu kapitałowego o wartości 50 mld euro."
-  },
-  {
-   "zrodlo": "MamStartup",
-   "kategoria": "Tech",
-   "region": "poland",
-   "tytul": "ACCREMeter ma sposób na domowy pomiar kreatyniny",
-   "url": "https://mamstartup.pl/accremeter-ma-sposob-na-domowy-pomiar-kreatyniny/",
-   "opublikowano": "2026-11-26T09:30:45Z",
-   "opublikowano_surowe": "Thu, 26 Nov 2026 09:30:45 +0000",
-   "streszczenie": "Medtech ACCREMeter zwyciężył w kategorii \"Social Impact\" w konkursie \"Startuj z Mazowsza\". Czym zdobyli uznanie jurorów, czym chcą zdobyć zaufanie lekarzy, a jak chcą pomóc pacjentom? Z tymi pytaniami mierzy się Wiktor Krzeszewski, CEO spółki, którego zaprosilśmy do wywiadu w MamStartup."
-  },
-  {
-   "zrodlo": "MamStartup",
-   "kategoria": "Tech",
-   "region": "poland",
-   "tytul": "Fundusz Eleven z pierwszym zamknięciem na poziomie 57 mln euro. Wkrótce otworzy stałe biuro w Warszawie",
-   "url": "https://mamstartup.pl/fundusz-eleven-z-pierwszym-zamknieciem-na-poziomie-57-mln-euro-wkrotce-otworzy-stale-biuro-w-warszawie/",
-   "opublikowano": "2026-11-26T09:20:56Z",
-   "opublikowano_surowe": "Thu, 26 Nov 2026 09:20:56 +0000",
-   "streszczenie": "Bułgarski fundusz venture capital Eleven zebrał 57 mln euro (66 mln dolarów) w ramach pierwszego zamknięcia swojego czwartego funduszu, którego docelowa kapitalizacja to 100 mln euro (116 mln dolarów)."
-  },
-  {
-   "zrodlo": "MamStartup",
-   "kategoria": "Tech",
-   "region": "poland",
-   "tytul": "„Wyniki polskich badań naukowych mogą stać się fundamentem globalnej spółki technologicznej” – Filip Budny (WaterSense)",
-   "url": "https://mamstartup.pl/wyniki-polskich-badan-naukowych-moga-stac-sie-fundamentem-globalnej-spolki-technologicznej-filip-budny-watersense/",
-   "opublikowano": "2026-11-26T08:00:12Z",
-   "opublikowano_surowe": "Thu, 26 Nov 2026 08:00:12 +0000",
-   "streszczenie": "WaterSense jest na fali. Świeżo zebrana runda, rosnąca liczba klientów i ambitne plany na europejski rozwój. O metodzie na umiejętne łączenie nauki z rynkiem, przechodzeniu z fazy pilotażu do fazy biznesu oraz o cyfryzacji Odry rozmawiamy z Filipem Budnym, CEO spółki."
-  },
-  {
-   "zrodlo": "MamStartup",
-   "kategoria": "Tech",
-   "region": "poland",
-   "tytul": "Z nową inwestycją WaterSense chce wypłynąć na europejskie wody",
-   "url": "https://mamstartup.pl/z-nowa-dotacja-watersense-chce-wyplynac-na-europejskie-wody/",
-   "opublikowano": "2026-11-26T07:59:13Z",
-   "opublikowano_surowe": "Thu, 26 Nov 2026 07:59:13 +0000",
-   "streszczenie": "WaterSense pozyskał łącznie 5,75 mln EUR w ramach rundy pre-seed pod przewodnictwem funduszy b2venture i Movens Capital, a także z udziałem vastpoint oraz dotacji publicznych."
-  },
-  {
-   "zrodlo": "MamStartup",
-   "kategoria": "Tech",
-   "region": "poland",
-   "tytul": "ZAiKS sięga po technologię, by artyści mogli sięgnąć po należne im tantiemy",
-   "url": "https://mamstartup.pl/zaiks-siega-po-technologie-by-artysci-mogli-siegnac-po-nalezne-im-tantiemy/",
-   "opublikowano": "2026-11-25T14:43:41Z",
-   "opublikowano_surowe": "Wed, 25 Nov 2026 14:43:41 +0000",
-   "streszczenie": "Stowarzyszenie Autorów ZAiKS nawiązało współpracę z firmą Salt. Platforma ma zwiększyć automatyzację rozliczania tantiem z serwisów streamingowych i pomóc w szybszym uzyskiwaniu pieniądzy za polskie utwory słuchane za granicą."
-  },
-  {
-   "zrodlo": "MamStartup",
-   "kategoria": "Tech",
-   "region": "poland",
-   "tytul": "Ukraiński przemysł obronny z mocami produkcyjnymi rzędu 55 mld dolarów. Europejskie firmy i startupy zacieśniają współpracę w Hadze",
-   "url": "https://mamstartup.pl/ukrainski-przemysl-obronny-z-mocami-produkcyjnymi-rzedu-55-mld-dolarow-europejskie-firmy-i-startupy-zaciesniaja-wspolprace-w-hadze/",
-   "opublikowano": "2026-11-25T11:51:31Z",
-   "opublikowano_surowe": "Wed, 25 Nov 2026 11:51:31 +0000",
-   "streszczenie": "Podczas European Defence Innovation Forum w Hadze padły deklaracje dotyczące gigantycznego potencjału ukraińskiej zbrojeniówki, która w 2026 roku ma osiągnąć roczne moce produkcyjne na poziomie 55 miliardów dolarów."
-  },
-  {
-   "zrodlo": "MamStartup",
-   "kategoria": "Tech",
-   "region": "poland",
-   "tytul": "CommerzVentures zamyka czwarty fundusz. Do startupów FinTech i AI trafi 50 mln euro",
-   "url": "https://mamstartup.pl/commerzventures-zamyka-czwarty-fundusz-do-startupow-fintech-i-ai-trafi-50-mln-euro/",
-   "opublikowano": "2026-11-25T11:00:32Z",
-   "opublikowano_surowe": "Wed, 25 Nov 2026 11:00:32 +0000",
-   "streszczenie": "Specjalizujący się w usługach finansowych fundusz venture capital CommerzVentures z siedzibą we Frankfurcie zamknął swój czwarty wehikuł inwestycyjny z kapitalizacją na poziomie 50 mln euro."
-  },
-  {
-   "zrodlo": "MamStartup",
-   "kategoria": "Tech",
-   "region": "poland",
-   "tytul": "Europejski Portfel Tożsamości Cyfrowej nabiera kształtów: już 89 podmiotów z 16 państw testuje nowe rozwiązanie",
-   "url": "https://mamstartup.pl/europejski-portfel-tozsamosci-cyfrowej-nabiera-ksztaltow-juz-89-podmiotow-z-16-panstw-testuje-nowe-rozwiazanie/",
-   "opublikowano": "2026-11-25T10:16:18Z",
-   "opublikowano_surowe": "Wed, 25 Nov 2026 10:16:18 +0000",
-   "streszczenie": "89 firm i instytucji z 16 krajów Unii Europejskiej bierze już udział w testach Europejskiego Portfela Tożsamości Cyfrowej."
-  },
-  {
-   "zrodlo": "MamStartup",
-   "kategoria": "Tech",
-   "region": "poland",
-   "tytul": "Sztuczna inteligencja zużywa mniej wody niż mleko migdałowe czy gra w golfa. Nowy raport rzuca światło na koszty środowiskowe AI",
-   "url": "https://mamstartup.pl/sztuczna-inteligencja-zuzywa-mniej-wody-niz-mleko-migdalowe-czy-gra-w-golfa-nowy-raport-rzuca-swiatlo-na-koszty-srodowiskowe-ai/",
-   "opublikowano": "2026-11-25T09:54:21Z",
-   "opublikowano_surowe": "Wed, 25 Nov 2026 09:54:21 +0000",
-   "streszczenie": "Debata wokół wpływu sztucznej inteligencji na środowisko często koncentruje się na ogromnym zapotrzebowaniu serwerowni na energię oraz wodę."
-  },
-  {
-   "zrodlo": "MamStartup",
-   "kategoria": "Tech",
-   "region": "poland",
-   "tytul": "Unia Europejska planuje fundusz technologiczny warty 50 miliardów euro",
-   "url": "https://mamstartup.pl/unia-europejska-planuje-fundusz-technologiczny-warty-50-miliardow-euro/",
-   "opublikowano": "2026-11-25T08:57:02Z",
-   "opublikowano_surowe": "Wed, 25 Nov 2026 08:57:02 +0000",
-   "streszczenie": "Bruksela zamierza przeznaczyć nawet 50 miliardów euro na utworzenie nowego mechanizmu inwestycyjnego. Sovereign Tech Equity Fund ma wspierać spółki zajmujące się sztuczną inteligencją oraz komputerami kwantowymi, aby uniezależnić Wspólnotę od technologii z USA i Chin."
+   "tytul": "MON podpisze umowę z Palantirem",
+   "url": "https://cyberdefence24.pl/armia-i-sluzby/wojsko-polskie/mon-podpisze-umowe-z-palantirem",
+   "opublikowano": "2026-11-26T14:34:51Z",
+   "opublikowano_surowe": "Thu, 26 Nov 2026 15:34:51 +0100",
+   "streszczenie": "Ministerstwo Obrony Narodowej podpisze umowę z firmą Palantir na dostawę oprogramowania przeznaczonego do wspierania systemu podejmowania decyzji. Rozwiązanie wykorzystuje technologię sztucznej inteligencji."
   },
   {
    "zrodlo": "CyberDefence24",
@@ -3937,16 +4096,6 @@
    "opublikowano": "2026-11-25T07:20:43Z",
    "opublikowano_surowe": "Wed, 25 Nov 2026 08:20:43 +0100",
    "streszczenie": "Bielik 3.1 zyskuje nowe możliwości, a jego twórcy pracują nad modelem o ponad 100 miliardach parametrów. Czy polska sztuczna inteligencja może skutecznie konkurować z globalnymi gigantami? O rozwoju Bielika, bezpieczeństwie AI i granicach automatyzacji rozmawiamy z Krzysztofem Wróblem, Principal AI Researcher Evaluations w Bielik AI."
-  },
-  {
-   "zrodlo": "CyberDefence24",
-   "kategoria": "Tech",
-   "region": "poland",
-   "tytul": "Australia idzie w ślady Polski? Szykuje przepisy o usuwaniu treści w internecie",
-   "url": "https://cyberdefence24.pl/cyberbezpieczenstwo/australia-idzie-w-slady-polski-szykuje-przepisy-o-usuwaniu-tresci-w-internecie",
-   "opublikowano": "2026-11-25T06:50:35Z",
-   "opublikowano_surowe": "Wed, 25 Nov 2026 07:50:35 +0100",
-   "streszczenie": "Australia chce wprowadzić nakaz usuwania treści szkodliwych i uzależniających przez platformy internetowe. W ramach Digital Duty of Care kara za niezastosowanie się do przepisów miałaby wynosić do 5 proc. światowego obrotu firmy. Sprawa dotyczy m.in. materiałów z wykorzystywaniem seksualnym małoletnich czy wygenerowanych treści o charakterze intymnym."
   },
   {
    "zrodlo": "Dental Tribune",

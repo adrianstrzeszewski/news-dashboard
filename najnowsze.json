@@ -1,9 +1,9 @@
 {
- "zebrano": "2026-11-27T14:21:30Z",
- "kanalow_ok": 33,
- "kanalow_bledy": 1,
+ "zebrano": "2026-11-27T14:54:56Z",
+ "kanalow_ok": 29,
+ "kanalow_bledy": 5,
  "niepelny": false,
- "wpisow": 445,
+ "wpisow": 399,
  "kanaly": [
   {
    "zrodlo": "BBC News",
@@ -93,8 +93,9 @@
    "zrodlo": "TVN24",
    "kategoria": "NEWS",
    "url": "https://tvn24.pl/najnowsze.xml",
-   "status": "ok",
-   "wpisow": 15
+   "status": "blad",
+   "wpisow": 0,
+   "komunikat": "HTTPError: HTTP Error 403: Forbidden"
   },
   {
    "zrodlo": "Polsat News",
@@ -128,8 +129,9 @@
    "zrodlo": "TVN Warszawa",
    "kategoria": "NEWS",
    "url": "https://tvn24.pl/tvnwarszawa/najnowsze.xml",
-   "status": "ok",
-   "wpisow": 15
+   "status": "blad",
+   "wpisow": 0,
+   "komunikat": "HTTPError: HTTP Error 403: Forbidden"
   },
   {
    "zrodlo": "RMF24 Warszawa",
@@ -205,8 +207,9 @@
    "zrodlo": "Dental Tribune",
    "kategoria": "Stomatologia",
    "url": "https://www.dental-tribune.com/feed/",
-   "status": "ok",
-   "wpisow": 1
+   "status": "blad",
+   "wpisow": 0,
+   "komunikat": "HTTPError: HTTP Error 415: Unsupported Media Type"
   },
   {
    "zrodlo": "Dentistry.co.uk",
@@ -219,8 +222,9 @@
    "zrodlo": "Dentonet",
    "kategoria": "Stomatologia",
    "url": "https://dentonet.pl/feed/",
-   "status": "ok",
-   "wpisow": 15
+   "status": "blad",
+   "wpisow": 0,
+   "komunikat": "HTTPError: HTTP Error 415: Unsupported Media Type"
   },
   {
    "zrodlo": "Positive News",
@@ -246,6 +250,16 @@
   }
  ],
  "wpisy": [
+  {
+   "zrodlo": "BBC News",
+   "kategoria": "NEWS",
+   "region": "world",
+   "tytul": "Hundreds of thousands still without power after storms hit US on Thanksgiving",
+   "url": "https://www.bbc.co.uk/news/articles/cre3dj5n7dpwo?at_medium=RSS&at_campaign=rss",
+   "opublikowano": "2026-11-27T14:49:59Z",
+   "opublikowano_surowe": "Fri, 27 Nov 2026 14:49:59 GMT",
+   "streszczenie": "Pennsylvania and neighbouring states remain badly affected on Friday after both coasts were lashed with wind and rain."
+  },
   {
    "zrodlo": "BBC News",
    "kategoria": "NEWS",
@@ -285,16 +299,6 @@
    "opublikowano": "2026-11-27T10:39:31Z",
    "opublikowano_surowe": "Fri, 27 Nov 2026 10:39:31 GMT",
    "streszczenie": "The Ugandan army is helping the Congolese military fight an Islamist militant group in the east of the country."
-  },
-  {
-   "zrodlo": "BBC News",
-   "kategoria": "NEWS",
-   "region": "world",
-   "tytul": "Hundreds of thousands still without power after storms hit US on Thanksgiving",
-   "url": "https://www.bbc.co.uk/news/articles/cre3dj5n7dpwo?at_medium=RSS&at_campaign=rss",
-   "opublikowano": "2026-11-27T10:26:28Z",
-   "opublikowano_surowe": "Fri, 27 Nov 2026 10:26:28 GMT",
-   "streszczenie": "Pennsylvania and neighbouring states remain badly affected on Friday after both coasts were lashed with wind and rain."
   },
   {
    "zrodlo": "BBC News",
@@ -400,6 +404,16 @@
    "zrodlo": "BBC Europe",
    "kategoria": "NEWS",
    "region": "europe",
+   "tytul": "Rare turtles found inside baggage at Amsterdam airport",
+   "url": "https://www.bbc.co.uk/news/articles/cm5y1380q3vgo?at_medium=RSS&at_campaign=rss",
+   "opublikowano": "2026-11-27T13:38:07Z",
+   "opublikowano_surowe": "Fri, 27 Nov 2026 13:38:07 GMT",
+   "streszczenie": "The endangered reptiles were bound with duct tape to prevent them moving, officials say."
+  },
+  {
+   "zrodlo": "BBC Europe",
+   "kategoria": "NEWS",
+   "region": "europe",
    "tytul": "Spanish election: What you need to know and what's at stake",
    "url": "https://www.bbc.co.uk/news/articles/c6wy4ejnyvdyo?at_medium=RSS&at_campaign=rss",
    "opublikowano": "2026-11-27T13:11:03Z",
@@ -415,6 +429,16 @@
    "opublikowano": "2026-11-27T12:48:32Z",
    "opublikowano_surowe": "Fri, 27 Nov 2026 12:48:32 GMT",
    "streszczenie": "As Spaniards go to the polls on Sunday, these are the key political figures aiming to take power in Spain's next government."
+  },
+  {
+   "zrodlo": "BBC Europe",
+   "kategoria": "NEWS",
+   "region": "europe",
+   "tytul": "Clashes mar European games as Macron condemns violence",
+   "url": "https://www.bbc.co.uk/sport/football/articles/c69q8y5x03ywo?at_medium=RSS&at_campaign=rss",
+   "opublikowano": "2026-11-27T10:24:24Z",
+   "opublikowano_surowe": "Fri, 27 Nov 2026 10:24:24 GMT",
+   "streszczenie": "Violent clashes mar a number of European football matches on Thursday night, with French president Emmanuel Macron condemning trouble at Marseille's home game against Levski Sofia."
   },
   {
    "zrodlo": "BBC Europe",
@@ -527,33 +551,13 @@
    "streszczenie": "Nearly a third of crossings in early 2026 allegedly involved boats or engines from Marvin Reuter's firm."
   },
   {
-   "zrodlo": "BBC Europe",
-   "kategoria": "NEWS",
-   "region": "europe",
-   "tytul": "German boat dealer suspected of supplying Channel smuggling gangs, BBC finds",
-   "url": "https://www.bbc.co.uk/news/articles/cqlymky8kpzjo?at_medium=RSS&at_campaign=rss",
-   "opublikowano": "2026-11-26T05:00:24Z",
-   "opublikowano_surowe": "Thu, 26 Nov 2026 05:00:24 GMT",
-   "streszczenie": "Nearly a third of crossings in early 2026 allegedly involved boats or engines from the German man's firm."
-  },
-  {
-   "zrodlo": "BBC Europe",
-   "kategoria": "NEWS",
-   "region": "europe",
-   "tytul": "France's political mainstream risks presidential vote debacle with no clear candidate",
-   "url": "https://www.bbc.co.uk/news/articles/cq772vedgepro?at_medium=RSS&at_campaign=rss",
-   "opublikowano": "2026-11-26T00:23:27Z",
-   "opublikowano_surowe": "Thu, 26 Nov 2026 00:23:27 GMT",
-   "streszczenie": "Hard-right and hard-left candidates dominate the polls ahead of next year's presidential election."
-  },
-  {
    "zrodlo": "Guardian Europe",
    "kategoria": "NEWS",
    "region": "europe",
    "tytul": "Spanish prime minister Pedro Sánchez confident of election victory despite polls – Europe live",
    "url": "https://www.theguardian.com/world/live/2026/nov/27/zelenskyy-putin-trump-comments-russia-ukraine-latest-news-updates",
-   "opublikowano": "2026-11-27T14:02:29Z",
-   "opublikowano_surowe": "Fri, 27 Nov 2026 14:02:29 GMT",
+   "opublikowano": "2026-11-27T14:36:12Z",
+   "opublikowano_surowe": "Fri, 27 Nov 2026 14:36:12 GMT",
    "streszczenie": "‘I can’t conceive of us losing,’ the leader said Freelance journalist based in Madrid and host of the Sobremesa podcast Vox has often been portrayed in international coverage as a party of Franco nostalgists whose ultraconservative Catholicism and civil-war rhetoric towards the separatist Catalan “enemy within” threatened a return to the worst of Spain’s recent past. Continue reading..."
   },
   {
@@ -700,21 +704,41 @@
    "zrodlo": "The Guardian",
    "kategoria": "NEWS",
    "region": "world",
+   "tytul": "‘Mass-casualty event’ in Europe possible amid rise in Russian sabotage, says thinktank",
+   "url": "https://www.theguardian.com/world/2026/nov/27/mass-casualty-event-europe-possible-russian-sabotage-says-thinktank",
+   "opublikowano": "2026-11-27T14:46:27Z",
+   "opublikowano_surowe": "Fri, 27 Nov 2026 14:46:27 GMT",
+   "streszczenie": "Report warns attacks on critical infrastructure could lead to demand for retaliation and expose EU divisions Russian sabotage attacks on Europe are increasing and a “mass-casualty event” is now possible as increasingly skilled operatives target critical infrastructure with ever more complex methods, a leading strategic thinktank has said. The International Institute for Strategic Studies (IISS) said in a report that Russian intelligence services and their proxies were targeting European railways, energy networks and defence industries in an attempt to weaken support for Ukraine. Continue readi"
+  },
+  {
+   "zrodlo": "The Guardian",
+   "kategoria": "NEWS",
+   "region": "world",
    "tytul": "Spanish prime minister Pedro Sánchez confident of election victory despite polls – Europe live",
    "url": "https://www.theguardian.com/world/live/2026/nov/27/zelenskyy-putin-trump-comments-russia-ukraine-latest-news-updates",
-   "opublikowano": "2026-11-27T14:02:29Z",
-   "opublikowano_surowe": "Fri, 27 Nov 2026 14:02:29 GMT",
+   "opublikowano": "2026-11-27T14:36:12Z",
+   "opublikowano_surowe": "Fri, 27 Nov 2026 14:36:12 GMT",
    "streszczenie": "‘I can’t conceive of us losing,’ the leader said Freelance journalist based in Madrid and host of the Sobremesa podcast Vox has often been portrayed in international coverage as a party of Franco nostalgists whose ultraconservative Catholicism and civil-war rhetoric towards the separatist Catalan “enemy within” threatened a return to the worst of Spain’s recent past. Continue reading..."
   },
   {
    "zrodlo": "The Guardian",
    "kategoria": "NEWS",
    "region": "world",
-   "tytul": "Department for Work and Pensions takes services offline after ‘cyber incident’ – UK politics live",
+   "tytul": "DWP ‘cyber incident’ knocks almost all pensions and benefits systems offline",
+   "url": "https://www.theguardian.com/politics/2026/nov/27/dwp-cyber-incident-pensions-benefits-systems-offline",
+   "opublikowano": "2026-11-27T14:28:22Z",
+   "opublikowano_surowe": "Fri, 27 Nov 2026 14:28:22 GMT",
+   "streszczenie": "Department for Work and Pensions officials say welfare payments will continue to be made despite huge outage Tell us: have you been affected by the DWP ‘cyber incident’ Almost all pensions and benefits systems in the UK are unavailable after a “cyber incident”. Anyone trying to check their state pension, make an application for disability benefits or claim universal credit was not able to do so on Friday morning. Continue reading..."
+  },
+  {
+   "zrodlo": "The Guardian",
+   "kategoria": "NEWS",
+   "region": "world",
+   "tytul": "UK pensions department hit by ‘serious cyber incident’, minister says – UK politics live",
    "url": "https://www.theguardian.com/politics/live/2026/nov/27/department-work-pensions-offline-cyber-incident-rosebank-slapps-latest-news-updates",
    "opublikowano": "2026-11-27T14:01:55Z",
    "opublikowano_surowe": "Fri, 27 Nov 2026 14:01:55 GMT",
-   "streszczenie": "The department is working with cyber security experts to restore services and limit disruption Tell us: have you been affected by the DWP ‘cyber incident’ According to Downdetector , which tracks online service outages, reports of problems with the government website appeared to begin last night and peaked at about 8am this morning. Tory MP Neil Shastri-Hurst has also commented on the disruption at the DWP, saying the incident highlights the importance of protecting essential public services and ensuring they can recover quickly when systems fail. Today’s cyber incident at DWP is a stark remin"
+   "streszczenie": "Pat McFadden says the government doesn’t believe any personal data has been compromised Tell us: have you been affected by the DWP ‘cyber incident’ According to Downdetector , which tracks online service outages, reports of problems with the government website appeared to begin last night and peaked at about 8am this morning. Tory MP Neil Shastri-Hurst has also commented on the disruption at the DWP, saying the incident highlights the importance of protecting essential public services and ensuring they can recover quickly when systems fail. Today’s cyber incident at DWP is a stark reminder tha"
   },
   {
    "zrodlo": "The Guardian",
@@ -760,21 +784,11 @@
    "zrodlo": "The Guardian",
    "kategoria": "NEWS",
    "region": "world",
-   "tytul": "Britain’s taste for cow’s milk fades as sales hit record low",
+   "tytul": "UK’s taste for cow’s milk sours as sales hit record low",
    "url": "https://www.theguardian.com/food/2026/nov/27/britain-cows-milk-sales-record-low-oat-almond",
    "opublikowano": "2026-11-27T13:32:07Z",
    "opublikowano_surowe": "Fri, 27 Nov 2026 13:32:07 GMT",
    "streszczenie": "Environmental and animal welfare concerns, and taste preferences, are behind rising popularity of vegan alternatives Has milk gotta lotta bottle? It may not have as much as it used to, with official data showing Britons are buying less cow’s milk than at any point since records began. Guardian analysis of the government’s family food survey shows the average person bought 1.8 pints (1,024ml) of cow’s milk a week in 2024-25 – the lowest level in the record’s 52-year history and less than half the amount of milk bought in 1974. Continue reading..."
-  },
-  {
-   "zrodlo": "The Guardian",
-   "kategoria": "NEWS",
-   "region": "world",
-   "tytul": "DWP ‘cyber incident’ knocks almost all pensions and benefits systems offline",
-   "url": "https://www.theguardian.com/politics/2026/nov/27/dwp-cyber-incident-pensions-benefits-systems-offline",
-   "opublikowano": "2026-11-27T13:13:00Z",
-   "opublikowano_surowe": "Fri, 27 Nov 2026 13:13:00 GMT",
-   "streszczenie": "Department for Work and Pensions officials say welfare payments will continue to be made despite huge outage Tell us: have you been affected by the DWP ‘cyber incident’ Almost all pensions and benefits systems in the UK are unavailable after a “cyber incident”. Anyone trying to check their state pension, make an application for disability benefits or claim universal credit was not able to do so on Friday morning. Continue reading..."
   },
   {
    "zrodlo": "The Guardian",
@@ -837,14 +851,14 @@
    "streszczenie": "Judge says officers should be banned from screens and phones while on shift after the 33-year-old’s death at Silverwater • Warning: This article contains references to Indigenous Australians who have died The NSW coroner has found the death of an Aboriginal man in custody in 2023 was not only preventable but was “one of the most egregious deaths” she had investigated. Corrective Services NSW has been recommended to overhaul officer training for self-harm responses, and ban officers’ access to TV and YouTube while on shift. Continue reading..."
   },
   {
-   "zrodlo": "The Guardian",
+   "zrodlo": "Al Jazeera",
    "kategoria": "NEWS",
    "region": "world",
-   "tytul": "King tides batter US coasts as storms threaten Thanksgiving celebrations",
-   "url": "https://www.theguardian.com/us-news/2026/nov/27/king-tides-us-coasts-storms-threaten-thanksgiving-celebrations",
-   "opublikowano": "2026-11-27T10:50:48Z",
-   "opublikowano_surowe": "Fri, 27 Nov 2026 10:50:48 GMT",
-   "streszczenie": "Heavy rain, strong winds and coastal flooding creating hazardous conditions for millions travelling for holiday King tides and huge waves have been battering both coasts of the US during a turbulent Thanksgiving period, with severe weather threatening millions across the country. Along the California coast, king tides caused considerable damage. In Pacifica, south of San Francisco, large waves battered the coastline on Wednesday, destroying part of a pier and sending debris into the ocean. The National Weather Service issued coastal flood warnings covering parts of the Pacific coastline and sh"
+   "tytul": "Why is Israel celebrating Costa Rica’s ban on Francesca Albanese?",
+   "url": "https://www.aljazeera.com/news/2026/11/27/why-is-israel-celebrating-costa-ricas-ban-on-francesca-albanese?traffic_source=rss",
+   "opublikowano": "2026-11-27T14:17:25Z",
+   "opublikowano_surowe": "Fri, 27 Nov 2026 14:17:25 +0000",
+   "streszczenie": "Costa Rica is under pressure over its decision to bar the UN expert who has documented Israel's genocidal war on Gaza."
   },
   {
    "zrodlo": "Al Jazeera",
@@ -987,16 +1001,6 @@
    "streszczenie": "Paris Fury had claimed mental health diagnosis for Tyson following his 2015 victory over Ukraine's Wladimir Klitschko."
   },
   {
-   "zrodlo": "Al Jazeera",
-   "kategoria": "NEWS",
-   "region": "world",
-   "tytul": "Pakistan’s viral cricket catch star hopes to launch career",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/27/27-11-sv-pakistan-viral-cricket-catch?traffic_source=rss",
-   "opublikowano": "2026-11-27T11:12:54Z",
-   "opublikowano_surowe": "Fri, 27 Nov 2026 11:12:54 +0000",
-   "streszczenie": "The motorbike passenger who went viral for his stunning cricket catch in Pakistan says he hopes to play for his country."
-  },
-  {
    "zrodlo": "NPR",
    "kategoria": "NEWS",
    "region": "world",
@@ -1040,11 +1044,11 @@
    "zrodlo": "NPR",
    "kategoria": "NEWS",
    "region": "world",
-   "tytul": "Screen free tweens try their hand at Dungeons & Dragons",
-   "url": "https://www.npr.org/2026/11/27/nx-s1-6042445/screen-free-tweens-try-their-hand-at-dungeons-dragons",
+   "tytul": "12 strategies to cut your risk of dementia. Take this quiz to start",
+   "url": "https://www.npr.org/2026/11/27/nx-s1-6050867/prevent-dementia-alzheimers-your-turn",
    "opublikowano": "2026-11-27T10:00:00Z",
    "opublikowano_surowe": "Fri, 27 Nov 2026 05:00:00 -0500",
-   "streszczenie": "Some parents, fed up with screens, have found an analog oasis in the role-playing game invented in the 1970s."
+   "streszczenie": "Here's something you can do as you gather with family and friends this holiday season: Take a free, five-minute quiz to assess your brain health. You'll learn simple changes to keep your mind sharp."
   },
   {
    "zrodlo": "NPR",
@@ -1060,11 +1064,11 @@
    "zrodlo": "NPR",
    "kategoria": "NEWS",
    "region": "world",
-   "tytul": "12 strategies to cut your risk of dementia. Take this quiz to start",
-   "url": "https://www.npr.org/2026/11/27/nx-s1-6050867/prevent-dementia-alzheimers-your-turn",
+   "tytul": "Screen free tweens try their hand at Dungeons & Dragons",
+   "url": "https://www.npr.org/2026/11/27/nx-s1-6042445/screen-free-tweens-try-their-hand-at-dungeons-dragons",
    "opublikowano": "2026-11-27T10:00:00Z",
    "opublikowano_surowe": "Fri, 27 Nov 2026 05:00:00 -0500",
-   "streszczenie": "Here's something you can do as you gather with family and friends this holiday season: Take a free, five-minute quiz to assess your brain health. You'll learn simple changes to keep your mind sharp."
+   "streszczenie": "Some parents, fed up with screens, have found an analog oasis in the role-playing game invented in the 1970s."
   },
   {
    "zrodlo": "NPR",
@@ -1095,6 +1099,26 @@
    "opublikowano": "2026-11-27T06:12:45Z",
    "opublikowano_surowe": "Fri, 27 Nov 2026 01:12:45 -0500",
    "streszczenie": "Strobe Talbott, a former Time magazine reporter who later served as deputy secretary of state under President Bill Clinton and then headed the Brookings Institution, died Thursday. He was 80."
+  },
+  {
+   "zrodlo": "Deutsche Welle",
+   "kategoria": "NEWS",
+   "region": "europe",
+   "tytul": "Georgia: Police clash with Besiktas fans at Israel club game",
+   "url": "https://www.dw.com/en/georgia-police-clash-with-besiktas-fans-at-israel-club-game/a-80076111?maca=en-rss-en-all-1573-rdf",
+   "opublikowano": "2026-11-27T14:21:00Z",
+   "opublikowano_surowe": "2026-11-27T14:21:00Z",
+   "streszczenie": "Turkey's Besiktas accused Georgian police of using \"disproportionate\" force during the game with Israel's Hapoel Beer-Sheva, which saw Besiktas fans unfurl a banner supporting Palestine."
+  },
+  {
+   "zrodlo": "Deutsche Welle",
+   "kategoria": "NEWS",
+   "region": "europe",
+   "tytul": "Airline Norse Atlantic files for bankruptcy, succumbing to aviation fuel costs",
+   "url": "https://www.dw.com/en/airline-norse-atlantic-files-for-bankruptcy-succumbing-to-aviation-fuel-costs/a-80076728?maca=en-rss-en-all-1573-rdf",
+   "opublikowano": "2026-11-27T14:20:00Z",
+   "opublikowano_surowe": "2026-11-27T14:20:00Z",
+   "streszczenie": "The low-cost airline was only founded a few years ago and had been struggling to turn a profit. The spike in aviation fuel prices caused by the war in Iran has now driven Norway's Norse Atlantic into bankruptcy."
   },
   {
    "zrodlo": "Deutsche Welle",
@@ -1227,24 +1251,24 @@
    "streszczenie": "The sitting of the Indian parliament comes after its monsoon session was adjourned indefinitely in August. Follow DW."
   },
   {
-   "zrodlo": "Deutsche Welle",
+   "zrodlo": "France 24",
    "kategoria": "NEWS",
    "region": "europe",
-   "tytul": "New Zealand election ends in hung parliament",
-   "url": "https://www.dw.com/en/new-zealand-election-ends-in-hung-parliament/a-80070240?maca=en-rss-en-all-1573-rdf",
-   "opublikowano": "2026-11-27T03:13:00Z",
-   "opublikowano_surowe": "2026-11-27T03:13:00Z",
-   "streszczenie": "A final vote count showed that neither the center-right bloc nor the opposition left bloc was able to secure a majority."
+   "tytul": "With new law, Iraq sees rise in child marriage, custody battles",
+   "url": "https://www.france24.com/en/tv-shows/focus/20261127-with-new-law-iraq-sees-rise-in-child-marriage-custody-battles",
+   "opublikowano": "2026-11-27T14:48:28Z",
+   "opublikowano_surowe": "Fri, 27 Nov 2026 14:48:28 GMT",
+   "streszczenie": "In January 2025, Iraq's parliament passed an amendment allowing families to place their household under religious law, governing all issues around marriage, divorce and inheritance. The new Ja'fari law, a Shiite law, came into force in October 2025. One year on, its consequences have been raising serious alarm, especially among women, who say they've seen a major rollback of their rights. FRANCE 24's Marie-Charlotte Roupie reports, with Josh Vardey."
   },
   {
-   "zrodlo": "Deutsche Welle",
+   "zrodlo": "France 24",
    "kategoria": "NEWS",
    "region": "europe",
-   "tytul": "At odds over the EU budget, European leaders cut summit short",
-   "url": "https://www.dw.com/en/at-odds-over-the-eu-budget-european-leaders-cut-summit-short/live-80056415?maca=en-rss-en-all-1573-rdf",
-   "opublikowano": "2026-11-26T21:47:00Z",
-   "opublikowano_surowe": "2026-11-26T21:47:00Z",
-   "streszczenie": "Even before they met, it was clear the gap between European leaders' demands for the EU budget would make negotiations difficult. They ended a summit meeting early and aim to agree on EU funding in December."
+   "tytul": "Japan's radical past: Retracing the far-left groups of the 1970s",
+   "url": "https://www.france24.com/en/tv-shows/revisited/20261127-japan-radical-past-retracing-far-left-groups-1970s",
+   "opublikowano": "2026-11-27T14:33:04Z",
+   "opublikowano_surowe": "Fri, 27 Nov 2026 14:33:04 GMT",
+   "streszczenie": "Our correspondents delve into the history of Japan's radical left in the 1970s. From the United Red Army to the Japanese Red Army, several movements turned to armed struggle and violent action. More than half a century on, our team met with two former militants."
   },
   {
    "zrodlo": "France 24",
@@ -1330,11 +1354,11 @@
    "zrodlo": "France 24",
    "kategoria": "NEWS",
    "region": "europe",
-   "tytul": "Spain’s Pedro makes final campaign fight to beat the right ahead of crunch vote",
+   "tytul": "Spain’s Pedro makes final campaign push to beat the right ahead of crunch vote",
    "url": "https://www.france24.com/en/europe/20261127-sanchez-makes-last-bid-to-beat-the-right-ahead-of-spanish-vote",
    "opublikowano": "2026-11-27T10:57:18Z",
    "opublikowano_surowe": "Fri, 27 Nov 2026 10:57:18 GMT",
-   "streszczenie": "Spanish Prime Minister Pedro Sanchez holds a final rally Friday in Madrid on the last day of campaigning for Sunday's high-stakes elections. Opinion polls show the Socialist premier lagging behind the main right-wing Popular Party (PP) as the Spanish vote opens an electoral cycle over the next 12 months that could reshape the balance of power within the EU."
+   "streszczenie": "Spanish Prime Minister Pedro Sanchez makes his final campaign push with a rally in Madrid Friday, the last day of campaigning for Sunday's high-stakes elections. Opinion polls show the Socialist premier lagging behind the main right-wing Popular Party (PP) as the Spanish vote opens an electoral cycle over the next 12 months that could reshape the balance of power within the EU."
   },
   {
    "zrodlo": "France 24",
@@ -1377,24 +1401,14 @@
    "streszczenie": "US President Donald Trump said on Thursday that he had urged his Russian counterpart Vladimir Putin to \"pull back all military aggression against territories throughout Europe\". Although Trump did not provide any further details, he added that he hoped this would pave the way for a peace deal to be struck between Kyiv and Moscow. Follow our liveblog for all the latest updates."
   },
   {
-   "zrodlo": "France 24",
+   "zrodlo": "Politico Europe",
    "kategoria": "NEWS",
    "region": "europe",
-   "tytul": "Why is India so afraid of Pakistan's new Netflix series?",
-   "url": "https://www.france24.com/en/tv-shows/press-review/20261127-why-is-india-so-afraid-of-pakistan-s-new-netflix-series",
-   "opublikowano": "2026-11-27T09:56:52Z",
-   "opublikowano_surowe": "Fri, 27 Nov 2026 09:56:52 GMT",
-   "streszczenie": "PRESS REVIEW – Friday, November 27: Controversy brews as India asks Netflix to ban a Pakistani series from being broadcast in the country. Tensions have been high between the two nations since last year's terror attack in the Kashmir region. Also in the news: Taiwanese voters will head to the polls for all-important local elections overshadowed by the threat of Chinese claims to the island. Finally, forget schadenfreude – practicing \"freudenfreude\" is better for your health."
-  },
-  {
-   "zrodlo": "France 24",
-   "kategoria": "NEWS",
-   "region": "europe",
-   "tytul": "Five people hospitalised as Levski Sofia and Marseille fans clash ahead of Europa League game",
-   "url": "https://www.france24.com/en/france/20261127-five-people-hospitalised-as-levski-sofia-and-marseille-fans-clash-ahead-of-europa-league-game",
-   "opublikowano": "2026-11-27T09:36:56Z",
-   "opublikowano_surowe": "Fri, 27 Nov 2026 09:36:56 GMT",
-   "streszczenie": "Fighting broke out ahead of Thursday's Europa League match between Levski Sofia and Olympique Marseille, with five Bulgarian fans ending up in hospital. Local media reported a number of Levski fans performing Nazi salutes in the lead-up to the skirmish."
+   "tytul": "We’d be ‘stupid’ not to: Poland defends $300M military AI deal with Palantir",
+   "url": "https://www.politico.eu/article/wed-be-stupid-not-to-poland-defends-300m-military-ai-deal-with-palantir/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+   "opublikowano": "2026-11-27T14:41:55Z",
+   "opublikowano_surowe": "Fri, 27 Nov 2026 14:41:55 +0000",
+   "streszczenie": "Poland's defense minister said it would be “wrong” not to use the software, despite concerns over reliance on American technology."
   },
   {
    "zrodlo": "Politico Europe",
@@ -1487,14 +1501,14 @@
    "streszczenie": "Kyiv is pushing for tougher checks on neutral status, a ban on Kremlin-linked symbols and funding cuts for sports bodies that let Russians compete."
   },
   {
-   "zrodlo": "Politico Europe",
+   "zrodlo": "Euronews",
    "kategoria": "NEWS",
    "region": "europe",
-   "tytul": "Spain’s looming right-wing pivot on climate is already playing out in Valencia",
-   "url": "https://www.politico.eu/article/spain-looming-right-wing-pivot-on-climate-is-already-playing-out-in-valencia/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-   "opublikowano": "2026-11-27T03:00:00Z",
-   "opublikowano_surowe": "Fri, 27 Nov 2026 03:00:00 +0000",
-   "streszczenie": "The center-right People's Party and far-right Vox's record in the flood-hit region offers clues on how their climate-skeptic policies could play out at the national level."
+   "tytul": "UK: London's Cake and Bake Show honours David Attenborough's centenary",
+   "url": "https://www.euronews.com/video/2026/11/27/uk-londons-cake-and-bake-show-honours-david-attenboroughs-centenary",
+   "opublikowano": "2026-11-27T14:48:42Z",
+   "opublikowano_surowe": "Fri, 27 Nov 2026 15:48:42 +0100",
+   "streszczenie": "From lifelike gorillas to miniature sugar sculptures of David Attenborough, bakers in London are celebrating the legendary broadcaster's centenary with spectacular creations inspired by nature."
   },
   {
    "zrodlo": "Euronews",
@@ -1635,16 +1649,6 @@
    "opublikowano": "2026-11-27T06:57:35Z",
    "opublikowano_surowe": "Fri, 27 Nov 2026 07:57:35 +0100",
    "streszczenie": "Besiktas supporters clashed with police in Batumi during a Europa League match against Israeli club Hapoel Beer-Sheva, with fans chanting and officers pursuing supporters outside the stadium."
-  },
-  {
-   "zrodlo": "Euronews",
-   "kategoria": "NEWS",
-   "region": "europe",
-   "tytul": "Latest news bulletin | November 27th, 2026 – Morning",
-   "url": "https://www.euronews.com/video/2026/11/27/latest-news-bulletin-november-27th-2026-morning",
-   "opublikowano": "2026-11-27T06:00:33Z",
-   "opublikowano_surowe": "Fri, 27 Nov 2026 07:00:33 +0100",
-   "streszczenie": "Catch up with the most important stories from around Europe and beyond this November 27th, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel."
   },
   {
    "zrodlo": "Euractiv",
@@ -1800,6 +1804,36 @@
    "zrodlo": "RMF24",
    "kategoria": "NEWS",
    "region": "poland",
+   "tytul": "ZNP: Nauczyciele oburzeni wetem prezydenta. Bussines Centre Club chwali ruch Nawrockiego",
+   "url": "https://www.rmf24.pl/fakty/polityka/news-znp-nauczyciele-oburzeni-wetem-prezydenta-bussines-centre-cl,nIdn,1028021",
+   "opublikowano": "2026-11-27T14:51:00Z",
+   "opublikowano_surowe": "Fri, 27 Nov 2026 15:51:00 +0100",
+   "streszczenie": "ZNP: Nauczyciele oburzeni wetem prezydenta. Bussines Centre Club chwali ruch Nawrockiego"
+  },
+  {
+   "zrodlo": "RMF24",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Co dalej z obowiązywaniem stopni alarmowych w Polsce? Tusk zdecydował",
+   "url": "https://www.rmf24.pl/fakty/polska/news-co-dalej-z-obowiazywaniem-stopni-alarmowych-w-polsce-tusk-zd,nIdn,1028020",
+   "opublikowano": "2026-11-27T14:40:00Z",
+   "opublikowano_surowe": "Fri, 27 Nov 2026 15:40:00 +0100",
+   "streszczenie": "Co dalej z obowiązywaniem stopni alarmowych w Polsce? Tusk zdecydował"
+  },
+  {
+   "zrodlo": "RMF24",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Św. Jan Paweł II upamiętniony w Ukrainie. „Przebaczamy i prosimy o przebaczenie”",
+   "url": "https://www.rmf24.pl/fakty/swiat/news-sw-jan-pawel-ii-upamietniony-w-ukrainie-przebaczamy-i-prosim,nIdn,1028016",
+   "opublikowano": "2026-11-27T14:22:00Z",
+   "opublikowano_surowe": "Fri, 27 Nov 2026 15:22:00 +0100",
+   "streszczenie": "Św. Jan Paweł II upamiętniony w Ukrainie. „Przebaczamy i prosimy o przebaczenie”"
+  },
+  {
+   "zrodlo": "RMF24",
+   "kategoria": "NEWS",
+   "region": "poland",
    "tytul": "Uchylenie immunitetu Ziobrze i zgoda na areszt. Jest wniosek Żurka",
    "url": "https://www.rmf24.pl/fakty/polityka/news-uchylenie-immunitetu-ziobrze-i-zgoda-na-areszt-jest-wniosek-,nIdn,1028012",
    "opublikowano": "2026-11-27T13:59:00Z",
@@ -1917,190 +1951,20 @@
    "streszczenie": "Ile kosztuje bigos i kiełbasa na jarmarku w Zakopanem? Znamy ceny na stoiskach"
   },
   {
-   "zrodlo": "RMF24",
+   "zrodlo": "Polsat News",
    "kategoria": "NEWS",
    "region": "poland",
-   "tytul": "Był poszukiwany w całej Europie. „Łowcy głów” zatrzymali groźnego przestępcę",
-   "url": "https://www.rmf24.pl/regiony/wroclaw/news-byl-poszukiwany-w-calej-europie-lowcy-glow-zatrzymali-grozne,nIdn,1027989",
-   "opublikowano": "2026-11-27T12:15:00Z",
-   "opublikowano_surowe": "Fri, 27 Nov 2026 13:15:00 +0100",
-   "streszczenie": "Był poszukiwany w całej Europie. „Łowcy głów” zatrzymali groźnego przestępcę"
-  },
-  {
-   "zrodlo": "RMF24",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Dwa pociągi na jednym torze. Chwile grozy w Katowicach",
-   "url": "https://www.rmf24.pl/regiony/slaskie/news-dwa-pociagi-na-jednym-torze-chwile-grozy-w-katowicach,nIdn,1027987",
-   "opublikowano": "2026-11-27T12:07:00Z",
-   "opublikowano_surowe": "Fri, 27 Nov 2026 13:07:00 +0100",
-   "streszczenie": "Dwa pociągi na jednym torze. Chwile grozy w Katowicach"
-  },
-  {
-   "zrodlo": "RMF24",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Macierewicz o „wybuchu” samolotu. „Kłamią w sprawie zbrodni smoleńskiej”",
-   "url": "https://www.rmf24.pl/fakty/polska/news-macierewicz-o-wybuchu-samolotu-klamia-w-sprawie-zbrodni-smol,nIdn,1027984",
-   "opublikowano": "2026-11-27T11:57:00Z",
-   "opublikowano_surowe": "Fri, 27 Nov 2026 12:57:00 +0100",
-   "streszczenie": "Macierewicz o „wybuchu” samolotu. „Kłamią w sprawie zbrodni smoleńskiej”"
-  },
-  {
-   "zrodlo": "TVN24",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Krakowska policja dostanie pieniądze na kamizelki kuloodporne",
-   "url": "https://tvn24.pl/krakow/krakow-policja-dostanie-pieniadze-na-kamizelki-kuloodporne-od-miasta-st9361068?source=rss",
-   "opublikowano": "2026-11-27T14:07:22Z",
-   "opublikowano_surowe": "Fri, 27 Nov 2026 14:07:22 GMT",
-   "streszczenie": "Prezydent Krakowa zdecydował o przekazaniu policji środków na kamizelki kuloodporne. Prosił go o to komendant miejski."
-  },
-  {
-   "zrodlo": "TVN24",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Limity miały uporządkować system. Szpitale widzą poważne zagrożenia",
-   "url": "https://tvn24.pl/zdrowie/szpitale-ostrzegaja-przed-skutkami-nowych-przepisow-chodzi-o-limit-zarobkow-i-czasu-pracy-lekarzy-st9361045?source=rss",
-   "opublikowano": "2026-11-27T14:03:00Z",
-   "opublikowano_surowe": "Fri, 27 Nov 2026 14:03:00 GMT",
-   "streszczenie": "Nowe przepisy, przyjęte przez Sejm w ubiegłym tygodniu, mają ograniczyć czas pracy i zarobki lekarzy, ale mogą też wywołać skutki, których ustawodawca nie przewidział. Dyrektorzy szpitali powiatowych, samorząd lekarski i pielęgniarki ostrzegają, że regulacja może pogłębić braki kadrowe, doprowadzić do zamykania oddziałów i poradni, a w konsekwencji utrudnić pacjentom dostęp do leczenia."
-  },
-  {
-   "zrodlo": "TVN24",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Wyż przegna chmury. Nocami może być nawet -15 stopni",
-   "url": "https://tvn24.pl/tvnmeteo/prognoza/prognoza-pogody-na-weekend-wyz-przegna-chmury-nocami-moze-byc-15-stopni-st9360977?source=rss",
-   "opublikowano": "2026-11-27T13:51:09Z",
-   "opublikowano_surowe": "Fri, 27 Nov 2026 13:51:09 GMT",
-   "streszczenie": "Rządy nad pogodą w Polsce obejmie wyż Manuel, który na jakiś czas przegna chmury. Nadchodzące dni w większości kraju zapowiadają się słonecznie. Spodziewany jest jednak mróz, który szczególnie dotkliwy będzie nocami."
-  },
-  {
-   "zrodlo": "TVN24",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Dzwony kościelne biją co kwadrans przez całą dobę",
-   "url": "https://tvn24.pl/swiat/francja-dzwony-koscielne-w-la-garnache-bija-co-kwadrans-cala-dobe-wiekszosc-mieszkancow-za-utrzymaniem-tradycji-st9361018?source=rss",
-   "opublikowano": "2026-11-27T13:49:54Z",
-   "opublikowano_surowe": "Fri, 27 Nov 2026 13:49:54 GMT",
-   "streszczenie": "Mieszkańcy La Garnache we Francji opowiedzieli się za tym, aby kościelne dzwony nadal biły co kwadrans przez całą dobę. Część lokalnej społeczności narzekała, że przez ich dźwięk nie może w nocy spać. W głosowaniu jednak ci drudzy stanowili mniejszość."
-  },
-  {
-   "zrodlo": "TVN24",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Śledztwo w sprawie Pegasusa. Zarzut dla byłego komendanta policji Jarosława S.",
-   "url": "https://tvn24.pl/polska/zarzuty-dla-bylego-komendanta-policji-jaroslawa-s-w-ramach-sledztwa-w-sprawie-pegasusa-st9361320?source=rss",
-   "opublikowano": "2026-11-27T13:48:53Z",
-   "opublikowano_surowe": "Fri, 27 Nov 2026 13:48:53 GMT",
-   "streszczenie": "Prokuratura przedstawiła zarzut byłemu komendantowi głównemu policji Jarosławowi S. w śledztwie dotyczącym stosowania Pegasusa - potwierdził portalowi tvn24.pl rzecznik Prokuratury Krajowej Przemysław Nowak. Śledczy nie zastosowali wobec niego środków zapobiegawczych."
-  },
-  {
-   "zrodlo": "TVN24",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Kolejne weto prezydenta. Minister finansów: wstyd",
-   "url": "https://tvn24.pl/polska/prezydent-zawetowal-ustawe-o-podatkach-komentarze-politykow-st9361020?source=rss",
-   "opublikowano": "2026-11-27T13:47:37Z",
-   "opublikowano_surowe": "Fri, 27 Nov 2026 13:47:37 GMT",
-   "streszczenie": "Prezydent ponownie stanął po stronie wielkich koncernów, a nie po stronie Polaków - napisał minister finansów Andrzej Domański po wecie do ustawy o podatkach. - Głupota i krótkowzroczność - skomentował poseł KO Konrad Frysztak w TVN24. Podpis w Toruniu dokonany pod jakimś świstkiem jest ważniejszy - oceniła posłanka Polski 2050 Ewa Schadler. Według ministry edukacji Barbary Nowackiej weto uderzy w nauczycieli."
-  },
-  {
-   "zrodlo": "TVN24",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Emocjonujący finał i fala komentarzy. Co fenomen \"Hotelu Paradise\" mówi o widzach?",
-   "url": "https://tvn24.pl/kultura-i-styl/hotel-paradise-decyzja-karoliny-hoppe-i-fenomen-programu-eksperci-wyjasniaja-st9359278?source=rss",
-   "opublikowano": "2026-11-27T13:42:19Z",
-   "opublikowano_surowe": "Fri, 27 Nov 2026 13:42:19 GMT",
-   "streszczenie": "Widzowie zobaczyli rzuconą kulę i złamaną obietnicę. Nie zobaczyli jednak wszystkiego, co przez tygodnie kształtowało emocje i zachowania uczestników. Psychoterapeutka, medioznawczyni i wieloletni reżyser \"Hotelu Paradise\" wyjaśniają, co kryje się za jednym z najgłośniejszych finałów w historii programu."
-  },
-  {
-   "zrodlo": "TVN24",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Narkotykowy gang pseudokibiców. Dwie kolejne osoby zatrzymane",
-   "url": "https://tvn24.pl/katowice/slaskie-narkotykowy-gang-pseudokibicow-dwie-kolejne-osoby-zatrzymane-st9361336?source=rss",
-   "opublikowano": "2026-11-27T13:37:42Z",
-   "opublikowano_surowe": "Fri, 27 Nov 2026 13:37:42 GMT",
-   "streszczenie": "Śląscy policjanci zatrzymali dwóch kolejnych mężczyzn, którzy działali w narkotykowym gangu założonym przez pseudokibiców. W całej sprawie, nadzorowanej przez prokuraturę z Sosnowca, zarzuty usłyszało już prawie 50 osób."
-  },
-  {
-   "zrodlo": "TVN24",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Opłata cukrowa po raz drugi zawetowana przez prezydenta",
-   "url": "https://tvn24.pl/biznes/pieniadze/prezydent-karol-nawrocki-zawetowal-podwyzke-oplaty-cukrowej-st9361308?source=rss",
-   "opublikowano": "2026-11-27T13:34:42Z",
-   "opublikowano_surowe": "Fri, 27 Nov 2026 13:34:42 GMT",
-   "streszczenie": "Podwyżka stawek opłaty cukrowej ponownie spotkała się z wetem prezydenta. Karol Nawrocki argumentował, że zmiany dotknęłyby nie tylko słodkich napojów gazowanych, lecz także polskich soków."
-  },
-  {
-   "zrodlo": "TVN24",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Wódkę popijał piwem. Akt oskarżenia po wypadku, w którym zginęły trzy młode osoby",
-   "url": "https://tvn24.pl/tvnwarszawa/okolice/warszawa-akt-oskarzenia-po-tragicznym-wypadku-w-lomiankach-kierowcy-grozi-do-20-lat-wiezienia-st9360820?source=rss",
-   "opublikowano": "2026-11-27T13:33:04Z",
-   "opublikowano_surowe": "Fri, 27 Nov 2026 13:33:04 GMT",
-   "streszczenie": "Prokuratura skierowała do sądu akt oskarżenia w sprawie tragicznego wypadku w Łomiankach. Śmierć poniosły trzy młode osoby. Ich auto dachowało po zderzeniu z rozpędzonym pojazdem, kierowanym przez Patryka R. Zdaniem śledczych mężczyzna był pod wpływem alkoholu. Prowadził mimo dwóch sądowych zakazów. Grozi mu do 20 lat więzienia."
-  },
-  {
-   "zrodlo": "TVN24",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "\"Będziemy tam obserwować istny gejzer\". Za kulisami rozgrywki na prawicy",
-   "url": "https://tvn24.pl/polska/rozgrywki-na-prawicy-relacje-na-linii-pis-konfederacja-rozwoj-plus-grzegorz-braun-karol-nawrocki-st9357395?source=rss",
-   "opublikowano": "2026-11-27T13:31:14Z",
-   "opublikowano_surowe": "Fri, 27 Nov 2026 13:31:14 GMT",
-   "streszczenie": "Będą wybuchy, łagodzenia, kłótnie, miłości - prognozuje jeden z naszych rozmówców. Na prawicy trwa rozgrywka pięciu politycznych ośrodków, które łączy jeden cel. Dzielą - ambicje, interesy i wzajemne urazy. Kto ostatecznie będzie dyktował warunki?"
-  },
-  {
-   "zrodlo": "TVN24",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Wyprzedzała, zderzyła się z drugim autem. Pięć osób w szpitalu",
-   "url": "https://tvn24.pl/poznan/opalenica-wyprzedzala-i-zderzyla-sie-z-drugim-autem-piec-osob-w-szpitalu-st9361309?source=rss",
-   "opublikowano": "2026-11-27T13:28:51Z",
-   "opublikowano_surowe": "Fri, 27 Nov 2026 13:28:51 GMT",
-   "streszczenie": "Pięć osób, w tym dzieci w wieku ośmiu i dziewięciu lat, trafiło do szpitala po zderzeniu dwóch samochodów na obwodnicy Opalenicy (Wielkopolskie)."
-  },
-  {
-   "zrodlo": "TVN24",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Incydent na ulicach Ełku. Mężczyzna miał pistolet",
-   "url": "https://tvn24.pl/olsztyn/elk-stal-pod-blokiem-z-pistoletem-w-rece-swiadek-wezwal-policje-st9360975?source=rss",
-   "opublikowano": "2026-11-27T13:16:30Z",
-   "opublikowano_surowe": "Fri, 27 Nov 2026 13:16:30 GMT",
-   "streszczenie": "Jeden z mieszkańców Ełku zauważył podejrzanie zachowującego się mężczyznę, który stał pod blokiem z przedmiotem przypominającym broń. Po zgłoszeniu na numer alarmowy na miejsce szybko skierowano policjantów."
-  },
-  {
-   "zrodlo": "TVN24",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Kto straci najwięcej na prezydenckim wecie w sprawie PIT. Wyliczenia eksperta",
-   "url": "https://tvn24.pl/biznes/pieniadze/weto-prezydenta-karola-nawrockiego-w-sprawie-progow-podatkowych-ile-nie-zyskaja-pracownicy-w-2027-roku-wyliczenia-st9361251?source=rss",
-   "opublikowano": "2026-11-27T13:13:04Z",
-   "opublikowano_surowe": "Fri, 27 Nov 2026 13:13:04 GMT",
-   "streszczenie": "Najbardziej tracą pracownicy z dochodem powyżej 120 tysięcy złotych - podkreślił Piotr Juszczyk, ekspert inFakt w komentarzu dla tvn24.pl. Weto prezydenta Karola Nawrockiego oznacza, że planowana obniżka PIT nie wejdzie w życie, a część podatników nie zyska nawet 3,6 tysiąca złotych rocznie. Skutki tej decyzji odczują przede wszystkim pod koniec roku, po przekroczeniu progu podatkowego."
-  },
-  {
-   "zrodlo": "TVN24",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Foteliki samochodowe winne spadkowi urodzeń? \"Kuriozalne\"",
-   "url": "https://tvn24.pl/swiat/usa-zona-szefa-personelu-bialego-domu-stephena-millera-obwinia-foteliki-samochodowe-o-spadek-dzietnosci-st9360862?source=rss",
-   "opublikowano": "2026-11-27T13:10:57Z",
-   "opublikowano_surowe": "Fri, 27 Nov 2026 13:10:57 GMT",
-   "streszczenie": "Wpis żony nowego szefa personelu Białego Domu Stephena Millera wywołał poruszenie w mediach społecznościowych. Katie Miller powiązała spadek dzietności z fotelikami samochodowymi. \"Czynią macierzyństwo znacznie bardziej skomplikowanym i trudnym\" - stwierdziła."
+   "tytul": "Wesele na 400 tys. osób. Niewiarygodna ceremonia w Indiach",
+   "url": "https://www.polsatnews.pl/wiadomosc/2026-11-27/wesele-na-400-tys-osob-niewiarygodna-impreza-w-indiach-jest-jedno-ale/",
+   "opublikowano": "2026-11-27T14:24:00Z",
+   "opublikowano_surowe": "Fri, 27 Nov 2026 15:24:00 +0100",
+   "streszczenie": "Przyjęcie weselne, które przyciągnęło aż 400 tys. gości, zorganizował dla swojej córki indyjski polityk Anant Singh. Ucztę przygotowywały setki kucharzy, natomiast specjalnie na potrzeby uroczystości przygotowano sześć lądowisk dla helikopterów. Jest jednak kilka problemów. Huczne przyjęcie odbyło się w najbiedniejszym stanie Indii, Biharze. Uwagę zwracają też poważne oskarżenia wobec gospodarza."
   },
   {
    "zrodlo": "Polsat News",
    "kategoria": "NEWS",
    "region": "poland",
-   "tytul": "\"Szkodnik\", \"wstyd\" vs. \"świetna decyzja\". Fala komentarzy po wecie prezydenta",
+   "tytul": "\"Szkodnik\", \"wstyd\" vs \"świetna decyzja\". Fala komentarzy po wecie prezydenta",
    "url": "https://www.polsatnews.pl/wiadomosc/2026-11-27/szkodnik-wstyd-vs-swietna-decyzja-fala-komentarzy-po-wecie-prezydenta/",
    "opublikowano": "2026-11-27T14:07:00Z",
    "opublikowano_surowe": "Fri, 27 Nov 2026 15:07:00 +0100",
@@ -2237,14 +2101,54 @@
    "streszczenie": "Intensywne opady śniegu nawiedziły południe Polski. Na Dolnym Śląsku i Opolszczyźnie kierowcy zmagają się z trudnymi warunkami. Na autostradzie A4 ciężarówka stanęła w poprzek jezdni, a w okolicach Jelcza-Laskowic doszło do wypadku busa. O utrudnieniach i niecodziennych zdarzeniach informują również widzowie Polsat News, przesyłając zdjęcia i nagrania na redakcyjną Wrzutnię."
   },
   {
-   "zrodlo": "Polsat News",
+   "zrodlo": "Onet Wiadomości",
    "kategoria": "NEWS",
    "region": "poland",
-   "tytul": "Historyczny sukces w japońskim zoo. Pierwszy taki przypadek na świecie",
-   "url": "https://www.polsatnews.pl/wiadomosc/2026-11-27/historyczny-sukces-w-japonskim-zoo-pierwszy-taki-przypadek-na-swiecie/",
-   "opublikowano": "2026-11-27T08:20:00Z",
-   "opublikowano_surowe": "Fri, 27 Nov 2026 09:20:00 +0100",
-   "streszczenie": "Historyczny sukces japońskiego ogrodu zoologicznego Adventure World. Po raz pierwszy na świecie udało się rozmnożyć zagrożonego wyginięciem pingwina długoczubego dzięki sztucznemu zapłodnieniu. Narodziny samicy potwierdziły badania genetyczne. Osiągnięcie może mieć istotne znaczenie dla ochrony gatunku, którego populacja w naturze systematycznie maleje."
+   "tytul": "Nowy ruch NBP w sprawie Trybunału Konstytucyjnego. Jest wniosek do prokuratury",
+   "url": "https://wiadomosci.onet.pl/kraj/nowy-ruch-nbp-w-sprawie-trybunalu-konstytucyjnego-jest-wniosek-do-prokuratury/66ct3hz",
+   "opublikowano": "2026-11-27T14:50:37Z",
+   "opublikowano_surowe": "Fri, 27 Nov 2026 14:50:37 GMT",
+   "streszczenie": "Warszawski Oddział Okręgowy Narodowego Banku Polskiego w piątek zawnioskował do Prokuratury Okręgowej w Warszawie o wystąpienie z pozwem w sprawie ustalenia, kto jest uprawniony do dysponowania rachunkami Trybunału Konstytucyjnego."
+  },
+  {
+   "zrodlo": "Onet Wiadomości",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Palestyńczycy jako \"żywe tarcze\". Izrael prowadzi dochodzenie. W sprawę angażuje się skrajna prawica",
+   "url": "https://wiadomosci.onet.pl/swiat/palestynczycy-jako-zywe-tarcze-izrael-prowadzi-dochodzenie-w-sprawe-angazuje-sie/26wyng9",
+   "opublikowano": "2026-11-27T14:46:48Z",
+   "opublikowano_surowe": "Fri, 27 Nov 2026 14:46:48 GMT",
+   "streszczenie": "Siły Obronne Izraela prowadzą dochodzenie w sprawie własnych żołnierzy podejrzanych o \"wykorzystywanie Palestyńczyków jako żywych tarcz\". Władze zbadają 16 domniemanych przypadków stosowania \"protokołu komarowego\", który został oficjalnie zakazany. Emisja reportażu na ten temat zapowiedziana w izraelskiej telewizji wywołała furię wśród ultranacjonalistycznych członków Knesetu."
+  },
+  {
+   "zrodlo": "Onet Wiadomości",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Waldemar Żurek o katastrofie smoleńskiej. Zabrał głos w sprawie Macierewicza",
+   "url": "https://wiadomosci.onet.pl/kraj/zurek-o-katastrofie-smolenskiej-mowi-o-zespole-powolanym-przez-ziobre/6ll9ym9",
+   "opublikowano": "2026-11-27T14:32:19Z",
+   "opublikowano_surowe": "Fri, 27 Nov 2026 14:32:19 GMT",
+   "streszczenie": "— Ta opinia to efekt pracy zespołu powołanego przez ministra Ziobrę. Wypowiedzieli się międzynarodowi eksperci — mówił na konferencji prasowej Waldemar Żurek o działaniach prokuratury w sprawie katastrofy smoleńskiej. Minister sprawiedliwości odniósł się także do aktywności Antoniego Macierewicza."
+  },
+  {
+   "zrodlo": "Onet Wiadomości",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Moskwa toczy batalię z Apple'em. Rosjanie mają coraz większy problem z iPhone'ami",
+   "url": "https://wiadomosci.onet.pl/swiat/moskwa-toczy-batalie-z-appleem/vzv357h",
+   "opublikowano": "2026-11-27T14:23:20Z",
+   "opublikowano_surowe": "Fri, 27 Nov 2026 14:23:20 GMT",
+   "streszczenie": "Przedłużająca się wojna sprawia, że Rosja jest coraz bardziej odcinana od zachodniego świata. Ministerstwo Cyfryzacji w Moskwie nie skłoniło firmy Apple do przywrócenia państwowego komunikatora Max w sklepie z aplikacjami App Store oraz włączenia 5G w iPhone’ach — powiedział dziennikowi \"Kommiersant\" minister Maksut Szadajew."
+  },
+  {
+   "zrodlo": "Onet Wiadomości",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Ukraina ujawniła szczegóły operacji \"Piekło-3\". Kijów nie zwalnia tempa",
+   "url": "https://wiadomosci.onet.pl/swiat/ukrainskie-pociski-zgotowaly-rosjanom-pieklo-kijow-ujawnia-szczegoly/l7hv4r6",
+   "opublikowano": "2026-11-27T14:21:09Z",
+   "opublikowano_surowe": "Fri, 27 Nov 2026 14:21:09 GMT",
+   "streszczenie": "Elitarna ukraińska formacja Azow pokazała nagranie z ataku na rosyjskim zapleczu w rejonie okupowanego Ługańska. W operacji użyto Piekła — dalekodystansowej hybrydy drona i pocisku rakietowego."
   },
   {
    "zrodlo": "Onet Wiadomości",
@@ -2270,7 +2174,7 @@
    "zrodlo": "Onet Wiadomości",
    "kategoria": "NEWS",
    "region": "poland",
-   "tytul": "Nowy ruch w sprawie Zbigniewa Ziobry. Waldemar Żurek wysłał wniosek",
+   "tytul": "Nowy ruch w sprawie Zbigniewa Ziobry. Waldemar Żurek podpisał wniosek",
    "url": "https://wiadomosci.onet.pl/kraj/nowy-ruch-w-sprawie-zbigniewa-ziobry-waldemar-zurek-wyslal-wniosek/8tjnmw3",
    "opublikowano": "2026-11-27T13:48:30Z",
    "opublikowano_surowe": "Fri, 27 Nov 2026 13:48:30 GMT",
@@ -2347,54 +2251,14 @@
    "streszczenie": "\"Wstyd\", \"prezydent śmieje się Polakom w twarz\" — tak decyzję o kolejnym wecie Karola Nawrockiego komentują politycy koalicji rządzącej. Z decyzji prezydenta cieszy się za to Konfederacja. Z kolei Ryszard Petru wskazuje, co złego — jego zdaniem — zrobił rząd, przygotowując ustawę."
   },
   {
-   "zrodlo": "Onet Wiadomości",
+   "zrodlo": "Interia Fakty",
    "kategoria": "NEWS",
    "region": "poland",
-   "tytul": "Atak nożem w Twardogórze. Chodzi o matkę i syna",
-   "url": "https://wiadomosci.onet.pl/wroclaw/nastolatek-mial-zaatakowac-matke-nozem-interwencja-sluzb-w-twardogorze/htt93l5",
-   "opublikowano": "2026-11-27T12:52:22Z",
-   "opublikowano_surowe": "Fri, 27 Nov 2026 12:52:22 GMT",
-   "streszczenie": "Służby interweniowały w centrum Twardogóry po zgłoszeniu dotyczącym ataku nożem w jednej z kamienic — podaje serwis Moja Oleśnica."
-  },
-  {
-   "zrodlo": "Onet Wiadomości",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Profesor pediatrii: zaburzony mikrobiom może powodować niezliczone problemy. Zapominamy o naszym \"drugim mózgu\"",
-   "url": "https://wiadomosci.onet.pl/nauka/mikrobiom-jelitowy-to-nasz-drugi-mozg-nie-lekcewaz-stanu-zapalnego-profesor-pediatrii/vtsh0r0",
-   "opublikowano": "2026-11-27T12:28:59Z",
-   "opublikowano_surowe": "Fri, 27 Nov 2026 12:28:59 GMT",
-   "streszczenie": "Aż 80 proc. naszego układu odpornościowego znajduje się w jelitach. — Stan zapalny w jelitach przedostaje się do krwiobiegu i układu limfatycznego, co może skutkować bólem stawów, zmęczeniem, depresją, lękiem, alergiami, problemami z sercem, astmą i wieloma innymi dolegliwościami — mówi Jack Gilbert, profesor pediatrii na Uniwersytecie Kalifornijskim w San Diego. Ekspert wskazuje, jak zadbać o mikrobiom jelitowy, nazywany często \"drugim mózgiem\"."
-  },
-  {
-   "zrodlo": "Onet Wiadomości",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Rosja zmienia taktykę sabotażową. Polska i Niemcy w centrum uwagi",
-   "url": "https://wiadomosci.onet.pl/swiat/rosja-nasila-dzialania-hybrydowe-w-europie-polska-i-niemcy-na-celowniku/28w99tw",
-   "opublikowano": "2026-11-27T12:24:48Z",
-   "opublikowano_surowe": "Fri, 27 Nov 2026 12:24:48 GMT",
-   "streszczenie": "Liczba podpaleń i incydentów z ładunkami w Europie podwoiła się w ciągu roku, a według najnowszego raportu IISS w centrum uwagi rosyjskich służb pozostają przede wszystkim Polska i Niemcy. Analitycy wskazują przy tym jeden kluczowy błąd europejskich rządów, który wciąż ośmiela Kreml do dalszych działań."
-  },
-  {
-   "zrodlo": "Onet Wiadomości",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Armia reaguje po tekście Onetu. Pomoże synowi zmarłej żołnierki",
-   "url": "https://wiadomosci.onet.pl/kujawsko-pomorskie/mon-reaguje-po-tekscie-onetu-chodzi-o-syna-zmarlej-zolnierki-anny-banas/dslctsv",
-   "opublikowano": "2026-11-27T12:12:36Z",
-   "opublikowano_surowe": "Fri, 27 Nov 2026 12:12:36 GMT",
-   "streszczenie": "Resort obrony wyznaczył podległą sobie komórkę do \"usprawnienia procesu przyznania renty\" niepełnosprawnemu synowi zmarłej kapral Anny Banaś, o której napisał Onet. Po wypadku na terenie jednostki żołnierka trafiła na wózek inwalidzki. Wojsko zwolniło ją ze służby i nakazało jej opuścić wojskową kwaterę."
-  },
-  {
-   "zrodlo": "Onet Wiadomości",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Hakerzy włamali się na serwery sił US Air Force. Zagrożone kluczowe dane",
-   "url": "https://wiadomosci.onet.pl/swiat/hakerzy-wlamali-sie-na-serwery-sil-us-air-force-zagrozone-kluczowe-dane/p09r1ln",
-   "opublikowano": "2026-11-27T12:04:58Z",
-   "opublikowano_surowe": "Fri, 27 Nov 2026 12:04:58 GMT",
-   "streszczenie": "Jak podaje Reuters, celem ataku była platforma Cloud One zawierająca m.in. informacje o personelu wojskowym czy uzbrojeniu amerykańskiej armii."
+   "tytul": "Wdowa po Tomaszu Mercie wraca do tragedii. \"To absolutnie tajemnicze\"",
+   "url": "https://wydarzenia.interia.pl/kraj/news-wdowa-po-tomaszu-mercie-wraca-do-tragedii-to-absolutnie-taje,nId,23580313",
+   "opublikowano": "2026-11-27T14:44:12Z",
+   "opublikowano_surowe": "Fri, 27 Nov 2026 14:44:12 GMT",
+   "streszczenie": "- Oni za długo są spokojni. Jakim cudem? Dzieją się rzeczy dramatyczne, a oni jakby tego nie rejestrowali. Chętnie poznałabym wyjaśnienie największej tajemnicy całego tego zdarzenia - mówi Interii Magdalena Merta, która w ten sposób reaguje na nowe ustalenia biegłych w sprawie katastrofy smoleńskiej. 10 kwietnia 2010 roku pod Smoleńskiem zginął jej mąż Tomasz."
   },
   {
    "zrodlo": "Interia Fakty",
@@ -2537,14 +2401,54 @@
    "streszczenie": "- Nie jest pan dziennikarzem, to jest konferencja - zwrócił się do Antoniego Macierewicza prok. Przemysław Nowak. Były minister obrony narodowej pojawił się podczas briefingu dotyczącego opinii biegłych na temat katastrofy smoleńskiej. Macierewicz zarzucił rzecznikowi Prokuratury Krajowej, że ten pominął niektóre ustalenia. W odpowiedzi prok. Nowak opuścił salę. Doszło też do sprzeczki z dziennikarzem."
   },
   {
-   "zrodlo": "Interia Fakty",
+   "zrodlo": "Rzeczpospolita",
    "kategoria": "NEWS",
    "region": "poland",
-   "tytul": "Prokuratura jasno o rosyjskich kontrolerach lotu. \"Nie podjęli działań\"",
-   "url": "https://wydarzenia.interia.pl/kraj/news-prokuratura-jasno-o-rosyjskich-kontrolerach-lotu-nie-podjeli,nId,23580012",
-   "opublikowano": "2026-11-27T10:54:40Z",
-   "opublikowano_surowe": "Fri, 27 Nov 2026 10:54:40 GMT",
-   "streszczenie": "Czynnikiem sprzyjającym katastrofie smoleńskiej była działalność rosyjskich kontrolerów lotu - przekazała Prokuratura Krajowa, przedstawiając opinię biegłych w sprawie. Śledczy ujawnili również bezpośrednie przyczyny katastrofy."
+   "tytul": "Łukasz Simlat, Sandra Drzymalska, Agnieszka Dygant i Cezary Żak. Gwiazdy polskich seriali na 3. BNP Paribas Warsaw SerialCon!",
+   "url": "https://www.rp.pl/film/art45554691-lukasz-simlat-sandra-drzymalska-agnieszka-dygant-i-cezary-zak-gwiazdy-polskich-seriali-na-3-bnp-paribas-warsaw-serialcon",
+   "opublikowano": "2026-11-27T14:42:00Z",
+   "opublikowano_surowe": "Fri, 27 Nov 2026 15:42:00 +0100",
+   "streszczenie": "Łukasz Simlat, Masza Wągrocka, Dorota Stalińska, Piotr Trojan, Agnieszka Dygant, Sandra Drzymalska i Cezary Żak – to tylko część znanych nazwisk, które pojawią się w najbliższy weekend na BNP Paribas Warsaw SerialCon. Trzecia edycja festiwalu zaprasza na spotkania z aktorami i twórcami głośnych produkcji, pokazy specjalne oraz rozmowy o kulisach powstawania polskich seriali."
+  },
+  {
+   "zrodlo": "Rzeczpospolita",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Białoruś chce przez UNESCO wywierać nacisk na Polskę ws. płotu na granicy",
+   "url": "https://www.rp.pl/polityka/art45554561-bialorus-chce-przez-unesco-wywierac-nacisk-na-polske-ws-plotu-na-granicy",
+   "opublikowano": "2026-11-27T14:37:43Z",
+   "opublikowano_surowe": "Fri, 27 Nov 2026 15:37:43 +0100",
+   "streszczenie": "Białoruś proponuje Polsce konsultacje w sprawie Puszczy Białowieskiej w ramach wizyty misji UNESCO. Mińsk przekonuje, że ogrodzenie, które powstało na granicy „nie przyczynia się do zachowania różnorodności biologicznej”."
+  },
+  {
+   "zrodlo": "Rzeczpospolita",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Grupa śmierci na Euro do lat 21. Wyzwanie dla młodzieżówki Jerzego Brzęczka",
+   "url": "https://sport.rp.pl/sport/art45553891-grupa-smierci-na-euro-do-lat-21-wyzwanie-dla-mlodziezowki-jerzego-brzeczka",
+   "opublikowano": "2026-11-27T14:36:51Z",
+   "opublikowano_surowe": "Fri, 27 Nov 2026 15:36:51 +0100",
+   "streszczenie": "Gospodarze Serbowie oraz Francuzi i broniący tytułu Anglicy będą grupowymi rywalami młodzieżowej reprezentacji Jerzego Brzęczka w przyszłorocznych mistrzostwach Europy."
+  },
+  {
+   "zrodlo": "Rzeczpospolita",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Miliard złotych dla giganta z USA. Polska armia podpisała umowę z Palantirem",
+   "url": "https://radar.rp.pl/wojsko-polskie/art45554521-miliard-zlotych-dla-giganta-z-usa-polska-armia-podpisala-umowe-z-palantirem",
+   "opublikowano": "2026-11-27T14:27:50Z",
+   "opublikowano_surowe": "Fri, 27 Nov 2026 15:27:50 +0100",
+   "streszczenie": "Za każdy rok korzystania z systemu Saturn armia będzie płacić ok. 200 mln zł. Ma on zapewnić zarządzanie i analizę danych oraz co najważniejsze pomóc przewidywać ruchy przeciwnika. Wojsko Polskie buduje taki system samodzielnie, ale jeszcze nie jest on gotowy."
+  },
+  {
+   "zrodlo": "Rzeczpospolita",
+   "kategoria": "NEWS",
+   "region": "poland",
+   "tytul": "Aktywny, świadomy, odporny - Senior w roli głównej",
+   "url": "https://www.rp.pl/zdrowie/art45552091-aktywny-swiadomy-odporny-senior-w-roli-glownej",
+   "opublikowano": "2026-11-27T14:25:00Z",
+   "opublikowano_surowe": "Fri, 27 Nov 2026 15:25:00 +0100",
+   "streszczenie": "Współczesny senior to coraz częściej osoba aktywna, zaangażowana w życie rodzinne i społeczne, zainteresowana otaczającym ją światem i chcąca mieć realny wpływ na sprawy, które jej dotyczą. Dbałość o zdrowie jest ważną częścią tej aktywności. Nie ogranicza się jednak wyłącznie do troski o własną kondycję i samopoczucie. Obejmuje również podejmowanie decyzji dotyczących zdrowia najbliższych, wspieranie innych członków rodziny, a także udział w życiu lokalnych społeczności."
   },
   {
    "zrodlo": "Rzeczpospolita",
@@ -2570,10 +2474,10 @@
    "zrodlo": "Rzeczpospolita",
    "kategoria": "NEWS",
    "region": "poland",
-   "tytul": "Ruchy kadrowe w TK. Anna Korwin-Piotrowska zwolniła Andrzeja Stróżyka",
-   "url": "https://www.rp.pl/sady-i-trybunaly/art45554231-ruchy-kadrowe-w-tk-anna-korwin-piotrowska-zwolnila-andrzeja-strozyka",
-   "opublikowano": "2026-11-27T14:09:09Z",
-   "opublikowano_surowe": "Fri, 27 Nov 2026 15:09:09 +0100",
+   "tytul": "Ruchy kadrowe w TK. Anna Korwin-Piotrowska zwolniła Andrzeja Stróżnego",
+   "url": "https://www.rp.pl/sady-i-trybunaly/art45554231-ruchy-kadrowe-w-tk-anna-korwin-piotrowska-zwolnila-andrzeja-stroznego",
+   "opublikowano": "2026-11-27T14:09:00Z",
+   "opublikowano_surowe": "Fri, 27 Nov 2026 15:09:00 +0100",
    "streszczenie": "Anna Korwin-Piotrowska rozesłała do pracowników Trybunału Konstytucyjnego wiadomość dotyczącą m.in. zmian kadrowych. Odsunięci od dotychczasowych obowiązków zostali bliscy współpracownicy prezesa TK Bogdana Święczkowskiego, m.in. szef jego Gabinetu oraz rzecznika prasowa Trybunału. Pracę stracił zaś Andrzej Stróżny, były pracownik służb specjalnych, którego Święczkowski zatrudnił w październiku jako doradcę."
   },
   {
@@ -2640,211 +2544,11 @@
    "zrodlo": "Rzeczpospolita",
    "kategoria": "NEWS",
    "region": "poland",
-   "tytul": "Ryczałt, amortyzacja, ulga IP Box. Będą uszczelnienia, prezydent podpisał ustawę",
-   "url": "https://pro.rp.pl/podatki/art45554011-ryczalt-amortyzacja-ulga-ip-box-beda-uszczelnienia-prezydent-podpisal-ustawe",
-   "opublikowano": "2026-11-27T13:16:00Z",
-   "opublikowano_surowe": "Fri, 27 Nov 2026 14:16:00 +0100",
-   "streszczenie": "Wzrośnie podatek dla wspólników wynajmujących majątek spółce, będzie zakaz żonglowania stawkami amortyzacji, dobrze zarabiający informatycy zapłacą daninę solidarnościową – takie nowości czekają podatników w przyszłym roku."
-  },
-  {
-   "zrodlo": "Rzeczpospolita",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Tyle lat żyjemy w dobrym zdrowiu. Wiek jest inny dla Polek i Polaków",
-   "url": "https://www.rp.pl/zdrowie/art45553031-tyle-lat-zyjemy-w-dobrym-zdrowiu-wiek-jest-inny-dla-polek-i-polakow",
-   "opublikowano": "2026-11-27T12:54:12Z",
-   "opublikowano_surowe": "Fri, 27 Nov 2026 13:54:12 +0100",
-   "streszczenie": "Dziewczynki urodzone w 2025 r. mogą spodziewać się ponad trzech lat życia w zdrowiu więcej niż chłopcy – wynika z najnowszego raportu GUS. Prognozowany wskaźnik wynosi odpowiednio ponad 65 i 62 lata."
-  },
-  {
-   "zrodlo": "Rzeczpospolita",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Prokuratura wszczęła śledztwo ws. samopodpalenia na Krakowskim Przedmieściu",
-   "url": "https://www.rp.pl/prawo-karne/art45553341-prokuratura-wszczela-sledztwo-ws-samopodpalenia-na-krakowskim-przedmiesciu",
-   "opublikowano": "2026-11-27T12:41:13Z",
-   "opublikowano_surowe": "Fri, 27 Nov 2026 13:41:13 +0100",
-   "streszczenie": "Prokuratura Rejonowa Warszawa-Śródmieście Północ wszczęła w piątek śledztwo w sprawie próby samobójczej obywatela Ukrainy, który dokonał samopodpalenia na Krakowskim Przedmieściu w Warszawie."
-  },
-  {
-   "zrodlo": "Rzeczpospolita",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Benzyna tanieje, diesel w górę. Nowe maksymalne ceny paliw",
-   "url": "https://energia.rp.pl/paliwa/art45553381-benzyna-tanieje-diesel-w-gore-nowe-maksymalne-ceny-paliw",
-   "opublikowano": "2026-11-27T12:41:00Z",
-   "opublikowano_surowe": "Fri, 27 Nov 2026 13:41:00 +0100",
-   "streszczenie": "Minister Energii opublikował nowe obwieszczenie ustalające maksymalne ceny paliw na 28 listopada. Benzyna Pb95 i Pb98 będą tańsze, natomiast olej napędowy podrożeje."
-  },
-  {
-   "zrodlo": "Rzeczpospolita",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Ostatni moment na skorzystanie z ulgi w ZUS. Na ten cel poszło już ponad 5 mld zł",
-   "url": "https://pro.rp.pl/zus/art45553111-ostatni-moment-na-skorzystanie-z-ulgi-w-zus-na-ten-cel-poszlo-juz-ponad-5-mld-zl",
-   "opublikowano": "2026-11-27T12:40:00Z",
-   "opublikowano_surowe": "Fri, 27 Nov 2026 13:40:00 +0100",
-   "streszczenie": "Tylko do poniedziałku 30 listopada przedsiębiorcy, którzy chcą w tym roku skorzystać z wakacji składkowych, mogą złożyć wniosek o zwolnienie z opłacania należności do Zakładu Ubezpieczeń Społecznych."
-  },
-  {
-   "zrodlo": "Rzeczpospolita",
-   "kategoria": "NEWS",
-   "region": "poland",
-   "tytul": "Gdzie wyrzucić popiół z pieca lub kominka? Za złamanie zasad grozi nawet 30 tys. zł kary",
-   "url": "https://www.rp.pl/prawo-dla-ciebie/art45553901-gdzie-wyrzucic-popiol-z-pieca-lub-kominka-za-zlamanie-zasad-grozi-nawet-30-tys-zl-kary",
-   "opublikowano": "2026-11-27T12:36:23Z",
-   "opublikowano_surowe": "Fri, 27 Nov 2026 13:36:23 +0100",
-   "streszczenie": "W sezonie grzewczym w domach ogrzewanych piecem lub kominkiem trzeba regularnie usuwać popiół z paleniska. Taki odpad należy następnie wyrzucić do odpowiedniego pojemnika, zgodnie z przepisami. O tym, do którego kontenera powinien trafić, decydują zasady obowiązujące w danej gminie."
-  },
-  {
-   "zrodlo": "TVN Warszawa",
-   "kategoria": "NEWS",
-   "region": "warsaw",
-   "tytul": "Wódkę popijał piwem. Akt oskarżenia po wypadku, w którym zginęły trzy młode osoby",
-   "url": "https://tvn24.pl/tvnwarszawa/okolice/warszawa-akt-oskarzenia-po-tragicznym-wypadku-w-lomiankach-kierowcy-grozi-do-20-lat-wiezienia-st9360820?source=rss",
-   "opublikowano": "2026-11-27T13:33:04Z",
-   "opublikowano_surowe": "Fri, 27 Nov 2026 13:33:04 GMT",
-   "streszczenie": "Prokuratura skierowała do sądu akt oskarżenia w sprawie tragicznego wypadku w Łomiankach. Śmierć poniosły trzy młode osoby. Ich auto dachowało po zderzeniu z rozpędzonym pojazdem, kierowanym przez Patryka R. Zdaniem śledczych mężczyzna był pod wpływem alkoholu. Prowadził mimo dwóch sądowych zakazów. Grozi mu do 20 lat więzienia."
-  },
-  {
-   "zrodlo": "TVN Warszawa",
-   "kategoria": "NEWS",
-   "region": "warsaw",
-   "tytul": "Mężczyzna zsunął się z dachu. Policjanci uratowali go przed groźnym upadkiem",
-   "url": "https://tvn24.pl/tvnwarszawa/okolice/siedlce-mezczyzna-zsunal-sie-z-dachu-policjanci-uratowali-go-przed-groznym-upadkiem-st9360345?source=rss",
-   "opublikowano": "2026-11-27T12:26:55Z",
-   "opublikowano_surowe": "Fri, 27 Nov 2026 12:26:55 GMT",
-   "streszczenie": "Siedleccy policjanci uratowali mężczyznę, spadającego z dachu podczas próby gaszenia pożaru sadzy w kominie. Dzięki ich reakcji, upadek został zamortyzowany, a 51-latek nie doznał poważnych obrażeń."
-  },
-  {
-   "zrodlo": "TVN Warszawa",
-   "kategoria": "NEWS",
-   "region": "warsaw",
-   "tytul": "127 km/h na Trasie Łazienkowskiej. Trzy mandaty dla kierowcy",
-   "url": "https://tvn24.pl/tvnwarszawa/srodmiescie/warszawa-127-km-h-na-trasie-lazienkowskiej-trzy-mandaty-dla-kierowcy-st9360447?source=rss",
-   "opublikowano": "2026-11-27T10:52:58Z",
-   "opublikowano_surowe": "Fri, 27 Nov 2026 10:52:58 GMT",
-   "streszczenie": "Kierowca Audi jechał Trasą Łazienkowską w Warszawie ponad dwa razy szybciej, niż pozwalało ograniczenie. Policjanci zatrzymali go i ukarali za trzy wykroczenia."
-  },
-  {
-   "zrodlo": "TVN Warszawa",
-   "kategoria": "NEWS",
-   "region": "warsaw",
-   "tytul": "Chciał ominąć lód na autostradzie, uderzył w barierę i dachował",
-   "url": "https://tvn24.pl/tvnwarszawa/okolice/kopiska-chcial-ominac-lod-na-autostradzie-uderzyl-w-bariere-i-dachowal-st9360573?source=rss",
-   "opublikowano": "2026-11-27T10:50:39Z",
-   "opublikowano_surowe": "Fri, 27 Nov 2026 10:50:39 GMT",
-   "streszczenie": "W czwartek późnym wieczorem na autostradzie A2 w okolicy Baranowa (Mazowieckie) kierowca samochodu osobowego uderzył w bariery i dachował. Nikomu nic się nie stało. Jezdnia w kierunku Łodzi była zablokowana."
-  },
-  {
-   "zrodlo": "TVN Warszawa",
-   "kategoria": "NEWS",
-   "region": "warsaw",
-   "tytul": "Afera w Collegium Humanum. Waldemar Żurek zapowiada kolejne wnioski o uchylenie immunitetu",
-   "url": "https://tvn24.pl/tvnwarszawa/mokotow/warszawa-afera-w-collegium-humanum-waldemar-zurek-zapowiada-kolejne-wnioski-o-uchylenie-immunitetu-st9360515?source=rss",
-   "opublikowano": "2026-11-27T10:48:24Z",
-   "opublikowano_surowe": "Fri, 27 Nov 2026 10:48:24 GMT",
-   "streszczenie": "Minister sprawiedliwości i prokurator generalny Waldemar Żurek zapowiedział kolejne wnioski o uchylenie immunitetu w śledztwie dotyczącym Collegium Humanum. - Kto popełniał czyny zmierzające do uzyskania w sposób bezprawny dyplomów ukończenia studiów na Collegium Humanum, nie pozostanie niedotknięty - zaznaczył."
-  },
-  {
-   "zrodlo": "TVN Warszawa",
-   "kategoria": "NEWS",
-   "region": "warsaw",
-   "tytul": "Zostali pobici za koszulkę innego klubu. Pięciu pseudokibiców z zarzutami",
-   "url": "https://tvn24.pl/tvnwarszawa/okolice/radom-zostali-pobici-za-koszulke-innego-klubu-pieciu-pseudokibicow-z-zarzutami-st9360360?source=rss",
-   "opublikowano": "2026-11-27T09:40:55Z",
-   "opublikowano_surowe": "Fri, 27 Nov 2026 09:40:55 GMT",
-   "streszczenie": "Pięciu pseudokibiców zostało zatrzymanych w sprawie pobicia mężczyzn w jednym z lokali gastronomicznych w Radomiu. Powodem wybuchu agresji miała być koszulka innego klubu sportowego. Wszyscy usłyszeli zarzuty i trafili do aresztu."
-  },
-  {
-   "zrodlo": "TVN Warszawa",
-   "kategoria": "NEWS",
-   "region": "warsaw",
-   "tytul": "Zaatakował nożem śpiącego kolegę, zabrał mu 148 tysięcy. Zatrzymali go na dworcu",
-   "url": "https://tvn24.pl/tvnwarszawa/wawer/warszawa-zaatakowal-nozem-spiacego-kolege-probowal-wyjechac-z-miasta-st9360165?source=rss",
-   "opublikowano": "2026-11-27T09:36:15Z",
-   "opublikowano_surowe": "Fri, 27 Nov 2026 09:36:15 GMT",
-   "streszczenie": "Policjanci zatrzymali na warszawskim Dworcu Zachodnim 47-latka podejrzanego o zaatakowanie nożem śpiącego współlokatora w hostelu znajdującego się na terenie Wawra. Do odjazdu jego pociągu zostało niespełna pół godziny."
-  },
-  {
-   "zrodlo": "TVN Warszawa",
-   "kategoria": "NEWS",
-   "region": "warsaw",
-   "tytul": "Spłonęło mieszkanie w bloku, dwie osoby trafiły do szpitala",
-   "url": "https://tvn24.pl/tvnwarszawa/targowek/warszawa-pozar-mieszkania-na-targowku-dwie-osoby-w-szpitalu-st9360103?source=rss",
-   "opublikowano": "2026-11-27T07:44:59Z",
-   "opublikowano_surowe": "Fri, 27 Nov 2026 07:44:59 GMT",
-   "streszczenie": "W wyniku pożaru doszczętnie spłonęło mieszkanie na warszawskim Targówku. Akcja gaśnicza trwała kilka godzin. Dwie osoby zostały zabrane do szpitala."
-  },
-  {
-   "zrodlo": "TVN Warszawa",
-   "kategoria": "NEWS",
-   "region": "warsaw",
-   "tytul": "Czerwone napisy na pomnikach. Śledczy badają wątek rosyjskiego wywiadu",
-   "url": "https://tvn24.pl/tvnwarszawa/srodmiescie/warszawa-czerwone-napisy-na-pomnikach-sledczy-badaja-watek-rosyjskiego-wywiadu-st9359970?source=rss",
-   "opublikowano": "2026-11-27T06:44:10Z",
-   "opublikowano_surowe": "Fri, 27 Nov 2026 06:44:10 GMT",
-   "streszczenie": "Policja ustaliła i zatrzymała pięć osób, które miały nanieść czerwone napisy na trzy warszawskie pomniki. Śledczy wiedzą też, kto miał zlecić ich wykonanie. Zatrzymani to obywatele Polski i Ukrainy. Jak informują służby, podejrzani mogli działać na rzecz obcego wywiadu."
-  },
-  {
-   "zrodlo": "TVN Warszawa",
-   "kategoria": "NEWS",
-   "region": "warsaw",
-   "tytul": "Jeden po drugim wjeżdżali na przejazd. Policja obserwowała ich z drona",
-   "url": "https://tvn24.pl/tvnwarszawa/okolice/dalanowek-jeden-po-drugim-wjezdzali-na-przejazd-policja-obserwowala-ich-z-drona-st9359270?source=rss",
-   "opublikowano": "2026-11-27T06:12:33Z",
-   "opublikowano_surowe": "Fri, 27 Nov 2026 06:12:33 GMT",
-   "streszczenie": "Policjanci za pomocą drona obserwowali kierowców na przejeździe kolejowym w Dalanówku pod Płońskiem. Podczas akcji zarejestrowali 14 wykroczeń. Jedna z kontroli wykazała, że mężczyzna, który zignorował znak STOP, miał cofnięte uprawnienia do kierowania."
-  },
-  {
-   "zrodlo": "TVN Warszawa",
-   "kategoria": "NEWS",
-   "region": "warsaw",
-   "tytul": "Protest przed Trybunałem Konstytucyjnym. Sąd uchylił decyzję ratusza. \"Skorzystamy z prawa do zażalenia\"",
-   "url": "https://tvn24.pl/polska/protest-przed-trybunalem-konstytucyjnym-sad-okregowy-w-warszawie-uchylil-zakaz-ratusza-st9359840?source=rss",
-   "opublikowano": "2026-11-26T20:37:11Z",
-   "opublikowano_surowe": "Thu, 26 Nov 2026 20:37:11 GMT",
-   "streszczenie": "Sąd Okręgowy w Warszawie uchylił decyzję stołecznego ratusza, który nie wyraził zgody na przedłużenie zgromadzenia przed Trybunałem Konstytucyjnym. Prezydent Warszawy Rafał Trzaskowski zapowiedział, że miasto złoży zażalenie na postanowienie sądu."
-  },
-  {
-   "zrodlo": "TVN Warszawa",
-   "kategoria": "NEWS",
-   "region": "warsaw",
-   "tytul": "Rafał Trzaskowski reaguje w sprawie ekranu w Domach Centrum. \"Samowola budowlana i bezczelność\"",
-   "url": "https://tvn24.pl/tvnwarszawa/srodmiescie/kontrowersyjny-ekran-w-domach-centrum-przy-marszalkowskiej-trzaskowski-zawiadomil-prokurature-st9359708?source=rss",
-   "opublikowano": "2026-11-26T19:08:42Z",
-   "opublikowano_surowe": "Thu, 26 Nov 2026 19:08:42 GMT",
-   "streszczenie": "Prezydent Warszawy zareagował w głośnej sprawie dotyczącej montażu ekranów reklamowych w Domach Towarowych Centrum przy ul. Marszałkowskiej. Rafał Trzaskowski złożył zawiadomienie do prokuratury. \"To samowola budowlana\" - ocenił włodarz stolicy w nagraniu opublikowanym na YouTubie. Drugie zawiadomienie złożył Powiatowy Inspektor Nadzoru Budowlanego."
-  },
-  {
-   "zrodlo": "TVN Warszawa",
-   "kategoria": "NEWS",
-   "region": "warsaw",
-   "tytul": "Służby przekopują działkę pod Warszawą. W tle \"gangsterskie porachunki\"",
-   "url": "https://tvn24.pl/tvnwarszawa/okolice/kedzierowka-sluzby-przekopuja-dzialke-pod-warszawa-w-tle-gangsterskie-porachunki-st9359623?source=rss",
-   "opublikowano": "2026-11-26T17:31:31Z",
-   "opublikowano_surowe": "Thu, 26 Nov 2026 17:31:31 GMT",
-   "streszczenie": "Funkcjonariusze Centralnego Biura Śledczego Policji prowadzą akcję poszukiwawczą w miejscowości Kędzierówka niedaleko Piaseczna - ustalili wspólnie Artur Węgrzynowicz z tvnwarszawa.pl i Robert Zieliński z tvn24.pl. Z informacji naszych dziennikarzy wynika, że służby szukają tam ciała."
-  },
-  {
-   "zrodlo": "TVN Warszawa",
-   "kategoria": "NEWS",
-   "region": "warsaw",
-   "tytul": "70 km/h na autostradzie A2. Nawet tam, gdzie nie ma robót",
-   "url": "https://tvn24.pl/tvnwarszawa/okolice/autostrada-a2-nowe-kamery-na-trasie-warszawa-lodz-gdzie-i-kiedy-ruszy-pomiar-st9358930?source=rss",
-   "opublikowano": "2026-11-26T15:11:40Z",
-   "opublikowano_surowe": "Thu, 26 Nov 2026 15:11:40 GMT",
-   "streszczenie": "Na rozbudowywanej autostradzie A2 między Skierniewicami a Pruszkowem rozpoczęły się testy odcinkowego pomiaru prędkości, który zacznie wystawiać mandaty 30 listopada. Kierowcy muszą tam zwolnić do 70 km/h nawet na tych fragmentach, gdzie nie widać żadnych robotników i dostępne są wszystkie pasy ruchu - drogowcy tłumaczą, że takie ograniczenie ma zapobiec nagłemu przyspieszaniu i przygotować zmotoryzowanych na kolejny etap prac."
-  },
-  {
-   "zrodlo": "TVN Warszawa",
-   "kategoria": "NEWS",
-   "region": "warsaw",
-   "tytul": "Dom Zły. Wyrok i decyzja. Kto pochowa ofiarę po 900 dniach?",
-   "url": "https://tvn24.pl/tvnwarszawa/wola/dom-zly-wyrok-i-decyzja-kto-pochowa-ofiare-po-900-dniach-st9359287?source=rss",
-   "opublikowano": "2026-11-26T15:10:27Z",
-   "opublikowano_surowe": "Thu, 26 Nov 2026 15:10:27 GMT",
-   "streszczenie": "Sąd Okręgowy w Warszawie skazał Andrija S. na 30, a Iona B. - na 15 lat więzienia za brutalne zabójstwo w opuszczonej kamienicy na Woli. To jednak nie koniec tej wstrząsającej sprawy - przed sądem stanie jeszcze trzeci podejrzany. Wiadomo też, co stanie się z ciałem jednej z ofiar, które od 900 dni pozostaje niepochowane."
+   "tytul": "Planeta podobna do Ziemia mogła „ukrywać się” w Układzie Słonecznym. Naukowcy pokazali odkrycie",
+   "url": "https://www.rp.pl/kosmos/art45540641-planeta-podobna-do-ziemia-mogla-ukrywac-sie-w-ukladzie-slonecznym-naukowcy-pokazali-odkrycie",
+   "opublikowano": "2026-11-27T13:21:00Z",
+   "opublikowano_surowe": "Fri, 27 Nov 2026 14:21:00 +0100",
+   "streszczenie": "Naukowcy sugerują, że na skraju naszego Układu Słonecznego może istnieć dziewiąta, ukryta planeta. Nazwali ją Planetą X2 (w skrócie PX2) i wskazują, że może być podobna do Ziemi."
   },
   {
    "zrodlo": "RMF24 Warszawa",
@@ -3302,9 +3006,19 @@
    "region": "world",
    "tytul": "The absolute best Black Friday deals we’ve found (so far)",
    "url": "https://www.theverge.com/gadgets/1039190/best-black-friday-2026-deals-tech-gadgets-gift-ideas",
-   "opublikowano": "2026-11-27T14:19:44Z",
-   "opublikowano_surowe": "2026-11-27T09:19:44-05:00",
+   "opublikowano": "2026-11-27T14:41:02Z",
+   "opublikowano_surowe": "2026-11-27T09:41:02-05:00",
    "streszczenie": "This year’s Black Friday deals have launched in waves over the past several weeks, but now the floodgates have officially opened. You can now take advantage of the lowest prices we’ve seen in-store and online for video games, wireless earbuds, TVs, e-readers, robot vacuums, and so much more. We can’t guarantee a deal you’ve had […]"
+  },
+  {
+   "zrodlo": "The Verge",
+   "kategoria": "Tech",
+   "region": "world",
+   "tytul": "Buying a laptop right now is rough, but these Black Friday deals help",
+   "url": "https://www.theverge.com/gadgets/1042512/best-black-friday-laptop-notebook-deals-2026",
+   "opublikowano": "2026-11-27T14:03:27Z",
+   "opublikowano_surowe": "2026-11-27T09:03:27-05:00",
+   "streszczenie": "Laptop prices have been a hot-button topic all year long thanks to RAMageddon. We’ve seen existing models get more expensive and new models arrive at higher prices than last-gen — sometimes with lower specs, too. 2026 in general has been a bad time to buy a computer. But thankfully, Black Friday can offer a tiny […]"
   },
   {
    "zrodlo": "The Verge",
@@ -3365,16 +3079,6 @@
    "opublikowano": "2026-11-26T18:49:56Z",
    "opublikowano_surowe": "2026-11-26T13:49:56-05:00",
    "streszczenie": "In most Grand Theft Auto games, and most open-world games for that matter, the world is left open for you to explore once the credits roll. It could be Los Santos or a twisted take on Manhattan, but the idea is that the main story is just one part of the experience. After that's done, […]"
-  },
-  {
-   "zrodlo": "The Verge",
-   "kategoria": "Tech",
-   "region": "world",
-   "tytul": "The Garmin Forerunner 265S is down to $300, its best price of the year",
-   "url": "https://www.theverge.com/gadgets/1042483/garmin-forerunner-265s-fitness-tracker-wearable-deal-sale-black-friday",
-   "opublikowano": "2026-11-26T16:56:43Z",
-   "opublikowano_surowe": "2026-11-26T11:56:43-05:00",
-   "streszczenie": "The Forerunner 265S may not be the newest or flashiest Garmin, but it’s one that I’ve always loved most in testing. For runners with smaller wrists, it fits nicely. The battery life is pretty good thanks in part to its OLED touchscreen. When I reviewed it a few years ago, I called it the Goldilocks […]"
   },
   {
    "zrodlo": "The Verge",
@@ -3800,6 +3504,16 @@
    "zrodlo": "Spider’s Web",
    "kategoria": "Tech",
    "region": "poland",
+   "tytul": "Bilety PKP Intercity kupisz w nowym miejscu. Nie, nie w telefonie",
+   "url": "https://spidersweb.pl/2026/11/biletomaty-pkp-intercity-bilety.html",
+   "opublikowano": "2026-11-27T14:34:00Z",
+   "opublikowano_surowe": "Fri, 27 Nov 2026 15:34:00 +0100",
+   "streszczenie": "Bilety PKP Intercity kupisz w nowym miejscu. Nie, nie w telefonie"
+  },
+  {
+   "zrodlo": "Spider’s Web",
+   "kategoria": "Tech",
+   "region": "poland",
    "tytul": "Jedziesz za granicę i masz więcej internetu. Już od stycznia",
    "url": "https://spidersweb.pl/2026/11/roaming-ue-zagraniczny-zmiana-1-styczen-2027.html",
    "opublikowano": "2026-11-27T13:41:00Z",
@@ -3935,16 +3649,6 @@
    "opublikowano": "2026-11-27T11:45:00Z",
    "opublikowano_surowe": "Fri, 27 Nov 2026 12:45:00 +0100",
    "streszczenie": "Samsung Galaxy na Black Friday. Sprawdziłem, gdzie jest okazja, a gdzie przepłacisz"
-  },
-  {
-   "zrodlo": "Spider’s Web",
-   "kategoria": "Tech",
-   "region": "poland",
-   "tytul": "Dwadzieścia cali i składałby się na pół. Taki iPad to marzenie i wcale nie ściętej głowy",
-   "url": "https://spidersweb.pl/2026/11/duzy-skladany-ipad-prace-trwaja.html",
-   "opublikowano": "2026-11-27T11:21:00Z",
-   "opublikowano_surowe": "Fri, 27 Nov 2026 12:21:00 +0100",
-   "streszczenie": "Dwadzieścia cali i składałby się na pół. Taki iPad to marzenie i wcale nie ściętej głowy"
   },
   {
    "zrodlo": "MamStartup",
@@ -4100,6 +3804,16 @@
    "zrodlo": "CyberDefence24",
    "kategoria": "Tech",
    "region": "poland",
+   "tytul": "Nielegalny handel sterydami. CBZC rozbiło międzynarodową grupę",
+   "url": "https://cyberdefence24.pl/armia-i-sluzby/policja/nielegalny-handel-sterydami-cbzc-rozbilo-miedzynarodowa-grupe",
+   "opublikowano": "2026-11-27T14:30:03Z",
+   "opublikowano_surowe": "Fri, 27 Nov 2026 15:30:03 +0100",
+   "streszczenie": "Szyfrowane komunikatory, płatności w kryptowalutach i własne laboratorium – tak działała grupa podejrzana o nielegalny handel środkami dopingującymi i farmaceutykami. Funkcjonariusze Centralnego Biura Zwalczania Cyberprzestępczości (CBZC) zatrzymali sześć osób. Wartość sprzedanych preparatów miała przekroczyć milion złotych."
+  },
+  {
+   "zrodlo": "CyberDefence24",
+   "kategoria": "Tech",
+   "region": "poland",
    "tytul": "Technologia Palantira oficjalnie trafi do polskiej armii. „Nie ma lepiej sprawdzonej umowy”",
    "url": "https://cyberdefence24.pl/armia-i-sluzby/wojsko-polskie/technologia-palantira-oficjalnie-trafi-do-polskiej-armii-nie-ma-lepiej-sprawdzonej-umowy",
    "opublikowano": "2026-11-27T13:44:23Z",
@@ -4237,26 +3951,6 @@
    "streszczenie": "Żołnierze Wojsk Obrony Terytorialnej wspierali odbudowę infrastruktury IT szpitala w Szczecinie po poważnym ataku ransomware. W sześciu kolejnych zmianach uczestniczyło 47 wojskowych, którzy pomagali przywracać sprawność systemów i stanowisk pracy personelu placówki. To jeden z przykładów wykorzystania kompetencji polskiego cyberkomponentu WOT. Formacja planuje jednak pójść o krok dalej."
   },
   {
-   "zrodlo": "CyberDefence24",
-   "kategoria": "Tech",
-   "region": "poland",
-   "tytul": "drEryk zhakowany. Ostrzeżenie dla pacjentów i placówek korzystających z eRejestracji",
-   "url": "https://cyberdefence24.pl/cyberbezpieczenstwo/cyberataki/dreryk-zhakowany-ostrzezenie-dla-pacjentow-i-placowek-korzystajacych-z-erejestracji",
-   "opublikowano": "2026-11-26T07:46:52Z",
-   "opublikowano_surowe": "Thu, 26 Nov 2026 08:46:52 +0100",
-   "streszczenie": "Firma drEryk padła ofiarą cyberataku, w wyniku którego doszło do nieuprawnionego dostępu do jej systemów. Wstępne ustalenia wykazały, że incydent dotknął klientów korzystających z eRejestracji. Przedsiębiorstwo informuje o naruszeniu ochrony danych nie tylko placówek, ale też ich pacjentów."
-  },
-  {
-   "zrodlo": "Dental Tribune",
-   "kategoria": "Stomatologia",
-   "region": "world",
-   "tytul": "test",
-   "url": "https://www.dental-tribune.com/test/",
-   "opublikowano": "2021-01-13T10:25:23Z",
-   "opublikowano_surowe": "Wed, 13 Jan 2021 10:25:23 +0000",
-   "streszczenie": ""
-  },
-  {
    "zrodlo": "Dentistry.co.uk",
    "kategoria": "Stomatologia",
    "region": "europe",
@@ -4345,156 +4039,6 @@
    "opublikowano": "2026-11-25T08:52:24Z",
    "opublikowano_surowe": "Wed, 25 Nov 2026 08:52:24 +0000",
    "streszczenie": "From identifying early bone loss to supporting more meaningful conversations about oral health, AI visualisation of dental radiographs is helping Gensmile’s dental professionals bridge the gap between clinical findings and patient understanding. For dental professionals, interpreting radiographs is an essential part of everyday clinical practice, but for patients, the subtle variations in grey which reveal…"
-  },
-  {
-   "zrodlo": "Dentonet",
-   "kategoria": "Stomatologia",
-   "region": "poland",
-   "tytul": "Stomatologiczny przegląd tygodnia – część 316",
-   "url": "https://dentonet.pl/lekarz/stomatologiczny-przeglad-tygodnia-czesc-316/",
-   "opublikowano": "2026-11-27T06:25:50Z",
-   "opublikowano_surowe": "Fri, 27 Nov 2026 06:25:50 +0000",
-   "streszczenie": "Narodowy Program Zdrowia 2027-2036 bez stomatologii, nowa metoda leczenia zapalenia przyzębia eliminuje P. gingivalis i chroni dobre bakterie, choroba Behçeta u dzieci – afty w jamie ustnej mogą być pierwszym objawem, Sejm przyjął nowelizację ustawy refundacyjnej – tańsze leki i szybszy dostęp do terapii, rozległy ubytek żuchwy – odbudowa kości zamiast hemimandibulektomii u 33-latka, leczenie […]"
-  },
-  {
-   "zrodlo": "Dentonet",
-   "kategoria": "Stomatologia",
-   "region": "poland",
-   "tytul": "Koszty prowadzenia gabinetu stomatologicznego. Na czym nie warto oszczędzać?",
-   "url": "https://dentonet.pl/lekarz/koszty-prowadzenia-gabinetu-stomatologicznego-na-czym-nie-warto-oszczedzac/",
-   "opublikowano": "2026-11-27T06:07:06Z",
-   "opublikowano_surowe": "Fri, 27 Nov 2026 06:07:06 +0000",
-   "streszczenie": "Prowadzenie gabinetu stomatologicznego wiąże się z wieloma wydatkami, które wykraczają daleko poza zakup materiałów czy wynajem lokalu. Wynagrodzenia personelu, usługi pracowni protetycznych, serwis urządzeń, energia, sterylizacja i oprogramowanie składają się na istotne miesięczne koszty działalności. W warunkach rosnących cen właściciele praktyk szukają sposobów na ograniczenie wydatków. Nie każda oszczędność jest jednak korzystna – szczególnie wtedy, […]"
-  },
-  {
-   "zrodlo": "Dentonet",
-   "kategoria": "Stomatologia",
-   "region": "poland",
-   "tytul": "Edukacja i partnerstwo kluczem do sukcesu. Strategia NSK w regionie CEE",
-   "url": "https://dentonet.pl/lekarz/edukacja-i-partnerstwo-kluczem-do-sukcesu-strategia-nsk-w-regionie-cee/",
-   "opublikowano": "2026-11-27T05:59:00Z",
-   "opublikowano_surowe": "Fri, 27 Nov 2026 05:59:00 +0000",
-   "streszczenie": "Rozwój nowoczesnej stomatologii opiera się nie tylko na innowacyjnych technologiach, ale przede wszystkim na kompleksowym wsparciu informacyjnym i edukacyjnym dla partnerów handlowych oraz dystrybutorów. Podczas tegorocznej konwencji NSK Dealers Convention w Warszawie mocno zaakcentowano znaczenie współpracy opartej na wiedzy i kompetencjach. Spotkanie było przestrzenią do omówienia planów szkoleniowych, obejmujących zarówno zaawansowaną wiedzę produktową, jak i […]"
-  },
-  {
-   "zrodlo": "Dentonet",
-   "kategoria": "Stomatologia",
-   "region": "poland",
-   "tytul": "„Niewinne” podjadanie a próchnica. Luka w profilaktyce stomatologicznej",
-   "url": "https://dentonet.pl/asysta/niewinne-podjadanie-a-prochnica-luka-w-profilaktyce-stomatologicznej/",
-   "opublikowano": "2026-11-27T05:54:33Z",
-   "opublikowano_surowe": "Fri, 27 Nov 2026 05:54:33 +0000",
-   "streszczenie": "Regularne sięganie po przekąski między posiłkami może wiązać się z większym ryzykiem rozwoju próchnicy, nasilonym odkładaniem płytki nazębnej i częstszym występowaniem zmian w twardych tkankach zębów. Badanie przeprowadzone w dziewięciu amerykańskich ośrodkach akademickich wykazało też inny problem: pacjentom często podjadającym rzadziej wykonywano profesjonalne oczyszczanie zębów, a poradnictwo żywieniowe odnotowano zaledwie w 7,8% analizowanych wizyt. Bakterie […]"
-  },
-  {
-   "zrodlo": "Dentonet",
-   "kategoria": "Stomatologia",
-   "region": "poland",
-   "tytul": "Nagrody Ministra Zdrowia 2026. Stomatolodzy wśród wyróżnionych",
-   "url": "https://dentonet.pl/lekarz/nagrody-ministra-zdrowia-2026-stomatolodzy-wsrod-wyroznionych/",
-   "opublikowano": "2026-11-27T05:46:18Z",
-   "opublikowano_surowe": "Fri, 27 Nov 2026 05:46:18 +0000",
-   "streszczenie": "Wśród laureatów tegorocznych Nagród Ministra Zdrowia znalazły się przedstawicielki środowiska stomatologicznego. Doceniono ich wkład w rozwój badań naukowych, kształcenie przyszłych dentystów oraz edukację podyplomową. Wyróżnienia otrzymały prof. dr hab. n. med. Dorota Olczak-Kowalczyk oraz dr hab. Agnieszka Droździk. 26 listopada w ministerstwie zdrowia odbyła się uroczystość wręczenia nagród nauczycielom akademickim uczelni medycznych. W tym roku […]"
-  },
-  {
-   "zrodlo": "Dentonet",
-   "kategoria": "Stomatologia",
-   "region": "poland",
-   "tytul": "Wspólna opieka medyczna i stomatologiczna poprawia zdrowie jamy ustnej dzieci",
-   "url": "https://dentonet.pl/lekarz/wspolna-opieka-medyczna-i-stomatologiczna-poprawia-zdrowie-jamy-ustnej-dzieci/",
-   "opublikowano": "2026-11-27T05:40:52Z",
-   "opublikowano_surowe": "Fri, 27 Nov 2026 05:40:52 +0000",
-   "streszczenie": "Połączenie opieki stomatologicznej i ogólnomedycznej w jednym systemie może znacząco zwiększyć regularność wizyt kontrolnych u dentysty i poprawić stan zdrowia jamy ustnej najmłodszych pacjentów. Badanie przeprowadzone przez naukowców z University of Utah wykazało, że dzieci korzystające ze zintegrowanej opieki medyczno-stomatologicznej miały od 30 do 60% większe szanse na kontynuowanie leczenia stomatologicznego niż pacjenci objęci tradycyjnym […]"
-  },
-  {
-   "zrodlo": "Dentonet",
-   "kategoria": "Stomatologia",
-   "region": "poland",
-   "tytul": "Ile kosztuje RTG zębów? Ceny zdjęcia RTG zębów w gabinetach w Polsce",
-   "url": "https://dentonet.pl/pacjent/ile-kosztuje-rtg-zebow/",
-   "opublikowano": "2026-11-26T08:34:32Z",
-   "opublikowano_surowe": "Thu, 26 Nov 2026 08:34:32 +0000",
-   "streszczenie": "Zdjęcie RTG zęba to jedno z podstawowych badań wykorzystywanych w diagnostyce stomatologicznej. Pozwala ocenić struktury niewidoczne podczas standardowego badania jamy ustnej, wykryć zmiany chorobowe i zaplanować odpowiednie leczenie. Ile kosztuje prześwietlenie zęba w 2026 roku? Ceny zależą m.in. od lokalizacji gabinetu, rodzaju aparatury i zakresu usługi. Sprawdzamy, ile trzeba zapłacić za RTG punktowe zęba w […]"
-  },
-  {
-   "zrodlo": "Dentonet",
-   "kategoria": "Stomatologia",
-   "region": "poland",
-   "tytul": "Opieka stomatologiczna nad seniorami. Więcej świadczeń profilaktycznych w RFN",
-   "url": "https://dentonet.pl/lekarz/opieka-stomatologiczna-nad-seniorami-wiecej-swiadczen-profilaktycznych-w-rfn/",
-   "opublikowano": "2026-11-26T06:33:07Z",
-   "opublikowano_surowe": "Thu, 26 Nov 2026 06:33:07 +0000",
-   "streszczenie": "Coraz więcej osób starszych wymagających pomocy w codziennym funkcjonowaniu oraz osób z niepełnosprawnościami korzysta w Niemczech ze specjalnych świadczeń profilaktycznych w zakresie zdrowia jamy ustnej. W 2025 r. objęto około 613 tys. pacjentów – o 14,5% więcej niż rok wcześniej. Mimo wyraźnego wzrostu dostęp do profilaktyki stomatologicznej nadal zależy w dużej mierze od miejsca pobytu […]"
-  },
-  {
-   "zrodlo": "Dentonet",
-   "kategoria": "Stomatologia",
-   "region": "poland",
-   "tytul": "Pacjent kardiologiczny w gabinecie stomatologicznym. Rola higienistki",
-   "url": "https://dentonet.pl/asysta/pacjent-kardiologiczny-w-gabinecie-stomatologicznym-rola-higienistki/",
-   "opublikowano": "2026-11-26T06:15:57Z",
-   "opublikowano_surowe": "Thu, 26 Nov 2026 06:15:57 +0000",
-   "streszczenie": "Osoby z chorobami układu sercowo-naczyniowego wymagają szczególnej uwagi podczas leczenia stomatologicznego. Znaczenie mają nie tylko przyjmowane przez nie leki i ryzyko krwawienia, ale także stan przyzębia oraz potrzeba utrzymywania dobrej higieny jamy ustnej. Coraz więcej badań wskazuje na związek chorób przyzębia z miażdżycową chorobą sercowo-naczyniową (ASCVD). Dlatego edukacja dotycząca zdrowia jamy ustnej powinna być uwzględniana […]"
-  },
-  {
-   "zrodlo": "Dentonet",
-   "kategoria": "Stomatologia",
-   "region": "poland",
-   "tytul": "Nowoczesne centrum logistyczne Meditrans",
-   "url": "https://dentonet.pl/lekarz/nowoczesne-centrum-logistyczne-meditrans/",
-   "opublikowano": "2026-11-26T06:02:49Z",
-   "opublikowano_surowe": "Thu, 26 Nov 2026 06:02:49 +0000",
-   "streszczenie": "Dostępność produktów i sprawna realizacja zamówień mają ogromne znaczenie w codziennej pracy gabinetów i pracowni stomatologicznych. Odpowiadając na te potrzeby, Meditrans inwestuje w najnowocześniejsze centrum logistyczne w branży stomatologicznej w Polsce. Obiekt zlokalizowany w parku logistycznym 7R w Chęcinach łączy zaawansowaną automatyzację, nowoczesne technologie oraz rozwiązania umożliwiające dalszy rozwój działalności firmy. Nowe centrum logistyczne Meditrans […]"
-  },
-  {
-   "zrodlo": "Dentonet",
-   "kategoria": "Stomatologia",
-   "region": "poland",
-   "tytul": "Czy fluoryzacja wody jest bezpieczna? Australijscy eksperci zabierają głos",
-   "url": "https://dentonet.pl/lekarz/czy-fluoryzacja-wody-jest-bezpieczna-australijscy-eksperci-zabieraja-glos/",
-   "opublikowano": "2026-11-26T05:57:40Z",
-   "opublikowano_surowe": "Thu, 26 Nov 2026 05:57:40 +0000",
-   "streszczenie": "Zapowiedź ponownej analizy dowodów naukowych dotyczących bezpieczeństwa fluoryzacji wody wywołała w Australii szeroką dyskusję medialną. Wiceprezes Australijskiego Towarzystwa Stomatologicznego (ADA) dr Angie Nilsson przypomniała, że fluor dodawany do wody pitnej jest skutecznym narzędziem profilaktyki próchnicy, szczególnie wśród najbardziej narażonych grup społecznych. Fluoryzacja wody ponownie znalazła się w centrum zainteresowania opinii publicznej w Australii. Impulsem do […]"
-  },
-  {
-   "zrodlo": "Dentonet",
-   "kategoria": "Stomatologia",
-   "region": "poland",
-   "tytul": "Recesje dziąsłowe – kiedy wymagają leczenia? Eksperci EFP opracowują nowe zalecenia",
-   "url": "https://dentonet.pl/lekarz/recesje-dziaslowe-kiedy-wymagaja-leczenia-eksperci-efp-opracowuja-nowe-zalecenia/",
-   "opublikowano": "2026-11-26T05:42:08Z",
-   "opublikowano_surowe": "Thu, 26 Nov 2026 05:42:08 +0000",
-   "streszczenie": "Kiedy recesja dziąsłowa wymaga leczenia i jakie metody terapeutyczne zapewniają najlepsze efekty? Na te pytania próbowali odpowiedzieć eksperci uczestniczący w 22. Europejskich Warsztatach Periodontologicznych (European Workshop on Periodontology), zorganizowanych przez Europejską Federację Periodontologiczną (EFP). Efektem ich pracy mają być nowe, oparte na dowodach naukowych zalecenia kliniczne dotyczące postępowania w przypadku recesji dziąsłowych. Recesje dziąsłowe należą […]"
-  },
-  {
-   "zrodlo": "Dentonet",
-   "kategoria": "Stomatologia",
-   "region": "poland",
-   "tytul": "Rozległy ubytek żuchwy. Odbudowa kości zamiast hemimandibulektomii u 33-latka",
-   "url": "https://dentonet.pl/lekarz/rozlegly-ubytek-zuchwy-odbudowa-kosci-zamiast-hemimandibulektomii-u-33-latka/",
-   "opublikowano": "2026-11-26T05:35:29Z",
-   "opublikowano_surowe": "Thu, 26 Nov 2026 05:35:29 +0000",
-   "streszczenie": "Rozległa torbiel zębopochodna może doprowadzić do znacznego osłabienia żuchwy i zwiększyć ryzyko jej złamania nawet bez urazu. W skrajnych przypadkach rozważana jest rozległa resekcja kości, w tym hemimandibulektomia. W czasopiśmie „Case Reports in Dentistry” opisano przypadek pacjenta, u którego mimo znacznego zniszczenia struktur kostnych udało się zachować ciągłość żuchwy i przeprowadzić rozległą odbudowę kości. Kontrola […]"
-  },
-  {
-   "zrodlo": "Dentonet",
-   "kategoria": "Stomatologia",
-   "region": "poland",
-   "tytul": "Leczenie kanałowe na NFZ. Komu przysługuje bezpłatne leczenie kanałowe zębów na Narodowy Fundusz Zdrowia?",
-   "url": "https://dentonet.pl/pacjent/leczenie-kanalowe-na-nfz/",
-   "opublikowano": "2026-11-25T11:40:07Z",
-   "opublikowano_surowe": "Wed, 25 Nov 2026 11:40:07 +0000",
-   "streszczenie": "Stosowane powszechnie we współczesnej stomatologii leczenie kanałowe pozwala ratować zęby, które jeszcze niedawno byłyby kwalifikowane do usunięcia. W gabinetach prywatnych zabieg bywa kosztowny – szczególnie gdy dotyczy zębów wielokanałowych. Nie zawsze jednak trzeba ponosić te wydatki z własnej kieszeni. Narodowy Fundusz Zdrowia finansuje leczenie endodontyczne dzieci i młodzieży, kobiet w ciąży i w okresie połogu, […]"
-  },
-  {
-   "zrodlo": "Dentonet",
-   "kategoria": "Stomatologia",
-   "region": "poland",
-   "tytul": "Nakładki imitujące licówki z Internetu. Dentyści wskazują na zagrożenia",
-   "url": "https://dentonet.pl/lekarz/nakladki-imitujace-licowki-z-internetu-dentysci-wskazuja-na-zagrozenia/",
-   "opublikowano": "2026-11-25T05:52:10Z",
-   "opublikowano_surowe": "Wed, 25 Nov 2026 05:52:10 +0000",
-   "streszczenie": "Samodzielnie zakładane nakładki imitujące licówki, dostępne w sprzedaży internetowej, kuszą możliwością szybkiej poprawy uśmiechu bez wizyty w gabinecie stomatologicznym. Irlandzcy stomatolodzy ostrzegają jednak, że takie rozwiązanie może nie tylko maskować istniejące problemy ze zdrowiem jamy ustnej, ale również prowadzić do dodatkowych powikłań. Moda na idealnie białe i równe zęby sprawia, że nie brakuje osób poszukujących […]"
   },
   {
    "zrodlo": "Reasons to be Cheerful",
